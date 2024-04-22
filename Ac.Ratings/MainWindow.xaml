@@ -1,0 +1,94 @@
+﻿<Window x:Class="Ac.Ratings.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ac.Ratings"
+        mc:Ignorable="d"
+        Title="Ratings App" Height="600" Width="920">
+
+    <Border Background="#272537"
+            CornerRadius="10">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition />
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="75"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBox Grid.Row="0" Grid.Column="0"
+                     Width="200"
+                     Height="40"
+                     VerticalContentAlignment="Center"
+                     HorizontalAlignment="Left"
+                     Margin="5"
+                     Style="{StaticResource ModernTextBox}"/>
+
+
+            <ListView x:Name="CarList" 
+                      SelectionChanged="CarList_SelectionChanged"
+                      Grid.Column="0"
+                      Grid.Row="1"
+                      Background="Transparent"
+                      Foreground="White">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding Name}" Width="200" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackPanel Grid.Row="1"
+                        Grid.Column="1">
+                <TextBlock x:Name="Name" 
+                           Height="25"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           Margin="10,0,0,0"
+                           Foreground="White"/>
+                <Image x:Name="CarImage" Grid.Row="1" Grid.Column="1"
+                                                       HorizontalAlignment="Right"
+                                                       VerticalAlignment="Center">
+                </Image>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel VerticalAlignment="Bottom"
+                                HorizontalAlignment="Left"
+                                Grid.Column="0">
+                        <TextBlock Text="Brand"
+                                   Foreground="White"/>
+                        <TextBlock Text="Power: "/>
+                        <TextBlock Text="Torque"/>
+                        <TextBlock Text="Weight:"/>
+                        <TextBlock Text="Top Speed:"/>
+                        <TextBlock Text="Acceleration:"/>
+                        <TextBlock Text="Power-to-weight ratio:"/>
+                    </StackPanel>
+                    <StackPanel VerticalAlignment="Bottom"
+                                HorizontalAlignment="Left"
+                                Grid.Column="1">
+                        <TextBlock x:Name="Brand"
+                                   Foreground="White"/>
+                        <TextBlock x:Name="Power"/>
+                        <TextBlock x:Name="Torque"/>
+                        <TextBlock x:Name="Weight"/>
+                        <TextBlock x:Name="Topspeed"/>
+                        <TextBlock x:Name="Acceleration"/>
+                        <TextBlock x:Name="Pwratio"/>
+                    </StackPanel>
+                </Grid>
+                
+                
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

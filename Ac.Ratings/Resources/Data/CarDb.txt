@@ -1,0 +1,369 @@
+a3dr_boss302_laguna_seca, Ford Mustang Boss 302 Laguna Seca Ford, 444bhp, 515Nm, 1603kg, 288km/h, 4.2s 0-100, 3.61kg/hp
+a3dr_boss302_laguna_seca_650, Boss 302 Laguna Seca - Hennessey HPE650 Ford, 650bhp, 742Nm, 1637kg, 326km/h, 3.9s 0-100, 2.53kg/hp
+a3dr_ferrari_512tr, Ferrari 512 TR Ferrari, 425 bhp, 491 Nm, 1573 kg, 314 km/h, 4.6 s 0–100, 3.7 kg/hp
+a3dr_ferrari_512tr_s1, Ferrari 512 TR Canyon Spec Ferrari, 551 bhp, 540 Nm, 1533 kg, 341 km/h, 3.8 s 0–100, 2.78 kg/hp
+a3dr_lambo_diablo_vt, Lamborghini Diablo VT Lamborghini, 492bhp, 580Nm, 1625kg, 325km/h, 4.1s 0-100, 3.3kg/hp
+a3dr_porsche_993_c2, Porsche 911 (993) Carrera Porsche, 278 bhp, 349 Nm, 1390 kg, 274 km/h, 5.3 s 0–100, 5 kg/hp
+a3dr_porsche_993_c4, Porsche 911 (993) Carrera 4 Porsche, 278 bhp, 349 Nm, 1427 kg, 274 km/h, 5.2 s 0–100, 5.13 kg/hp
+a3dr_viper_rt10, Dodge Viper RT/10 Dodge, 400 bhp, 627 Nm, 1494 kg, 266 km/h, 4.6 s 0–100, 3.74 kg/hp
+abarth500, Abarth 500 EsseEsse Abarth, 160bhp, 230Nm, 1025kg, 211km/h, 7.4s 0-100, 6.41 kg/hp
+abarth500_s1, Abarth 500 EsseEsse Step1 Abarth, 175bhp, 245Nm, 1025kg, 211km/h, 7.4s 0-100, 6.40kg/hp
+ag_subaru_impreza_wrx_tuned, Subaru Impreza WRX (GD) Tuned Subaru, 467 bhp, 693 Nm, 1383 kg, 270 km/h, 3.5 s 0–100, 2.96 kg/hp
+alfa_romeo_giulietta_qv, Giulietta QV Alfa Romeo, 235bhp, 349Nm, 1390kg, 241km/h, 6.6s 0-100, 5.91kg/hp
+alfa_romeo_giulietta_qv_le, Giulietta QV Launch Edition 2014 Alfa Romeo, 240bhp, 349Nm, 1390kg, 241km/h, 6.0s 0-100, 5.79kg/hp
+alzen_turbinchen, Alzen Porsche 996 '05 (AWD) Alzen Motorsport, ~600bhp, >800Nm, 1325 kg, 300+km/h, 4,3s, 2.21 kg/hp
+alzen_turbinchen03, Alzen Porsche 996 '03 (RWD) Alzen Motorsport, 800 bhp, 900 Nm, 1265 kg, 320+km/h, 4,3s, 1.58 kg/hp
+as_bmw_m4_g82_manual, BMW M4 Manual G82 Coupe BMW, 473 bhp, 619 Nm, 1572kg, 250km/h, 3.9s 0-100, 3.32 kg/hp
+as_mercedes_amg_e63s, Mercedes-Benz E63S AMG Mercedes-Benz, 603 bhp, 848 Nm, 2555kg, 300+km/h, 3.2s 0-100, 4.24 kg/hp
+as_mercedes_amg_gtr_2017, Mercedes-Benz AMG GTR 2017 Mercedes-Benz, 585 hp, 700Nm, 1555 kg, 318 km/h, 3.6s 0-100, 2.66 kg/hp
+as_porsche_992_gt3_touring, Porsche 911 GT3 (992) Touring Manual Porsche, 502 bhp, 552 Nm, 1435kg, 320km/h, 3.2s 0-100, 2.86 kg/hp
+as_toyota_yaris_gr, Toyota GR Yaris 1st Edition RZ High Performance '20 Toyota, 272bhp, 396 Nm, 1260kg, 230km/h, 4.1s 0-100, 4.63kg/HP
+audi_rs4_avant_b5_2001, Audi RS4 Avant B5 2001 Audi, 375 bhp, 440 Nm, 1620kg, Over 300 Kmh, , 4.32 kg/hp
+bg_mercedes_amg_gt_black_series, Mercedes-Benz AMG GT Black Series Mercedes-Benz, 730 Hp, 800 Nm, 1540 kg, 325km/h, 3.1s 0-100, 2.11 kg/hp
+bg_mercedes_c63_amg_bs, Mercedes-Benz C63 AMG Black Series Mercedes-Benz, 510 bhp, 620 Nm, 1635 kg, 300km/h, 3.8s 0-100 / 12.5s 0-200, 3.21 kg/hp
+bmw_1m, BMW 1M BMW, 340bhp, 500Nm, 1495kg, 250+km/h, 4.9s 0-100, 4.46kg/hp
+bmw_1m_s3, BMW 1M Stage 3 BMW, 400bhp, 580Nm, 1495kg, 250+km/h, --s 0-100, 3.74kg/hp
+bmw_m3_e30, BMW M3 E30 BMW, 238bhp, 240Nm, 1200kg, 248km/h, 7.4s 0-100, 5.04kg/hp
+bmw_m3_e30_drift, BMW M3 E30 Drift BMW, 343bhp, 365Nm, 1150kg, 250+km/h, 5.3s 0-100, 3.35kg/hp
+bmw_m3_e30_dtm, BMW M3 E30 Gr.A 92 BMW, 350+bhp, 310Nm, 945kg, 280+km/h, 4.3s 0-100, 2.70kg/hp
+bmw_m3_e30_gra, BMW M3 E30 Group A BMW, 290+bhp, 310Nm, 945kg, 280+km/h, 4.3s 0-100, 3.26kg/hp
+bmw_m3_e30_s1, BMW M3 E30 Step1 BMW, 238bhp, 240Nm, 1200kg, 248km/h, 7.4s 0-100, 5.04kg/hp
+bmw_m3_e92, BMW M3 E92 BMW, 414bhp, 400Nm, 1605kg, 250+km/h, 4.3s 0-100, 3.87kg/hp
+bmw_m3_e92_drift, BMW M3 E92 drift BMW, 414bhp, 400Nm, 1605kg, 250+km/h, 4.3s 0-100, 3.87kg/hp
+bmw_m3_e92_s1, BMW M3 E92 Step1 BMW, 414bhp, 400Nm, 1605kg, 250+km/h, 4.3s 0-100, 3.87kg/hp
+bmw_m3_gt2, BMW M3 GT2 BMW, 485+bhp, 499Nm, 1245kg, 270+km/h, --s 0-100, 2.56kg/hp
+bmw_z4, BMW Z4 E89 BMW, 330bhp, 500Nm, 1605kg, 250+km/h, 4.7s 0-100, 4.86kg/hp
+bmw_z4_drift, BMW Z4 E89 Drift BMW, 390bhp, 580Nm, 1525kg, 250+km/h, --s 0-100, 3.91kg/hp
+bmw_z4_gt3, BMW Z4 GT3 BMW, 530bhp, 520Nm, 1265kg, 280+km/h, --s 0-100, 2.38kg/hp
+bmw_z4_s1, BMW Z4 E89 Step1 BMW, 330bhp, 500Nm, 1605kg, 250+km/h, 4.7s 0-100, 4.86kg/hp
+bo_caterham_academy, Caterham Academy 2020 Caterham, 125 bhp, 178 Nm, 575 kg, 170 km/h, 6 s 0–100, 4.6 kg/hp
+bo_singer, Porsche 911 4.0 by Singer Porsche, 390bhp, 427Nm, 1244kg, -- km/h, -- s 0–100, 3.19kg/hp
+bo_singer_38, Porsche 911 3.8 by Singer Porsche, 300bhp, 256Nm, 1244kg, -- km/h, -- s 0–100, 4.15kg/hp
+bo_singer_awd, Porsche 911 AWD by Singer Porsche, 390bhp, 427Nm, 1274kg, -- km/h, -- s 0–100, 3.27kg/hp
+cky_bmw_m340i, BMW M340i xDrive G20 2023 BMW, 374 Hp, 500 Nm, 1725 kg, 250 km/h, 4.4s 0-100, 4.61 kg/hp
+cky_bmwm2g87_2023, BMW M2 (G87) 2023 BMW, 460 bhp, 550 Nm, 1725kg, 250km/h, 4.1s 0-100, 3.75 kg/hp
+cky_bmwm3g80_cs, BMW M3 CS G80 2023 BMW, 550 Hp, 650 Nm, 1760 kg, 307 km/h, 3.4s 0-100, 3.2 kg/hp
+cky_evo_ix_mr, Mitsubishi Lancer Evo IX MR Mitsubishi, 276 Hp, 355 Nm, 1485 kg, 249 km/h, 5.7s 0-100, 5.38 kg/hp
+cky_gtr_nismo2022, Nissan GT-R Nismo 2022 Nissan, 600 bhp, 650 Nm, 1703 kg, 315 km/h, 3.2s 0-100, 2.84 kg/hp
+cky_mercedesamg_sl63, Mercedes-AMG SL 63 2023 4MATIC+ Mercedes-Benz, 585bhp, 800Nm, 1895kg, 315km/h, 3.6s 0-100, 3.24 kg/hp
+corvette_dp_c, Coyote Corvette DP Chevrolet, 598 bhp, 729 Nm, 1039kg, 300+km/h, , 1.74 kg/hp
+corvette_dp_d, Dallara Corvette DP Chevrolet, 598 bhp, 729 Nm, 1039kg, 300+km/h, , 1.74 kg/hp
+drm_1001, BMW 2002 Turbo DRM '77 BMW, 422 PS, 359 Nm, 775 kg, 220+km/h, --s, 1.84kg/PS
+drm_1001_2, BMW 2002 Turbo DRM '77 BMW, 422 PS, 359 Nm, 775 kg, 220+km/h, --s, 1.84kg/PS
+drm_120, BMW 320i Turbo DRM '78 BMW, 493 PS, 430 Nm, 840 kg, 260+km/h, -, 1.7kg/PS
+drm_120_2, BMW 320i Turbo DRM '78 BMW, 493 PS, 430 Nm, 840 kg, 260+km/h, -, 1.7kg/PS
+drm_121, BMW 320i Turbo DRM '79 Schnitzer BMW, 537 PS, 448 Nm, 890 kg, 270+km/h, -, 1.66kg/PS
+drm_121_2, BMW 320i Turbo DRM '79B Schnitzer BMW, 537 PS, 448 Nm, 890 kg, 270+km/h, -, 1.66kg/PS
+drm_121_3, BMW 320i Turbo DRM '80 Schnitzer BMW, 570 PS, 478 Nm, 890 kg, 270+km/h, -, 1.56kg/PS
+drm_1h, Porsche 935 K2 3.0 DRM '77 Porsche, 560 PS, 587.1 Nm, 970 kg, 270+km/h, --s, 1.73kg/PS
+drm_1h_2, Porsche 935 K2 3.0 DRM '77 Porsche, 560 PS, 587.1 Nm, 970 kg, 270+km/h, --s, 1.73kg/PS
+drm_1n, BMW M1 Turbo DRM '81 BMW, 882 PS, 781 Nm, 1105 kg, 270+km/h, , 1.25kg/PS
+drm_3h, Porsche 935 K3 DRM '79 Porsche, 773 PS, 742 Nm, 1025 kg, 270+km/h, , 1.33kg/PS
+drm_3h_2, Porsche 935 K3 DRM '79 JOEST Porsche, 773 PS, 742 Nm, 1020 kg, 270+km/h, --s, 1.32kg/PS
+drm_aero, Ford Capri Turbo DRM '80 Zakspeed Ford, 590 PS, 503 Nm, 895 kg, 270+km/h, , 1.52kg/PS
+drm_carma, Ferrari 308 GTB Turbo DRM '80 Ferrari, 801PS, 730Nm, 1075 kg, 270+km/h, , 1.34kg/PS
+drm_carma_2, Ferrari 308 GTB Turbo DRM '81 LS Ferrari, 813PS, 741Nm, 1075 kg, 270+km/h, , 1.32kg/PS
+drm_delikata, Toyota Celica LB Turbo DRM '77 Toyota, 566 PS, 466 Nm, 855 kg, 270+km/h, , 1.51kg/PS
+drm_delikata_2, Toyota Celica LB Turbo DRM '78 Toyota, 585 PS, 480 Nm, 855 kg, 270+km/h, , 1.46kg/PS
+drm_monastir, Lancia Beta Montecarlo Turbo DRM '79 Lancia, 506PS, 420Nm, 805 kg, 270+km/h, , 1.59kg/PS
+drm_monastir_2, Lancia Beta Montecarlo Turbo DRM '80 Lancia, 540PS, 444Nm, 880 kg, 270+km/h, , 1.63kg/PS
+drm_scream, Ford Escort II RS Turbo DRM '78 Ford, 558 PS, 456 Nm, 805 kg, 280+km/h, --s, 1.44kg/PS
+faz_bmw_m6_com, BMW M6 F13 Gran Coupe 2016 BMW, 560л.с., 680Нм, 1850kg, 330 km/h (limiter removed), 4.67s 0-100, 3.3кг/л.с.
+faz_mercedes_g63, Mercedes-Benz G-Class AMG 63 (W463) Akrapovič Mercedes-Benz, 585 bhp, 850 Nm, 2235kg, 284km/h, 4.5s 0-100, 3.82 kg/hp
+ferrari_312t, Ferrari 312T Ferrari, 495bhp, 308Nm, 606kg, 320km/h, --s 0-100, 1.22kg/hp
+ferrari_458, Ferrari 458 Italia Ferrari, 570bhp, 540Nm, 1573kg, 325+km/h, 3.3s 0-100, 2.76kg/hp
+ferrari_458_gt2, Ferrari 458 GT2 Ferrari, 470bhp, 520Nm, 1245kg, 270+km/h, --s 0-100, 2.65kg/hp
+ferrari_458_s3, Ferrari 458 Italia Stage 3 Ferrari, 570bhp, 540Nm, 1140kg, 325+km/h, --s 0-100, 2.00kg/hp
+ferrari_599xxevo, Ferrari 599XX EVO Ferrari, 750bhp, 700Nm, 1310kg, 303km/h, 2.5s 0-100, 1.74kg/hp
+ferrari_daytona_competizione, Ferrari 365 GTB/4 Daytona Competizione Ferrari, 430hp, 461Nm, 1200 kg, 300 km/h, , 2.79kg/cv
+ferrari_f40, Ferrari F40 Ferrari, 478bhp, 577Nm, 1175kg, 324km/h, 3.5s 0-100, 2.46kg/hp
+ferrari_f40_s3, Ferrari F40 Stage 3 Ferrari, 610+bhp, 715Nm, 1175kg, --km/h, --s 0-100, 1.93kg/hp
+ferrari_laferrari, Ferrari LaFerrari Ferrari, 963bhp, 900+Nm, 1255kg, 350+km/h, <3.0s 0-100, 1.3 kg/hp
+gue_techart_gt_street_r, TECHART GTstreet R TECHART, 800 bhp, 950 Nm, 1670 kg, 350 km/h, 2.5 s 0–100, 2.09 kg/hp
+ier_p13c, HPD ARX-03c Honda, 603 bhp, 485 Nm, 890kg, 310+km/h, --s 0-100, 1.48 kg/hp
+ier_porsche_911_gta, Porsche 911 GT America Porsche, 477 bhp, 484 Nm, 1190kg, 300+km/h, --s, 2.49 kg/hp
+jw_bmw_m5_e28, BMW E28 M5 '85 BMW, 286 bhp, 340 Nm, 1430 kg, 245 km/h, 6.5 s 0–100, 5 kg/hp
+jw_lexus_lfa, Lexus LFA Lexus, 552 bhp, 480 Nm, 1480 kg, 325 km/h, 3.7 s 0–100, 2.68 kg/hp
+krb_audi_silhouette, KRB Audi S1 Silhouette Kai Roger Bakken, 1139 bhp, 1069 Nm, 1125 kg, 300km/h, 4,3s, 1.66kg/cv
+krb_tiga_lotus, KRB Lotus/Tiga Esprit Kai Roger Bakken, ~850 bhp, ~1000 Nm, 1048 kg, 320+km/h, 4,3s, 1.23 kg/hp
+ks_abarth_595ss, Abarth 595 SS Abarth, 32bhp, 44Nm, 470kg, 130km/h, 25.8s 0-100, 18.9kg/hp
+ks_abarth_595ss_s1, Abarth 595 SS Step 1 Abarth, 32bhp, 44Nm, 470kg, 130km/h, 25.8s 0-100, 18.9kg/hp
+ks_abarth_595ss_s2, Abarth 595 SS Step 2 Abarth, 65bhp, 80Nm, 470kg, --km/h, --s 0-100, 6.71kg/hp
+ks_abarth500_assetto_corse, Abarth 500 Assetto Corse Abarth, 195bhp, 302Nm, 930kg, 225km/h, <7s 0-100, 4.60kg/hp
+ks_alfa_33_stradale, Alfa Romeo 33 Stradale Alfa Romeo, 230bhp, 206Nm, 700kg, 260 km/h, s 0-100, 3.04kg/hp
+ks_alfa_giulia_qv, Alfa Romeo Giulia Quadrifoglio Alfa Romeo, 510bhp, 600Nm, 1595kg, 307km/h, 3.9s 0-100, 3.13kg/hp
+ks_alfa_mito_qv, Alfa Romeo Mito QV Alfa Romeo, 168bhp, 250Nm, 1140kg, 219km/h, 7.3s 0-100, 6.70kg/hp
+ks_alfa_romeo_155_v6, Alfa Romeo 155 TI V6 Alfa Romeo, 420bhp, 294Nm, 1050kg, 280+km/h, , 2.50kg/hp
+ks_alfa_romeo_4c, Alfa Romeo 4C Alfa Romeo, 240bhp, 350Nm, 925kg, 245km/h, 4.5s 0-100, 3.90kg/hp
+ks_alfa_romeo_gta, Alfa Romeo GTA Alfa Romeo, 170bhp, 200Nm, 750kg, 210+km/h, --s 0-100, 4.41kg/hp
+ks_audi_a1s1, Audi S1 Audi, 231bhp, 370Nm, 1340kg, 241km/h, 5.8s 0-100, 5.80kg/hp
+ks_audi_r18_etron_quattro, Audi R18 e-tron quattro 2014 Audi, 700+bhp, 850+Nm, 915kg, 330km/h, <3.0s 0-100, 1.30kg/hp
+ks_audi_r8_lms, Audi R8 LMS Ultra Audi, 570bhp, 500+Nm, 1250kg, --km/h, --s 0-100, 2.19kg/hp
+ks_audi_r8_lms_2016, Audi R8 LMS 2016 Audi, 500bhp, 500Nm, 1270kg, --km/h, --s 0-100, 2.54kg/hp
+ks_audi_r8_plus, Audi R8 V10 Plus Audi, 550bhp, 540Nm, 1620kg, 317km/h, 3.5s 0-100, 3.00kg/hp
+ks_audi_sport_quattro, Audi Sport quattro Audi, 306bhp, 350Nm, 1298kg, 250km/h, 4.7s 0-100, 4.18kg/hp
+ks_audi_sport_quattro_rally, Audi Sport quattro S1 E2 Audi, 540bhp, 570Nm, 1090kg, 250+km/h, 3.1s 0-100, 2.01kg/hp
+ks_audi_sport_quattro_s1, Audi Sport quattro Step1 Audi, 373bhp, 425Nm, 1298kg, 272km/h, 4.5s 0-100, 3.43kg/hp
+ks_audi_tt_cup, Audi TT Cup Audi, 310bhp, 400+Nm, 1125kg, --km/h, 4.7s 0-100, 3.62kg/hp
+ks_audi_tt_vln, Audi TT RS (VLN) Audi, 390bhp, 530Nm, 1120kg, km/h, --s 0-100, 2.87kg/hp
+ks_bmw_m235i_racing, BMW M235i Racing BMW, 333bhp, 500Nm, 1424kg, 250+km/h, --s 0-100, 4.27kg/hp
+ks_bmw_m4, BMW M4 BMW, 431bhp, 550Nm, 1572kg, 250km/h, 3.9s 0-100, 3.64kg/hp
+ks_bmw_m4_akrapovic, BMW M4 Akrapovic BMW, 445bhp, 589Nm, 1572kg, 250km/h, 3.9s 0-100, 3.53kg/hp
+ks_corvette_c7_stingray, Chevrolet Corvette C7 Stingray Chevrolet, 455bhp, 625Nm, 1496kg, 290km/h, 3.8s 0-100, 3.29kg/hp
+ks_corvette_c7r, Chevrolet Corvette C7R Chevrolet, 495+bhp, 650+Nm, 1320kg, 280+km/h, --s 0-100, 2.66kg/hp
+ks_ferrari_250_gto, Ferrari 250 GTO Ferrari, 300bhp, 294Nm, 880kg, 280km/h, 6.1s 0-100, 2.93kg/hp
+ks_ferrari_288_gto, Ferrari GTO Ferrari, 400bhp, 496Nm, 1160kg, 305km/h, 4.9s 0-100, 2.9kg/hp
+ks_ferrari_312_67, Ferrari 312/67 Ferrari, 390bhp, --Nm, 548kg, --km/h, --s 0-100, 1.41kg/hp
+ks_ferrari_330_p4, Ferrari 330 P4 Ferrari, 450bhp, --Nm, 792kg, 320km/h, --s 0-100, 1.76kg/hp
+ks_ferrari_488_gt3, Ferrari 488 GT3 Ferrari, 500bhp, 640Nm, 1270kg, --km/h, --s 0-100, 2.54kg/hp
+ks_ferrari_488_gtb, Ferrari 488 GTB Ferrari, 660bhp, 760Nm, 1370kg, 330km/h, 3.0s 0-100, 2.08kg/hp
+ks_ferrari_812_superfast, Ferrari 812 Superfast Ferrari, 800bhp, 718Nm, 1525kg, >340km/h, 2.9s 0-100, 1.91kg/hp
+ks_ferrari_f138, Ferrari F138 Ferrari, 763bhp, 310Nm, 642kg*, --km/h, --s 0-100, 0.84kg/hp
+ks_ferrari_f2004, Ferrari F2004 Ferrari, 865bhp, --Nm, --kg, --km/h, --s 0-100, --kg/hp
+ks_ferrari_fxx_k, Ferrari FXX K Ferrari, 1050bhp, 900+Nm, --kg, 350+km/h, <3.0s 0-100, --kg/hp
+ks_ferrari_sf15t, Ferrari SF15-T Ferrari, 840bhp, 721Nm, 702kg*, --km/h, --s 0-100, 0.83kg/hp
+ks_ferrari_sf70h, Ferrari SF70H Ferrari, --bhp, --Nm, --kg, --km/h, --s 0-100, --kg/hp
+ks_ford_escort_mk1, Ford Escort RS1600 Ford, 260+bhp, 200+Nm, 885kg, 220+km/h, --s 0-100, 3.40kg/hp
+ks_ford_gt40, Ford GT40 Ford, 430bhp, 530Nm, 1025kg, 335km/h, --s 0-100, 2.38kg/hp
+ks_ford_mustang_2015, Ford Mustang 2015 Ford, 435bhp, 542Nm, 1680kg, 250km/h, 4.4s 0-100, 3.84kg/hp
+ks_glickenhaus_scg003, SCG 003C Scuderia Glickenhaus, 530bhp, 700Nm, 1350kg, --km/h, --s 0-100, 2.54kg/hp
+ks_lamborghini_aventador_sv, Lamborghini Aventador SV Lamborghini, 750hp, 690Nm, 1525kg, 350+km/h, 2.8s 0-100, 2.03kg/hp
+ks_lamborghini_countach, Lamborghini Countach Lamborghini, 442bhp, 500Nm, 1490kg, 295km/h, 5.6s 0-100, 3,34kg/hp
+ks_lamborghini_countach_s1, Lamborghini Countach S1 Lamborghini, 442bhp, 500Nm, 1490kg, 295km/h, 5.6s 0-100, 3,34kg/hp
+ks_lamborghini_gallardo_sl, Lamborghini Gallardo SL Lamborghini, 570bhp, 540Nm, 1340kg, 325km/h, 3.4s 0-100, 2.35kg/hp
+ks_lamborghini_gallardo_sl_s3, Lamborghini Gallardo SL Step3 Lamborghini, 1200bhp, --Nm, 1390kg, 349km/h, 2.5s 0-100, 1.16kg/hp
+ks_lamborghini_huracan_gt3, Lamborghini Huracan GT3 Lamborghini, 600bhp, 500+Nm, 1239kg, --km/h, --s 0-100, 2.07kg/hp
+ks_lamborghini_huracan_performante, Lamborghini Huracan Performante Lamborghini, 640bhp, 600Nm, 1382kg, 325km/h, 2.9s 0-100, 2.15kg/hp
+ks_lamborghini_huracan_st, Lamborghini Huracan ST Lamborghini, 620bhp, 570Nm, 1270kg, --km/h, --s 0-100, 2.04kg/hp
+ks_lamborghini_miura_sv, Lamborghini Miura P400 SV Lamborghini, 385bhp, 400Nm, 1245kg, 300km/h, 6.5s 0-100, 3.19kg/hp
+ks_lamborghini_sesto_elemento, Lamborghini Sesto Elemento Lamborghini, 570hp, 540Nm, 999kg, 350km/h, 2.5s 0-100, 1.75kg/hp
+ks_lotus_25, Lotus Type 25 Lotus Classic Cars, 195bhp, 160Nm, 451kg, --km/h, --s 0-100, 2.31kg/hp
+ks_lotus_3_eleven, Lotus 3-Eleven Lotus, 460bhp, 525Nm, 890kg, 290km/h, 2.9s 0-100, 1.93kg/hp
+ks_lotus_72d, Lotus 72D Lotus Classic Cars, 440bhp, 332Nm, 550kg, --km/h, --s 0-100, 1.25kg/hp
+ks_maserati_250f_12cyl, Maserati 250F 12 cylinder Maserati, 310bhp, --Nm, 670kg, --km/h, --s 0-100, 2.16kg/hp
+ks_maserati_250f_6cyl, Maserati 250F 6 cylinder Maserati, 270bhp, --Nm, 670kg, --km/h, --s 0-100, 2.48kg/hp
+ks_maserati_alfieri, Maserati Alfieri Maserati, 460bhp, 520Nm, 1496kg, --km/h, --s 0-100, 3.25kg/hp
+ks_maserati_gt_mc_gt4, Maserati GranTurismo MC GT4 Maserati, 430bhp, 535Nm, 1410kg, --km/h, --s 0-100, 3.27kg/hp
+ks_maserati_levante, Maserati Levante S Maserati, 424bhp, 580Nm, 2108kg, --km/h, 5.0s 0-100, 4.97kg/cv
+ks_maserati_mc12_gt1, Maserati MC12 GT1 Maserati, 580bhp, 650Nm, 1100kg, 320km/h, --s 0-100, 1.89kg/hp
+ks_maserati_quattroporte, Maserati Quattroporte GTS Maserati, 530bhp, 710Nm, 1900kg, 310km/h, 4.7s 0-100, 3.58kg/hp
+ks_mazda_787b, Mazda 787B Mazda, 690bhp, 608Nm, 845kg, 340+km/h, --s, 1.22kg/hp
+ks_mazda_miata, Mazda Miata NA Mazda, 130bhp, 152Nm, 1040kg, 197+km/h, 8.8s 0-100km/h, 8kg/hp
+ks_mazda_mx5_cup, Mazda MX5 Cup Mazda, 160bhp, 200Nm, 908kg, --km/h, --s 0-100, 5.67kg/hp
+ks_mazda_mx5_nd, Mazda MX5 ND Mazda, 160bhp, 200Nm, 1058kg, 214km/h, 7.3s 0-100, 6.61kg/hp
+ks_mazda_rx7_spirit_r, Mazda RX-7 Spirit R Mazda, 276bhp, 314Nm, 1270kg, 256km/h, 5.3s 0-100, 4.60kg/hp
+ks_mazda_rx7_tuned, Mazda RX-7 Tuned Mazda, 444bhp, 398Nm, 1312kg, --km/h, --s 0-100, 2.95kg/hp
+ks_mclaren_570s, McLaren 570S McLaren, 562bhp, 600Nm, 1313kg, 328km/h, 3.2s 0-100, 2.33kg/hp
+ks_mclaren_650_gt3, McLaren 650S GT3 McLaren, 500bhp, 500Nm, 1240kg, 275+km/h, --s 0-100, 2.48kg/hp
+ks_mclaren_f1_gtr, McLaren F1 GTR McLaren, 595bhp, 693Nm, 1010kg, 330+km/h, --s 0-100, 1.69kg/hp
+ks_mclaren_p1, McLaren P1™ McLaren, 903bhp, 900Nm, 1450kg, 350km/h, 2.8s 0-100, 1.60kg/hp
+ks_mclaren_p1_gtr, McLaren P1™ GTR McLaren, 986bhp, 1000+Nm, 1400kg, 350+km/h, 2.4s 0-100, 1.41kg/hp
+ks_mercedes_190_evo2, Mercedes-Benz 190E EVO II Mercedes-Benz, 370+bhp, 310Nm, 980kg, 280+km/h, --s 0-100, 2.64kg/hp
+ks_mercedes_amg_gt3, Mercedes-Benz AMG GT3 Mercedes-Benz, 520bhp, 600Nm, 1265kg, 280+km/h, --s 0-100, 2.43kg/hp
+ks_mercedes_c9, Mercedes-Benz C9 1989 LM Mercedes-Benz, 750+bhp, 500Nm, 905kg, 380+km/h, --s 0-100, 1.20kg/hp
+ks_nissan_370z, Nissan 370z Nismo Nissan, 350bhp, 374Nm, 1498kg, 250km/h, 5.0s 0-100, 4.28kg/cv
+ks_nissan_gtr, Nissan GT-R NISMO Nissan, 592bhp, 652Nm, 1750kg, 313km/h, 2.1s 0-100, 2.28kg/hp
+ks_nissan_gtr_gt3, Nissan GT-R GT3 Nissan, 600bhp, 700Nm, 1300kg, 280+km/h, --s 0-100, 2.17kg/hp
+ks_nissan_skyline_r34, Nissan Skyline GTR R34 V-Spec Nissan, 325bhp, 392Nm, 1560kg, 250+km/h, 4.9s 0-100, 4.83kg/hp
+ks_pagani_huayra_bc, Pagani Huayra BC Pagani, 740bhp, 1100Nm, 1218kg, --km/h, --s 0-100, 1.64kg/hp
+ks_porsche_718_boxster_s, Porsche 718 Boxster S Porsche, 350hp, 420Nm, 1355kg, 285km/h, 4.6s 0-100, 3.87kg/hp
+ks_porsche_718_boxster_s_pdk, Porsche 718 Boxster S PDK Porsche, 350hp, 420Nm, 1385kg, 285km/h, 4.2s 0-100, 3.95kg/hp
+ks_porsche_718_cayman_s, Porsche 718 Cayman S Porsche, 350bhp, 420Nm, 1355kg, 285km/h, 4.7s 0-100, 3.87kg/hp
+ks_porsche_718_spyder_rs, Porsche 718 RS 60 Spyder Porsche, 150hp, 148Nm, 580kg, 230km/h, --s 0-100, 3.8kg/hp
+ks_porsche_908_lh, Porsche 908 LH Porsche, 350bhp, 320Nm, 680kg, 320km/h, --s 0-100, 1.94kg/hp
+ks_porsche_911_carrera_rsr, Porsche 911 Carrera RSR 3.0 Porsche, 330bhp, --Nm, 850kg, 280km/h, --s 0-100, 2.57kg/hp
+ks_porsche_911_gt1, Porsche 911 GT1-98 Porsche, 600hp, --Nm, 950kg, 350km/h, --s 0-100, 1.58kg/hp
+ks_porsche_911_gt3_cup_2017, Porsche 911 GT3 Cup 2017 Porsche, 485hp, --Nm, 1220kg, --km/h, --s 0-100, 2.51kg/hp
+ks_porsche_911_gt3_r_2016, Porsche 911 GT3 R 2016 Porsche, 500hp, --Nm, 1245kg, --km/h, --s 0-100, 2.49kg/hp
+ks_porsche_911_gt3_rs, Porsche 911 GT3 RS Porsche, 500hp, 460Nm, 1420kg, 310km/h, 3.1s 0-100, 2.84kg/hp
+ks_porsche_911_r, Porsche 911 R Porsche, 500hp, 460Nm, 1370kg, 323km/h, 3.8s 0-100, 2.74kg/hp
+ks_porsche_911_rsr_2017, Porsche 911 RSR 2017 Porsche, 510hp, --Nm, 1245kg, 270+km/h, --s 0-100, 2.49kg/hp
+ks_porsche_917_30, Porsche 917/30 Spyder Porsche, 1200bhp, 1200Nm, 800kg, 385km/h, 2.4s 0-100, 0.66kg/hp
+ks_porsche_917_k, Porsche 917 K Porsche, 600hp, --Nm, 820kg, 350km/h, --s 0-100, 1.36kg/hp
+ks_porsche_918_spyder, Porsche 918 Spyder Porsche, 887bhp, 1275Nm, 1640kg, 345km/h, 2.6s 0-100, 1.84kg/hp
+ks_porsche_919_hybrid_2015, Porsche 919 Hybrid 2015 Porsche, 900hp, --Nm, 875kg, --km/h, 2.2s 0-100, 0.97kg/hp
+ks_porsche_919_hybrid_2016, Porsche 919 Hybrid 2016 Porsche, 900hp, --Nm, 875kg, --km/h, 2.2s 0-100, 0.97kg/hp
+ks_porsche_935_78_moby_dick, Porsche 935/78 'Moby Dick' Porsche, 845bhp, 784Nm, 1025kg, 366km/h, 2.6s 0-100, 1.21kg/hp
+ks_porsche_962c_longtail, Porsche 962 C Long Tail Porsche, 650hp, ---Nm, 825kg, 360km/h, --s 0-100, 1.27kg/hp
+ks_porsche_962c_shorttail, Porsche 962 C Short Tail Porsche, 625hp, ---Nm, 850kg, 330km/h, --s 0-100, 1.36kg/hp
+ks_porsche_991_carrera_s, Porsche 911 Carrera S Porsche, 420bhp, 500Nm, 1515kg, 308km/h, 3.9s 0-100, 3.60kg/hp
+ks_porsche_991_turbo_s, Porsche 911 Turbo S Porsche, 580bhp, 750Nm, 1600kg, 330km/h, 2.9s 0-100, 2.75kg/hp
+ks_porsche_cayenne, Porsche Cayenne Turbo S Porsche, 570hp, 800Nm, 2235kg, 284km/h, 4.1s 0-100, 3.92kg/hp
+ks_porsche_cayman_gt4_clubsport, Porsche Cayman GT4 Clubsport Porsche, 385bhp, 420Nm, 1300kg, 295km/h, --s 0-100, 3.37kg/hp
+ks_porsche_cayman_gt4_std, Porsche Cayman GT4 Porsche, 385hp, 420Nm, 1340kg, 295km/h, 4.4s 0-100, 3.48kg/hp
+ks_porsche_macan, Porsche Macan Turbo Porsche, 400hp, 550Nm, 1925kg, 266km/h, 4.8s 0-100, 4.87kg/hp
+ks_porsche_panamera, Porsche Panamera Turbo Porsche, 550bhp, 770Nm, 2070kg, 306km/h, 3.6s 0-100, 3.76kg/hp
+ks_praga_r1, Praga R1 Praga, 210bhp, 220Nm, 585kg, --km/h, --s 0-100, 2.78kg/hp
+ks_ruf_rt12r, RUF RT12 R RUF, 730bhp, 940Nm, 1,495kg, 370+km/h, --s 0-100, 2.00kg/hp
+ks_ruf_rt12r_awd, RUF RT12 R AWD RUF, 730bhp, 940Nm, 1,495kg, 370+km/h, --s 0-100, 2.00kg/hp
+ks_toyota_ae86, Toyota AE86 Toyota, 122bhp, 142Nm, 925kg, 196km/h, 9.2s 0-100, 7.58kg/hp
+ks_toyota_ae86_drift, Toyota AE86 Drift Toyota, 185bhp, 206Nm, 920kg, --km/h, --s 0-100, 4.97kg/hp
+ks_toyota_ae86_tuned, Toyota AE86 Tuned Toyota, 200bhp, 206Nm, 900kg, --km/h, --s 0-100, 4.50kg/hp
+ks_toyota_celica_st185, Toyota Celica ST185 4WD Turbo Toyota, 295bhp, 459Nm, 1045kg, --km/h, --s 0-100, 3.54kg/hp
+ks_toyota_gt86, Toyota GT86 Toyota, 200bhp, 205Nm, 1250kg, 233km/h, 7.6s 0-100, 6.25kg/hp
+ks_toyota_supra_mkiv, Toyota Supra MKIV Toyota, 280bhp, 458Nm, 1510kg, 249km/h, 5.0s 0-100, 5.39kg/hp
+ks_toyota_supra_mkiv_drift, Toyota Supra MKIV Drift Toyota, 624bhp, 756Nm, 1505kg, --km/h, --s 0-100, 2.41kh/hp
+ks_toyota_supra_mkiv_tuned, Toyota Supra MKIV Time Attack Toyota, 690bhp, 756Nm, 1505kg, --km/h, --s 0-100, 2.18kg/hp
+ks_toyota_ts040, Toyota TS040 Hybrid 2014 Toyota, 1000bhp, --Nm, --kg, 320km/h, --s 0-100, --kg/hp
+ktm_xbow_r, KTM X-Bow R KTM, 300bhp, 400Nm, 795kg, 250km/h, 3.7s 0-100, 2.65kg/hp
+lotus_2_eleven, Lotus 2-Eleven Lotus, 252bhp, 242Nm, 670kg, 249km/h, 3.8s 0-100, 2.65kg/hp
+lotus_2_eleven_gt4, Lotus 2-Eleven GT4 Lotus, 270bhp, 252Nm, 670kg, 260km/h, 3.7s 0-100, 2.48kg/hp
+lotus_49, Lotus Type 49 Lotus Classic Cars, 410bhp, 350Nm, 575kg, 300+km/h, --s 0-100, 1.40kg/hp
+lotus_98t, Lotus 98T Lotus Classic Cars, 1000+bhp, 800+Nm, 523kg, 330+km/h, --s 0-100, --kg/hp
+lotus_elise_sc, Lotus Elise SC Lotus, 217bhp, 242Nm, 929kg, 235km/h, 4.6s 0-100, 4.28kg/hp
+lotus_elise_sc_s1, Lotus Elise SC Step1 Lotus, 217bhp, 242Nm, 929kg, 235km/h, 4.6s 0-100, 4.28kg/hp
+lotus_elise_sc_s2, Lotus Elise SC Step2 Lotus, 217bhp, 242Nm, 929kg, 235km/h, 4.6s 0-100, 4.28kg/hp
+lotus_evora_gtc, Lotus Evora GTC Lotus, 450bhp, 460Nm, 1205kg, --km/h, --s 0-100, 2.68kg/hp
+lotus_evora_gte, Lotus Evora GTE Lotus, 420bhp, 461Nm, 1395kg, 288km/h, 4.5s 0-100, 3.32kg/hp
+lotus_evora_gte_carbon, Lotus Evora GTE Carbon Lotus, 420bhp, 461Nm, 1285kg, 288km/h, 4.4s 0-100, 3.06kg/hp
+lotus_evora_gx, Lotus Evora GX Lotus, 440bhp, 460Nm, 1395kg, 288km/h, 4.5s 0-100, 3.32kg/hp
+lotus_evora_s, Lotus Evora S Lotus, 345bhp, 400Nm, 1385kg, 277km/h, 4.6s 0-100, 4.01kg/hp
+lotus_evora_s_s2, Lotus Evora S Stage 2 Lotus, 400bhp, 420Nm, 1385kg, 277km/h, 4.6s 0-100, 3.46kg/hp
+lotus_exige_240, Lotus Exige 240R Lotus, 243bhp, 236Nm, 930kg, 249km/h, 4.0s 0-100, 3.83kg/hp
+lotus_exige_240_s3, Lotus Exige 240R Stage3 Lotus, 270bhp, 270Nm, 900kg, 249km/h, 4.0s 0-100, 3.33kg/hp
+lotus_exige_s, Lotus Exige S Lotus, 345bhp, 400Nm, 1176kg, 274km/h, 4.0s 0-100, 3.41kg/hp
+lotus_exige_s_roadster, Lotus Exige S roadster Lotus, 345bhp, 400Nm, 1166kg, 233+km/h, 4.0s 0-100, 3.38kg/hp
+lotus_exige_scura, Lotus Exige Scura Lotus, 257bhp, 243Nm, 925kg, 245km/h, 4.1s 0-100, 3.60kg/hp
+lotus_exige_v6_cup, Lotus Exige V6 CUP Lotus, 345bhp, 400Nm, 1080kg, 274km/h, 4.0s 0-100, 3.09kg/hp
+lotus_exos_125, Lotus Exos 125 Lotus, 640bhp, 450Nm, 660kg, --km/h, --s 0-100, 1.03kg/hp
+lotus_exos_125_s1, Lotus Exos 125 Stage 1 Lotus, 750bhp, --Nm, 660kg, --km/h, --s 0-100, 0.88kg/hp
+m7_nissan_r33_1993_gts25t_typem, Nissan Skyline R33 GTS-25t Type-M Nissan, 250ps, 30.0kg-m, 1373kg, -- km/h, -- s 0-100, 5.49kg/ps
+m7_nissan_r33_1995_gtr, Nissan Skyline R33 GT-R Nissan, 333ps, 42.3kg-m, 1553kg, -- km/h, -- s 0-100, 4.66kg/ps
+mclaren_mp412c, McLaren MP4-12C McLaren, 616bhp, 600Nm, 1434kg, 330km/h, 3.2s 0-100, 2.33kg/hp
+mclaren_mp412c_gt3, McLaren MP4-12C GT3 McLaren, 500bhp, 500Nm, 1245kg, 275+km/h, --s 0-100, 2.49kg/hp
+mercedes_sls, Mercedes SLS AMG Mercedes-Benz, 571bhp, 650Nm, 1620kg, 317+km/h, 3.8s 0-100, 2.84kg/hp
+mercedes_sls_gt3, Mercedes SLS AMG GT3 Mercedes-Benz, 520bhp, 600Nm, 1265kg, 280+km/h, --s 0-100, 2.43kg/hp
+mini_jcw_challenge, Mini Cooper JCW Challenge (F56) MINI, 265cv, 369Nm, 1085kg, 150mph, 6.1sec 0-60, 4.09kg/cv
+minimiglia, Mini Miglia MINI, 130cv, 150Nm, 620Kg, 185Km/h, 6.0s 0-100, 4.77kg/cv
+mnba_bmw_m135i, BMW M135i F20 BMW, 316 bhp, 473 Nm, 1430kg, 250+km/h, 5.1s 0-100, 4.53 kg/hp
+mnba_bmw_m140i, BMW M140i F20 BMW, 335 bhp, 535 Nm, 1430kg, 250+km/h, 4.6s 0-100, 4.27 kg/hp
+mnba_dodge_challenger_hellcat, Dodge Challenger SRT Hellcat Dodge, 717 bhp, 876 Nm, 2003 kg, 304 km/h, 3.7, 2.79 kg/hp
+mnba_shelby_gt500_2020, Ford Mutang Shelby GT500 Ford, 760 bhp, 866 Nm, 1897 kg, 290 km/h, 3.3 s 0–100, 2.5 kg/hp
+mp_manhart_qv_600, Manhart QV 600 (Alfa Romeo Giulia QV) Alfa Romeo, 660 bhp, 790 Nm, 1595kg, 330 km/h, 3.9s 0-100, 2.42 kg/hp
+ms_audi_rs5_2010, Audi RS5 2010 Audi, 431 whp, 430 Nm*, 1650 kg, 280+km/h, 4.5s 0-100, 3.83 kg/hp
+ms_audi_s5_2010_eu, Audi S5 2010 EU Audi, 354 whp, 441 Nm*, 1725 kg*, 300<km/h, 4.5s 0-100, 4.87 kg/hp
+ms_seat_leon_cupra_r_facelift, Seat Leon 1P Cupra R Facelift Seat, 262 whp, 350 Nm*, 1375 kg*, 220+ kph, 0-100 in 6.+ s, 5.25 kg/hp
+oreca_flm09, Oreca FLM09 Oreca Technology, 509 bhp, 636 Nm, 910kg, 300+km/h, , 1.79 kg/hp
+p4-5_2011, P4/5 Competizione 2011 Scuderia Glickenhaus, 450bhp, 500Nm, 1230kg, 260km/h, 3.9s 0-100, 2.62kg/hp
+pagani_huayra, Pagani Huayra Pagani, 730bhp, 1000Nm, 1360kg, 370+km/h, 2.7s 0-100, 1.86kg/hp
+pagani_zonda_r, Pagani Zonda R Pagani, 750bhp, 710Nm, 1070kg, 350+km/h, 2.7s 0-100, 1.43kg/hp
+pg_tc1000, Abarth 1000 TC 1970 Abarth, 112 bhp, 101 Nm, 605 kg*, 200 Km/h, 0 - 100 kph in 7.2 s, 5.4 kg/hp
+pg_tc1000_1968, Abarth 1000 TC 1968 Abarth, 104 bhp, 99 Nm, 605 kg*, 195 Km/h, 0 - 100 kph in 7.2 s, 5.82 kg/hp
+rss_formula_1990, Formula RSS 1990 V12 Race Sim Studio, 680bhp, 393Nm, 503kg, +320 km/h, 3s 0-100, 0.74 kg/hp
+rss_formula_2000, Ferrari F1-2000 Ferrari, 805bhp, 350Nm, 600kg, 350km/h, 2.8s 0-100, 0.75kg/hp
+rss_formula_2010, Formula RSS 2010 V8 Race Sim Studio, 777bhp, 324Nm, 621kg*, +330km/h, --s 0-100, 0.8 kg/hp
+rss_formula_2013, Formula RSS 2013 V8 Race Sim Studio, 770bhp, 310Nm, 642kg*, +340km/h, --s 0-100, 0.83kg/hp
+rss_formula_70, Formula RSS 1970 V8 Race Sim Studio, 449bhp, 332Nm, 640kg, >300 km/h, 0-100, 1.43 kg/hp
+rss_formula_70_s, Formula RSS 1970 V8 S Race Sim Studio, 449bhp, 332Nm, 640kg, >300 km/h, 0-100, 1.43 kg/hp
+rss_formula_79, Lotus 79 Lotus Classic Cars, 463bhp, 333Nm, 610kg, +260 km/h, 3s 0-100, 1.32kg/hp
+rss_formula_americas_2020, Formula Americas 2020 Race Sim Studio, 660bhp, 410Nm, 845kg, 300kph, ~2.8s, 1.28 kg/hp
+rss_formula_americas_2020_oval, Formula Americas 2020 Oval Race Sim Studio, 550bhp, 440Nm, 825kg, 370+kph, ~2.8s, 1.5 kg/hp
+rss_formula_hybrid_2017, Formula Hybrid 2017 Race Sim Studio, 980bhp, 575Nm, 728kg, 360 km/h, 2.6s 0-100, 0.74kg/hp
+rss_formula_hybrid_2018, Formula Hybrid 2018 Race Sim Studio, 980bhp, 600Nm, 734kg, 360 km/h, 2.6s 0-100, 0.74kg/hp
+rss_formula_hybrid_2018_s1, Formula Hybrid 2018 S1 Race Sim Studio, 980bhp, 600Nm, 734kg, 360 km/h, 2.6s 0-100, 0.74kg/hp
+rss_formula_hybrid_2019, Formula Hybrid 2019 Race Sim Studio, 980bhp, 666Nm, 743kg, 350 km/h, 2s 0-100, 0.76kg/hp
+rss_formula_hybrid_2022, Formula Hybrid 2022 Race Sim Studio, 980bhp, 575Nm, 805kg, 340km/h, 2s 0-100, 0.82kg/hp
+rss_formula_hybrid_2022_s, Formula Hybrid 2022 S Race Sim Studio, 985bhp, 570Nm, 809kg, +340km/h, 2s 0-100, 0.82kg/hp
+rss_formula_hybrid_2023, Formula Hybrid® 2023 Race Sim Studio, 996bhp, 555Nm, 807kg, +340km/h, 2s 0-100, 0.81 kg/hp
+rss_formula_hybrid_x, Formula Hybrid X 2022 Race Sim Studio, 990bhp, 560Nm, 768kg, +330km/h, 2s 0-100, 0.78kg/hp
+rss_formula_hybrid_x_evo, Formula Hybrid X 2022 EVO Race Sim Studio, 990bhp, 560Nm, 790kg, +330km/h, 2s 0-100, 0.8 kg/hp
+rss_formula_rss_2_v6_2020, Formula RSS 2 V6 2020 Race Sim Studio, 620bhp, 575Nm, 750kg, 320 km/h, 2.6s 0-100, 1.21kg/hp
+rss_formula_rss_2_v8, Formula RSS 2 Race Sim Studio, 612bhp, 500Nm, 688kg, 320 km/h, 2.6s 0-100, 1.13kg/hp
+rss_formula_rss_3_v6, Formula RSS 3 V6 Race Sim Studio, 380bhp, 385Nm, 690kg, +280km/h, 3.0s 0-100, 1.82 kg/hp
+rss_formula_rss_4, Formula RSS 4 Race Sim Studio, 160bhp, 210Nm, 620kg, >220 km/h, 0-100, 3.88kg/hp
+rss_formula_rss_supreme, Formula RSS Supreme Race Sim Studio, 550bhp, 480Nm, 670kg, +300km/h, -, 1.22kg/hp
+rss_gt_adonis_d9_v12, Aston Martin DBR9 GT1 Aston Martin, 585bhp, 675Nm, 1180kg, 300km/h, --s 0-100, 2.46kg/hp
+rss_gt_ferruccio_55, GT Ferruccio 55 V12 Race Sim Studio, 628bhp, 673Nm, 1100kg, +300km/h, --s 0-100, 1.75kg/hp
+rss_gt_ferruccio_57, GT Ferruccio 57 V12 Race Sim Studio, 620bhp, 665Nm, 1150kg, 300km/h, --s 0-100, 1.85kg/hp
+rss_gt_lanzo_v12, GT Lanzo V12 Race Sim Studio, 603 bhp, 652 Nm, 1185kg, 295km/h, --s 0-100, 1.96 kg/hp
+rss_gt_shadow_v8, GT Shadow V8 Race Sim Studio, 618 bhp, 732 Nm, 1165kg, 290+km/h, --s, 1.89kg/cv
+rss_gt_tornado_v12, GT Tornado V12 Race Sim Studio, 606bhp, 790Nm, 1180kg, 295km/h, --s 0-100, 1.95kg/hp
+rss_gt_vortex_v10, GT Vortex V10 Race Sim Studio, 631bhp, 743Nm, 1140kg, 300km/h, --s 0-100, 1.81kg/hp
+rss_gtm_aero_v10_evo2, GT-M Aero V10 Evo2 Race Sim Studio, 501bhp, 472Nm, 1411kg, 270+km/h, --s 0-100, 2.82kg/hp
+rss_gtm_akuro_v6_evo2, GT-M Akuro V6 Evo2 Race Sim Studio, 503bhp, 644Nm, 1370kg, 280+km/h, --s 0-100, 2.72kg/hp
+rss_gtm_bayer_v8, GT-M Bayer V8 Race Sim Studio, 550bhp, 660Nm, 1380kg, 270+km/h, --s 0-100, 2.51 kg/hp
+rss_gtm_bayro_6, BMW M6 GT3 BMW, 550bhp, 660Nm, 1310kg, 270+km/h, --s 0-100, 2.38kg/hp
+rss_gtm_lanzo_v10, GT-M Lanzo V10 Race Sim Studio, 530bhp, 500Nm, 1380kg, 270+km/h, --s 0-100, 2.6 kg/hp
+rss_gtm_lanzo_v10_evo2, GT-M Lanzo V10 Evo2 Race Sim Studio, 530bhp, 500Nm, 1400 kg*, 270+km/h, --s 0-100, 2.64 kg/hp
+rss_gtm_lux_v8, GT-M Lux V8 Race Sim Studio, 463bhp, 529Nm, 1395kg, 270+km/h, --s 0-100, 3.01kg/hp
+rss_gtm_mercer_v8, GT-M Mercer V8 Race Sim Studio, 500bhp, 610Nm, 1390kg, 270+km/h, --s 0-100, 2.78 kg/hp
+rss_gtn_darche_96, Porsche 996 GT3 RS N-GT Porsche, 455bhp, 410Nm, 1190kg, +280km/h, --s 0-100, 2.61kg/hp
+rss_gtn_ferruccio_36, Ferrari 360 Modena N-GT Ferrari, 445bhp, 410Nm, 1190kg, +280, --s, 2.67kg/hp
+rss_hyperion_2020, NASCAR Ford Mustang 2020 Ford, 740bhp, 658Nm, 1505kg, 310+km/h, --s 0-100, 2.04kg/hp
+rss_lmgt_nisumo_r39_v8, Nissan R390 GT1 Nissan, 595bhp, 652Nm, 1070kg, 330+km/h, --s 0-100, 1.80kg/hp
+rss_lmgt_toyama_2zero_v8, Toyota GT-One Toyota, 604bhp, 650Nm, 990kg, 330+km/h, --s 0-100, 1.64 kg/hp
+rss_lmp_ferruccio_33_v12, Ferrari 333 SP Ferrari, 600 bhp, 416 Nm, 979kg, 330+km/h , , 1.63 kg/hp
+rss_lmp1_protech_p91_evo, Porsche 919 Hybrid Evo Porsche, 717bhp, 690Nm, 919kg, 370 km/h, --s 0-100, 1.28 kg/hp
+rss_mph_bayer_hybrid_v8, BMW M Hybrid V8 BMW, 600bhp, 615Nm, 1120kg, 340+km/h, --s 0-100, 1.87kg/hp
+ruf_yellowbird, RUF CTR Yellowbird RUF, 469bhp, 553Nm, 1147kg, 342km/h, 4.0s 0-100, 2.44kg/hp
+shelby_cobra_427sc, Shelby Cobra 427 S/C Shelby, 500bhp, 626Nm, 1110kg, 265km/h, 4.3s 0-100, 2.14kg/hp
+srp_honda_s2000_legendary, Honda S2000 (AP2 - Legendary) Honda, 497 bhp, 495 Nm, 1157 kg, 300 km/h, 0 - 100 kph in 3.9 s, 2.33 kg/hp
+srp_wangan_r33_ver1, Nissan Skyline GTR R33 (S3 - Wangan) Nissan, 887 bhp, 963 Nm, 1540 kg, 350 km/h, 0 - 100 kph in 5.9 s, 1.74 kg/hp
+subaru_impreza_s206_nbr_2012, Subaru Impreza WRX STI S206 NBR Challenge Package Subaru, 315 bhp, 431 Nm, 1470kg, 240 km/h, 5.2s 0-100km/h, 4.67 kg/hp
+tatuusfa1, Tatuus FA01 Tatuus, 198bhp, 230Nm, 455kg, 230+km/h, --s 0-100, 2.30kg/hp
+tmm_cupra_tcr_2022, Cupra Leon Competición 2022 Cupra, 341 bhp, 436 Nm, 1235 kg, 245km/h, 5.0s 0-100, 3.62 kg/hp
+urd_amr_egt_2019, Aston Martin Vantage GTE Aston Martin, 535 bhp, 700 Nm, 1245 kg, 270+km/h, , 2.33 kg/hp
+urd_bayro_egt_2018, BMW Z4 GTE BMW, 480 bhp, 480 Nm, 1245 kg, 290 km/h, , 2.59 kg/cv
+urd_bayro_gt3_v2, BMW M4 GT3 BMW, 590 bhp, 765 Nm, 1355 kg*, 270+km/h, , 2.3 kg/hp
+urd_darche_992_23, Porsche 992 GT3-R Porsche, 550 bhp, 494 Nm, 1240kg, 300 km/h, 2.8s 0-100, 2.25 kg/hp
+urd_darche_egt_2021, Porsche 911 RSR Porsche, 460 bhp, 450 Nm, 1245 kg, 290 km/h, , 2.71 kg/cv
+urd_detroit_egt_2018, Ford GT IMSA GTLM Ford, 519 whp, 534 Nm*, 1245 kg, 270+km/h, , 2.4 kg/hp
+urd_detroit_egt_2018_LM, Ford GT LM GTE Ford, 519 whp, 534 Nm*, 1245 kg, 270+km/h, , 2.4 kg/hp
+urd_egt1_darche_evo_97, Darche 996 EGT1 EVO United Racing Design, 544 whp, 595 Nm, 1040 kg, 310 km/h, , 1.91 kg/hp
+urd_fcdetroit_oval, Dallara DW12 Chevrolet Engine Oval Dallara, 450 bhp, 578Nm, 675kg, 250+km/h, --s, --
+urd_fcdetroit_road, Dallara DW12 Chevrolet Engine Road Dallara, 450 bhp, 578Nm, 675kg, 250+km/h, --s, --
+urd_fcsuzuka_oval, Dallara DW12 Honda Engine Oval Dallara, 450 bhp, 578Nm, 675kg, 250+km/h, --s, --
+urd_fcsuzuka_road, Dallara DW12 Honda Engine Road Dallara, 450 bhp, 578Nm, 675kg, 250+km/h, --s, --
+urd_ferrucci_296_23, Ferrari 296 GT3 Ferrari, 590 bhp, 699 Nm, 1250kg, 300 km/h, 2.9s 0-100, 2.12 kg/hp
+urd_formulalights_oval, Dallara IL-15 Oval Dallara, 450 bhp, 578Nm, 675kg, 270+km/h, --s, --
+urd_formulalights_road, Dallara IL-15 Road Dallara, 450 bhp, 578Nm, 675kg, 250+km/h, --s, --
+urd_gr010, Toyota GR010 Hybrid Hypercar Toyota, 650bhp, --Nm, --kg, 320km/h, --s 0-100, --kg/hp
+urd_jt5_moyoda_2021, Toyota GR Supra GT500 Toyota, 664 bhp, 633 Nm, 1020 kg, 300 km/h, 3s 0-100, 1.54 kg/hp
+urd_jt5_shiro_2021, Nissan GT-R Nismo GT500 Nissan, 654 bhp, 630 Nm, 1020 kg, 300 km/h, 3s 0-100, 1.56 kg/hp
+urd_jt5_shiro_2022, JT5 SHIRO 2022 United Racing Design, 654 bhp, 630 Nm, 1020 kg, 300 km/h, 3s 0-100, 1.56 kg/hp
+urd_jt5_snx_2021, Honda NSX-GT500 Honda, 650 bhp, 628 Nm, 1020 kg, 300 km/h, 3s 0-100, 1.57 kg/hp
+urd_loire07_21, Oreca 07 Gibson 2021 Oreca, 560 bhp, 666 Nm, 930 kg, 270+km/h, , 1.42 kg/hp
+urd_maures_gtr_97, Maures LCK EGT1 United Racing Design, 590 bhp, 700 Nm, 1000 kg, 330+km/h, , 1.69 kg/hp
+urd_mercedes_clr_lm, Mercedes-Benz CLR LM Mercedes-Benz, 600 bhp, 684 Nm, 921 kg, 350 km/h, 2.7 s 0-100, 1.54 kg/hp
+urd_michigan_egt, Chevrolet Corvette C8R Chevrolet, 550 bhp, 705 Nm, 1240kg, 300+km/h, 3.2s 0-100, 2.25 kg/hp
+urd_px1_aura, Audi R18 e-tron quattro Audi, 558 bhp, 850 Nm, 870 kg, , , 1.56 kg/cv
+urd_px1_darche, Porsche 919 Hybrid Porsche, 485+ bhp, 499Nm, 1245kg, 270+km/h, , 2.56kg/cv
+urd_px1_darche_s1, Porsche 919 Hybrid S1 Porsche, 485+ bhp, 499Nm, 1245kg, 270+km/h, , 2.56kg/cv
+urd_px1_revolution, Rebellion R-One Oreca, 525 bhp, , 850 kg, 331.8 km/h, , 1.62 kg/cv
+urd_px1_revolution_v6, Rebellion R-One V6 Oreca, 525 bhp, , 850kg, 331.8 km/h, , 1.62kg/cv
+urd_px1_shiro, Nissan GT-R LM Nismo Nissan, 1250 bhp, 1270 Nm, 880 kg, 338 km/h, , 0.7 kg/hp
+urd_px2_loire, Oreca 05 Oreca, 490 bhp, 570 Nm, 900 kg, , , 1.84kg/cv
+urd_radical_sr10xxr_2023, Radical SR10 XXR Radical, 425 bhp, 515 Nm, 725kg, 290km/h, 2.5s 0-100, 1.71 kg/hp
+urd_radical_sr3xxr_2023, Radical SR3 XXR Radical, 232 bhp, 186 Nm, 662 kg, 240km/h, 3.2s 0-100, 2.85 kg/hp
+urd_rekus_rcf_gt3, Lexus RC F GT3 Lexus, 550 bhp, 583 Nm, 1376kg*, 270+km/h, , 2.5 kg/hp
+urd_scg007_lmh, SCG 007LMH Scuderia Glickenhaus, 650bhp, --Nm, --kg, 320km/h, --s 0-100, --kg/hp
+urd_t5_aura_2018, Audi RS 5 DTM Audi, 485+ bhp, 499Nm, 1245kg, 270+km/h, , 2.56kg/cv
+urd_t5_bayro_2018, BMW M4 DTM BMW, 485+ bhp, 499Nm, 1245kg, 270+km/h, , 2.56kg/cv
+urd_t5_maures_2018, Mercedes-AMG C 63 DTM Mercedes-Benz, 485+ bhp, 499Nm, 1245kg, 270+km/h, , 2.56kg/cv
+vrc_2019_formula_lithium, Spark SRT05E 2019 FIA Formula E Championship, 335 bhp, - Nm, 825 kg, 278 kph, 1s, 2.69 kg/hp
+vrc_arc_ta2_chevrette_csp, Chevrolet Camaro Gen6 TA2 (CSP) Chevrolet, 513 BHP, 656 Nm, 1200 kg, 295km/h, 4.2s, 2.34 kg/hp
+vrc_arc_ta2_dagger_csp, Dodge Challenger TA2 (CSP) Dodge, 522 BHP, 667 Nm, 1200 kg, 292km/h, 4.2s, 2.3 kg/hp
+vrc_arc_ta2_mare_csp, Ford Mustang TA2 (CSP) Ford, 513 BHP, 656 Nm, 1200 kg, 295km/h, 4.2s, 2.34 kg/hp
+vrc_erc_1998_pageau_csp, VRC ERC - Pageau 46 (CSP) VRC, 314 bhp, 269 Nm, 975 kg, 275 km/h, 5s, 3.11 kg/hp
+vrc_erc_1999_fortix_csp, VRC ERC - Fortix Mando (CSP) VRC, 318 bhp, 284 Nm, 975 kg, 275 km/h, 5.5s, 3.07 kg/hp
+vrc_erc_1999_gojira_csp, VRC ERC - Gojira Ascent (CSP) VRC, 320 bhp, 282 Nm, 975 kg, 272 km/h, 5.25s, 3.05 kg/hp
+vrc_erc_1999_renoir_csp, VRC ERC - Renoir Lagoon (CSP) VRC, 320 bhp, 273Nm, 975kg, 275 km/h, 5s, 3.05 kg/hp
+vrc_erc_1999_vorax_csp, VRC ERC - Vorax Vector (CSP) VRC, 311 bhp, 276 Nm, 975 kg, 278 km/h, 5s, 3.14 kg/hp
+vrc_formula_lithium_2023_csp, VRC Formula Lithium 2023 (CSP) VRC, 470 bhp, - Nm, 771 kg, 325 kph, 3s, 1.64 kg/hp
+vrc_formula_na_1999_oval, 1999 Reynard 99i (Oval Kit) CART World Series, 960bhp, 560Nm, 705kg, 400+km/h, 3.3s, 0.73 kg/hp
+vrc_formula_na_1999_road, 1999 Reynard 99i (Road Kit) CART World Series, 960BHP, 560Nm, 705kg, 400+km/h, 3.1s, 0.73 kg/hp
+vrc_formula_na_2012_oval, 2012 Dallara DW12 (Oval Kit) IndyCar Series, 620BHP, 447Nm, 722kg, 375+km/h, 3.27s, 1.16 kg/hp
+vrc_formula_na_2012_road, 2012 Dallara DW12 (Road Kit) IndyCar Series, 730BHP, 527Nm, 735kg, 280+km/h, 2.78s, 1.01 kg/hp
+vrc_formula_na_2018_oval, 2018 Dallara DW12 (Oval Kit) IndyCar Series, 675BHP (Q), 488Nm, 721Kg, 380+km/h, 2.95s, 1.07 kg/hp
+vrc_formula_na_2018_road, 2018 Dallara DW12 (Road Kit) IndyCar Series, 746BHP (Q), 539Nm, 737Kg, 300, 2.77s, 0.99 kg/hp
+vrc_formula_na_2018_short, 2018 Dallara DW12 (Short Oval Kit) IndyCar Series, 703BHP, 508Nm, 735, 325kph, 2.98s, 1.05 kg/hp
+vrc_pt_1999_beamer, BMW V12 LMR BMW, 580BHP, 670Nm, 900kg, 340km/h, 2.7s, 1.55 kg/hp
+vrc_pt_2019_bycollin, ENSO CLM P1/01 ByKolles Racing, 693BHP, 720Nm, 833Kg, 333Kph, 2.79s, 1.2 kg/hp
+vrc_pt_2019_revenga_r13, Rebellion R13 Rebellion Racing, 693BHP, 720Nm, 833kg, 339km/h, 2.96s, 1.2 kg/hp
+vrc_pt_2019_tagomi_t50, Toyota TS050 Hybrid Toyota, 1032 BHP, N/A*, 878kg, 340km/h, 1.7s, 0.85 kg/hp
+vrc_pt_2019_vendetta_v60, Ginetta G60-LT-P1 Ginetta, 720BHP, 850Nm, 833Kg, 345Kph, 2.8s, 1.16 kg/hp
+vrc_pt_2023_pageau_98_csp, Peugeot 9X8 Peugeot, 697 wHP, 655 Nm, 1030kg, 340km/h, 3.7s, 1.48 kg/hp
+vrc_pt_auriel8, Audi R8 LMP Audi, 570BHP, 652Nm, 910kg, 325km/h, 2.7s, 1.6 kg/hp
+vrc_pt_cadenza, Cadillac Northstar LMP02 Cadillac, 612BHP, 746Nm, 905kg, 325km/h, 2.4s, 1.6 kg/hp
+vrc_pt_pavey, Panoz LMP01 Evo Panoz, 607 BHP, 650 NM, 910 kg, 325+km/h, 2.5s, 1.5 kg/hp
+vrc_pt_project8, Bentley Speed 8 Bentley, 615bhp, 812Nm, 908kg, +320km/h, 2.5s, 1.48 kg/hp

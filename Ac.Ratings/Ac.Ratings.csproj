@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <Folder Include="Resources\Backup\" />
-    <Folder Include="Resources\Previews\" />
+    <Folder Include="Resources\Ratings\" />
     <Folder Include="View\" />
     <Folder Include="ViewModel\" />
   </ItemGroup>

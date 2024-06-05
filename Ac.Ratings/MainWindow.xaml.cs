@@ -1,6 +1,8 @@
-﻿using System.IO;
+﻿using System.Diagnostics;
+using System.IO;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Documents;
 using System.Windows.Media.Imaging;
 using Ac.Ratings.Model;
 using Ac.Ratings.Services;
@@ -25,6 +27,7 @@ namespace Ac.Ratings {
                 LoadCarImage(selectedCar);
                 DisplayCarStats(selectedCar);
                 DisplayCarRatings(selectedCar);
+                UpdateAverageRating();
             }
         }
 
@@ -79,8 +82,59 @@ namespace Ac.Ratings {
             }
         }
 
+        private void ClearRatings() {
+            var selectedCar = (CarData)CarList.SelectedItem;
+            if (selectedCar != null) {
+                selectedCar.Ratings.Handling = 0;
+                selectedCar.Ratings.Physics = 0;
+                selectedCar.Ratings.Realism = 0;
+                selectedCar.Ratings.Sound = 0;
+                selectedCar.Ratings.Visuals = 0;
+                selectedCar.Ratings.FunFactor = 0;  
+                selectedCar.Ratings.ExtraFeatures = 0;
+
+                HandlingSlider.Value = 0;
+                PhysicsSlider.Value = 0;
+                RealismSlider.Value = 0;
+                SoundSlider.Value = 0;
+                VisualsSlider.Value = 0;
+                FunFactorSlider.Value = 0;
+                ExtraFeaturesSlider.Value = 0;
+
+                var jsonContent = JsonConvert.SerializeObject(_data.CarDb, Formatting.Indented);
+                File.WriteAllText(_data.carDbFilePath, jsonContent);
+
+                UpdateAverageRating();
+            }
+        }
+
         private void SaveButton_Click(object sender, RoutedEventArgs e) {
             SaveRatings();
+        }
+
+        private void UpdateAverageRating() {
+            var selectedCar = (CarData)CarList.SelectedItem;
+            if (selectedCar != null) {
+                var ratings = new List<double> {
+                    HandlingSlider.Value,
+                    PhysicsSlider.Value,
+                    RealismSlider.Value,
+                    SoundSlider.Value,
+                    VisualsSlider.Value,
+                    FunFactorSlider.Value,
+                    ExtraFeaturesSlider.Value
+                };
+                var averageRating = ratings.Average();
+                AverageRating.Text = $"Average Rating: {averageRating:F2}";
+            }
+        }
+
+        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
+            UpdateAverageRating();
+        }
+
+        private void ClearButton_Click(object sender, RoutedEventArgs e) {
+            ClearRatings();
         }
     }
 }

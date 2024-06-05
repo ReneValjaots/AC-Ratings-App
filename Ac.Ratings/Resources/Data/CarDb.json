@@ -190,7 +190,7 @@
     "ratings": {
       "handling": 0.0,
       "physics": 0.0,
-      "realism": 6.0,
+      "realism": 0.0,
       "sound": 0.0,
       "visuals": 0.0,
       "funFactor": 0.0,
@@ -276,13 +276,13 @@
       "pwratio": "18.9kg/hp"
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
-      "realism": 0.0,
-      "sound": 0.0,
-      "visuals": 0.0,
-      "funFactor": 0.0,
-      "extraFeatures": 0.0
+      "handling": 10.0,
+      "physics": 2.0,
+      "realism": 7.5,
+      "sound": 5.5,
+      "visuals": 1.5,
+      "funFactor": 10.0,
+      "extraFeatures": 10.0
     }
   },
   {
@@ -343,7 +343,7 @@
     },
     "ratings": {
       "handling": 0.0,
-      "physics": 0.0,
+      "physics": 10.0,
       "realism": 0.0,
       "sound": 0.0,
       "visuals": 0.0,
@@ -985,8 +985,8 @@
       "realism": 0.0,
       "sound": 0.0,
       "visuals": 0.0,
-      "funFactor": 0.0,
-      "extraFeatures": 0.0
+      "funFactor": 1.5,
+      "extraFeatures": 3.5
     }
   },
   {
@@ -1006,9 +1006,9 @@
       "physics": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "visuals": 5.5,
       "funFactor": 0.0,
-      "extraFeatures": 0.0
+      "extraFeatures": 4.5
     }
   },
   {

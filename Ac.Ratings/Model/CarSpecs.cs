@@ -4,47 +4,47 @@ using System.Runtime.CompilerServices;
 
 namespace Ac.Ratings.Model {
     public class CarSpecs : INotifyPropertyChanged {
-        private string? bhp;
-        private string? torque;
-        private string? weight;
-        private string? topspeed;
-        private string? acceleration;
-        private string? pwratio;
+        private string? _bhp;
+        private string? _torque;
+        private string? _weight;
+        private string? _topspeed;
+        private string? _acceleration;
+        private string? _pwratio;
 
         [JsonProperty("bhp")]
         public string? Bhp {
-            get => bhp;
-            set => SetField(ref bhp, value);
+            get => _bhp;
+            set => SetField(ref _bhp, value);
         }
 
         [JsonProperty("torque")]
         public string? Torque {
-            get => torque;
-            set => SetField(ref torque, value);
+            get => _torque;
+            set => SetField(ref _torque, value);
         }
 
         [JsonProperty("weight")]
         public string? Weight {
-            get => weight;
-            set => SetField(ref weight, value);
+            get => _weight;
+            set => SetField(ref _weight, value);
         }
 
         [JsonProperty("topspeed")]
         public string? Topspeed {
-            get => topspeed;
-            set => SetField(ref topspeed, value);
+            get => _topspeed;
+            set => SetField(ref _topspeed, value);
         }
 
         [JsonProperty("acceleration")]
         public string? Acceleration {
-            get => acceleration;
-            set => SetField(ref acceleration, value);
+            get => _acceleration;
+            set => SetField(ref _acceleration, value);
         }
 
         [JsonProperty("pwratio")]
         public string? Pwratio {
-            get => pwratio;
-            set => SetField(ref pwratio, value);
+            get => _pwratio;
+            set => SetField(ref _pwratio, value);
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;

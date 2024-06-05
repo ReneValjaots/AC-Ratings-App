@@ -91,17 +91,24 @@
                     </StackPanel>
                 </Grid>
             </StackPanel>
-            <StackPanel Grid.Row="1" Grid.Column="2" VerticalAlignment="Top" Margin="10">
+            <StackPanel Grid.Row="1" Grid.Column="2" 
+                        VerticalAlignment="Top" Margin="10">
 
-                <TextBlock Text="Handling:" Foreground="White"/>
+                <TextBlock Text="{Binding ElementName=HandlingSlider, 
+                    Path=Value, 
+                    StringFormat='Handling: {0}'}" 
+                           Foreground="White"/>
 
                 <Slider x:Name="HandlingSlider" 
                         Minimum="0" Maximum="10" 
                         TickFrequency="0.5" 
                         IsSnapToTickEnabled="True" 
-                        Width="150"/>
+                        Width="150"
+                        ValueChanged="Slider_ValueChanged"/>
 
-                <TextBlock Text="Physics:" 
+                <TextBlock Text="{Binding ElementName=PhysicsSlider, 
+                    Path=Value, 
+                    StringFormat='Physics: {0}'}"  
                            Foreground="White" 
                            Margin="0,10,0,0"/>
 
@@ -110,9 +117,12 @@
                         Maximum="10" 
                         TickFrequency="0.5" 
                         IsSnapToTickEnabled="True" 
-                        Width="150"/>
+                        Width="150"
+                        ValueChanged="Slider_ValueChanged"/>
 
-                <TextBlock Text="Realism:" 
+                <TextBlock Text="{Binding ElementName=RealismSlider, 
+                    Path=Value, 
+                    StringFormat='Realism: {0}'}" 
                            Foreground="White" 
                            Margin="0,10,0,0"/>
 
@@ -121,9 +131,12 @@
                         Maximum="10" 
                         TickFrequency="0.5" 
                         IsSnapToTickEnabled="True" 
-                        Width="150"/>
+                        Width="150"
+                        ValueChanged="Slider_ValueChanged"/>
 
-                <TextBlock Text="Sound:" 
+                <TextBlock Text="{Binding ElementName=SoundSlider, 
+                    Path=Value, 
+                    StringFormat='Sound: {0}'}" 
                            Foreground="White" 
                            Margin="0,10,0,0"/>
 
@@ -132,9 +145,12 @@
                         Maximum="10" 
                         TickFrequency="0.5" 
                         IsSnapToTickEnabled="True" 
-                        Width="150"/>
+                        Width="150"
+                        ValueChanged="Slider_ValueChanged"/>
 
-                <TextBlock Text="Visuals:" 
+                <TextBlock Text="{Binding ElementName=VisualsSlider, 
+                    Path=Value, 
+                    StringFormat='Visuals: {0}'}"  
                            Foreground="White" 
                            Margin="0,10,0,0"/>
 
@@ -143,9 +159,12 @@
                         Maximum="10" 
                         TickFrequency="0.5" 
                         IsSnapToTickEnabled="True" 
-                        Width="150"/>
+                        Width="150"
+                        ValueChanged="Slider_ValueChanged"/>
 
-                <TextBlock Text="Fun Factor:" 
+                <TextBlock Text="{Binding ElementName=FunFactorSlider, 
+                    Path=Value, 
+                    StringFormat='Fun Factor: {0}'}" 
                            Foreground="White" 
                            Margin="0,10,0,0"/>
 
@@ -154,9 +173,12 @@
                         Maximum="10" 
                         TickFrequency="0.5" 
                         IsSnapToTickEnabled="True" 
-                        Width="150"/>
+                        Width="150"
+                        ValueChanged="Slider_ValueChanged"/>
 
-                <TextBlock Text="Extra Features:" 
+                <TextBlock Text="{Binding ElementName=ExtraFeaturesSlider, 
+                    Path=Value, 
+                    StringFormat='Extra Features: {0}'}"  
                            Foreground="White" 
                            Margin="0,10,0,0"/>
 
@@ -165,9 +187,22 @@
                         Maximum="10" 
                         TickFrequency="0.5" 
                         IsSnapToTickEnabled="True" 
-                        Width="150"/>
+                        Width="150"
+                        ValueChanged="Slider_ValueChanged"/>
                 
-                <Button x:Name="SaveButton" Content="Save Ratings" Click="SaveButton_Click"/>
+                <TextBlock x:Name="AverageRating"
+                           Foreground="White"
+                           Margin="0,10,0,0"/>
+
+                <Button x:Name="SaveButton" 
+                        Content="Save Ratings" 
+                        Click="SaveButton_Click"
+                        Margin="0,15,0,0"/>
+
+                <Button x:Name="ClearButton" 
+                        Content="Clear Ratings" 
+                        Click="ClearButton_Click"
+                        Margin="0,15,0,0"/>
             </StackPanel>
         </Grid>
     </Border>

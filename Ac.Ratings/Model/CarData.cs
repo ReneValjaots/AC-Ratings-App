@@ -4,41 +4,40 @@ using Newtonsoft.Json;
 
 namespace Ac.Ratings.Model {
     public class CarData : INotifyPropertyChanged {
-        private string? id;
-        private string? name;
-        private string? brand;
-        private string? previewFolder;
-        private CarSpecs specs = new();
-        private CarRatings ratings = new();
+        private string? _name;
+        private string? _brand;
+        private string? _previewFolder;
+        private CarSpecs _specs = new();
+        private CarRatings _ratings = new();
 
         [JsonProperty("name")]
         public string? Name {
-            get => name;
-            set => SetField(ref name, value);
+            get => _name;
+            set => SetField(ref _name, value);
         }
 
         [JsonProperty("brand")]
         public string? Brand {
-            get => brand;
-            set => SetField(ref brand, value);
+            get => _brand;
+            set => SetField(ref _brand, value);
         }
 
         [JsonProperty("previewFolder")]
         public string? PreviewFolder {
-            get => previewFolder;
-            set => SetField(ref previewFolder, value);
+            get => _previewFolder;
+            set => SetField(ref _previewFolder, value);
         }
 
         [JsonProperty("specs")]
         public CarSpecs Specs {
-            get => specs;
-            set => SetField(ref specs, value);
+            get => _specs;
+            set => SetField(ref _specs, value);
         }
 
         [JsonProperty("ratings")]
         public CarRatings Ratings {
-            get => ratings;
-            set => SetField(ref ratings, value);
+            get => _ratings;
+            set => SetField(ref _ratings, value);
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;

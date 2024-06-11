@@ -5,9 +5,8 @@ using Newtonsoft.Json;
 namespace Ac.Ratings.Services {
     public class InitializeData {
         public List<CarData> CarDb { get; private set; }
-        private const string _acRootFolder = @"D:\\SteamLibrary\\steamapps\\common\\assettocorsa\\content\\cars";
+        private const string _acRootFolder = @"D:\Steam\steamapps\common\assettocorsa\content\cars";
         public string carDbFilePath = @"C:\Users\ReneVa\source\repos\Ac.Ratings\Ac.Ratings\Resources\Data\CarDb.json";
-        //private const string _carRatingsFilePath = @"C:\Users\ReneVa\source\repos\Ac.Ratings\Ac.Ratings\Resources\Ratings\CarRatings.json";
 
         public InitializeData() {
             if (File.Exists(carDbFilePath)) {

@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Hamburger_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Resources\Backup\" />
     <Folder Include="Resources\Ratings\" />
     <Folder Include="View\" />
@@ -16,7 +20,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Hamburger_icon.png" />
   </ItemGroup>
 
 </Project>

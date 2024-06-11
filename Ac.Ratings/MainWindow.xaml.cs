@@ -1,8 +1,7 @@
-﻿using System.Diagnostics;
-using System.IO;
+﻿using System.IO;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Documents;
+using System.Windows.Data;
 using System.Windows.Media.Imaging;
 using Ac.Ratings.Model;
 using Ac.Ratings.Services;
@@ -14,6 +13,7 @@ namespace Ac.Ratings {
     /// </summary>
     public partial class MainWindow : Window {
         private InitializeData _data;
+        private CollectionViewSource _carCollectionView;
 
         public MainWindow() {
             InitializeComponent();
@@ -108,9 +108,7 @@ namespace Ac.Ratings {
             }
         }
 
-        private void SaveButton_Click(object sender, RoutedEventArgs e) {
-            SaveRatings();
-        }
+        private void SaveButton_Click(object sender, RoutedEventArgs e) => SaveRatings();
 
         private void UpdateAverageRating() {
             var selectedCar = (CarData)CarList.SelectedItem;
@@ -129,12 +127,28 @@ namespace Ac.Ratings {
             }
         }
 
-        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
-            UpdateAverageRating();
+        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) => UpdateAverageRating();
+
+        private void ClearButton_Click(object sender, RoutedEventArgs e) => ClearRatings();
+
+        private void SearchBox_TextChanged(object sender, TextChangedEventArgs e) {
+            CarList.Items.Filter = FilterCarList;
         }
 
-        private void ClearButton_Click(object sender, RoutedEventArgs e) {
-            ClearRatings();
+        private bool FilterCarList(object obj) {
+            var car = (CarData)obj;
+            return car.Name.Contains(SearchBox.Text, StringComparison.OrdinalIgnoreCase);
+        }
+
+        private void MenuButton_OnClick(object sender, RoutedEventArgs e) {
+            if (CarList.Visibility == Visibility.Visible) {
+                CarList.Visibility = Visibility.Collapsed;
+                SearchBox.Visibility = Visibility.Collapsed;
+            }
+            else {
+                CarList.Visibility = Visibility.Visible;
+                SearchBox.Visibility = Visibility.Visible;
+            }
         }
     }
 }

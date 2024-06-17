@@ -7,17 +7,18 @@ namespace Ac.Ratings.Services {
         public List<CarData> CarDb { get; private set; }
         private const string _acRootFolder = @"D:\Steam\steamapps\common\assettocorsa\content\cars";
         public string carDbFilePath = @"C:\Users\ReneVa\source\repos\Ac.Ratings\Ac.Ratings\Resources\Data\CarDb.json";
+        public string carDbTestFilePath = @"C:\Users\ReneVa\source\repos\Ac.Ratings\Ac.Ratings\Resources\Data\CarDbTest.json";
 
         public InitializeData() {
-            if (File.Exists(carDbFilePath)) {
-                var jsonContent = File.ReadAllText(carDbFilePath);
-                CarDb = JsonConvert.DeserializeObject<List<CarData>>(jsonContent);
-            }
-            else {
+            //if (File.Exists(carDbFilePath)) {
+            //    var jsonContent = File.ReadAllText(carDbFilePath);
+            //    CarDb = JsonConvert.DeserializeObject<List<CarData>>(jsonContent);
+            //}
+            //else {
                 CarDb = ReadDataFromFiles(_acRootFolder);
                 OrganizeCarDb();
-                SaveCarData();
-            }
+                SaveCarData(carDbTestFilePath);
+            //}
         }
 
         private List<CarData> ReadDataFromFiles(string acRootFolder) {
@@ -60,9 +61,9 @@ namespace Ac.Ratings.Services {
             return null;
         }
 
-        private void SaveCarData() {
+        private void SaveCarData(string filePath) {
             var jsonContent = JsonConvert.SerializeObject(CarDb, Formatting.Indented);
-            File.WriteAllText(carDbFilePath, jsonContent);
+            File.WriteAllText(filePath, jsonContent);
         }
 
         private void OrganizeCarDb() {

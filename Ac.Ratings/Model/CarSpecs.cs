@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Ac.Ratings.Services;
+using Newtonsoft.Json;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
@@ -10,39 +11,52 @@ namespace Ac.Ratings.Model {
         private string? _topspeed;
         private string? _acceleration;
         private string? _pwratio;
+        private string? _convertedPower;
+        private bool _isManufacturerData;
 
-        [JsonProperty("bhp")]
-        public string? Bhp {
-            get => _bhp;
-            set => SetField(ref _bhp, value);
+        [JsonProperty("convertedPower")] public string? ConvertedPower {
+            get => _convertedPower;
+            internal set => SetField(ref _convertedPower, value);
+        }
+        [JsonProperty("isManufacturerData")] public bool IsManufacturerData {
+            get => _isManufacturerData;
+            internal set => SetField(ref _isManufacturerData, value);
         }
 
-        [JsonProperty("torque")]
-        public string? Torque {
+        [JsonProperty("bhp")] public string? Bhp {
+            get => _bhp;
+            set {
+                if (SetField(ref _bhp, value)) {
+                    if (value != null) {
+                        var converter = new DataConverter(value);
+                        ConvertedPower = converter.ConvertedPower;
+                        IsManufacturerData = converter.IsManufacturerData;
+                    }
+                }
+            }
+        }
+
+        [JsonProperty("torque")] public string? Torque {
             get => _torque;
             set => SetField(ref _torque, value);
         }
 
-        [JsonProperty("weight")]
-        public string? Weight {
+        [JsonProperty("weight")] public string? Weight {
             get => _weight;
             set => SetField(ref _weight, value);
         }
 
-        [JsonProperty("topspeed")]
-        public string? Topspeed {
+        [JsonProperty("topspeed")] public string? Topspeed {
             get => _topspeed;
             set => SetField(ref _topspeed, value);
         }
 
-        [JsonProperty("acceleration")]
-        public string? Acceleration {
+        [JsonProperty("acceleration")] public string? Acceleration {
             get => _acceleration;
             set => SetField(ref _acceleration, value);
         }
 
-        [JsonProperty("pwratio")]
-        public string? Pwratio {
+        [JsonProperty("pwratio")] public string? Pwratio {
             get => _pwratio;
             set => SetField(ref _pwratio, value);
         }

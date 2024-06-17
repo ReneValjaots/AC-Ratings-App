@@ -43,6 +43,7 @@ namespace Ac.Ratings {
 
         private void DisplayCarStats(CarData selectedCar) {
             Name.Text = selectedCar.Name;
+            PowerFigures.Text = selectedCar.Specs.ConvertedPower ?? string.Empty;
             Brand.Text = selectedCar.Brand ?? string.Empty;
             Power.Text = selectedCar.Specs.Bhp ?? string.Empty;
             Torque.Text = selectedCar.Specs.Torque ?? string.Empty;

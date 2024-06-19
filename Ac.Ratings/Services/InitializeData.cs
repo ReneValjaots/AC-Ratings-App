@@ -10,15 +10,15 @@ namespace Ac.Ratings.Services {
         public string carDbTestFilePath = @"C:\Users\ReneVa\source\repos\Ac.Ratings\Ac.Ratings\Resources\Data\CarDbTest.json";
 
         public InitializeData() {
-            //if (File.Exists(carDbFilePath)) {
-            //    var jsonContent = File.ReadAllText(carDbFilePath);
-            //    CarDb = JsonConvert.DeserializeObject<List<CarData>>(jsonContent);
-            //}
-            //else {
+            if (File.Exists(carDbFilePath)) {
+                var jsonContent = File.ReadAllText(carDbFilePath);
+                CarDb = JsonConvert.DeserializeObject<List<CarData>>(jsonContent);
+            }
+            else {
                 CarDb = ReadDataFromFiles(_acRootFolder);
                 OrganizeCarDb();
-                SaveCarData(carDbTestFilePath);
-            //}
+                SaveCarData(carDbFilePath);
+            }
         }
 
         private List<CarData> ReadDataFromFiles(string acRootFolder) {

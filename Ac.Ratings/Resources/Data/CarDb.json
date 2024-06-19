@@ -2,58 +2,76 @@
   {
     "name": "Abarth 500 Assetto Corse",
     "brand": "Abarth",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_abarth500_assetto_corse\\skins\\0_official\\preview.jpg",
     "specs": {
-      "bhp": "195bhp",
+      "convertedPower": "140kW/190hp",
+      "isManufacturerData": true,
+      "bhp": "140kW/190hp",
       "torque": "302Nm",
       "weight": "930kg",
       "topspeed": "225km/h",
       "acceleration": "<7s 0-100",
-      "pwratio": "4.60kg/hp"
+      "pwratio": "6.64 kg/hp"
     },
     "ratings": {
-      "handling": 2.0,
-      "physics": 6.5,
-      "realism": 7.0,
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
       "sound": 0.0,
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 1.4L & I4"
+    ]
   },
   {
     "name": "Abarth 500 EsseEsse",
     "brand": "Abarth",
+    "year": "2008",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\abarth500\\skins\\0_white_scorpion\\preview.jpg",
     "specs": {
-      "bhp": "160bhp",
+      "convertedPower": "118kW/160hp",
+      "isManufacturerData": true,
+      "bhp": "118kW/160hp",
       "torque": "230Nm",
       "weight": "1025kg",
       "topspeed": "211km/h",
       "acceleration": "7.4s 0-100",
-      "pwratio": "6.40kg/hp"
+      "pwratio": "8.69 kg/hp"
     },
     "ratings": {
-      "handling": 8.0,
+      "handling": 0.0,
       "physics": 0.0,
-      "realism": 9.0,
-      "sound": 10.0,
-      "visuals": 8.5,
-      "funFactor": 5.0,
-      "extraFeatures": 8.0
-    }
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "tags": [
+      "#! 1.4L & I4"
+    ]
   },
   {
     "name": "Abarth 500 EsseEsse Step1",
     "brand": "Abarth",
+    "year": "2008",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\abarth500_s1\\skins\\black_neon\\preview.jpg",
     "specs": {
-      "bhp": "175bhp",
+      "convertedPower": "129kW/175hp",
+      "isManufacturerData": true,
+      "bhp": "129kW/175hp",
       "torque": "245Nm",
       "weight": "1025kg",
       "topspeed": "211km/h",
       "acceleration": "7.4s 0-100",
-      "pwratio": "6.40kg/hp"
+      "pwratio": "7.95 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -63,19 +81,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 1.4L & I4"
+    ]
   },
   {
     "name": "Abarth 595 SS",
     "brand": "Abarth",
+    "year": "1964",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_abarth_595ss\\skins\\1_official\\preview.jpg",
     "specs": {
-      "bhp": "32bhp",
+      "convertedPower": "24kW/32hp",
+      "isManufacturerData": true,
+      "bhp": "24kW/32hp",
       "torque": "44Nm",
       "weight": "470kg",
-      "topspeed": "130km/h",
-      "acceleration": "25.8s 0-100",
-      "pwratio": "18.9kg/hp"
+      "topspeed": "124km/h",
+      "acceleration": "24.7s 0-100",
+      "pwratio": "19.58 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -85,19 +110,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 0.6L & I2"
+    ]
   },
   {
     "name": "Abarth 595 SS Step 1",
     "brand": "Abarth",
+    "year": "1964",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_abarth_595ss_s1\\skins\\3_official\\preview.jpg",
     "specs": {
-      "bhp": "32bhp",
+      "convertedPower": "24kW/32hp",
+      "isManufacturerData": true,
+      "bhp": "24kW/32hp",
       "torque": "44Nm",
       "weight": "470kg",
       "topspeed": "130km/h",
       "acceleration": "25.8s 0-100",
-      "pwratio": "18.9kg/hp"
+      "pwratio": "19.58 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -107,19 +139,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 0.6L & I2"
+    ]
   },
   {
     "name": "Abarth 595 SS Step 2",
     "brand": "Abarth",
+    "year": "1964",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_abarth_595ss_s2\\skins\\4_official\\preview.jpg",
     "specs": {
-      "bhp": "65bhp",
+      "convertedPower": "48kW/65hp",
+      "isManufacturerData": true,
+      "bhp": "48kW/65hp",
       "torque": "80Nm",
       "weight": "470kg",
       "topspeed": "--km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "6.71kg/hp"
+      "pwratio": "9.79 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -129,19 +168,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! -"
+    ]
   },
   {
     "name": "Alfa Romeo 155 TI V6",
     "brand": "Alfa Romeo",
+    "year": "1996",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_alfa_romeo_155_v6\\skins\\0_racing_8\\preview.jpg",
     "specs": {
-      "bhp": "420bhp",
+      "convertedPower": "309kW/420hp",
+      "isManufacturerData": true,
+      "bhp": "309kW/420hp",
       "torque": "294Nm",
       "weight": "1050kg",
       "topspeed": "280+km/h",
-      "acceleration": null,
-      "pwratio": "2.50kg/hp"
+      "acceleration": "2.5 s 0-100",
+      "pwratio": "3.4 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -151,19 +197,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 2.5L & V6"
+    ]
   },
   {
     "name": "Alfa Romeo 33 Stradale",
     "brand": "Alfa Romeo",
+    "year": "1967",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_alfa_33_stradale\\skins\\00_rosso\\preview.jpg",
     "specs": {
-      "bhp": "230bhp",
+      "convertedPower": "169kW/230hp",
+      "isManufacturerData": true,
+      "bhp": "169kW/230hp",
       "torque": "206Nm",
       "weight": "700kg",
       "topspeed": "260 km/h",
       "acceleration": "s 0-100",
-      "pwratio": "3.04kg/hp"
+      "pwratio": "4.14 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -173,13 +226,20 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 2.0 & V8"
+    ]
   },
   {
     "name": "Alfa Romeo 4C",
     "brand": "Alfa Romeo",
+    "year": "2013",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_alfa_romeo_4c\\skins\\0_rosso_alfa\\preview.jpg",
     "specs": {
+      "convertedPower": "176kW/240hp",
+      "isManufacturerData": false,
       "bhp": "240bhp",
       "torque": "350Nm",
       "weight": "925kg",
@@ -195,13 +255,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "semiautomatic",
+      "turbo",
+      "lightweight",
+      "street",
+      "trackday",
+      "italy"
+    ]
   },
   {
     "name": "Alfa Romeo Giulia Quadrifoglio",
     "brand": "Alfa Romeo",
+    "year": "2016",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_alfa_giulia_qv\\skins\\00_Rosso_Competizione\\preview.jpg",
     "specs": {
+      "convertedPower": "375kW/510hp",
+      "isManufacturerData": false,
       "bhp": "510bhp",
       "torque": "600Nm",
       "weight": "1595kg",
@@ -217,13 +291,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "turbo",
+      "manual",
+      "street",
+      "italy"
+    ]
   },
   {
     "name": "Alfa Romeo GTA",
     "brand": "Alfa Romeo",
+    "year": "1965",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_alfa_romeo_gta\\skins\\0_rosso_alfa\\preview.jpg",
     "specs": {
+      "convertedPower": "125kW/170hp",
+      "isManufacturerData": false,
       "bhp": "170bhp",
       "torque": "200Nm",
       "weight": "750kg",
@@ -239,13 +325,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage Touring",
+      "rwd",
+      "manual",
+      "race",
+      "italy",
+      "vintage"
+    ]
   },
   {
     "name": "Alfa Romeo Mito QV",
     "brand": "Alfa Romeo",
+    "year": "2012",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_alfa_mito_qv\\skins\\0_rosso_alfa\\preview.jpg",
     "specs": {
+      "convertedPower": "124kW/168hp",
+      "isManufacturerData": false,
       "bhp": "168bhp",
       "torque": "250Nm",
       "weight": "1140kg",
@@ -261,19 +359,32 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#small sports",
+      "fwd",
+      "manual",
+      "turbo",
+      "street",
+      "hot hatchback",
+      "italy"
+    ]
   },
   {
     "name": "Audi R18 e-tron quattro 2014",
     "brand": "Audi",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r18_etron_quattro\\skins\\00_lm1\\preview.jpg",
     "specs": {
-      "bhp": "700+bhp",
+      "convertedPower": "580kW/777hp",
+      "isManufacturerData": true,
+      "bhp": "580kW/777hp",
       "torque": "850+Nm",
       "weight": "915kg",
       "topspeed": "330km/h",
-      "acceleration": "<3.0s 0-100",
-      "pwratio": "1.30kg/hp"
+      "acceleration": "2.7s 0-100",
+      "pwratio": "1.58 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -283,19 +394,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 4.0L & V6 & TDI"
+    ]
   },
   {
     "name": "Audi R8 LMS 2016",
     "brand": "Audi",
+    "year": "2016",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r8_lms_2016\\skins\\00_racing_06\\preview.jpg",
     "specs": {
-      "bhp": "500bhp",
+      "convertedPower": "369kW/500hp",
+      "isManufacturerData": true,
+      "bhp": "369kW/500hp",
       "torque": "500Nm",
       "weight": "1270kg",
-      "topspeed": "--km/h",
-      "acceleration": "--s 0-100",
-      "pwratio": "2.54kg/hp"
+      "topspeed": "305km/h",
+      "acceleration": "3.2s 0-100",
+      "pwratio": "3.44 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -305,19 +423,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 5.2L & V10"
+    ]
   },
   {
     "name": "Audi R8 LMS Ultra",
     "brand": "Audi",
+    "year": "2009",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r8_lms\\skins\\2014_Hankook_C_Abt_09\\preview.jpg",
     "specs": {
-      "bhp": "570bhp",
+      "convertedPower": "419kW/570hp",
+      "isManufacturerData": true,
+      "bhp": "419kW/570hp",
       "torque": "500+Nm",
       "weight": "1250kg",
       "topspeed": "--km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "2.19kg/hp"
+      "pwratio": "2.98 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -327,41 +452,55 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 5.2L & V10"
+    ]
   },
   {
     "name": "Audi R8 V10 Plus",
     "brand": "Audi",
+    "year": "2013",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r8_plus\\skins\\00_brilliant_red_t\\preview.jpg",
     "specs": {
-      "bhp": "550bhp",
+      "convertedPower": "404kW/550hp",
+      "isManufacturerData": true,
+      "bhp": "404kW/550hp",
       "torque": "540Nm",
       "weight": "1620kg",
       "topspeed": "317km/h",
       "acceleration": "3.5s 0-100",
-      "pwratio": "3.00kg/hp"
+      "pwratio": "4.01 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
-      "physics": 4.5,
+      "physics": 0.0,
       "realism": 0.0,
       "sound": 0.0,
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 5.2L & V10"
+    ]
   },
   {
     "name": "Audi S1",
     "brand": "Audi",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_a1s1\\skins\\00_sepang_blue_pearl_effect_br\\preview.jpg",
     "specs": {
-      "bhp": "231bhp",
+      "convertedPower": "170kW/231hp",
+      "isManufacturerData": true,
+      "bhp": "170kW/231hp",
       "torque": "370Nm",
       "weight": "1340kg",
       "topspeed": "241km/h",
       "acceleration": "5.8s 0-100",
-      "pwratio": "5.80kg/hp"
+      "pwratio": "7.88 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -371,19 +510,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 2.0L & I4"
+    ]
   },
   {
     "name": "Audi Sport quattro",
     "brand": "Audi",
+    "year": "1994",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_sport_quattro\\skins\\00_tornado_red_rings\\preview.jpg",
     "specs": {
-      "bhp": "306bhp",
+      "convertedPower": "225kW/306hp",
+      "isManufacturerData": true,
+      "bhp": "225kW/306hp",
       "torque": "350Nm",
       "weight": "1298kg",
       "topspeed": "250km/h",
       "acceleration": "4.7s 0-100",
-      "pwratio": "4.18kg/hp"
+      "pwratio": "5.77 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -393,19 +539,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 2.1L & I5"
+    ]
   },
   {
     "name": "Audi Sport quattro S1 E2",
     "brand": "Audi",
+    "year": "1984",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_sport_quattro_rally\\skins\\00_racing_2\\preview.jpg",
     "specs": {
-      "bhp": "540bhp",
-      "torque": "570Nm",
+      "convertedPower": "440kW/598hp",
+      "isManufacturerData": true,
+      "bhp": "440kW/598hp",
+      "torque": "590Nm",
       "weight": "1090kg",
       "topspeed": "250+km/h",
       "acceleration": "3.1s 0-100",
-      "pwratio": "2.01kg/hp"
+      "pwratio": "2.48 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -415,19 +568,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 2.1L & I5"
+    ]
   },
   {
     "name": "Audi Sport quattro Step1",
     "brand": "Audi",
+    "year": "1994",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_sport_quattro_s1\\skins\\00_copenhagen_blue_rings\\preview.jpg",
     "specs": {
-      "bhp": "373bhp",
+      "convertedPower": "274kW/373hp",
+      "isManufacturerData": true,
+      "bhp": "274kW/373hp",
       "torque": "425Nm",
       "weight": "1298kg",
       "topspeed": "272km/h",
       "acceleration": "4.5s 0-100",
-      "pwratio": "3.43kg/hp"
+      "pwratio": "4.74 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -437,19 +597,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 2.1L & I5"
+    ]
   },
   {
     "name": "Audi TT Cup",
     "brand": "Audi",
+    "year": "2016",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_tt_cup\\skins\\00_racing_02\\preview.jpg",
     "specs": {
-      "bhp": "310bhp",
+      "convertedPower": "228kW/310hp",
+      "isManufacturerData": true,
+      "bhp": "228kW/310hp",
       "torque": "400+Nm",
       "weight": "1125kg",
-      "topspeed": "--km/h",
-      "acceleration": "4.7s 0-100",
-      "pwratio": "3.62kg/hp"
+      "topspeed": "239km/h",
+      "acceleration": "4.5s 0-100",
+      "pwratio": "4.9 kg/kW"
     },
     "ratings": {
       "handling": 0.0,
@@ -459,19 +626,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 2.0L & I4 & TSFI"
+    ]
   },
   {
     "name": "Audi TT RS (VLN)",
     "brand": "Audi",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_tt_vln\\skins\\00_racing_125\\preview.jpg",
     "specs": {
-      "bhp": "390bhp",
+      "convertedPower": "280kW/380hp",
+      "isManufacturerData": true,
+      "bhp": "280kW/380hp",
       "torque": "530Nm",
       "weight": "1120kg",
       "topspeed": "km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "2.87kg/hp"
+      "pwratio": "4 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -481,19 +655,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 2.5L & I5 & TSFI"
+    ]
   },
   {
     "name": "BMW 1M",
     "brand": "BMW",
+    "year": "2004",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_1m\\skins\\0_orange\\preview.jpg",
     "specs": {
-      "bhp": "340bhp",
+      "convertedPower": "250kW/340hp",
+      "isManufacturerData": true,
+      "bhp": "250kW/340hp",
       "torque": "500Nm",
       "weight": "1495kg",
-      "topspeed": "250+km/h",
+      "topspeed": "250km/h",
       "acceleration": "4.9s 0-100",
-      "pwratio": "4.46kg/hp"
+      "pwratio": "5.98 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -503,19 +684,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 3.0L & I6 & M TwinPower Turbo"
+    ]
   },
   {
     "name": "BMW 1M Stage 3",
     "brand": "BMW",
+    "year": "2004",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_1m_s3\\skins\\ArisTek_5\\preview.jpg",
     "specs": {
-      "bhp": "400bhp",
+      "convertedPower": "294kW/400hp",
+      "isManufacturerData": true,
+      "bhp": "294kW/400hp",
       "torque": "580Nm",
       "weight": "1495kg",
       "topspeed": "250+km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "3.74kg/hp"
+      "pwratio": "5.09 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -525,19 +713,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 3.0L & I6 & M TwinPower Turbo"
+    ]
   },
   {
     "name": "BMW M235i Racing",
     "brand": "BMW",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_bmw_m235i_racing\\skins\\00_racing_1\\preview.jpg",
     "specs": {
-      "bhp": "333bhp",
+      "convertedPower": "245kW/333hp",
+      "isManufacturerData": true,
+      "bhp": "245kW/333hp",
       "torque": "500Nm",
       "weight": "1424kg",
       "topspeed": "250+km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "4.27kg/hp"
+      "pwratio": "5.81 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -547,19 +742,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 3.0L & I6 & M TwinPower Turbo"
+    ]
   },
   {
     "name": "BMW M3 E30",
     "brand": "BMW",
+    "year": "1986",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e30\\skins\\0_jet_black\\preview.jpg",
     "specs": {
-      "bhp": "238bhp",
+      "convertedPower": "175kW/238hp",
+      "isManufacturerData": true,
+      "bhp": "175kW/238hp",
       "torque": "240Nm",
       "weight": "1200kg",
       "topspeed": "248km/h",
       "acceleration": "7.4s 0-100",
-      "pwratio": "5.04kg/hp"
+      "pwratio": "6.86 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -569,19 +771,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 2.5L & I4"
+    ]
   },
   {
     "name": "BMW M3 E30 Drift",
     "brand": "BMW",
+    "year": "1986",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e30_drift\\skins\\DGFX_Vinyl\\preview.jpg",
     "specs": {
-      "bhp": "343bhp",
+      "convertedPower": "252kW/343hp",
+      "isManufacturerData": true,
+      "bhp": "252kW/343hp",
       "torque": "365Nm",
       "weight": "1150kg",
       "topspeed": "250+km/h",
       "acceleration": "5.3s 0-100",
-      "pwratio": "3.35kg/hp"
+      "pwratio": "4.56 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -591,19 +800,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 3.2L & I6"
+    ]
   },
   {
     "name": "BMW M3 E30 Gr.A 92",
     "brand": "BMW",
+    "year": "1992",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e30_dtm\\skins\\0_fina_7\\preview.jpg",
     "specs": {
-      "bhp": "350+bhp",
+      "convertedPower": "260kw/350+hp",
+      "isManufacturerData": false,
+      "bhp": "260kW/350+hp",
       "torque": "310Nm",
       "weight": "945kg",
       "topspeed": "280+km/h",
       "acceleration": "4.3s 0-100",
-      "pwratio": "2.70kg/hp"
+      "pwratio": "3.63 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -613,19 +829,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 2.5L & I4"
+    ]
   },
   {
     "name": "BMW M3 E30 Group A",
     "brand": "BMW",
+    "year": "1986",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e30_gra\\skins\\0_Sterling_Silver_metallic\\preview.jpg",
     "specs": {
-      "bhp": "290+bhp",
+      "convertedPower": "213kW/290hp",
+      "isManufacturerData": true,
+      "bhp": "213kW/290hp",
       "torque": "310Nm",
       "weight": "945kg",
-      "topspeed": "280+km/h",
+      "topspeed": "280km/h",
       "acceleration": "4.3s 0-100",
-      "pwratio": "3.26kg/hp"
+      "pwratio": "4.44 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -635,19 +858,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 2.3L & I4"
+    ]
   },
   {
     "name": "BMW M3 E30 Step1",
     "brand": "BMW",
+    "year": "1986",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e30_s1\\skins\\2_Tone_White_Red\\preview.jpg",
     "specs": {
-      "bhp": "238bhp",
+      "convertedPower": "175kW/238hp",
+      "isManufacturerData": true,
+      "bhp": "175kW/238hp",
       "torque": "240Nm",
       "weight": "1200kg",
       "topspeed": "248km/h",
       "acceleration": "7.4s 0-100",
-      "pwratio": "5.04kg/hp"
+      "pwratio": "6.86 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -657,13 +887,20 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#! 2.5L & I4"
+    ]
   },
   {
     "name": "BMW M3 E92",
     "brand": "BMW",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e92\\skins\\0_monte_carlo_blue\\preview.jpg",
     "specs": {
+      "convertedPower": "304kW/414hp",
+      "isManufacturerData": false,
       "bhp": "414bhp",
       "torque": "400Nm",
       "weight": "1605kg",
@@ -679,13 +916,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "semiautomatic",
+      "street",
+      "germany"
+    ]
   },
   {
     "name": "BMW M3 E92 drift",
     "brand": "BMW",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e92_drift\\skins\\BMW_Academy\\preview.jpg",
     "specs": {
+      "convertedPower": "304kW/414hp",
+      "isManufacturerData": false,
       "bhp": "414bhp",
       "torque": "400Nm",
       "weight": "1605kg",
@@ -701,13 +949,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#drift",
+      "rwd",
+      "semiautomatic",
+      "street",
+      "germany"
+    ]
   },
   {
     "name": "BMW M3 E92 Step1",
     "brand": "BMW",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e92_s1\\skins\\0_monte_carlo_blue\\preview.jpg",
     "specs": {
+      "convertedPower": "304kW/414hp",
+      "isManufacturerData": false,
       "bhp": "414bhp",
       "torque": "400Nm",
       "weight": "1605kg",
@@ -723,13 +982,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "semiautomatic",
+      "street",
+      "germany"
+    ]
   },
   {
     "name": "BMW M3 GT2",
     "brand": "BMW",
+    "year": "2009",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_gt2\\skins\\0_BMW_Motorsport\\preview.jpg",
     "specs": {
+      "convertedPower": "357kW/485hp",
+      "isManufacturerData": false,
       "bhp": "485+bhp",
       "torque": "499Nm",
       "weight": "1245kg",
@@ -745,13 +1015,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GTE-GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt2",
+      "germany"
+    ]
   },
   {
     "name": "BMW M4",
     "brand": "BMW",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_bmw_m4\\skins\\0_austin_yellow_metallic\\preview.jpg",
     "specs": {
+      "convertedPower": "317kW/431hp",
+      "isManufacturerData": false,
       "bhp": "431bhp",
       "torque": "550Nm",
       "weight": "1572kg",
@@ -767,13 +1050,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "turbo",
+      "semiautomatic",
+      "street",
+      "germany"
+    ]
   },
   {
     "name": "BMW M4 Akrapovic",
     "brand": "BMW",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_bmw_m4_akrapovic\\skins\\0_akrapovic\\preview.jpg",
     "specs": {
+      "convertedPower": "327kW/445hp",
+      "isManufacturerData": false,
       "bhp": "445bhp",
       "torque": "589Nm",
       "weight": "1572kg",
@@ -789,13 +1084,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "turbo",
+      "semiautomatic",
+      "street",
+      "germany"
+    ]
   },
   {
     "name": "BMW Z4 E89",
     "brand": "BMW",
+    "year": "2009",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_z4\\skins\\0_space_grey_metal\\preview.jpg",
     "specs": {
+      "convertedPower": "243kW/330hp",
+      "isManufacturerData": false,
       "bhp": "330bhp",
       "torque": "500Nm",
       "weight": "1605kg",
@@ -811,13 +1118,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "semiautomatic",
+      "turbo",
+      "street",
+      "germany"
+    ]
   },
   {
     "name": "BMW Z4 E89 Drift",
     "brand": "BMW",
+    "year": "2009",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_z4_drift\\skins\\drift_418\\preview.jpg",
     "specs": {
+      "convertedPower": "287kW/390hp",
+      "isManufacturerData": false,
       "bhp": "390bhp",
       "torque": "580Nm",
       "weight": "1525kg",
@@ -833,13 +1152,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#drift",
+      "rwd",
+      "semiautomatic",
+      "turbo",
+      "street",
+      "germany"
+    ]
   },
   {
     "name": "BMW Z4 E89 Step1",
     "brand": "BMW",
+    "year": "2009",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_z4_s1\\skins\\0_red\\preview.jpg",
     "specs": {
+      "convertedPower": "243kW/330hp",
+      "isManufacturerData": false,
       "bhp": "330bhp",
       "torque": "500Nm",
       "weight": "1605kg",
@@ -855,13 +1186,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "semiautomatic",
+      "turbo",
+      "street",
+      "germany"
+    ]
   },
   {
     "name": "BMW Z4 GT3",
     "brand": "BMW",
+    "year": "2010",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_z4_gt3\\skins\\0_bmw_motorsport_2013_black\\preview.jpg",
     "specs": {
+      "convertedPower": "390kW/530hp",
+      "isManufacturerData": false,
       "bhp": "530bhp",
       "torque": "520Nm",
       "weight": "1265kg",
@@ -877,13 +1220,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GTE-GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt3",
+      "germany"
+    ]
   },
   {
     "name": "Chevrolet Corvette C7 Stingray",
     "brand": "Chevrolet",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_corvette_c7_stingray\\skins\\00_velocity_yellow\\preview.jpg",
     "specs": {
+      "convertedPower": "335kW/455hp",
+      "isManufacturerData": false,
       "bhp": "455bhp",
       "torque": "625Nm",
       "weight": "1496kg",
@@ -899,13 +1255,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "manual",
+      "street",
+      "v8",
+      "usa"
+    ]
   },
   {
     "name": "Chevrolet Corvette C7R",
     "brand": "Chevrolet",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_corvette_c7r\\skins\\0_racing_3\\preview.jpg",
     "specs": {
+      "convertedPower": "364kW/495hp",
+      "isManufacturerData": false,
       "bhp": "495+bhp",
       "torque": "650+Nm",
       "weight": "1320kg",
@@ -921,13 +1288,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GTE-GT3",
+      "rwd",
+      "sequential",
+      "race",
+      "gt",
+      "gt2",
+      "usa"
+    ]
   },
   {
     "name": "Coyote Corvette DP",
     "brand": "Chevrolet",
+    "year": "2014",
+    "author": "IER Simulations",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\corvette_dp_c\\skins\\1_Action_Express_5\\preview.jpg",
     "specs": {
+      "convertedPower": "440kW/598hp",
+      "isManufacturerData": false,
       "bhp": "598 bhp",
       "torque": "729 Nm",
       "weight": "1039kg",
@@ -943,13 +1323,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Prototype",
+      "rwd",
+      "race",
+      "sequential",
+      "usa",
+      "TUSCC"
+    ]
   },
   {
     "name": "Dallara Corvette DP",
     "brand": "Chevrolet",
+    "year": "2014",
+    "author": "IER Simulations",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\corvette_dp_d\\skins\\WTR\\preview.jpg",
     "specs": {
+      "convertedPower": "440kW/598hp",
+      "isManufacturerData": false,
       "bhp": "598 bhp",
       "torque": "729 Nm",
       "weight": "1039kg",
@@ -965,13 +1357,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Prototype",
+      "rwd",
+      "race",
+      "sequential",
+      "usa",
+      "TUSCC"
+    ]
   },
   {
     "name": "Darche 992 GT3-R 2023",
     "brand": "United Racing Design",
+    "year": "2023",
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_darche_992_23\\skins\\#16_URD\\preview.jpg",
     "specs": {
+      "convertedPower": "404kW/550hp",
+      "isManufacturerData": false,
       "bhp": "550 bhp",
       "torque": "494 Nm",
       "weight": "1240kg",
@@ -987,14 +1391,28 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "germany",
+      "rear engine",
+      "URD"
+    ]
   },
   {
     "name": "Darche 996 EGT1 EVO",
     "brand": "United Racing Design",
+    "year": "1997",
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_egt1_darche_evo_97\\skins\\00\\preview.jpg",
     "specs": {
-      "bhp": "544 whp",
+      "convertedPower": "400kW/544hp",
+      "isManufacturerData": false,
+      "bhp": "544 bhp",
       "torque": "595 Nm",
       "weight": "1040 kg",
       "topspeed": "310 km/h",
@@ -1009,13 +1427,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "prototype",
+      "vintage",
+      "germany"
+    ]
   },
   {
     "name": "Ferrari 250 GTO",
     "brand": "Ferrari",
+    "year": "1962",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_250_gto\\skins\\00_rosso\\preview.jpg",
     "specs": {
+      "convertedPower": "221kW/300hp",
+      "isManufacturerData": false,
       "bhp": "300bhp",
       "torque": "294Nm",
       "weight": "880kg",
@@ -1031,13 +1462,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage Supercars",
+      "rwd",
+      "manual",
+      "street",
+      "supercar",
+      "vintage",
+      "italy"
+    ]
   },
   {
     "name": "Ferrari 312/67",
     "brand": "Ferrari",
+    "year": "1967",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_312_67\\skins\\00_racing_20\\preview.jpg",
     "specs": {
+      "convertedPower": "287kW/390hp",
+      "isManufacturerData": false,
       "bhp": "390bhp",
       "torque": "--Nm",
       "weight": "548kg",
@@ -1053,13 +1497,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage Racecar",
+      "rwd",
+      "race",
+      "manual",
+      "gp",
+      "singleseater",
+      "vintage",
+      "italy"
+    ]
   },
   {
     "name": "Ferrari 312T",
     "brand": "Ferrari",
+    "year": "1975",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ferrari_312t\\skins\\00_racing_12\\preview.jpg",
     "specs": {
+      "convertedPower": "364kW/495hp",
+      "isManufacturerData": false,
       "bhp": "495bhp",
       "torque": "308Nm",
       "weight": "606kg",
@@ -1075,13 +1533,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Ferrari312T",
+      "rwd",
+      "race",
+      "manual",
+      "gp",
+      "singleseater",
+      "vintage",
+      "italy"
+    ]
   },
   {
     "name": "Ferrari 330 P4",
     "brand": "Ferrari",
+    "year": "1967",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_330_p4\\skins\\00_rosso\\preview.jpg",
     "specs": {
+      "convertedPower": "331kW/450hp",
+      "isManufacturerData": false,
       "bhp": "450bhp",
       "torque": "--Nm",
       "weight": "792kg",
@@ -1097,13 +1569,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "manual",
+      "lightweight",
+      "vintage",
+      "race",
+      "trackday",
+      "historic"
+    ]
   },
   {
     "name": "Ferrari 458 GT2",
     "brand": "Ferrari",
+    "year": "2011",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ferrari_458_gt2\\skins\\00_red\\preview.jpg",
     "specs": {
+      "convertedPower": "346kW/470hp",
+      "isManufacturerData": false,
       "bhp": "470bhp",
       "torque": "520Nm",
       "weight": "1245kg",
@@ -1119,13 +1604,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GTE-GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt2",
+      "italy"
+    ]
   },
   {
     "name": "Ferrari 458 Italia",
     "brand": "Ferrari",
+    "year": "2011",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ferrari_458\\skins\\00_rosso_scuderia\\preview.jpg",
     "specs": {
+      "convertedPower": "419kW/570hp",
+      "isManufacturerData": false,
       "bhp": "570bhp",
       "torque": "540Nm",
       "weight": "1573kg",
@@ -1141,13 +1639,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "rwd",
+      "semiautomatic",
+      "street",
+      "supercar",
+      "italy"
+    ]
   },
   {
     "name": "Ferrari 458 Italia Stage 3",
     "brand": "Ferrari",
+    "year": "2011",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ferrari_458_s3\\skins\\00_rosso_scuderia\\preview.jpg",
     "specs": {
+      "convertedPower": "419kW/570hp",
+      "isManufacturerData": false,
       "bhp": "570bhp",
       "torque": "540Nm",
       "weight": "1140kg",
@@ -1163,13 +1673,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#458challenge",
+      "rwd",
+      "semiautomatic",
+      "street",
+      "supercar",
+      "italy"
+    ]
   },
   {
     "name": "Ferrari 488 GT3",
     "brand": "Ferrari",
+    "year": "2011",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_488_gt3\\skins\\00_rosso_scuderia\\preview.jpg",
     "specs": {
+      "convertedPower": "368kW/500hp",
+      "isManufacturerData": false,
       "bhp": "500bhp",
       "torque": "640Nm",
       "weight": "1270kg",
@@ -1185,13 +1707,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GTE-GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt3",
+      "italy"
+    ]
   },
   {
     "name": "Ferrari 488 GT3 Evo 2020",
     "brand": "Ferrari",
+    "year": null,
+    "author": "Ferrari Esports Series",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_488_gt3_2020\\skins\\00_rosso_scuderia\\preview.jpg",
     "specs": {
+      "convertedPower": "368kW/500hp",
+      "isManufacturerData": false,
       "bhp": "500bhp",
       "torque": "640Nm",
       "weight": "1270kg",
@@ -1207,13 +1742,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GTE-GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt3",
+      "italy"
+    ]
   },
   {
     "name": "Ferrari 488 GTB",
     "brand": "Ferrari",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_488_gtb\\skins\\00_rosso_scuderia\\preview.jpg",
     "specs": {
+      "convertedPower": "485kW/660hp",
+      "isManufacturerData": false,
       "bhp": "660bhp",
       "torque": "760Nm",
       "weight": "1370kg",
@@ -1229,13 +1777,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "rwd",
+      "semiautomatic",
+      "street",
+      "supercar",
+      "italy"
+    ]
   },
   {
     "name": "Ferrari 599XX EVO",
     "brand": "Ferrari",
+    "year": "2012",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ferrari_599xxevo\\skins\\1\\preview.jpg",
     "specs": {
+      "convertedPower": "551kW/750hp",
+      "isManufacturerData": false,
       "bhp": "750bhp",
       "torque": "700Nm",
       "weight": "1310kg",
@@ -1251,13 +1811,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Hypercars R",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "italy"
+    ]
   },
   {
     "name": "Ferrari 812 Superfast",
     "brand": "Ferrari",
+    "year": "2017",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_812_superfast\\skins\\00_rosso_scuderia\\preview.jpg",
     "specs": {
+      "convertedPower": "588kW/800hp",
+      "isManufacturerData": false,
       "bhp": "800bhp",
       "torque": "718Nm",
       "weight": "1525kg",
@@ -1273,13 +1845,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "rwd",
+      "semiautomatic",
+      "street",
+      "supercar",
+      "italy"
+    ]
   },
   {
     "name": "Ferrari F138",
     "brand": "Ferrari",
+    "year": "2013",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_f138\\skins\\00_official\\preview.jpg",
     "specs": {
+      "convertedPower": "561kW/763hp",
+      "isManufacturerData": false,
       "bhp": "763bhp",
       "torque": "310Nm",
       "weight": "642kg*",
@@ -1295,13 +1879,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#F138",
+      "rwd",
+      "race",
+      "sequential",
+      "gp",
+      "singleseater",
+      "italy"
+    ]
   },
   {
     "name": "Ferrari F2004",
     "brand": "Ferrari",
+    "year": "2004",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_f2004\\skins\\00_official\\preview.jpg",
     "specs": {
+      "convertedPower": "636kW/865hp",
+      "isManufacturerData": false,
       "bhp": "865bhp",
       "torque": "--Nm",
       "weight": "--kg",
@@ -1317,13 +1914,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#F2004",
+      "rwd",
+      "race",
+      "sequential",
+      "gp",
+      "singleseater",
+      "italy"
+    ]
   },
   {
     "name": "Ferrari F40",
     "brand": "Ferrari",
+    "year": "1987",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ferrari_f40\\skins\\01_red\\preview.jpg",
     "specs": {
+      "convertedPower": "351kW/478hp",
+      "isManufacturerData": false,
       "bhp": "478bhp",
       "torque": "577Nm",
       "weight": "1175kg",
@@ -1339,13 +1949,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage Supercars",
+      "rwd",
+      "manual",
+      "street",
+      "turbo",
+      "supercar",
+      "vintage",
+      "italy"
+    ]
   },
   {
     "name": "Ferrari F40 Stage 3",
     "brand": "Ferrari",
+    "year": "1987",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ferrari_f40_s3\\skins\\01_yellow\\preview.jpg",
     "specs": {
+      "convertedPower": "449kW/610hp",
+      "isManufacturerData": false,
       "bhp": "610+bhp",
       "torque": "715Nm",
       "weight": "1175kg",
@@ -1361,13 +1985,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage GT",
+      "rwd",
+      "manual",
+      "street",
+      "turbo",
+      "supercar",
+      "vintage",
+      "italy"
+    ]
   },
   {
     "name": "Ferrari FXX K",
     "brand": "Ferrari",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_fxx_k\\skins\\01_rosso_ferrari_10\\preview.jpg",
     "specs": {
+      "convertedPower": "772kW/1050hp",
+      "isManufacturerData": false,
       "bhp": "1050bhp",
       "torque": "900+Nm",
       "weight": "--kg",
@@ -1383,13 +2021,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Hypercars R",
+      "rwd",
+      "race",
+      "sequential",
+      "italy"
+    ]
   },
   {
     "name": "Ferrari GTO",
     "brand": "Ferrari",
+    "year": "1984",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_288_gto\\skins\\00_rosso\\preview.jpg",
     "specs": {
+      "convertedPower": "294kW/400hp",
+      "isManufacturerData": false,
       "bhp": "400bhp",
       "torque": "496Nm",
       "weight": "1160kg",
@@ -1405,13 +2054,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage Supercars",
+      "rwd",
+      "manual",
+      "street",
+      "turbo",
+      "supercar",
+      "vintage",
+      "italy"
+    ]
   },
   {
     "name": "Ferrari LaFerrari",
     "brand": "Ferrari",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ferrari_laferrari\\skins\\00_rosso_scuderia\\preview.jpg",
     "specs": {
+      "convertedPower": "708kW/963hp",
+      "isManufacturerData": false,
       "bhp": "963bhp",
       "torque": "900+Nm",
       "weight": "--kg",
@@ -1427,13 +2090,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Hypercars",
+      "rwd",
+      "street",
+      "semiautomatic",
+      "italy"
+    ]
   },
   {
     "name": "Ferrari SF15-T",
     "brand": "Ferrari",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_sf15t\\skins\\00_default\\preview.jpg",
     "specs": {
+      "convertedPower": "618kW/840hp",
+      "isManufacturerData": false,
       "bhp": "840bhp",
       "torque": "721Nm",
       "weight": "702kg*",
@@ -1449,19 +2123,32 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#SF15T",
+      "rwd",
+      "race",
+      "sequential",
+      "gp",
+      "singleseater",
+      "italy"
+    ]
   },
   {
     "name": "Ferrari SF70H",
     "brand": "Ferrari",
+    "year": "2017",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_sf70h\\skins\\00_default\\preview.jpg",
     "specs": {
-      "bhp": "--bhp",
+      "convertedPower": "662kW/900hp",
+      "isManufacturerData": false,
+      "bhp": "900+bhp",
       "torque": "--Nm",
-      "weight": "--kg",
+      "weight": "728kg",
       "topspeed": "--km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "--kg/hp"
+      "pwratio": "0.81 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -1471,13 +2158,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#SF70H",
+      "rwd",
+      "race",
+      "sequential",
+      "gp",
+      "singleseater",
+      "italy"
+    ]
   },
   {
     "name": "Ferrucci 296 2023",
     "brand": "United Racing Design",
+    "year": "2023",
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_ferrucci_296_23\\skins\\2023 #21\\preview.jpg",
     "specs": {
+      "convertedPower": "434kW/590hp",
+      "isManufacturerData": false,
       "bhp": "590 bhp",
       "torque": "699 Nm",
       "weight": "1250kg",
@@ -1493,13 +2193,28 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt3",
+      "mid engine",
+      "italy",
+      "URD"
+    ]
   },
   {
     "name": "Ford Escort RS1600",
     "brand": "Ford",
+    "year": "1973",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ford_escort_mk1\\skins\\blue_white\\preview.jpg",
     "specs": {
+      "convertedPower": "191kW/260hp",
+      "isManufacturerData": false,
       "bhp": "260+bhp",
       "torque": "200+Nm",
       "weight": "885kg",
@@ -1515,13 +2230,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage Touring",
+      "vintage",
+      "rwd",
+      "race",
+      "gt",
+      "great britain"
+    ]
   },
   {
     "name": "Ford GT40",
     "brand": "Ford",
+    "year": "1966",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ford_gt40\\skins\\0_blue_stripes\\preview.jpg",
     "specs": {
+      "convertedPower": "316kW/430hp",
+      "isManufacturerData": false,
       "bhp": "430bhp",
       "torque": "530Nm",
       "weight": "1025kg",
@@ -1537,13 +2264,23 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage GT",
+      "vintage",
+      "race",
+      "usa"
+    ]
   },
   {
     "name": "Ford Mustang 2015",
     "brand": "Ford",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ford_mustang_2015\\skins\\00_deep_impact_blue_metallic_s\\preview.jpg",
     "specs": {
+      "convertedPower": "320kW/435hp",
+      "isManufacturerData": false,
       "bhp": "435bhp",
       "torque": "542Nm",
       "weight": "1680kg",
@@ -1559,13 +2296,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "v8",
+      "manual",
+      "street",
+      "usa"
+    ]
   },
   {
     "name": "Formula Challenge Detroit Oval",
     "brand": "URD_FC",
+    "year": null,
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_fcdetroit_oval\\skins\\02\\preview.jpg",
     "specs": {
+      "convertedPower": "331kW/450hp",
+      "isManufacturerData": false,
       "bhp": "450 bhp",
       "torque": "578Nm",
       "weight": "675kg",
@@ -1581,13 +2329,23 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "sequential",
+      "race",
+      "singleseater"
+    ]
   },
   {
     "name": "Formula Challenge Detroit Road",
     "brand": "URD_FC",
+    "year": null,
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_fcdetroit_road\\skins\\02\\preview.jpg",
     "specs": {
+      "convertedPower": "331kW/450hp",
+      "isManufacturerData": false,
       "bhp": "450 bhp",
       "torque": "578Nm",
       "weight": "675kg",
@@ -1603,13 +2361,23 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "sequential",
+      "race",
+      "singleseater"
+    ]
   },
   {
     "name": "Formula Challenge Suzuka Oval",
     "brand": "URD_FC",
+    "year": null,
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_fcsuzuka_oval\\skins\\05\\preview.jpg",
     "specs": {
+      "convertedPower": "331kW/450hp",
+      "isManufacturerData": false,
       "bhp": "450 bhp",
       "torque": "578Nm",
       "weight": "675kg",
@@ -1625,13 +2393,23 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "sequential",
+      "race",
+      "singleseater"
+    ]
   },
   {
     "name": "Formula Challenge Suzuka Road",
     "brand": "URD_FC",
+    "year": null,
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_fcsuzuka_road\\skins\\05\\preview.jpg",
     "specs": {
+      "convertedPower": "331kW/450hp",
+      "isManufacturerData": false,
       "bhp": "450 bhp",
       "torque": "578Nm",
       "weight": "675kg",
@@ -1647,13 +2425,23 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "sequential",
+      "race",
+      "singleseater"
+    ]
   },
   {
     "name": "Formula Hybrid® 2023",
     "brand": "Race Sim Studio",
+    "year": "2023",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_hybrid_2023\\skins\\01_gsi_tkx_36\\preview.jpg",
     "specs": {
+      "convertedPower": "732kW/996hp",
+      "isManufacturerData": false,
       "bhp": "996bhp",
       "torque": "555Nm",
       "weight": "807kg",
@@ -1669,13 +2457,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "Formula",
+      "rwd",
+      "race",
+      "sequential",
+      "gp",
+      "singleseater",
+      "RSS"
+    ]
   },
   {
     "name": "Formula Lights Oval",
     "brand": "URD",
+    "year": "2014",
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_formulalights_oval\\skins\\IL15_03\\preview.jpg",
     "specs": {
+      "convertedPower": "331kW/450hp",
+      "isManufacturerData": false,
       "bhp": "450 bhp",
       "torque": "578Nm",
       "weight": "675kg",
@@ -1691,13 +2492,23 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "sequential",
+      "race",
+      "singleseater"
+    ]
   },
   {
     "name": "Formula Lights Road",
     "brand": "URD",
+    "year": "2014",
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_formulalights_road\\skins\\IL15_03\\preview.jpg",
     "specs": {
+      "convertedPower": "331kW/450hp",
+      "isManufacturerData": false,
       "bhp": "450 bhp",
       "torque": "578Nm",
       "weight": "675kg",
@@ -1713,13 +2524,23 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "sequential",
+      "race",
+      "singleseater"
+    ]
   },
   {
     "name": "Formula RSS 1970 V8",
     "brand": "Race Sim Studio",
+    "year": "1970",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_70\\skins\\01_storm_blue_36_A4\\preview.jpg",
     "specs": {
+      "convertedPower": "330kW/449hp",
+      "isManufacturerData": false,
       "bhp": "449bhp",
       "torque": "332Nm",
       "weight": "640kg",
@@ -1735,13 +2556,28 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "Formula",
+      "rwd",
+      "race",
+      "sequential",
+      "gp",
+      "singleseater",
+      "RSS",
+      "manual",
+      "vintage"
+    ]
   },
   {
     "name": "Formula RSS 1970 V8 S",
     "brand": "Race Sim Studio",
+    "year": "1970",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_70_s\\skins\\1_storm_fighter_green_17\\preview.jpg",
     "specs": {
+      "convertedPower": "330kW/449hp",
+      "isManufacturerData": false,
       "bhp": "449bhp",
       "torque": "332Nm",
       "weight": "640kg",
@@ -1757,13 +2593,28 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "Formula",
+      "rwd",
+      "race",
+      "sequential",
+      "gp",
+      "singleseater",
+      "RSS",
+      "manual",
+      "vintage"
+    ]
   },
   {
     "name": "Formula RSS 1979 V8",
     "brand": "Race Sim Studio",
+    "year": "1979",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_79\\skins\\RSS_01\\preview.jpg",
     "specs": {
+      "convertedPower": "340kW/463hp",
+      "isManufacturerData": false,
       "bhp": "463bhp",
       "torque": "333Nm",
       "weight": "610kg",
@@ -1779,13 +2630,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Formula79",
+      "rwd",
+      "race",
+      "manual",
+      "gp",
+      "singleseater",
+      "vintage",
+      "great britain"
+    ]
   },
   {
     "name": "Formula RSS 1986 V6",
     "brand": "Race Sim Studio",
+    "year": "1986",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_1986\\skins\\01_formula_yellow_21\\preview.jpg",
     "specs": {
+      "convertedPower": "882kW/1200hp",
+      "isManufacturerData": false,
       "bhp": "1200bhp",
       "torque": "778Nm",
       "weight": "610kg",
@@ -1801,13 +2666,29 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "Formula",
+      "rwd",
+      "race",
+      "manual",
+      "gp",
+      "singleseater",
+      "turbo",
+      "vintage",
+      "great britain",
+      "RSS"
+    ]
   },
   {
     "name": "Formula RSS 1990 V12",
     "brand": "Race Sim Studio",
+    "year": "1990",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_1990\\skins\\01_formula_red\\preview.jpg",
     "specs": {
+      "convertedPower": "500kW/680hp",
+      "isManufacturerData": false,
       "bhp": "680bhp",
       "torque": "393Nm",
       "weight": "503kg",
@@ -1823,13 +2704,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "Formula",
+      "rwd",
+      "race",
+      "gp",
+      "singleseater",
+      "vintage",
+      "italy"
+    ]
   },
   {
     "name": "Formula RSS 2",
     "brand": "Race Sim Studio",
+    "year": "2017",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_rss_2_v8\\skins\\01_PRIMADONNA_RACING\\preview.jpg",
     "specs": {
+      "convertedPower": "450kW/612hp",
+      "isManufacturerData": false,
       "bhp": "612bhp",
       "torque": "500Nm",
       "weight": "688kg",
@@ -1845,13 +2739,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "Formula",
+      "rwd",
+      "race",
+      "sequential",
+      "gp",
+      "singleseater"
+    ]
   },
   {
     "name": "Formula RSS 2 V6 2020",
     "brand": "Race Sim Studio",
+    "year": "2020",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_rss_2_v6_2020\\skins\\09_RSS_Academy_Red_blue\\preview.jpg",
     "specs": {
+      "convertedPower": "456kW/620hp",
+      "isManufacturerData": false,
       "bhp": "620bhp",
       "torque": "575Nm",
       "weight": "750kg",
@@ -1867,13 +2773,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "Formula",
+      "rwd",
+      "race",
+      "sequential",
+      "gp",
+      "singleseater",
+      "RSS"
+    ]
   },
   {
     "name": "Formula RSS 2010 V8",
     "brand": "Race Sim Studio",
+    "year": "2010",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_2010\\skins\\01_rss_red_7\\preview.jpg",
     "specs": {
+      "convertedPower": "571kW/777hp",
+      "isManufacturerData": false,
       "bhp": "777bhp",
       "torque": "324Nm",
       "weight": "621kg*",
@@ -1889,13 +2808,28 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#RSS",
+      "rwd",
+      "race",
+      "sequential",
+      "gp",
+      "singleseater",
+      "Formula",
+      "2010",
+      "italy"
+    ]
   },
   {
     "name": "Formula RSS 3 V6",
     "brand": "Race Sim Studio",
+    "year": "2019",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_rss_3_v6\\skins\\17_rss\\preview.jpg",
     "specs": {
+      "convertedPower": "279kW/380hp",
+      "isManufacturerData": false,
       "bhp": "380bhp",
       "torque": "385Nm",
       "weight": "690kg",
@@ -1911,13 +2845,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "Formula",
+      "rwd",
+      "race",
+      "sequential",
+      "gp",
+      "singleseater",
+      "RSS"
+    ]
   },
   {
     "name": "Giulietta QV",
     "brand": "Alfa Romeo",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\alfa_romeo_giulietta_qv\\skins\\0_rosso_alfa\\preview.jpg",
     "specs": {
+      "convertedPower": "173kW/235hp",
+      "isManufacturerData": false,
       "bhp": "235bhp",
       "torque": "349Nm",
       "weight": "1390kg",
@@ -1933,13 +2880,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#small sports",
+      "fwd",
+      "manual",
+      "turbo",
+      "street",
+      "hot hatchback",
+      "italy"
+    ]
   },
   {
     "name": "Giulietta QV Launch Edition 2014",
     "brand": "Alfa Romeo",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\alfa_romeo_giulietta_qv_le\\skins\\0_rosso_alfa\\preview.jpg",
     "specs": {
+      "convertedPower": "176kW/240hp",
+      "isManufacturerData": false,
       "bhp": "240bhp",
       "torque": "349Nm",
       "weight": "1390kg",
@@ -1955,13 +2915,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#small sports",
+      "fwd",
+      "turbo",
+      "street",
+      "hot hatchback",
+      "italy"
+    ]
   },
   {
     "name": "GT Adonis D9 V12",
     "brand": "Race Sim Studio",
+    "year": null,
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gt_adonis_d9_v12\\skins\\01_adonis_59\\preview.jpg",
     "specs": {
+      "convertedPower": "430kW/585hp",
+      "isManufacturerData": false,
       "bhp": "585bhp",
       "torque": "675Nm",
       "weight": "1180kg",
@@ -1977,13 +2949,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage GT",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "vintage",
+      "RSS",
+      "great britain"
+    ]
   },
   {
     "name": "GT Ferruccio 55 V12",
     "brand": "Race Sim Studio",
+    "year": null,
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gt_ferruccio_55\\skins\\00_66_fundamental_red\\preview.jpg",
     "specs": {
+      "convertedPower": "462kW/628hp",
+      "isManufacturerData": false,
       "bhp": "628bhp",
       "torque": "673Nm",
       "weight": "1100kg",
@@ -1999,13 +2985,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage GT",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "vintage",
+      "RSS",
+      "italy"
+    ]
   },
   {
     "name": "GT Ferruccio 57 V12",
     "brand": "Race Sim Studio",
+    "year": null,
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gt_ferruccio_57\\skins\\00_14_gitracing\\preview.jpg",
     "specs": {
+      "convertedPower": "456kW/620hp",
+      "isManufacturerData": false,
       "bhp": "620bhp",
       "torque": "665Nm",
       "weight": "1150kg",
@@ -2021,13 +3021,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage GT",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "vintage",
+      "RSS",
+      "italy"
+    ]
   },
   {
     "name": "GT Lanzo V12",
     "brand": "Race Sim Studio",
+    "year": null,
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gt_lanzo_v12\\skins\\skin_27\\preview.jpg",
     "specs": {
+      "convertedPower": "443kW/603hp",
+      "isManufacturerData": false,
       "bhp": "603 bhp",
       "torque": "652 Nm",
       "weight": "1185kg",
@@ -2043,13 +3057,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "sequential",
+      "race",
+      "GT",
+      "Italy",
+      "#Vintage GT",
+      "RSS",
+      "vintage"
+    ]
   },
   {
     "name": "GT Shadow V8",
     "brand": "Race Sim Studio",
+    "year": null,
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gt_shadow_v8\\skins\\00_39_Sawyer\\preview.jpg",
     "specs": {
+      "convertedPower": "454kW/618hp",
+      "isManufacturerData": false,
       "bhp": "618 bhp",
       "torque": "732 Nm",
       "weight": "1165kg",
@@ -2065,13 +3093,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "sequential",
+      "race",
+      "GT",
+      "USA",
+      "#Vintage GT",
+      "RSS",
+      "vintage"
+    ]
   },
   {
     "name": "GT Tornado V12",
     "brand": "Race Sim Studio",
+    "year": null,
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gt_tornado_v12\\skins\\14_tornado\\preview.jpg",
     "specs": {
+      "convertedPower": "446kW/606hp",
+      "isManufacturerData": false,
       "bhp": "606bhp",
       "torque": "790Nm",
       "weight": "1180kg",
@@ -2087,13 +3129,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage GT",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "vintage",
+      "RSS",
+      "United Kingdom"
+    ]
   },
   {
     "name": "GT Vortex V10",
     "brand": "Race Sim Studio",
+    "year": null,
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gt_vortex_v10\\skins\\00_rss_2\\preview.jpg",
     "specs": {
+      "convertedPower": "464kW/631hp",
+      "isManufacturerData": false,
       "bhp": "631bhp",
       "torque": "743Nm",
       "weight": "1140kg",
@@ -2109,13 +3165,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage GT",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "vintage",
+      "RSS",
+      "USA"
+    ]
   },
   {
     "name": "GT-M Aero V10 Evo2",
     "brand": "Race Sim Studio",
+    "year": "2024",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtm_aero_v10_evo2\\skins\\00_sneakers_46\\preview.jpg",
     "specs": {
+      "convertedPower": "368kW/501hp",
+      "isManufacturerData": false,
       "bhp": "501bhp",
       "torque": "472Nm",
       "weight": "1411kg",
@@ -2131,13 +3201,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt3",
+      "germany",
+      "GTE-GT3",
+      "RSS"
+    ]
   },
   {
     "name": "GT-M Akuro V6 Evo2",
     "brand": "Race Sim Studio",
+    "year": "2024",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtm_akuro_v6_evo2\\skins\\01_drona_44\\preview.jpg",
     "specs": {
+      "convertedPower": "370kW/503hp",
+      "isManufacturerData": false,
       "bhp": "503bhp",
       "torque": "644Nm",
       "weight": "1370kg",
@@ -2153,13 +3237,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt3",
+      "japan",
+      "GTE-GT3",
+      "RSS"
+    ]
   },
   {
     "name": "GT-M Bayer V8",
     "brand": "Race Sim Studio",
+    "year": "2020",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtm_bayer_v8\\skins\\00_rss_special_17\\preview.jpg",
     "specs": {
+      "convertedPower": "404kW/550hp",
+      "isManufacturerData": false,
       "bhp": "550bhp",
       "torque": "660Nm",
       "weight": "1380kg",
@@ -2175,13 +3273,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt3",
+      "germany",
+      "GTE-GT3",
+      "RSS"
+    ]
   },
   {
     "name": "GT-M Lanzo V10",
     "brand": "Race Sim Studio",
+    "year": "2020",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtm_lanzo_v10\\skins\\16_skylinedesign\\preview.jpg",
     "specs": {
+      "convertedPower": "390kW/530hp",
+      "isManufacturerData": false,
       "bhp": "530bhp",
       "torque": "500Nm",
       "weight": "1380kg",
@@ -2197,13 +3309,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt3",
+      "italy",
+      "GTE-GT3",
+      "RSS"
+    ]
   },
   {
     "name": "GT-M Lanzo V10 Evo2",
     "brand": "Race Sim Studio",
+    "year": "2024",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtm_lanzo_v10_evo2\\skins\\01_veldfield_52\\preview.jpg",
     "specs": {
+      "convertedPower": "390kW/530hp",
+      "isManufacturerData": false,
       "bhp": "530bhp",
       "torque": "500Nm",
       "weight": "1400 kg*",
@@ -2219,13 +3345,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt3",
+      "italy",
+      "GTE-GT3",
+      "RSS"
+    ]
   },
   {
     "name": "GT-M Lux V8",
     "brand": "Race Sim Studio",
+    "year": "2024",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtm_lux_v8\\skins\\01_reily_martinez_14\\preview.jpg",
     "specs": {
+      "convertedPower": "340kW/463hp",
+      "isManufacturerData": false,
       "bhp": "463bhp",
       "torque": "529Nm",
       "weight": "1395kg",
@@ -2241,13 +3381,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt3",
+      "japan",
+      "GTE-GT3",
+      "RSS"
+    ]
   },
   {
     "name": "GT-M Mercer V8",
     "brand": "Race Sim Studio",
+    "year": "2024",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtm_mercer_v8\\skins\\01_rss_performance_86\\preview.jpg",
     "specs": {
+      "convertedPower": "368kW/500hp",
+      "isManufacturerData": false,
       "bhp": "500bhp",
       "torque": "610Nm",
       "weight": "1390kg",
@@ -2263,13 +3417,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt3",
+      "germany",
+      "GTE-GT3",
+      "RSS"
+    ]
   },
   {
     "name": "GT-N Darche 96 F6",
     "brand": "Race Sim Studio",
+    "year": null,
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtn_darche_96\\skins\\24\\preview.jpg",
     "specs": {
+      "convertedPower": "335kW/455hp",
+      "isManufacturerData": false,
       "bhp": "455bhp",
       "torque": "410Nm",
       "weight": "1190kg",
@@ -2285,13 +3453,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "Vintage GT",
+      "rwd",
+      "race",
+      "sequential",
+      "ngt",
+      "Vintage",
+      "RSS",
+      "Germany"
+    ]
   },
   {
     "name": "GT-N Ferruccio 36 V8",
     "brand": "Race Sim Studio",
+    "year": null,
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtn_ferruccio_36\\skins\\18\\preview.jpg",
     "specs": {
+      "convertedPower": "327kW/445hp",
+      "isManufacturerData": false,
       "bhp": "445bhp",
       "torque": "410Nm",
       "weight": "1190kg",
@@ -2307,13 +3489,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "Vintage GT",
+      "rwd",
+      "race",
+      "sequential",
+      "ngt",
+      "vintage",
+      "RSS",
+      "Italy"
+    ]
   },
   {
     "name": "Honda NSX-GT500",
     "brand": "Honda",
+    "year": "2021",
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_jt5_snx_2021\\skins\\estemo #17\\preview.jpg",
     "specs": {
+      "convertedPower": "478kW/650hp",
+      "isManufacturerData": false,
       "bhp": "650 bhp",
       "torque": "628 Nm",
       "weight": "1020 kg",
@@ -2329,13 +3525,18 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": []
   },
   {
     "name": "Hyperion 2020",
     "brand": "Race Sim Studio",
+    "year": "2020",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_hyperion_2020\\skins\\blend_hyperion_74\\preview.jpg",
     "specs": {
+      "convertedPower": "544kW/740hp",
+      "isManufacturerData": false,
       "bhp": "740bhp",
       "torque": "658Nm",
       "weight": "1505kg",
@@ -2351,13 +3552,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "fwd",
+      "race",
+      "manual",
+      "united states",
+      "cup",
+      "RSS"
+    ]
   },
   {
     "name": "IER P13b",
     "brand": "IER",
+    "year": "2013",
+    "author": "IER Simulations",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ier_p13b\\skins\\07_vendetta\\preview.jpg",
     "specs": {
+      "convertedPower": "360kW/489hp",
+      "isManufacturerData": false,
       "bhp": "489 bhp",
       "torque": "587 Nm",
       "weight": "900kg",
@@ -2373,13 +3586,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Prototype",
+      "rwd",
+      "race",
+      "sequential",
+      "usa",
+      "#LMP2",
+      "IER"
+    ]
   },
   {
     "name": "IER P13c",
     "brand": "IER",
+    "year": "2013",
+    "author": "IER Simulations",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ier_p13c\\skins\\03_vulcan\\preview.jpg",
     "specs": {
+      "convertedPower": "443kW/603hp",
+      "isManufacturerData": false,
       "bhp": "603 bhp",
       "torque": "485 Nm",
       "weight": "890kg",
@@ -2395,13 +3621,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Prototype",
+      "rwd",
+      "race",
+      "sequential",
+      "usa",
+      "#LMP1",
+      "IER"
+    ]
   },
   {
     "name": "JT5 SHIRO 2022",
     "brand": "United Racing Design",
+    "year": "2022",
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_jt5_shiro_2022\\skins\\#1 Merelli\\preview.jpg",
     "specs": {
+      "convertedPower": "481kW/654hp",
+      "isManufacturerData": false,
       "bhp": "654 bhp",
       "torque": "630 Nm",
       "weight": "1020 kg",
@@ -2417,13 +3656,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "race",
+      "japan",
+      "gt500",
+      "rwd",
+      "turbo",
+      "class1",
+      "JT5"
+    ]
   },
   {
     "name": "KTM X-Bow R",
     "brand": "KTM",
+    "year": "2008",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ktm_xbow_r\\skins\\00_orange_14\\preview.jpg",
     "specs": {
+      "convertedPower": "221kW/300hp",
+      "isManufacturerData": false,
       "bhp": "300bhp",
       "torque": "400Nm",
       "weight": "795kg",
@@ -2439,19 +3691,35 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "rwd",
+      "manual",
+      "turbo",
+      "lightweight",
+      "street",
+      "race",
+      "trackday",
+      "gt4",
+      "austria"
+    ]
   },
   {
     "name": "Lamborghini Aventador SV",
     "brand": "Lamborghini",
+    "year": "2011",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_aventador_sv\\skins\\00_rosso_bia_glittered\\preview.jpg",
     "specs": {
-      "bhp": "750hp",
+      "convertedPower": "551kW/750hp",
+      "isManufacturerData": false,
+      "bhp": "750bhp",
       "torque": "690Nm",
       "weight": "1525kg",
       "topspeed": "350+km/h",
       "acceleration": "2.8s 0-100",
-      "pwratio": "2.03kg/hp"
+      "pwratio": "2.03 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -2461,13 +3729,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Hypercars",
+      "awd",
+      "street",
+      "sequential",
+      "italy"
+    ]
   },
   {
     "name": "Lamborghini Countach",
     "brand": "Lamborghini",
+    "year": "1983",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_countach\\skins\\0_oro_sahara_metal\\preview.jpg",
     "specs": {
+      "convertedPower": "325kW/442hp",
+      "isManufacturerData": false,
       "bhp": "442bhp",
       "torque": "500Nm",
       "weight": "1490kg",
@@ -2483,13 +3762,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage Supercars",
+      "rwd",
+      "manual",
+      "street",
+      "supercar",
+      "vintage",
+      "italy"
+    ]
   },
   {
     "name": "Lamborghini Countach S1",
     "brand": "Lamborghini",
+    "year": "1983",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_countach_s1\\skins\\0_rosso_siviglia_gold\\preview.jpg",
     "specs": {
+      "convertedPower": "325kW/442hp",
+      "isManufacturerData": false,
       "bhp": "442bhp",
       "torque": "500Nm",
       "weight": "1490kg",
@@ -2505,13 +3797,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage Supercars",
+      "rwd",
+      "manual",
+      "street",
+      "supercar",
+      "vintage",
+      "italy"
+    ]
   },
   {
     "name": "Lamborghini Gallardo SL",
     "brand": "Lamborghini",
+    "year": "2007",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_gallardo_sl\\skins\\0_verde_ithaca_pearl\\preview.jpg",
     "specs": {
+      "convertedPower": "419kW/570hp",
+      "isManufacturerData": false,
       "bhp": "570bhp",
       "torque": "540Nm",
       "weight": "1340kg",
@@ -2527,13 +3832,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "awd",
+      "street",
+      "sequential",
+      "supercar",
+      "italy"
+    ]
   },
   {
     "name": "Lamborghini Gallardo SL Step3",
     "brand": "Lamborghini",
+    "year": "2007",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_gallardo_sl_s3\\skins\\striped_black_orange\\preview.jpg",
     "specs": {
+      "convertedPower": "882kW/1200hp",
+      "isManufacturerData": false,
       "bhp": "1200bhp",
       "torque": "--Nm",
       "weight": "1390kg",
@@ -2549,13 +3866,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Hypercars",
+      "rwd",
+      "street",
+      "sequential",
+      "supercar",
+      "italy"
+    ]
   },
   {
     "name": "Lamborghini Huracan GT3",
     "brand": "Lamborghini",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_huracan_gt3\\skins\\0_Racing_green\\preview.jpg",
     "specs": {
+      "convertedPower": "441kW/600hp",
+      "isManufacturerData": false,
       "bhp": "600bhp",
       "torque": "500+Nm",
       "weight": "1239kg",
@@ -2571,13 +3900,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GTE-GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt3",
+      "italy"
+    ]
   },
   {
     "name": "Lamborghini Huracan Performante",
     "brand": "Lamborghini",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_huracan_performante\\skins\\00_arancio_anthaeus\\preview.jpg",
     "specs": {
+      "convertedPower": "471kW/640hp",
+      "isManufacturerData": false,
       "bhp": "640bhp",
       "torque": "600Nm",
       "weight": "1382kg",
@@ -2593,13 +3935,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "awd",
+      "semiautomatic",
+      "street",
+      "supercar",
+      "italy"
+    ]
   },
   {
     "name": "Lamborghini Huracan ST",
     "brand": "Lamborghini",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_huracan_st\\skins\\0_Racing_63\\preview.jpg",
     "specs": {
+      "convertedPower": "456kW/620hp",
+      "isManufacturerData": false,
       "bhp": "620bhp",
       "torque": "570Nm",
       "weight": "1270kg",
@@ -2615,13 +3969,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GTE-GT3",
+      "sequential",
+      "rwd",
+      "race",
+      "gt",
+      "italy"
+    ]
   },
   {
     "name": "Lamborghini Miura P400 SV",
     "brand": "Lamborghini",
+    "year": "1966",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_miura_sv\\skins\\Arancio_Gold\\preview.jpg",
     "specs": {
+      "convertedPower": "283kW/385hp",
+      "isManufacturerData": false,
       "bhp": "385bhp",
       "torque": "400Nm",
       "weight": "1245kg",
@@ -2637,19 +4003,32 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage Supercars",
+      "rwd",
+      "manual",
+      "street",
+      "supercar",
+      "vintage",
+      "italy"
+    ]
   },
   {
     "name": "Lamborghini Sesto Elemento",
     "brand": "Lamborghini",
+    "year": "2011",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_sesto_elemento\\skins\\00_carbono\\preview.jpg",
     "specs": {
-      "bhp": "570hp",
+      "convertedPower": "413kW/562hp",
+      "isManufacturerData": false,
+      "bhp": "562bhp",
       "torque": "540Nm",
       "weight": "999kg",
       "topspeed": "350km/h",
       "acceleration": "2.5s 0-100",
-      "pwratio": "1.75kg/hp"
+      "pwratio": "1.78 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -2659,13 +4038,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Hypercars",
+      "awd",
+      "street",
+      "sequential",
+      "italy"
+    ]
   },
   {
     "name": "LMGT Nisumo R39 V8",
     "brand": "Race Sim Studio",
+    "year": "1998",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_lmgt_nisumo_r39_v8\\skins\\01_kansuke_32\\preview.jpg",
     "specs": {
+      "convertedPower": "437kW/595hp",
+      "isManufacturerData": false,
       "bhp": "595bhp",
       "torque": "652Nm",
       "weight": "1070kg",
@@ -2681,13 +4071,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "sequential",
+      "RSS",
+      "GT1",
+      "japan",
+      "LMGT",
+      "prototype"
+    ]
   },
   {
     "name": "LMGT Toyama 2-Zero V8",
     "brand": "Race Sim Studio",
+    "year": "1999",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_lmgt_toyama_2zero_v8\\skins\\01_zeni_01\\preview.jpg",
     "specs": {
+      "convertedPower": "444kW/604hp",
+      "isManufacturerData": false,
       "bhp": "604bhp",
       "torque": "650Nm",
       "weight": "990kg",
@@ -2703,13 +4107,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "prototype",
+      "LMGT",
+      "rwd",
+      "race",
+      "vintage",
+      "Japan",
+      "RSS",
+      "GT1"
+    ]
   },
   {
     "name": "LMP Ferruccio 33 V12",
     "brand": "Race Sim Studio",
+    "year": "1999",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_lmp_ferruccio_33_v12\\skins\\01_devin_racing_03\\preview.jpg",
     "specs": {
+      "convertedPower": "441kW/600hp",
+      "isManufacturerData": false,
       "bhp": "600 bhp",
       "torque": "416 Nm",
       "weight": "979kg",
@@ -2725,13 +4143,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "prototype",
+      "LMP",
+      "rwd",
+      "race",
+      "vintage",
+      "Italy",
+      "RSS",
+      "GT"
+    ]
   },
   {
     "name": "LMP1 Protech P91 Hybrid Evo",
     "brand": "Race Sim Studio",
+    "year": "2018",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_lmp1_protech_p91_evo\\skins\\00_default\\preview.jpg",
     "specs": {
+      "convertedPower": "527kW/717hp",
+      "isManufacturerData": false,
       "bhp": "717bhp",
       "torque": "690Nm",
       "weight": "919kg",
@@ -2747,13 +4179,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "awd",
+      "race",
+      "sequential",
+      "lmp1",
+      "germany",
+      "RSS",
+      "prototype"
+    ]
   },
   {
     "name": "Lotus 2-Eleven",
     "brand": "Lotus",
+    "year": "2007",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_2_eleven\\skins\\2_eleven\\preview.jpg",
     "specs": {
+      "convertedPower": "185kW/252hp",
+      "isManufacturerData": false,
       "bhp": "252bhp",
       "torque": "242Nm",
       "weight": "670kg",
@@ -2769,13 +4214,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "rwd",
+      "manual",
+      "compressor",
+      "lightweight",
+      "street",
+      "trackday",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus 2-Eleven GT4",
     "brand": "Lotus",
+    "year": "2007",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_2_eleven_gt4\\skins\\2ELEVEN_13\\preview.jpg",
     "specs": {
+      "convertedPower": "199kW/270hp",
+      "isManufacturerData": false,
       "bhp": "270bhp",
       "torque": "252Nm",
       "weight": "670kg",
@@ -2791,13 +4250,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GT4",
+      "rwd",
+      "sequential",
+      "lightweight",
+      "race",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus 3-Eleven",
     "brand": "Lotus",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lotus_3_eleven\\skins\\00_green_yellow\\preview.jpg",
     "specs": {
+      "convertedPower": "338kW/460hp",
+      "isManufacturerData": false,
       "bhp": "460bhp",
       "torque": "525Nm",
       "weight": "890kg",
@@ -2813,13 +4284,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "rwd",
+      "sequential",
+      "lightweight",
+      "race",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus 72D",
     "brand": "Lotus Classic Cars",
+    "year": "1970",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lotus_72d\\skins\\classic_lotus_5\\preview.jpg",
     "specs": {
+      "convertedPower": "324kW/440hp",
+      "isManufacturerData": false,
       "bhp": "440bhp",
       "torque": "332Nm",
       "weight": "550kg",
@@ -2835,13 +4318,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Lotus72D",
+      "rwd",
+      "race",
+      "manual",
+      "gp",
+      "singleseater",
+      "vintage",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus 98T",
     "brand": "Lotus Classic Cars",
+    "year": "1986",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_98t\\skins\\0_delonghi_11\\preview.jpg",
     "specs": {
+      "convertedPower": "735kW/1000hp",
+      "isManufacturerData": false,
       "bhp": "1000+bhp",
       "torque": "800+Nm",
       "weight": "523kg",
@@ -2857,13 +4354,28 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Lotus98T",
+      "rwd",
+      "race",
+      "manual",
+      "gp",
+      "singleseater",
+      "turbo",
+      "vintage",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus Elise SC",
     "brand": "Lotus",
+    "year": "2008",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_elise_sc\\skins\\0_racing_green\\preview.jpg",
     "specs": {
+      "convertedPower": "160kW/217hp",
+      "isManufacturerData": false,
       "bhp": "217bhp",
       "torque": "242Nm",
       "weight": "929kg",
@@ -2879,13 +4391,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "manual",
+      "compressor",
+      "lightweight",
+      "street",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus Elise SC Step1",
     "brand": "Lotus",
+    "year": "2008",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_elise_sc_s1\\skins\\0_Motorsport_Green\\preview.jpg",
     "specs": {
+      "convertedPower": "160kW/217hp",
+      "isManufacturerData": false,
       "bhp": "217bhp",
       "torque": "242Nm",
       "weight": "929kg",
@@ -2901,13 +4426,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "manual",
+      "compressor",
+      "lightweight",
+      "street",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus Elise SC Step2",
     "brand": "Lotus",
+    "year": "2008",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_elise_sc_s2\\skins\\0_Racing_Green_Stripe\\preview.jpg",
     "specs": {
+      "convertedPower": "160kW/217hp",
+      "isManufacturerData": false,
       "bhp": "217bhp",
       "torque": "242Nm",
       "weight": "929kg",
@@ -2923,13 +4461,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "manual",
+      "compressor",
+      "lightweight",
+      "street",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus Evora GTC",
     "brand": "Lotus",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_evora_gtc\\skins\\battery_tender\\preview.jpg",
     "specs": {
+      "convertedPower": "331kW/450hp",
+      "isManufacturerData": false,
       "bhp": "450bhp",
       "torque": "460Nm",
       "weight": "1205kg",
@@ -2945,13 +4496,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GT4",
+      "rwd",
+      "semiautomatic",
+      "compressor",
+      "race",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus Evora GTE",
     "brand": "Lotus",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_evora_gte\\skins\\0_yellow\\preview.jpg",
     "specs": {
+      "convertedPower": "309kW/420hp",
+      "isManufacturerData": false,
       "bhp": "420bhp",
       "torque": "461Nm",
       "weight": "1395kg",
@@ -2967,13 +4530,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "semiautomatic",
+      "compressor",
+      "street",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus Evora GTE Carbon",
     "brand": "Lotus",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_evora_gte_carbon\\skins\\carbon\\preview.jpg",
     "specs": {
+      "convertedPower": "309kW/420hp",
+      "isManufacturerData": false,
       "bhp": "420bhp",
       "torque": "461Nm",
       "weight": "1285kg",
@@ -2989,13 +4564,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "semiautomatic",
+      "compressor",
+      "street",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus Evora GX",
     "brand": "Lotus",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_evora_gx\\skins\\battery_tender\\preview.jpg",
     "specs": {
+      "convertedPower": "324kW/440hp",
+      "isManufacturerData": false,
       "bhp": "440bhp",
       "torque": "460Nm",
       "weight": "1395kg",
@@ -3011,13 +4598,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GT4",
+      "rwd",
+      "semiautomatic",
+      "compressor",
+      "race",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus Evora S",
     "brand": "Lotus",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_evora_s\\skins\\0_Racing_Green\\preview.jpg",
     "specs": {
+      "convertedPower": "254kW/345hp",
+      "isManufacturerData": false,
       "bhp": "345bhp",
       "torque": "400Nm",
       "weight": "1385kg",
@@ -3033,13 +4632,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "manual",
+      "compressor",
+      "street",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus Evora S Stage 2",
     "brand": "Lotus",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_evora_s_s2\\skins\\0_Motorsport_Green\\preview.jpg",
     "specs": {
+      "convertedPower": "294kW/400hp",
+      "isManufacturerData": false,
       "bhp": "400bhp",
       "torque": "420Nm",
       "weight": "1385kg",
@@ -3055,13 +4666,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "manual",
+      "compressor",
+      "street",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus Exige 240R",
     "brand": "Lotus",
+    "year": "2008",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_exige_240\\skins\\orange\\preview.jpg",
     "specs": {
+      "convertedPower": "179kW/243hp",
+      "isManufacturerData": false,
       "bhp": "243bhp",
       "torque": "236Nm",
       "weight": "930kg",
@@ -3077,13 +4700,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "manual",
+      "compressor",
+      "lightweight",
+      "street",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus Exige 240R Stage3",
     "brand": "Lotus",
+    "year": "2008",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_exige_240_s3\\skins\\0_motorsport_green_stripe\\preview.jpg",
     "specs": {
+      "convertedPower": "199kW/270hp",
+      "isManufacturerData": false,
       "bhp": "270bhp",
       "torque": "270Nm",
       "weight": "900kg",
@@ -3099,13 +4735,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "manual",
+      "compressor",
+      "lightweight",
+      "street",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus Exige S",
     "brand": "Lotus",
+    "year": "2012",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_exige_s\\skins\\0_racing_green\\preview.jpg",
     "specs": {
+      "convertedPower": "254kW/345hp",
+      "isManufacturerData": false,
       "bhp": "345bhp",
       "torque": "400Nm",
       "weight": "1176kg",
@@ -3121,13 +4770,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "rwd",
+      "manual",
+      "compressor",
+      "trackday",
+      "street",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus Exige S roadster",
     "brand": "Lotus",
+    "year": "2013",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_exige_s_roadster\\skins\\0_racing_green\\preview.jpg",
     "specs": {
+      "convertedPower": "254kW/345hp",
+      "isManufacturerData": false,
       "bhp": "345bhp",
       "torque": "400Nm",
       "weight": "1166kg",
@@ -3143,13 +4805,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "manual",
+      "compressor",
+      "trackday",
+      "street",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus Exige Scura",
     "brand": "Lotus",
+    "year": "2009",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_exige_scura\\skins\\scura\\preview.jpg",
     "specs": {
+      "convertedPower": "189kW/257hp",
+      "isManufacturerData": false,
       "bhp": "257bhp",
       "torque": "243Nm",
       "weight": "925kg",
@@ -3165,13 +4840,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "manual",
+      "compressor",
+      "lightweight",
+      "street",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus Exige V6 CUP",
     "brand": "Lotus",
+    "year": "2013",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_exige_v6_cup\\skins\\0_solar_yellow\\preview.jpg",
     "specs": {
+      "convertedPower": "254kW/345hp",
+      "isManufacturerData": false,
       "bhp": "345bhp",
       "torque": "400Nm",
       "weight": "1080kg",
@@ -3187,13 +4875,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "rwd",
+      "manual",
+      "compressor",
+      "trackday",
+      "street",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus Exos 125",
     "brand": "Lotus",
+    "year": "2010",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_exos_125\\skins\\0_Lotus\\preview.jpg",
     "specs": {
+      "convertedPower": "471kW/640hp",
+      "isManufacturerData": false,
       "bhp": "640bhp",
       "torque": "450Nm",
       "weight": "660kg",
@@ -3209,13 +4910,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Lotus125",
+      "rwd",
+      "race",
+      "sequential",
+      "gp",
+      "singleseater",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus Exos 125 Stage 1",
     "brand": "Lotus",
+    "year": "2010",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_exos_125_s1\\skins\\00_racing_green\\preview.jpg",
     "specs": {
+      "convertedPower": "551kW/750hp",
+      "isManufacturerData": false,
       "bhp": "750bhp",
       "torque": "--Nm",
       "weight": "660kg",
@@ -3231,13 +4945,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Lotus125S1",
+      "rwd",
+      "race",
+      "sequential",
+      "gp",
+      "singleseater",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus Type 25",
     "brand": "Lotus Classic Cars",
+    "year": "1962",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lotus_25\\skins\\racing_01\\preview.jpg",
     "specs": {
+      "convertedPower": "143kW/195hp",
+      "isManufacturerData": false,
       "bhp": "195bhp",
       "torque": "160Nm",
       "weight": "451kg",
@@ -3253,13 +4980,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Lotus25",
+      "rwd",
+      "race",
+      "manual",
+      "gp",
+      "singleseater",
+      "vintage",
+      "great britain"
+    ]
   },
   {
     "name": "Lotus Type 49",
     "brand": "Lotus Classic Cars",
+    "year": "1967",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_49\\skins\\00_default\\preview.jpg",
     "specs": {
+      "convertedPower": "301kW/410hp",
+      "isManufacturerData": false,
       "bhp": "410bhp",
       "torque": "350Nm",
       "weight": "575kg",
@@ -3275,13 +5016,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage Racecar",
+      "rwd",
+      "race",
+      "manual",
+      "gp",
+      "singleseater",
+      "vintage",
+      "great britain"
+    ]
   },
   {
     "name": "Maserati 250F 12 cylinder",
     "brand": "Maserati",
+    "year": "1954",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_maserati_250f_12cyl\\skins\\00_racing_06\\preview.jpg",
     "specs": {
+      "convertedPower": "228kW/310hp",
+      "isManufacturerData": false,
       "bhp": "310bhp",
       "torque": "--Nm",
       "weight": "670kg",
@@ -3297,13 +5052,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Maserati250FT2",
+      "rwd",
+      "race",
+      "manual",
+      "gp",
+      "singleseater",
+      "vintage",
+      "italy"
+    ]
   },
   {
     "name": "Maserati 250F 6 cylinder",
     "brand": "Maserati",
+    "year": "1954",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_maserati_250f_6cyl\\skins\\00_racing_01\\preview.jpg",
     "specs": {
+      "convertedPower": "199kW/270hp",
+      "isManufacturerData": false,
       "bhp": "270bhp",
       "torque": "--Nm",
       "weight": "670kg",
@@ -3319,13 +5088,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Maserati250F",
+      "rwd",
+      "race",
+      "manual",
+      "gp",
+      "singleseater",
+      "vintage",
+      "italy"
+    ]
   },
   {
     "name": "Maserati Alfieri",
     "brand": "Maserati",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_maserati_alfieri\\skins\\01_grigio\\preview.jpg",
     "specs": {
+      "convertedPower": "338kW/460hp",
+      "isManufacturerData": false,
       "bhp": "460bhp",
       "torque": "520Nm",
       "weight": "1496kg",
@@ -3341,13 +5124,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "semiautomatic",
+      "street",
+      "italy"
+    ]
   },
   {
     "name": "Maserati GranTurismo MC GT4",
     "brand": "Maserati",
+    "year": "2016",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_maserati_gt_mc_gt4\\skins\\00_official\\preview.jpg",
     "specs": {
+      "convertedPower": "316kW/430hp",
+      "isManufacturerData": false,
       "bhp": "430bhp",
       "torque": "535Nm",
       "weight": "1410kg",
@@ -3363,13 +5157,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GT4",
+      "rwd",
+      "race",
+      "sequential",
+      "italy"
+    ]
   },
   {
     "name": "Maserati Levante S",
     "brand": "Maserati",
+    "year": "2016",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_maserati_levante\\skins\\00_nero_ribelle\\preview.jpg",
     "specs": {
+      "convertedPower": "312kW/424hp",
+      "isManufacturerData": false,
       "bhp": "424bhp",
       "torque": "580Nm",
       "weight": "2108kg",
@@ -3385,13 +5190,23 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#SUV",
+      "awd",
+      "street",
+      "italy"
+    ]
   },
   {
     "name": "Maserati MC12 GT1",
     "brand": "Maserati",
+    "year": "2004",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_maserati_mc12_gt1\\skins\\00_racing_00\\preview.jpg",
     "specs": {
+      "convertedPower": "426kW/580hp",
+      "isManufacturerData": false,
       "bhp": "580bhp",
       "torque": "650Nm",
       "weight": "1100kg",
@@ -3407,13 +5222,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage GT",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "vintage",
+      "italy"
+    ]
   },
   {
     "name": "Maserati Quattroporte GTS",
     "brand": "Maserati",
+    "year": "2013",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_maserati_quattroporte\\skins\\00_champagne\\preview.jpg",
     "specs": {
+      "convertedPower": "390kW/530hp",
+      "isManufacturerData": false,
       "bhp": "530bhp",
       "torque": "710Nm",
       "weight": "1900kg",
@@ -3429,13 +5257,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "turbo",
+      "semiautomatic",
+      "street",
+      "italy"
+    ]
   },
   {
     "name": "Maures LCK EGT1",
     "brand": "United Racing Design",
+    "year": "1997",
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_maures_gtr_97\\skins\\11\\preview.jpg",
     "specs": {
+      "convertedPower": "434kW/590hp",
+      "isManufacturerData": false,
       "bhp": "590 bhp",
       "torque": "700 Nm",
       "weight": "1000 kg",
@@ -3451,13 +5291,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "prototype",
+      "vintage",
+      "germany"
+    ]
   },
   {
     "name": "Mazda 787B",
     "brand": "Mazda",
+    "year": "1990",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mazda_787b\\skins\\00_renown_55\\preview.jpg",
     "specs": {
+      "convertedPower": "507kW/690hp",
+      "isManufacturerData": false,
       "bhp": "690bhp",
       "torque": "608Nm",
       "weight": "845kg",
@@ -3473,13 +5326,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Proto C",
+      "rwd",
+      "rotary",
+      "race",
+      "prototype C",
+      "vintage",
+      "japan"
+    ]
   },
   {
     "name": "Mazda Miata NA",
     "brand": "Mazda",
+    "year": "1990",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mazda_miata\\skins\\00_classic_red\\preview.jpg",
     "specs": {
+      "convertedPower": "96kW/130hp",
+      "isManufacturerData": false,
       "bhp": "130bhp",
       "torque": "152Nm",
       "weight": "1040kg",
@@ -3495,13 +5361,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#small sports",
+      "rwd",
+      "manual",
+      "street",
+      "japan"
+    ]
   },
   {
     "name": "Mazda MX5 Cup",
     "brand": "Mazda",
+    "year": "2016",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mazda_mx5_cup\\skins\\00_official\\preview.jpg",
     "specs": {
+      "convertedPower": "118kW/160hp",
+      "isManufacturerData": false,
       "bhp": "160bhp",
       "torque": "200Nm",
       "weight": "908kg",
@@ -3517,13 +5394,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#global cup",
+      "rwd",
+      "manual",
+      "race",
+      "japan"
+    ]
   },
   {
     "name": "Mazda MX5 ND",
     "brand": "Mazda",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mazda_mx5_nd\\skins\\00_soul_red_metallic\\preview.jpg",
     "specs": {
+      "convertedPower": "118kW/160hp",
+      "isManufacturerData": false,
       "bhp": "160bhp",
       "torque": "200Nm",
       "weight": "1058kg",
@@ -3539,13 +5427,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#small sports",
+      "rwd",
+      "manual",
+      "street",
+      "japan"
+    ]
   },
   {
     "name": "Mazda RX-7 Spirit R",
     "brand": "Mazda",
+    "year": "1991",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mazda_rx7_spirit_r\\skins\\00_blaze_red_b\\preview.jpg",
     "specs": {
+      "convertedPower": "203kW/276hp",
+      "isManufacturerData": false,
       "bhp": "276bhp",
       "torque": "314Nm",
       "weight": "1270kg",
@@ -3561,13 +5460,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "manual",
+      "street",
+      "japan"
+    ]
   },
   {
     "name": "Mazda RX-7 Tuned",
     "brand": "Mazda",
+    "year": "1991",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mazda_rx7_tuned\\skins\\00_orange_s2\\preview.jpg",
     "specs": {
+      "convertedPower": "326kW/444hp",
+      "isManufacturerData": false,
       "bhp": "444bhp",
       "torque": "398Nm",
       "weight": "1312kg",
@@ -3583,13 +5493,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "manual",
+      "street",
+      "japan"
+    ]
   },
   {
     "name": "McLaren 570S",
     "brand": "McLaren",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mclaren_570s\\skins\\00_mclaren_orange\\preview.jpg",
     "specs": {
+      "convertedPower": "413kW/562hp",
+      "isManufacturerData": false,
       "bhp": "562bhp",
       "torque": "600Nm",
       "weight": "1313kg",
@@ -3605,13 +5526,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "rwd",
+      "street",
+      "semiautomatic",
+      "supercar",
+      "great britain"
+    ]
   },
   {
     "name": "McLaren 650S GT3",
     "brand": "McLaren",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mclaren_650_gt3\\skins\\00_racing_59\\preview.jpg",
     "specs": {
+      "convertedPower": "368kW/500hp",
+      "isManufacturerData": false,
       "bhp": "500bhp",
       "torque": "500Nm",
       "weight": "1240kg",
@@ -3627,13 +5560,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GTE-GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt3",
+      "turbo",
+      "gt",
+      "great britain"
+    ]
   },
   {
     "name": "McLaren F1 GTR",
     "brand": "McLaren",
+    "year": "1995",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mclaren_f1_gtr\\skins\\0_orange\\preview.jpg",
     "specs": {
+      "convertedPower": "437kW/595hp",
+      "isManufacturerData": false,
       "bhp": "595bhp",
       "torque": "693Nm",
       "weight": "1010kg",
@@ -3649,13 +5596,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage GT",
+      "rwd",
+      "race",
+      "manual",
+      "gt",
+      "vintage",
+      "great britain"
+    ]
   },
   {
     "name": "McLaren MP4-12C",
     "brand": "McLaren",
+    "year": "2011",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\mclaren_mp412c\\skins\\0_mclaren_orange\\preview.jpg",
     "specs": {
+      "convertedPower": "453kW/616hp",
+      "isManufacturerData": false,
       "bhp": "616bhp",
       "torque": "600Nm",
       "weight": "1434kg",
@@ -3671,13 +5631,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "rwd",
+      "semiautomatic",
+      "turbo",
+      "street",
+      "supercar",
+      "great britain"
+    ]
   },
   {
     "name": "McLaren MP4-12C GT3",
     "brand": "McLaren",
+    "year": "2011",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\mclaren_mp412c_gt3\\skins\\0_2013-Official_McLaren\\preview.jpg",
     "specs": {
+      "convertedPower": "368kW/500hp",
+      "isManufacturerData": false,
       "bhp": "500bhp",
       "torque": "500Nm",
       "weight": "1245kg",
@@ -3693,13 +5666,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GTE-GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt3",
+      "great britain"
+    ]
   },
   {
     "name": "McLaren P1™",
     "brand": "McLaren",
+    "year": "2013",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mclaren_p1\\skins\\0_mclaren_orange\\preview.jpg",
     "specs": {
+      "convertedPower": "664kW/903hp",
+      "isManufacturerData": false,
       "bhp": "903bhp",
       "torque": "900Nm",
       "weight": "1450kg",
@@ -3715,13 +5701,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Hypercars",
+      "rwd",
+      "street",
+      "semiautomatic",
+      "great britain"
+    ]
   },
   {
     "name": "McLaren P1™ GTR",
     "brand": "McLaren",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mclaren_p1_gtr\\skins\\00_livery_01\\preview.jpg",
     "specs": {
+      "convertedPower": "725kW/986hp",
+      "isManufacturerData": false,
       "bhp": "986bhp",
       "torque": "1000+Nm",
       "weight": "1400kg",
@@ -3737,13 +5734,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Hypercars R",
+      "rwd",
+      "street",
+      "semiautomatic",
+      "great britain"
+    ]
   },
   {
     "name": "Mercedes SLS AMG",
     "brand": "Mercedes-Benz",
+    "year": "2009",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\mercedes_sls\\skins\\Argento_Iridio\\preview.jpg",
     "specs": {
+      "convertedPower": "420kW/571hp",
+      "isManufacturerData": false,
       "bhp": "571bhp",
       "torque": "650Nm",
       "weight": "1620kg",
@@ -3759,13 +5767,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "rwd",
+      "semiautomatic",
+      "street",
+      "supercar",
+      "germany"
+    ]
   },
   {
     "name": "Mercedes SLS AMG GT3",
     "brand": "Mercedes-Benz",
+    "year": "2009",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\mercedes_sls_gt3\\skins\\0_AMG\\preview.jpg",
     "specs": {
+      "convertedPower": "382kW/520hp",
+      "isManufacturerData": false,
       "bhp": "520bhp",
       "torque": "600Nm",
       "weight": "1265kg",
@@ -3781,13 +5801,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GTE-GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt3",
+      "germany"
+    ]
   },
   {
     "name": "Mercedes-Benz 190E EVO II",
     "brand": "Mercedes-Benz",
+    "year": "1990",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mercedes_190_evo2\\skins\\0_Sonax_3\\preview.jpg",
     "specs": {
+      "convertedPower": "272kW/370hp",
+      "isManufacturerData": false,
       "bhp": "370+bhp",
       "torque": "310Nm",
       "weight": "980kg",
@@ -3803,13 +5836,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#90s touring",
+      "rwd",
+      "manual",
+      "race",
+      "touring",
+      "germany",
+      "vintage"
+    ]
   },
   {
     "name": "Mercedes-Benz AMG GT3",
     "brand": "Mercedes-Benz",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mercedes_amg_gt3\\skins\\0_0fficial\\preview.jpg",
     "specs": {
+      "convertedPower": "382kW/520hp",
+      "isManufacturerData": false,
       "bhp": "520bhp",
       "torque": "600Nm",
       "weight": "1265kg",
@@ -3825,13 +5871,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GTE-GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt3",
+      "germany"
+    ]
   },
   {
     "name": "Mercedes-Benz C9 1989 LM",
     "brand": "Mercedes-Benz",
+    "year": "1989",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mercedes_c9\\skins\\00_sauber_63\\preview.jpg",
     "specs": {
+      "convertedPower": "551kW/750hp",
+      "isManufacturerData": false,
       "bhp": "750+bhp",
       "torque": "500Nm",
       "weight": "905kg",
@@ -3847,13 +5906,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Proto C",
+      "rwd",
+      "race",
+      "manual",
+      "gt",
+      "prototype C",
+      "vintage",
+      "germany"
+    ]
   },
   {
     "name": "Mercedes-Benz CLR LM",
     "brand": "Mercedes-Benz",
+    "year": "1999",
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_mercedes_clr_lm\\skins\\00\\preview.jpg",
     "specs": {
+      "convertedPower": "441kW/600hp",
+      "isManufacturerData": false,
       "bhp": "600 bhp",
       "torque": "684 Nm",
       "weight": "921 kg",
@@ -3869,13 +5942,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "prototype",
+      "vintage",
+      "germany"
+    ]
   },
   {
     "name": "Michigan EGT",
     "brand": "Michigan",
+    "year": "2020",
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_michigan_egt\\skins\\03\\preview.jpg",
     "specs": {
+      "convertedPower": "404kW/550hp",
+      "isManufacturerData": false,
       "bhp": "550 bhp",
       "torque": "705 Nm",
       "weight": "1240kg",
@@ -3891,13 +5977,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GTE-GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "usa",
+      "gte",
+      "mid engine"
+    ]
   },
   {
     "name": "Michigan GTD",
     "brand": "Michigan",
+    "year": "2020",
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_michigan_gtd\\skins\\2022 GTD Pro Corvette_Racing 3\\preview.jpg",
     "specs": {
+      "convertedPower": "379kW/515hp",
+      "isManufacturerData": false,
       "bhp": "515 bhp",
       "torque": "662 Nm",
       "weight": "1300kg",
@@ -3913,13 +6013,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "usa",
+      "gtd",
+      "mid engine"
+    ]
   },
   {
     "name": "MP-H Bayer Hybrid V8",
     "brand": "Race Sim Studio",
+    "year": "2024",
+    "author": "Race Sim Studio",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_mph_bayer_hybrid_v8\\skins\\01_hybrid_red\\preview.jpg",
     "specs": {
+      "convertedPower": "441kW/600hp",
+      "isManufacturerData": false,
       "bhp": "600bhp",
       "torque": "615Nm",
       "weight": "1120kg",
@@ -3935,13 +6049,65 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "sequential",
+      "lmp1",
+      "lmdh",
+      "germany",
+      "RSS",
+      "prototype",
+      "hybrid"
+    ]
+  },
+  {
+    "name": "MP-H Protech P96 V8",
+    "brand": "Race Sim Studio",
+    "year": "2024",
+    "author": "Race Sim Studio",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_mph_protech_p96_v8\\skins\\00_protech_rss_5\\preview.jpg",
+    "specs": {
+      "convertedPower": "460kW/625hp",
+      "isManufacturerData": false,
+      "bhp": "625bhp",
+      "torque": "625Nm",
+      "weight": "1118kg",
+      "topspeed": "340+km/h",
+      "acceleration": "--s 0-100",
+      "pwratio": "1.79kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "sequential",
+      "lmp1",
+      "lmdh",
+      "germany",
+      "RSS",
+      "prototype",
+      "hybrid"
+    ]
   },
   {
     "name": "Nissan 370z Nismo",
     "brand": "Nissan",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_nissan_370z\\skins\\00_pearl_white_met\\preview.jpg",
     "specs": {
+      "convertedPower": "257kW/350hp",
+      "isManufacturerData": false,
       "bhp": "350bhp",
       "torque": "374Nm",
       "weight": "1498kg",
@@ -3957,13 +6123,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "manual",
+      "street",
+      "japan"
+    ]
   },
   {
     "name": "Nissan GT-R GT3",
     "brand": "Nissan",
+    "year": "2012",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_nissan_gtr_gt3\\skins\\0_Nissan_12\\preview.jpg",
     "specs": {
+      "convertedPower": "441kW/600hp",
+      "isManufacturerData": false,
       "bhp": "600bhp",
       "torque": "700Nm",
       "weight": "1300kg",
@@ -3979,13 +6156,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GTE-GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt3",
+      "japan"
+    ]
   },
   {
     "name": "Nissan GT-R NISMO",
     "brand": "Nissan",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_nissan_gtr\\skins\\0_pearl_white\\preview.jpg",
     "specs": {
+      "convertedPower": "435kW/592hp",
+      "isManufacturerData": false,
       "bhp": "592bhp",
       "torque": "652Nm",
       "weight": "1750kg",
@@ -4001,13 +6191,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "awd",
+      "turbo",
+      "sequential",
+      "street",
+      "supercar",
+      "japan"
+    ]
   },
   {
     "name": "Nissan GT-R Nismo GT500",
     "brand": "Nissan",
+    "year": "2021",
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_jt5_shiro_2021\\skins\\Autotech_Motol_#23\\preview.jpg",
     "specs": {
+      "convertedPower": "481kW/654hp",
+      "isManufacturerData": false,
       "bhp": "654 bhp",
       "torque": "630 Nm",
       "weight": "1020 kg",
@@ -4023,13 +6226,18 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": []
   },
   {
     "name": "Nissan Skyline GTR R34 V-Spec",
     "brand": "Nissan",
+    "year": "1999",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_nissan_skyline_r34\\skins\\00_bayside_blue\\preview.jpg",
     "specs": {
+      "convertedPower": "239kW/325hp",
+      "isManufacturerData": false,
       "bhp": "325bhp",
       "torque": "392Nm",
       "weight": "1560kg",
@@ -4045,13 +6253,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "awd",
+      "manual",
+      "street",
+      "turbo",
+      "japan"
+    ]
   },
   {
     "name": "Oldbac Kalana 2023",
     "brand": "Oldbac",
+    "year": "2024",
+    "author": "IER Simulations",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ier_oldbac_kalana_v1\\skins\\58_Tonis\\preview.jpg",
     "specs": {
+      "convertedPower": "449kW/610hp",
+      "isManufacturerData": false,
       "bhp": "610 bhp",
       "torque": "465 Nm",
       "weight": "950 kg",
@@ -4067,13 +6287,23 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "sequential",
+      "prototype"
+    ]
   },
   {
     "name": "Oreca FLM09",
     "brand": "Oreca Technology",
+    "year": "2009",
+    "author": "IER Simulations",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\oreca_flm09\\skins\\bar1_motorsports_20\\preview.jpg",
     "specs": {
+      "convertedPower": "374kW/509hp",
+      "isManufacturerData": false,
       "bhp": "509 bhp",
       "torque": "636 Nm",
       "weight": "910kg",
@@ -4089,13 +6319,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Prototype",
+      "rwd",
+      "race",
+      "sequential",
+      "france",
+      "TUSCC",
+      "alms"
+    ]
   },
   {
     "name": "P4/5 Competizione 2011",
     "brand": "Scuderia Glickenhaus",
+    "year": "2011",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\p4-5_2011\\skins\\2011\\preview.jpg",
     "specs": {
+      "convertedPower": "331kW/450hp",
+      "isManufacturerData": false,
       "bhp": "450bhp",
       "torque": "500Nm",
       "weight": "1230kg",
@@ -4111,13 +6354,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GTE-GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt2",
+      "italy"
+    ]
   },
   {
     "name": "Pagani Huayra",
     "brand": "Pagani",
+    "year": "2012",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pagani_huayra\\skins\\2013_car_of_the_year\\preview.jpg",
     "specs": {
+      "convertedPower": "537kW/730hp",
+      "isManufacturerData": false,
       "bhp": "730bhp",
       "torque": "1000Nm",
       "weight": "1360kg",
@@ -4133,13 +6389,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Hypercars",
+      "rwd",
+      "street",
+      "sequential",
+      "italy"
+    ]
   },
   {
     "name": "Pagani Huayra BC",
     "brand": "Pagani",
+    "year": "2016",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_pagani_huayra_bc\\skins\\00_silver_carbon_white_a\\preview.jpg",
     "specs": {
+      "convertedPower": "544kW/740hp",
+      "isManufacturerData": false,
       "bhp": "740bhp",
       "torque": "1100Nm",
       "weight": "1218kg",
@@ -4155,13 +6422,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Hypercars",
+      "rwd",
+      "street",
+      "sequential",
+      "italy"
+    ]
   },
   {
     "name": "Pagani Zonda R",
     "brand": "Pagani",
+    "year": "2009",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pagani_zonda_r\\skins\\00_default\\preview.jpg",
     "specs": {
+      "convertedPower": "551kW/750hp",
+      "isManufacturerData": false,
       "bhp": "750bhp",
       "torque": "710Nm",
       "weight": "1070kg",
@@ -4177,19 +6455,31 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Hypercars R",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "italy"
+    ]
   },
   {
     "name": "Porsche 718 Boxster S",
     "brand": "Porsche",
+    "year": "2016",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_718_boxster_s\\skins\\00_gt_silver_metallic\\preview.jpg",
     "specs": {
-      "bhp": "350hp",
+      "convertedPower": "257kW/350hp",
+      "isManufacturerData": false,
+      "bhp": "350bhp",
       "torque": "420Nm",
       "weight": "1355kg",
       "topspeed": "285km/h",
       "acceleration": "4.6s 0-100",
-      "pwratio": "3.87kg/hp"
+      "pwratio": "3.87 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -4199,19 +6489,31 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "turbo",
+      "manual",
+      "street",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 718 Boxster S PDK",
     "brand": "Porsche",
+    "year": "2016",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_718_boxster_s_pdk\\skins\\00_carmine_red\\preview.jpg",
     "specs": {
-      "bhp": "350hp",
+      "convertedPower": "257kW/350hp",
+      "isManufacturerData": false,
+      "bhp": "350bhp",
       "torque": "420Nm",
       "weight": "1385kg",
       "topspeed": "285km/h",
       "acceleration": "4.2s 0-100",
-      "pwratio": "3.95kg/hp"
+      "pwratio": "3.96 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -4221,13 +6523,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "turbo",
+      "semiautomatic",
+      "street",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 718 Cayman S",
     "brand": "Porsche",
+    "year": "2016",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_718_cayman_s\\skins\\00_graphite_blue_metallic\\preview.jpg",
     "specs": {
+      "convertedPower": "257kW/350hp",
+      "isManufacturerData": false,
       "bhp": "350bhp",
       "torque": "420Nm",
       "weight": "1355kg",
@@ -4243,19 +6557,31 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "turbo",
+      "manual",
+      "street",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 718 RS 60 Spyder",
     "brand": "Porsche",
+    "year": "1960",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_718_spyder_rs\\skins\\00_racing_42\\preview.jpg",
     "specs": {
-      "bhp": "150hp",
+      "convertedPower": "110kW/150hp",
+      "isManufacturerData": false,
+      "bhp": "150bhp",
       "torque": "148Nm",
       "weight": "580kg",
       "topspeed": "230km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "3.8kg/hp"
+      "pwratio": "3.87 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -4265,13 +6591,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage Touring",
+      "rwd",
+      "manual",
+      "race",
+      "vintage",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 908 LH",
     "brand": "Porsche",
+    "year": "1968",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_908_lh\\skins\\00_racing_64\\preview.jpg",
     "specs": {
+      "convertedPower": "257kW/350hp",
+      "isManufacturerData": false,
       "bhp": "350bhp",
       "torque": "320Nm",
       "weight": "680kg",
@@ -4287,13 +6625,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage GT",
+      "rwd",
+      "manual",
+      "vintage",
+      "race",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 911 Carrera RSR 3.0",
     "brand": "Porsche",
+    "year": "1974",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_carrera_rsr\\skins\\00_imsa_74\\preview.jpg",
     "specs": {
+      "convertedPower": "243kW/330hp",
+      "isManufacturerData": false,
       "bhp": "330bhp",
       "torque": "--Nm",
       "weight": "850kg",
@@ -4309,13 +6659,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage Touring",
+      "rwd",
+      "manual",
+      "race",
+      "vintage",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 911 Carrera S",
     "brand": "Porsche",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_991_carrera_s\\skins\\00_guards_red\\preview.jpg",
     "specs": {
+      "convertedPower": "309kW/420hp",
+      "isManufacturerData": false,
       "bhp": "420bhp",
       "torque": "500Nm",
       "weight": "1515kg",
@@ -4331,13 +6693,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "semiautomatic",
+      "street",
+      "turbo",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 911 GT America",
     "brand": "Porsche",
+    "year": "2015",
+    "author": "IER Simulations",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ier_porsche_911_gta\\skins\\13_rumbum\\preview.jpg",
     "specs": {
+      "convertedPower": "351kW/477hp",
+      "isManufacturerData": false,
       "bhp": "477 bhp",
       "torque": "484 Nm",
       "weight": "1190kg",
@@ -4353,19 +6727,32 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "sequential",
+      "race",
+      "GTD",
+      "germany",
+      "USCC",
+      "IER"
+    ]
   },
   {
-    "name": "Porsche 911 GT1-98",
+    "name": "Porsche 911 GT1",
     "brand": "Porsche",
+    "year": "1996",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_gt1\\skins\\00_racing_26\\preview.jpg",
     "specs": {
-      "bhp": "600hp",
-      "torque": "--Nm",
+      "convertedPower": "441kW/600hp",
+      "isManufacturerData": false,
+      "bhp": "600bhp",
+      "torque": "648Nm",
       "weight": "950kg",
       "topspeed": "350km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "1.58kg/hp"
+      "pwratio": "1.58 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -4375,19 +6762,32 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage GT",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "vintage",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 911 GT3 Cup 2017",
     "brand": "Porsche",
+    "year": "2017",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_gt3_cup_2017\\skins\\00_cup\\preview.jpg",
     "specs": {
-      "bhp": "485hp",
+      "convertedPower": "351kW/478hp",
+      "isManufacturerData": false,
+      "bhp": "478bhp",
       "torque": "--Nm",
       "weight": "1220kg",
       "topspeed": "--km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "2.51kg/hp"
+      "pwratio": "2.55 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -4397,19 +6797,30 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Porsche Cup",
+      "rwd",
+      "race",
+      "sequential",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 911 GT3 R 2016",
     "brand": "Porsche",
+    "year": "2016",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_gt3_r_2016\\skins\\00_gt3\\preview.jpg",
     "specs": {
-      "bhp": "500hp",
+      "convertedPower": "368kW/500hp",
+      "isManufacturerData": false,
+      "bhp": "500bhp",
       "torque": "--Nm",
       "weight": "1245kg",
       "topspeed": "--km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "2.49kg/hp"
+      "pwratio": "2.49 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -4419,19 +6830,32 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GTE-GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt3",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 911 GT3 RS",
     "brand": "Porsche",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_gt3_rs\\skins\\00_lava_orange\\preview.jpg",
     "specs": {
-      "bhp": "500hp",
+      "convertedPower": "368kW/500hp",
+      "isManufacturerData": false,
+      "bhp": "500bhp",
       "torque": "460Nm",
       "weight": "1420kg",
       "topspeed": "310km/h",
       "acceleration": "3.1s 0-100",
-      "pwratio": "2.84kg/hp"
+      "pwratio": "2.84 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -4441,19 +6865,32 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "rwd",
+      "semiautomatic",
+      "street",
+      "trackday",
+      "supercar",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 911 R",
     "brand": "Porsche",
+    "year": "2016",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_r\\skins\\00_white_red\\preview.jpg",
     "specs": {
-      "bhp": "500hp",
+      "convertedPower": "368kW/500hp",
+      "isManufacturerData": false,
+      "bhp": "500bhp",
       "torque": "460Nm",
       "weight": "1370kg",
       "topspeed": "323km/h",
       "acceleration": "3.8s 0-100",
-      "pwratio": "2.74kg/hp"
+      "pwratio": "2.74 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -4463,19 +6900,32 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "rwd",
+      "manual",
+      "street",
+      "trackday",
+      "supercar",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 911 RSR 2017",
     "brand": "Porsche",
+    "year": "2017",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_rsr_2017\\skins\\00_rsr\\preview.jpg",
     "specs": {
-      "bhp": "510hp",
-      "torque": "--Nm",
+      "convertedPower": "510ps",
+      "isManufacturerData": false,
+      "bhp": "510PS",
+      "torque": "489Nm",
       "weight": "1245kg",
       "topspeed": "270+km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "2.49kg/hp"
+      "pwratio": "2.44 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -4485,13 +6935,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GTE-GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt2",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 911 Turbo S",
     "brand": "Porsche",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_991_turbo_s\\skins\\00_miami_blue\\preview.jpg",
     "specs": {
+      "convertedPower": "426kW/580hp",
+      "isManufacturerData": false,
       "bhp": "580bhp",
       "torque": "750Nm",
       "weight": "1600kg",
@@ -4507,19 +6970,31 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "awd",
+      "semiautomatic",
+      "street",
+      "turbo",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 917 K",
     "brand": "Porsche",
+    "year": "1970",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_917_k\\skins\\00_racing_21\\preview.jpg",
     "specs": {
-      "bhp": "600hp",
+      "convertedPower": "441kW/600hp",
+      "isManufacturerData": false,
+      "bhp": "600bhp",
       "torque": "--Nm",
       "weight": "820kg",
       "topspeed": "350km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "1.36kg/hp"
+      "pwratio": "1.37 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -4529,13 +7004,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage GT",
+      "rwd",
+      "manual",
+      "vintage",
+      "race",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 917/30 Spyder",
     "brand": "Porsche",
+    "year": "1973",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_917_30\\skins\\00_chassis_002_racing\\preview.jpg",
     "specs": {
+      "convertedPower": "882kW/1200hp",
+      "isManufacturerData": false,
       "bhp": "1200bhp",
       "torque": "1200Nm",
       "weight": "800kg",
@@ -4551,13 +7038,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage Can Am",
+      "manual",
+      "turbo",
+      "vintage",
+      "race",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 918 Spyder",
     "brand": "Porsche",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_918_spyder\\skins\\00_salzburg_racing_03\\preview.jpg",
     "specs": {
+      "convertedPower": "652kW/887hp",
+      "isManufacturerData": false,
       "bhp": "887bhp",
       "torque": "1275Nm",
       "weight": "1640kg",
@@ -4573,19 +7072,30 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Hypercars",
+      "awd",
+      "street",
+      "semiautomatic",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 919 Hybrid 2015",
     "brand": "Porsche",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_919_hybrid_2015\\skins\\00_lms_19\\preview.jpg",
     "specs": {
-      "bhp": "900hp",
+      "convertedPower": "662kW/900hp",
+      "isManufacturerData": false,
+      "bhp": "900bhp",
       "torque": "--Nm",
       "weight": "875kg",
       "topspeed": "--km/h",
       "acceleration": "2.2s 0-100",
-      "pwratio": "0.97kg/hp"
+      "pwratio": "0.97 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -4595,19 +7105,32 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#LMP1",
+      "awd",
+      "race",
+      "sequential",
+      "gt",
+      "lmp1",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 919 Hybrid 2016",
     "brand": "Porsche",
+    "year": "2016",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_919_hybrid_2016\\skins\\00_lms_02\\preview.jpg",
     "specs": {
-      "bhp": "900hp",
+      "convertedPower": "662kW/900hp",
+      "isManufacturerData": false,
+      "bhp": "900bhp",
       "torque": "--Nm",
       "weight": "875kg",
       "topspeed": "--km/h",
       "acceleration": "2.2s 0-100",
-      "pwratio": "0.97kg/hp"
+      "pwratio": "0.97 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -4617,13 +7140,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#LMP1",
+      "awd",
+      "race",
+      "sequential",
+      "gt",
+      "lmp1",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 935/78 'Moby Dick'",
     "brand": "Porsche",
+    "year": "1978",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_935_78_moby_dick\\skins\\00_racing_01\\preview.jpg",
     "specs": {
+      "convertedPower": "621kW/845hp",
+      "isManufacturerData": false,
       "bhp": "845bhp",
       "torque": "784Nm",
       "weight": "1025kg",
@@ -4639,19 +7175,31 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage GT",
+      "manual",
+      "turbo",
+      "vintage",
+      "race",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 962 C Long Tail",
     "brand": "Porsche",
+    "year": "1984",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_962c_longtail\\skins\\00_racing_17_87\\preview.jpg",
     "specs": {
-      "bhp": "650hp",
+      "convertedPower": "478kW/650hp",
+      "isManufacturerData": false,
+      "bhp": "650bhp",
       "torque": "---Nm",
       "weight": "825kg",
       "topspeed": "360km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "1.27kg/hp"
+      "pwratio": "1.27 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -4661,19 +7209,33 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Proto C",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "prototype C",
+      "vintage",
+      "germany"
+    ]
   },
   {
     "name": "Porsche 962 C Short Tail",
     "brand": "Porsche",
+    "year": "1984",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_962c_shorttail\\skins\\00_racing_01\\preview.jpg",
     "specs": {
-      "bhp": "625hp",
+      "convertedPower": "460kW/625hp",
+      "isManufacturerData": false,
+      "bhp": "625bhp",
       "torque": "---Nm",
       "weight": "850kg",
       "topspeed": "330km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "1.36kg/hp"
+      "pwratio": "1.36 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -4683,19 +7245,33 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Proto C",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "prototype C",
+      "vintage",
+      "germany"
+    ]
   },
   {
     "name": "Porsche Cayenne Turbo S",
     "brand": "Porsche",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_cayenne\\skins\\00_black\\preview.jpg",
     "specs": {
-      "bhp": "570hp",
+      "convertedPower": "419kW/570hp",
+      "isManufacturerData": false,
+      "bhp": "570bhp",
       "torque": "800Nm",
       "weight": "2235kg",
       "topspeed": "284km/h",
       "acceleration": "4.1s 0-100",
-      "pwratio": "3.92kg/hp"
+      "pwratio": "3.92 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -4705,19 +7281,29 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#SUV",
+      "awd",
+      "street",
+      "germany"
+    ]
   },
   {
     "name": "Porsche Cayman GT4",
     "brand": "Porsche",
+    "year": "2016",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_cayman_gt4_std\\skins\\00_racing_yellow\\preview.jpg",
     "specs": {
-      "bhp": "385hp",
+      "convertedPower": "283kW/385hp",
+      "isManufacturerData": false,
+      "bhp": "385bhp",
       "torque": "420Nm",
       "weight": "1340kg",
       "topspeed": "295km/h",
       "acceleration": "4.4s 0-100",
-      "pwratio": "3.48kg/hp"
+      "pwratio": "3.48 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -4727,13 +7313,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "rwd",
+      "manual",
+      "turbo",
+      "trackday",
+      "street",
+      "germany"
+    ]
   },
   {
     "name": "Porsche Cayman GT4 Clubsport",
     "brand": "Porsche",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_cayman_gt4_clubsport\\skins\\00_clubsport\\preview.jpg",
     "specs": {
+      "convertedPower": "283kW/385hp",
+      "isManufacturerData": false,
       "bhp": "385bhp",
       "torque": "420Nm",
       "weight": "1300kg",
@@ -4749,19 +7348,30 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GT4",
+      "rwd",
+      "race",
+      "semiautomatic",
+      "germany"
+    ]
   },
   {
     "name": "Porsche Macan Turbo",
     "brand": "Porsche",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_macan\\skins\\00_agate_grey_metallic\\preview.jpg",
     "specs": {
-      "bhp": "400hp",
+      "convertedPower": "294kW/400hp",
+      "isManufacturerData": false,
+      "bhp": "400bhp",
       "torque": "550Nm",
       "weight": "1925kg",
       "topspeed": "266km/h",
       "acceleration": "4.8s 0-100",
-      "pwratio": "4.87kg/hp"
+      "pwratio": "4.81 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -4771,13 +7381,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#SUV",
+      "awd",
+      "semiautomatic",
+      "street",
+      "turbo",
+      "germany"
+    ]
   },
   {
     "name": "Porsche Panamera Turbo",
     "brand": "Porsche",
+    "year": "2016",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_panamera\\skins\\00_sapphire_blue_metallic\\preview.jpg",
     "specs": {
+      "convertedPower": "404kW/550hp",
+      "isManufacturerData": false,
       "bhp": "550bhp",
       "torque": "770Nm",
       "weight": "2070kg",
@@ -4793,13 +7415,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "awd",
+      "turbo",
+      "semiautomatic",
+      "street",
+      "germany"
+    ]
   },
   {
     "name": "Praga R1",
     "brand": "Praga",
+    "year": "2012",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_praga_r1\\skins\\00_praga_cars_racing_blue\\preview.jpg",
     "specs": {
+      "convertedPower": "154kW/210hp",
+      "isManufacturerData": false,
       "bhp": "210bhp",
       "torque": "220Nm",
       "weight": "585kg",
@@ -4815,13 +7449,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#lmp3",
+      "rwd",
+      "sequential",
+      "race",
+      "singleseater"
+    ]
   },
   {
     "name": "Radical SR10 XXR",
     "brand": "Radical",
+    "year": "2023",
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_radical_sr10xxr_2023\\skins\\Black White on Light Blue\\preview.jpg",
     "specs": {
+      "convertedPower": "312kW/425hp",
+      "isManufacturerData": false,
       "bhp": "425 bhp",
       "torque": "515 Nm",
       "weight": "725kg",
@@ -4837,13 +7482,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "sequential",
+      "lightweight",
+      "race",
+      "great britain",
+      "#SR10 XXR",
+      "United Racing Design",
+      "URD"
+    ]
   },
   {
     "name": "Radical SR3 XXR",
     "brand": "Radical",
+    "year": "2023",
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_radical_sr3xxr_2023\\skins\\factory_yellow\\preview.jpg",
     "specs": {
+      "convertedPower": "171kW/232hp",
+      "isManufacturerData": false,
       "bhp": "232 bhp",
       "torque": "186 Nm",
       "weight": "662 kg",
@@ -4859,13 +7518,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "sequential",
+      "lightweight",
+      "race",
+      "great britain"
+    ]
   },
   {
     "name": "Rekus RC-F GT3",
     "brand": "United Racing Design",
+    "year": "2019",
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_rekus_rcf_gt3\\skins\\alliance\\preview.jpg",
     "specs": {
+      "convertedPower": "404kW/550hp",
+      "isManufacturerData": false,
       "bhp": "550 bhp",
       "torque": "583 Nm",
       "weight": "1376kg*",
@@ -4881,13 +7551,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt3",
+      "Japan"
+    ]
   },
   {
     "name": "RUF CTR Yellowbird",
     "brand": "RUF",
+    "year": "1987",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ruf_yellowbird\\skins\\00_yellowbird_black\\preview.jpg",
     "specs": {
+      "convertedPower": "345kW/469hp",
+      "isManufacturerData": false,
       "bhp": "469bhp",
       "torque": "553Nm",
       "weight": "1147kg",
@@ -4903,13 +7586,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage Supercars",
+      "rwd",
+      "manual",
+      "street",
+      "turbo",
+      "supercar",
+      "vintage",
+      "germany"
+    ]
   },
   {
     "name": "RUF RT12 R",
     "brand": "RUF",
+    "year": "2011",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ruf_rt12r\\skins\\0_official\\preview.jpg",
     "specs": {
+      "convertedPower": "537kW/730hp",
+      "isManufacturerData": false,
       "bhp": "730bhp",
       "torque": "940Nm",
       "weight": "1,495kg",
@@ -4925,13 +7622,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "manual",
+      "street",
+      "turbo",
+      "supercar",
+      "germany"
+    ]
   },
   {
     "name": "RUF RT12 R AWD",
     "brand": "RUF",
+    "year": "2011",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ruf_rt12r_awd\\skins\\0_official\\preview.jpg",
     "specs": {
+      "convertedPower": "537kW/730hp",
+      "isManufacturerData": false,
       "bhp": "730bhp",
       "torque": "940Nm",
       "weight": "1,495kg",
@@ -4947,13 +7656,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "awd",
+      "manual",
+      "street",
+      "turbo",
+      "supercar",
+      "germany"
+    ]
   },
   {
     "name": "SCG 003C",
     "brand": "Scuderia Glickenhaus",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_glickenhaus_scg003\\skins\\0_mimetic\\preview.jpg",
     "specs": {
+      "convertedPower": "390kW/530hp",
+      "isManufacturerData": false,
       "bhp": "530bhp",
       "torque": "700Nm",
       "weight": "1350kg",
@@ -4969,13 +7691,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#GTE-GT3",
+      "rwd",
+      "race",
+      "sequential",
+      "gt",
+      "gt3",
+      "italy"
+    ]
   },
   {
     "name": "Shelby Cobra 427 S/C",
     "brand": "Shelby",
+    "year": "1966",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\shelby_cobra_427sc\\skins\\50th_anniversary\\preview.jpg",
     "specs": {
+      "convertedPower": "368kW/500hp",
+      "isManufacturerData": false,
       "bhp": "500bhp",
       "torque": "626Nm",
       "weight": "1110kg",
@@ -4991,13 +7726,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Vintage Supercars",
+      "rwd",
+      "manual",
+      "lightweight",
+      "vintage",
+      "race",
+      "usa"
+    ]
   },
   {
     "name": "Tatuus FA01",
     "brand": "Tatuus",
+    "year": "2010",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\tatuusfa1\\skins\\scheme_0\\preview.jpg",
     "specs": {
+      "convertedPower": "146kW/198hp",
+      "isManufacturerData": false,
       "bhp": "198bhp",
       "torque": "230Nm",
       "weight": "455kg",
@@ -5013,13 +7761,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Fabarth",
+      "rwd",
+      "sequential",
+      "race",
+      "singleseater",
+      "turbo",
+      "italy"
+    ]
   },
   {
     "name": "TECHART GTstreet R",
     "brand": "TECHART",
+    "year": "2021",
+    "author": "TECHART",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\gue_techart_gt_street_r\\skins\\achat_grau_metallic\\preview.jpg",
     "specs": {
+      "convertedPower": "588kW/800hp",
+      "isManufacturerData": false,
       "bhp": "800 bhp",
       "torque": "950 Nm",
       "weight": "1670 kg",
@@ -5035,13 +7796,28 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Supercars",
+      "awd",
+      "semiautomatic",
+      "street",
+      "turbo",
+      "germany",
+      "TECHART",
+      "guerilla mods",
+      "official"
+    ]
   },
   {
     "name": "Toyota AE86",
     "brand": "Toyota",
+    "year": "1983",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_ae86\\skins\\00_white\\preview.jpg",
     "specs": {
+      "convertedPower": "90kW/122hp",
+      "isManufacturerData": false,
       "bhp": "122bhp",
       "torque": "142Nm",
       "weight": "925kg",
@@ -5057,13 +7833,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#small sports",
+      "rwd",
+      "manual",
+      "street",
+      "vintage",
+      "japan"
+    ]
   },
   {
     "name": "Toyota AE86 Drift",
     "brand": "Toyota",
+    "year": "1983",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_ae86_drift\\skins\\00_ksdrift7\\preview.jpg",
     "specs": {
+      "convertedPower": "136kW/185hp",
+      "isManufacturerData": false,
       "bhp": "185bhp",
       "torque": "206Nm",
       "weight": "920kg",
@@ -5079,13 +7867,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#drift",
+      "rwd",
+      "manual",
+      "street",
+      "vintage",
+      "japan"
+    ]
   },
   {
     "name": "Toyota AE86 Tuned",
     "brand": "Toyota",
+    "year": "1983",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_ae86_tuned\\skins\\01_spooler_16\\preview.jpg",
     "specs": {
+      "convertedPower": "147kW/200hp",
+      "isManufacturerData": false,
       "bhp": "200bhp",
       "torque": "206Nm",
       "weight": "900kg",
@@ -5101,13 +7901,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#small sports",
+      "rwd",
+      "manual",
+      "street",
+      "vintage",
+      "japan"
+    ]
   },
   {
     "name": "Toyota Celica ST185 4WD Turbo",
     "brand": "Toyota",
+    "year": "1989",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_celica_st185\\skins\\00_racing_3\\preview.jpg",
     "specs": {
+      "convertedPower": "217kW/295hp",
+      "isManufacturerData": false,
       "bhp": "295bhp",
       "torque": "459Nm",
       "weight": "1045kg",
@@ -5123,13 +7935,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#rally",
+      "awd",
+      "manual",
+      "race",
+      "turbo",
+      "japan"
+    ]
   },
   {
     "name": "Toyota GR Supra GT500",
     "brand": "Toyota",
+    "year": "2021",
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_jt5_moyoda_2021\\skins\\eu_URD_Moyoda#36\\preview.jpg",
     "specs": {
+      "convertedPower": "488kW/664hp",
+      "isManufacturerData": false,
       "bhp": "664 bhp",
       "torque": "633 Nm",
       "weight": "1020 kg",
@@ -5145,13 +7969,18 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": []
   },
   {
     "name": "Toyota GT86",
     "brand": "Toyota",
+    "year": "2015",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_gt86\\skins\\0_fusion_orange\\preview.jpg",
     "specs": {
+      "convertedPower": "147kW/200hp",
+      "isManufacturerData": false,
       "bhp": "200bhp",
       "torque": "205Nm",
       "weight": "1250kg",
@@ -5167,13 +7996,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#small sports",
+      "rwd",
+      "manual",
+      "street",
+      "japan"
+    ]
   },
   {
     "name": "Toyota Supra MKIV",
     "brand": "Toyota",
+    "year": "1993",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_supra_mkiv\\skins\\00_super_red\\preview.jpg",
     "specs": {
+      "convertedPower": "206kW/280hp",
+      "isManufacturerData": false,
       "bhp": "280bhp",
       "torque": "458Nm",
       "weight": "1510kg",
@@ -5189,13 +8029,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "manual",
+      "street",
+      "turbo",
+      "japan"
+    ]
   },
   {
     "name": "Toyota Supra MKIV Drift",
     "brand": "Toyota",
+    "year": "1993",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_supra_mkiv_drift\\skins\\00_orange\\preview.jpg",
     "specs": {
+      "convertedPower": "459kW/624hp",
+      "isManufacturerData": false,
       "bhp": "624bhp",
       "torque": "756Nm",
       "weight": "1505kg",
@@ -5211,13 +8063,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#drift",
+      "rwd",
+      "manual",
+      "street",
+      "turbo",
+      "japan"
+    ]
   },
   {
     "name": "Toyota Supra MKIV Time Attack",
     "brand": "Toyota",
+    "year": "1993",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_supra_mkiv_tuned\\skins\\00_kunos\\preview.jpg",
     "specs": {
+      "convertedPower": "507kW/690hp",
+      "isManufacturerData": false,
       "bhp": "690bhp",
       "torque": "756Nm",
       "weight": "1505kg",
@@ -5233,13 +8097,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "manual",
+      "street",
+      "turbo",
+      "japan"
+    ]
   },
   {
     "name": "Toyota TS040 Hybrid 2014",
     "brand": "Toyota",
+    "year": "2014",
+    "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_ts040\\skins\\00_lm_7\\preview.jpg",
     "specs": {
+      "convertedPower": "735kW/1000hp",
+      "isManufacturerData": false,
       "bhp": "1000bhp",
       "torque": "--Nm",
       "weight": "--kg",
@@ -5255,13 +8131,26 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#LMP1",
+      "awd",
+      "race",
+      "sequential",
+      "gt",
+      "lmp1",
+      "japan"
+    ]
   },
   {
     "name": "URD Loire 07 2021",
     "brand": "United Racing Design",
+    "year": "2021",
+    "author": "United Racing Design",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_loire07_21\\skins\\07\\preview.jpg",
     "specs": {
+      "convertedPower": "412kW/560hp",
+      "isManufacturerData": false,
       "bhp": "560 bhp",
       "torque": "513 Nm",
       "weight": "950 kg",
@@ -5277,13 +8166,27 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "#LMP2",
+      "race",
+      "sequential",
+      "gt",
+      "lmp2",
+      "rwd",
+      "#Prototype",
+      "URD"
+    ]
   },
   {
     "name": "VRC ARC - Auriel 90",
     "brand": "VRC",
+    "year": "1989",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_arc_auriel90\\skins\\AurielSchmeisserSport_6\\preview.jpg",
     "specs": {
+      "convertedPower": "521kW/709hp",
+      "isManufacturerData": false,
       "bhp": "709 BHP",
       "torque": "720Nm",
       "weight": "1206kg",
@@ -5299,13 +8202,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "Imsa"
+    ]
   },
   {
     "name": "VRC ARC - Auriel 90 (BOP)",
     "brand": "VRC",
+    "year": "1989",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_arc_auriel90_bop\\skins\\AurielSchmeisserSport_6\\preview.jpg",
     "specs": {
+      "convertedPower": "441kW/600hp",
+      "isManufacturerData": false,
       "bhp": "600 BHP",
       "torque": "609 Nm*",
       "weight": "1206kg",
@@ -5321,13 +8233,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "Imsa"
+    ]
   },
   {
     "name": "VRC ARC - Chevrette 28",
     "brand": "VRC",
+    "year": "1989",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_arc_chevrette28\\skins\\amour_15\\preview.jpg",
     "specs": {
+      "convertedPower": "441kW/600hp",
+      "isManufacturerData": false,
       "bhp": "600 BHP",
       "torque": "705Nm",
       "weight": "1180kg",
@@ -5343,13 +8264,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "Imsa"
+    ]
   },
   {
     "name": "VRC ARC - TA2 Chevrette Gen6",
     "brand": "VRC",
+    "year": "2021",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_arc_ta2_chevrette\\skins\\00_katech\\preview.jpg",
     "specs": {
+      "convertedPower": "377kW/513hp",
+      "isManufacturerData": false,
       "bhp": "513 BHP",
       "torque": "656 Nm",
       "weight": "1200 kg",
@@ -5365,13 +8295,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "awd",
+      "race",
+      "trans am"
+    ]
   },
   {
     "name": "VRC ARC - TA2 Chevrette Gen6 (CSP)",
     "brand": "VRC",
+    "year": "2021",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_arc_ta2_chevrette_csp\\skins\\00_katech\\preview.jpg",
     "specs": {
+      "convertedPower": "377kW/513hp",
+      "isManufacturerData": false,
       "bhp": "513 BHP",
       "torque": "656 Nm",
       "weight": "1200 kg",
@@ -5387,13 +8326,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "awd",
+      "race",
+      "trans am"
+    ]
   },
   {
     "name": "VRC ARC - TA2 Dagger",
     "brand": "VRC",
+    "year": "2021",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_arc_ta2_dagger\\skins\\34\\preview.jpg",
     "specs": {
+      "convertedPower": "384kW/522hp",
+      "isManufacturerData": false,
       "bhp": "522 BHP",
       "torque": "667 Nm",
       "weight": "1200 kg",
@@ -5409,13 +8357,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "awd",
+      "race",
+      "trans am"
+    ]
   },
   {
     "name": "VRC ARC - TA2 Dagger (CSP)",
     "brand": "VRC",
+    "year": "2021",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_arc_ta2_dagger_csp\\skins\\34\\preview.jpg",
     "specs": {
+      "convertedPower": "384kW/522hp",
+      "isManufacturerData": false,
       "bhp": "522 BHP",
       "torque": "667 Nm",
       "weight": "1200 kg",
@@ -5431,13 +8388,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "awd",
+      "race",
+      "trans am"
+    ]
   },
   {
     "name": "VRC ARC - TA2 Mare",
     "brand": "VRC",
+    "year": "2021",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_arc_ta2_mare\\skins\\01\\preview.jpg",
     "specs": {
+      "convertedPower": "377kW/513hp",
+      "isManufacturerData": false,
       "bhp": "513 BHP",
       "torque": "656 Nm",
       "weight": "1200 kg",
@@ -5453,13 +8419,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "awd",
+      "race",
+      "trans am"
+    ]
   },
   {
     "name": "VRC ARC - TA2 Mare (CSP)",
     "brand": "VRC",
+    "year": "2021",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_arc_ta2_mare_csp\\skins\\01\\preview.jpg",
     "specs": {
+      "convertedPower": "377kW/513hp",
+      "isManufacturerData": false,
       "bhp": "513 BHP",
       "torque": "656 Nm",
       "weight": "1200 kg",
@@ -5475,13 +8450,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "awd",
+      "race",
+      "trans am"
+    ]
   },
   {
     "name": "VRC ERC - Fortix Mando",
     "brand": "VRC",
+    "year": "1999",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_erc_1999_fortix\\skins\\00_fortix_motorsport\\preview.jpg",
     "specs": {
+      "convertedPower": "234kW/318hp",
+      "isManufacturerData": false,
       "bhp": "318 bhp",
       "torque": "284 Nm",
       "weight": "975 kg",
@@ -5497,13 +8481,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "race",
+      "fwd",
+      "touring"
+    ]
   },
   {
     "name": "VRC ERC - Fortix Mando (CSP)",
     "brand": "VRC",
+    "year": "1999",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_erc_1999_fortix_csp\\skins\\00_fortix_motorsport\\preview.jpg",
     "specs": {
+      "convertedPower": "234kW/318hp",
+      "isManufacturerData": false,
       "bhp": "318 bhp",
       "torque": "284 Nm",
       "weight": "975 kg",
@@ -5519,13 +8512,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "race",
+      "fwd",
+      "touring"
+    ]
   },
   {
     "name": "VRC ERC - Gojira Ascent",
     "brand": "VRC",
+    "year": "1999",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_erc_1999_gojira\\skins\\01_cool_gojira\\preview.jpg",
     "specs": {
+      "convertedPower": "235kW/320hp",
+      "isManufacturerData": false,
       "bhp": "320 bhp",
       "torque": "282 Nm",
       "weight": "975 kg",
@@ -5541,13 +8543,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "race",
+      "fwd",
+      "touring"
+    ]
   },
   {
     "name": "VRC ERC - Gojira Ascent (CSP)",
     "brand": "VRC",
+    "year": "1999",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_erc_1999_gojira_csp\\skins\\01_cool_gojira\\preview.jpg",
     "specs": {
+      "convertedPower": "235kW/320hp",
+      "isManufacturerData": false,
       "bhp": "320 bhp",
       "torque": "282 Nm",
       "weight": "975 kg",
@@ -5563,13 +8574,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "race",
+      "fwd",
+      "touring"
+    ]
   },
   {
     "name": "VRC ERC - Pageau 46",
     "brand": "VRC",
+    "year": "1998",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_erc_1998_pageau\\skins\\27_totaled_team_pageau\\preview.jpg",
     "specs": {
+      "convertedPower": "231kW/314hp",
+      "isManufacturerData": false,
       "bhp": "314 bhp",
       "torque": "269 Nm",
       "weight": "975 kg",
@@ -5585,13 +8605,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "race",
+      "fwd",
+      "touring"
+    ]
   },
   {
     "name": "VRC ERC - Pageau 46 (CSP)",
     "brand": "VRC",
+    "year": "1998",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_erc_1998_pageau_csp\\skins\\27_totaled_team_pageau\\preview.jpg",
     "specs": {
+      "convertedPower": "231kW/314hp",
+      "isManufacturerData": false,
       "bhp": "314 bhp",
       "torque": "269 Nm",
       "weight": "975 kg",
@@ -5607,13 +8636,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "race",
+      "fwd",
+      "touring"
+    ]
   },
   {
     "name": "VRC ERC - Renoir Lagoon",
     "brand": "VRC",
+    "year": "1999",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_erc_1999_renoir\\skins\\21_milloms_renoir_dealer_racing\\preview.jpg",
     "specs": {
+      "convertedPower": "235kW/320hp",
+      "isManufacturerData": false,
       "bhp": "320 bhp",
       "torque": "273Nm",
       "weight": "975kg",
@@ -5629,13 +8667,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "race",
+      "fwd",
+      "touring"
+    ]
   },
   {
     "name": "VRC ERC - Renoir Lagoon (CSP)",
     "brand": "VRC",
+    "year": "1999",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_erc_1999_renoir_csp\\skins\\21_milloms_renoir_dealer_racing\\preview.jpg",
     "specs": {
+      "convertedPower": "235kW/320hp",
+      "isManufacturerData": false,
       "bhp": "320 bhp",
       "torque": "273Nm",
       "weight": "975kg",
@@ -5651,13 +8698,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "race",
+      "fwd",
+      "touring"
+    ]
   },
   {
     "name": "VRC ERC - Vorax Vector",
     "brand": "VRC",
+    "year": "1998",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_erc_1999_vorax\\skins\\04_vorax_team_wood\\preview.jpg",
     "specs": {
+      "convertedPower": "229kW/311hp",
+      "isManufacturerData": false,
       "bhp": "311 bhp",
       "torque": "276 Nm",
       "weight": "975 kg",
@@ -5673,13 +8729,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "race",
+      "fwd",
+      "touring"
+    ]
   },
   {
     "name": "VRC ERC - Vorax Vector (CSP)",
     "brand": "VRC",
+    "year": "1998",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_erc_1999_vorax_csp\\skins\\04_vorax_team_wood\\preview.jpg",
     "specs": {
+      "convertedPower": "229kW/311hp",
+      "isManufacturerData": false,
       "bhp": "311 bhp",
       "torque": "276 Nm",
       "weight": "975 kg",
@@ -5695,13 +8760,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "race",
+      "fwd",
+      "touring"
+    ]
   },
   {
     "name": "VRC Formula Alpha 2023",
     "brand": "VRC",
+    "year": "2023",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_formula_alpha_2023\\skins\\05\\preview.jpg",
     "specs": {
+      "convertedPower": "744kW/1012hp",
+      "isManufacturerData": false,
       "bhp": "1012 Bhp",
       "torque": "571 Nm",
       "weight": "722kg",
@@ -5717,13 +8791,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "sequential",
+      "singleseater",
+      "VRC",
+      "open wheeler"
+    ]
   },
   {
     "name": "VRC Formula Alpha 2023 (CSP)",
     "brand": "VRC",
+    "year": "2023",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_formula_alpha_2023_csp\\skins\\05\\preview.jpg",
     "specs": {
+      "convertedPower": "744kW/1012hp",
+      "isManufacturerData": false,
       "bhp": "1012 Bhp",
       "torque": "571 Nm",
       "weight": "722kg",
@@ -5739,13 +8825,25 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "sequential",
+      "singleseater",
+      "VRC",
+      "open wheeler"
+    ]
   },
   {
     "name": "VRC Formula Lithium 2023",
     "brand": "VRC",
+    "year": "2023",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_formula_lithium_2023\\skins\\01\\preview.jpg",
     "specs": {
+      "convertedPower": "346kW/470hp",
+      "isManufacturerData": false,
       "bhp": "470 bhp",
       "torque": "- Nm",
       "weight": "771 kg",
@@ -5761,13 +8859,21 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "race",
+      "singleseater"
+    ]
   },
   {
     "name": "VRC Formula Lithium 2023 (CSP)",
     "brand": "VRC",
+    "year": "2023",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_formula_lithium_2023_csp\\skins\\01\\preview.jpg",
     "specs": {
+      "convertedPower": "346kW/470hp",
+      "isManufacturerData": false,
       "bhp": "470 bhp",
       "torque": "- Nm",
       "weight": "771 kg",
@@ -5783,13 +8889,21 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "race",
+      "singleseater"
+    ]
   },
   {
     "name": "VRC Prototype - Auriel 8",
     "brand": "VRC",
+    "year": "2003",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_auriel8\\skins\\eureka_04\\preview.jpg",
     "specs": {
+      "convertedPower": "419kW/570hp",
+      "isManufacturerData": false,
       "bhp": "570BHP",
       "torque": "652Nm",
       "weight": "910kg",
@@ -5805,13 +8919,23 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "lmp900",
+      "lemans"
+    ]
   },
   {
     "name": "VRC Prototype - Beamer V12",
     "brand": "VRC",
+    "year": "1999",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_1999_beamer\\skins\\15_Lemans_1999\\preview.jpg",
     "specs": {
+      "convertedPower": "426kW/580hp",
+      "isManufacturerData": false,
       "bhp": "580BHP",
       "torque": "670Nm",
       "weight": "900kg",
@@ -5827,13 +8951,23 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "lmp900",
+      "lemans"
+    ]
   },
   {
     "name": "VRC Prototype - Bradley Project 8",
     "brand": "VRC",
+    "year": "2003",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_project8\\skins\\07\\preview.jpg",
     "specs": {
+      "convertedPower": "452kW/615hp",
+      "isManufacturerData": false,
       "bhp": "615bhp",
       "torque": "812Nm",
       "weight": "908kg",
@@ -5849,13 +8983,22 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "lmgtp"
+    ]
   },
   {
     "name": "VRC Prototype - ByCollin P1",
     "brand": "VRC",
+    "year": "2019",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_2019_bycollin\\skins\\01_team_bycollin_3\\preview.jpg",
     "specs": {
+      "convertedPower": "510kW/693hp",
+      "isManufacturerData": false,
       "bhp": "693BHP",
       "torque": "720Nm",
       "weight": "833Kg",
@@ -5871,13 +9014,23 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "lemans",
+      "lmp1"
+    ]
   },
   {
     "name": "VRC Prototype - Cadenza Polaris",
     "brand": "VRC",
+    "year": "2002",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_cadenza\\skins\\cadenza_2002_6\\preview.jpg",
     "specs": {
+      "convertedPower": "450kW/612hp",
+      "isManufacturerData": false,
       "bhp": "612BHP",
       "torque": "746Nm",
       "weight": "905kg",
@@ -5893,13 +9046,23 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "lmp900",
+      "lemans"
+    ]
   },
   {
     "name": "VRC Prototype - Pavey Longhood S",
     "brand": "VRC",
+    "year": "2003",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_pavey\\skins\\00\\preview.jpg",
     "specs": {
+      "convertedPower": "446kW/607hp",
+      "isManufacturerData": false,
       "bhp": "607 BHP",
       "torque": "650 NM",
       "weight": "910 kg",
@@ -5915,13 +9078,23 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "lmp900",
+      "lemans"
+    ]
   },
   {
     "name": "VRC Prototype - Revenga R13",
     "brand": "VRC",
+    "year": "2019",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_2019_revenga_r13\\skins\\2019_revenga_racing_20\\preview.jpg",
     "specs": {
+      "convertedPower": "510kW/693hp",
+      "isManufacturerData": false,
       "bhp": "693BHP",
       "torque": "720Nm",
       "weight": "833kg",
@@ -5937,13 +9110,23 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "lemans",
+      "lmp1"
+    ]
   },
   {
     "name": "VRC Prototype - Tagomi T50",
     "brand": "VRC",
+    "year": "2019",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_2019_tagomi_t50\\skins\\2019_tagomi_br_3\\preview.jpg",
     "specs": {
+      "convertedPower": "759kW/1032hp",
+      "isManufacturerData": false,
       "bhp": "1032 BHP",
       "torque": "N/A*",
       "weight": "878kg",
@@ -5959,13 +9142,23 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "lemans",
+      "lmp1"
+    ]
   },
   {
     "name": "VRC Prototype - Vendetta V60",
     "brand": "VRC",
+    "year": "2019",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_2019_vendetta_v60\\skins\\01_team_vrc_modding_12\\preview.jpg",
     "specs": {
+      "convertedPower": "529kW/720hp",
+      "isManufacturerData": false,
       "bhp": "720BHP",
       "torque": "850Nm",
       "weight": "833Kg",
@@ -5981,14 +9174,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "lemans",
+      "lmp1"
+    ]
   },
   {
     "name": "VRC Prototype H - Ferrenzo P49",
     "brand": "VRC",
+    "year": "2024",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_2024_ferrenzo\\skins\\50\\preview.jpg",
     "specs": {
-      "bhp": "697 wHP",
+      "convertedPower": "512kW/697hp",
+      "isManufacturerData": false,
+      "bhp": "697 bHP",
       "torque": "670 Nm",
       "weight": "1030kg",
       "topspeed": "340km/h",
@@ -6003,14 +9206,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "lemans",
+      "lmh"
+    ]
   },
   {
     "name": "VRC Prototype H - Ferrenzo P49 (CSP)",
     "brand": "VRC",
+    "year": "2024",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_2024_ferrenzo_csp\\skins\\50\\preview.jpg",
     "specs": {
-      "bhp": "697 wHP",
+      "convertedPower": "512kW/697hp",
+      "isManufacturerData": false,
+      "bhp": "697 bHP",
       "torque": "670 Nm",
       "weight": "1030kg",
       "topspeed": "340km/h",
@@ -6025,14 +9238,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "lemans",
+      "lmh"
+    ]
   },
   {
     "name": "VRC Prototype H - Pageau 9T8",
     "brand": "VRC",
+    "year": "2023",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_2023_pageau_98\\skins\\93\\preview.jpg",
     "specs": {
-      "bhp": "697 wHP",
+      "convertedPower": "512kW/697hp",
+      "isManufacturerData": false,
+      "bhp": "697 bHP",
       "torque": "655 Nm",
       "weight": "1030kg",
       "topspeed": "340km/h",
@@ -6047,14 +9270,24 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "lemans",
+      "lmh"
+    ]
   },
   {
     "name": "VRC Prototype H - Pageau 9T8 (CSP)",
     "brand": "VRC",
+    "year": "2023",
+    "author": "VRC Modding Team",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_2023_pageau_98_csp\\skins\\93\\preview.jpg",
     "specs": {
-      "bhp": "697 wHP",
+      "convertedPower": "512kW/697hp",
+      "isManufacturerData": false,
+      "bhp": "697 bHP",
       "torque": "655 Nm",
       "weight": "1030kg",
       "topspeed": "340km/h",
@@ -6069,6 +9302,12 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
-    }
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "lemans",
+      "lmh"
+    ]
   }
 ]

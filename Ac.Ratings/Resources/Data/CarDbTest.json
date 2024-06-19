@@ -4,7 +4,7 @@
     "brand": "Abarth",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_abarth500_assetto_corse\\skins\\0_official\\preview.jpg",
     "specs": {
-      "convertedPower": "140kw/190hp",
+      "convertedPower": "140kW/190hp",
       "isManufacturerData": true,
       "bhp": "140kW/190hp",
       "torque": "302Nm",
@@ -28,7 +28,7 @@
     "brand": "Abarth",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\abarth500\\skins\\0_white_scorpion\\preview.jpg",
     "specs": {
-      "convertedPower": "118kw/160hp",
+      "convertedPower": "118kW/160hp",
       "isManufacturerData": true,
       "bhp": "118kW/160hp",
       "torque": "230Nm",
@@ -52,7 +52,7 @@
     "brand": "Abarth",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\abarth500_s1\\skins\\black_neon\\preview.jpg",
     "specs": {
-      "convertedPower": "129kw/175hp",
+      "convertedPower": "129kW/175hp",
       "isManufacturerData": true,
       "bhp": "129kW/175hp",
       "torque": "245Nm",
@@ -76,7 +76,7 @@
     "brand": "Abarth",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_abarth_595ss\\skins\\1_official\\preview.jpg",
     "specs": {
-      "convertedPower": "24kw/32hp",
+      "convertedPower": "24kW/32hp",
       "isManufacturerData": true,
       "bhp": "24kW/32hp",
       "torque": "44Nm",
@@ -100,7 +100,7 @@
     "brand": "Abarth",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_abarth_595ss_s1\\skins\\3_official\\preview.jpg",
     "specs": {
-      "convertedPower": "24kw/32hp",
+      "convertedPower": "24kW/32hp",
       "isManufacturerData": true,
       "bhp": "24kW/32hp",
       "torque": "44Nm",
@@ -124,7 +124,7 @@
     "brand": "Abarth",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_abarth_595ss_s2\\skins\\4_official\\preview.jpg",
     "specs": {
-      "convertedPower": "48kw/65hp",
+      "convertedPower": "48kW/65hp",
       "isManufacturerData": true,
       "bhp": "48kW/65hp",
       "torque": "80Nm",
@@ -148,7 +148,7 @@
     "brand": "Alfa Romeo",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_alfa_romeo_155_v6\\skins\\0_racing_8\\preview.jpg",
     "specs": {
-      "convertedPower": "309kw/420hp",
+      "convertedPower": "309kW/420hp",
       "isManufacturerData": true,
       "bhp": "309kW/420hp",
       "torque": "294Nm",
@@ -172,7 +172,7 @@
     "brand": "Alfa Romeo",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_alfa_33_stradale\\skins\\00_rosso\\preview.jpg",
     "specs": {
-      "convertedPower": "169kw/230hp",
+      "convertedPower": "169kW/230hp",
       "isManufacturerData": true,
       "bhp": "169kW/230hp",
       "torque": "206Nm",
@@ -292,7 +292,7 @@
     "brand": "Audi",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r18_etron_quattro\\skins\\00_lm1\\preview.jpg",
     "specs": {
-      "convertedPower": "580kw/777hp",
+      "convertedPower": "580kW/777hp",
       "isManufacturerData": true,
       "bhp": "580kW/777hp",
       "torque": "850+Nm",
@@ -316,7 +316,7 @@
     "brand": "Audi",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r8_lms_2016\\skins\\00_racing_06\\preview.jpg",
     "specs": {
-      "convertedPower": "369kw/500hp",
+      "convertedPower": "369kW/500hp",
       "isManufacturerData": true,
       "bhp": "369kW/500hp",
       "torque": "500Nm",
@@ -340,7 +340,7 @@
     "brand": "Audi",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r8_lms\\skins\\2014_Hankook_C_Abt_09\\preview.jpg",
     "specs": {
-      "convertedPower": "419kw/570hp",
+      "convertedPower": "419kW/570hp",
       "isManufacturerData": true,
       "bhp": "419kW/570hp",
       "torque": "500+Nm",
@@ -364,7 +364,7 @@
     "brand": "Audi",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r8_plus\\skins\\00_brilliant_red_t\\preview.jpg",
     "specs": {
-      "convertedPower": "404kw/550hp",
+      "convertedPower": "404kW/550hp",
       "isManufacturerData": true,
       "bhp": "404kW/550hp",
       "torque": "540Nm",
@@ -388,7 +388,7 @@
     "brand": "Audi",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_a1s1\\skins\\00_sepang_blue_pearl_effect_br\\preview.jpg",
     "specs": {
-      "convertedPower": "170kw/231hp",
+      "convertedPower": "170kW/231hp",
       "isManufacturerData": true,
       "bhp": "170kW/231hp",
       "torque": "370Nm",
@@ -412,7 +412,7 @@
     "brand": "Audi",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_sport_quattro\\skins\\00_tornado_red_rings\\preview.jpg",
     "specs": {
-      "convertedPower": "225kw/306hp",
+      "convertedPower": "225kW/306hp",
       "isManufacturerData": true,
       "bhp": "225kW/306hp",
       "torque": "350Nm",
@@ -436,7 +436,7 @@
     "brand": "Audi",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_sport_quattro_rally\\skins\\00_racing_2\\preview.jpg",
     "specs": {
-      "convertedPower": "440kw/598hp",
+      "convertedPower": "440kW/598hp",
       "isManufacturerData": true,
       "bhp": "440kW/598hp",
       "torque": "590Nm",
@@ -460,7 +460,7 @@
     "brand": "Audi",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_sport_quattro_s1\\skins\\00_copenhagen_blue_rings\\preview.jpg",
     "specs": {
-      "convertedPower": "274kw/373hp",
+      "convertedPower": "274kW/373hp",
       "isManufacturerData": true,
       "bhp": "274kW/373hp",
       "torque": "425Nm",
@@ -484,7 +484,7 @@
     "brand": "Audi",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_tt_cup\\skins\\00_racing_02\\preview.jpg",
     "specs": {
-      "convertedPower": "228kw/310hp",
+      "convertedPower": "228kW/310hp",
       "isManufacturerData": true,
       "bhp": "228kW/310hp",
       "torque": "400+Nm",
@@ -508,7 +508,7 @@
     "brand": "Audi",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_tt_vln\\skins\\00_racing_125\\preview.jpg",
     "specs": {
-      "convertedPower": "280kw/380hp",
+      "convertedPower": "280kW/380hp",
       "isManufacturerData": true,
       "bhp": "280kW/380hp",
       "torque": "530Nm",
@@ -532,7 +532,7 @@
     "brand": "BMW",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_1m\\skins\\0_orange\\preview.jpg",
     "specs": {
-      "convertedPower": "250kw/340hp",
+      "convertedPower": "250kW/340hp",
       "isManufacturerData": true,
       "bhp": "250kW/340hp",
       "torque": "500Nm",
@@ -556,7 +556,7 @@
     "brand": "BMW",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_1m_s3\\skins\\ArisTek_5\\preview.jpg",
     "specs": {
-      "convertedPower": "294kw/400hp",
+      "convertedPower": "294kW/400hp",
       "isManufacturerData": true,
       "bhp": "294kW/400hp",
       "torque": "580Nm",
@@ -580,7 +580,7 @@
     "brand": "BMW",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_bmw_m235i_racing\\skins\\00_racing_1\\preview.jpg",
     "specs": {
-      "convertedPower": "245kw/333hp",
+      "convertedPower": "245kW/333hp",
       "isManufacturerData": true,
       "bhp": "245kW/333hp",
       "torque": "500Nm",
@@ -604,7 +604,7 @@
     "brand": "BMW",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e30\\skins\\0_jet_black\\preview.jpg",
     "specs": {
-      "convertedPower": "175kw/238hp",
+      "convertedPower": "175kW/238hp",
       "isManufacturerData": true,
       "bhp": "175kW/238hp",
       "torque": "240Nm",
@@ -628,7 +628,7 @@
     "brand": "BMW",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e30_drift\\skins\\DGFX_Vinyl\\preview.jpg",
     "specs": {
-      "convertedPower": "252kw/343hp",
+      "convertedPower": "252kW/343hp",
       "isManufacturerData": true,
       "bhp": "252kW/343hp",
       "torque": "365Nm",
@@ -676,7 +676,7 @@
     "brand": "BMW",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e30_gra\\skins\\0_Sterling_Silver_metallic\\preview.jpg",
     "specs": {
-      "convertedPower": "213kw/290hp",
+      "convertedPower": "213kW/290hp",
       "isManufacturerData": true,
       "bhp": "213kW/290hp",
       "torque": "310Nm",
@@ -700,7 +700,7 @@
     "brand": "BMW",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e30_s1\\skins\\2_Tone_White_Red\\preview.jpg",
     "specs": {
-      "convertedPower": "175kw/238hp",
+      "convertedPower": "175kW/238hp",
       "isManufacturerData": true,
       "bhp": "175kW/238hp",
       "torque": "240Nm",

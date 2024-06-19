@@ -9,7 +9,7 @@ namespace Ac.Ratings.Services {
         public DataConverter(string powerValue) {
             _powerValue = powerValue.Replace(" ", "").ToLower();
             IsManufacturerData = !RequiresConversion(_powerValue);
-            ConvertedPower = IsManufacturerData ? _powerValue : ConvertPowerString(_powerValue);
+            ConvertedPower = IsManufacturerData ? powerValue : ConvertPowerString(_powerValue);
         }
 
         private bool RequiresConversion(string powerValue) {

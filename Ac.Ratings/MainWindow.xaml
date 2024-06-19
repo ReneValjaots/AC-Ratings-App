@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Ratings App" Height="600" Width="900">
 
-    <Border Background="#272537"
+    <Border Background="Black"
             CornerRadius="10">
         <Grid>
             <Grid.ColumnDefinitions>

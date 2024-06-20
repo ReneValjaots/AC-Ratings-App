@@ -23,9 +23,7 @@ namespace Ac.Ratings.Services {
                 var kw = (int)Math.Round(hp / 1.36);
                 return $"{kw}kW/{hp}hp";
             }
-            else {
-                return powerValue;
-            }
+            return powerValue;
         }
     }
 }

@@ -86,29 +86,50 @@
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
 
-                    <TextBlock x:Name="PowerFigures" 
-                               Grid.Row="0"
-                               Grid.Column="0"
-                               Text="{Binding Power, StringFormat='{}{0} kW'}"
-                               Foreground="White"/>
+                    <StackPanel Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="9*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                     
+                        <TextBlock x:Name="PowerFigures"
+                                   Foreground="White"
+                                   FontSize="16"
+                                   FontWeight="Bold"
+                                   TextAlignment="Center" 
+                                   Grid.Column="0"/>
+                        </Grid>
+                        <TextBlock Text="Total Power Output" Foreground="White" FontSize="10" TextAlignment="Center"/>
+                    </StackPanel>
 
-                    <TextBlock x:Name="TorqueFigures" 
-                               Grid.Row="0"
-                               Grid.Column="1"
-                               Text="{Binding Torque, StringFormat='{}{0} kW'}"
-                               Foreground="White"/>
+                    <StackPanel Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center">
+                        <TextBlock x:Name="TorqueFigures"
+                                   Foreground="White"
+                                   FontSize="16"
+                                   FontWeight="Bold"
+                                   TextAlignment="Center" />
+                        <TextBlock Text="Torque" Foreground="White" FontSize="10" TextAlignment="Center"/>
+                    </StackPanel>
 
-                    <TextBlock x:Name="AccelerationFigures" 
-                               Grid.Row="0"
-                               Grid.Column="2"
-                               Text="{Binding Acceleration, StringFormat='{}{0} kW'}"
-                               Foreground="White"/>
+                    <StackPanel Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center">
+                        <TextBlock x:Name="AccelerationFigures"
+                                   Foreground="White"
+                                   FontSize="16"
+                                   FontWeight="Bold"
+                                   TextAlignment="Center" />
+                        <TextBlock Text="0 to 100 km/h" Foreground="White" FontSize="10" TextAlignment="Center"/>
+                    </StackPanel>
 
-                    <TextBlock x:Name="TopSpeedFigures" 
-                               Grid.Row="0"
-                               Grid.Column="3"
-                               Text="{Binding TopSpeed, StringFormat='{}{0} kW'}"
-                               Foreground="White"/>
+                    <StackPanel Grid.Row="0" Grid.Column="3" HorizontalAlignment="Center">
+                        <TextBlock x:Name="TopSpeedFigures"
+                                   Foreground="White"
+                                   FontSize="16"
+                                   FontWeight="Bold"
+                                   TextAlignment="Center" />
+                        <TextBlock Text="Top Speed" Foreground="White" FontSize="10" TextAlignment="Center"/>
+                    </StackPanel>
+
                 </Grid>
 
                 <Grid>

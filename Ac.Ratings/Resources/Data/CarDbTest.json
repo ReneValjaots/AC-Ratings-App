@@ -24,8 +24,15 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": "FWD",
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#! 1.4L & I4"
+      "#! 1.4L & I4",
+      "#- manual",
+      "#+ fwd"
     ]
   },
   {
@@ -53,7 +60,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#- manual",
+      "#+ fwd",
       "#! 1.4L & I4"
     ]
   },
@@ -82,7 +96,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ fwd",
+      "#- manual",
       "#! 1.4L & I4"
     ]
   },
@@ -99,7 +120,7 @@
       "torque": "44Nm",
       "weight": "470kg",
       "topspeed": "124km/h",
-      "acceleration": "24.7s 0-100",
+      "acceleration": "25.8s 0-100",
       "pwratio": "19.58 kg/hp"
     },
     "ratings": {
@@ -111,7 +132,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ rwd",
+      "#- manual",
       "#! 0.6L & I2"
     ]
   },
@@ -128,7 +156,7 @@
       "torque": "44Nm",
       "weight": "470kg",
       "topspeed": "130km/h",
-      "acceleration": "25.8s 0-100",
+      "acceleration": "24.7s 0-100",
       "pwratio": "19.58 kg/hp"
     },
     "ratings": {
@@ -140,7 +168,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ rwd",
+      "#- manual",
       "#! 0.6L & I2"
     ]
   },
@@ -169,7 +204,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ rwd",
+      "#- manual",
       "#! -"
     ]
   },
@@ -186,7 +228,7 @@
       "torque": "294Nm",
       "weight": "1050kg",
       "topspeed": "280+km/h",
-      "acceleration": "2.5 s 0-100",
+      "acceleration": "2.5s 0-100",
       "pwratio": "3.4 kg/hp"
     },
     "ratings": {
@@ -198,7 +240,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ awd",
+      "#- manual",
       "#! 2.5L & V6"
     ]
   },
@@ -227,8 +276,15 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#! 2.0 & V8"
+      "#+ rwd",
+      "#- manual",
+      "#! 2.0L & V8"
     ]
   },
   {
@@ -256,15 +312,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "semiautomatic",
-      "turbo",
-      "lightweight",
-      "street",
-      "trackday",
-      "italy"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -292,13 +347,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "turbo",
-      "manual",
-      "street",
-      "italy"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -326,13 +382,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage Touring",
-      "rwd",
-      "manual",
-      "race",
-      "italy",
-      "vintage"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -360,14 +417,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#small sports",
-      "fwd",
-      "manual",
-      "turbo",
-      "street",
-      "hot hatchback",
-      "italy"
+      "#+ fwd",
+      "#- manual"
     ]
   },
   {
@@ -377,9 +434,9 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r18_etron_quattro\\skins\\00_lm1\\preview.jpg",
     "specs": {
-      "convertedPower": "580kW/777hp",
+      "convertedPower": "580kW/700hp",
       "isManufacturerData": true,
-      "bhp": "580kW/777hp",
+      "bhp": "580kW/700hp",
       "torque": "850+Nm",
       "weight": "915kg",
       "topspeed": "330km/h",
@@ -395,7 +452,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ awd",
+      "#- sequential",
       "#! 4.0L & V6 & TDI"
     ]
   },
@@ -406,14 +470,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r8_lms_2016\\skins\\00_racing_06\\preview.jpg",
     "specs": {
-      "convertedPower": "369kW/500hp",
-      "isManufacturerData": true,
-      "bhp": "369kW/500hp",
+      "convertedPower": "368kW/500hp",
+      "isManufacturerData": false,
+      "bhp": "500bhp",
       "torque": "500Nm",
       "weight": "1270kg",
-      "topspeed": "305km/h",
+      "topspeed": "305 km/h",
       "acceleration": "3.2s 0-100",
-      "pwratio": "3.44 kg/hp"
+      "pwratio": "2.54kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -424,7 +488,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ rwd",
+      "#- sequential",
       "#! 5.2L & V10"
     ]
   },
@@ -453,7 +524,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ rwd",
+      "#- sequential",
       "#! 5.2L & V10"
     ]
   },
@@ -482,7 +560,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ awd",
+      "#- semiautomatic",
       "#! 5.2L & V10"
     ]
   },
@@ -511,7 +596,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ awd",
       "#! 2.0L & I4"
     ]
   },
@@ -540,7 +631,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ awd",
+      "#- manual",
       "#! 2.1L & I5"
     ]
   },
@@ -551,9 +649,9 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_sport_quattro_rally\\skins\\00_racing_2\\preview.jpg",
     "specs": {
-      "convertedPower": "440kW/598hp",
+      "convertedPower": "440kW/595hp",
       "isManufacturerData": true,
-      "bhp": "440kW/598hp",
+      "bhp": "440kW/595hp",
       "torque": "590Nm",
       "weight": "1090kg",
       "topspeed": "250+km/h",
@@ -569,7 +667,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ awd",
+      "#- manual",
       "#! 2.1L & I5"
     ]
   },
@@ -598,7 +703,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ awd",
+      "#- manual",
       "#! 2.1L & I5"
     ]
   },
@@ -616,7 +728,7 @@
       "weight": "1125kg",
       "topspeed": "239km/h",
       "acceleration": "4.5s 0-100",
-      "pwratio": "4.9 kg/kW"
+      "pwratio": "4.93 kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -627,7 +739,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ fwd",
+      "#- sequential",
       "#! 2.0L & I4 & TSFI"
     ]
   },
@@ -656,7 +775,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ fwd",
+      "#- sequential",
       "#! 2.5L & I5 & TSFI"
     ]
   },
@@ -672,7 +798,7 @@
       "bhp": "250kW/340hp",
       "torque": "500Nm",
       "weight": "1495kg",
-      "topspeed": "250km/h",
+      "topspeed": "250+km/h",
       "acceleration": "4.9s 0-100",
       "pwratio": "5.98 kg/hp"
     },
@@ -685,7 +811,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ rwd",
+      "#- manual",
       "#! 3.0L & I6 & M TwinPower Turbo"
     ]
   },
@@ -697,13 +830,13 @@
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_1m_s3\\skins\\ArisTek_5\\preview.jpg",
     "specs": {
       "convertedPower": "294kW/400hp",
-      "isManufacturerData": true,
-      "bhp": "294kW/400hp",
+      "isManufacturerData": false,
+      "bhp": "400bhp",
       "torque": "580Nm",
       "weight": "1495kg",
       "topspeed": "250+km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "5.09 kg/hp"
+      "pwratio": "3.74kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -714,7 +847,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ rwd",
+      "#- manual",
       "#! 3.0L & I6 & M TwinPower Turbo"
     ]
   },
@@ -743,7 +883,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ rwd",
+      "#- semiautomatic",
       "#! 3.0L & I6 & M TwinPower Turbo"
     ]
   },
@@ -772,7 +919,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ rwd",
+      "#- manual",
       "#! 2.5L & I4"
     ]
   },
@@ -801,8 +955,15 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#! 3.2L & I6"
+      "#+ rwd",
+      "#- manual",
+      "#! 3.2L & I6 & S54"
     ]
   },
   {
@@ -812,14 +973,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e30_dtm\\skins\\0_fina_7\\preview.jpg",
     "specs": {
-      "convertedPower": "260kw/350+hp",
+      "convertedPower": "257kW/350hp",
       "isManufacturerData": false,
-      "bhp": "260kW/350+hp",
+      "bhp": "350+bhp",
       "torque": "310Nm",
       "weight": "945kg",
       "topspeed": "280+km/h",
       "acceleration": "4.3s 0-100",
-      "pwratio": "3.63 kg/hp"
+      "pwratio": "2.70kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -830,7 +991,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ rwd",
+      "#- manual",
       "#! 2.5L & I4"
     ]
   },
@@ -842,13 +1010,13 @@
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e30_gra\\skins\\0_Sterling_Silver_metallic\\preview.jpg",
     "specs": {
       "convertedPower": "213kW/290hp",
-      "isManufacturerData": true,
-      "bhp": "213kW/290hp",
+      "isManufacturerData": false,
+      "bhp": "290+bhp",
       "torque": "310Nm",
       "weight": "945kg",
-      "topspeed": "280km/h",
+      "topspeed": "280+km/h",
       "acceleration": "4.3s 0-100",
-      "pwratio": "4.44 kg/hp"
+      "pwratio": "3.26kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -859,7 +1027,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ rwd",
+      "#- manual",
       "#! 2.3L & I4"
     ]
   },
@@ -888,7 +1063,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
+      "#+ rwd",
+      "#- manual",
       "#! 2.5L & I4"
     ]
   },
@@ -917,12 +1099,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "semiautomatic",
-      "street",
-      "germany"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -950,12 +1134,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#drift",
-      "rwd",
-      "semiautomatic",
-      "street",
-      "germany"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -983,12 +1169,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "semiautomatic",
-      "street",
-      "germany"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -1016,14 +1204,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GTE-GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt2",
-      "germany"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -1051,13 +1239,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "turbo",
-      "semiautomatic",
-      "street",
-      "germany"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -1085,13 +1274,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "turbo",
-      "semiautomatic",
-      "street",
-      "germany"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -1119,13 +1309,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "semiautomatic",
-      "turbo",
-      "street",
-      "germany"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -1153,13 +1344,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#drift",
-      "rwd",
-      "semiautomatic",
-      "turbo",
-      "street",
-      "germany"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -1187,13 +1379,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "semiautomatic",
-      "turbo",
-      "street",
-      "germany"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -1221,14 +1414,119 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GTE-GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt3",
-      "germany"
+      "#+ rwd",
+      "#- sequential"
+    ]
+  },
+  {
+    "name": "Caterham Academy 2020",
+    "brand": "Caterham",
+    "year": "2020",
+    "author": "Ben O'Bro & JackCY",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bo_caterham_academy\\skins\\00_guest\\preview.jpg",
+    "specs": {
+      "convertedPower": "92kW/125hp",
+      "isManufacturerData": false,
+      "bhp": "125 bhp",
+      "torque": "178 Nm",
+      "weight": "575 kg",
+      "topspeed": "170 km/h",
+      "acceleration": "6 s 0–100",
+      "pwratio": "4.6 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#- manual",
+      "#+ rwd"
+    ]
+  },
+  {
+    "name": "Chevrolet Corvette C4 ZR-1",
+    "brand": "Chevrolet",
+    "year": "1990",
+    "author": "Siim Annuk (Some1), aphidgod, A3DR & others",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\some1_corvette_c4_zr1_1990\\skins\\Admiral_Blue\\preview.jpg",
+    "specs": {
+      "convertedPower": "298kW/405hp",
+      "isManufacturerData": false,
+      "bhp": "405 bhp",
+      "torque": "522 Nm",
+      "weight": "1503 kg",
+      "topspeed": "297 km/h",
+      "acceleration": "4.4 s 0–100",
+      "pwratio": "3.71 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#+ rwd",
+      "#- manual"
+    ]
+  },
+  {
+    "name": "Chevrolet Corvette C4 ZR-1 Canyon Spec",
+    "brand": "Chevrolet",
+    "year": "1990",
+    "author": "Siim Annuk (Some1), aphidgod, A3DR & others",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\some1_corvette_c4_zr1_1990_s1\\skins\\Admiral_Blue\\preview.jpg",
+    "specs": {
+      "convertedPower": "415kW/565hp",
+      "isManufacturerData": false,
+      "bhp": "565 bhp",
+      "torque": "660 Nm",
+      "weight": "1405 kg",
+      "topspeed": "306 km/h",
+      "acceleration": "4.0 s 0–100",
+      "pwratio": "2.49 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -1256,12 +1554,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "manual",
-      "street",
-      "v8",
-      "usa"
+      "#- manual"
     ]
   },
   {
@@ -1289,14 +1588,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GTE-GT3",
-      "rwd",
-      "sequential",
-      "race",
-      "gt",
-      "gt2",
-      "usa"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -1324,13 +1623,49 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Prototype",
-      "rwd",
-      "race",
-      "sequential",
-      "usa",
-      "TUSCC"
+      "#+ rwd",
+      "#- sequential"
+    ]
+  },
+  {
+    "name": "Cupra Leon Competición 2022",
+    "brand": "Cupra",
+    "year": "2022",
+    "author": "TM-Modding",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\tmm_cupra_tcr_2022\\skins\\14_cizin_2022\\preview.jpg",
+    "specs": {
+      "convertedPower": "251kW/341hp",
+      "isManufacturerData": false,
+      "bhp": "341 bhp",
+      "torque": "436 Nm",
+      "weight": "1235 kg",
+      "topspeed": "245km/h",
+      "acceleration": "5.0s 0-100",
+      "pwratio": "3.62 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#- sequential",
+      "#+ fwd"
     ]
   },
   {
@@ -1358,13 +1693,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Prototype",
-      "rwd",
-      "race",
-      "sequential",
-      "usa",
-      "TUSCC"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -1392,15 +1728,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "germany",
-      "rear engine",
-      "URD"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -1428,14 +1763,49 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "prototype",
-      "vintage",
-      "germany"
+      "#+ rwd",
+      "#- sequential"
+    ]
+  },
+  {
+    "name": "Dodge Viper RT/10",
+    "brand": "Dodge",
+    "year": "1995",
+    "author": "Alberto Daniel Russo",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_viper_rt10\\skins\\Black_Stripes\\preview.jpg",
+    "specs": {
+      "convertedPower": "294kW/400hp",
+      "isManufacturerData": false,
+      "bhp": "400 bhp",
+      "torque": "627 Nm",
+      "weight": "1494 kg",
+      "topspeed": "266 km/h",
+      "acceleration": "4.6 s 0–100",
+      "pwratio": "3.74 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#- manual",
+      "#+ rwd"
     ]
   },
   {
@@ -1463,14 +1833,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage Supercars",
-      "rwd",
-      "manual",
-      "street",
-      "supercar",
-      "vintage",
-      "italy"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -1498,15 +1868,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage Racecar",
-      "rwd",
-      "race",
-      "manual",
-      "gp",
-      "singleseater",
-      "vintage",
-      "italy"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -1534,15 +1903,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Ferrari312T",
-      "rwd",
-      "race",
-      "manual",
-      "gp",
-      "singleseater",
-      "vintage",
-      "italy"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -1570,14 +1938,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "manual",
-      "lightweight",
-      "vintage",
-      "race",
-      "trackday",
-      "historic"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -1605,14 +1973,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GTE-GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt2",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -1640,13 +2008,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "rwd",
-      "semiautomatic",
-      "street",
-      "supercar",
-      "italy"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -1674,13 +2043,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#458challenge",
-      "rwd",
-      "semiautomatic",
-      "street",
-      "supercar",
-      "italy"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -1708,14 +2078,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GTE-GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt3",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -1743,14 +2113,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GTE-GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt3",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -1778,13 +2148,82 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "rwd",
-      "semiautomatic",
-      "street",
-      "supercar",
-      "italy"
+      "#+ rwd",
+      "#- semiautomatic"
+    ]
+  },
+  {
+    "name": "Ferrari 512 TR",
+    "brand": "Ferrari",
+    "year": "1994",
+    "author": "Alberto Daniel Russo",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_ferrari_512tr\\skins\\01_Rosso_Corsa\\preview.jpg",
+    "specs": {
+      "convertedPower": "312kW/425hp",
+      "isManufacturerData": false,
+      "bhp": "425 bhp",
+      "torque": "491 Nm",
+      "weight": "1573 kg",
+      "topspeed": "314 km/h",
+      "acceleration": "4.6 s 0–100",
+      "pwratio": "3.7 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#+ rwd"
+    ]
+  },
+  {
+    "name": "Ferrari 512 TR Canyon Spec",
+    "brand": "Ferrari",
+    "year": "1994",
+    "author": "Alberto Daniel Russo",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_ferrari_512tr_s1\\skins\\01_Rosso_Corsa\\preview.jpg",
+    "specs": {
+      "convertedPower": "405kW/551hp",
+      "isManufacturerData": false,
+      "bhp": "551 bhp",
+      "torque": "540 Nm",
+      "weight": "1533 kg",
+      "topspeed": "341 km/h",
+      "acceleration": "3.8 s 0–100",
+      "pwratio": "2.78 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#+ rwd"
     ]
   },
   {
@@ -1812,13 +2251,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Hypercars R",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -1846,13 +2286,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "rwd",
-      "semiautomatic",
-      "street",
-      "supercar",
-      "italy"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -1880,14 +2321,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#F138",
-      "rwd",
-      "race",
-      "sequential",
-      "gp",
-      "singleseater",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -1915,14 +2356,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#F2004",
-      "rwd",
-      "race",
-      "sequential",
-      "gp",
-      "singleseater",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -1950,15 +2391,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage Supercars",
-      "rwd",
-      "manual",
-      "street",
-      "turbo",
-      "supercar",
-      "vintage",
-      "italy"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -1986,15 +2426,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage GT",
-      "rwd",
-      "manual",
-      "street",
-      "turbo",
-      "supercar",
-      "vintage",
-      "italy"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -2022,12 +2461,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Hypercars R",
-      "rwd",
-      "race",
-      "sequential",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -2055,15 +2496,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage Supercars",
-      "rwd",
-      "manual",
-      "street",
-      "turbo",
-      "supercar",
-      "vintage",
-      "italy"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -2091,12 +2531,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Hypercars",
-      "rwd",
-      "street",
-      "semiautomatic",
-      "italy"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -2124,14 +2566,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#SF15T",
-      "rwd",
-      "race",
-      "sequential",
-      "gp",
-      "singleseater",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -2141,14 +2583,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_sf70h\\skins\\00_default\\preview.jpg",
     "specs": {
-      "convertedPower": "662kW/900hp",
+      "convertedPower": "--bhp",
       "isManufacturerData": false,
-      "bhp": "900+bhp",
+      "bhp": "--bhp",
       "torque": "--Nm",
-      "weight": "728kg",
+      "weight": "--kg",
       "topspeed": "--km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "0.81 kg/hp"
+      "pwratio": "--kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -2159,14 +2601,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#SF70H",
-      "rwd",
-      "race",
-      "sequential",
-      "gp",
-      "singleseater",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -2194,16 +2636,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt3",
-      "mid engine",
-      "italy",
-      "URD"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -2231,14 +2671,12 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
-    "tags": [
-      "#Vintage Touring",
-      "vintage",
-      "rwd",
-      "race",
-      "gt",
-      "great britain"
-    ]
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": []
   },
   {
     "name": "Ford GT40",
@@ -2265,12 +2703,12 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
-    "tags": [
-      "#Vintage GT",
-      "vintage",
-      "race",
-      "usa"
-    ]
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": []
   },
   {
     "name": "Ford Mustang 2015",
@@ -2297,12 +2735,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "v8",
-      "manual",
-      "street",
-      "usa"
+      "#- manual"
     ]
   },
   {
@@ -2330,11 +2769,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "sequential",
-      "race",
-      "singleseater"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -2362,11 +2804,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "sequential",
-      "race",
-      "singleseater"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -2394,11 +2839,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "sequential",
-      "race",
-      "singleseater"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -2426,11 +2874,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "sequential",
-      "race",
-      "singleseater"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -2458,14 +2909,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "Formula",
-      "rwd",
-      "race",
-      "sequential",
-      "gp",
-      "singleseater",
-      "RSS"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -2493,11 +2944,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "sequential",
-      "race",
-      "singleseater"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -2525,11 +2979,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "sequential",
-      "race",
-      "singleseater"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -2557,16 +3014,15 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "Formula",
-      "rwd",
-      "race",
-      "sequential",
-      "gp",
-      "singleseater",
-      "RSS",
-      "manual",
-      "vintage"
+      "#+ rwd",
+      "#- manual",
+      "#- sequential"
     ]
   },
   {
@@ -2594,16 +3050,15 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "Formula",
-      "rwd",
-      "race",
-      "sequential",
-      "gp",
-      "singleseater",
-      "RSS",
-      "manual",
-      "vintage"
+      "#+ rwd",
+      "#- manual",
+      "#- sequential"
     ]
   },
   {
@@ -2631,15 +3086,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Formula79",
-      "rwd",
-      "race",
-      "manual",
-      "gp",
-      "singleseater",
-      "vintage",
-      "great britain"
+      "#- manual"
     ]
   },
   {
@@ -2667,17 +3120,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "Formula",
-      "rwd",
-      "race",
-      "manual",
-      "gp",
-      "singleseater",
-      "turbo",
-      "vintage",
-      "great britain",
-      "RSS"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -2705,14 +3155,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "Formula",
-      "rwd",
-      "race",
-      "gp",
-      "singleseater",
-      "vintage",
-      "italy"
+      "#+ rwd"
     ]
   },
   {
@@ -2740,13 +3189,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "Formula",
-      "rwd",
-      "race",
-      "sequential",
-      "gp",
-      "singleseater"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -2774,14 +3224,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "Formula",
-      "rwd",
-      "race",
-      "sequential",
-      "gp",
-      "singleseater",
-      "RSS"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -2809,16 +3259,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#RSS",
-      "rwd",
-      "race",
-      "sequential",
-      "gp",
-      "singleseater",
-      "Formula",
-      "2010",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -2846,14 +3294,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "Formula",
-      "rwd",
-      "race",
-      "sequential",
-      "gp",
-      "singleseater",
-      "RSS"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -2881,14 +3329,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#small sports",
-      "fwd",
-      "manual",
-      "turbo",
-      "street",
-      "hot hatchback",
-      "italy"
+      "#+ fwd",
+      "#- manual"
     ]
   },
   {
@@ -2916,13 +3364,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#small sports",
-      "fwd",
-      "turbo",
-      "street",
-      "hot hatchback",
-      "italy"
+      "#+ fwd"
     ]
   },
   {
@@ -2950,15 +3398,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage GT",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "vintage",
-      "RSS",
-      "great britain"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -2986,15 +3433,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage GT",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "vintage",
-      "RSS",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -3022,15 +3468,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage GT",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "vintage",
-      "RSS",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -3058,15 +3503,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "sequential",
-      "race",
-      "GT",
-      "Italy",
-      "#Vintage GT",
-      "RSS",
-      "vintage"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -3094,15 +3538,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "sequential",
-      "race",
-      "GT",
-      "USA",
-      "#Vintage GT",
-      "RSS",
-      "vintage"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -3130,15 +3573,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage GT",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "vintage",
-      "RSS",
-      "United Kingdom"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -3166,15 +3608,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage GT",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "vintage",
-      "RSS",
-      "USA"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -3202,15 +3643,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt3",
-      "germany",
-      "GTE-GT3",
-      "RSS"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -3238,15 +3678,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt3",
-      "japan",
-      "GTE-GT3",
-      "RSS"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -3274,15 +3713,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt3",
-      "germany",
-      "GTE-GT3",
-      "RSS"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -3310,15 +3748,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt3",
-      "italy",
-      "GTE-GT3",
-      "RSS"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -3346,15 +3783,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt3",
-      "italy",
-      "GTE-GT3",
-      "RSS"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -3382,15 +3818,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt3",
-      "japan",
-      "GTE-GT3",
-      "RSS"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -3418,15 +3853,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt3",
-      "germany",
-      "GTE-GT3",
-      "RSS"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -3454,15 +3888,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "Vintage GT",
-      "rwd",
-      "race",
-      "sequential",
-      "ngt",
-      "Vintage",
-      "RSS",
-      "Germany"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -3490,15 +3923,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "Vintage GT",
-      "rwd",
-      "race",
-      "sequential",
-      "ngt",
-      "vintage",
-      "RSS",
-      "Italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -3526,7 +3958,116 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": []
+  },
+  {
+    "name": "Honda Prelude Mr. X Edition",
+    "brand": "Honda",
+    "year": "1980",
+    "author": "Alberto Daniel Russo",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_honda_prelude_s1\\skins\\default\\preview.jpg",
+    "specs": {
+      "convertedPower": "176kW/240hp",
+      "isManufacturerData": false,
+      "bhp": "240 bhp",
+      "torque": "233 Nm",
+      "weight": "982 kg",
+      "topspeed": "250 km/h",
+      "acceleration": "6.1 s 0–100",
+      "pwratio": "4.09 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#+ fwd"
+    ]
+  },
+  {
+    "name": "Honda S800",
+    "brand": "Honda",
+    "year": "1968",
+    "author": "Alberto Daniel Russo",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_honda_s800\\skins\\!scarlet\\preview.jpg",
+    "specs": {
+      "convertedPower": "51kW/70hp",
+      "isManufacturerData": false,
+      "bhp": "70 bhp",
+      "torque": "66Nm",
+      "weight": "750kg",
+      "topspeed": "156 km/h",
+      "acceleration": "12.8s 0-100 km/h",
+      "pwratio": "10.71 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#- manual",
+      "#+ rwd"
+    ]
+  },
+  {
+    "name": "Honda S800 RSC",
+    "brand": "Honda",
+    "year": "1968",
+    "author": "Alberto Daniel Russo",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_honda_s800_rsc\\skins\\06_Roland\\preview.jpg",
+    "specs": {
+      "convertedPower": "74kW/100hp",
+      "isManufacturerData": false,
+      "bhp": "100bhp",
+      "torque": "80Nm",
+      "weight": "660kg",
+      "topspeed": "182km/h",
+      "acceleration": "6.1s 0-100",
+      "pwratio": "6.6kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#+ rwd",
+      "#- manual"
+    ]
   },
   {
     "name": "Hyperion 2020",
@@ -3553,13 +4094,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "fwd",
-      "race",
-      "manual",
-      "united states",
-      "cup",
-      "RSS"
+      "#- manual",
+      "#+ fwd"
     ]
   },
   {
@@ -3587,14 +4129,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Prototype",
-      "rwd",
-      "race",
-      "sequential",
-      "usa",
-      "#LMP2",
-      "IER"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -3622,14 +4164,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Prototype",
-      "rwd",
-      "race",
-      "sequential",
-      "usa",
-      "#LMP1",
-      "IER"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -3657,14 +4199,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "race",
-      "japan",
-      "gt500",
-      "rwd",
-      "turbo",
-      "class1",
-      "JT5"
+      "#+ rwd"
     ]
   },
   {
@@ -3692,17 +4233,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "rwd",
-      "manual",
-      "turbo",
-      "lightweight",
-      "street",
-      "race",
-      "trackday",
-      "gt4",
-      "austria"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -3712,14 +4250,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_aventador_sv\\skins\\00_rosso_bia_glittered\\preview.jpg",
     "specs": {
-      "convertedPower": "551kW/750hp",
+      "convertedPower": "750hp",
       "isManufacturerData": false,
-      "bhp": "750bhp",
+      "bhp": "750hp",
       "torque": "690Nm",
       "weight": "1525kg",
       "topspeed": "350+km/h",
       "acceleration": "2.8s 0-100",
-      "pwratio": "2.03 kg/hp"
+      "pwratio": "2.03kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -3730,12 +4268,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Hypercars",
-      "awd",
-      "street",
-      "sequential",
-      "italy"
+      "#+ awd",
+      "#- sequential"
     ]
   },
   {
@@ -3763,14 +4303,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage Supercars",
-      "rwd",
-      "manual",
-      "street",
-      "supercar",
-      "vintage",
-      "italy"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -3798,14 +4338,84 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage Supercars",
-      "rwd",
-      "manual",
-      "street",
-      "supercar",
-      "vintage",
-      "italy"
+      "#+ rwd",
+      "#- manual"
+    ]
+  },
+  {
+    "name": "Lamborghini Diablo SE30 Jota",
+    "brand": "Lamborghini",
+    "year": "1995",
+    "author": "Alberto Daniel Russo",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_lambo_diablo_se30_jota\\skins\\01_purple_blue\\preview.jpg",
+    "specs": {
+      "convertedPower": "437kW/595hp",
+      "isManufacturerData": false,
+      "bhp": "595 bhp",
+      "torque": "639 Nm",
+      "weight": "1450kg",
+      "topspeed": "340km/h",
+      "acceleration": "3.9s 0-100",
+      "pwratio": "2.44 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#- manual",
+      "#+ rwd"
+    ]
+  },
+  {
+    "name": "Lamborghini Diablo VT",
+    "brand": "Lamborghini",
+    "year": "1995",
+    "author": "Alberto Daniel Russo",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_lambo_diablo_vt\\skins\\01_black\\preview.jpg",
+    "specs": {
+      "convertedPower": "362kW/492hp",
+      "isManufacturerData": false,
+      "bhp": "492bhp",
+      "torque": "580Nm",
+      "weight": "1625kg",
+      "topspeed": "325km/h",
+      "acceleration": "4.1s 0-100",
+      "pwratio": "3.3kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#+ awd",
+      "#- manual"
     ]
   },
   {
@@ -3833,13 +4443,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "awd",
-      "street",
-      "sequential",
-      "supercar",
-      "italy"
+      "#+ awd",
+      "#- sequential"
     ]
   },
   {
@@ -3867,13 +4478,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Hypercars",
-      "rwd",
-      "street",
-      "sequential",
-      "supercar",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -3901,14 +4513,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GTE-GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt3",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -3936,13 +4548,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "awd",
-      "semiautomatic",
-      "street",
-      "supercar",
-      "italy"
+      "#+ awd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -3970,13 +4583,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GTE-GT3",
-      "sequential",
-      "rwd",
-      "race",
-      "gt",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -4004,14 +4618,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage Supercars",
-      "rwd",
-      "manual",
-      "street",
-      "supercar",
-      "vintage",
-      "italy"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -4021,14 +4635,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_sesto_elemento\\skins\\00_carbono\\preview.jpg",
     "specs": {
-      "convertedPower": "413kW/562hp",
+      "convertedPower": "570hp",
       "isManufacturerData": false,
-      "bhp": "562bhp",
+      "bhp": "570hp",
       "torque": "540Nm",
       "weight": "999kg",
       "topspeed": "350km/h",
       "acceleration": "2.5s 0-100",
-      "pwratio": "1.78 kg/hp"
+      "pwratio": "1.75kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -4039,12 +4653,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Hypercars",
-      "awd",
-      "street",
-      "sequential",
-      "italy"
+      "#+ awd",
+      "#- sequential"
     ]
   },
   {
@@ -4072,15 +4688,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "sequential",
-      "RSS",
-      "GT1",
-      "japan",
-      "LMGT",
-      "prototype"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -4108,15 +4723,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "prototype",
-      "LMGT",
-      "rwd",
-      "race",
-      "vintage",
-      "Japan",
-      "RSS",
-      "GT1"
+      "#+ rwd"
     ]
   },
   {
@@ -4144,15 +4757,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "prototype",
-      "LMP",
-      "rwd",
-      "race",
-      "vintage",
-      "Italy",
-      "RSS",
-      "GT"
+      "#+ rwd"
     ]
   },
   {
@@ -4180,14 +4791,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "awd",
-      "race",
-      "sequential",
-      "lmp1",
-      "germany",
-      "RSS",
-      "prototype"
+      "#+ awd",
+      "#- sequential"
     ]
   },
   {
@@ -4215,15 +4826,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "rwd",
-      "manual",
-      "compressor",
-      "lightweight",
-      "street",
-      "trackday",
-      "great britain"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -4251,13 +4861,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GT4",
-      "rwd",
-      "sequential",
-      "lightweight",
-      "race",
-      "great britain"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -4285,13 +4896,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "rwd",
-      "sequential",
-      "lightweight",
-      "race",
-      "great britain"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -4319,15 +4931,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Lotus72D",
-      "rwd",
-      "race",
-      "manual",
-      "gp",
-      "singleseater",
-      "vintage",
-      "great britain"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -4355,16 +4966,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Lotus98T",
-      "rwd",
-      "race",
-      "manual",
-      "gp",
-      "singleseater",
-      "turbo",
-      "vintage",
-      "great britain"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -4392,14 +5001,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "manual",
-      "compressor",
-      "lightweight",
-      "street",
-      "great britain"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -4427,14 +5036,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "manual",
-      "compressor",
-      "lightweight",
-      "street",
-      "great britain"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -4462,14 +5071,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "manual",
-      "compressor",
-      "lightweight",
-      "street",
-      "great britain"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -4497,13 +5106,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GT4",
-      "rwd",
-      "semiautomatic",
-      "compressor",
-      "race",
-      "great britain"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -4531,13 +5141,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "semiautomatic",
-      "compressor",
-      "street",
-      "great britain"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -4565,13 +5176,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "semiautomatic",
-      "compressor",
-      "street",
-      "great britain"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -4599,13 +5211,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GT4",
-      "rwd",
-      "semiautomatic",
-      "compressor",
-      "race",
-      "great britain"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -4633,13 +5246,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "manual",
-      "compressor",
-      "street",
-      "great britain"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -4667,13 +5281,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "manual",
-      "compressor",
-      "street",
-      "great britain"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -4701,14 +5316,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "manual",
-      "compressor",
-      "lightweight",
-      "street",
-      "great britain"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -4736,14 +5351,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "manual",
-      "compressor",
-      "lightweight",
-      "street",
-      "great britain"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -4771,14 +5386,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "rwd",
-      "manual",
-      "compressor",
-      "trackday",
-      "street",
-      "great britain"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -4806,14 +5421,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "manual",
-      "compressor",
-      "trackday",
-      "street",
-      "great britain"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -4841,14 +5456,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "manual",
-      "compressor",
-      "lightweight",
-      "street",
-      "great britain"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -4876,14 +5491,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "rwd",
-      "manual",
-      "compressor",
-      "trackday",
-      "street",
-      "great britain"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -4911,14 +5526,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Lotus125",
-      "rwd",
-      "race",
-      "sequential",
-      "gp",
-      "singleseater",
-      "great britain"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -4946,14 +5561,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Lotus125S1",
-      "rwd",
-      "race",
-      "sequential",
-      "gp",
-      "singleseater",
-      "great britain"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -4981,15 +5596,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Lotus25",
-      "rwd",
-      "race",
-      "manual",
-      "gp",
-      "singleseater",
-      "vintage",
-      "great britain"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -5017,15 +5631,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage Racecar",
-      "rwd",
-      "race",
-      "manual",
-      "gp",
-      "singleseater",
-      "vintage",
-      "great britain"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -5053,15 +5666,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Maserati250FT2",
-      "rwd",
-      "race",
-      "manual",
-      "gp",
-      "singleseater",
-      "vintage",
-      "italy"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -5089,15 +5701,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Maserati250F",
-      "rwd",
-      "race",
-      "manual",
-      "gp",
-      "singleseater",
-      "vintage",
-      "italy"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -5125,12 +5736,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "semiautomatic",
-      "street",
-      "italy"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -5158,12 +5771,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GT4",
-      "rwd",
-      "race",
-      "sequential",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -5191,11 +5806,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#SUV",
-      "awd",
-      "street",
-      "italy"
+      "#+ awd"
     ]
   },
   {
@@ -5223,14 +5840,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage GT",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "vintage",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -5258,13 +5875,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "turbo",
-      "semiautomatic",
-      "street",
-      "italy"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -5292,14 +5910,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "prototype",
-      "vintage",
-      "germany"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -5327,14 +5945,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Proto C",
-      "rwd",
-      "rotary",
-      "race",
-      "prototype C",
-      "vintage",
-      "japan"
+      "#+ rwd"
     ]
   },
   {
@@ -5362,12 +5979,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#small sports",
-      "rwd",
-      "manual",
-      "street",
-      "japan"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -5395,12 +6014,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#global cup",
-      "rwd",
-      "manual",
-      "race",
-      "japan"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -5428,12 +6049,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#small sports",
-      "rwd",
-      "manual",
-      "street",
-      "japan"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -5461,12 +6084,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "manual",
-      "street",
-      "japan"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -5494,12 +6119,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "manual",
-      "street",
-      "japan"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -5527,13 +6154,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "rwd",
-      "street",
-      "semiautomatic",
-      "supercar",
-      "great britain"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -5561,15 +6189,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GTE-GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt3",
-      "turbo",
-      "gt",
-      "great britain"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -5597,14 +6224,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage GT",
-      "rwd",
-      "race",
-      "manual",
-      "gt",
-      "vintage",
-      "great britain"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -5632,14 +6259,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "rwd",
-      "semiautomatic",
-      "turbo",
-      "street",
-      "supercar",
-      "great britain"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -5667,14 +6294,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GTE-GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt3",
-      "great britain"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -5702,12 +6329,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Hypercars",
-      "rwd",
-      "street",
-      "semiautomatic",
-      "great britain"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -5735,12 +6364,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Hypercars R",
-      "rwd",
-      "street",
-      "semiautomatic",
-      "great britain"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -5768,13 +6399,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "rwd",
-      "semiautomatic",
-      "street",
-      "supercar",
-      "germany"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -5802,14 +6434,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GTE-GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt3",
-      "germany"
+      "#- sequential",
+      "#+ rwd"
     ]
   },
   {
@@ -5837,14 +6469,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#90s touring",
-      "rwd",
-      "manual",
-      "race",
-      "touring",
-      "germany",
-      "vintage"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -5872,14 +6504,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GTE-GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt3",
-      "germany"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -5907,15 +6539,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Proto C",
-      "rwd",
-      "race",
-      "manual",
-      "gt",
-      "prototype C",
-      "vintage",
-      "germany"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -5943,14 +6574,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "prototype",
-      "vintage",
-      "germany"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -5978,15 +6609,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GTE-GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "usa",
-      "gte",
-      "mid engine"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -6014,15 +6644,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "usa",
-      "gtd",
-      "mid engine"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -6050,16 +6679,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "sequential",
-      "lmp1",
-      "lmdh",
-      "germany",
-      "RSS",
-      "prototype",
-      "hybrid"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -6087,16 +6714,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "sequential",
-      "lmp1",
-      "lmdh",
-      "germany",
-      "RSS",
-      "prototype",
-      "hybrid"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -6124,12 +6749,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "manual",
-      "street",
-      "japan"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -6157,14 +6784,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GTE-GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt3",
-      "japan"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -6192,14 +6819,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "awd",
-      "turbo",
-      "sequential",
-      "street",
-      "supercar",
-      "japan"
+      "#+ awd",
+      "#- sequential"
     ]
   },
   {
@@ -6226,6 +6853,11 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
     },
     "tags": []
   },
@@ -6254,13 +6886,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "awd",
-      "manual",
-      "street",
-      "turbo",
-      "japan"
+      "#- manual",
+      "#+ awd"
     ]
   },
   {
@@ -6288,11 +6921,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "sequential",
-      "prototype"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -6320,14 +6956,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Prototype",
-      "rwd",
-      "race",
-      "sequential",
-      "france",
-      "TUSCC",
-      "alms"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -6355,14 +6991,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GTE-GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt2",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -6390,12 +7026,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Hypercars",
-      "rwd",
-      "street",
-      "sequential",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -6423,12 +7061,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Hypercars",
-      "rwd",
-      "street",
-      "sequential",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -6456,13 +7096,189 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Hypercars R",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
+    ]
+  },
+  {
+    "name": "Pessio Garage Carpi RS31 Gr.2 Class 5000cc",
+    "brand": "Pessio Garage",
+    "year": "1974",
+    "author": "Pessio Garage & abbo90",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pg_carpi_rs31\\skins\\boardspeed_9\\preview.jpg",
+    "specs": {
+      "convertedPower": "312kW/424hp",
+      "isManufacturerData": false,
+      "bhp": "424 bhp",
+      "torque": "380 Nm",
+      "weight": "1040 kg",
+      "topspeed": "270+ km/h",
+      "acceleration": "0 - 100 kph in 4.2 s",
+      "pwratio": "2.5 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#+ rwd",
+      "#- manual"
+    ]
+  },
+  {
+    "name": "Pessio Garage Heat Mk1",
+    "brand": "Pessio Garage",
+    "year": "1967",
+    "author": "Pessio Garage & abbo90",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pg_heat\\skins\\36\\preview.jpg",
+    "specs": {
+      "convertedPower": "306kW/416hp",
+      "isManufacturerData": false,
+      "bhp": "416 bhp",
+      "torque": "315 Nm",
+      "weight": "535 kg",
+      "topspeed": "320 km/h",
+      "acceleration": "0 - 100 kph in  s",
+      "pwratio": "1.3 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#- manual",
+      "#+ rwd"
+    ]
+  },
+  {
+    "name": "Pessio Garage Mustard Bull SCCA B Prod. Trans-Am",
+    "brand": "Pessio Garage",
+    "year": "1969",
+    "author": "Pessio Garage & abbo90",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pg_mustard\\skins\\avio_1\\preview.jpg",
+    "specs": {
+      "convertedPower": "347kW/472hp",
+      "isManufacturerData": false,
+      "bhp": "472 bhp",
+      "torque": "529 Nm",
+      "weight": "1318 kg",
+      "topspeed": "270+ km/h",
+      "acceleration": "0 - 100 kph in 4.7 s",
+      "pwratio": "2.79 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#+ rwd",
+      "#- manual"
+    ]
+  },
+  {
+    "name": "Pessio Garage Scorpion TC 1.0 Rad 1968",
+    "brand": "Pessio Garage",
+    "year": "1968",
+    "author": "Pessio Garage [ Pessio - Abbo90 - Hillclimber96 ]",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pg_tc1000_1968\\skins\\10\\preview.jpg",
+    "specs": {
+      "convertedPower": "76kW/104hp",
+      "isManufacturerData": false,
+      "bhp": "104 bhp",
+      "torque": "99 Nm",
+      "weight": "605 kg*",
+      "topspeed": "195 Km/h",
+      "acceleration": "0 - 100 kph in 7.2 s",
+      "pwratio": "5.82 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#+ rwd",
+      "#- manual"
+    ]
+  },
+  {
+    "name": "Pessio Garage Scorpion TC 1.0 Rad 1970",
+    "brand": "Pessio Garage",
+    "year": "1970",
+    "author": "Pessio Garage [ Pessio - Abbo90 - Hillclimber96 ]",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pg_tc1000\\skins\\10\\preview.jpg",
+    "specs": {
+      "convertedPower": "82kW/112hp",
+      "isManufacturerData": false,
+      "bhp": "112 bhp",
+      "torque": "101 Nm",
+      "weight": "605 kg*",
+      "topspeed": "200 Km/h",
+      "acceleration": "0 - 100 kph in 7.2 s",
+      "pwratio": "5.4 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#- manual",
+      "#+ rwd"
     ]
   },
   {
@@ -6472,14 +7288,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_718_boxster_s\\skins\\00_gt_silver_metallic\\preview.jpg",
     "specs": {
-      "convertedPower": "257kW/350hp",
+      "convertedPower": "350hp",
       "isManufacturerData": false,
-      "bhp": "350bhp",
+      "bhp": "350hp",
       "torque": "420Nm",
       "weight": "1355kg",
       "topspeed": "285km/h",
       "acceleration": "4.6s 0-100",
-      "pwratio": "3.87 kg/hp"
+      "pwratio": "3.87kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -6490,13 +7306,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "turbo",
-      "manual",
-      "street",
-      "germany"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -6506,14 +7323,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_718_boxster_s_pdk\\skins\\00_carmine_red\\preview.jpg",
     "specs": {
-      "convertedPower": "257kW/350hp",
+      "convertedPower": "350hp",
       "isManufacturerData": false,
-      "bhp": "350bhp",
+      "bhp": "350hp",
       "torque": "420Nm",
       "weight": "1385kg",
       "topspeed": "285km/h",
       "acceleration": "4.2s 0-100",
-      "pwratio": "3.96 kg/hp"
+      "pwratio": "3.95kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -6524,13 +7341,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "turbo",
-      "semiautomatic",
-      "street",
-      "germany"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -6558,13 +7376,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "turbo",
-      "manual",
-      "street",
-      "germany"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -6574,14 +7393,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_718_spyder_rs\\skins\\00_racing_42\\preview.jpg",
     "specs": {
-      "convertedPower": "110kW/150hp",
+      "convertedPower": "150hp",
       "isManufacturerData": false,
-      "bhp": "150bhp",
+      "bhp": "150hp",
       "torque": "148Nm",
       "weight": "580kg",
       "topspeed": "230km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "3.87 kg/hp"
+      "pwratio": "3.8kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -6592,13 +7411,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage Touring",
-      "rwd",
-      "manual",
-      "race",
-      "vintage",
-      "germany"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -6626,13 +7446,255 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage GT",
-      "rwd",
-      "manual",
-      "vintage",
-      "race",
-      "germany"
+      "#+ rwd",
+      "#- manual"
+    ]
+  },
+  {
+    "name": "Porsche 911 (993) Carrera",
+    "brand": "Porsche",
+    "year": "1995",
+    "author": "Alberto Daniel Russo",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_porsche_993_c2\\skins\\Amaranth_Violet\\preview.jpg",
+    "specs": {
+      "convertedPower": "204kW/278hp",
+      "isManufacturerData": false,
+      "bhp": "278 bhp",
+      "torque": "349 Nm",
+      "weight": "1390 kg",
+      "topspeed": "274 km/h",
+      "acceleration": "5.3 s 0–100",
+      "pwratio": "5 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#+ rwd"
+    ]
+  },
+  {
+    "name": "Porsche 911 (993) Carrera 4",
+    "brand": "Porsche",
+    "year": "1995",
+    "author": "Alberto Daniel Russo",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_porsche_993_c4\\skins\\Amaranth_Violet\\preview.jpg",
+    "specs": {
+      "convertedPower": "204kW/278hp",
+      "isManufacturerData": false,
+      "bhp": "278 bhp",
+      "torque": "349 Nm",
+      "weight": "1427 kg",
+      "topspeed": "274 km/h",
+      "acceleration": "5.2 s 0–100",
+      "pwratio": "5.13 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#+ awd"
+    ]
+  },
+  {
+    "name": "Porsche 911 (993) Turbo",
+    "brand": "Porsche",
+    "year": "1995",
+    "author": "Alberto Daniel Russo",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_porsche_993_turbo\\skins\\arena_red\\preview.jpg",
+    "specs": {
+      "convertedPower": "296kW/403hp",
+      "isManufacturerData": false,
+      "bhp": "403 bhp",
+      "torque": "542 Nm",
+      "weight": "1502 kg",
+      "topspeed": "295 km/h",
+      "acceleration": "3.8 s 0–100",
+      "pwratio": "3.73 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#+ awd"
+    ]
+  },
+  {
+    "name": "Porsche 911 (993) Turbo Canyon Spec",
+    "brand": "Porsche",
+    "year": "1996",
+    "author": "Alberto Daniel Russo",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_porsche_993_turbo_s2\\skins\\00_black_met\\preview.jpg",
+    "specs": {
+      "convertedPower": "360kW/490hp",
+      "isManufacturerData": false,
+      "bhp": "490 bhp",
+      "torque": "648 Nm",
+      "weight": "1448 kg",
+      "topspeed": "321 km/h",
+      "acceleration": "3.4 s 0–100",
+      "pwratio": "2.96 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#+ awd"
+    ]
+  },
+  {
+    "name": "Porsche 911 3.8 by Singer",
+    "brand": "Porsche",
+    "year": "2019",
+    "author": "Ben O'Bro, Arch",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bo_singer_38\\skins\\florida\\preview.jpg",
+    "specs": {
+      "convertedPower": "221kW/300hp",
+      "isManufacturerData": false,
+      "bhp": "300bhp",
+      "torque": "355Nm",
+      "weight": "1254kg",
+      "topspeed": "- km/h",
+      "acceleration": "- s 0–100",
+      "pwratio": "4.18kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#- manual",
+      "#+ rwd"
+    ]
+  },
+  {
+    "name": "Porsche 911 4.0 by Singer",
+    "brand": "Porsche",
+    "year": "2019",
+    "author": "Ben O'Bro, Arch",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bo_singer\\skins\\044_blue2\\preview.jpg",
+    "specs": {
+      "convertedPower": "287kW/390hp",
+      "isManufacturerData": false,
+      "bhp": "390bhp",
+      "torque": "427Nm",
+      "weight": "1254kg",
+      "topspeed": "- km/h",
+      "acceleration": "- s 0–100",
+      "pwratio": "3.22kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#+ rwd",
+      "#- manual"
+    ]
+  },
+  {
+    "name": "Porsche 911 AWD by Singer",
+    "brand": "Porsche",
+    "year": "2019",
+    "author": "Ben O'Bro, Arch",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bo_singer_awd\\skins\\blue\\preview.jpg",
+    "specs": {
+      "convertedPower": "287kW/390hp",
+      "isManufacturerData": false,
+      "bhp": "390bhp",
+      "torque": "427Nm",
+      "weight": "1284kg",
+      "topspeed": "- km/h",
+      "acceleration": "- s 0–100",
+      "pwratio": "3.29kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#- manual",
+      "#+ awd"
     ]
   },
   {
@@ -6660,13 +7722,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage Touring",
-      "rwd",
-      "manual",
-      "race",
-      "vintage",
-      "germany"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -6694,13 +7757,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "semiautomatic",
-      "street",
-      "turbo",
-      "germany"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -6728,31 +7792,31 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "sequential",
-      "race",
-      "GTD",
-      "germany",
-      "USCC",
-      "IER"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
-    "name": "Porsche 911 GT1",
+    "name": "Porsche 911 GT1-98",
     "brand": "Porsche",
     "year": "1996",
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_gt1\\skins\\00_racing_26\\preview.jpg",
     "specs": {
-      "convertedPower": "441kW/600hp",
+      "convertedPower": "600hp",
       "isManufacturerData": false,
-      "bhp": "600bhp",
-      "torque": "648Nm",
+      "bhp": "600hp",
+      "torque": "--Nm",
       "weight": "950kg",
       "topspeed": "350km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "1.58 kg/hp"
+      "pwratio": "1.58kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -6763,14 +7827,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage GT",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "vintage",
-      "germany"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -6780,14 +7844,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_gt3_cup_2017\\skins\\00_cup\\preview.jpg",
     "specs": {
-      "convertedPower": "351kW/478hp",
+      "convertedPower": "485hp",
       "isManufacturerData": false,
-      "bhp": "478bhp",
+      "bhp": "485hp",
       "torque": "--Nm",
       "weight": "1220kg",
       "topspeed": "--km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "2.55 kg/hp"
+      "pwratio": "2.51kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -6798,12 +7862,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Porsche Cup",
-      "rwd",
-      "race",
-      "sequential",
-      "germany"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -6813,14 +7879,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_gt3_r_2016\\skins\\00_gt3\\preview.jpg",
     "specs": {
-      "convertedPower": "368kW/500hp",
+      "convertedPower": "500hp",
       "isManufacturerData": false,
-      "bhp": "500bhp",
+      "bhp": "500hp",
       "torque": "--Nm",
       "weight": "1245kg",
       "topspeed": "--km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "2.49 kg/hp"
+      "pwratio": "2.49kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -6831,14 +7897,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GTE-GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt3",
-      "germany"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -6848,14 +7914,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_gt3_rs\\skins\\00_lava_orange\\preview.jpg",
     "specs": {
-      "convertedPower": "368kW/500hp",
+      "convertedPower": "500hp",
       "isManufacturerData": false,
-      "bhp": "500bhp",
+      "bhp": "500hp",
       "torque": "460Nm",
       "weight": "1420kg",
       "topspeed": "310km/h",
       "acceleration": "3.1s 0-100",
-      "pwratio": "2.84 kg/hp"
+      "pwratio": "2.84kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -6866,14 +7932,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "rwd",
-      "semiautomatic",
-      "street",
-      "trackday",
-      "supercar",
-      "germany"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -6883,14 +7949,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_r\\skins\\00_white_red\\preview.jpg",
     "specs": {
-      "convertedPower": "368kW/500hp",
+      "convertedPower": "500hp",
       "isManufacturerData": false,
-      "bhp": "500bhp",
+      "bhp": "500hp",
       "torque": "460Nm",
       "weight": "1370kg",
       "topspeed": "323km/h",
       "acceleration": "3.8s 0-100",
-      "pwratio": "2.74 kg/hp"
+      "pwratio": "2.74kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -6901,14 +7967,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "rwd",
-      "manual",
-      "street",
-      "trackday",
-      "supercar",
-      "germany"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -6918,14 +7984,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_rsr_2017\\skins\\00_rsr\\preview.jpg",
     "specs": {
-      "convertedPower": "510ps",
+      "convertedPower": "510hp",
       "isManufacturerData": false,
-      "bhp": "510PS",
-      "torque": "489Nm",
+      "bhp": "510hp",
+      "torque": "--Nm",
       "weight": "1245kg",
       "topspeed": "270+km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "2.44 kg/hp"
+      "pwratio": "2.49kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -6936,14 +8002,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GTE-GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt2",
-      "germany"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -6971,13 +8037,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "awd",
-      "semiautomatic",
-      "street",
-      "turbo",
-      "germany"
+      "#+ awd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -6987,14 +8054,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_917_k\\skins\\00_racing_21\\preview.jpg",
     "specs": {
-      "convertedPower": "441kW/600hp",
+      "convertedPower": "600hp",
       "isManufacturerData": false,
-      "bhp": "600bhp",
+      "bhp": "600hp",
       "torque": "--Nm",
       "weight": "820kg",
       "topspeed": "350km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "1.37 kg/hp"
+      "pwratio": "1.36kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -7005,13 +8072,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage GT",
-      "rwd",
-      "manual",
-      "vintage",
-      "race",
-      "germany"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -7039,13 +8107,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage Can Am",
-      "manual",
-      "turbo",
-      "vintage",
-      "race",
-      "germany"
+      "#- manual"
     ]
   },
   {
@@ -7073,12 +8141,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Hypercars",
-      "awd",
-      "street",
-      "semiautomatic",
-      "germany"
+      "#+ awd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -7088,14 +8158,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_919_hybrid_2015\\skins\\00_lms_19\\preview.jpg",
     "specs": {
-      "convertedPower": "662kW/900hp",
+      "convertedPower": "900hp",
       "isManufacturerData": false,
-      "bhp": "900bhp",
+      "bhp": "900hp",
       "torque": "--Nm",
       "weight": "875kg",
       "topspeed": "--km/h",
       "acceleration": "2.2s 0-100",
-      "pwratio": "0.97 kg/hp"
+      "pwratio": "0.97kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -7106,14 +8176,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#LMP1",
-      "awd",
-      "race",
-      "sequential",
-      "gt",
-      "lmp1",
-      "germany"
+      "#+ awd",
+      "#- sequential"
     ]
   },
   {
@@ -7123,14 +8193,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_919_hybrid_2016\\skins\\00_lms_02\\preview.jpg",
     "specs": {
-      "convertedPower": "662kW/900hp",
+      "convertedPower": "900hp",
       "isManufacturerData": false,
-      "bhp": "900bhp",
+      "bhp": "900hp",
       "torque": "--Nm",
       "weight": "875kg",
       "topspeed": "--km/h",
       "acceleration": "2.2s 0-100",
-      "pwratio": "0.97 kg/hp"
+      "pwratio": "0.97kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -7141,14 +8211,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#LMP1",
-      "awd",
-      "race",
-      "sequential",
-      "gt",
-      "lmp1",
-      "germany"
+      "#+ awd",
+      "#- sequential"
     ]
   },
   {
@@ -7176,13 +8246,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage GT",
-      "manual",
-      "turbo",
-      "vintage",
-      "race",
-      "germany"
+      "#- manual"
     ]
   },
   {
@@ -7192,14 +8262,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_962c_longtail\\skins\\00_racing_17_87\\preview.jpg",
     "specs": {
-      "convertedPower": "478kW/650hp",
+      "convertedPower": "650hp",
       "isManufacturerData": false,
-      "bhp": "650bhp",
+      "bhp": "650hp",
       "torque": "---Nm",
       "weight": "825kg",
       "topspeed": "360km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "1.27 kg/hp"
+      "pwratio": "1.27kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -7210,15 +8280,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Proto C",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "prototype C",
-      "vintage",
-      "germany"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -7228,14 +8297,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_962c_shorttail\\skins\\00_racing_01\\preview.jpg",
     "specs": {
-      "convertedPower": "460kW/625hp",
+      "convertedPower": "625hp",
       "isManufacturerData": false,
-      "bhp": "625bhp",
+      "bhp": "625hp",
       "torque": "---Nm",
       "weight": "850kg",
       "topspeed": "330km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "1.36 kg/hp"
+      "pwratio": "1.36kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -7246,15 +8315,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Proto C",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "prototype C",
-      "vintage",
-      "germany"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -7264,14 +8332,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_cayenne\\skins\\00_black\\preview.jpg",
     "specs": {
-      "convertedPower": "419kW/570hp",
+      "convertedPower": "570hp",
       "isManufacturerData": false,
-      "bhp": "570bhp",
+      "bhp": "570hp",
       "torque": "800Nm",
       "weight": "2235kg",
       "topspeed": "284km/h",
       "acceleration": "4.1s 0-100",
-      "pwratio": "3.92 kg/hp"
+      "pwratio": "3.92kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -7282,11 +8350,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#SUV",
-      "awd",
-      "street",
-      "germany"
+      "#+ awd"
     ]
   },
   {
@@ -7296,14 +8366,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_cayman_gt4_std\\skins\\00_racing_yellow\\preview.jpg",
     "specs": {
-      "convertedPower": "283kW/385hp",
+      "convertedPower": "385hp",
       "isManufacturerData": false,
-      "bhp": "385bhp",
+      "bhp": "385hp",
       "torque": "420Nm",
       "weight": "1340kg",
       "topspeed": "295km/h",
       "acceleration": "4.4s 0-100",
-      "pwratio": "3.48 kg/hp"
+      "pwratio": "3.48kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -7314,14 +8384,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "rwd",
-      "manual",
-      "turbo",
-      "trackday",
-      "street",
-      "germany"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -7349,12 +8419,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GT4",
-      "rwd",
-      "race",
-      "semiautomatic",
-      "germany"
+      "#+ rwd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -7364,14 +8436,14 @@
     "author": "Kunos",
     "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_macan\\skins\\00_agate_grey_metallic\\preview.jpg",
     "specs": {
-      "convertedPower": "294kW/400hp",
+      "convertedPower": "400hp",
       "isManufacturerData": false,
-      "bhp": "400bhp",
+      "bhp": "400hp",
       "torque": "550Nm",
       "weight": "1925kg",
       "topspeed": "266km/h",
       "acceleration": "4.8s 0-100",
-      "pwratio": "4.81 kg/hp"
+      "pwratio": "4.87kg/hp"
     },
     "ratings": {
       "handling": 0.0,
@@ -7382,13 +8454,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#SUV",
-      "awd",
-      "semiautomatic",
-      "street",
-      "turbo",
-      "germany"
+      "#+ awd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -7416,13 +8489,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "awd",
-      "turbo",
-      "semiautomatic",
-      "street",
-      "germany"
+      "#+ awd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -7450,12 +8524,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#lmp3",
-      "rwd",
-      "sequential",
-      "race",
-      "singleseater"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -7483,15 +8559,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "sequential",
-      "lightweight",
-      "race",
-      "great britain",
-      "#SR10 XXR",
-      "United Racing Design",
-      "URD"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -7519,12 +8594,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "sequential",
-      "lightweight",
-      "race",
-      "great britain"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -7552,14 +8629,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt3",
-      "Japan"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -7587,15 +8664,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage Supercars",
-      "rwd",
-      "manual",
-      "street",
-      "turbo",
-      "supercar",
-      "vintage",
-      "germany"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -7623,13 +8699,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "manual",
-      "street",
-      "turbo",
-      "supercar",
-      "germany"
+      "#- manual"
     ]
   },
   {
@@ -7657,14 +8733,49 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "awd",
-      "manual",
-      "street",
-      "turbo",
-      "supercar",
-      "germany"
+      "#+ awd",
+      "#- manual"
+    ]
+  },
+  {
+    "name": "Rush SR",
+    "brand": "Rush Auto Works",
+    "year": "2024",
+    "author": "Authentic Simulation LLC",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\authentic_2023_rush_sr\\skins\\#01 White and Orange\\preview.jpg",
+    "specs": {
+      "convertedPower": "148whp",
+      "isManufacturerData": false,
+      "bhp": "148 whp",
+      "torque": "102 Nm*",
+      "weight": "420 kg",
+      "topspeed": "249km/h",
+      "acceleration": "3.8s 0-100",
+      "pwratio": "2.84 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -7692,14 +8803,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#GTE-GT3",
-      "rwd",
-      "race",
-      "sequential",
-      "gt",
-      "gt3",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -7727,14 +8838,49 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Vintage Supercars",
-      "rwd",
-      "manual",
-      "lightweight",
-      "vintage",
-      "race",
-      "usa"
+      "#+ rwd",
+      "#- manual"
+    ]
+  },
+  {
+    "name": "Subaru Impreza WRX (GD) Tuned",
+    "brand": "Subaru",
+    "year": "2007",
+    "author": "aphidgod, A3DR & Davide Cervone",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ag_subaru_impreza_wrx_tuned\\skins\\01_crystal_grey_metallic_ag\\preview.jpg",
+    "specs": {
+      "convertedPower": "343kW/467hp",
+      "isManufacturerData": false,
+      "bhp": "467 bhp",
+      "torque": "693 Nm",
+      "weight": "1383 kg",
+      "topspeed": "270 km/h",
+      "acceleration": "3.5 s 0–100",
+      "pwratio": "2.96 kg/hp"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#- manual",
+      "#+ awd"
     ]
   },
   {
@@ -7762,14 +8908,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Fabarth",
-      "rwd",
-      "sequential",
-      "race",
-      "singleseater",
-      "turbo",
-      "italy"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -7797,16 +8943,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Supercars",
-      "awd",
-      "semiautomatic",
-      "street",
-      "turbo",
-      "germany",
-      "TECHART",
-      "guerilla mods",
-      "official"
+      "#+ awd",
+      "#- semiautomatic"
     ]
   },
   {
@@ -7834,13 +8978,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#small sports",
-      "rwd",
-      "manual",
-      "street",
-      "vintage",
-      "japan"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -7868,13 +9013,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#drift",
-      "rwd",
-      "manual",
-      "street",
-      "vintage",
-      "japan"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -7902,13 +9048,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#small sports",
-      "rwd",
-      "manual",
-      "street",
-      "vintage",
-      "japan"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -7936,13 +9083,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#rally",
-      "awd",
-      "manual",
-      "race",
-      "turbo",
-      "japan"
+      "#- manual",
+      "#+ awd"
     ]
   },
   {
@@ -7969,6 +9117,11 @@
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
     },
     "tags": []
   },
@@ -7997,12 +9150,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#small sports",
-      "rwd",
-      "manual",
-      "street",
-      "japan"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -8030,13 +9185,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "manual",
-      "street",
-      "turbo",
-      "japan"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -8064,13 +9220,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#drift",
-      "rwd",
-      "manual",
-      "street",
-      "turbo",
-      "japan"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -8098,13 +9255,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#Sportscars",
-      "rwd",
-      "manual",
-      "street",
-      "turbo",
-      "japan"
+      "#+ rwd",
+      "#- manual"
     ]
   },
   {
@@ -8132,14 +9290,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#LMP1",
-      "awd",
-      "race",
-      "sequential",
-      "gt",
-      "lmp1",
-      "japan"
+      "#+ awd",
+      "#- sequential"
     ]
   },
   {
@@ -8167,15 +9325,48 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "#LMP2",
-      "race",
-      "sequential",
-      "gt",
-      "lmp2",
-      "rwd",
-      "#Prototype",
-      "URD"
+      "#+ rwd",
+      "#- sequential"
+    ]
+  },
+  {
+    "name": "Veloce GTS-8",
+    "brand": "Henry Clay Motorsports",
+    "year": "2016",
+    "author": "Alberto Daniel Russo",
+    "previewFolder": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_veloce_gts\\skins\\Red\\preview.jpg",
+    "specs": {
+      "convertedPower": "357kW/486hp",
+      "isManufacturerData": false,
+      "bhp": "486 bhp",
+      "torque": "643 Nm",
+      "weight": "1103 Kg",
+      "topspeed": "197 mph",
+      "acceleration": "4.12s 0-60",
+      "pwratio": "2.27 kg/cv"
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": [
+      "#+ rwd"
     ]
   },
   {
@@ -8203,10 +9394,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "Imsa"
+      "#+ rwd"
     ]
   },
   {
@@ -8234,10 +9428,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "Imsa"
+      "#+ rwd"
     ]
   },
   {
@@ -8265,10 +9462,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "Imsa"
+      "#+ rwd"
     ]
   },
   {
@@ -8296,10 +9496,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "awd",
-      "race",
-      "trans am"
+      "#+ awd"
     ]
   },
   {
@@ -8327,10 +9530,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "awd",
-      "race",
-      "trans am"
+      "#+ awd"
     ]
   },
   {
@@ -8358,10 +9564,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "awd",
-      "race",
-      "trans am"
+      "#+ awd"
     ]
   },
   {
@@ -8389,10 +9598,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "awd",
-      "race",
-      "trans am"
+      "#+ awd"
     ]
   },
   {
@@ -8420,10 +9632,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "awd",
-      "race",
-      "trans am"
+      "#+ awd"
     ]
   },
   {
@@ -8451,10 +9666,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "awd",
-      "race",
-      "trans am"
+      "#+ awd"
     ]
   },
   {
@@ -8482,10 +9700,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "race",
-      "fwd",
-      "touring"
+      "#+ fwd"
     ]
   },
   {
@@ -8513,10 +9734,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "race",
-      "fwd",
-      "touring"
+      "#+ fwd"
     ]
   },
   {
@@ -8544,10 +9768,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "race",
-      "fwd",
-      "touring"
+      "#+ fwd"
     ]
   },
   {
@@ -8575,10 +9802,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "race",
-      "fwd",
-      "touring"
+      "#+ fwd"
     ]
   },
   {
@@ -8606,10 +9836,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "race",
-      "fwd",
-      "touring"
+      "#+ fwd"
     ]
   },
   {
@@ -8637,10 +9870,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "race",
-      "fwd",
-      "touring"
+      "#+ fwd"
     ]
   },
   {
@@ -8668,10 +9904,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "race",
-      "fwd",
-      "touring"
+      "#+ fwd"
     ]
   },
   {
@@ -8699,10 +9938,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "race",
-      "fwd",
-      "touring"
+      "#+ fwd"
     ]
   },
   {
@@ -8730,10 +9972,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "race",
-      "fwd",
-      "touring"
+      "#+ fwd"
     ]
   },
   {
@@ -8761,10 +10006,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "race",
-      "fwd",
-      "touring"
+      "#+ fwd"
     ]
   },
   {
@@ -8792,13 +10040,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "sequential",
-      "singleseater",
-      "VRC",
-      "open wheeler"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -8826,13 +10075,14 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "sequential",
-      "singleseater",
-      "VRC",
-      "open wheeler"
+      "#+ rwd",
+      "#- sequential"
     ]
   },
   {
@@ -8860,10 +10110,12 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
-    "tags": [
-      "race",
-      "singleseater"
-    ]
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": []
   },
   {
     "name": "VRC Formula Lithium 2023 (CSP)",
@@ -8890,10 +10142,12 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
-    "tags": [
-      "race",
-      "singleseater"
-    ]
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
+    "tags": []
   },
   {
     "name": "VRC Prototype - Auriel 8",
@@ -8920,11 +10174,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "lmp900",
-      "lemans"
+      "#+ rwd"
     ]
   },
   {
@@ -8952,11 +10208,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "lmp900",
-      "lemans"
+      "#+ rwd"
     ]
   },
   {
@@ -8984,10 +10242,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "lmgtp"
+      "#+ rwd"
     ]
   },
   {
@@ -9015,11 +10276,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "lemans",
-      "lmp1"
+      "#+ rwd"
     ]
   },
   {
@@ -9047,11 +10310,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "lmp900",
-      "lemans"
+      "#+ rwd"
     ]
   },
   {
@@ -9079,11 +10344,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "lmp900",
-      "lemans"
+      "#+ rwd"
     ]
   },
   {
@@ -9111,11 +10378,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "lemans",
-      "lmp1"
+      "#+ rwd"
     ]
   },
   {
@@ -9143,11 +10412,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "lemans",
-      "lmp1"
+      "#+ rwd"
     ]
   },
   {
@@ -9175,11 +10446,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "lemans",
-      "lmp1"
+      "#+ rwd"
     ]
   },
   {
@@ -9207,11 +10480,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "lemans",
-      "lmh"
+      "#+ rwd"
     ]
   },
   {
@@ -9239,11 +10514,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "lemans",
-      "lmh"
+      "#+ rwd"
     ]
   },
   {
@@ -9271,11 +10548,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "lemans",
-      "lmh"
+      "#+ rwd"
     ]
   },
   {
@@ -9303,11 +10582,13 @@
       "funFactor": 0.0,
       "extraFeatures": 0.0
     },
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false
+    },
     "tags": [
-      "rwd",
-      "race",
-      "lemans",
-      "lmh"
+      "#+ rwd"
     ]
   }
 ]

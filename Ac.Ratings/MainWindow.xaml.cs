@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -22,16 +23,17 @@ namespace Ac.Ratings {
         }
 
         private void CarList_SelectionChanged(object sender, SelectionChangedEventArgs e) {
-            var selectedCar = (CarData)CarList.SelectedItem;
+            var selectedCar = (Car)CarList.SelectedItem;
             if (selectedCar != null) {
                 LoadCarImage(selectedCar);
                 DisplayCarStats(selectedCar);
                 DisplayCarRatings(selectedCar);
                 UpdateAverageRating();
+                DisplayWarningIcon(selectedCar.Specs.IsManufacturerData);
             }
         }
 
-        private void DisplayCarRatings(CarData selectedCar) {
+        private void DisplayCarRatings(Car selectedCar) {
             HandlingSlider.Value = selectedCar.Ratings.Handling;
             PhysicsSlider.Value = selectedCar.Ratings.Physics;
             RealismSlider.Value = selectedCar.Ratings.Realism;
@@ -41,12 +43,13 @@ namespace Ac.Ratings {
             ExtraFeaturesSlider.Value = selectedCar.Ratings.ExtraFeatures;
         }
 
-        private void DisplayCarStats(CarData selectedCar) {
+        private void DisplayCarStats(Car selectedCar) {
             Name.Text = selectedCar.Name;
             PowerFigures.Text = selectedCar.Specs.ConvertedPower ?? string.Empty;
             TorqueFigures.Text = selectedCar.Specs.Torque ?? string.Empty;
             AccelerationFigures.Text = selectedCar.Specs.Acceleration ?? string.Empty;
             TopSpeedFigures.Text = selectedCar.Specs.Topspeed ?? string.Empty;
+            Engine.Text = ShowCarEngineStats(selectedCar);
 
             Brand.Text = selectedCar.Brand ?? string.Empty;
             Power.Text = selectedCar.Specs.Bhp ?? string.Empty;
@@ -57,7 +60,7 @@ namespace Ac.Ratings {
             Pwratio.Text = selectedCar.Specs.Pwratio ?? string.Empty;
         }
 
-        private void LoadCarImage(CarData car) {
+        private void LoadCarImage(Car car) {
             try {
                 if (!string.IsNullOrEmpty(car.PreviewFolder) && File.Exists(car.PreviewFolder)) {
                     CarImage.Source = new BitmapImage(new Uri(car.PreviewFolder, UriKind.Absolute));
@@ -72,7 +75,7 @@ namespace Ac.Ratings {
         }
 
         private void SaveRatings() {
-            var selectedCar = (CarData)CarList.SelectedItem;
+            var selectedCar = (Car)CarList.SelectedItem;
             if (selectedCar != null) {
                 selectedCar.Ratings.Handling = HandlingSlider.Value;
                 selectedCar.Ratings.Physics = PhysicsSlider.Value;
@@ -88,7 +91,7 @@ namespace Ac.Ratings {
         }
 
         private void ClearRatings() {
-            var selectedCar = (CarData)CarList.SelectedItem;
+            var selectedCar = (Car)CarList.SelectedItem;
             if (selectedCar != null) {
                 selectedCar.Ratings.Handling = 0;
                 selectedCar.Ratings.Physics = 0;
@@ -116,7 +119,7 @@ namespace Ac.Ratings {
         private void SaveButton_Click(object sender, RoutedEventArgs e) => SaveRatings();
 
         private void UpdateAverageRating() {
-            var selectedCar = (CarData)CarList.SelectedItem;
+            var selectedCar = (Car)CarList.SelectedItem;
             if (selectedCar != null) {
                 var ratings = new List<double> {
                     HandlingSlider.Value,
@@ -141,7 +144,7 @@ namespace Ac.Ratings {
         }
 
         private bool FilterCarList(object obj) {
-            var car = (CarData)obj;
+            var car = (Car)obj;
             return car.Name.Contains(SearchBox.Text, StringComparison.OrdinalIgnoreCase);
         }
 
@@ -155,5 +158,64 @@ namespace Ac.Ratings {
                 SearchBox.Visibility = Visibility.Visible;
             }
         }
+
+        private void DisplayWarningIcon(bool isManufacturerData) {
+            WarningIcon.Visibility = isManufacturerData ? Visibility.Collapsed : Visibility.Visible;
+        }
+
+        private string? GetCarEngineData(Car selectedCar) {
+            var tags = selectedCar.Tags;
+            var engineTag = tags?.FirstOrDefault(x => x.Contains("#!"))?.Replace(" ", "").Remove(0, 2);
+            return engineTag;
+        }
+
+        private string ShowCarEngineStats(Car selectedCar) {
+            var data = GetCarEngineData(selectedCar);
+            if (string.IsNullOrEmpty(data)) {
+                return string.Empty;
+            }
+
+            var result = string.Empty;
+            var parts = data.Split('&');
+
+            if (parts.Length > 0) result = GetDisplacement(result, parts[0]);
+            if (parts.Length > 1) result = GetLayout(result, parts[1]);
+
+            return result.Trim();
+        }
+
+        private string GetLayout(string result, string data) {
+            if (data.StartsWith('I') || data.StartsWith('i')) {
+                result += "inline-" + Regex.Match(data, @"\d+").Value + " engine";
+            }
+
+            if (data.StartsWith('V') || data.StartsWith('v')) {
+                result += data.ToUpper() + " engine";
+            }
+
+            if (data.StartsWith("F") || data.StartsWith("f")) {
+                result += "flat-" + Regex.Match(data, @"\d+").Value + " engine";
+            }
+
+            if (data.StartsWith("R") || data.StartsWith("r")) {
+                result += "rotary engine";
+            }
+
+            return result;
+        }
+
+        private string GetDisplacement(string result, string data) {
+            if (char.IsDigit(data[0])) {
+                var displacementValue = data.Replace("L", "");
+                result += $"{displacementValue}-litre ";
+            }
+            return result;
+        }
+
+        private string GetExtra(string result, string data) {
+            result += data.Trim() + " ";
+            return result;
+        }
+
     }
 }

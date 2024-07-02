@@ -2,9 +2,9 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Style TargetType="TextBlock" x:Key="ModernTextBlock">
         <Style.Setters>
-            <Setter Property="Foreground"
-                    Value="White"/>
+            <Setter Property="Foreground" Value="White"/>
             <Setter Property="Margin" Value="10,0,0,0"/>
+            <Setter Property="FontSize" Value="10"/>
         </Style.Setters>
     </Style>
 </ResourceDictionary>

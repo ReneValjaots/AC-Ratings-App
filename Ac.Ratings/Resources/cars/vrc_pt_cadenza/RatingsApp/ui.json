@@ -1,0 +1,35 @@
+{
+  "name": "Cadillac Northstar LMP02",
+  "brand": "Cadillac",
+  "year": "2002",
+  "author": "VRC Modding Team",
+  "folderName": "vrc_pt_cadenza",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_cadenza",
+  "specs": {
+    "convertedPower": "450kW/612hp",
+    "isManufacturerData": false,
+    "bhp": "612bhp",
+    "torque": "746Nm",
+    "weight": "905kg",
+    "topspeed": "325km/h",
+    "acceleration": "2.4s",
+    "pwratio": "1.48 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd"
+  ]
+}

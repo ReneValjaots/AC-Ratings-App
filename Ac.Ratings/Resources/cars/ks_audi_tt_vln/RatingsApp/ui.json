@@ -1,0 +1,37 @@
+{
+  "name": "Audi TT RS (VLN)",
+  "brand": "Audi",
+  "year": "2015",
+  "author": "Kunos",
+  "folderName": "ks_audi_tt_vln",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_tt_vln",
+  "specs": {
+    "convertedPower": "280kW/380hp",
+    "isManufacturerData": true,
+    "bhp": "280kW/380hp",
+    "torque": "530Nm",
+    "weight": "1120kg",
+    "topspeed": "km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "4 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "FWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ fwd",
+    "#- sequential",
+    "#! 2.5L & I5 & TSFI"
+  ]
+}

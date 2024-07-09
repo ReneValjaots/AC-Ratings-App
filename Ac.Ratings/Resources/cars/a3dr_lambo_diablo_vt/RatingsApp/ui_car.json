@@ -1,0 +1,243 @@
+{
+  "name": "Lamborghini Diablo VT",
+  "brand": "Lamborghini",
+  "description": "The Diablo VT was introduced in 1993. Although the VT differed from the standard Diablo in a number of ways, by far the most notable change was the addition of all wheel drive, which made use of a viscous center differential (a modified version of LM002&#39;s 4WD system). This provided the new nomenclature for the car (VT stands for viscous traction). The new drivetrain could direct up to 25% of the torque to the front wheels to aid traction during rear wheel slip, thus significantly improving the handling characteristics of the car.<br><br>Other improvements debuting on the VT included front air intakes below the driving lamps to improve brake cooling, larger intakes in the rear arches, a more ergonomic interior with a revised electronically adjustable dampers, four-piston brake calipers, power steering, and minor engine refinements. Many of these improvements, save the four-wheel drive system, soon transferred to the base Diablo, making the cars visually nearly identical.",
+  "tags": [
+    "#+ awd",
+    "#- manual"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "492bhp",
+    "torque": "580Nm",
+    "weight": "1625kg",
+    "topspeed": "325km/h",
+    "acceleration": "4.1s 0-100",
+    "pwratio": "3.3kg/hp"
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      184.264392324094
+    ],
+    [
+      250.0,
+      220.127931769723
+    ],
+    [
+      750.0,
+      274.54157782516
+    ],
+    [
+      1000.0,
+      304.221748400853
+    ],
+    [
+      1500.0,
+      352.452025586354
+    ],
+    [
+      1750.0,
+      378.422174840085
+    ],
+    [
+      2000.0,
+      408.102345415778
+    ],
+    [
+      2250.0,
+      446.439232409382
+    ],
+    [
+      2500.0,
+      472.409381663113
+    ],
+    [
+      2750.0,
+      494.669509594883
+    ],
+    [
+      3000.0,
+      514.456289978678
+    ],
+    [
+      3250.0,
+      525.586353944563
+    ],
+    [
+      3500.0,
+      534.243070362473
+    ],
+    [
+      3750.0,
+      540.426439232409
+    ],
+    [
+      4000.0,
+      542.899786780384
+    ],
+    [
+      4250.0,
+      550.319829424307
+    ],
+    [
+      4500.0,
+      562.686567164179
+    ],
+    [
+      4750.0,
+      565.159914712154
+    ],
+    [
+      5250.0,
+      580.0
+    ],
+    [
+      5500.0,
+      578.763326226013
+    ],
+    [
+      5750.0,
+      575.053304904051
+    ],
+    [
+      6000.0,
+      567.633262260128
+    ],
+    [
+      6250.0,
+      552.793176972281
+    ],
+    [
+      7000.0,
+      500.852878464819
+    ],
+    [
+      7250.0,
+      479.829424307036
+    ],
+    [
+      7500.0,
+      446.439232409382
+    ],
+    [
+      7600.0,
+      427.641791044776
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      250.0,
+      7.72275132275132
+    ],
+    [
+      750.0,
+      28.8952380952381
+    ],
+    [
+      1000.0,
+      42.6920634920635
+    ],
+    [
+      1500.0,
+      74.1904761904762
+    ],
+    [
+      1750.0,
+      92.9333333333333
+    ],
+    [
+      2000.0,
+      114.539682539683
+    ],
+    [
+      2250.0,
+      140.961904761905
+    ],
+    [
+      2500.0,
+      165.73544973545
+    ],
+    [
+      2750.0,
+      190.899470899471
+    ],
+    [
+      3000.0,
+      216.584126984127
+    ],
+    [
+      3250.0,
+      239.708994708995
+    ],
+    [
+      3500.0,
+      262.4
+    ],
+    [
+      3750.0,
+      284.396825396825
+    ],
+    [
+      4000.0,
+      304.744973544974
+    ],
+    [
+      4250.0,
+      328.216931216931
+    ],
+    [
+      4500.0,
+      355.333333333333
+    ],
+    [
+      4750.0,
+      376.722751322751
+    ],
+    [
+      5250.0,
+      427.311111111111
+    ],
+    [
+      5500.0,
+      446.704761904762
+    ],
+    [
+      5750.0,
+      464.015873015873
+    ],
+    [
+      6000.0,
+      477.942857142857
+    ],
+    [
+      6250.0,
+      484.84126984127
+    ],
+    [
+      7000.0,
+      492.0
+    ],
+    [
+      7250.0,
+      488.182010582011
+    ],
+    [
+      7500.0,
+      469.873015873016
+    ],
+    [
+      7600.0,
+      456.090074074074
+    ]
+  ],
+  "country": "Italy",
+  "year": 1995,
+  "author": "Alberto Daniel Russo",
+  "version": "1.0",
+  "url": "https://a3dr.artstation.com/"
+}

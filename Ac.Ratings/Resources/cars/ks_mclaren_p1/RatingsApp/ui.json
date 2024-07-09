@@ -1,0 +1,36 @@
+{
+  "name": "McLaren P1™",
+  "brand": "McLaren",
+  "year": "2013",
+  "author": "Kunos",
+  "folderName": "ks_mclaren_p1",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mclaren_p1",
+  "specs": {
+    "convertedPower": "664kW/903hp",
+    "isManufacturerData": false,
+    "bhp": "903bhp",
+    "torque": "900Nm",
+    "weight": "1450kg",
+    "topspeed": "350km/h",
+    "acceleration": "2.8s 0-100",
+    "pwratio": "1.60kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ]
+}

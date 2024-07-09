@@ -1,0 +1,36 @@
+{
+  "name": "McLaren MP4-12C GT3",
+  "brand": "McLaren",
+  "year": "2011",
+  "author": "Kunos",
+  "folderName": "mclaren_mp412c_gt3",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\mclaren_mp412c_gt3",
+  "specs": {
+    "convertedPower": "368kW/500hp",
+    "isManufacturerData": false,
+    "bhp": "500bhp",
+    "torque": "500Nm",
+    "weight": "1245kg",
+    "topspeed": "275+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.49kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Ferrari 330 P4",
+  "brand": "Ferrari",
+  "year": "1967",
+  "author": "Kunos",
+  "folderName": "ks_ferrari_330_p4",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_330_p4",
+  "specs": {
+    "convertedPower": "331kW/450hp",
+    "isManufacturerData": false,
+    "bhp": "450bhp",
+    "torque": "--Nm",
+    "weight": "792kg",
+    "topspeed": "320km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.76kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

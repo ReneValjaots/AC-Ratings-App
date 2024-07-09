@@ -1,0 +1,36 @@
+{
+  "name": "Porsche 911 GT3 R 2016",
+  "brand": "Porsche",
+  "year": "2016",
+  "author": "Kunos",
+  "folderName": "ks_porsche_911_gt3_r_2016",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_gt3_r_2016",
+  "specs": {
+    "convertedPower": "368kW/500hp",
+    "isManufacturerData": false,
+    "bhp": "500bhp",
+    "torque": "--Nm",
+    "weight": "1245kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.49 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

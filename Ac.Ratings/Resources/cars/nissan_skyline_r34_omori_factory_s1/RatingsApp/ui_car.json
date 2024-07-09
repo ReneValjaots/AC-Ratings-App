@@ -1,0 +1,167 @@
+{
+  "name": "Nissan Skyline GT-R R34 Nismo Omori Factory S1",
+  "brand": "Nissan",
+  "description": "Based on a V-spec model, the car has undergone a 9 months long restoration and tuning process in the legendary Nismo Omori Factory based in Yokohama. The car was completely taken apart and the white body ground-up restoration of the chassis that has been performed on the factory demo cars was done, this is the essential step that guarantees a total restoration to conditions even superior to the original factory finish. The stock RB26 has been replaced with a brand new modified S1 powerplant. Nismo has always been criticized for its conservative approach and relatively outdated tuning methods, but, hate it or love it, the allure of a completely refreshed BNR34 is undeniable.<br><br>Credits:<br>Model: Kunos<br>3d/Physics - Emfini, K. Maximov, Arch, dj_amur, Trawa, Azu<br>Sound - Emjayy<br><br><br><br>Engine:<br>- Farndom 2.8 Billet Custom Spec 3 V-conditioned crank<br>- Cosworth Race 2.8 Pistons<br>- Bore / Honed Decked Block<br>- PEC H-Beam rod<br>- Nismo S1 Head with Limited Edition Nismo Crackle finish Paint to rocker covers<br>- HKS Step 1 Cam’s<br>- Tomei 1.2 mm Head Gasket<br>- Full Tomei Gasket set<br>- ACL Race Bearings<br>- Trust / Greddy studs / bolts<br>- Modified oil squirters<br>- N1 Oil Pump<br>- N1 Water Pump<br>- N1 Thermostat<br>- Accusump 2 litre oil reserve plus oil damper<br>- Customised Garrett GTX2867R Gen II Twin low mount Turbos<br>- Tomei Sump Baffles / Gate System<br>- Tomei Veneer Pulleys / HKS High Power timing belt<br>- Clear Cam Cover<br>- Engine Damper<br>- Japspeed Silenced decat<br>- Full braided lines to oil water<br>- 2nd catch tank with integrated Washer bottle<br>- Ross Tech Harmonic damper<br>- Nismo S1 Inlet Plenum with Limited Edition Nismo Crackle Finish Paint<br>- Custom Titanium Exhaust<br>- Custom Titanium Turbo elbows<br>- Custom Titanium down pipe<br>- Custom Titanium hard pipe kit to turbos with twin HKS blow of valves<br>- Custom Titanium Top Turbo Pipe work<br>- Nismo Catch tank with sump return<br>- Nismo Oil Filler cap<br>- Nismo Rad Cap<br>- Nismo Exhaust manifolds<br><br><br>Fuel system:<br>- Sard 700 Injectors<br>- Nismo Fuel Pressure regulator<br>- 4 LTR custom Surge tank<br>- Full Braided lines to fuel sytem<br>- in tank Nismo Fuel Pump<br>- External Bosch 044 Fuel Pump<br><br>Cooling:<br>- Over ride electric fans<br>- Alloy Water Radiator<br>- Custom Intercooler<br>- Nismo Oil Cooler with braided lines<br>- Nismo Oil Cooler with Carbon ducts<br><br>Drive train and suspension:<br>- Carbonetic Carbon Triple Plate Clutch<br>- Nismo R1 suspension Full adjustable(Height,rebound, Hard/soft)<br>- Nismo Bushes<br>- etc.<br><br>Brakes:<br>- Brembo 6 pot callipers (Front)<br>- DS2000 Race Pads (Front)<br>- 3G rotors (Rear)<br>- Brembo Callipers (Rear)<br>- Yellow Stuff Pads (Rear)<br><br>Controller and CPU:<br>- HKS FCON PRO 3.2 Piggy back ECU<br>- HKS Knock Amp<br>- HKS A/F display with direct feedback to ECU<br>- HKS Launch Control / Power Builder<br>- Gizmo Boost Controller with 6 pre set power levels<br>- Grid Dancer RWD - 4WD Controller Racing 360mm front rotors (Front)<br>- Nismo S1 ECU",
+  "tags": [
+    "#- manual",
+    "#+ awd"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "678bhp",
+    "torque": "740Nm",
+    "weight": "1560kg",
+    "topspeed": "300+km/h",
+    "acceleration": "3.3s 0-100",
+    "pwratio": "2.30kg/hp"
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      157.0
+    ],
+    [
+      500.0,
+      161.0
+    ],
+    [
+      1000.0,
+      164.4
+    ],
+    [
+      1500.0,
+      168.8
+    ],
+    [
+      2000.0,
+      173.9
+    ],
+    [
+      2500.0,
+      183.4
+    ],
+    [
+      3000.0,
+      200.1
+    ],
+    [
+      3500.0,
+      229.7
+    ],
+    [
+      4000.0,
+      282.3
+    ],
+    [
+      4500.0,
+      390.3
+    ],
+    [
+      5000.0,
+      581.3
+    ],
+    [
+      5500.0,
+      738.4
+    ],
+    [
+      6000.0,
+      720.8
+    ],
+    [
+      6500.0,
+      722.3
+    ],
+    [
+      7000.0,
+      686.2
+    ],
+    [
+      7500.0,
+      627.6
+    ],
+    [
+      8000.0,
+      574.4
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      10.8
+    ],
+    [
+      1000.0,
+      23.1
+    ],
+    [
+      1500.0,
+      35.6
+    ],
+    [
+      2000.0,
+      48.8
+    ],
+    [
+      2500.0,
+      64.4
+    ],
+    [
+      3000.0,
+      84.3
+    ],
+    [
+      3500.0,
+      112.9
+    ],
+    [
+      4000.0,
+      158.6
+    ],
+    [
+      4500.0,
+      245.5
+    ],
+    [
+      5000.0,
+      408.2
+    ],
+    [
+      5500.0,
+      570.3
+    ],
+    [
+      6000.0,
+      607.4
+    ],
+    [
+      6500.0,
+      660.4
+    ],
+    [
+      7000.0,
+      674.5
+    ],
+    [
+      7500.0,
+      661.0
+    ],
+    [
+      7680.0,
+      656.9
+    ],
+    [
+      8000.0,
+      645.3
+    ]
+  ],
+  "country": "Japan",
+  "year": 2000,
+  "author": "Kaiser",
+  "version": "3.0",
+  "url": null
+}

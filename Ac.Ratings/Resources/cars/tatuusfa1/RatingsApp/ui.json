@@ -1,0 +1,36 @@
+{
+  "name": "Tatuus FA01",
+  "brand": "Tatuus",
+  "year": "2010",
+  "author": "Kunos",
+  "folderName": "tatuusfa1",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\tatuusfa1",
+  "specs": {
+    "convertedPower": "146kW/198hp",
+    "isManufacturerData": false,
+    "bhp": "198bhp",
+    "torque": "230Nm",
+    "weight": "455kg",
+    "topspeed": "230+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.30kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

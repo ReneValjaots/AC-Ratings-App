@@ -1,0 +1,179 @@
+{
+  "name": "Toyota Supra MKIV Time Attack",
+  "brand": "Toyota",
+  "description": "Toyota Supra was one of the finest Japanese supercar: through tuning it easily reaches 600hp and can go over 1000hp.<br><br>It&#39;s revered as one of the most highly tuneable cars on the planet. The time attack version has much better aerodynamics and plenty of setup options. A much bigger single turbine and tuned engine for higher power make this a very capable car, if you can handle the turbo lag.",
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "690bhp",
+    "torque": "756Nm",
+    "weight": "1505kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.18kg/hp"
+  },
+  "torqueCurve": [
+    [
+      500.0,
+      270.0
+    ],
+    [
+      1000.0,
+      354.0
+    ],
+    [
+      1500.0,
+      387.0
+    ],
+    [
+      2000.0,
+      435.0
+    ],
+    [
+      2500.0,
+      609.0
+    ],
+    [
+      3000.0,
+      651.0
+    ],
+    [
+      3500.0,
+      603.0
+    ],
+    [
+      4000.0,
+      669.0
+    ],
+    [
+      4200.0,
+      711.0
+    ],
+    [
+      4500.0,
+      741.0
+    ],
+    [
+      4750.0,
+      747.0
+    ],
+    [
+      5000.0,
+      756.0
+    ],
+    [
+      5500.0,
+      747.0
+    ],
+    [
+      6000.0,
+      741.0
+    ],
+    [
+      6500.0,
+      732.0
+    ],
+    [
+      7000.0,
+      702.0
+    ],
+    [
+      7250.0,
+      573.0
+    ],
+    [
+      7500.0,
+      414.0
+    ],
+    [
+      8000.0,
+      387.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      500.0,
+      19.0
+    ],
+    [
+      1000.0,
+      50.0
+    ],
+    [
+      1500.0,
+      82.0
+    ],
+    [
+      2000.0,
+      122.0
+    ],
+    [
+      2500.0,
+      214.0
+    ],
+    [
+      3000.0,
+      274.0
+    ],
+    [
+      3500.0,
+      296.0
+    ],
+    [
+      4000.0,
+      376.0
+    ],
+    [
+      4200.0,
+      419.0
+    ],
+    [
+      4500.0,
+      468.0
+    ],
+    [
+      4750.0,
+      498.0
+    ],
+    [
+      5000.0,
+      531.0
+    ],
+    [
+      5500.0,
+      577.0
+    ],
+    [
+      6000.0,
+      624.0
+    ],
+    [
+      6500.0,
+      668.0
+    ],
+    [
+      7000.0,
+      690.0
+    ],
+    [
+      7250.0,
+      583.0
+    ],
+    [
+      7500.0,
+      436.0
+    ],
+    [
+      8000.0,
+      435.0
+    ]
+  ],
+  "country": "Japan",
+  "year": 1993,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

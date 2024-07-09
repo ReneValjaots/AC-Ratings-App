@@ -1,0 +1,196 @@
+{
+  "name": "Ferrari FXX K",
+  "brand": "Ferrari",
+  "description": "The FXX K is the R&amp;D program of Ferrari starring the first hybrid prototype of Maranello.<br><br>In the name, the initials K recalls the &quot;KERS&quot; technology (kinetic energy recovery) for maximizing performance on the track. <br>Free from homologations and regulations, the FXX K has been developed with no compromise and is equipped with technological innovations that guarantee an unbelievable driving experience.<br><br>The FXX K features 1050hp (860hp by V12 heat engine, 190hp by electric engine) and a torque above 900Nm. Its 6262cc V12 engine has been optimized for performance and is managable through a 4 positions &quot;manettino&quot;: Qualify, Long Run, Manual Boost, Fast Charge.",
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "1050bhp",
+    "torque": "900+Nm",
+    "weight": "--kg",
+    "topspeed": "350+km/h",
+    "acceleration": "<3.0s 0-100",
+    "pwratio": "--kg/hp",
+    "range": 159
+  },
+  "torqueCurve": [
+    [
+      500.0,
+      428.0
+    ],
+    [
+      1000.0,
+      400.0
+    ],
+    [
+      1500.0,
+      582.0
+    ],
+    [
+      2000.0,
+      681.0
+    ],
+    [
+      2500.0,
+      750.0
+    ],
+    [
+      3000.0,
+      792.0
+    ],
+    [
+      3500.0,
+      820.0
+    ],
+    [
+      4000.0,
+      828.0
+    ],
+    [
+      4500.0,
+      843.0
+    ],
+    [
+      5000.0,
+      863.0
+    ],
+    [
+      5500.0,
+      896.0
+    ],
+    [
+      6000.0,
+      939.0
+    ],
+    [
+      6500.0,
+      966.0
+    ],
+    [
+      6750.0,
+      968.0
+    ],
+    [
+      7000.0,
+      972.0
+    ],
+    [
+      7500.0,
+      942.0
+    ],
+    [
+      8000.0,
+      908.0
+    ],
+    [
+      8500.0,
+      853.0
+    ],
+    [
+      9000.0,
+      807.0
+    ],
+    [
+      9250.0,
+      790.0
+    ],
+    [
+      9500.0,
+      796.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      500.0,
+      30.0
+    ],
+    [
+      1000.0,
+      56.0
+    ],
+    [
+      1500.0,
+      123.0
+    ],
+    [
+      2000.0,
+      191.0
+    ],
+    [
+      2500.0,
+      263.0
+    ],
+    [
+      3000.0,
+      334.0
+    ],
+    [
+      3500.0,
+      403.0
+    ],
+    [
+      4000.0,
+      465.0
+    ],
+    [
+      4500.0,
+      533.0
+    ],
+    [
+      5000.0,
+      606.0
+    ],
+    [
+      5500.0,
+      692.0
+    ],
+    [
+      6000.0,
+      791.0
+    ],
+    [
+      6500.0,
+      882.0
+    ],
+    [
+      6750.0,
+      918.0
+    ],
+    [
+      7000.0,
+      955.0
+    ],
+    [
+      7500.0,
+      992.0
+    ],
+    [
+      8000.0,
+      1020.0
+    ],
+    [
+      8500.0,
+      1018.0
+    ],
+    [
+      9000.0,
+      1020.0
+    ],
+    [
+      9250.0,
+      1026.0
+    ],
+    [
+      9500.0,
+      1062.0
+    ]
+  ],
+  "country": "Italy",
+  "year": 2015,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

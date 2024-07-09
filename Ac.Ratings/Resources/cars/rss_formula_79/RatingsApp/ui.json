@@ -1,0 +1,35 @@
+{
+  "name": "Lotus 79",
+  "brand": "Lotus",
+  "year": "1979",
+  "author": "Race Sim Studio",
+  "folderName": "rss_formula_79",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_79",
+  "specs": {
+    "convertedPower": "340kW/463hp",
+    "isManufacturerData": false,
+    "bhp": "463bhp",
+    "torque": "333Nm",
+    "weight": "610kg",
+    "topspeed": "+260 km/h",
+    "acceleration": "3s 0-100",
+    "pwratio": "1.32kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#- manual"
+  ]
+}

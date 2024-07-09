@@ -1,0 +1,171 @@
+{
+  "name": "Chevrolet Corvette C7 Stingray",
+  "brand": "Chevrolet",
+  "description": "And only a Corvette with the perfect balance of technology, design and performance can wear the iconic Stingray designation.<br><br>The Corvette Stingray features an estimated 450 horsepower and 610 Nm of torque, and it is able to accelerate from 0-60 in less than four seconds and achieve more than 1g in cornering grip. This model takes advantage of lightweight materials, advanced manufacturing techniques and technology transfer from the Corvette Racing program to produce an ideal 50/50 weight balance and to deliver a world-class power-to-weight ratio.<br><br>The technologically advanced foundation is an all-new aluminum frame structure that is 57 percent stiffer and 45 kg lighter. The greater torsional rigidity reduces unwanted noise and improves ride and handling.<br>This model features main rails composed of five customized aluminum segments, including aluminum extrusions at each end, a center main rail section and hollow-cast nodes at the suspension interface points. Each segment is tuned – varying in thickness from 2mm to 11mm – tailoring the gauge, shape and strength properties to optimize the requirements for each frame section with minimal weight.<br><br>The innovative use of materials includes a standard carbon fiber hood and roof panel, as well as underbody panels created with carbon-nano composite technology, an advanced blend of traditional composite material and carbon fiber, which allows lighter underbody panels without a loss of strength or stiffness. Fenders, doors, rear quarter panels and the rear hatch panel are made with lighter-density Sheet Molded Compound.<br><br>The seven-speed manual incorporates rev-matching technology for upshifts and downshifts. This driver-selectable feature can be easily engaged or disengaged via paddles on the steering wheel. The seven-speed is used with a new dual-mass flywheel and dual-disc clutch, which deliver greater shift quality and feel through lower inertia. The transmission with the Z51 Performance Package includes specific close-ratio gearing for more aggressive driving.",
+  "tags": [
+    "#- manual"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "455bhp",
+    "torque": "625Nm",
+    "weight": "1496kg",
+    "topspeed": "290km/h",
+    "acceleration": "3.8s 0-100",
+    "pwratio": "3.29kg/hp",
+    "range": 200
+  },
+  "torqueCurve": [
+    [
+      500.0,
+      250.0
+    ],
+    [
+      1000.0,
+      290.0
+    ],
+    [
+      1500.0,
+      430.0
+    ],
+    [
+      2000.0,
+      510.0
+    ],
+    [
+      2500.0,
+      550.0
+    ],
+    [
+      3000.0,
+      580.0
+    ],
+    [
+      3500.0,
+      600.0
+    ],
+    [
+      4000.0,
+      610.0
+    ],
+    [
+      4500.0,
+      630.0
+    ],
+    [
+      5000.0,
+      625.0
+    ],
+    [
+      5500.0,
+      600.0
+    ],
+    [
+      6000.0,
+      550.0
+    ],
+    [
+      6500.0,
+      475.0
+    ],
+    [
+      7000.0,
+      400.0
+    ],
+    [
+      7500.0,
+      405.0
+    ],
+    [
+      8000.0,
+      364.0
+    ],
+    [
+      8500.0,
+      300.0
+    ],
+    [
+      9000.0,
+      324.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      500.0,
+      18.0
+    ],
+    [
+      1000.0,
+      41.0
+    ],
+    [
+      1500.0,
+      91.0
+    ],
+    [
+      2000.0,
+      143.0
+    ],
+    [
+      2500.0,
+      193.0
+    ],
+    [
+      3000.0,
+      244.0
+    ],
+    [
+      3500.0,
+      295.0
+    ],
+    [
+      4000.0,
+      343.0
+    ],
+    [
+      4500.0,
+      398.0
+    ],
+    [
+      5000.0,
+      439.0
+    ],
+    [
+      5500.0,
+      463.0
+    ],
+    [
+      6000.0,
+      463.0
+    ],
+    [
+      6500.0,
+      434.0
+    ],
+    [
+      7000.0,
+      393.0
+    ],
+    [
+      7500.0,
+      427.0
+    ],
+    [
+      8000.0,
+      409.0
+    ],
+    [
+      8500.0,
+      358.0
+    ],
+    [
+      9000.0,
+      409.0
+    ]
+  ],
+  "country": "USA",
+  "year": 2014,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

@@ -1,0 +1,187 @@
+{
+  "name": "Porsche 911 GT3 Cup 2017",
+  "brand": "Porsche",
+  "description": "The rear of the world&#39;s most-produced GT racing car now houses a 4-litre, six-cylinder flat engine for even more drive. Thanks to thoroughbred motorsport technology, the compact engine with direct fuel injection delivers peak performance of 357 kW (485 hp).<br><br><br>A range of innovative details also improve efficiency in addition to engine performance, ensuring even better durability of the naturally aspirated engine in racing mode and reduced maintenance costs.<br><br><br>Porsche manufactures the 911 GT3 Cup on the same production line as the 911 road car in its main plant in Stuttgart-Zuffenhausen. The basic race tuning is performed at the Weissach motorsport centre, where vehicles are also thoroughly tested by a professional race driver prior to delivery to the customer. Some 3031 units of the 911 GT3 Cup have been built in the 996, 997 and 991 model lines since 1998. This makes the brand cup racing car from Stuttgart the most-produced and most-sold GT racing car in the world.<br><br><br>The new 911 GT3 Cup will be used in the 2017 race season, initially exclusively in the Porsche Mobil 1 Supercup and in the Porsche Carrera Cup Deutschland, as well as in North America.",
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "485bhp",
+    "torque": "--Nm",
+    "weight": "1220kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.52 kg/hp"
+  },
+  "torqueCurve": [
+    [
+      500.0,
+      150.0
+    ],
+    [
+      1000.0,
+      240.0
+    ],
+    [
+      1500.0,
+      278.0
+    ],
+    [
+      2000.0,
+      319.0
+    ],
+    [
+      2500.0,
+      331.0
+    ],
+    [
+      3000.0,
+      340.0
+    ],
+    [
+      3500.0,
+      344.0
+    ],
+    [
+      4000.0,
+      352.0
+    ],
+    [
+      4500.0,
+      401.0
+    ],
+    [
+      5000.0,
+      418.0
+    ],
+    [
+      5500.0,
+      443.0
+    ],
+    [
+      6000.0,
+      458.0
+    ],
+    [
+      6250.0,
+      460.0
+    ],
+    [
+      6500.0,
+      459.0
+    ],
+    [
+      6750.0,
+      456.0
+    ],
+    [
+      7000.0,
+      459.0
+    ],
+    [
+      7500.0,
+      449.0
+    ],
+    [
+      8000.0,
+      416.0
+    ],
+    [
+      8250.0,
+      412.0
+    ],
+    [
+      8500.0,
+      391.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      500.0,
+      11.0
+    ],
+    [
+      1000.0,
+      34.0
+    ],
+    [
+      1500.0,
+      59.0
+    ],
+    [
+      2000.0,
+      90.0
+    ],
+    [
+      2500.0,
+      116.0
+    ],
+    [
+      3000.0,
+      143.0
+    ],
+    [
+      3500.0,
+      169.0
+    ],
+    [
+      4000.0,
+      198.0
+    ],
+    [
+      4500.0,
+      253.0
+    ],
+    [
+      5000.0,
+      293.0
+    ],
+    [
+      5500.0,
+      342.0
+    ],
+    [
+      6000.0,
+      386.0
+    ],
+    [
+      6250.0,
+      404.0
+    ],
+    [
+      6500.0,
+      419.0
+    ],
+    [
+      6750.0,
+      432.0
+    ],
+    [
+      7000.0,
+      451.0
+    ],
+    [
+      7500.0,
+      473.0
+    ],
+    [
+      8000.0,
+      467.0
+    ],
+    [
+      8250.0,
+      477.0
+    ],
+    [
+      8500.0,
+      467.0
+    ]
+  ],
+  "country": "Germany",
+  "year": 2017,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

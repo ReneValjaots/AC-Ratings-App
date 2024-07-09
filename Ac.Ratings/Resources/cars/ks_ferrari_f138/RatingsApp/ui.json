@@ -1,0 +1,36 @@
+{
+  "name": "Ferrari F138",
+  "brand": "Ferrari",
+  "year": "2013",
+  "author": "Kunos",
+  "folderName": "ks_ferrari_f138",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_f138",
+  "specs": {
+    "convertedPower": "561kW/763hp",
+    "isManufacturerData": false,
+    "bhp": "763bhp",
+    "torque": "310Nm",
+    "weight": "642kg*",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "0.84kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Porsche 718 RS 60 Spyder",
+  "brand": "Porsche",
+  "year": "1960",
+  "author": "Kunos",
+  "folderName": "ks_porsche_718_spyder_rs",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_718_spyder_rs",
+  "specs": {
+    "convertedPower": "110kW/150hp",
+    "isManufacturerData": false,
+    "bhp": "150bhp",
+    "torque": "148Nm",
+    "weight": "580kg",
+    "topspeed": "230km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "3.87 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

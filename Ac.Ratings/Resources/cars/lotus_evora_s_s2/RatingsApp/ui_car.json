@@ -1,0 +1,165 @@
+{
+  "name": "Lotus Evora S Stage 2",
+  "parent": "lotus_evora_s",
+  "brand": "Lotus",
+  "description": "The Stage 2 tuned version of Evora S series has non adjustable aftermarket dampers and lowered stiffer springs as well as wider track front and rear. The engine also has a new ECU and a different pulley on the compressor, raising the maximum power at almost 400bhp. Adjustments on the alignment and other small details, transform the Lotus sportscar in a very enjoyable trackday weapon. <br><br>The essence of the Evora is found in its exceptional engineering and focus on performance. Production combines high technology processes with hand finishing techniques, from chassis construction through to final assembly.<br><br>The Evora S blends the sublime handling attributes of the Lotus Evora with the surging linear power of a supercharged V6 engine. Delivering even more attitude, the forced induction power plant delivers 345 hp and 295 lbft of torque. There&#39;s no appreciable weight gain: at 1,437 kg the Evora S is still lightweight, muscling from 0 to 60 mph in 4.4 seconds, powering to its 178 mph maximum.<br><br>The state-of-the-art Evora chassis is composed of an extruded and bonded aluminium structure, developed for its lightweight yet incredibly stiff design, with a central tub containing the driver&#39;s cockpit and safety cell - a format closely reflecting the layout and construction of modern-day racing cars. Its unique design ensures a chassis so stiff that it takes 27,000 Nm to twist it just one degree.<br><br>With its state-of-the-art, lightweight chassis, the Evora&#39;s handling is truly remarkable. From its functional aerodynamics, to its mid-engined construction giving optimum weight distribution, through to its race-derived components, such as Bilstein dampers, Eibach springs and AP Racing track tuned braking system - Lotus&#39; motorsport expertise feature in its design and engineering.",
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "400bhp",
+    "torque": "420Nm",
+    "weight": "1385kg",
+    "topspeed": "277km/h",
+    "acceleration": "4.6s 0-100",
+    "pwratio": "3.46kg/hp",
+    "range": 121
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      56.0
+    ],
+    [
+      500.0,
+      202.0
+    ],
+    [
+      1000.0,
+      283.0
+    ],
+    [
+      1500.0,
+      323.0
+    ],
+    [
+      2000.0,
+      367.0
+    ],
+    [
+      2500.0,
+      380.0
+    ],
+    [
+      3000.0,
+      395.0
+    ],
+    [
+      3500.0,
+      398.0
+    ],
+    [
+      4000.0,
+      408.0
+    ],
+    [
+      4500.0,
+      417.0
+    ],
+    [
+      5000.0,
+      418.0
+    ],
+    [
+      5500.0,
+      418.0
+    ],
+    [
+      6000.0,
+      412.0
+    ],
+    [
+      6400.0,
+      407.0
+    ],
+    [
+      7000.0,
+      391.0
+    ],
+    [
+      7400.0,
+      384.0
+    ],
+    [
+      7600.0,
+      373.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      14.0
+    ],
+    [
+      1000.0,
+      40.0
+    ],
+    [
+      1500.0,
+      68.0
+    ],
+    [
+      2000.0,
+      103.0
+    ],
+    [
+      2500.0,
+      133.0
+    ],
+    [
+      3000.0,
+      166.0
+    ],
+    [
+      3500.0,
+      196.0
+    ],
+    [
+      4000.0,
+      229.0
+    ],
+    [
+      4500.0,
+      264.0
+    ],
+    [
+      5000.0,
+      293.0
+    ],
+    [
+      5500.0,
+      323.0
+    ],
+    [
+      6000.0,
+      347.0
+    ],
+    [
+      6400.0,
+      366.0
+    ],
+    [
+      7000.0,
+      384.0
+    ],
+    [
+      7400.0,
+      399.0
+    ],
+    [
+      7600.0,
+      398.0
+    ]
+  ],
+  "country": "Great Britain",
+  "year": 2014,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

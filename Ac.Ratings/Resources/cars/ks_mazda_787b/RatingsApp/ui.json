@@ -1,0 +1,35 @@
+{
+  "name": "Mazda 787B",
+  "brand": "Mazda",
+  "year": "1990",
+  "author": "Kunos",
+  "folderName": "ks_mazda_787b",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mazda_787b",
+  "specs": {
+    "convertedPower": "507kW/690hp",
+    "isManufacturerData": false,
+    "bhp": "690bhp",
+    "torque": "608Nm",
+    "weight": "845kg",
+    "topspeed": "340+km/h",
+    "acceleration": "--s",
+    "pwratio": "1.22kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd"
+  ]
+}

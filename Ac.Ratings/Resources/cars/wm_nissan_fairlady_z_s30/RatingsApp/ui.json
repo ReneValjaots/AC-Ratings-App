@@ -1,0 +1,36 @@
+{
+  "name": "Nissan Fairlady Z S30 Devil Z",
+  "brand": "Nissan",
+  "year": "1969",
+  "author": "RiZe + skyline",
+  "folderName": "wm_nissan_fairlady_z_s30",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\wm_nissan_fairlady_z_s30",
+  "specs": {
+    "convertedPower": "435kW/592hp",
+    "isManufacturerData": false,
+    "bhp": "592 bhp",
+    "torque": "628 Nm",
+    "weight": "1100 kg",
+    "topspeed": "320+ km/h",
+    "acceleration": "3.5 s 0–100",
+    "pwratio": "1.86 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#- manual",
+    "#+ rwd"
+  ]
+}

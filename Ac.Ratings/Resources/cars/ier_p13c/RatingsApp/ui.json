@@ -1,0 +1,36 @@
+{
+  "name": "HPD ARX-03c",
+  "brand": "Honda",
+  "year": "2013",
+  "author": "IER Simulations",
+  "folderName": "ier_p13c",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ier_p13c",
+  "specs": {
+    "convertedPower": "443kW/603hp",
+    "isManufacturerData": false,
+    "bhp": "603 bhp",
+    "torque": "485 Nm",
+    "weight": "890kg",
+    "topspeed": "310+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.48 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": null,
+    "gearsCount": 0,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

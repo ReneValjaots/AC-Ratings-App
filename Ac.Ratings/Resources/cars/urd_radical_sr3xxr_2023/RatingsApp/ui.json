@@ -1,0 +1,36 @@
+{
+  "name": "Radical SR3 XXR",
+  "brand": "Radical",
+  "year": "2023",
+  "author": "United Racing Design",
+  "folderName": "urd_radical_sr3xxr_2023",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_radical_sr3xxr_2023",
+  "specs": {
+    "convertedPower": "171kW/232hp",
+    "isManufacturerData": false,
+    "bhp": "232 bhp",
+    "torque": "186 Nm",
+    "weight": "662 kg",
+    "topspeed": "240km/h",
+    "acceleration": "3.2s 0-100",
+    "pwratio": "2.85 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

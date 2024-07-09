@@ -1,0 +1,36 @@
+{
+  "name": "Maserati Alfieri",
+  "brand": "Maserati",
+  "year": "2014",
+  "author": "Kunos",
+  "folderName": "ks_maserati_alfieri",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_maserati_alfieri",
+  "specs": {
+    "convertedPower": "338kW/460hp",
+    "isManufacturerData": false,
+    "bhp": "460bhp",
+    "torque": "520Nm",
+    "weight": "1496kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "3.25kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ]
+}

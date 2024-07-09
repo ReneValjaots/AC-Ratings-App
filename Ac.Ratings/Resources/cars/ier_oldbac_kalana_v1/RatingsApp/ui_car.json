@@ -1,0 +1,235 @@
+{
+  "name": "Oldbac Kalana 2023",
+  "brand": "Oldbac",
+  "description": "The Kalana is a prototype racing car produced by Estonian engineering firm, Oldbac.<br><br>Powered by an 11,000 RPM Judd V8 and with bodywork designed to produce high downforce loads on its Michelin racing tires, the Kalana is a visceral experience to drive. ABS and TC systems allow the car to be more approachable for all experience levels, but the car requires the utmost attention to achieve the best lap.<br><br>The target of the Kalana project is to achieve a 1:00 lap time at the Porsche Ring circuit in Estonia. Having already beaten the outright lap record at the circuit, the car is set to receive some significant upgrades as Oldbac edges closer to its goal. Be sure to follow the project&#39;s progress to stay up to date on the exciting developments to come.<br><br>IER Simulations was tasked with reproducing the Kalana for Oldbac to use as a driver training tool. Following the completion of the model, it was decided that IER would support the continuing development of the real-world Kalana in an engineering capacity. This initial driver-training model is now being made available to the public as an officially licensed product.",
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "610 bhp",
+    "torque": "465 Nm",
+    "weight": "950 kg",
+    "topspeed": "300+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.56 kg/hp"
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      294.137931034483
+    ],
+    [
+      2000.0,
+      304.252873563218
+    ],
+    [
+      4000.0,
+      324.597701149425
+    ],
+    [
+      5700.0,
+      380.804597701149
+    ],
+    [
+      5900.0,
+      385.977011494253
+    ],
+    [
+      6100.0,
+      404.022988505747
+    ],
+    [
+      6500.0,
+      437.011494252874
+    ],
+    [
+      6700.0,
+      444.022988505747
+    ],
+    [
+      6900.0,
+      443.103448275862
+    ],
+    [
+      7100.0,
+      442.298850574713
+    ],
+    [
+      7300.0,
+      446.896551724138
+    ],
+    [
+      7700.0,
+      462.988505747126
+    ],
+    [
+      7900.0,
+      465.287356321839
+    ],
+    [
+      8100.0,
+      462.298850574713
+    ],
+    [
+      8300.0,
+      456.551724137931
+    ],
+    [
+      8500.0,
+      451.494252873563
+    ],
+    [
+      8700.0,
+      448.505747126437
+    ],
+    [
+      8900.0,
+      447.011494252873
+    ],
+    [
+      9100.0,
+      446.666666666667
+    ],
+    [
+      9300.0,
+      446.781609195402
+    ],
+    [
+      9352.5,
+      446.781609195402
+    ],
+    [
+      9460.0,
+      446.781609195402
+    ],
+    [
+      9500.0,
+      446.781609195402
+    ],
+    [
+      9700.0,
+      444.597701149425
+    ],
+    [
+      9900.0,
+      439.080459770115
+    ],
+    [
+      10100.0,
+      430.0
+    ],
+    [
+      10750.0,
+      392.452107279693
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      2042.5,
+      87.3977969878764
+    ],
+    [
+      4000.0,
+      182.344425482139
+    ],
+    [
+      4945.0,
+      247.121602992617
+    ],
+    [
+      5900.0,
+      319.816238184954
+    ],
+    [
+      6500.0,
+      398.926857909004
+    ],
+    [
+      6700.0,
+      417.798924820404
+    ],
+    [
+      7100.0,
+      441.022979790407
+    ],
+    [
+      7300.0,
+      458.159739890605
+    ],
+    [
+      7700.0,
+      500.665878451119
+    ],
+    [
+      7900.0,
+      516.22068443506
+    ],
+    [
+      8100.0,
+      525.889975410963
+    ],
+    [
+      8300.0,
+      532.175821664747
+    ],
+    [
+      8500.0,
+      538.962081975714
+    ],
+    [
+      8700.0,
+      547.992134349538
+    ],
+    [
+      8900.0,
+      558.721980278891
+    ],
+    [
+      9500.0,
+      596.081925244885
+    ],
+    [
+      9700.0,
+      605.655976126034
+    ],
+    [
+      9900.0,
+      610.47286498615
+    ],
+    [
+      9997.5,
+      610.269814415703
+    ],
+    [
+      10100.0,
+      609.925638001036
+    ],
+    [
+      10212.5,
+      607.398764313648
+    ],
+    [
+      10320.0,
+      604.792333483224
+    ],
+    [
+      10535.0,
+      599.016965445267
+    ],
+    [
+      10750.0,
+      592.4915889045
+    ]
+  ],
+  "country": "Estonia",
+  "year": 2024,
+  "author": "IER Simulations",
+  "version": "1.0",
+  "url": "www.iersimulations.com"
+}

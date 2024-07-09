@@ -1,0 +1,139 @@
+{
+  "name": "Lotus 98T",
+  "brand": "Lotus Classic Cars",
+  "description": "The Lotus 98T was a development of the Lotus 97T of 1985. <br>Of the four chassis built three were assigned to Ayrton Senna, now in his second year with Team Lotus, and one to team mate Johnny Dumfries.<br><br>Designed by G&#233;rard Ducarouge and Martin Ogilvie the chassis featured a lower monocoque than the 97T as a result of a regulation change stipulating a reduction in fuel capacity to 195 litres. The powertrain consisted of the new Renault EF15B turbo V6 engine driving through a six speed Hewland gearbox.<br><br>The EF15B was to appear in two forms, the standard engine and the D.P. engine which featured pneumatic valve springs for the first time. At the end of the season Renault introduced the revised EF15C which in addition to the D.P. valve gear also boasted common rail fuel injection and much revised water cooling through the cylinder head reducing the likelihood of pre-ignition (detonation). Power figures for this period of F1 history are largely speculative as most engine manufactures freely admitted that their test beds would not have a sufficient power rating to measure the 1.5 litre turbos output at above 4 bar boost. It is generally accepted that the Renault EF15 produced between 1,200 bhp (890 kW) and 1,300 bhp (970 kW) at 5.5 absolute bar boost.",
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "1000+bhp",
+    "torque": "800+Nm",
+    "weight": "523kg",
+    "topspeed": "330+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "--kg/hp"
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      1000.0,
+      105.0
+    ],
+    [
+      2000.0,
+      113.0
+    ],
+    [
+      3000.0,
+      113.0
+    ],
+    [
+      4000.0,
+      116.0
+    ],
+    [
+      5000.0,
+      224.0
+    ],
+    [
+      6000.0,
+      321.0
+    ],
+    [
+      7000.0,
+      759.0
+    ],
+    [
+      8000.0,
+      842.0
+    ],
+    [
+      9000.0,
+      807.0
+    ],
+    [
+      10000.0,
+      772.0
+    ],
+    [
+      11000.0,
+      737.0
+    ],
+    [
+      12000.0,
+      720.0
+    ],
+    [
+      12500.0,
+      702.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      1000.0,
+      17.0
+    ],
+    [
+      2000.0,
+      37.0
+    ],
+    [
+      3000.0,
+      56.0
+    ],
+    [
+      4000.0,
+      76.0
+    ],
+    [
+      5000.0,
+      184.0
+    ],
+    [
+      6000.0,
+      317.0
+    ],
+    [
+      7000.0,
+      873.0
+    ],
+    [
+      8000.0,
+      946.0
+    ],
+    [
+      9000.0,
+      1020.0
+    ],
+    [
+      10000.0,
+      1084.0
+    ],
+    [
+      11000.0,
+      1138.0
+    ],
+    [
+      12000.0,
+      1213.0
+    ],
+    [
+      12500.0,
+      1232.0
+    ]
+  ],
+  "country": "Great Britain",
+  "year": 1986,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

@@ -1,0 +1,169 @@
+{
+  "name": "Ford GT40",
+  "brand": "Ford",
+  "description": "The Ford GT40 is a high performance American-British endurance racing car, built and designed in England (Mk I, Mk II, and Mk III) and in the United States (Mk IV), and powered by a series of American-built engines, which won the 24 Hours of Le Mans four consecutive times, from 1966 to 1969<br><br>Simulated in Assetto Corsa is chassis # P-1075, which won in 1968 and 1969, becoming the first car in Le Mans history to win the race more than once with the same chassis, using an American Ford V-8 engine originally of 4.7-litre displacement capacity (289 cubic inches), enlarged to 4.9-litre with special alloy Gurney-Weslake cylinder heads.<br><br>This specific version of the car has wider tyres, better brakes and chassis and bodywork improvements, making a much better car to drive hard and race, becoming even comfortable for its drivers in long 4 hours driving stints as it was necessary back in 1969 races",
+  "tags": [],
+  "class": "race",
+  "specs": {
+    "bhp": "430bhp",
+    "torque": "530Nm",
+    "weight": "1025kg",
+    "topspeed": "335km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.38kg/hp",
+    "range": 220
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      110.0
+    ],
+    [
+      1000.0,
+      178.0
+    ],
+    [
+      1500.0,
+      351.0
+    ],
+    [
+      2000.0,
+      429.0
+    ],
+    [
+      2500.0,
+      448.0
+    ],
+    [
+      3000.0,
+      465.0
+    ],
+    [
+      3500.0,
+      488.0
+    ],
+    [
+      4000.0,
+      527.0
+    ],
+    [
+      4500.0,
+      535.0
+    ],
+    [
+      5000.0,
+      532.0
+    ],
+    [
+      5250.0,
+      528.0
+    ],
+    [
+      5500.0,
+      523.0
+    ],
+    [
+      6000.0,
+      506.0
+    ],
+    [
+      6500.0,
+      463.0
+    ],
+    [
+      7000.0,
+      415.0
+    ],
+    [
+      7500.0,
+      301.0
+    ],
+    [
+      8000.0,
+      200.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      8.0
+    ],
+    [
+      1000.0,
+      25.0
+    ],
+    [
+      1500.0,
+      74.0
+    ],
+    [
+      2000.0,
+      120.0
+    ],
+    [
+      2500.0,
+      157.0
+    ],
+    [
+      3000.0,
+      196.0
+    ],
+    [
+      3500.0,
+      240.0
+    ],
+    [
+      4000.0,
+      296.0
+    ],
+    [
+      4500.0,
+      338.0
+    ],
+    [
+      5000.0,
+      374.0
+    ],
+    [
+      5250.0,
+      389.0
+    ],
+    [
+      5500.0,
+      404.0
+    ],
+    [
+      6000.0,
+      426.0
+    ],
+    [
+      6500.0,
+      423.0
+    ],
+    [
+      7000.0,
+      408.0
+    ],
+    [
+      7500.0,
+      317.0
+    ],
+    [
+      8000.0,
+      225.0
+    ]
+  ],
+  "country": "USA",
+  "year": 1966,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

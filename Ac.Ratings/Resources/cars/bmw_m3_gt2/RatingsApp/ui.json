@@ -1,0 +1,36 @@
+{
+  "name": "BMW M3 GT2",
+  "brand": "BMW",
+  "year": "2009",
+  "author": "Kunos",
+  "folderName": "bmw_m3_gt2",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_gt2",
+  "specs": {
+    "convertedPower": "357kW/485hp",
+    "isManufacturerData": false,
+    "bhp": "485+bhp",
+    "torque": "499Nm",
+    "weight": "1245kg",
+    "topspeed": "270+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.56kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Mazda RX-7 FD3S",
+  "brand": "Mazda",
+  "year": "1991",
+  "author": "RiZe",
+  "folderName": "wm_mazda_rx7_fd_rgo",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\wm_mazda_rx7_fd_rgo",
+  "specs": {
+    "convertedPower": "386kW/525hp",
+    "isManufacturerData": false,
+    "bhp": "525 bhp",
+    "torque": "526 Nm",
+    "weight": "1250kg",
+    "topspeed": "320+ km/h",
+    "acceleration": "3.4 s 0-100",
+    "pwratio": "2.38 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#- manual",
+    "#+ rwd"
+  ]
+}

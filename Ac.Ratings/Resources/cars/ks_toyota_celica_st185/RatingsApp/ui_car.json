@@ -1,0 +1,147 @@
+{
+  "name": "Toyota Celica ST185 4WD Turbo",
+  "brand": "Toyota",
+  "description": "The Toyota Celica ST185 is Toyota&#39;s most successful rally car, as it won the WRC Driver&#39;s Championship in 1992, and the WRC Manufacturer&#39;s and Driver&#39;s Championships in 1993 and 1994. <br><br><br>In order to meet the Group A competition&#39;s homologation requirements, 5,000 GT-Four RC production versions of the Celica were manufactured, starting from September 1989.<br><br><br>This car made its debut on the Monte Carlo Rally, the opening round of the 1992 World Rally Championship series, but it was not successful until half of the season.",
+  "tags": [
+    "#- manual",
+    "#+ awd"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "295bhp",
+    "torque": "459Nm",
+    "weight": "1045kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "3.54kg/hp"
+  },
+  "torqueCurve": [
+    [
+      500.0,
+      200.0
+    ],
+    [
+      1000.0,
+      225.0
+    ],
+    [
+      1500.0,
+      243.0
+    ],
+    [
+      2000.0,
+      326.0
+    ],
+    [
+      2500.0,
+      389.0
+    ],
+    [
+      3000.0,
+      443.0
+    ],
+    [
+      3500.0,
+      455.0
+    ],
+    [
+      4000.0,
+      457.0
+    ],
+    [
+      4400.0,
+      460.0
+    ],
+    [
+      5000.0,
+      412.0
+    ],
+    [
+      5600.0,
+      388.0
+    ],
+    [
+      6000.0,
+      351.0
+    ],
+    [
+      6500.0,
+      317.0
+    ],
+    [
+      7100.0,
+      269.0
+    ],
+    [
+      7500.0,
+      221.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      500.0,
+      14.0
+    ],
+    [
+      1000.0,
+      32.0
+    ],
+    [
+      1500.0,
+      51.0
+    ],
+    [
+      2000.0,
+      92.0
+    ],
+    [
+      2500.0,
+      137.0
+    ],
+    [
+      3000.0,
+      187.0
+    ],
+    [
+      3500.0,
+      224.0
+    ],
+    [
+      4000.0,
+      257.0
+    ],
+    [
+      4400.0,
+      284.0
+    ],
+    [
+      5000.0,
+      289.0
+    ],
+    [
+      5600.0,
+      305.0
+    ],
+    [
+      6000.0,
+      296.0
+    ],
+    [
+      6500.0,
+      289.0
+    ],
+    [
+      7100.0,
+      268.0
+    ],
+    [
+      7500.0,
+      233.0
+    ]
+  ],
+  "country": "Japan",
+  "year": 1989,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

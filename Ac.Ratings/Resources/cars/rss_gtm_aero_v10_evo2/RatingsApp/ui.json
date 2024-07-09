@@ -1,0 +1,36 @@
+{
+  "name": "Audi R8 LMS GT3 Evo II",
+  "brand": "Audi",
+  "year": "2024",
+  "author": "Race Sim Studio",
+  "folderName": "rss_gtm_aero_v10_evo2",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtm_aero_v10_evo2",
+  "specs": {
+    "convertedPower": "368kW/501hp",
+    "isManufacturerData": false,
+    "bhp": "501bhp",
+    "torque": "472Nm",
+    "weight": "1411kg",
+    "topspeed": "270+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.82kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

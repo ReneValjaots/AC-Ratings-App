@@ -1,0 +1,164 @@
+{
+  "name": "BMW M4",
+  "brand": "BMW",
+  "description": "The M4&#39;s engine brace, trunk lid and the roof are all made of Carbon Fiber Reinforced Plastic (CFRP) to shed pounds. But the real masterpiece for both is the CFRP driveshaft — a one-piece unit that offers exceptional strength while reducing rotating mass, resulting in a tighter drive with less counteractive momentum. This cornering king&#39;s real crown is its rear-axle subframe with solid mounts, bolted directly to the body without the use of bushings to make for the tightest possible handling, and its control arms—made of aluminium—shed weight, even where you can&#39;t see it.<br><br>This car&#39;s high-pressure, quick-response turbocharging system utilizes two TwinPower turbos to provide a broad plateu, while BMW&#39;s double-VANOS technology varies camshaft timing, allowing higher pressure to build inside the cylinder for optimal power output throughout the rev range. The Active M Differential uses Dynamic Stability Control data, pedal position, wheel rotation, and yaw rate to act on each wheel before any of them breaks free. An electric motor varies power distribution between wheels, shifting it in tight turns, and even decreasing understeer during full-load cornering.<br><br>The M4&#39;s Power isn&#39;t all under the hood. Its exterior features an integrated rear spoiler made of lightweight Carbon Fiber, and a CFRP diffuser, both of which keep the weight off while creating rear down-force. An optional 7-speed dual-clutch transmission with paddle shifters provides instantaneous track-inspired shifts, but for the purists who want an analog connection to the road, a 6-speed manual transmission comes standard.",
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "431bhp",
+    "torque": "550Nm",
+    "weight": "1572kg",
+    "topspeed": "250km/h",
+    "acceleration": "3.9s 0-100",
+    "pwratio": "3.64kg/hp",
+    "range": 96
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      307.0
+    ],
+    [
+      1000.0,
+      307.0
+    ],
+    [
+      1500.0,
+      335.0
+    ],
+    [
+      2000.0,
+      485.0
+    ],
+    [
+      2500.0,
+      555.0
+    ],
+    [
+      3000.0,
+      562.0
+    ],
+    [
+      3500.0,
+      575.0
+    ],
+    [
+      4000.0,
+      579.0
+    ],
+    [
+      4500.0,
+      565.0
+    ],
+    [
+      5000.0,
+      553.0
+    ],
+    [
+      5500.0,
+      541.0
+    ],
+    [
+      6000.0,
+      511.0
+    ],
+    [
+      6500.0,
+      477.0
+    ],
+    [
+      7000.0,
+      408.0
+    ],
+    [
+      7500.0,
+      371.0
+    ],
+    [
+      8000.0,
+      350.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      22.0
+    ],
+    [
+      1000.0,
+      43.0
+    ],
+    [
+      1500.0,
+      71.0
+    ],
+    [
+      2000.0,
+      136.0
+    ],
+    [
+      2500.0,
+      196.0
+    ],
+    [
+      3000.0,
+      239.0
+    ],
+    [
+      3500.0,
+      283.0
+    ],
+    [
+      4000.0,
+      329.0
+    ],
+    [
+      4500.0,
+      358.0
+    ],
+    [
+      5000.0,
+      389.0
+    ],
+    [
+      5500.0,
+      420.0
+    ],
+    [
+      6000.0,
+      431.0
+    ],
+    [
+      6500.0,
+      437.0
+    ],
+    [
+      7000.0,
+      401.0
+    ],
+    [
+      7500.0,
+      391.0
+    ],
+    [
+      8000.0,
+      393.0
+    ]
+  ],
+  "country": "Germany",
+  "year": 2015,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

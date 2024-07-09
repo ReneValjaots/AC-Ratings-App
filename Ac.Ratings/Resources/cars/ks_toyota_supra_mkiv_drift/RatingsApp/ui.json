@@ -1,0 +1,36 @@
+{
+  "name": "Toyota Supra MKIV Drift",
+  "brand": "Toyota",
+  "year": "1993",
+  "author": "Kunos",
+  "folderName": "ks_toyota_supra_mkiv_drift",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_supra_mkiv_drift",
+  "specs": {
+    "convertedPower": "459kW/624hp",
+    "isManufacturerData": false,
+    "bhp": "624bhp",
+    "torque": "756Nm",
+    "weight": "1505kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.41kh/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

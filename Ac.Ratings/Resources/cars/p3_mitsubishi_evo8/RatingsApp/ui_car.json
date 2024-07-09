@@ -1,0 +1,146 @@
+{
+  "name": "Mitsubishi Lancer Evolution VIII MR",
+  "brand": "Mitsubishi",
+  "description": "The Lancer Evolution VIII is the Eighth generation of the Evolution series, released in 2004 as a successor to the Evolution VII and the second Lancer to use the CT9A platform. The Evolution VII brought with it some large, high-tech changes compared to previous models. The biggest change was the new active center differential (ACD), which in combination with the Active Yaw Control rear differential, made the Evolution VII really good at sending the power to the wheels that needed it the most.<br><br>The Evolution VIII improved on the Evolution VII by giving it new wheels, new brakes and better shocks. The Evolution MR Edition also came with a better front differential, an aluminium shift knob and handbrake, 17-inch BBS rims, an aluminium roof and a 6-speed manual gearbox. The MR also came with some minor engine updates to improve engine performance.",
+  "tags": [
+    "#- manual",
+    "#+ awd"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "276 bhp",
+    "torque": "374Nm",
+    "weight": "1455kg",
+    "topspeed": "252km/h",
+    "acceleration": "4.8s 0-100",
+    "pwratio": "5.27kg/hp"
+  },
+  "torqueCurve": [
+    [
+      500.0,
+      101.0
+    ],
+    [
+      1000.0,
+      114.0
+    ],
+    [
+      1500.0,
+      132.0
+    ],
+    [
+      2000.0,
+      163.0
+    ],
+    [
+      2500.0,
+      192.0
+    ],
+    [
+      3000.0,
+      237.0
+    ],
+    [
+      3500.0,
+      316.0
+    ],
+    [
+      4000.0,
+      313.0
+    ],
+    [
+      4500.0,
+      310.0
+    ],
+    [
+      5000.0,
+      301.0
+    ],
+    [
+      5500.0,
+      295.0
+    ],
+    [
+      6000.0,
+      278.0
+    ],
+    [
+      6500.0,
+      257.0
+    ],
+    [
+      7000.0,
+      233.0
+    ],
+    [
+      7500.0,
+      208.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      500.0,
+      7.0
+    ],
+    [
+      1000.0,
+      16.0
+    ],
+    [
+      1500.0,
+      27.0
+    ],
+    [
+      2000.0,
+      46.0
+    ],
+    [
+      2500.0,
+      67.0
+    ],
+    [
+      3000.0,
+      100.0
+    ],
+    [
+      3500.0,
+      155.0
+    ],
+    [
+      4000.0,
+      176.0
+    ],
+    [
+      4500.0,
+      196.0
+    ],
+    [
+      5000.0,
+      212.0
+    ],
+    [
+      5500.0,
+      228.0
+    ],
+    [
+      6000.0,
+      235.0
+    ],
+    [
+      6500.0,
+      235.0
+    ],
+    [
+      7000.0,
+      229.0
+    ],
+    [
+      7500.0,
+      219.0
+    ]
+  ],
+  "country": "Japan",
+  "author": null,
+  "version": null,
+  "url": null
+}

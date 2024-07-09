@@ -1,0 +1,170 @@
+{
+  "name": "Porsche Cayenne Turbo S",
+  "brand": "Porsche",
+  "description": "As the sports car among sport utility vehicles (SUVs), the Cayenne Turbo S offers a lot of room for a lot of driving fun. With high performance and typical Porsche design DNA, it represents the top version of the sporty SUV model series. <br><br><br>The Cayenne Turbo S is characterised by a high level of performance readiness, uninterrupted forward thrust and an ability to handle any driving situation. Its 4.8-liter V8 biturbo engine develops 570 hp (419 kW) and 800 Nm (590 ft lb) of torque. <br><br><br>A chassis that is tuned for maximum driving dynamics and packs a wide range of control systems also makes the Cayenne Turbo S a genuine top athlete. It accelerates from zero to 100 km/h in 4.1 seconds, with a top speed of 284 km/h, and can turn a lap of the North Loop of the N&#252;rburgring in 7:59.74 minutes. The Cayenne set a new record for SUVs here, and it also proves that every Porsche is a genuine sports car – even in this vehicle segment.<br><br><br>The Cayenne Turbo S also underscores its position as a top athlete in its chassis systems. Its standard Porsche Composite Ceramic Brakes (PCCB) include 420 mm front brake discs and ten-piston calipers. The rear brakes have 370 mm discs and four-piston calipers. The active roll stabilization system, Porsche Dynamic Chassis Control (PDCC) proactively reduces side tilt when driving through curves early on. Porsche Torque Vectoring Plus (PTV Plus) increases dynamic handling and stability by making specific brake interventions at the right or left rear wheel – this noticeably improves steering into curves and steering precision. The active hang-on all-wheel drive system Porsche Traction Management (PTM) permanently drives the rear wheels while offering fully variable power distribution to the front wheels. <br><br><br>Some advantages of the interplay between all systems: excellent driving dynamics and traction as well as a high level of agility at any speed.",
+  "tags": [
+    "#+ awd"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "570bhp",
+    "torque": "800Nm",
+    "weight": "2235kg",
+    "topspeed": "284km/h",
+    "acceleration": "4.1s 0-100",
+    "pwratio": "3.92 kg/hp"
+  },
+  "torqueCurve": [
+    [
+      500.0,
+      144.0
+    ],
+    [
+      1000.0,
+      360.0
+    ],
+    [
+      1500.0,
+      513.0
+    ],
+    [
+      1921.0,
+      731.0
+    ],
+    [
+      1960.0,
+      752.0
+    ],
+    [
+      2500.0,
+      788.0
+    ],
+    [
+      3000.0,
+      795.0
+    ],
+    [
+      3500.0,
+      798.0
+    ],
+    [
+      4000.0,
+      788.0
+    ],
+    [
+      4500.0,
+      800.0
+    ],
+    [
+      4590.0,
+      795.0
+    ],
+    [
+      5000.0,
+      765.0
+    ],
+    [
+      5635.0,
+      706.0
+    ],
+    [
+      5750.0,
+      696.0
+    ],
+    [
+      6000.0,
+      668.0
+    ],
+    [
+      6120.0,
+      666.0
+    ],
+    [
+      6600.0,
+      609.0
+    ],
+    [
+      7000.0,
+      564.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      500.0,
+      10.0
+    ],
+    [
+      1000.0,
+      51.0
+    ],
+    [
+      1500.0,
+      108.0
+    ],
+    [
+      1921.0,
+      197.0
+    ],
+    [
+      1960.0,
+      207.0
+    ],
+    [
+      2500.0,
+      277.0
+    ],
+    [
+      3000.0,
+      335.0
+    ],
+    [
+      3500.0,
+      392.0
+    ],
+    [
+      4000.0,
+      443.0
+    ],
+    [
+      4500.0,
+      506.0
+    ],
+    [
+      4590.0,
+      513.0
+    ],
+    [
+      5000.0,
+      537.0
+    ],
+    [
+      5635.0,
+      558.0
+    ],
+    [
+      5750.0,
+      562.0
+    ],
+    [
+      6000.0,
+      563.0
+    ],
+    [
+      6120.0,
+      572.0
+    ],
+    [
+      6600.0,
+      564.0
+    ],
+    [
+      7000.0,
+      554.0
+    ]
+  ],
+  "country": "Germany",
+  "year": 2015,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

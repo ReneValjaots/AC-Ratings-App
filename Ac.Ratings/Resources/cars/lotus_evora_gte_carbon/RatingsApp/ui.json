@@ -1,0 +1,36 @@
+{
+  "name": "Lotus Evora GTE Carbon",
+  "brand": "Lotus",
+  "year": "2014",
+  "author": "Kunos",
+  "folderName": "lotus_evora_gte_carbon",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_evora_gte_carbon",
+  "specs": {
+    "convertedPower": "309kW/420hp",
+    "isManufacturerData": false,
+    "bhp": "420bhp",
+    "torque": "461Nm",
+    "weight": "1285kg",
+    "topspeed": "288km/h",
+    "acceleration": "4.4s 0-100",
+    "pwratio": "3.06kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "name": "Porsche Macan Turbo",
+  "brand": "Porsche",
+  "description": "The distinctly muscular front apron, with the side airblades of the conspicuously large cooling air intakes, is found nowhere else but on the Macan Turbo. It&#39;s a visual promise of thrilling performance. Bi-Xenon main headlights with dynamic cornering lights provide optimum illumination of the road – and therefore a high level of safety.<br><br><br>The Macan Turbo also stands out thanks to its front spoiler lip, the design of which is inspired by the 918 Spyder. The direction indicators and position lights have been integrated in such a way that they appear to hover inside the side air intakes. Below them are the LEDs of the fog lights. The sideblades are painted in the exterior color of the body. SportDesign sideskirts underline the powerful profile. Another typical feature of the Turbo is the &#39;Macan turbo&#39; logo on the rear hatch.<br><br><br>Impressively, the 3.6-liter twin-turbo V6 engine delivers an enormous power output of 400 hp. The sprint from 0 to 100 kmh is completed in a mere 4.6 seconds. Top speed is 266 kmh. Those aren&#39;t simply bare numbers, but a compelling statement in terms of performance – and efficiency.",
+  "tags": [
+    "#+ awd",
+    "#- semiautomatic"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "400bhp",
+    "torque": "550Nm",
+    "weight": "1925kg",
+    "topspeed": "266km/h",
+    "acceleration": "4.8s 0-100",
+    "pwratio": "4.81 kg/hp"
+  },
+  "torqueCurve": [
+    [
+      500.0,
+      307.0
+    ],
+    [
+      1000.0,
+      307.0
+    ],
+    [
+      1250.0,
+      350.0
+    ],
+    [
+      1500.0,
+      444.0
+    ],
+    [
+      1700.0,
+      550.0
+    ],
+    [
+      2000.0,
+      550.0
+    ],
+    [
+      2500.0,
+      550.0
+    ],
+    [
+      3000.0,
+      550.0
+    ],
+    [
+      3500.0,
+      550.0
+    ],
+    [
+      4000.0,
+      550.0
+    ],
+    [
+      4500.0,
+      550.0
+    ],
+    [
+      5000.0,
+      525.0
+    ],
+    [
+      5500.0,
+      490.0
+    ],
+    [
+      5750.0,
+      480.0
+    ],
+    [
+      6000.0,
+      475.0
+    ],
+    [
+      6250.0,
+      450.0
+    ],
+    [
+      6500.0,
+      420.0
+    ],
+    [
+      6700.0,
+      400.0
+    ],
+    [
+      7000.0,
+      360.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      500.0,
+      22.0
+    ],
+    [
+      1000.0,
+      43.0
+    ],
+    [
+      1250.0,
+      61.0
+    ],
+    [
+      1500.0,
+      94.0
+    ],
+    [
+      1700.0,
+      131.0
+    ],
+    [
+      2000.0,
+      154.0
+    ],
+    [
+      2500.0,
+      193.0
+    ],
+    [
+      3000.0,
+      232.0
+    ],
+    [
+      3500.0,
+      270.0
+    ],
+    [
+      4000.0,
+      309.0
+    ],
+    [
+      4500.0,
+      348.0
+    ],
+    [
+      5000.0,
+      369.0
+    ],
+    [
+      5500.0,
+      378.0
+    ],
+    [
+      5750.0,
+      388.0
+    ],
+    [
+      6000.0,
+      400.0
+    ],
+    [
+      6250.0,
+      395.0
+    ],
+    [
+      6500.0,
+      383.0
+    ],
+    [
+      6700.0,
+      376.0
+    ],
+    [
+      7000.0,
+      354.0
+    ]
+  ],
+  "country": "Germany",
+  "year": 2014,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

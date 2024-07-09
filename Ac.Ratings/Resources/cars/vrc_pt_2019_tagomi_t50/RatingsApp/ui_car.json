@@ -1,0 +1,195 @@
+{
+  "name": "Toyota TS050 Hybrid",
+  "brand": "Toyota",
+  "description": "The Tagomi T50 Hybrid is a sports prototype racing car developed for the 2016 Endurance Prototype rules in the Endurance Championship. The car is the direct successor of the Tagomi T40 Hybrid, which competed in both the 2014 and 2015 seasons. The T50 was revealed in France on 24 March 2016 due to Tagomi&#39;s 2-year cycle policy. The engine is a 2.4L twin-turbocharged petrol V6, while the two previous cars used a naturally aspirated petrol V8. It features an 8-megajoule hybrid system, which uses lithium-ion batteries.",
+  "tags": [
+    "#+ rwd"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "1032 bhp",
+    "torque": "",
+    "weight": "878kg",
+    "topspeed": "340km/h",
+    "acceleration": "1.7s",
+    "pwratio": "0.85 kg/hp",
+    "range": 80
+  },
+  "torqueCurve": [
+    [
+      3000.0,
+      581.07
+    ],
+    [
+      3250.0,
+      654.96
+    ],
+    [
+      3500.0,
+      715.04
+    ],
+    [
+      3750.0,
+      737.89
+    ],
+    [
+      4000.0,
+      748.31
+    ],
+    [
+      4250.0,
+      745.16
+    ],
+    [
+      4500.0,
+      735.76
+    ],
+    [
+      4750.0,
+      731.6
+    ],
+    [
+      5000.0,
+      724.17
+    ],
+    [
+      5250.0,
+      710.98
+    ],
+    [
+      5500.0,
+      701.63
+    ],
+    [
+      5750.0,
+      692.57
+    ],
+    [
+      6000.0,
+      680.97
+    ],
+    [
+      6250.0,
+      668.18
+    ],
+    [
+      6500.0,
+      657.29
+    ],
+    [
+      6750.0,
+      644.09
+    ],
+    [
+      7000.0,
+      627.69
+    ],
+    [
+      7250.0,
+      612.91
+    ],
+    [
+      7500.0,
+      597.22
+    ],
+    [
+      7800.0,
+      573.36
+    ],
+    [
+      8050.0,
+      550.64
+    ]
+  ],
+  "powerCurve": [
+    [
+      3000.0,
+      245.18
+    ],
+    [
+      3250.0,
+      299.39
+    ],
+    [
+      3500.0,
+      352.0
+    ],
+    [
+      3750.0,
+      389.19
+    ],
+    [
+      4000.0,
+      421.0
+    ],
+    [
+      4250.0,
+      445.43
+    ],
+    [
+      4500.0,
+      465.68
+    ],
+    [
+      4750.0,
+      488.77
+    ],
+    [
+      5000.0,
+      509.28
+    ],
+    [
+      5250.0,
+      525.0
+    ],
+    [
+      5500.0,
+      542.77
+    ],
+    [
+      5750.0,
+      560.11
+    ],
+    [
+      6000.0,
+      574.68
+    ],
+    [
+      6250.0,
+      587.37
+    ],
+    [
+      6500.0,
+      600.91
+    ],
+    [
+      6750.0,
+      611.5
+    ],
+    [
+      7000.0,
+      618.0
+    ],
+    [
+      7250.0,
+      624.99
+    ],
+    [
+      7500.0,
+      630.0
+    ],
+    [
+      7800.0,
+      629.02
+    ],
+    [
+      8050.0,
+      623.46
+    ]
+  ],
+  "country": "Japan",
+  "year": 2019,
+  "author": "VRC Modding Team",
+  "version": "1.1",
+  "url": "www.vrc-modding-team.net"
+}

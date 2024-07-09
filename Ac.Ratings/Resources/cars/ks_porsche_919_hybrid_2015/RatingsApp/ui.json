@@ -1,0 +1,36 @@
+{
+  "name": "Porsche 919 Hybrid 2015",
+  "brand": "Porsche",
+  "year": "2015",
+  "author": "Kunos",
+  "folderName": "ks_porsche_919_hybrid_2015",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_919_hybrid_2015",
+  "specs": {
+    "convertedPower": "662kW/900hp",
+    "isManufacturerData": false,
+    "bhp": "900bhp",
+    "torque": "--Nm",
+    "weight": "875kg",
+    "topspeed": "--km/h",
+    "acceleration": "2.2s 0-100",
+    "pwratio": "0.97 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ awd",
+    "#- sequential"
+  ]
+}

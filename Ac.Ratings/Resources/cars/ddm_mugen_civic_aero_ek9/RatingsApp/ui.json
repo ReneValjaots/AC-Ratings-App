@@ -1,0 +1,35 @@
+{
+  "name": "Mugen Civic type AERO (EK9)",
+  "brand": "Honda",
+  "year": "1998",
+  "author": "ДЯДЯ ДИМА",
+  "folderName": "ddm_mugen_civic_aero_ek9",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ddm_mugen_civic_aero_ek9",
+  "specs": {
+    "convertedPower": "204kW/277hp",
+    "isManufacturerData": false,
+    "bhp": "277 bhp",
+    "torque": "258 Nm",
+    "weight": "970 kg",
+    "topspeed": "270 km/h",
+    "acceleration": "5.7s 0-100",
+    "pwratio": "3.5 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "FWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ fwd"
+  ]
+}

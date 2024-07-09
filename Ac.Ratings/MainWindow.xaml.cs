@@ -2,7 +2,6 @@
 using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
 using System.Windows.Media.Imaging;
 using Ac.Ratings.Model;
 using Ac.Ratings.Services;
@@ -14,7 +13,6 @@ namespace Ac.Ratings {
     /// </summary>
     public partial class MainWindow : Window {
         private InitializeData _data;
-        private CollectionViewSource _carCollectionView;
 
         public MainWindow() {
             InitializeComponent();
@@ -49,7 +47,10 @@ namespace Ac.Ratings {
             TorqueFigures.Text = selectedCar.Specs.Torque ?? string.Empty;
             AccelerationFigures.Text = selectedCar.Specs.Acceleration ?? string.Empty;
             TopSpeedFigures.Text = selectedCar.Specs.Topspeed ?? string.Empty;
+
             Engine.Text = ShowCarEngineStats(selectedCar);
+            Drivetrain.Text = ShowCarDriveTrain(selectedCar);
+            Gearbox.Text = ShowCarGearbox(selectedCar);
 
             Brand.Text = selectedCar.Brand ?? string.Empty;
             Power.Text = selectedCar.Specs.Bhp ?? string.Empty;
@@ -62,16 +63,41 @@ namespace Ac.Ratings {
 
         private void LoadCarImage(Car car) {
             try {
-                if (!string.IsNullOrEmpty(car.PreviewFolder) && File.Exists(car.PreviewFolder)) {
-                    CarImage.Source = new BitmapImage(new Uri(car.PreviewFolder, UriKind.Absolute));
-                }
-                else {
+                var skinsDirectory = Path.Combine(car.FolderPath, "skins");
+
+                if (!Directory.Exists(skinsDirectory)) {
                     MessageBox.Show($"Preview image not found for {car.Name}");
+                    return;
                 }
+
+                var skinDirectories = Directory.GetDirectories(skinsDirectory);
+                foreach (var skinDir in skinDirectories) {
+                    var previewFilePath = Path.Combine(skinDir, "preview.jpg");
+                    if (File.Exists(previewFilePath)) {
+                        CarImage.Source = new BitmapImage(new Uri(previewFilePath, UriKind.Absolute));
+                        return;
+                    }
+                }
+
+                MessageBox.Show($"Preview image not found for {car.Name}");
             }
+
             catch (Exception ex) {
                 MessageBox.Show($"Failed to load image: {ex.Message}");
             }
+            
+
+            //try {
+            //    if (!string.IsNullOrEmpty(car.PreviewFolder) && File.Exists(car.PreviewFolder)) {
+            //        CarImage.Source = new BitmapImage(new Uri(car.PreviewFolder, UriKind.Absolute));
+            //    }
+            //    else {
+            //        MessageBox.Show($"Preview image not found for {car.Name}");
+            //    }
+            //}
+            //catch (Exception ex) {
+            //    MessageBox.Show($"Failed to load image: {ex.Message}");
+            //}
         }
 
         private void SaveRatings() {
@@ -163,6 +189,40 @@ namespace Ac.Ratings {
             WarningIcon.Visibility = isManufacturerData ? Visibility.Collapsed : Visibility.Visible;
         }
 
+        private string ShowCarDriveTrain(Car selectedCar) {
+            var tags = selectedCar.Tags;
+            var drivetrainTag = tags?.FirstOrDefault(x => x.Contains("#+"))?.Replace(" ", "").ToLower().Remove(0, 2);
+            if (drivetrainTag == null)
+                return string.Empty; 
+            if (drivetrainTag.Contains("rwd"))
+                return "RWD";
+            if (drivetrainTag.Contains("fwd"))
+                return "FWD";
+            return drivetrainTag.Contains("awd") ? "AWD" : string.Empty;
+        }
+
+        private string ShowCarGearbox(Car selectedCar) {
+            var gearsCount = selectedCar.CarData.GearsCount;
+            var isManual = selectedCar.CarData.SupportsShifter;
+            var tags = selectedCar.Tags;
+            var gearboxFromTags = tags?.FirstOrDefault(x => x.Contains("#-"))?.Replace(" ", "").Remove(0, 2);
+            if (gearsCount == 0) {
+                if (gearboxFromTags == null)
+                    return string.Empty;
+                return gearboxFromTags;
+            }
+
+            if (isManual) {
+                return $"{gearsCount}-speed manual";
+            }
+
+            if (!isManual) {
+                return $"{gearsCount}-speed automatic";
+            }
+
+            return string.Empty;
+        }
+
         private string? GetCarEngineData(Car selectedCar) {
             var tags = selectedCar.Tags;
             var engineTag = tags?.FirstOrDefault(x => x.Contains("#!"))?.Replace(" ", "").Remove(0, 2);
@@ -211,11 +271,5 @@ namespace Ac.Ratings {
             }
             return result;
         }
-
-        private string GetExtra(string result, string data) {
-            result += data.Trim() + " ";
-            return result;
-        }
-
     }
 }

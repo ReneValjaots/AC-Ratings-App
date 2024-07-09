@@ -1,0 +1,33 @@
+{
+  "name": "Mitsubishi Lancer Evolution IX MR VARIS",
+  "brand": "Mitsubishi",
+  "year": "2006",
+  "author": "YoikiGarage",
+  "folderName": "yg_mitsubishi_lancer_evolution_9_varis",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\yg_mitsubishi_lancer_evolution_9_varis",
+  "specs": {
+    "convertedPower": "473kW/643hp",
+    "isManufacturerData": false,
+    "bhp": "643 bhp",
+    "torque": "812 Nm",
+    "weight": "1415 kg",
+    "topspeed": "246 km/h",
+    "acceleration": "4.55s 0-100",
+    "pwratio": "2.2 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "AWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": []
+}

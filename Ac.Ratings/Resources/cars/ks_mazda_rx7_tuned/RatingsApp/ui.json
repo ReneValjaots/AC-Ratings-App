@@ -1,0 +1,36 @@
+{
+  "name": "Mazda RX-7 Tuned",
+  "brand": "Mazda",
+  "year": "1991",
+  "author": "Kunos",
+  "folderName": "ks_mazda_rx7_tuned",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mazda_rx7_tuned",
+  "specs": {
+    "convertedPower": "326kW/444hp",
+    "isManufacturerData": false,
+    "bhp": "444bhp",
+    "torque": "398Nm",
+    "weight": "1312kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.95kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

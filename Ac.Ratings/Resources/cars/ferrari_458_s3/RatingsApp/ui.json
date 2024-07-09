@@ -1,0 +1,36 @@
+{
+  "name": "Ferrari 458 Italia Stage 3",
+  "brand": "Ferrari",
+  "year": "2011",
+  "author": "Kunos",
+  "folderName": "ferrari_458_s3",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ferrari_458_s3",
+  "specs": {
+    "convertedPower": "419kW/570hp",
+    "isManufacturerData": false,
+    "bhp": "570bhp",
+    "torque": "540Nm",
+    "weight": "1140kg",
+    "topspeed": "325+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.00kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ]
+}

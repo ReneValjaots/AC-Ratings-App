@@ -1,0 +1,33 @@
+{
+  "name": "Spark Formula E Gen3",
+  "brand": "Spark Racing Technologies",
+  "year": "2023",
+  "author": "VRC Modding Team",
+  "folderName": "vrc_formula_lithium_2023",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_formula_lithium_2023",
+  "specs": {
+    "convertedPower": "346kW/470hp",
+    "isManufacturerData": false,
+    "bhp": "470 bhp",
+    "torque": "",
+    "weight": "771 kg",
+    "topspeed": "325 kph",
+    "acceleration": "3s",
+    "pwratio": "1.64 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 1,
+    "supportsShifter": false
+  },
+  "tags": []
+}

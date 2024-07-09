@@ -1,0 +1,36 @@
+{
+  "name": "TECHART GTstreet R",
+  "brand": "TECHART",
+  "year": "2021",
+  "author": "TECHART",
+  "folderName": "gue_techart_gt_street_r",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\gue_techart_gt_street_r",
+  "specs": {
+    "convertedPower": "588kW/800hp",
+    "isManufacturerData": false,
+    "bhp": "800 bhp",
+    "torque": "950 Nm",
+    "weight": "1670 kg",
+    "topspeed": "350 km/h",
+    "acceleration": "2.5 s 0–100",
+    "pwratio": "2.09 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 8,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ awd",
+    "#- semiautomatic"
+  ]
+}

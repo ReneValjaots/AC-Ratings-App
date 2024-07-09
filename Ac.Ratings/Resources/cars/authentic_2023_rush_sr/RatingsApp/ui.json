@@ -1,0 +1,36 @@
+{
+  "name": "Rush SR",
+  "brand": "Rush Auto Works",
+  "year": "2024",
+  "author": "Authentic Simulation LLC",
+  "folderName": "authentic_2023_rush_sr",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\authentic_2023_rush_sr",
+  "specs": {
+    "convertedPower": "109kW/148hp",
+    "isManufacturerData": false,
+    "bhp": "148 bhp",
+    "torque": "102 Nm",
+    "weight": "420 kg",
+    "topspeed": "249km/h",
+    "acceleration": "3.8s 0-100",
+    "pwratio": "2.84 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": null,
+    "gearsCount": 0,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

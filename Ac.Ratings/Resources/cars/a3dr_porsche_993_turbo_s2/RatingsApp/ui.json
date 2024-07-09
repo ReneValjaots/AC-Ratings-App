@@ -1,0 +1,35 @@
+{
+  "name": "Porsche 911 (993) Turbo Canyon Spec",
+  "brand": "Porsche",
+  "year": "1996",
+  "author": "Alberto Daniel Russo",
+  "folderName": "a3dr_porsche_993_turbo_s2",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_porsche_993_turbo_s2",
+  "specs": {
+    "convertedPower": "360kW/490hp",
+    "isManufacturerData": false,
+    "bhp": "490 bhp",
+    "torque": "648 Nm",
+    "weight": "1448 kg",
+    "topspeed": "321 km/h",
+    "acceleration": "3.4 s 0–100",
+    "pwratio": "2.96 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ awd"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Cupra Leon Competición 2022",
+  "brand": "Cupra",
+  "year": "2022",
+  "author": "TM-Modding",
+  "folderName": "tmm_cupra_tcr_2022",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\tmm_cupra_tcr_2022",
+  "specs": {
+    "convertedPower": "251kW/341hp",
+    "isManufacturerData": false,
+    "bhp": "341 bhp",
+    "torque": "436 Nm",
+    "weight": "1235 kg",
+    "topspeed": "245km/h",
+    "acceleration": "5.0s 0-100",
+    "pwratio": "3.62 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "FWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#- sequential",
+    "#+ fwd"
+  ]
+}

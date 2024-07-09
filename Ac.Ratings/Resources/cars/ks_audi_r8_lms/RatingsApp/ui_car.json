@@ -1,0 +1,189 @@
+{
+  "name": "Audi R8 LMS Ultra",
+  "brand": "Audi",
+  "description": "The Audi R8 LMS is the first race car to have been specifically developed by Audi for customer teams. Maximum reliability, ease of use for teams and drivers and, obviously, competitiveness were the focal topics guiding the development of the mid-engine sports car. The result: The GT3 version of the R8 LMS ultra and its US version for the GT Daytona (GTD) class are fast and reliable. Numerous successes and championship titles have been providing impressive proof of this since 2009.<br><br>The perfect base for both race car versions stems from road cars. More than 50 per cent of the production parts of the Audi R8 V10 are also used for racing by Audi Sport customer racing. The production V10 engine with FSI gasoline direct injection has such good genes that it has been adopted for the race cars almost unchanged. This financially benefits the Audi customer teams as well. The first inspection is due only after 10.000 race kilometres, followed by the first rebuild after 20.000 kilometres.<br><br>Audi Sport customer racing is just as much a part of Technical Development (TE) at Audi as Audi Sport is. Armin Plietsch, Head of Technology at Audi Sport customer racing, can draw on the entire know-how of the Audi Group and the huge wealth of experience from the DTM, WEC and other racing series. Before switching to the GT project at Audi Sport he was involved in the DTM programme in a leading role. Details such as the Audi R8 LMS ultra&#39;s rear wing suspended from the top, the small winglets at the front, as well a glance into the interior, reveal the close kinship between the customer sport race cars and Audi&#39;s successful DTM and LMP1 race cars.",
+  "tags": [
+    "#+ rwd",
+    "#- sequential",
+    "#! 5.2L & V10"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "419kW/570hp",
+    "torque": "500+Nm",
+    "weight": "1250kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.98 kg/hp",
+    "range": 260
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      171.0
+    ],
+    [
+      1000.0,
+      274.0
+    ],
+    [
+      1500.0,
+      324.0
+    ],
+    [
+      2000.0,
+      333.0
+    ],
+    [
+      2500.0,
+      356.0
+    ],
+    [
+      3000.0,
+      406.0
+    ],
+    [
+      3500.0,
+      426.0
+    ],
+    [
+      4000.0,
+      458.0
+    ],
+    [
+      4500.0,
+      466.0
+    ],
+    [
+      5000.0,
+      473.0
+    ],
+    [
+      5500.0,
+      488.0
+    ],
+    [
+      6000.0,
+      492.0
+    ],
+    [
+      6500.0,
+      500.0
+    ],
+    [
+      7000.0,
+      503.0
+    ],
+    [
+      7500.0,
+      498.0
+    ],
+    [
+      8000.0,
+      492.0
+    ],
+    [
+      8500.0,
+      445.0
+    ],
+    [
+      9000.0,
+      450.0
+    ],
+    [
+      9250.0,
+      410.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      12.0
+    ],
+    [
+      1000.0,
+      38.0
+    ],
+    [
+      1500.0,
+      68.0
+    ],
+    [
+      2000.0,
+      94.0
+    ],
+    [
+      2500.0,
+      125.0
+    ],
+    [
+      3000.0,
+      171.0
+    ],
+    [
+      3500.0,
+      209.0
+    ],
+    [
+      4000.0,
+      257.0
+    ],
+    [
+      4500.0,
+      294.0
+    ],
+    [
+      5000.0,
+      332.0
+    ],
+    [
+      5500.0,
+      377.0
+    ],
+    [
+      6000.0,
+      415.0
+    ],
+    [
+      6500.0,
+      456.0
+    ],
+    [
+      7000.0,
+      494.0
+    ],
+    [
+      7500.0,
+      525.0
+    ],
+    [
+      8000.0,
+      553.0
+    ],
+    [
+      8500.0,
+      531.0
+    ],
+    [
+      9000.0,
+      569.0
+    ],
+    [
+      9250.0,
+      533.0
+    ]
+  ],
+  "country": "Germany",
+  "year": 2009,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

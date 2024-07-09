@@ -1,0 +1,36 @@
+{
+  "name": "Nissan Silvia S15",
+  "brand": "Nissan",
+  "year": "1999",
+  "author": "RiZe",
+  "folderName": "wm_nissan_s15",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\wm_nissan_s15",
+  "specs": {
+    "convertedPower": "368kW/500hp",
+    "isManufacturerData": false,
+    "bhp": "500 bhp",
+    "torque": "539 Nm",
+    "weight": "1050 kg",
+    "topspeed": "320+ km/h",
+    "acceleration": "3.5s 0-100",
+    "pwratio": "2.1 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

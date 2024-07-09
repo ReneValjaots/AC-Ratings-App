@@ -1,0 +1,155 @@
+{
+  "name": "Audi S1",
+  "brand": "Audi",
+  "description": "Back in the 1980s an Audi S1 garnered a legendary reputation – it was the car that would see the brand dominate the World Rally Championship in its day. Now the abbreviation is coming back – but this time as a road-going version: the Audi S1 and the S1 Sportback constitute the new flagship models in the compact A1 model line, adding an entry-level version to the Audi S model portfolio.<br><br><br>Like all Audi S models, the S1 and the S1 Sportback also come with quattro permanent all-wheel drive onboard. At its heart is a hydraulic multi-plate clutch located on the rear axle. Its specifically tuned control software boasts a decidedly dynamic setup. The electronic differential lock with the fine-tuned wheel-selective torque control is a function of the Electronic Stabilization Control (ESC).<br><br><br>The Audi S1 and the S1 Sportback are instantly recognizable as the flagship models in the A1 model line. Their xenon plus headlights are all-new while the LED rear lights come with new, horizontally structured graphics. A host of details – particularly on the front and rear bumper, the side sills and the exhaust system – boast more striking styling. Four new exterior colors supplement the available paint finishes. The optional quattro exterior styling package hones the look further, courtesy of features such as a large roof spoiler.",
+  "tags": [
+    "#+ awd",
+    "#! 2.0L & I4"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "170kW/231hp",
+    "torque": "370Nm",
+    "weight": "1340kg",
+    "topspeed": "241km/h",
+    "acceleration": "5.8s 0-100",
+    "pwratio": "7.88 kg/hp"
+  },
+  "torqueCurve": [
+    [
+      500.0,
+      88.0
+    ],
+    [
+      1000.0,
+      168.0
+    ],
+    [
+      1500.0,
+      265.0
+    ],
+    [
+      2000.0,
+      330.0
+    ],
+    [
+      2200.0,
+      376.0
+    ],
+    [
+      2500.0,
+      374.0
+    ],
+    [
+      3000.0,
+      356.0
+    ],
+    [
+      3500.0,
+      367.0
+    ],
+    [
+      4000.0,
+      348.0
+    ],
+    [
+      4250.0,
+      352.0
+    ],
+    [
+      4500.0,
+      350.0
+    ],
+    [
+      5000.0,
+      323.0
+    ],
+    [
+      5500.0,
+      293.0
+    ],
+    [
+      6000.0,
+      273.0
+    ],
+    [
+      6500.0,
+      244.0
+    ],
+    [
+      7000.0,
+      176.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      500.0,
+      6.0
+    ],
+    [
+      1000.0,
+      24.0
+    ],
+    [
+      1500.0,
+      56.0
+    ],
+    [
+      2000.0,
+      93.0
+    ],
+    [
+      2200.0,
+      116.0
+    ],
+    [
+      2500.0,
+      131.0
+    ],
+    [
+      3000.0,
+      150.0
+    ],
+    [
+      3500.0,
+      181.0
+    ],
+    [
+      4000.0,
+      195.0
+    ],
+    [
+      4250.0,
+      210.0
+    ],
+    [
+      4500.0,
+      221.0
+    ],
+    [
+      5000.0,
+      227.0
+    ],
+    [
+      5500.0,
+      226.0
+    ],
+    [
+      6000.0,
+      230.0
+    ],
+    [
+      6500.0,
+      223.0
+    ],
+    [
+      7000.0,
+      173.0
+    ]
+  ],
+  "country": "Germany",
+  "year": 2015,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

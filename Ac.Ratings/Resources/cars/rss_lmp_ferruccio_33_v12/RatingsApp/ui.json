@@ -1,0 +1,35 @@
+{
+  "name": "Ferrari 333 SP",
+  "brand": "Ferrari",
+  "year": "1999",
+  "author": "Race Sim Studio",
+  "folderName": "rss_lmp_ferruccio_33_v12",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_lmp_ferruccio_33_v12",
+  "specs": {
+    "convertedPower": "441kW/600hp",
+    "isManufacturerData": false,
+    "bhp": "600 bhp",
+    "torque": "416 Nm",
+    "weight": "979kg",
+    "topspeed": "330+km/h ",
+    "acceleration": null,
+    "pwratio": "1.63 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd"
+  ]
+}

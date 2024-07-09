@@ -1,0 +1,36 @@
+{
+  "name": "Dallara GP2/11",
+  "brand": "Dallara",
+  "year": "2017",
+  "author": "Race Sim Studio",
+  "folderName": "rss_formula_rss_2_v8",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_rss_2_v8",
+  "specs": {
+    "convertedPower": "450kW/612hp",
+    "isManufacturerData": false,
+    "bhp": "612bhp",
+    "torque": "500Nm",
+    "weight": "688kg",
+    "topspeed": "320 km/h",
+    "acceleration": "2.6s 0-100",
+    "pwratio": "1.13kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

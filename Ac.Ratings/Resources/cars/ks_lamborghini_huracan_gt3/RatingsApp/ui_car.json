@@ -1,0 +1,188 @@
+{
+  "name": "Lamborghini Huracan GT3",
+  "brand": "Lamborghini",
+  "description": "The Lamborghini Hurac&#225;n GT3 is equipped with an Alu-Carbon chassis and a fully integrated FIA-compliant roll-cage. The subframe has been modified both at the front and rear to accommodate a high performance water radiator (front), and for a better positioning of the gearbox (rear), improving aerodynamics.The kerb weight is 1239 Kg with a 42/58 front/rear weight distribution. The final weight will be set by the FIA BOP.<br><br>The bodywork is in composite materials and, along with the aerodynamics, has been developed in collaboration with Dallara Engineering with the direct involvement of the founder Gian Paolo Dallara. Aerodynamics have been tuned to grant the best possible air flow penetration, and maximum adherence and traction in any condition on any asphalt. Efficiency has been improved thanks to the rear adjustable wing, adjustable front diffuser and louvres. The new aerodynamics also allow improved cooling of the braking system.<br><br>As for the Hurac&#225;n Super Trofeo, the GT3 is equipped with new bodywork fast- fittings and equipped with a new, enhanced-performing engine and gearbox oil cooler. Special attention has been given to safety, with the new Lamborghini Hurac&#225;n GT3 equipped with a carbon frame 8862 specification seat; an OMP fire extinguishing system; and an innovative roof hatch which enables, in case of need, quick assistance by medical personnel through the roof of the car. Seat belts are provided by OMP, the fuel tank is an FT3 type and the pedals are adjustable. Front and rear lights are LED. The new multifunction steering wheel has been re-engineered along with OMP.<br><br>The new rear-wheel drive Hurac&#225;n GT3 adopts the V10 direct injection engine mounted on the road car, managed by a Bosch Motorsport control unit that also manages traction control, gearbox and the TFT display on the dashboard. All wiring and connectors are designed specifically for racing. The engine is fixed on the chassis by rigid mountings and is coupled with a sequential six-speed gearbox, according to FIA regulations, and a three-disc racing clutch.<br><br>The braking system is made up by 380 x 34 mm steel discs at the front (6 pot), and 355 x 32mm steel discs at the back (4 pot), according to FIA regulations, equipped with Bosch ABS. This system features 12 different settings that can be actioned directly from the steering wheel, as can traction control. The tyre sizes are 315/680 at the front and 325/705 at the back. The car is equipped with a pneumatic lifting system.",
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "600bhp",
+    "torque": "500+Nm",
+    "weight": "1239kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.07kg/hp",
+    "range": 280
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      171.0
+    ],
+    [
+      1000.0,
+      274.0
+    ],
+    [
+      1500.0,
+      324.0
+    ],
+    [
+      2000.0,
+      333.0
+    ],
+    [
+      2500.0,
+      356.0
+    ],
+    [
+      3000.0,
+      406.0
+    ],
+    [
+      3500.0,
+      426.0
+    ],
+    [
+      4000.0,
+      458.0
+    ],
+    [
+      4500.0,
+      466.0
+    ],
+    [
+      5000.0,
+      485.0
+    ],
+    [
+      5500.0,
+      511.0
+    ],
+    [
+      6000.0,
+      527.0
+    ],
+    [
+      6500.0,
+      546.0
+    ],
+    [
+      7000.0,
+      537.0
+    ],
+    [
+      7500.0,
+      524.0
+    ],
+    [
+      8000.0,
+      504.0
+    ],
+    [
+      8500.0,
+      451.0
+    ],
+    [
+      9000.0,
+      450.0
+    ],
+    [
+      9250.0,
+      410.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      12.0
+    ],
+    [
+      1000.0,
+      38.0
+    ],
+    [
+      1500.0,
+      68.0
+    ],
+    [
+      2000.0,
+      94.0
+    ],
+    [
+      2500.0,
+      125.0
+    ],
+    [
+      3000.0,
+      171.0
+    ],
+    [
+      3500.0,
+      209.0
+    ],
+    [
+      4000.0,
+      257.0
+    ],
+    [
+      4500.0,
+      294.0
+    ],
+    [
+      5000.0,
+      341.0
+    ],
+    [
+      5500.0,
+      395.0
+    ],
+    [
+      6000.0,
+      444.0
+    ],
+    [
+      6500.0,
+      498.0
+    ],
+    [
+      7000.0,
+      528.0
+    ],
+    [
+      7500.0,
+      552.0
+    ],
+    [
+      8000.0,
+      566.0
+    ],
+    [
+      8500.0,
+      538.0
+    ],
+    [
+      9000.0,
+      569.0
+    ],
+    [
+      9250.0,
+      533.0
+    ]
+  ],
+  "country": "Italy",
+  "year": 2015,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

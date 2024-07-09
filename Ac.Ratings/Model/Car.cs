@@ -6,7 +6,8 @@ namespace Ac.Ratings.Model {
     public class Car : INotifyPropertyChanged {
         private string? _name;
         private string? _brand;
-        private string? _previewFolder;
+        private string? _folderName;
+        private string? _folderPath;
         private CarSpecs _specs = new();
         private CarRatings _ratings = new();
         private CarData _carData = new();
@@ -34,9 +35,14 @@ namespace Ac.Ratings.Model {
             set => SetField(ref _author, value);
         }
 
-        [JsonProperty("previewFolder")] public string? PreviewFolder {
-            get => _previewFolder;
-            set => SetField(ref _previewFolder, value);
+        [JsonProperty("folderName")] public string? FolderName {
+            get => _folderName;
+            set => SetField(ref _folderName, value);
+        }
+
+        [JsonProperty("folderPath")] public string? FolderPath {
+            get => _folderPath;
+            set => SetField(ref _folderPath, value);
         }
 
         [JsonProperty("specs")] public CarSpecs Specs {

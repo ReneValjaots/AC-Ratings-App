@@ -1,0 +1,36 @@
+{
+  "name": "RUF RT12 R AWD",
+  "brand": "RUF",
+  "year": "2011",
+  "author": "Kunos",
+  "folderName": "ks_ruf_rt12r_awd",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ruf_rt12r_awd",
+  "specs": {
+    "convertedPower": "537kW/730hp",
+    "isManufacturerData": false,
+    "bhp": "730bhp",
+    "torque": "940Nm",
+    "weight": "1,495kg",
+    "topspeed": "370+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.00kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "AWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ awd",
+    "#- manual"
+  ]
+}

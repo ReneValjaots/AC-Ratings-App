@@ -1,0 +1,140 @@
+{
+  "name": "Ferrari 312T",
+  "brand": "Ferrari",
+  "description": "1975. The year of the 312 T, where the T stood for the transversal gearbox, in a 90-degree angle to the engine. This solution led to a compact engine and an improved weight distribution and a very fast and agile car, but also quite nervous and difficult to drive to the limit. <br><br>After 11 years the Scuderia regained the Drivers&#39; Title with Niki Lauda, thanks to his 5 wins, 8 places on the podium, 9 pole positions and 12 times in the points in 14 races. <br><br>The Constructors&#39; Title was won thanks to the contribution of Clay Regazzoni, who won the Italian GP. This was the end of the domination by V8s with the first V12-cylinder winning the Championship with almost 500bhp",
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "495bhp",
+    "torque": "308Nm",
+    "weight": "606kg",
+    "topspeed": "320km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.22kg/hp",
+    "range": 320
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      1000.0,
+      123.0
+    ],
+    [
+      2000.0,
+      122.0
+    ],
+    [
+      3000.0,
+      154.0
+    ],
+    [
+      4000.0,
+      191.0
+    ],
+    [
+      5000.0,
+      245.0
+    ],
+    [
+      6000.0,
+      264.0
+    ],
+    [
+      7000.0,
+      290.0
+    ],
+    [
+      8000.0,
+      289.0
+    ],
+    [
+      9000.0,
+      303.0
+    ],
+    [
+      10000.0,
+      305.0
+    ],
+    [
+      11000.0,
+      301.0
+    ],
+    [
+      12000.0,
+      243.0
+    ],
+    [
+      13000.0,
+      228.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      1000.0,
+      18.0
+    ],
+    [
+      2000.0,
+      35.0
+    ],
+    [
+      3000.0,
+      66.0
+    ],
+    [
+      4000.0,
+      109.0
+    ],
+    [
+      5000.0,
+      175.0
+    ],
+    [
+      6000.0,
+      227.0
+    ],
+    [
+      7000.0,
+      290.0
+    ],
+    [
+      8000.0,
+      330.0
+    ],
+    [
+      9000.0,
+      389.0
+    ],
+    [
+      10000.0,
+      437.0
+    ],
+    [
+      11000.0,
+      474.0
+    ],
+    [
+      12000.0,
+      487.0
+    ],
+    [
+      13000.0,
+      496.0
+    ]
+  ],
+  "country": "Italy",
+  "year": 1975,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

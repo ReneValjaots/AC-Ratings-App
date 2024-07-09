@@ -1,0 +1,252 @@
+{
+  "name": "Honda S800 RSC",
+  "brand": "Honda",
+  "description": "------------------------------------------------------<br>CREATED BY ALBERTO DANIEL RUSSO aka A3DR<br>https://a3dr.artstation.com/<br>PHYSICS BY JASON COATES aka APHIDGOD<br>------------------------------------------------------<br><br>The S800 is a sports car from Honda. Introduced at the 1965 Tokyo Motor Show, the S800 would replace the successful Honda S600 as the company&#39;s image car and would compete with the Austin-Healey Sprite, MG Midget, Triumph Spitfire and Fiat 850 Spider.<br><br>Like the S600, it was available as either a coupe or roadster and continued the advanced technology of its predecessors. The 791 cc straight-4 engine produced 70 hp 52 kW at 8000 rpm, thus making this Honda&#39;s first 100 mph (160 km/h) automobile, but still allowing for 35 mpg or 6.7 L/100 km. In April 1967 the car was described as the fastest production 1-litre car in the world thanks to its high revving engine up to 10,000 rpm and the manufacturer&#39;s history of manufacturing powerful relatively low capacity motor-cycle engines.<br><br>In February 1968, the S800M (aka S800MK2) was introduced with flush mounted interior door handles, side marker lights outside, dual-circuit brakes, lean burn carburetion under the bonnet and safety glass. These changes were made for the American market, but the car was never imported there officially. Production ended in May 1970 with 11,536 S800s produced. Honda did not manufacture another S roadster for nearly thirty years until the release of the S2000 for the 2000 model year.",
+  "class": "race",
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "range": 79,
+  "torqueCurve": [
+    [
+      0.0,
+      55.7575757575758
+    ],
+    [
+      112.0,
+      55.7575757575758
+    ],
+    [
+      224.0,
+      55.7575757575758
+    ],
+    [
+      336.0,
+      55.7575757575758
+    ],
+    [
+      448.0,
+      55.7575757575758
+    ],
+    [
+      500.0,
+      55.7575757575758
+    ],
+    [
+      1000.0,
+      59.3939393939394
+    ],
+    [
+      2000.0,
+      64.2424242424242
+    ],
+    [
+      2500.0,
+      65.4545454545455
+    ],
+    [
+      3500.0,
+      70.3030303030303
+    ],
+    [
+      4000.0,
+      69.0909090909091
+    ],
+    [
+      4500.0,
+      70.3030303030303
+    ],
+    [
+      5500.0,
+      75.1515151515152
+    ],
+    [
+      6000.0,
+      73.9393939393939
+    ],
+    [
+      6500.0,
+      77.5757575757576
+    ],
+    [
+      7500.0,
+      80.0
+    ],
+    [
+      7504.0,
+      80.0
+    ],
+    [
+      7616.0,
+      80.0
+    ],
+    [
+      7728.0,
+      80.0
+    ],
+    [
+      7840.0,
+      80.0
+    ],
+    [
+      7952.0,
+      80.0
+    ],
+    [
+      8000.0,
+      80.0
+    ],
+    [
+      8500.0,
+      76.3636363636364
+    ],
+    [
+      9500.0,
+      71.5151515151515
+    ],
+    [
+      10000.0,
+      70.3030303030303
+    ],
+    [
+      10500.0,
+      67.8787878787879
+    ],
+    [
+      11000.0,
+      63.030303030303
+    ],
+    [
+      11200.0,
+      59.6363636363636
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      112.0,
+      0.876190476190476
+    ],
+    [
+      224.0,
+      1.75238095238095
+    ],
+    [
+      336.0,
+      2.62857142857143
+    ],
+    [
+      448.0,
+      3.5047619047619
+    ],
+    [
+      500.0,
+      3.91156462585034
+    ],
+    [
+      1000.0,
+      8.33333333333333
+    ],
+    [
+      2000.0,
+      18.0272108843537
+    ],
+    [
+      2500.0,
+      22.9591836734694
+    ],
+    [
+      3500.0,
+      34.5238095238095
+    ],
+    [
+      4000.0,
+      38.7755102040816
+    ],
+    [
+      4500.0,
+      44.3877551020408
+    ],
+    [
+      5500.0,
+      57.9931972789116
+    ],
+    [
+      6000.0,
+      62.2448979591837
+    ],
+    [
+      6500.0,
+      70.7482993197279
+    ],
+    [
+      7500.0,
+      84.1836734693878
+    ],
+    [
+      7504.0,
+      84.2285714285714
+    ],
+    [
+      7616.0,
+      85.4857142857143
+    ],
+    [
+      7728.0,
+      86.7428571428571
+    ],
+    [
+      7840.0,
+      88.0
+    ],
+    [
+      7952.0,
+      89.2571428571429
+    ],
+    [
+      8000.0,
+      89.7959183673469
+    ],
+    [
+      8500.0,
+      91.0714285714286
+    ],
+    [
+      9500.0,
+      95.3231292517007
+    ],
+    [
+      10000.0,
+      98.6394557823129
+    ],
+    [
+      10500.0,
+      100.0
+    ],
+    [
+      11000.0,
+      97.2789115646258
+    ],
+    [
+      11200.0,
+      93.7142857142857
+    ]
+  ],
+  "year": 1968,
+  "country": "Japan",
+  "author": "Alberto Daniel Russo",
+  "version": "2.5",
+  "url": "https://a3dr.artstation.com/",
+  "specs": {
+    "bhp": "100bhp",
+    "torque": "80Nm",
+    "weight": "660kg",
+    "topspeed": "182km/h",
+    "acceleration": "6.1s 0-100",
+    "pwratio": "6.6kg/hp"
+  }
+}

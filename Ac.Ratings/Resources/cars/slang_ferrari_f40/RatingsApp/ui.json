@@ -1,0 +1,36 @@
+{
+  "name": "Ferrari F40 Custom",
+  "brand": "Ferrari",
+  "year": "1992",
+  "author": "F40_LM_Lover edit Opperslang",
+  "folderName": "slang_ferrari_f40",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\slang_ferrari_f40",
+  "specs": {
+    "convertedPower": "417kW/567hp",
+    "isManufacturerData": false,
+    "bhp": "567 bhp",
+    "torque": "681 Nm",
+    "weight": "1175 kg",
+    "topspeed": "324km/h",
+    "acceleration": "3.9s 0-100",
+    "pwratio": "2.07 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#- manual",
+    "#+ rwd"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Chevrolet Corvette C4 ZR-1",
+  "brand": "Chevrolet",
+  "year": "1990",
+  "author": "Siim Annuk (Some1), aphidgod, A3DR & others",
+  "folderName": "some1_corvette_c4_zr1_1990",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\some1_corvette_c4_zr1_1990",
+  "specs": {
+    "convertedPower": "298kW/405hp",
+    "isManufacturerData": false,
+    "bhp": "405 bhp",
+    "torque": "522 Nm",
+    "weight": "1503 kg",
+    "topspeed": "297 km/h",
+    "acceleration": "4.4 s 0–100",
+    "pwratio": "3.71 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

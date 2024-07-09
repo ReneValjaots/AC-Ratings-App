@@ -1,0 +1,33 @@
+{
+  "name": "Honda NSX-GT500",
+  "brand": "Honda",
+  "year": "2021",
+  "author": "United Racing Design",
+  "folderName": "urd_jt5_snx_2021",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_jt5_snx_2021",
+  "specs": {
+    "convertedPower": "478kW/650hp",
+    "isManufacturerData": false,
+    "bhp": "650 bhp",
+    "torque": "628 Nm",
+    "weight": "1020 kg",
+    "topspeed": "300 km/h",
+    "acceleration": "3s 0-100",
+    "pwratio": "1.57 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": null,
+    "gearsCount": 0,
+    "supportsShifter": false
+  },
+  "tags": []
+}

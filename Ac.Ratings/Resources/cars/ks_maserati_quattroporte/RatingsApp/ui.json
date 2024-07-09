@@ -1,0 +1,36 @@
+{
+  "name": "Maserati Quattroporte GTS",
+  "brand": "Maserati",
+  "year": "2013",
+  "author": "Kunos",
+  "folderName": "ks_maserati_quattroporte",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_maserati_quattroporte",
+  "specs": {
+    "convertedPower": "390kW/530hp",
+    "isManufacturerData": false,
+    "bhp": "530bhp",
+    "torque": "710Nm",
+    "weight": "1900kg",
+    "topspeed": "310km/h",
+    "acceleration": "4.7s 0-100",
+    "pwratio": "3.58kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 8,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ]
+}

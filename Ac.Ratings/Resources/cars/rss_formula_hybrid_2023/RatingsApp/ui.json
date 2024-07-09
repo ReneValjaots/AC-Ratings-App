@@ -1,0 +1,36 @@
+{
+  "name": "Formula Hybrid® 2023",
+  "brand": "Race Sim Studio",
+  "year": "2023",
+  "author": "Race Sim Studio",
+  "folderName": "rss_formula_hybrid_2023",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_hybrid_2023",
+  "specs": {
+    "convertedPower": "732kW/996hp",
+    "isManufacturerData": false,
+    "bhp": "996bhp",
+    "torque": "555Nm",
+    "weight": "807kg",
+    "topspeed": "+340km/h",
+    "acceleration": "2s 0-100",
+    "pwratio": "0.81 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 8,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

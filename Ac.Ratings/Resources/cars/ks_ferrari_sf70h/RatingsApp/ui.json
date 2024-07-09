@@ -1,0 +1,36 @@
+{
+  "name": "Ferrari SF70H",
+  "brand": "Ferrari",
+  "year": "2017",
+  "author": "Kunos",
+  "folderName": "ks_ferrari_sf70h",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_sf70h",
+  "specs": {
+    "convertedPower": "--bhp",
+    "isManufacturerData": false,
+    "bhp": "--bhp",
+    "torque": "--Nm",
+    "weight": "--kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "--kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 8,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

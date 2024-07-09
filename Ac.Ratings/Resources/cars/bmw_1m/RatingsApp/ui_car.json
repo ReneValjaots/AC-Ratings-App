@@ -1,0 +1,157 @@
+{
+  "name": "BMW 1M",
+  "brand": "BMW",
+  "description": "The letter M now comes to the segment of the BMW 1 Series to symbolise outstanding power delivery and the highly dynamic driving properties of a high-performance sports car. <br>In the BMW 1 Series M Coupe, the technology of a high-performance car is combined with the agility and lightness of a compact model to create a whole new dimension of sports-style driving pleasure. With this 2-door model, BMW M GmbH is now realising for the first time in this vehicle class its concept of racing-oriented performance characteristics in a car developed for everyday use . This further extends the company&#39;s model range, paving the way for younger target groups to be able to access the hallmark driving experience offered by an M car.<br><br>The BMW 1 Series M Coupe in-line 6-cylinder engine with M TwinPower Turbo and petrol direct injection develops a maximum output of 250 kW/340 bhp with an engine-speed-oriented characteristic curve typical of BMW M cars. With chassis technology derived directly from motor racing, a power-to-weight ratio reduced to 4.4 kilograms per bhp and precisely optimised aerodynamic components including innovative air curtains at the front end, supreme conversion of superior propulsion power into thrilling driving dynamics is guaranteed. The BMW 1 Series M Coupe accelerates in 4.9 seconds from zero to 100 km/h and reaches the 200 km/h mark after 17.3 seconds.",
+  "tags": [
+    "#+ rwd",
+    "#- manual",
+    "#! 3.0L & I6 & M TwinPower Turbo"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "250kW/340hp",
+    "torque": "500Nm",
+    "weight": "1495kg",
+    "topspeed": "250+km/h",
+    "acceleration": "4.9s 0-100",
+    "pwratio": "5.98 kg/hp",
+    "range": 80
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      244.0
+    ],
+    [
+      1000.0,
+      300.0
+    ],
+    [
+      1500.0,
+      392.0
+    ],
+    [
+      2000.0,
+      500.0
+    ],
+    [
+      2500.0,
+      500.0
+    ],
+    [
+      3000.0,
+      500.0
+    ],
+    [
+      3500.0,
+      500.0
+    ],
+    [
+      4000.0,
+      500.0
+    ],
+    [
+      4500.0,
+      480.0
+    ],
+    [
+      5000.0,
+      441.0
+    ],
+    [
+      5500.0,
+      415.0
+    ],
+    [
+      6000.0,
+      406.0
+    ],
+    [
+      6500.0,
+      357.0
+    ],
+    [
+      7000.0,
+      322.0
+    ],
+    [
+      7200.0,
+      306.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      17.0
+    ],
+    [
+      1000.0,
+      42.0
+    ],
+    [
+      1500.0,
+      83.0
+    ],
+    [
+      2000.0,
+      124.0
+    ],
+    [
+      2500.0,
+      176.0
+    ],
+    [
+      3000.0,
+      211.0
+    ],
+    [
+      3500.0,
+      246.0
+    ],
+    [
+      4000.0,
+      248.0
+    ],
+    [
+      4500.0,
+      281.0
+    ],
+    [
+      5000.0,
+      310.0
+    ],
+    [
+      5500.0,
+      321.0
+    ],
+    [
+      6000.0,
+      342.0
+    ],
+    [
+      6500.0,
+      326.0
+    ],
+    [
+      7000.0,
+      317.0
+    ],
+    [
+      7200.0,
+      309.0
+    ]
+  ],
+  "country": "Germany",
+  "year": 2004,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

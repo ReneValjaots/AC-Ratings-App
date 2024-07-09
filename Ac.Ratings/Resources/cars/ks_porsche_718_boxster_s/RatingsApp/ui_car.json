@@ -1,0 +1,171 @@
+{
+  "name": "Porsche 718 Boxster S",
+  "brand": "Porsche",
+  "description": "20 years after the first Boxster made its debut, Porsche has restructured its mid-engine roadsters in 2016. The designation for the new generation of models is 718 Boxster and 718 Boxster S. This way, Porsche continues the tradition of the four-cylinder flat engines that were used in the Porsche 718 mid-engine sports cars that won numerous races back in the 1950s and 1960s, among them being the legendary Targa Florio and Le Mans.<br><br><br>The centrepiece of the new model series is the newly developed four-cylinder flat engine with turbocharging - the first time since the late 1960s that Porsche is again implementing sports cars with this type of engine. The 718 Boxster S develops 257 kW (350 hp) from 2.5 litres of displacement. In the S-model, Porsche also uses a turbocharger with variable turbine geometry. In fact Porsche is now the only manufacturer to offer VTG technology in production cars with petrol-driven engines, both in the 911 Turbo and in the 718 Boxster S.<br><br><br>Turbocharging significantly boosts torque. The 2.5-litre engine of the 718 Boxster S attains 420 Newton metres over a speed range from 1,900 rpm to 4,500 rpm, which also leads to a faster sprint performance. The 718 Boxster S – with Porsche Doppelkupplungsgetriebe (PDK) and Sport Chrono Package – sprints from zero to 100 km/h in 4.2 seconds. The top speed is 285 km/h. <br><br><br>In its driving dynamics, the new roadster also follows in the tracks of the original 718. The car&#39;s completely retuned chassis enhances cornering performance. The electromechanical steering system is configured to be ten per cent more direct. This makes the 718 Boxster even more agile and easier to steer, both on circuit tracks and in everyday traffic, and provides passionate and sporty driving pleasure.",
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "350bhp",
+    "torque": "420Nm",
+    "weight": "1355kg",
+    "topspeed": "285km/h",
+    "acceleration": "4.6s 0-100",
+    "pwratio": "3.87 kg/hp"
+  },
+  "torqueCurve": [
+    [
+      500.0,
+      0.0
+    ],
+    [
+      1000.0,
+      150.0
+    ],
+    [
+      1250.0,
+      200.0
+    ],
+    [
+      1500.0,
+      304.0
+    ],
+    [
+      1900.0,
+      420.0
+    ],
+    [
+      2000.0,
+      420.0
+    ],
+    [
+      2500.0,
+      420.0
+    ],
+    [
+      3000.0,
+      420.0
+    ],
+    [
+      3500.0,
+      420.0
+    ],
+    [
+      4000.0,
+      420.0
+    ],
+    [
+      4500.0,
+      420.0
+    ],
+    [
+      5000.0,
+      410.0
+    ],
+    [
+      5500.0,
+      397.0
+    ],
+    [
+      6000.0,
+      392.0
+    ],
+    [
+      6500.0,
+      377.0
+    ],
+    [
+      7000.0,
+      339.0
+    ],
+    [
+      7500.0,
+      290.0
+    ],
+    [
+      8000.0,
+      260.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      500.0,
+      22.0
+    ],
+    [
+      1000.0,
+      21.0
+    ],
+    [
+      1250.0,
+      35.0
+    ],
+    [
+      1500.0,
+      64.0
+    ],
+    [
+      1900.0,
+      112.0
+    ],
+    [
+      2000.0,
+      118.0
+    ],
+    [
+      2500.0,
+      147.0
+    ],
+    [
+      3000.0,
+      177.0
+    ],
+    [
+      3500.0,
+      206.0
+    ],
+    [
+      4000.0,
+      236.0
+    ],
+    [
+      4500.0,
+      265.0
+    ],
+    [
+      5000.0,
+      288.0
+    ],
+    [
+      5500.0,
+      307.0
+    ],
+    [
+      6000.0,
+      330.0
+    ],
+    [
+      6500.0,
+      344.0
+    ],
+    [
+      7000.0,
+      333.0
+    ],
+    [
+      7500.0,
+      305.0
+    ],
+    [
+      8000.0,
+      292.0
+    ]
+  ],
+  "country": "Germany",
+  "year": 2016,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

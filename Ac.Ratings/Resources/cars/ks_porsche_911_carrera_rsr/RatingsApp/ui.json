@@ -1,0 +1,36 @@
+{
+  "name": "Porsche 911 Carrera RSR 3.0",
+  "brand": "Porsche",
+  "year": "1974",
+  "author": "Kunos",
+  "folderName": "ks_porsche_911_carrera_rsr",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_carrera_rsr",
+  "specs": {
+    "convertedPower": "243kW/330hp",
+    "isManufacturerData": false,
+    "bhp": "330bhp",
+    "torque": "--Nm",
+    "weight": "850kg",
+    "topspeed": "280km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.57kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

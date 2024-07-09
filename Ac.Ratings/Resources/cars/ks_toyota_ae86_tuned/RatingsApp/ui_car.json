@@ -1,0 +1,195 @@
+{
+  "name": "Toyota AE86 Tuned",
+  "brand": "Toyota",
+  "description": "The AE86 generation of the Toyota Sprinter Trueno is a small, lightweight coupe or hatchback introduced by Toyota in 1983.<br><br>In classic Toyota code, the &#39;A&#39; represents the engine that came in the car (4A series), &#39;E&#39; represents the Corolla, &#39;8&#39; represents the fifth generation (E80 series) and &#39;6&#39; represents the variation within this generation.<br><br>Even after production of the car was discontinued in 1987, many privateer teams still raced the AE86, and it is still a popular choice for rallying and club races today.<br><br>Part of the continued appeal of the AE86 for motorsports is its rear-drive configuration, a feature not available in most newer lightweight coupes.",
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "200bhp",
+    "torque": "206Nm",
+    "weight": "900kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "4.50kg/hp"
+  },
+  "torqueCurve": [
+    [
+      500.0,
+      84.0
+    ],
+    [
+      1000.0,
+      100.0
+    ],
+    [
+      1500.0,
+      90.0
+    ],
+    [
+      2000.0,
+      93.0
+    ],
+    [
+      2500.0,
+      110.0
+    ],
+    [
+      3000.0,
+      135.0
+    ],
+    [
+      3500.0,
+      130.0
+    ],
+    [
+      4000.0,
+      203.0
+    ],
+    [
+      4200.0,
+      206.0
+    ],
+    [
+      4500.0,
+      204.0
+    ],
+    [
+      5000.0,
+      205.0
+    ],
+    [
+      5500.0,
+      203.0
+    ],
+    [
+      6000.0,
+      200.0
+    ],
+    [
+      6500.0,
+      198.0
+    ],
+    [
+      6600.0,
+      197.0
+    ],
+    [
+      7000.0,
+      197.0
+    ],
+    [
+      7150.0,
+      199.0
+    ],
+    [
+      7500.0,
+      188.0
+    ],
+    [
+      8000.0,
+      168.0
+    ],
+    [
+      8500.0,
+      144.0
+    ],
+    [
+      9500.0,
+      100.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      500.0,
+      6.0
+    ],
+    [
+      1000.0,
+      14.0
+    ],
+    [
+      1500.0,
+      19.0
+    ],
+    [
+      2000.0,
+      26.0
+    ],
+    [
+      2500.0,
+      39.0
+    ],
+    [
+      3000.0,
+      57.0
+    ],
+    [
+      3500.0,
+      64.0
+    ],
+    [
+      4000.0,
+      114.0
+    ],
+    [
+      4200.0,
+      121.0
+    ],
+    [
+      4500.0,
+      129.0
+    ],
+    [
+      5000.0,
+      144.0
+    ],
+    [
+      5500.0,
+      157.0
+    ],
+    [
+      6000.0,
+      169.0
+    ],
+    [
+      6500.0,
+      181.0
+    ],
+    [
+      6600.0,
+      183.0
+    ],
+    [
+      7000.0,
+      194.0
+    ],
+    [
+      7150.0,
+      200.0
+    ],
+    [
+      7500.0,
+      198.0
+    ],
+    [
+      8000.0,
+      189.0
+    ],
+    [
+      8500.0,
+      172.0
+    ],
+    [
+      9500.0,
+      133.0
+    ]
+  ],
+  "country": "Japan",
+  "year": 1983,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

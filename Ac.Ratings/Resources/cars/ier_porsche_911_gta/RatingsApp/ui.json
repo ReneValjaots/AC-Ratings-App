@@ -1,0 +1,36 @@
+{
+  "name": "Porsche 911 GT America",
+  "brand": "Porsche",
+  "year": "2015",
+  "author": "IER Simulations",
+  "folderName": "ier_porsche_911_gta",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ier_porsche_911_gta",
+  "specs": {
+    "convertedPower": "351kW/477hp",
+    "isManufacturerData": false,
+    "bhp": "477 bhp",
+    "torque": "484 Nm",
+    "weight": "1190kg",
+    "topspeed": "300+km/h",
+    "acceleration": "--s",
+    "pwratio": "2.49 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

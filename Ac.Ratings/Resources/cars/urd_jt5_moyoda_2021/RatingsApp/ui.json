@@ -1,0 +1,33 @@
+{
+  "name": "Toyota GR Supra GT500",
+  "brand": "Toyota",
+  "year": "2021",
+  "author": "United Racing Design",
+  "folderName": "urd_jt5_moyoda_2021",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_jt5_moyoda_2021",
+  "specs": {
+    "convertedPower": "488kW/664hp",
+    "isManufacturerData": false,
+    "bhp": "664 bhp",
+    "torque": "633 Nm",
+    "weight": "1020 kg",
+    "topspeed": "300 km/h",
+    "acceleration": "3s 0-100",
+    "pwratio": "1.54 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": null,
+    "gearsCount": 0,
+    "supportsShifter": false
+  },
+  "tags": []
+}

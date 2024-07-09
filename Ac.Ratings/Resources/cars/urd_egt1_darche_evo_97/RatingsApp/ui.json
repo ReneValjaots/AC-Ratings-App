@@ -1,0 +1,36 @@
+{
+  "name": "Porsche 911 GT1 Evolution",
+  "brand": "Porsche",
+  "year": "1997",
+  "author": "United Racing Design",
+  "folderName": "urd_egt1_darche_evo_97",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_egt1_darche_evo_97",
+  "specs": {
+    "convertedPower": "400kW/544hp",
+    "isManufacturerData": false,
+    "bhp": "544 bhp",
+    "torque": "595 Nm",
+    "weight": "1040 kg",
+    "topspeed": "310 km/h",
+    "acceleration": null,
+    "pwratio": "1.91 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

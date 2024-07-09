@@ -1,0 +1,36 @@
+{
+  "name": "Porsche 992 GT3-R",
+  "brand": "Porsche",
+  "year": "2023",
+  "author": "United Racing Design",
+  "folderName": "urd_darche_992_23",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_darche_992_23",
+  "specs": {
+    "convertedPower": "404kW/550hp",
+    "isManufacturerData": false,
+    "bhp": "550 bhp",
+    "torque": "494 Nm",
+    "weight": "1240kg",
+    "topspeed": "300 km/h",
+    "acceleration": "2.8s 0-100",
+    "pwratio": "2.25 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": null,
+    "gearsCount": 0,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

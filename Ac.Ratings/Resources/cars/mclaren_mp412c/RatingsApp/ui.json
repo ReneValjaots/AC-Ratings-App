@@ -1,0 +1,36 @@
+{
+  "name": "McLaren MP4-12C",
+  "brand": "McLaren",
+  "year": "2011",
+  "author": "Kunos",
+  "folderName": "mclaren_mp412c",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\mclaren_mp412c",
+  "specs": {
+    "convertedPower": "453kW/616hp",
+    "isManufacturerData": false,
+    "bhp": "616bhp",
+    "torque": "600Nm",
+    "weight": "1434kg",
+    "topspeed": "330km/h",
+    "acceleration": "3.2s 0-100",
+    "pwratio": "2.33kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ]
+}

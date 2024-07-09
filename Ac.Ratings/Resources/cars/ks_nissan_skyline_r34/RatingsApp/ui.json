@@ -1,0 +1,36 @@
+{
+  "name": "Nissan Skyline GTR R34 V-Spec",
+  "brand": "Nissan",
+  "year": "1999",
+  "author": "Kunos",
+  "folderName": "ks_nissan_skyline_r34",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_nissan_skyline_r34",
+  "specs": {
+    "convertedPower": "239kW/325hp",
+    "isManufacturerData": false,
+    "bhp": "325bhp",
+    "torque": "392Nm",
+    "weight": "1560kg",
+    "topspeed": "250+km/h",
+    "acceleration": "4.9s 0-100",
+    "pwratio": "4.83kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#- manual",
+    "#+ awd"
+  ]
+}

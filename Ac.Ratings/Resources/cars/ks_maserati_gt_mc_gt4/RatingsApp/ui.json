@@ -1,0 +1,36 @@
+{
+  "name": "Maserati GranTurismo MC GT4",
+  "brand": "Maserati",
+  "year": "2016",
+  "author": "Kunos",
+  "folderName": "ks_maserati_gt_mc_gt4",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_maserati_gt_mc_gt4",
+  "specs": {
+    "convertedPower": "316kW/430hp",
+    "isManufacturerData": false,
+    "bhp": "430bhp",
+    "torque": "535Nm",
+    "weight": "1410kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "3.27kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

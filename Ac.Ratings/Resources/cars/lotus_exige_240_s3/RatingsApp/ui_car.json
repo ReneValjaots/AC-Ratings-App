@@ -1,0 +1,173 @@
+{
+  "name": "Lotus Exige 240R Stage3",
+  "parent": "lotus_exige_240",
+  "brand": "Lotus",
+  "description": "The stage 3 version of the Lotus Exige 240R, has an upgraded engine with up to 270bhp, much stiffer and lowered suspension with uprated dampers and a locked read differential 25% power and coast. With its featherweight chassis, this car can really put to shame much more powerful supercars on a tight track.<br><br>The name Lotus is synonymous with sublime handling and poised vehicle dynamics around the world. The Elise leads the way with its lightweight, state-of-the-art, extruded and bonded aluminium chassis, allied to motorsport derived wishbone suspension with body panels made from lightweight composite. <br><br><br>Its unique design ensures an extremely rigid chassis, and the perfect foundation for an agile sports car. Since its launch, the Elise has been hailed as one of the best sports cars that money can buy, creating perfect harmony between driver and machine. <br><br><br>Production combines high technology processes with hand finishing techniques, from chassis construction through to final assembly. Teams of specialists oversee every process ensuring Lotus&#39; high-quality engineering standards are met. With engineering effectiveness comes efficiency, allowing Lotus to extract every aspect of dynamic performance from each component – remaining true to Chapmans&#39; original principle of performance through lightweight.",
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "270bhp",
+    "torque": "270Nm",
+    "weight": "900kg",
+    "topspeed": "249km/h",
+    "acceleration": "4.0s 0-100",
+    "pwratio": "3.33kg/hp",
+    "range": 85
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      56.0
+    ],
+    [
+      500.0,
+      111.0
+    ],
+    [
+      1000.0,
+      160.0
+    ],
+    [
+      1500.0,
+      170.0
+    ],
+    [
+      2000.0,
+      174.0
+    ],
+    [
+      2500.0,
+      188.0
+    ],
+    [
+      3000.0,
+      212.0
+    ],
+    [
+      3500.0,
+      216.0
+    ],
+    [
+      4000.0,
+      221.0
+    ],
+    [
+      4500.0,
+      234.0
+    ],
+    [
+      5000.0,
+      250.0
+    ],
+    [
+      5500.0,
+      259.0
+    ],
+    [
+      6000.0,
+      261.0
+    ],
+    [
+      6500.0,
+      269.0
+    ],
+    [
+      7000.0,
+      265.0
+    ],
+    [
+      7500.0,
+      254.0
+    ],
+    [
+      8000.0,
+      243.0
+    ],
+    [
+      8500.0,
+      198.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      8.0
+    ],
+    [
+      1000.0,
+      22.0
+    ],
+    [
+      1500.0,
+      36.0
+    ],
+    [
+      2000.0,
+      49.0
+    ],
+    [
+      2500.0,
+      66.0
+    ],
+    [
+      3000.0,
+      89.0
+    ],
+    [
+      3500.0,
+      106.0
+    ],
+    [
+      4000.0,
+      124.0
+    ],
+    [
+      4500.0,
+      148.0
+    ],
+    [
+      5000.0,
+      176.0
+    ],
+    [
+      5500.0,
+      200.0
+    ],
+    [
+      6000.0,
+      220.0
+    ],
+    [
+      6500.0,
+      246.0
+    ],
+    [
+      7000.0,
+      260.0
+    ],
+    [
+      7500.0,
+      268.0
+    ],
+    [
+      8000.0,
+      273.0
+    ],
+    [
+      8500.0,
+      263.0
+    ]
+  ],
+  "country": "Great Britain",
+  "year": 2008,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

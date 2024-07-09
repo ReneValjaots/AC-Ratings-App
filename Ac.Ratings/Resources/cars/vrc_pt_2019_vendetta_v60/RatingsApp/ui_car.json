@@ -1,0 +1,203 @@
+{
+  "name": "Ginetta G60-LT-P1",
+  "brand": "Ginetta",
+  "description": "The Vendetta V60-LT-P1 is a non-hybrid Prototype built by Vendetta for use in the Prototype 1 category for the World Endurance, as well as the 24 Hours of endurance race. The V60-LT-P1 had its competition debut at the 2018 24 Hours Endurance, after financial issues led to the withdrawal of the car at the initial round of the 2018–19 World Championship, the 6 Hours Of Spa.",
+  "tags": [
+    "#+ rwd"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "720 bhp",
+    "torque": "850 Nm",
+    "weight": "833 kg",
+    "topspeed": "345Kph",
+    "acceleration": "2.8s",
+    "pwratio": "1.16 kg/hp",
+    "range": 80
+  },
+  "torqueCurve": [
+    [
+      3000.0,
+      731.07
+    ],
+    [
+      3250.0,
+      778.72
+    ],
+    [
+      3500.0,
+      814.77
+    ],
+    [
+      3750.0,
+      839.28
+    ],
+    [
+      4000.0,
+      849.62
+    ],
+    [
+      4250.0,
+      842.74
+    ],
+    [
+      4500.0,
+      827.1
+    ],
+    [
+      4750.0,
+      811.63
+    ],
+    [
+      5000.0,
+      798.63
+    ],
+    [
+      5250.0,
+      786.84
+    ],
+    [
+      5500.0,
+      775.06
+    ],
+    [
+      5750.0,
+      761.52
+    ],
+    [
+      6000.0,
+      746.73
+    ],
+    [
+      6250.0,
+      735.49
+    ],
+    [
+      6500.0,
+      722.68
+    ],
+    [
+      6750.0,
+      708.89
+    ],
+    [
+      7000.0,
+      695.47
+    ],
+    [
+      7250.0,
+      683.61
+    ],
+    [
+      7500.0,
+      673.84
+    ],
+    [
+      7800.0,
+      656.29
+    ],
+    [
+      8050.0,
+      627.53
+    ],
+    [
+      8300.0,
+      579.83
+    ]
+  ],
+  "powerCurve": [
+    [
+      3000.0,
+      308.48
+    ],
+    [
+      3250.0,
+      355.96
+    ],
+    [
+      3500.0,
+      401.09
+    ],
+    [
+      3750.0,
+      442.67
+    ],
+    [
+      4000.0,
+      478.0
+    ],
+    [
+      4250.0,
+      503.76
+    ],
+    [
+      4500.0,
+      523.5
+    ],
+    [
+      4750.0,
+      542.24
+    ],
+    [
+      5000.0,
+      561.64
+    ],
+    [
+      5250.0,
+      581.01
+    ],
+    [
+      5500.0,
+      599.57
+    ],
+    [
+      5750.0,
+      615.87
+    ],
+    [
+      6000.0,
+      630.17
+    ],
+    [
+      6250.0,
+      646.55
+    ],
+    [
+      6500.0,
+      660.7
+    ],
+    [
+      6750.0,
+      673.01
+    ],
+    [
+      7000.0,
+      684.73
+    ],
+    [
+      7250.0,
+      697.09
+    ],
+    [
+      7500.0,
+      710.83
+    ],
+    [
+      7800.0,
+      720.0
+    ],
+    [
+      8050.0,
+      710.51
+    ],
+    [
+      8300.0,
+      676.89
+    ]
+  ],
+  "country": "Great Britain",
+  "year": 2019,
+  "author": "VRC Modding Team",
+  "version": "1.4",
+  "url": "www.vrc-modding-team.net"
+}

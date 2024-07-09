@@ -1,0 +1,36 @@
+{
+  "name": "Lotus 3-Eleven",
+  "brand": "Lotus",
+  "year": "2015",
+  "author": "Kunos",
+  "folderName": "ks_lotus_3_eleven",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lotus_3_eleven",
+  "specs": {
+    "convertedPower": "338kW/460hp",
+    "isManufacturerData": false,
+    "bhp": "460bhp",
+    "torque": "525Nm",
+    "weight": "890kg",
+    "topspeed": "290km/h",
+    "acceleration": "2.9s 0-100",
+    "pwratio": "1.93kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

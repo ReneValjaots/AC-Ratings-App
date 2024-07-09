@@ -1,0 +1,35 @@
+{
+  "name": "Ford Mustang 2015",
+  "brand": "Ford",
+  "year": "2015",
+  "author": "Kunos",
+  "folderName": "ks_ford_mustang_2015",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ford_mustang_2015",
+  "specs": {
+    "convertedPower": "320kW/435hp",
+    "isManufacturerData": false,
+    "bhp": "435bhp",
+    "torque": "542Nm",
+    "weight": "1680kg",
+    "topspeed": "250km/h",
+    "acceleration": "4.4s 0-100",
+    "pwratio": "3.84kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#- manual"
+  ]
+}

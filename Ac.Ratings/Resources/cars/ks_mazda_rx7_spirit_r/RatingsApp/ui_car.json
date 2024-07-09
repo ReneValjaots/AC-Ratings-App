@@ -1,0 +1,163 @@
+{
+  "name": "Mazda RX-7 Spirit R",
+  "brand": "Mazda",
+  "description": "The third-generation RX-7, first launched in 1991, has a particularly distinctive exterior design. Its lightweight, compact and high-output rotary engine enables the driver to feel superb driving pleasure. Epitomizing Mazda&#39;s spirit of sports car, the RX-7 has won popularity among the customers since its 1978 launch. The production of the RX-7 model (FD-3S) came to an end in August 2002.<br><br>The Spirit R series is available in three models: the Type-A, a two-seater with a five-speed manual transmission; the Type-B, a four-seater with a five-speed manual transmission; and the Type-C, a four-seater with a four-speed automatic transmission. All three models are equipped with common interior and exterior features, such as BBS-manufactured 17-inch wheels, red brake calipers, and interior panels with a special soft coating, while each model shows off its own equipment to make a difference from the other.<br><br>The Type-A Spirit R is a two-seater model fitted with the Recaro-made exclusive red full bucket seats. These lightweight seats reduce the overall chassis weight of the vehicle by approximately 10 kg. Braking performance is enhanced through the use of large drilled type ventilated disk brakes for all four wheels and high rigid stainless mesh brake hoses. The Type-A Spirit R model is the ultimate RX-7, boasting the most outstanding driving performance in its history.",
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "276bhp",
+    "torque": "314Nm",
+    "weight": "1270kg",
+    "topspeed": "256km/h",
+    "acceleration": "5.3s 0-100",
+    "pwratio": "4.60kg/hp"
+  },
+  "torqueCurve": [
+    [
+      500.0,
+      167.0
+    ],
+    [
+      1000.0,
+      212.0
+    ],
+    [
+      1500.0,
+      245.0
+    ],
+    [
+      2000.0,
+      258.0
+    ],
+    [
+      2500.0,
+      270.0
+    ],
+    [
+      3000.0,
+      282.0
+    ],
+    [
+      3500.0,
+      286.0
+    ],
+    [
+      4000.0,
+      291.0
+    ],
+    [
+      4500.0,
+      306.0
+    ],
+    [
+      5000.0,
+      315.0
+    ],
+    [
+      5500.0,
+      311.0
+    ],
+    [
+      6000.0,
+      313.0
+    ],
+    [
+      6500.0,
+      313.0
+    ],
+    [
+      7000.0,
+      311.0
+    ],
+    [
+      7500.0,
+      285.0
+    ],
+    [
+      8000.0,
+      258.0
+    ],
+    [
+      8500.0,
+      211.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      500.0,
+      12.0
+    ],
+    [
+      1000.0,
+      30.0
+    ],
+    [
+      1500.0,
+      52.0
+    ],
+    [
+      2000.0,
+      72.0
+    ],
+    [
+      2500.0,
+      95.0
+    ],
+    [
+      3000.0,
+      119.0
+    ],
+    [
+      3500.0,
+      140.0
+    ],
+    [
+      4000.0,
+      163.0
+    ],
+    [
+      4500.0,
+      194.0
+    ],
+    [
+      5000.0,
+      221.0
+    ],
+    [
+      5500.0,
+      241.0
+    ],
+    [
+      6000.0,
+      254.0
+    ],
+    [
+      6500.0,
+      266.0
+    ],
+    [
+      7000.0,
+      276.0
+    ],
+    [
+      7500.0,
+      270.0
+    ],
+    [
+      8000.0,
+      263.0
+    ],
+    [
+      8500.0,
+      251.0
+    ]
+  ],
+  "country": "Japan",
+  "year": 1991,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

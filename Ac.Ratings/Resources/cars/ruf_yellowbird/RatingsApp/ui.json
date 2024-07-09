@@ -1,0 +1,36 @@
+{
+  "name": "RUF CTR Yellowbird",
+  "brand": "RUF",
+  "year": "1987",
+  "author": "Kunos",
+  "folderName": "ruf_yellowbird",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ruf_yellowbird",
+  "specs": {
+    "convertedPower": "345kW/469hp",
+    "isManufacturerData": false,
+    "bhp": "469bhp",
+    "torque": "553Nm",
+    "weight": "1147kg",
+    "topspeed": "342km/h",
+    "acceleration": "4.0s 0-100",
+    "pwratio": "2.44kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Pagani Huayra BC",
+  "brand": "Pagani",
+  "year": "2016",
+  "author": "Kunos",
+  "folderName": "ks_pagani_huayra_bc",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_pagani_huayra_bc",
+  "specs": {
+    "convertedPower": "544kW/740hp",
+    "isManufacturerData": false,
+    "bhp": "740bhp",
+    "torque": "1100Nm",
+    "weight": "1218kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.64kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

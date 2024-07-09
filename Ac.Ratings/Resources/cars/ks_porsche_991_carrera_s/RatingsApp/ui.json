@@ -1,0 +1,36 @@
+{
+  "name": "Porsche 911 Carrera S",
+  "brand": "Porsche",
+  "year": "2015",
+  "author": "Kunos",
+  "folderName": "ks_porsche_991_carrera_s",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_991_carrera_s",
+  "specs": {
+    "convertedPower": "309kW/420hp",
+    "isManufacturerData": false,
+    "bhp": "420bhp",
+    "torque": "500Nm",
+    "weight": "1515kg",
+    "topspeed": "308km/h",
+    "acceleration": "3.9s 0-100",
+    "pwratio": "3.60kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ]
+}

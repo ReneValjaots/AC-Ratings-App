@@ -1,0 +1,35 @@
+{
+  "name": "Toyota GT-One",
+  "brand": "Toyota",
+  "year": "1999",
+  "author": "Race Sim Studio",
+  "folderName": "rss_lmgt_toyama_2zero_v8",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_lmgt_toyama_2zero_v8",
+  "specs": {
+    "convertedPower": "444kW/604hp",
+    "isManufacturerData": false,
+    "bhp": "604bhp",
+    "torque": "650Nm",
+    "weight": "990kg",
+    "topspeed": "330+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.64 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd"
+  ]
+}

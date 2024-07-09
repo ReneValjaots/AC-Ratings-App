@@ -1,0 +1,224 @@
+{
+  "name": "IER P13b",
+  "brand": "IER",
+  "description": "Despite sharing its chassis with the P13c, the P13b features different suspension, steering, aerodynamics, tires, and engine—the shared DNA is apparent, but the car is unique in its own right.<br><br>Built around the 2013 LMP2 regulations with some LMP1 embellishments, the P13b expands upon a decade-old platform to provide a well-rounded and easily accessible car catered towards Pro-Am racing. Featuring a ~500hp 2.8L TT V6, the 900kg prototype can exceed 180mph, slotting nicely between GT and LMP1 in multiclass racing. Downforce levels similar to its LMP1 sibling yield exceptional cornering ability, even if mildly limited by an off-the-shelf tire compound.<br><br>After a 4 year hiatus from the public sphere while working exclusively in professional motorsport, we are making a brief return to the community from which we were founded 10 years ago. Like with our 2019 release of the P13c, the P13b lies at the cutting edge of CSP technology, providing a more vital take on the abilities of IER in the present day. We hope to provide a glimpse into the world of professional simulation through the lens of a public release. Thank you for the fond memories; we hope you enjoy the car.<br><br>Liveries by ANCORD Design Co.<br>Audio by mikekrybus.com",
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "489 bhp",
+    "torque": "587 Nm",
+    "weight": "900kg",
+    "topspeed": "300+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.84 kg/hp",
+    "range": "154"
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      200.0
+    ],
+    [
+      70.0,
+      202.251231223692
+    ],
+    [
+      140.0,
+      205.162689842726
+    ],
+    [
+      210.0,
+      208.520410484386
+    ],
+    [
+      280.0,
+      212.251610228736
+    ],
+    [
+      350.0,
+      216.316008604787
+    ],
+    [
+      490.0,
+      225.34815293687
+    ],
+    [
+      630.0,
+      235.485402781973
+    ],
+    [
+      840.0,
+      252.60685538566
+    ],
+    [
+      1000.0,
+      267.116134254642
+    ],
+    [
+      1260.0,
+      300.021871597114
+    ],
+    [
+      1540.0,
+      340.080840647431
+    ],
+    [
+      1890.0,
+      397.059886785826
+    ],
+    [
+      2000.0,
+      416.588729094844
+    ],
+    [
+      2380.0,
+      481.003122056016
+    ],
+    [
+      2660.0,
+      533.449592851488
+    ],
+    [
+      2730.0,
+      542.871063157895
+    ],
+    [
+      3000.0,
+      557.092105263158
+    ],
+    [
+      4000.0,
+      587.478947368421
+    ],
+    [
+      5000.0,
+      581.401578947368
+    ],
+    [
+      6000.0,
+      555.066315789474
+    ],
+    [
+      6800.0,
+      512.524736842105
+    ],
+    [
+      7000.0,
+      490.53045112782
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      210.0,
+      6.14971409721269
+    ],
+    [
+      420.0,
+      13.0256233150363
+    ],
+    [
+      630.0,
+      20.8349086472455
+    ],
+    [
+      840.0,
+      29.79967161985
+    ],
+    [
+      1000.0,
+      37.5134650254738
+    ],
+    [
+      1190.0,
+      48.659726286573
+    ],
+    [
+      1260.0,
+      53.0897305145406
+    ],
+    [
+      1470.0,
+      68.1404996985133
+    ],
+    [
+      1540.0,
+      73.5512310623697
+    ],
+    [
+      1750.0,
+      91.9831157273212
+    ],
+    [
+      1890.0,
+      105.391328349057
+    ],
+    [
+      2240.0,
+      143.849784572589
+    ],
+    [
+      2380.0,
+      160.772554436842
+    ],
+    [
+      2660.0,
+      199.279252009016
+    ],
+    [
+      2730.0,
+      208.135614590938
+    ],
+    [
+      3000.0,
+      234.712013166916
+    ],
+    [
+      4000.0,
+      330.019315483179
+    ],
+    [
+      5000.0,
+      408.256653205484
+    ],
+    [
+      6000.0,
+      467.717029874436
+    ],
+    [
+      6230.0,
+      474.945128569616
+    ],
+    [
+      6440.0,
+      480.854643624766
+    ],
+    [
+      6650.0,
+      486.105471421146
+    ],
+    [
+      6800.0,
+      489.452784790742
+    ],
+    [
+      6930.0,
+      484.896242241795
+    ],
+    [
+      7000.0,
+      482.2264997793
+    ]
+  ],
+  "country": "USA",
+  "author": "IER Simulations",
+  "url": "www.iersimulations.com",
+  "version": "1.0",
+  "year": 2013
+}

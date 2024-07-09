@@ -1,0 +1,192 @@
+{
+  "name": "Ford Escort RS1600",
+  "brand": "Ford",
+  "description": "The Ford Escort is born from a partnership between Ford and Lotus during the 60s. This car became a icon of racing thanks to its successes in rallying and GT races in 1968, 1969 and along first years of the 70s, due the release of the &quot;RS1600&quot; powered by a Ford Cosworth engine.<br><br>The RS in the model name is a abbreviation of &quot;Rallye Sport&quot;, and although &quot;1600&quot; was the initial engine displacement, in 1973 this was increased to 1800cc.",
+  "tags": [],
+  "class": "race",
+  "specs": {
+    "bhp": "260+bhp",
+    "torque": "200+Nm",
+    "weight": "885kg",
+    "topspeed": "220+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "3.40kg/hp"
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      64.0
+    ],
+    [
+      1000.0,
+      111.0
+    ],
+    [
+      1500.0,
+      115.0
+    ],
+    [
+      2000.0,
+      121.0
+    ],
+    [
+      2500.0,
+      124.0
+    ],
+    [
+      3000.0,
+      130.0
+    ],
+    [
+      3500.0,
+      135.0
+    ],
+    [
+      4000.0,
+      145.0
+    ],
+    [
+      4500.0,
+      155.0
+    ],
+    [
+      5000.0,
+      180.0
+    ],
+    [
+      5500.0,
+      200.0
+    ],
+    [
+      6000.0,
+      210.0
+    ],
+    [
+      6500.0,
+      215.0
+    ],
+    [
+      7000.0,
+      220.0
+    ],
+    [
+      7500.0,
+      228.0
+    ],
+    [
+      8000.0,
+      225.0
+    ],
+    [
+      8500.0,
+      220.0
+    ],
+    [
+      9000.0,
+      206.0
+    ],
+    [
+      9500.0,
+      195.0
+    ],
+    [
+      10000.0,
+      190.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      4.0
+    ],
+    [
+      1000.0,
+      16.0
+    ],
+    [
+      1500.0,
+      25.0
+    ],
+    [
+      2000.0,
+      35.0
+    ],
+    [
+      2500.0,
+      45.0
+    ],
+    [
+      3000.0,
+      55.0
+    ],
+    [
+      3500.0,
+      67.0
+    ],
+    [
+      4000.0,
+      83.0
+    ],
+    [
+      4500.0,
+      98.0
+    ],
+    [
+      5000.0,
+      134.0
+    ],
+    [
+      5500.0,
+      156.0
+    ],
+    [
+      6000.0,
+      174.0
+    ],
+    [
+      6500.0,
+      193.0
+    ],
+    [
+      7000.0,
+      217.0
+    ],
+    [
+      7500.0,
+      228.0
+    ],
+    [
+      8000.0,
+      253.0
+    ],
+    [
+      8500.0,
+      268.0
+    ],
+    [
+      9000.0,
+      266.0
+    ],
+    [
+      9500.0,
+      256.0
+    ],
+    [
+      10000.0,
+      250.0
+    ]
+  ],
+  "country": "Great Britain",
+  "year": 1973,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

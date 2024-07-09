@@ -1,0 +1,36 @@
+{
+  "name": "Honda S2000 (AP1)",
+  "brand": "Honda",
+  "year": "1999",
+  "author": "ДЯДЯ ДИМА",
+  "folderName": "ddm_honda_s2000_ap1",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ddm_honda_s2000_ap1",
+  "specs": {
+    "convertedPower": "180kW/245hp",
+    "isManufacturerData": false,
+    "bhp": "245 bhp",
+    "torque": "224 Nm",
+    "weight": "1240 kg",
+    "topspeed": "245 km/h",
+    "acceleration": "5.8s 0-100",
+    "pwratio": "5.06 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#- manual",
+    "#+ rwd"
+  ]
+}

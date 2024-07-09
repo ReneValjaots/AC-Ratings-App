@@ -1,0 +1,36 @@
+{
+  "name": "Mazda RX-7 Spirit R",
+  "brand": "Mazda",
+  "year": "1991",
+  "author": "Kunos",
+  "folderName": "ks_mazda_rx7_spirit_r",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mazda_rx7_spirit_r",
+  "specs": {
+    "convertedPower": "203kW/276hp",
+    "isManufacturerData": false,
+    "bhp": "276bhp",
+    "torque": "314Nm",
+    "weight": "1270kg",
+    "topspeed": "256km/h",
+    "acceleration": "5.3s 0-100",
+    "pwratio": "4.60kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

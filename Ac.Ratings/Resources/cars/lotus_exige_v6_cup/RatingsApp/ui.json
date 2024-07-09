@@ -1,0 +1,36 @@
+{
+  "name": "Lotus Exige V6 CUP",
+  "brand": "Lotus",
+  "year": "2013",
+  "author": "Kunos",
+  "folderName": "lotus_exige_v6_cup",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_exige_v6_cup",
+  "specs": {
+    "convertedPower": "254kW/345hp",
+    "isManufacturerData": false,
+    "bhp": "345bhp",
+    "torque": "400Nm",
+    "weight": "1080kg",
+    "topspeed": "274km/h",
+    "acceleration": "4.0s 0-100",
+    "pwratio": "3.09kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

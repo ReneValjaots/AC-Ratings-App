@@ -1,0 +1,36 @@
+{
+  "name": "Mazda MX5 ND",
+  "brand": "Mazda",
+  "year": "2015",
+  "author": "Kunos",
+  "folderName": "ks_mazda_mx5_nd",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mazda_mx5_nd",
+  "specs": {
+    "convertedPower": "118kW/160hp",
+    "isManufacturerData": false,
+    "bhp": "160bhp",
+    "torque": "200Nm",
+    "weight": "1058kg",
+    "topspeed": "214km/h",
+    "acceleration": "7.3s 0-100",
+    "pwratio": "6.61kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

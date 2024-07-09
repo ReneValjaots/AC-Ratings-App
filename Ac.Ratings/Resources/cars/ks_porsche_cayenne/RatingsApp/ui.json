@@ -1,0 +1,35 @@
+{
+  "name": "Porsche Cayenne Turbo S",
+  "brand": "Porsche",
+  "year": "2015",
+  "author": "Kunos",
+  "folderName": "ks_porsche_cayenne",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_cayenne",
+  "specs": {
+    "convertedPower": "419kW/570hp",
+    "isManufacturerData": false,
+    "bhp": "570bhp",
+    "torque": "800Nm",
+    "weight": "2235kg",
+    "topspeed": "284km/h",
+    "acceleration": "4.1s 0-100",
+    "pwratio": "3.92 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 8,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ awd"
+  ]
+}

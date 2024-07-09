@@ -1,0 +1,36 @@
+{
+  "name": "Lamborghini Gallardo SL Step3",
+  "brand": "Lamborghini",
+  "year": "2007",
+  "author": "Kunos",
+  "folderName": "ks_lamborghini_gallardo_sl_s3",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_gallardo_sl_s3",
+  "specs": {
+    "convertedPower": "882kW/1200hp",
+    "isManufacturerData": false,
+    "bhp": "1200bhp",
+    "torque": "--Nm",
+    "weight": "1390kg",
+    "topspeed": "349km/h",
+    "acceleration": "2.5s 0-100",
+    "pwratio": "1.16kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "AWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

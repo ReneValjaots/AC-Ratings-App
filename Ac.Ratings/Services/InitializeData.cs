@@ -5,9 +5,13 @@ using Newtonsoft.Json;
 namespace Ac.Ratings.Services {
     public class InitializeData {
         public List<Car> CarDb { get; private set; }
+        public List<CarSpecs> CarSpecs { get; private set; }
+        public List<CarData> CarData { get; private set; }
+        public List<CarRatings> CarRatings { get; private set; }
         private const string _acRootFolder = @"D:\Steam\steamapps\common\assettocorsa\content\cars";
         public string carDbFilePath = @"C:\Users\ReneVa\source\repos\Ac.Ratings\Ac.Ratings\Resources\Data\CarDb.json";
         public string carDbTestFilePath = @"C:\Users\ReneVa\source\repos\Ac.Ratings\Ac.Ratings\Resources\Data\CarDbTest.json";
+        private string carsRootFolder = @"C:\Users\ReneVa\source\repos\Ac.Ratings\Ac.Ratings\Resources\cars\";
 
         public InitializeData() {
             //if (File.Exists(carDbFilePath)) {
@@ -15,10 +19,45 @@ namespace Ac.Ratings.Services {
             //    CarDb = JsonConvert.DeserializeObject<List<Car>>(jsonContent);
             //}
             //else {
-                CarDb = ReadDataFromFiles(_acRootFolder);
-                OrganizeCarDb();
-                SaveCarData(carDbFilePath);
+            CarDb = ReadDataFromFiles(_acRootFolder);
+            OrganizeCarDb();
+            SaveCarData(carDbFilePath);
+            CreateCarDirectories();
+            //CopyUiFiles();
             //}
+        }
+
+        private void CopyUiFiles() {
+            foreach (var car in CarDb) {
+                string sourceFilePath = Path.Combine(car.FolderPath, "ui", "ui_car.json");
+                if (File.Exists(sourceFilePath)) {
+                    string destinationFolderPath = Path.Combine(carsRootFolder, car.FolderName, "RatingsApp");
+                    string destinationFilePath = Path.Combine(destinationFolderPath, "ui_car.json");
+                    Directory.CreateDirectory(destinationFolderPath); // Ensure the directory exists
+                    File.Copy(sourceFilePath, destinationFilePath, overwrite: true);
+                }
+            }
+        }
+
+        private void CreateCarDirectories() {
+            foreach (var car in CarDb) {
+                string carFolder = Path.Combine(carsRootFolder, car.FolderName);
+                string ratingsAppFolder = Path.Combine(carFolder, "RatingsApp");
+
+                // Create directories if they do not exist
+                Directory.CreateDirectory(carFolder);
+                Directory.CreateDirectory(ratingsAppFolder);
+
+                // Define file paths
+                string physicsDataPath = Path.Combine(ratingsAppFolder, "data.json");
+                string uiDataPath = Path.Combine(ratingsAppFolder, "ui.json");
+                string ratingsDataPath = Path.Combine(ratingsAppFolder, "ratings.json");
+
+                // Create JSON files
+                File.WriteAllText(physicsDataPath, JsonConvert.SerializeObject(car.CarData, Formatting.Indented));
+                File.WriteAllText(uiDataPath, JsonConvert.SerializeObject(car, Formatting.Indented));
+                File.WriteAllText(ratingsDataPath, JsonConvert.SerializeObject(car.Ratings, Formatting.Indented));
+            }
         }
 
         private List<Car> ReadDataFromFiles(string acRootFolder) {
@@ -76,25 +115,27 @@ namespace Ac.Ratings.Services {
             using (var reader = new StreamReader(fileName)) {
                 var jsonContent = reader.ReadToEnd();
                 var carData = JsonConvert.DeserializeObject<Car>(jsonContent) ?? throw new InvalidOperationException();
-                carData.PreviewFolder = FindPreviewImagePath(carDirectory);
+                //carData.PreviewFolder = FindPreviewImagePath(carDirectory);
+                carData.FolderName = Path.GetFileName(carDirectory);
+                carData.FolderPath = carDirectory;
                 return carData;
             }
         }
 
-        private string FindPreviewImagePath(string carDirectory) {
-            var skinsDirectory = Path.Combine(carDirectory, "skins");
-            if (!Directory.Exists(skinsDirectory)) {
-                return null; // Return null if the skins directory doesn't exist
-            }
-            var skinDirectories = Directory.GetDirectories(skinsDirectory);
-            foreach (var skinDir in skinDirectories) {
-                var previewFilePath = Path.Combine(skinDir, "preview.jpg");
-                if (File.Exists(previewFilePath)) {
-                    return previewFilePath; // Return the path if the preview.jpg file is found
-                }
-            }
-            return null;
-        }
+        //private string FindPreviewImagePath(string carDirectory) {
+        //    var skinsDirectory = Path.Combine(carDirectory, "skins");
+        //    if (!Directory.Exists(skinsDirectory)) {
+        //        return null; // Return null if the skins directory doesn't exist
+        //    }
+        //    var skinDirectories = Directory.GetDirectories(skinsDirectory);
+        //    foreach (var skinDir in skinDirectories) {
+        //        var previewFilePath = Path.Combine(skinDir, "preview.jpg");
+        //        if (File.Exists(previewFilePath)) {
+        //            return previewFilePath; // Return the path if the preview.jpg file is found
+        //        }
+        //    }
+        //    return null;
+        //}
 
         private void SaveCarData(string filePath) {
             var jsonContent = JsonConvert.SerializeObject(CarDb, Formatting.Indented);

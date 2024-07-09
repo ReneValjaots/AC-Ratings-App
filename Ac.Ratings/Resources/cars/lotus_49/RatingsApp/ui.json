@@ -1,0 +1,36 @@
+{
+  "name": "Lotus Type 49",
+  "brand": "Lotus Classic Cars",
+  "year": "1967",
+  "author": "Kunos",
+  "folderName": "lotus_49",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_49",
+  "specs": {
+    "convertedPower": "301kW/410hp",
+    "isManufacturerData": false,
+    "bhp": "410bhp",
+    "torque": "350Nm",
+    "weight": "575kg",
+    "topspeed": "300+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.40kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

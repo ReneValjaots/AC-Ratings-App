@@ -1,0 +1,164 @@
+{
+  "name": "Nissan GT-R NISMO",
+  "brand": "Nissan",
+  "description": "Since 1984, NISMO has been the official in-house racing arm of Nissan. Started by a group of maverick Nissan engineers almost 30 years ago, NISMO is synonymous with passion, expertise, and the heights of Nissan performance – not to mention decades of racing dominance. The vehicles it creates have one goal in mind: that every time you see a NISMO badge, you&#39;ll know it&#39;s something extraordinary.<br><br>The flagship of GT-R. The flagship of NISMO. Engineered with brilliance, designed with an undeniable edge, and most importantly, fueled by passion without a redline.<br><br>GT-R NISMO has a phenomenal 592bhp, with 652Nm torque, delivering truly unbelievable performance. The 3.8 litre V6 engine benefits from NISMO&#39;s unrivalled expertise for unbeatable speed. Its Spec-V, high diameter turbochargers, also used for GT3 racing, improves breathing whilst individual ignition timing control is optimised for each cylinder and its fuel pump provides even better combustion. The smart aerodynamics provide 100kg of additional downforce at 186 mph allowing you to master both track and road at incredible speeds.<br><br>With its increased rigidity and reduced weight, the new Nissan GT-R NISMO is lighter, faster and stronger. Its exclusive carbon front bumper, front lip spoiler, boot lid and rear bumper make its design truly unique. Add the signature NISMO styling on the front lip and side sill spoilers, premium GT500 racing car wheels with the NISMO badge, as well as a high mount, centre pillar GT-race carbon rear wing for ultimate aerodynamic performance and thrilling style.",
+  "tags": [
+    "#+ awd",
+    "#- sequential"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "592bhp",
+    "torque": "652Nm",
+    "weight": "1750kg",
+    "topspeed": "313km/h",
+    "acceleration": "2.1s 0-100",
+    "pwratio": "2.28kg/hp",
+    "range": 116
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      129.0
+    ],
+    [
+      1000.0,
+      129.0
+    ],
+    [
+      1500.0,
+      178.0
+    ],
+    [
+      2000.0,
+      366.0
+    ],
+    [
+      2500.0,
+      457.0
+    ],
+    [
+      3000.0,
+      595.0
+    ],
+    [
+      3500.0,
+      650.0
+    ],
+    [
+      3750.0,
+      664.0
+    ],
+    [
+      4000.0,
+      640.0
+    ],
+    [
+      4500.0,
+      634.0
+    ],
+    [
+      5000.0,
+      640.0
+    ],
+    [
+      5500.0,
+      605.0
+    ],
+    [
+      6000.0,
+      593.0
+    ],
+    [
+      6500.0,
+      576.0
+    ],
+    [
+      7000.0,
+      531.0
+    ],
+    [
+      7500.0,
+      444.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      10.0
+    ],
+    [
+      1000.0,
+      21.0
+    ],
+    [
+      1500.0,
+      46.0
+    ],
+    [
+      2000.0,
+      120.0
+    ],
+    [
+      2500.0,
+      189.0
+    ],
+    [
+      3000.0,
+      293.0
+    ],
+    [
+      3500.0,
+      369.0
+    ],
+    [
+      3750.0,
+      403.0
+    ],
+    [
+      4000.0,
+      416.0
+    ],
+    [
+      4500.0,
+      464.0
+    ],
+    [
+      5000.0,
+      520.0
+    ],
+    [
+      5500.0,
+      535.0
+    ],
+    [
+      6000.0,
+      554.0
+    ],
+    [
+      6500.0,
+      570.0
+    ],
+    [
+      7000.0,
+      592.0
+    ],
+    [
+      7500.0,
+      525.0
+    ]
+  ],
+  "country": "Japan",
+  "year": 2014,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

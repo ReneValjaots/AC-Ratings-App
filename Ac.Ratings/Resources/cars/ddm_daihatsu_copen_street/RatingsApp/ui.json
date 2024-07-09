@@ -1,0 +1,35 @@
+{
+  "name": "Daihatsu Copen Street-Spec",
+  "brand": "Daihatsu",
+  "year": "2002",
+  "author": "ДЯДЯ ДИМА",
+  "folderName": "ddm_daihatsu_copen_street",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ddm_daihatsu_copen_street",
+  "specs": {
+    "convertedPower": "144kW/196hp",
+    "isManufacturerData": false,
+    "bhp": "196 bhp",
+    "torque": "213 Nm",
+    "weight": "830 kg",
+    "topspeed": "223 km/h",
+    "acceleration": "6.0s 0-100",
+    "pwratio": "4.23 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "FWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ fwd"
+  ]
+}

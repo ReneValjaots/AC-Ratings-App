@@ -1,0 +1,37 @@
+{
+  "name": "BMW M3 E30 Gr.A 92",
+  "brand": "BMW",
+  "year": "1992",
+  "author": "Kunos",
+  "folderName": "bmw_m3_e30_dtm",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e30_dtm",
+  "specs": {
+    "convertedPower": "257kW/350hp",
+    "isManufacturerData": false,
+    "bhp": "350+bhp",
+    "torque": "310Nm",
+    "weight": "945kg",
+    "topspeed": "280+km/h",
+    "acceleration": "4.3s 0-100",
+    "pwratio": "2.70kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual",
+    "#! 2.5L & I4"
+  ]
+}

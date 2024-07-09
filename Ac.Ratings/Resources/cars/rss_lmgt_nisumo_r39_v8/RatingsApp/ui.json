@@ -1,0 +1,36 @@
+{
+  "name": "Nissan R390 GT1",
+  "brand": "Nissan",
+  "year": "1998",
+  "author": "Race Sim Studio",
+  "folderName": "rss_lmgt_nisumo_r39_v8",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_lmgt_nisumo_r39_v8",
+  "specs": {
+    "convertedPower": "437kW/595hp",
+    "isManufacturerData": false,
+    "bhp": "595bhp",
+    "torque": "652Nm",
+    "weight": "1070kg",
+    "topspeed": "330+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.80kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

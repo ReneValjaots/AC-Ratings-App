@@ -1,0 +1,35 @@
+{
+  "name": "Honda Prelude Mr. X Edition",
+  "brand": "Honda",
+  "year": "1980",
+  "author": "Alberto Daniel Russo",
+  "folderName": "a3dr_honda_prelude_s1",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_honda_prelude_s1",
+  "specs": {
+    "convertedPower": "176kW/240hp",
+    "isManufacturerData": false,
+    "bhp": "240 bhp",
+    "torque": "233 Nm",
+    "weight": "982 kg",
+    "topspeed": "250 km/h",
+    "acceleration": "6.1 s 0–100",
+    "pwratio": "4.09 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "FWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ fwd"
+  ]
+}

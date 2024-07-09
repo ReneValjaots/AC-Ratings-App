@@ -1,0 +1,35 @@
+{
+  "name": "Peugeot 406 (CSP)",
+  "brand": "Peugeot",
+  "year": "1998",
+  "author": "VRC Modding Team",
+  "folderName": "vrc_erc_1998_pageau_csp",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_erc_1998_pageau_csp",
+  "specs": {
+    "convertedPower": "231kW/314hp",
+    "isManufacturerData": false,
+    "bhp": "314 bhp",
+    "torque": "269 Nm",
+    "weight": "975 kg",
+    "topspeed": "275 km/h",
+    "acceleration": "5s",
+    "pwratio": "3.11 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "FWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ fwd"
+  ]
+}

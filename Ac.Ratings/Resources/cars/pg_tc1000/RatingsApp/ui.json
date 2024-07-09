@@ -1,0 +1,36 @@
+{
+  "name": "Abarth 1000 TC",
+  "brand": "Abarth",
+  "year": "1970",
+  "author": "Pessio Garage [ Pessio - Abbo90 - Hillclimber96 ]",
+  "folderName": "pg_tc1000",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pg_tc1000",
+  "specs": {
+    "convertedPower": "82kW/112hp",
+    "isManufacturerData": false,
+    "bhp": "112 bhp",
+    "torque": "101 Nm",
+    "weight": "605 kg*",
+    "topspeed": "200 Km/h",
+    "acceleration": "0 - 100 kph in 7.2 s",
+    "pwratio": "5.4 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#- manual",
+    "#+ rwd"
+  ]
+}

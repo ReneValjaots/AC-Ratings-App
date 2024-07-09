@@ -1,0 +1,36 @@
+{
+  "name": "Giulietta QV",
+  "brand": "Alfa Romeo",
+  "year": "2014",
+  "author": "Kunos",
+  "folderName": "alfa_romeo_giulietta_qv",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\alfa_romeo_giulietta_qv",
+  "specs": {
+    "convertedPower": "173kW/235hp",
+    "isManufacturerData": false,
+    "bhp": "235bhp",
+    "torque": "349Nm",
+    "weight": "1390kg",
+    "topspeed": "241km/h",
+    "acceleration": "6.6s 0-100",
+    "pwratio": "5.91kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "FWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ fwd",
+    "#- manual"
+  ]
+}

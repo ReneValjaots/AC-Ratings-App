@@ -1,0 +1,180 @@
+{
+  "name": "Audi R8 LMS 2016",
+  "brand": "Audi",
+  "description": "The new Audi R8 LMS, now featuring even more race car technology, is following in the footsteps of its successful predecessor.<br><br>Audi fans were already able to marvel at the new GT3 sports car from Neckarsulm in full action in 2015, for instance in the 24-hour race at the Nurburgring, where the Audi Sport Team WRT celebrated overall victory with the new R8 LMS. At the 12-hour race at Sepang the Audi R8 LMS took a one-two-three win. The 2016 season also began successfully: An overall victory in the Dubai 24 Hours and a class win in the classic Daytona 24 Hours.",
+  "tags": [
+    "#+ rwd",
+    "#- sequential",
+    "#! 5.2L & V10"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "500bhp",
+    "torque": "500Nm",
+    "weight": "1270kg",
+    "topspeed": "305 km/h",
+    "acceleration": "3.2s 0-100",
+    "pwratio": "2.54kg/hp"
+  },
+  "torqueCurve": [
+    [
+      500.0,
+      171.0
+    ],
+    [
+      1000.0,
+      274.0
+    ],
+    [
+      1500.0,
+      324.0
+    ],
+    [
+      2000.0,
+      333.0
+    ],
+    [
+      2500.0,
+      356.0
+    ],
+    [
+      3000.0,
+      406.0
+    ],
+    [
+      3500.0,
+      426.0
+    ],
+    [
+      4000.0,
+      458.0
+    ],
+    [
+      4500.0,
+      466.0
+    ],
+    [
+      5000.0,
+      473.0
+    ],
+    [
+      5500.0,
+      488.0
+    ],
+    [
+      6000.0,
+      492.0
+    ],
+    [
+      6500.0,
+      494.0
+    ],
+    [
+      7000.0,
+      491.0
+    ],
+    [
+      7500.0,
+      470.0
+    ],
+    [
+      8000.0,
+      442.0
+    ],
+    [
+      8600.0,
+      407.0
+    ],
+    [
+      9000.0,
+      371.0
+    ],
+    [
+      9250.0,
+      342.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      500.0,
+      12.0
+    ],
+    [
+      1000.0,
+      38.0
+    ],
+    [
+      1500.0,
+      68.0
+    ],
+    [
+      2000.0,
+      94.0
+    ],
+    [
+      2500.0,
+      125.0
+    ],
+    [
+      3000.0,
+      171.0
+    ],
+    [
+      3500.0,
+      209.0
+    ],
+    [
+      4000.0,
+      257.0
+    ],
+    [
+      4500.0,
+      294.0
+    ],
+    [
+      5000.0,
+      332.0
+    ],
+    [
+      5500.0,
+      377.0
+    ],
+    [
+      6000.0,
+      415.0
+    ],
+    [
+      6500.0,
+      451.0
+    ],
+    [
+      7000.0,
+      483.0
+    ],
+    [
+      7500.0,
+      495.0
+    ],
+    [
+      8000.0,
+      497.0
+    ],
+    [
+      8600.0,
+      492.0
+    ],
+    [
+      9000.0,
+      469.0
+    ],
+    [
+      9250.0,
+      444.0
+    ]
+  ],
+  "country": "Germany",
+  "year": 2016,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

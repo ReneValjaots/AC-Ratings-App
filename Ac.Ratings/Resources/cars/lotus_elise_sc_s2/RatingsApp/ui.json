@@ -1,0 +1,36 @@
+{
+  "name": "Lotus Elise SC Step2",
+  "brand": "Lotus",
+  "year": "2008",
+  "author": "Kunos",
+  "folderName": "lotus_elise_sc_s2",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_elise_sc_s2",
+  "specs": {
+    "convertedPower": "160kW/217hp",
+    "isManufacturerData": false,
+    "bhp": "217bhp",
+    "torque": "242Nm",
+    "weight": "929kg",
+    "topspeed": "235km/h",
+    "acceleration": "4.6s 0-100",
+    "pwratio": "4.28kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

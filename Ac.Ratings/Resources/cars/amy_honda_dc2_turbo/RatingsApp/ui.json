@@ -1,0 +1,36 @@
+{
+  "name": "Honda Integra Type R (DC2) Turbo",
+  "brand": "Honda",
+  "year": "1998",
+  "author": "Seb/Amy",
+  "folderName": "amy_honda_dc2_turbo",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\amy_honda_dc2_turbo",
+  "specs": {
+    "convertedPower": "287kW/390hp",
+    "isManufacturerData": false,
+    "bhp": "390 bhp",
+    "torque": "365 Nm",
+    "weight": "1120 kg",
+    "topspeed": "280 km/h",
+    "acceleration": "",
+    "pwratio": "2.87 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "FWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#- manual",
+    "#+ fwd"
+  ]
+}

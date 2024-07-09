@@ -1,0 +1,36 @@
+{
+  "name": "Toyota AE86 Coupe Tuned",
+  "brand": "Toyota",
+  "year": "1985",
+  "author": "Jugee8",
+  "folderName": "j8_ae86_tuned_coupe",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\j8_ae86_tuned_coupe",
+  "specs": {
+    "convertedPower": "120kW/163hp",
+    "isManufacturerData": false,
+    "bhp": "163 bhp",
+    "torque": "171 Nm",
+    "weight": "880 kg",
+    "topspeed": "196km/h",
+    "acceleration": "9.2s 0-100",
+    "pwratio": "5.4 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

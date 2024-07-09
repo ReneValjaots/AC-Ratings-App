@@ -1,0 +1,36 @@
+{
+  "name": "Ferrari 575 GTC",
+  "brand": "Ferrari",
+  "year": null,
+  "author": "Race Sim Studio",
+  "folderName": "rss_gt_ferruccio_57",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gt_ferruccio_57",
+  "specs": {
+    "convertedPower": "456kW/620hp",
+    "isManufacturerData": false,
+    "bhp": "620bhp",
+    "torque": "665Nm",
+    "weight": "1150kg",
+    "topspeed": "300km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.85kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Eunos Roadster Tuned",
+  "brand": "Mazda",
+  "year": "1989",
+  "author": "Jugee8 (1.1)",
+  "folderName": "j8_eunos_roadster_tuned",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\j8_eunos_roadster_tuned",
+  "specs": {
+    "convertedPower": "146kW/198hp",
+    "isManufacturerData": false,
+    "bhp": "198 bhp",
+    "torque": "245 Nm",
+    "weight": "960 kg",
+    "topspeed": "197+km/h",
+    "acceleration": "9.1s 0-100",
+    "pwratio": "6.67 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#- manual",
+    "#+ rwd"
+  ]
+}

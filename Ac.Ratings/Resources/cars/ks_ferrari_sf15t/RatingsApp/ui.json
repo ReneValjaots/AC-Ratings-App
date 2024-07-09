@@ -1,0 +1,36 @@
+{
+  "name": "Ferrari SF15-T",
+  "brand": "Ferrari",
+  "year": "2015",
+  "author": "Kunos",
+  "folderName": "ks_ferrari_sf15t",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_sf15t",
+  "specs": {
+    "convertedPower": "618kW/840hp",
+    "isManufacturerData": false,
+    "bhp": "840bhp",
+    "torque": "721Nm",
+    "weight": "702kg*",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "0.83kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 8,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

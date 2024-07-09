@@ -1,0 +1,36 @@
+{
+  "name": "BMW Z4 GT3",
+  "brand": "BMW",
+  "year": "2010",
+  "author": "Kunos",
+  "folderName": "bmw_z4_gt3",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_z4_gt3",
+  "specs": {
+    "convertedPower": "390kW/530hp",
+    "isManufacturerData": false,
+    "bhp": "530bhp",
+    "torque": "520Nm",
+    "weight": "1265kg",
+    "topspeed": "280+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.38kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

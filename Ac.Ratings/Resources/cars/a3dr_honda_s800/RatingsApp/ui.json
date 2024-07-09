@@ -1,0 +1,36 @@
+{
+  "name": "Honda S800",
+  "brand": "Honda",
+  "year": "1968",
+  "author": "Alberto Daniel Russo",
+  "folderName": "a3dr_honda_s800",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_honda_s800",
+  "specs": {
+    "convertedPower": "51kW/70hp",
+    "isManufacturerData": false,
+    "bhp": "70 bhp",
+    "torque": "66Nm",
+    "weight": "750kg",
+    "topspeed": "156 km/h",
+    "acceleration": "12.8s 0-100 km/h",
+    "pwratio": "10.71 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 4,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#- manual",
+    "#+ rwd"
+  ]
+}

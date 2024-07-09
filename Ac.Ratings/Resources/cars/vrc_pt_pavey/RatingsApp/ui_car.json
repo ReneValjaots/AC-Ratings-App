@@ -1,0 +1,178 @@
+{
+  "name": "Panoz LMP01 Evo",
+  "brand": "Panoz",
+  "description": "The Pavey Longhood S was a 24 Hours Race Prototype built for Pavey in 1999.<br>The Pavey Longhood S and its succesion are notable amongst 24 Hours Race prototypes for their use of engines are located in front of the driver, instead of the normal positioning behind. This gave the cars a unique look compared to their competitors.<br><br>This mod is kindly sponsored by NEXT LEVEL RACING. www.nextlevelracing.com",
+  "tags": [
+    "#+ rwd"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "607 bhp",
+    "torque": "650 NM",
+    "weight": "910 kg",
+    "topspeed": "325+km/h",
+    "acceleration": "2.5s",
+    "pwratio": "1.5 kg/hp"
+  },
+  "torqueCurve": [
+    [
+      3000.0,
+      580.63
+    ],
+    [
+      3250.0,
+      597.52
+    ],
+    [
+      3500.0,
+      611.28
+    ],
+    [
+      3750.0,
+      622.15
+    ],
+    [
+      4000.0,
+      630.32
+    ],
+    [
+      4250.0,
+      635.92
+    ],
+    [
+      4500.0,
+      639.07
+    ],
+    [
+      4750.0,
+      639.86
+    ],
+    [
+      5000.0,
+      639.32
+    ],
+    [
+      5250.0,
+      640.34
+    ],
+    [
+      5500.0,
+      643.76
+    ],
+    [
+      5750.0,
+      646.45
+    ],
+    [
+      6000.0,
+      646.99
+    ],
+    [
+      6250.0,
+      648.57
+    ],
+    [
+      6500.0,
+      650.82
+    ],
+    [
+      6750.0,
+      642.74
+    ],
+    [
+      7000.0,
+      622.92
+    ],
+    [
+      7200.0,
+      599.4
+    ],
+    [
+      7500.0,
+      549.82
+    ]
+  ],
+  "powerCurve": [
+    [
+      3000.0,
+      245.0
+    ],
+    [
+      3250.0,
+      273.14
+    ],
+    [
+      3500.0,
+      300.92
+    ],
+    [
+      3750.0,
+      328.15
+    ],
+    [
+      4000.0,
+      354.62
+    ],
+    [
+      4250.0,
+      380.13
+    ],
+    [
+      4500.0,
+      404.49
+    ],
+    [
+      4750.0,
+      427.48
+    ],
+    [
+      5000.0,
+      449.6
+    ],
+    [
+      5250.0,
+      472.84
+    ],
+    [
+      5500.0,
+      498.0
+    ],
+    [
+      5750.0,
+      522.81
+    ],
+    [
+      6000.0,
+      546.0
+    ],
+    [
+      6250.0,
+      570.14
+    ],
+    [
+      6500.0,
+      595.0
+    ],
+    [
+      6750.0,
+      610.21
+    ],
+    [
+      7000.0,
+      613.3
+    ],
+    [
+      7200.0,
+      607.0
+    ],
+    [
+      7500.0,
+      580.0
+    ]
+  ],
+  "country": "USA",
+  "year": 2003,
+  "author": "VRC Modding Team",
+  "version": "1.1",
+  "url": "www.vrc-modding-team.net"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Porsche Cayman GT4",
+  "brand": "Porsche",
+  "year": "2016",
+  "author": "Kunos",
+  "folderName": "ks_porsche_cayman_gt4_std",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_cayman_gt4_std",
+  "specs": {
+    "convertedPower": "283kW/385hp",
+    "isManufacturerData": false,
+    "bhp": "385bhp",
+    "torque": "420Nm",
+    "weight": "1340kg",
+    "topspeed": "295km/h",
+    "acceleration": "4.4s 0-100",
+    "pwratio": "3.48 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

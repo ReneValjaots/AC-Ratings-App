@@ -1,0 +1,147 @@
+{
+  "name": "Chevrolet Corvette C7R",
+  "brand": "Chevrolet",
+  "description": "When it comes to endurance racing, Corvette has been the benchmark of success for nearly 15 years, says Jim Campbell, U.S. vice president, Performance Vehicles and Motorsports.<br><br>Many of the architectural and aerodynamic features of the C7.R are based on equivalent components and technologies from the 2015 Corvette Z06, including a new, aluminium frame. As before, the race car and the Z06 will share the same, production-based aluminum frame. By leveraging advanced manufacturing materials - such as laser welding, Flowdrill-machined fasteners and a GM-patented aluminum spot-welding process - the production structure is significantly stronger than its predecessor. For Corvette Racing, this equates to a race chassis for the C7.R that is 40 percent stronger than the outgoing C6.R.<br><br>The addition of direct fuel injection to the Corvette Z06 will enable the technology to return to a Corvette race car for the first time since the end of the GT1 era in 2009. It promises greater efficiency, which can make a significant difference in long-distance endurance racing such as Daytona and Le Mans through fewer time-consuming pit stops.<br><br>The aerodynamic strategies of the Corvette Stingray came directly from the Corvette C6.R - including the forward-tilted radiator, functional hood and front-quarter panel vents, and rear transmission and differential cooling intakes. The Z06 and C7.R take that aerodynamic foundation to the next level, sharing aggressive strategies for increased cooling and aerodynamic downforce, including similar front splitters, rocker panels, and front- and rear-brake cooling ducts.",
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "495+bhp",
+    "torque": "650+Nm",
+    "weight": "1320kg",
+    "topspeed": "280+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.66kg/hp"
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      293.0
+    ],
+    [
+      1000.0,
+      328.0
+    ],
+    [
+      1500.0,
+      527.0
+    ],
+    [
+      2000.0,
+      571.0
+    ],
+    [
+      2500.0,
+      581.0
+    ],
+    [
+      3000.0,
+      627.0
+    ],
+    [
+      3500.0,
+      658.0
+    ],
+    [
+      4000.0,
+      668.0
+    ],
+    [
+      4500.0,
+      675.0
+    ],
+    [
+      5000.0,
+      677.0
+    ],
+    [
+      5500.0,
+      645.0
+    ],
+    [
+      6000.0,
+      594.0
+    ],
+    [
+      6500.0,
+      539.0
+    ],
+    [
+      7000.0,
+      480.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      21.0
+    ],
+    [
+      1000.0,
+      46.0
+    ],
+    [
+      1500.0,
+      111.0
+    ],
+    [
+      2000.0,
+      160.0
+    ],
+    [
+      2500.0,
+      204.0
+    ],
+    [
+      3000.0,
+      264.0
+    ],
+    [
+      3500.0,
+      323.0
+    ],
+    [
+      4000.0,
+      375.0
+    ],
+    [
+      4500.0,
+      427.0
+    ],
+    [
+      5000.0,
+      475.0
+    ],
+    [
+      5500.0,
+      498.0
+    ],
+    [
+      6000.0,
+      500.0
+    ],
+    [
+      6500.0,
+      492.0
+    ],
+    [
+      7000.0,
+      472.0
+    ]
+  ],
+  "country": "USA",
+  "year": 2015,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

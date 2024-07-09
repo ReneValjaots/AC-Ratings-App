@@ -1,0 +1,172 @@
+{
+  "name": "Lamborghini Miura P400 SV",
+  "brand": "Lamborghini",
+  "description": "Lamborghini Miura P400 SV <br><br>The Lamborghini Miura is a sports car that was produced by Italian automaker Lamborghini between 1966 and 1973. The car is widely considered to have instigated the trend of high performance, two-seater, mid-engined sports cars. At launch, it was the fastest production road car available.<br><br>The 12 cylinder, double overhead camshaft naturally aspirated engine has 2 valves per cylinder and a volume of 3.9 litres. It produces power and torque figures of 385 bhp at 7850 rpm and 399 Nm (294 lbft/40.7 kgm) at 5750 rpm respectively.This power is transmitted to the wheels through a 5 speed manual gearbox. With a claimed kerb weight of 1293 kg, the Lamborghini Miura P400SV can dispense with the 0-100 km/h benchmark in 4.50 seconds and the kilometre from rest in 23.2 seconds. Its maximum speed claimed is 290 km/h or 180 mph.<br><br>The SV can be distinguished from its predecessors from its lack of eyelashes around the headlamps, wider rear fenders to accommodate the new 9-inch-wide rear wheels and Pirelli Cinturato tires, and different tail lights. The problem with excessive front end lift at speed was also reduced somewhat in the later model car, but not eliminated entirely.  150 Lamborghini Miura P400 SVs were produced.",
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "385bhp",
+    "torque": "400Nm",
+    "weight": "1245kg",
+    "topspeed": "300km/h",
+    "acceleration": "6.5s 0-100",
+    "pwratio": "3.19kg/hp",
+    "range": 93
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      10.0
+    ],
+    [
+      500.0,
+      100.0
+    ],
+    [
+      1000.0,
+      180.0
+    ],
+    [
+      1500.0,
+      263.0
+    ],
+    [
+      2000.0,
+      315.0
+    ],
+    [
+      2500.0,
+      346.0
+    ],
+    [
+      3000.0,
+      360.0
+    ],
+    [
+      3500.0,
+      370.0
+    ],
+    [
+      4000.0,
+      378.0
+    ],
+    [
+      4500.0,
+      386.0
+    ],
+    [
+      5000.0,
+      394.0
+    ],
+    [
+      5500.0,
+      400.0
+    ],
+    [
+      6000.0,
+      399.0
+    ],
+    [
+      6500.0,
+      394.0
+    ],
+    [
+      7000.0,
+      385.0
+    ],
+    [
+      7500.0,
+      369.0
+    ],
+    [
+      8000.0,
+      334.0
+    ],
+    [
+      8500.0,
+      270.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      7.0
+    ],
+    [
+      1000.0,
+      25.0
+    ],
+    [
+      1500.0,
+      55.0
+    ],
+    [
+      2000.0,
+      88.0
+    ],
+    [
+      2500.0,
+      121.0
+    ],
+    [
+      3000.0,
+      152.0
+    ],
+    [
+      3500.0,
+      182.0
+    ],
+    [
+      4000.0,
+      212.0
+    ],
+    [
+      4500.0,
+      244.0
+    ],
+    [
+      5000.0,
+      277.0
+    ],
+    [
+      5500.0,
+      310.0
+    ],
+    [
+      6000.0,
+      336.0
+    ],
+    [
+      6500.0,
+      359.0
+    ],
+    [
+      7000.0,
+      378.0
+    ],
+    [
+      7500.0,
+      388.0
+    ],
+    [
+      8000.0,
+      375.0
+    ],
+    [
+      8500.0,
+      322.0
+    ]
+  ],
+  "country": "Italy",
+  "year": 1966,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

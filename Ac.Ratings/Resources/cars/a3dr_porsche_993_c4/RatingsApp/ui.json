@@ -1,0 +1,35 @@
+{
+  "name": "Porsche 911 (993) Carrera 4",
+  "brand": "Porsche",
+  "year": "1995",
+  "author": "Alberto Daniel Russo",
+  "folderName": "a3dr_porsche_993_c4",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_porsche_993_c4",
+  "specs": {
+    "convertedPower": "204kW/278hp",
+    "isManufacturerData": false,
+    "bhp": "278 bhp",
+    "torque": "349 Nm",
+    "weight": "1427 kg",
+    "topspeed": "274 km/h",
+    "acceleration": "5.2 s 0–100",
+    "pwratio": "5.13 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ awd"
+  ]
+}

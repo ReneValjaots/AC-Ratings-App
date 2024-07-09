@@ -1,0 +1,160 @@
+{
+  "name": "Shelby Cobra 427 S/C",
+  "brand": "Shelby",
+  "description": "Of all the Cobra variants, the 427 Semi/Competition or S/C is the most desirable series. Built from Shelby&#39;s competition production line, these were purposeful race-cars that were prepared at the last minute for the road.<br>After considerable racing success, Ford provided the 427 FE engine for the Cobra. With assistance from Ford and AC Cars, the team at Shelby American modified the existing AC chassis design to accommodate the Big Block engine, fitted with one great huge Holley 780 CFM as used on NASCAR machinery.<br>The engine produced somewhere between 490 and 500bhp, allowing the car to accelerate to 100mph and decelerate back to zero in 14 seconds.",
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "500bhp",
+    "torque": "626Nm",
+    "weight": "1110kg",
+    "topspeed": "265km/h",
+    "acceleration": "4.3s 0-100",
+    "pwratio": "2.14kg/hp",
+    "range": 154
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      150.0
+    ],
+    [
+      1000.0,
+      306.0
+    ],
+    [
+      1500.0,
+      400.0
+    ],
+    [
+      2000.0,
+      533.0
+    ],
+    [
+      2500.0,
+      620.0
+    ],
+    [
+      2800.0,
+      626.0
+    ],
+    [
+      3500.0,
+      620.0
+    ],
+    [
+      4000.0,
+      607.0
+    ],
+    [
+      4500.0,
+      587.0
+    ],
+    [
+      5000.0,
+      562.0
+    ],
+    [
+      5500.0,
+      530.0
+    ],
+    [
+      5750.0,
+      518.0
+    ],
+    [
+      6000.0,
+      460.0
+    ],
+    [
+      6500.0,
+      325.0
+    ],
+    [
+      7000.0,
+      200.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      12.0
+    ],
+    [
+      1000.0,
+      25.0
+    ],
+    [
+      1500.0,
+      85.0
+    ],
+    [
+      2000.0,
+      155.0
+    ],
+    [
+      2500.0,
+      215.0
+    ],
+    [
+      2700.0,
+      232.0
+    ],
+    [
+      3000.0,
+      265.0
+    ],
+    [
+      3500.0,
+      310.0
+    ],
+    [
+      4000.0,
+      345.0
+    ],
+    [
+      4500.0,
+      394.0
+    ],
+    [
+      5000.0,
+      428.0
+    ],
+    [
+      5500.0,
+      440.0
+    ],
+    [
+      6000.0,
+      468.0
+    ],
+    [
+      6500.0,
+      496.0
+    ],
+    [
+      6700.0,
+      498.0
+    ],
+    [
+      7000.0,
+      450.0
+    ]
+  ],
+  "country": "USA",
+  "year": 1966,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

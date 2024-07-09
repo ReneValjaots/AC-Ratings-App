@@ -1,0 +1,36 @@
+{
+  "name": "Alfa Romeo Giulia Quadrifoglio",
+  "brand": "Alfa Romeo",
+  "year": "2016",
+  "author": "Kunos",
+  "folderName": "ks_alfa_giulia_qv",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_alfa_giulia_qv",
+  "specs": {
+    "convertedPower": "375kW/510hp",
+    "isManufacturerData": false,
+    "bhp": "510bhp",
+    "torque": "600Nm",
+    "weight": "1595kg",
+    "topspeed": "307km/h",
+    "acceleration": "3.9s 0-100",
+    "pwratio": "3.13kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

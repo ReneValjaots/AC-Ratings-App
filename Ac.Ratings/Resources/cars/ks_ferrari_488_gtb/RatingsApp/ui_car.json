@@ -1,0 +1,187 @@
+{
+  "name": "Ferrari 488 GTB",
+  "brand": "Ferrari",
+  "description": "The Ferrari 488 GTB provides track-level performance that can be enjoyed to the maximum even by non-professional drivers in everyday use. Its response times, nimbleness and on-the-limit driving guarantee a unique sense of exhilaration and unparalleled driving pleasure.<br><br><br>This car&#39;s new 3902 cc V8 turbo is at the top of its class for power output, torque and response times, making it the new benchmark for this kind of architecture. <br><br><br>The Ferrari 488 GTB&#39;s subsystems and electronic controls make its power and performance instantly available and controllable. It is, in fact, the most responsive production model there is, with razor-sharp response times comparable to those of a track car.",
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "660bhp",
+    "torque": "760Nm",
+    "weight": "1370kg",
+    "topspeed": "330km/h",
+    "acceleration": "3.0s 0-100",
+    "pwratio": "2.08kg/hp"
+  },
+  "torqueCurve": [
+    [
+      500.0,
+      144.0
+    ],
+    [
+      1000.0,
+      149.0
+    ],
+    [
+      1500.0,
+      330.0
+    ],
+    [
+      2000.0,
+      453.0
+    ],
+    [
+      2500.0,
+      565.0
+    ],
+    [
+      3000.0,
+      761.0
+    ],
+    [
+      3500.0,
+      756.0
+    ],
+    [
+      4000.0,
+      759.0
+    ],
+    [
+      4500.0,
+      749.0
+    ],
+    [
+      5000.0,
+      742.0
+    ],
+    [
+      5500.0,
+      740.0
+    ],
+    [
+      6000.0,
+      728.0
+    ],
+    [
+      6500.0,
+      718.0
+    ],
+    [
+      6800.0,
+      687.0
+    ],
+    [
+      7000.0,
+      671.0
+    ],
+    [
+      7250.0,
+      644.0
+    ],
+    [
+      7500.0,
+      625.0
+    ],
+    [
+      7750.0,
+      606.0
+    ],
+    [
+      8000.0,
+      590.0
+    ],
+    [
+      8250.0,
+      571.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      500.0,
+      10.0
+    ],
+    [
+      1000.0,
+      21.0
+    ],
+    [
+      1500.0,
+      70.0
+    ],
+    [
+      2000.0,
+      127.0
+    ],
+    [
+      2500.0,
+      199.0
+    ],
+    [
+      3000.0,
+      321.0
+    ],
+    [
+      3500.0,
+      372.0
+    ],
+    [
+      4000.0,
+      426.0
+    ],
+    [
+      4500.0,
+      474.0
+    ],
+    [
+      5000.0,
+      521.0
+    ],
+    [
+      5500.0,
+      572.0
+    ],
+    [
+      6000.0,
+      614.0
+    ],
+    [
+      6500.0,
+      656.0
+    ],
+    [
+      6800.0,
+      657.0
+    ],
+    [
+      7000.0,
+      660.0
+    ],
+    [
+      7250.0,
+      657.0
+    ],
+    [
+      7500.0,
+      659.0
+    ],
+    [
+      7750.0,
+      661.0
+    ],
+    [
+      8000.0,
+      663.0
+    ],
+    [
+      8250.0,
+      662.0
+    ]
+  ],
+  "country": "Italy",
+  "year": 2015,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

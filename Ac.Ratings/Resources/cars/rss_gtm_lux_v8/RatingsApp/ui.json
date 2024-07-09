@@ -1,0 +1,36 @@
+{
+  "name": "Lexus RC F GT3",
+  "brand": "Lexus",
+  "year": "2024",
+  "author": "Race Sim Studio",
+  "folderName": "rss_gtm_lux_v8",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtm_lux_v8",
+  "specs": {
+    "convertedPower": "340kW/463hp",
+    "isManufacturerData": false,
+    "bhp": "463bhp",
+    "torque": "529Nm",
+    "weight": "1395kg",
+    "topspeed": "270+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "3.01kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

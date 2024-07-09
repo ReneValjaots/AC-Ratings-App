@@ -1,0 +1,158 @@
+{
+  "name": "BMW 1M Stage 3",
+  "parent": "bmw_1m",
+  "brand": "BMW",
+  "description": "The Stage 3 tuned version of BMW 1M series has adjustable aftermarket dampers with coilover springs, camber plates to adjust for massive range of camber at the front, and rear toe links for equally big range of camber adjustment at the rear. The engine is tuned with a new ECU that raises the turbo boost at over 1bar with an overboost function of over 1.3 bar, adjustable from the cockpit. Beware though, the engine can&#39;t handle that kind of pressure for too much time.<br><br>The letter M now comes to the segment of the BMW 1 Series to symbolise outstanding power delivery and the highly dynamic driving properties of a high-performance sports car. <br>In the BMW 1 Series M Coupe, the technology of a high-performance car is combined with the agility and lightness of a compact model to create a whole new dimension of sports-style driving pleasure. With this 2-door model, BMW M GmbH is now realising for the first time in this vehicle class its concept of racing-oriented performance characteristics in a car developed for everyday use . This further extends the company&#39;s model range, paving the way for younger target groups to be able to access the hallmark driving experience offered by an M car.<br><br>The BMW 1 Series M Coupe in-line 6-cylinder engine with M TwinPower Turbo and petrol direct injection develops a maximum output of 250 kW/340 bhp with an engine-speed-oriented characteristic curve typical of BMW M cars. With chassis technology derived directly from motor racing, a power-to-weight ratio reduced to 4.4 kilograms per bhp and precisely optimised aerodynamic components including innovative air curtains at the front end, supreme conversion of superior propulsion power into thrilling driving dynamics is guaranteed. The BMW 1 Series M Coupe accelerates in 4.9 seconds from zero to 100 km/h and reaches the 200 km/h mark after 17.3 seconds.",
+  "tags": [
+    "#+ rwd",
+    "#- manual",
+    "#! 3.0L & I6 & M TwinPower Turbo"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "400bhp",
+    "torque": "580Nm",
+    "weight": "1495kg",
+    "topspeed": "250+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "3.74kg/hp",
+    "range": 69
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      244.0
+    ],
+    [
+      1000.0,
+      350.0
+    ],
+    [
+      1500.0,
+      498.0
+    ],
+    [
+      2000.0,
+      577.0
+    ],
+    [
+      2500.0,
+      579.0
+    ],
+    [
+      3000.0,
+      579.0
+    ],
+    [
+      3500.0,
+      577.0
+    ],
+    [
+      4000.0,
+      575.0
+    ],
+    [
+      4500.0,
+      582.0
+    ],
+    [
+      5000.0,
+      534.0
+    ],
+    [
+      5500.0,
+      498.0
+    ],
+    [
+      6000.0,
+      450.0
+    ],
+    [
+      6500.0,
+      414.0
+    ],
+    [
+      7000.0,
+      381.0
+    ],
+    [
+      7250.0,
+      364.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      20.0
+    ],
+    [
+      1000.0,
+      49.0
+    ],
+    [
+      1500.0,
+      105.0
+    ],
+    [
+      2000.0,
+      162.0
+    ],
+    [
+      2500.0,
+      203.0
+    ],
+    [
+      3000.0,
+      244.0
+    ],
+    [
+      3500.0,
+      284.0
+    ],
+    [
+      4000.0,
+      323.0
+    ],
+    [
+      4500.0,
+      368.0
+    ],
+    [
+      5000.0,
+      375.0
+    ],
+    [
+      5500.0,
+      385.0
+    ],
+    [
+      6000.0,
+      379.0
+    ],
+    [
+      6500.0,
+      378.0
+    ],
+    [
+      7000.0,
+      375.0
+    ],
+    [
+      7250.0,
+      371.0
+    ]
+  ],
+  "country": "Germany",
+  "year": 2004,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

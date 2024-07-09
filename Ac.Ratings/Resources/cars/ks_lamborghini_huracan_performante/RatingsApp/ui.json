@@ -1,0 +1,36 @@
+{
+  "name": "Lamborghini Huracan Performante",
+  "brand": "Lamborghini",
+  "year": "2014",
+  "author": "Kunos",
+  "folderName": "ks_lamborghini_huracan_performante",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_huracan_performante",
+  "specs": {
+    "convertedPower": "471kW/640hp",
+    "isManufacturerData": false,
+    "bhp": "640bhp",
+    "torque": "600Nm",
+    "weight": "1382kg",
+    "topspeed": "325km/h",
+    "acceleration": "2.9s 0-100",
+    "pwratio": "2.15kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ awd",
+    "#- semiautomatic"
+  ]
+}

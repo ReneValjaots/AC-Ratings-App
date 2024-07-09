@@ -1,0 +1,36 @@
+{
+  "name": "McLaren 570S",
+  "brand": "McLaren",
+  "year": "2015",
+  "author": "Kunos",
+  "folderName": "ks_mclaren_570s",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mclaren_570s",
+  "specs": {
+    "convertedPower": "413kW/562hp",
+    "isManufacturerData": false,
+    "bhp": "562bhp",
+    "torque": "600Nm",
+    "weight": "1313kg",
+    "topspeed": "328km/h",
+    "acceleration": "3.2s 0-100",
+    "pwratio": "2.33kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "name": "Lamborghini Countach",
+  "brand": "Lamborghini",
+  "description": "The Lamborghini Countach is a mid-engined, V12 sports car produced by Italian car manufacturer Lamborghini from 1974 to 1990. Its design pioneered and popularized the wedge-shaped, sharply angled look popular in many high-performance sports cars. It also popularized the &quot;cabin-forward&quot; design concept, which pushes the passenger compartment forward to accommodate a larger engine. The word &quot;countach&quot; is an exclamation of astonishment in the local Piedmontese language.<br><br>The Countach&#39;s styling and visual impression made it an icon of great design to almost everyone except automotive engineers. The superior performance characteristics of later Lamborghini models (such as the Diablo, or the Murci&#233;lago) appealed to performance car drivers and engineers, but they never had the originality or outrageousness that gave the Countach its distinction.<br><br>The Countach entered production as the LP400 with a 3929 cc engine delivering 375 metric horsepower (370 hp) .In 1978, a new LP400 S model was introduced. Though the engine was slightly downgraded from the LP400 model (355 metric horsepower (350 bhp)), the most radical changes were in the exterior. 1982 saw another improvement, this time giving a bigger, more powerful 4754 cc engine.<br>In 1985 the engine was improved again, bored and stroked to 5167 cc and given four valves per cylinder (&quot;quattrovalvole&quot; in Italian), hence the model&#39;s name, Countach 5000 Quattrovalvole or 5000 QV in short. The carburetors were moved from the sides to the top of the engine for better breathing—unfortunately this created a hump on the engine deck, reducing the already poor rear visibility to almost nothing. Some body panels were also replaced by Kevlar. In later versions of the engine, the carburetors were replaced with fuel injection. Although this change was the most notable on the exterior, the most prominent change under the hood was the introduction of fuel injection.",
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "442bhp",
+    "torque": "500Nm",
+    "weight": "1490kg",
+    "topspeed": "295km/h",
+    "acceleration": "5.6s 0-100",
+    "pwratio": "3,34kg/hp",
+    "range": 420
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      173.0
+    ],
+    [
+      1000.0,
+      252.0
+    ],
+    [
+      1500.0,
+      400.0
+    ],
+    [
+      2000.0,
+      400.0
+    ],
+    [
+      2500.0,
+      418.0
+    ],
+    [
+      3000.0,
+      442.0
+    ],
+    [
+      3500.0,
+      451.0
+    ],
+    [
+      4000.0,
+      468.0
+    ],
+    [
+      4500.0,
+      486.0
+    ],
+    [
+      5000.0,
+      494.0
+    ],
+    [
+      5200.0,
+      500.0
+    ],
+    [
+      5500.0,
+      499.0
+    ],
+    [
+      6000.0,
+      490.0
+    ],
+    [
+      6500.0,
+      478.0
+    ],
+    [
+      7000.0,
+      463.0
+    ],
+    [
+      7500.0,
+      420.0
+    ],
+    [
+      8000.0,
+      350.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      12.0
+    ],
+    [
+      1000.0,
+      35.0
+    ],
+    [
+      1500.0,
+      84.0
+    ],
+    [
+      2000.0,
+      112.0
+    ],
+    [
+      2500.0,
+      147.0
+    ],
+    [
+      3000.0,
+      186.0
+    ],
+    [
+      3500.0,
+      222.0
+    ],
+    [
+      4000.0,
+      263.0
+    ],
+    [
+      4500.0,
+      307.0
+    ],
+    [
+      5000.0,
+      347.0
+    ],
+    [
+      5200.0,
+      365.0
+    ],
+    [
+      5500.0,
+      385.0
+    ],
+    [
+      6000.0,
+      413.0
+    ],
+    [
+      6500.0,
+      436.0
+    ],
+    [
+      7000.0,
+      455.0
+    ],
+    [
+      7500.0,
+      442.0
+    ],
+    [
+      8000.0,
+      393.0
+    ]
+  ],
+  "country": "Italy",
+  "year": 1983,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Nissan Skyline GT-R R34 Nismo Omori Factory S1",
+  "brand": "Nissan",
+  "year": "2000",
+  "author": "Kaiser",
+  "folderName": "nissan_skyline_r34_omori_factory_s1",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\nissan_skyline_r34_omori_factory_s1",
+  "specs": {
+    "convertedPower": "499kW/678hp",
+    "isManufacturerData": false,
+    "bhp": "678bhp",
+    "torque": "740Nm",
+    "weight": "1560kg",
+    "topspeed": "300+km/h",
+    "acceleration": "3.3s 0-100",
+    "pwratio": "2.30kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#- manual",
+    "#+ awd"
+  ]
+}

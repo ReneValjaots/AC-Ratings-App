@@ -1,0 +1,36 @@
+{
+  "name": "VRC Formula Alpha 2023 (CSP)",
+  "brand": "VRC",
+  "year": "2023",
+  "author": "VRC Modding Team",
+  "folderName": "vrc_formula_alpha_2023_csp",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_formula_alpha_2023_csp",
+  "specs": {
+    "convertedPower": "744kW/1012hp",
+    "isManufacturerData": false,
+    "bhp": "1012 bhp",
+    "torque": "571 Nm",
+    "weight": "722kg",
+    "topspeed": "355kph",
+    "acceleration": "2.6s",
+    "pwratio": "0.71 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 8,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

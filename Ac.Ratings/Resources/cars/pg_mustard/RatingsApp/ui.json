@@ -1,0 +1,36 @@
+{
+  "name": "Ford Mustang Boss 302",
+  "brand": "Ford",
+  "year": "1969",
+  "author": "Pessio Garage & abbo90",
+  "folderName": "pg_mustard",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pg_mustard",
+  "specs": {
+    "convertedPower": "347kW/472hp",
+    "isManufacturerData": false,
+    "bhp": "472 bhp",
+    "torque": "529 Nm",
+    "weight": "1318 kg",
+    "topspeed": "270+ km/h",
+    "acceleration": "0 - 100 kph in 4.7 s",
+    "pwratio": "2.79 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 4,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

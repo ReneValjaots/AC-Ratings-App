@@ -1,0 +1,36 @@
+{
+  "name": "Nissan Skyline GT-R V-Spec (BCNR33) Wangan Spec",
+  "brand": "Nissan",
+  "year": "1999",
+  "author": "Shutoko Revival Project",
+  "folderName": "srp_bcnr33_wangan",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\srp_bcnr33_wangan",
+  "specs": {
+    "convertedPower": "600kW/816hp",
+    "isManufacturerData": false,
+    "bhp": "816 bhp",
+    "torque": "823 Nm",
+    "weight": "1560kg",
+    "topspeed": "250+km/h",
+    "acceleration": "4.9s 0-100",
+    "pwratio": "1.91 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#- manual",
+    "#+ awd"
+  ]
+}

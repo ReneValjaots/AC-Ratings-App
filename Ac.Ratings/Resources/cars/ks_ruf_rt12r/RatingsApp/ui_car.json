@@ -1,0 +1,163 @@
+{
+  "name": "RUF RT12 R",
+  "brand": "RUF",
+  "description": "RUF proudly presented the Rt 12 R at the 2011 Geneva International Motorshow. The 3.8 litre bi-turbo boxer engine delivers 537 kW (730 bhp) of power with a maximum torque figure of 940 Nm. <br><br>The lightweight R using design details originating from motor racing is an optimal choice of vehicle for the race track. The suspension is also adjustable.",
+  "tags": [
+    "#- manual"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "730bhp",
+    "torque": "940Nm",
+    "weight": "1,495kg",
+    "topspeed": "370+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.00kg/hp",
+    "range": 107
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      100.0
+    ],
+    [
+      1000.0,
+      200.0
+    ],
+    [
+      1500.0,
+      250.0
+    ],
+    [
+      2000.0,
+      400.0
+    ],
+    [
+      2500.0,
+      550.0
+    ],
+    [
+      3000.0,
+      750.0
+    ],
+    [
+      3500.0,
+      940.0
+    ],
+    [
+      4000.0,
+      938.0
+    ],
+    [
+      4500.0,
+      935.0
+    ],
+    [
+      5000.0,
+      940.0
+    ],
+    [
+      5500.0,
+      882.0
+    ],
+    [
+      6000.0,
+      814.0
+    ],
+    [
+      6500.0,
+      778.0
+    ],
+    [
+      7000.0,
+      736.0
+    ],
+    [
+      7300.0,
+      710.0
+    ],
+    [
+      8000.0,
+      493.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      7.0
+    ],
+    [
+      1000.0,
+      28.0
+    ],
+    [
+      1500.0,
+      53.0
+    ],
+    [
+      2000.0,
+      112.0
+    ],
+    [
+      2500.0,
+      193.0
+    ],
+    [
+      3000.0,
+      316.0
+    ],
+    [
+      3500.0,
+      462.0
+    ],
+    [
+      4000.0,
+      527.0
+    ],
+    [
+      4500.0,
+      591.0
+    ],
+    [
+      5000.0,
+      660.0
+    ],
+    [
+      5500.0,
+      681.0
+    ],
+    [
+      6000.0,
+      686.0
+    ],
+    [
+      6500.0,
+      710.0
+    ],
+    [
+      7000.0,
+      723.0
+    ],
+    [
+      7300.0,
+      728.0
+    ],
+    [
+      8000.0,
+      554.0
+    ]
+  ],
+  "country": "Germany",
+  "year": 2011,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Ferrari 488 GTB",
+  "brand": "Ferrari",
+  "year": "2015",
+  "author": "Kunos",
+  "folderName": "ks_ferrari_488_gtb",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_488_gtb",
+  "specs": {
+    "convertedPower": "485kW/660hp",
+    "isManufacturerData": false,
+    "bhp": "660bhp",
+    "torque": "760Nm",
+    "weight": "1370kg",
+    "topspeed": "330km/h",
+    "acceleration": "3.0s 0-100",
+    "pwratio": "2.08kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ]
+}

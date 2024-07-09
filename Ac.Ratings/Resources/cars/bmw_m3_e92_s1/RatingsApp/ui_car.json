@@ -1,0 +1,181 @@
+{
+  "name": "BMW M3 E92 Step1",
+  "parent": "bmw_m3_e92",
+  "brand": "BMW",
+  "description": "The Step1 tuned version of M3 E92 series has non adjustable aftermarket dampers and lowered springs. There are some compromises as the rear subframe chassis spring sockets, can&#39;t handle very stiff springs, so the front is more stiff than the rear. <br><br>The fourth generation - 20 years and still designed to thrill.<br>The BMW M3 Coupe continues the tradition of the M GmbH to build a perfect high-performance sports car. It comes with a completely new V8 engine and drivetrain, a lightweight body that is also extremely stiff, a lowered centre of gravity and a carbon roof which, while just as strong as a steel roof, weighs far less. And of course, everything has been tried and tested on the toughest proving ground in the world, the Nurburgring-Nordschleife. Underneath the distinctive powerdome: the V8 high-rev engine with up to 8.400 rpm which is transferred by the double-clutch transmission M DKG Drivelogic to the M differential lock and then to the rear wheels without the slightest disruption to tractive force.<br><br>With a vehicle as powerful and dynamic as this, styling is never an aim in itself. Form will always be driven by functional considerations. The expressive front is designed to accommodate the V8 high-rev engine. The muscular rear allows for the wider track and four tailpipes. Even the shape of the exterior mirrors adds to the overall aerodynamics. Only the interplay of all these measures ensures the desired effect: sports car performance that is ideally suited to everyday driving.",
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "414bhp",
+    "torque": "400Nm",
+    "weight": "1605kg",
+    "topspeed": "250+km/h",
+    "acceleration": "4.3s 0-100",
+    "pwratio": "3.87kg/hp",
+    "range": 105
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      177.0
+    ],
+    [
+      1000.0,
+      267.0
+    ],
+    [
+      1500.0,
+      283.0
+    ],
+    [
+      2000.0,
+      329.0
+    ],
+    [
+      2500.0,
+      347.0
+    ],
+    [
+      3000.0,
+      371.0
+    ],
+    [
+      3500.0,
+      389.0
+    ],
+    [
+      4000.0,
+      400.0
+    ],
+    [
+      4500.0,
+      392.0
+    ],
+    [
+      5000.0,
+      386.0
+    ],
+    [
+      5500.0,
+      393.0
+    ],
+    [
+      6000.0,
+      389.0
+    ],
+    [
+      6500.0,
+      381.0
+    ],
+    [
+      7000.0,
+      394.0
+    ],
+    [
+      7500.0,
+      373.0
+    ],
+    [
+      8000.0,
+      361.0
+    ],
+    [
+      8300.0,
+      351.0
+    ],
+    [
+      8500.0,
+      339.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      12.0
+    ],
+    [
+      1000.0,
+      37.0
+    ],
+    [
+      1500.0,
+      60.0
+    ],
+    [
+      2000.0,
+      92.0
+    ],
+    [
+      2500.0,
+      122.0
+    ],
+    [
+      3000.0,
+      156.0
+    ],
+    [
+      3500.0,
+      191.0
+    ],
+    [
+      4000.0,
+      225.0
+    ],
+    [
+      4500.0,
+      248.0
+    ],
+    [
+      5000.0,
+      271.0
+    ],
+    [
+      5500.0,
+      304.0
+    ],
+    [
+      6000.0,
+      328.0
+    ],
+    [
+      6500.0,
+      348.0
+    ],
+    [
+      7000.0,
+      387.0
+    ],
+    [
+      7500.0,
+      393.0
+    ],
+    [
+      8000.0,
+      406.0
+    ],
+    [
+      8300.0,
+      412.0
+    ],
+    [
+      8500.0,
+      405.0
+    ]
+  ],
+  "country": "Germany",
+  "year": 2015,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

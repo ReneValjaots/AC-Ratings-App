@@ -1,0 +1,36 @@
+{
+  "name": "Porsche 962 C Long Tail",
+  "brand": "Porsche",
+  "year": "1984",
+  "author": "Kunos",
+  "folderName": "ks_porsche_962c_longtail",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_962c_longtail",
+  "specs": {
+    "convertedPower": "478kW/650hp",
+    "isManufacturerData": false,
+    "bhp": "650bhp",
+    "torque": "---Nm",
+    "weight": "825kg",
+    "topspeed": "360km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.27 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

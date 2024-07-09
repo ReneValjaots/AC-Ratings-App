@@ -1,0 +1,211 @@
+{
+  "name": "Lotus Exos 125",
+  "brand": "Lotus",
+  "description": "Simplify and add lightness<br><br>When you press the ENGINE START button in your Lotus 125 you&#39;ll be igniting more than 60 years of motor racing heritage.<br>The lotus 125 has amassed thousands of testing miles, visiting tracks and locations such as Vallelunga, Italy, Yas marina circuit Abu Dhabi, Portimao Portugal, complimented with many miles of testing at the Lotus Test Track in Hethel. This exhaustive test schedule has been conducted in various locations, in differing extreme conditions under the watchful eye and expert direction of the vastly experienced LRGP Test Team. Therefore, you can be assured of the pedigree, reliability and performance that a lotus 125 is capable of delivering.<br><br>The development programme has harnessed input from an experienced group including past masters such as Nigel Mansell &amp; Jean Alesi. Their inputs ensure the car delivers outstanding levels of speed and performance which is complimented by a consistency of driveability that is sympathetic to all driving styles.<br><br>The Lotus 125 embodies all the performance attributes of a modern f1 car, but without the need for F1 levels<br>of personal support and associated running costs. The Lotus 125 offers the thrill of f1 ownership at a fraction of the cost - but with no compromises.",
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "640bhp",
+    "torque": "450Nm",
+    "weight": "660kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.03kg/hp"
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      60.0
+    ],
+    [
+      1000.0,
+      132.0
+    ],
+    [
+      1500.0,
+      148.0
+    ],
+    [
+      2000.0,
+      172.0
+    ],
+    [
+      2500.0,
+      215.0
+    ],
+    [
+      3000.0,
+      247.0
+    ],
+    [
+      3500.0,
+      271.0
+    ],
+    [
+      4000.0,
+      288.0
+    ],
+    [
+      4500.0,
+      297.0
+    ],
+    [
+      5000.0,
+      324.0
+    ],
+    [
+      5500.0,
+      374.0
+    ],
+    [
+      6000.0,
+      411.0
+    ],
+    [
+      6500.0,
+      442.0
+    ],
+    [
+      7000.0,
+      449.0
+    ],
+    [
+      7500.0,
+      452.0
+    ],
+    [
+      8000.0,
+      451.0
+    ],
+    [
+      8500.0,
+      450.0
+    ],
+    [
+      9000.0,
+      452.0
+    ],
+    [
+      9500.0,
+      454.0
+    ],
+    [
+      10000.0,
+      456.0
+    ],
+    [
+      10500.0,
+      438.0
+    ],
+    [
+      11000.0,
+      422.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      4.0
+    ],
+    [
+      1000.0,
+      19.0
+    ],
+    [
+      1500.0,
+      31.0
+    ],
+    [
+      2000.0,
+      48.0
+    ],
+    [
+      2500.0,
+      75.0
+    ],
+    [
+      3000.0,
+      104.0
+    ],
+    [
+      3500.0,
+      133.0
+    ],
+    [
+      4000.0,
+      162.0
+    ],
+    [
+      4500.0,
+      188.0
+    ],
+    [
+      5000.0,
+      227.0
+    ],
+    [
+      5500.0,
+      289.0
+    ],
+    [
+      6000.0,
+      346.0
+    ],
+    [
+      6500.0,
+      403.0
+    ],
+    [
+      7000.0,
+      441.0
+    ],
+    [
+      7500.0,
+      476.0
+    ],
+    [
+      8000.0,
+      507.0
+    ],
+    [
+      8500.0,
+      537.0
+    ],
+    [
+      9000.0,
+      571.0
+    ],
+    [
+      9500.0,
+      606.0
+    ],
+    [
+      10000.0,
+      640.0
+    ],
+    [
+      10500.0,
+      646.0
+    ],
+    [
+      11000.0,
+      652.0
+    ]
+  ],
+  "country": "Great Britain",
+  "year": 2010,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

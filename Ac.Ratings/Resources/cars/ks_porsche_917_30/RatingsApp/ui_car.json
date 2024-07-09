@@ -1,0 +1,170 @@
+{
+  "name": "Porsche 917/30 Spyder",
+  "brand": "Porsche",
+  "description": "The Porsche 917/30 Spyder owed its outstanding performance to its twelve-cylinder twin-turbo engine. Unlike the strictly regulated European motorsport series, the CanAm series placed no restrictions on technicians&#39; ingenuity in terms of weight or displacement limits. The team supporting the Porsche race engine designer, Hans Mezger, was therefore able to dig deep into its box of tricks to ensure that the twelve-cylinder turbo engine of the 917/30 steadfastly produced 1,100 to 1,400 hp and a maximum torque of 1,210 Newton metres, thereby guaranteeing exceptional acceleration: from zero to 100 km/h in just 2.4 seconds, a mere 5.4 seconds to the 200 mark and only 11.3 seconds to reach a speed of 300 km/h. <br><br><br>And above all, the turbocharger of the Porsche 917/30 Spyder proved to be highly reliable, even on twisting circuits. Porsche driver Mark Donohue beat his McLaren and Chevrolet rivals so comprehensively, that the race car received the equally rare and coveted title of &quot;unbeatable&quot;. Only the CanAm series rules prevented the fast, reliable Porsche 917/30 Spyder from entering the race again in 1974. But the Porsche 917/30 Spyder was much talked about even after the 1973 race season. <br><br><br>In 1975, Mark Donohue set a new world lap record in Talladega, Alabama, in an aerodynamically optimised 917/30. The absolute top speed of the American&#39;s fastest lap was 385.85 km/h. <br><br><br>Today, the race car can be admired in the Porsche Museum in Zuffenhausen, where it is considered a highlight of the museum&#39;s collection. The 917/30 also regularly tours the world as a brand ambassador as part of the &quot;Rolling Porsche Museum&quot;.",
+  "tags": [
+    "#- manual"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "1200bhp",
+    "torque": "1200Nm",
+    "weight": "800kg",
+    "topspeed": "385km/h",
+    "acceleration": "2.4s 0-100",
+    "pwratio": "0.66kg/hp"
+  },
+  "torqueCurve": [
+    [
+      500.0,
+      221.0
+    ],
+    [
+      1000.0,
+      248.0
+    ],
+    [
+      1500.0,
+      294.0
+    ],
+    [
+      2000.0,
+      340.0
+    ],
+    [
+      2500.0,
+      381.0
+    ],
+    [
+      3000.0,
+      411.0
+    ],
+    [
+      3500.0,
+      441.0
+    ],
+    [
+      4000.0,
+      447.0
+    ],
+    [
+      4500.0,
+      439.0
+    ],
+    [
+      5000.0,
+      548.0
+    ],
+    [
+      5500.0,
+      864.0
+    ],
+    [
+      6000.0,
+      1138.0
+    ],
+    [
+      6500.0,
+      1296.0
+    ],
+    [
+      7000.0,
+      1241.0
+    ],
+    [
+      7500.0,
+      1173.0
+    ],
+    [
+      8000.0,
+      1118.0
+    ],
+    [
+      8500.0,
+      1045.0
+    ],
+    [
+      9000.0,
+      908.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      500.0,
+      16.0
+    ],
+    [
+      1000.0,
+      35.0
+    ],
+    [
+      1500.0,
+      62.0
+    ],
+    [
+      2000.0,
+      96.0
+    ],
+    [
+      2500.0,
+      134.0
+    ],
+    [
+      3000.0,
+      173.0
+    ],
+    [
+      3500.0,
+      217.0
+    ],
+    [
+      4000.0,
+      251.0
+    ],
+    [
+      4500.0,
+      277.0
+    ],
+    [
+      5000.0,
+      384.0
+    ],
+    [
+      5500.0,
+      667.0
+    ],
+    [
+      6000.0,
+      959.0
+    ],
+    [
+      6500.0,
+      1183.0
+    ],
+    [
+      7000.0,
+      1220.0
+    ],
+    [
+      7500.0,
+      1235.0
+    ],
+    [
+      8000.0,
+      1256.0
+    ],
+    [
+      8500.0,
+      1247.0
+    ],
+    [
+      9000.0,
+      1148.0
+    ]
+  ],
+  "country": "Germany",
+  "year": 1973,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

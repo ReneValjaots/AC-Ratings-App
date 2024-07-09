@@ -1,0 +1,196 @@
+{
+  "name": "Ferrari LaFerrari",
+  "brand": "Ferrari",
+  "description": "The LaFerrari represents Ferrari&#39;s most ambitious project yet to push the boundaries of technology on a road car, drawing together the finest expression of the marque&#39;s technical capabilities in both GT and Formula 1 engineering.<br><br>The LaFerrari is Ferrari&#39;s first ever production car to be equipped with the F1-derived hybrid solution – the HY-KERS system – which combines an electric motor producing over 150 CV with the most powerful incarnation yet of Ferrari&#39;s classic V12, with 800 CV at 9000 rpm.<br><br>To attain the performance goals set for the LaFerrari, Ferrari drew not only on the Scuderia&#39;s F1 experience in the choice of materials, design and engineering, but brought in the expertise of Rory Byrne, the legendary F1 designer who was responsible for no fewer than 11 of Ferrari&#39;s World Championship-winning cars. <br><br>The engineers&#39; aim was to deliver the highest degree of aerodynamic efficiency ever achieved with any road car, with a coefficient of nearly 3, thanks to technical solutions honed with CFD analysis and fine-tuned in the F1 Wind Tunnel.<br><br>Thanks to myriad innovations across the board in its design and construction, the LaFerrari delivers absolutely exceptional performance, establishing itself as Ferrari&#39;s fastest-ever road car. The LaFerrari slashes more than 5 seconds off the Enzo&#39;s lap record at the Fiorano circuit.",
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "963bhp",
+    "torque": "900+Nm",
+    "weight": "--kg",
+    "topspeed": "350+km/h",
+    "acceleration": "<3.0s 0-100",
+    "pwratio": "--kg/hp",
+    "range": 159
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      428.0
+    ],
+    [
+      1000.0,
+      428.0
+    ],
+    [
+      1500.0,
+      436.0
+    ],
+    [
+      2000.0,
+      460.0
+    ],
+    [
+      2500.0,
+      466.0
+    ],
+    [
+      3000.0,
+      478.0
+    ],
+    [
+      3500.0,
+      509.0
+    ],
+    [
+      4000.0,
+      573.0
+    ],
+    [
+      4500.0,
+      777.0
+    ],
+    [
+      5000.0,
+      802.0
+    ],
+    [
+      5500.0,
+      852.0
+    ],
+    [
+      6000.0,
+      867.0
+    ],
+    [
+      6500.0,
+      898.0
+    ],
+    [
+      6750.0,
+      900.0
+    ],
+    [
+      7000.0,
+      878.0
+    ],
+    [
+      7500.0,
+      832.0
+    ],
+    [
+      8000.0,
+      809.0
+    ],
+    [
+      8500.0,
+      786.0
+    ],
+    [
+      9000.0,
+      762.0
+    ],
+    [
+      9250.0,
+      741.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      30.0
+    ],
+    [
+      1000.0,
+      60.0
+    ],
+    [
+      1500.0,
+      92.0
+    ],
+    [
+      2000.0,
+      129.0
+    ],
+    [
+      2500.0,
+      164.0
+    ],
+    [
+      3000.0,
+      201.0
+    ],
+    [
+      3500.0,
+      250.0
+    ],
+    [
+      4000.0,
+      322.0
+    ],
+    [
+      4500.0,
+      491.0
+    ],
+    [
+      5000.0,
+      563.0
+    ],
+    [
+      5500.0,
+      658.0
+    ],
+    [
+      6000.0,
+      731.0
+    ],
+    [
+      6500.0,
+      820.0
+    ],
+    [
+      6750.0,
+      853.0
+    ],
+    [
+      7000.0,
+      863.0
+    ],
+    [
+      7500.0,
+      876.0
+    ],
+    [
+      8000.0,
+      909.0
+    ],
+    [
+      8500.0,
+      938.0
+    ],
+    [
+      9000.0,
+      963.0
+    ],
+    [
+      9250.0,
+      962.0
+    ]
+  ],
+  "country": "Italy",
+  "year": 2015,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

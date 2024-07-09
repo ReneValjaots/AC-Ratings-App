@@ -1,0 +1,179 @@
+{
+  "name": "Ferrari 250 GTO",
+  "brand": "Ferrari",
+  "description": "The 250 GTO model was the pinnacle of the development of the 250 GT series in competition form, whilst still remaining a road car. It made its public debut at the annual pre-season Ferrari press conference in January 1962, and was the only front-engined model on display, with its monoposto and sports racing counterparts all having a mid-engine configuration.<br><br><br>The 250 GTO was the ultimate expression of the Ferrari 250 GT car. It was equally at home on the road or track – perhaps the last dual-purpose road/race car produced – and has achieved legendary status amongst aficionados of the marque. With only a relatively small production run of thirty-six cars, and with many of the examples produced having a great racing pedigree, it has become one of the icons of Ferrari&#39;s production history, with a revered position in collectors&#39; circles.",
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "300bhp",
+    "torque": "294Nm",
+    "weight": "880kg",
+    "topspeed": "280km/h",
+    "acceleration": "6.1s 0-100",
+    "pwratio": "2.93kg/hp"
+  },
+  "torqueCurve": [
+    [
+      500.0,
+      82.0
+    ],
+    [
+      1000.0,
+      124.0
+    ],
+    [
+      1500.0,
+      147.0
+    ],
+    [
+      2000.0,
+      170.0
+    ],
+    [
+      2500.0,
+      193.0
+    ],
+    [
+      3000.0,
+      216.0
+    ],
+    [
+      3500.0,
+      239.0
+    ],
+    [
+      4000.0,
+      262.0
+    ],
+    [
+      4500.0,
+      285.0
+    ],
+    [
+      5000.0,
+      308.0
+    ],
+    [
+      5500.0,
+      331.0
+    ],
+    [
+      6000.0,
+      320.0
+    ],
+    [
+      6500.0,
+      309.0
+    ],
+    [
+      7000.0,
+      298.0
+    ],
+    [
+      7400.0,
+      285.0
+    ],
+    [
+      8000.0,
+      261.0
+    ],
+    [
+      8500.0,
+      244.0
+    ],
+    [
+      8800.0,
+      231.0
+    ],
+    [
+      9000.0,
+      222.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      500.0,
+      6.0
+    ],
+    [
+      1000.0,
+      17.0
+    ],
+    [
+      1500.0,
+      31.0
+    ],
+    [
+      2000.0,
+      48.0
+    ],
+    [
+      2500.0,
+      68.0
+    ],
+    [
+      3000.0,
+      91.0
+    ],
+    [
+      3500.0,
+      117.0
+    ],
+    [
+      4000.0,
+      147.0
+    ],
+    [
+      4500.0,
+      180.0
+    ],
+    [
+      5000.0,
+      216.0
+    ],
+    [
+      5500.0,
+      256.0
+    ],
+    [
+      6000.0,
+      270.0
+    ],
+    [
+      6500.0,
+      282.0
+    ],
+    [
+      7000.0,
+      293.0
+    ],
+    [
+      7400.0,
+      296.0
+    ],
+    [
+      8000.0,
+      293.0
+    ],
+    [
+      8500.0,
+      291.0
+    ],
+    [
+      8800.0,
+      285.0
+    ],
+    [
+      9000.0,
+      281.0
+    ]
+  ],
+  "country": "Italy",
+  "year": 1962,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

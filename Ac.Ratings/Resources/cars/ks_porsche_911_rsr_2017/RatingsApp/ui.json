@@ -1,0 +1,36 @@
+{
+  "name": "Porsche 911 RSR 2017",
+  "brand": "Porsche",
+  "year": "2017",
+  "author": "Kunos",
+  "folderName": "ks_porsche_911_rsr_2017",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_rsr_2017",
+  "specs": {
+    "convertedPower": "375kW/510hp",
+    "isManufacturerData": false,
+    "bhp": "510bhp",
+    "torque": "--Nm",
+    "weight": "1245kg",
+    "topspeed": "270+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.44 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

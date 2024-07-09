@@ -1,0 +1,36 @@
+{
+  "name": "Praga R1",
+  "brand": "Praga",
+  "year": "2012",
+  "author": "Kunos",
+  "folderName": "ks_praga_r1",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_praga_r1",
+  "specs": {
+    "convertedPower": "154kW/210hp",
+    "isManufacturerData": false,
+    "bhp": "210bhp",
+    "torque": "220Nm",
+    "weight": "585kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.78kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

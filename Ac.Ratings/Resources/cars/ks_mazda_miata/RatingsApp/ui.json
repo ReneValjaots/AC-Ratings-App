@@ -1,0 +1,36 @@
+{
+  "name": "Mazda Miata NA",
+  "brand": "Mazda",
+  "year": "1990",
+  "author": "Kunos",
+  "folderName": "ks_mazda_miata",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mazda_miata",
+  "specs": {
+    "convertedPower": "96kW/130hp",
+    "isManufacturerData": false,
+    "bhp": "130bhp",
+    "torque": "152Nm",
+    "weight": "1040kg",
+    "topspeed": "197+km/h",
+    "acceleration": "8.8s 0-100km/h",
+    "pwratio": "8kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

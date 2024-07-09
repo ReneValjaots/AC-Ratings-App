@@ -1,0 +1,36 @@
+{
+  "name": "Lotus Type 25",
+  "brand": "Lotus Classic Cars",
+  "year": "1962",
+  "author": "Kunos",
+  "folderName": "ks_lotus_25",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lotus_25",
+  "specs": {
+    "convertedPower": "143kW/195hp",
+    "isManufacturerData": false,
+    "bhp": "195bhp",
+    "torque": "160Nm",
+    "weight": "451kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.31kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ]
+}

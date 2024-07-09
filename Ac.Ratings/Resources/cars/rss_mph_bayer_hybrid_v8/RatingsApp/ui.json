@@ -1,0 +1,36 @@
+{
+  "name": "BMW M Hybrid V8",
+  "brand": "BMW",
+  "year": "2024",
+  "author": "Race Sim Studio",
+  "folderName": "rss_mph_bayer_hybrid_v8",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_mph_bayer_hybrid_v8",
+  "specs": {
+    "convertedPower": "441kW/600hp",
+    "isManufacturerData": false,
+    "bhp": "600bhp",
+    "torque": "615Nm",
+    "weight": "1120kg",
+    "topspeed": "340+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.87kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Radical SR10 XXR",
+  "brand": "Radical",
+  "year": "2023",
+  "author": "United Racing Design",
+  "folderName": "urd_radical_sr10xxr_2023",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_radical_sr10xxr_2023",
+  "specs": {
+    "convertedPower": "312kW/425hp",
+    "isManufacturerData": false,
+    "bhp": "425 bhp",
+    "torque": "515 Nm",
+    "weight": "725kg",
+    "topspeed": "290km/h",
+    "acceleration": "2.5s 0-100",
+    "pwratio": "1.71 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": null,
+    "gearsCount": 0,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

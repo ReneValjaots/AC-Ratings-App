@@ -1,0 +1,36 @@
+{
+  "name": "Ferrari 550 GTS Maranello",
+  "brand": "Ferrari",
+  "year": null,
+  "author": "Race Sim Studio",
+  "folderName": "rss_gt_ferruccio_55",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gt_ferruccio_55",
+  "specs": {
+    "convertedPower": "462kW/628hp",
+    "isManufacturerData": false,
+    "bhp": "628bhp",
+    "torque": "673Nm",
+    "weight": "1100kg",
+    "topspeed": "+300km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.75kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ]
+}

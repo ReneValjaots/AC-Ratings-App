@@ -1,0 +1,35 @@
+{
+  "name": "Peugeot 9X8 (CSP)",
+  "brand": "Peugeot",
+  "year": "2023",
+  "author": "VRC Modding Team",
+  "folderName": "vrc_pt_2023_pageau_98_csp",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_2023_pageau_98_csp",
+  "specs": {
+    "convertedPower": "512kW/697hp",
+    "isManufacturerData": false,
+    "bhp": "697 bhp",
+    "torque": "655 Nm",
+    "weight": "1030kg",
+    "topspeed": "340km/h",
+    "acceleration": "3.7s",
+    "pwratio": "1.48 kg/hp"
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  },
+  "data": {
+    "tractionType": "AWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "tags": [
+    "#+ rwd"
+  ]
+}

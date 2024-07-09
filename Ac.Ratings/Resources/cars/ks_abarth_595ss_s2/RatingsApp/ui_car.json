@@ -1,0 +1,158 @@
+{
+  "name": "Abarth 595 SS Step 2",
+  "parent": "ks_abarth_595ss",
+  "brand": "Abarth",
+  "description": "Carlo Abarth began his well-known association with Fiat in 1952, building the Abarth 1500 Biposto upon Fiat mechanicals.<br><br>Fiat &quot;Nuova 500&quot; was introduced in 1957 and Abarth soon realized some versions with elaborate mechanics. In 1963 he was presented the &quot;595&quot;, produced until the end of 1971 in two series. The Abarth receives from FIAT incomplete cars and then mounts on them the special pieces.<br><br>In February 1964 the 595 SS was presented, featuring a top speed of 130 km/h.",
+  "tags": [
+    "#+ rwd",
+    "#- manual",
+    "#! -"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "48kW/65hp",
+    "torque": "80Nm",
+    "weight": "470kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "9.79 kg/hp",
+    "range": 105
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      34.0
+    ],
+    [
+      1000.0,
+      34.0
+    ],
+    [
+      1500.0,
+      34.0
+    ],
+    [
+      2000.0,
+      35.0
+    ],
+    [
+      2500.0,
+      39.0
+    ],
+    [
+      3000.0,
+      43.0
+    ],
+    [
+      3500.0,
+      48.0
+    ],
+    [
+      4000.0,
+      57.0
+    ],
+    [
+      4500.0,
+      67.0
+    ],
+    [
+      5000.0,
+      77.0
+    ],
+    [
+      5500.0,
+      80.0
+    ],
+    [
+      5750.0,
+      79.0
+    ],
+    [
+      6000.0,
+      78.0
+    ],
+    [
+      6500.0,
+      72.0
+    ],
+    [
+      7000.0,
+      64.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      2.0
+    ],
+    [
+      1000.0,
+      5.0
+    ],
+    [
+      1500.0,
+      7.0
+    ],
+    [
+      2000.0,
+      10.0
+    ],
+    [
+      2500.0,
+      14.0
+    ],
+    [
+      3000.0,
+      18.0
+    ],
+    [
+      3500.0,
+      23.0
+    ],
+    [
+      4000.0,
+      32.0
+    ],
+    [
+      4500.0,
+      43.0
+    ],
+    [
+      5000.0,
+      54.0
+    ],
+    [
+      5500.0,
+      62.0
+    ],
+    [
+      5750.0,
+      64.0
+    ],
+    [
+      6000.0,
+      65.0
+    ],
+    [
+      6500.0,
+      66.0
+    ],
+    [
+      7000.0,
+      63.0
+    ]
+  ],
+  "country": "Italy",
+  "year": 1964,
+  "author": "Kunos",
+  "version": null,
+  "url": null
+}

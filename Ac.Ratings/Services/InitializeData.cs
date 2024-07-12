@@ -22,7 +22,7 @@ namespace Ac.Ratings.Services {
             CarDb = ReadDataFromFiles(_acRootFolder);
             OrganizeCarDb();
             SaveCarData(carDbFilePath);
-            CreateCarDirectories();
+            //CreateCarDirectories();
             //CopyUiFiles();
             //}
         }

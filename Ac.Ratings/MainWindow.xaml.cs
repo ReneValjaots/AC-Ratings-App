@@ -253,11 +253,11 @@ namespace Ac.Ratings {
                 result += data.ToUpper() + " engine";
             }
 
-            if (data.StartsWith("F") || data.StartsWith("f")) {
+            if (data.StartsWith('F') || data.StartsWith('f')) {
                 result += "flat-" + Regex.Match(data, @"\d+").Value + " engine";
             }
 
-            if (data.StartsWith("R") || data.StartsWith("r")) {
+            if (data.StartsWith('R') || data.StartsWith('r')) {
                 result += "rotary engine";
             }
 

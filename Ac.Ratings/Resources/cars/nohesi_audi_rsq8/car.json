@@ -1,0 +1,33 @@
+{
+  "name": "Audi RSQ8",
+  "brand": "Audi",
+  "year": "2019",
+  "author": "No Hesi, Hugo",
+  "folderName": "nohesi_audi_rsq8",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\nohesi_audi_rsq8",
+  "specs": {
+    "convertedPower": "493kW/670hp",
+    "isManufacturerData": false,
+    "bhp": "670 bhp",
+    "torque": "797 Nm",
+    "weight": "1240 kg",
+    "topspeed": "315 km/h",
+    "acceleration": "--s",
+    "pwratio": "1.85 kg/hp"
+  },
+  "tags": [],
+  "data": {
+    "tractionType": "rwd",
+    "gearsCount": 8,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

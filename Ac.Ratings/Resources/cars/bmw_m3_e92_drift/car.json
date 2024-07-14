@@ -1,0 +1,36 @@
+{
+  "name": "BMW M3 E92 drift",
+  "brand": "BMW",
+  "year": "2015",
+  "author": "Kunos",
+  "folderName": "bmw_m3_e92_drift",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e92_drift",
+  "specs": {
+    "convertedPower": "304kW/414hp",
+    "isManufacturerData": false,
+    "bhp": "414bhp",
+    "torque": "400Nm",
+    "weight": "1605kg",
+    "topspeed": "250+km/h",
+    "acceleration": "4.3s 0-100",
+    "pwratio": "3.87kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

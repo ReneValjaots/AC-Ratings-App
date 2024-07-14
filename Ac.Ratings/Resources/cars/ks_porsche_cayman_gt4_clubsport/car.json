@@ -1,0 +1,36 @@
+{
+  "name": "Porsche Cayman GT4 Clubsport",
+  "brand": "Porsche",
+  "year": "2015",
+  "author": "Kunos",
+  "folderName": "ks_porsche_cayman_gt4_clubsport",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_cayman_gt4_clubsport",
+  "specs": {
+    "convertedPower": "283kW/385hp",
+    "isManufacturerData": false,
+    "bhp": "385bhp",
+    "torque": "420Nm",
+    "weight": "1300kg",
+    "topspeed": "295km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "3.37kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

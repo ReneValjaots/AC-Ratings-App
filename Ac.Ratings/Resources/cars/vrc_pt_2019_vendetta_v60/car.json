@@ -1,0 +1,35 @@
+{
+  "name": "Ginetta G60-LT-P1",
+  "brand": "Ginetta",
+  "year": "2019",
+  "author": "VRC Modding Team",
+  "folderName": "vrc_pt_2019_vendetta_v60",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_2019_vendetta_v60",
+  "specs": {
+    "convertedPower": "529kW/720hp",
+    "isManufacturerData": false,
+    "bhp": "720 bhp",
+    "torque": "850 Nm",
+    "weight": "833 kg",
+    "topspeed": "345Kph",
+    "acceleration": "2.8s",
+    "pwratio": "1.16 kg/hp"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

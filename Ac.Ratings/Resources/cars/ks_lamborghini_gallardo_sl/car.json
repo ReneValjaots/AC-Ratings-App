@@ -1,0 +1,36 @@
+{
+  "name": "Lamborghini Gallardo SL",
+  "brand": "Lamborghini",
+  "year": "2007",
+  "author": "Kunos",
+  "folderName": "ks_lamborghini_gallardo_sl",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_gallardo_sl",
+  "specs": {
+    "convertedPower": "419kW/570hp",
+    "isManufacturerData": false,
+    "bhp": "570bhp",
+    "torque": "540Nm",
+    "weight": "1340kg",
+    "topspeed": "325km/h",
+    "acceleration": "3.4s 0-100",
+    "pwratio": "2.35kg/hp"
+  },
+  "tags": [
+    "#+ awd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "AWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

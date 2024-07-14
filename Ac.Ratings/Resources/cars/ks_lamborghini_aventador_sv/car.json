@@ -1,0 +1,36 @@
+{
+  "name": "Lamborghini Aventador SV",
+  "brand": "Lamborghini",
+  "year": "2011",
+  "author": "Kunos",
+  "folderName": "ks_lamborghini_aventador_sv",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_aventador_sv",
+  "specs": {
+    "convertedPower": "551kW/750hp",
+    "isManufacturerData": false,
+    "bhp": "750bhp",
+    "torque": "690Nm",
+    "weight": "1525kg",
+    "topspeed": "350+km/h",
+    "acceleration": "2.8s 0-100",
+    "pwratio": "2.03 kg/hp"
+  },
+  "tags": [
+    "#+ awd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

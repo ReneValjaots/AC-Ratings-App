@@ -1,0 +1,35 @@
+{
+  "name": "Dodge Challenger TA2 (CSP)",
+  "brand": "Dodge",
+  "year": "2021",
+  "author": "VRC Modding Team",
+  "folderName": "vrc_arc_ta2_dagger_csp",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_arc_ta2_dagger_csp",
+  "specs": {
+    "convertedPower": "384kW/522hp",
+    "isManufacturerData": false,
+    "bhp": "522 bhp",
+    "torque": "667 Nm",
+    "weight": "1200 kg",
+    "topspeed": "292km/h",
+    "acceleration": "4.2s",
+    "pwratio": "2.3 kg/hp"
+  },
+  "tags": [
+    "#+ awd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 4,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

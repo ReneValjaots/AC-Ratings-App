@@ -1,0 +1,33 @@
+{
+  "name": "Ford Escort RS1600",
+  "brand": "Ford",
+  "year": "1973",
+  "author": "Kunos",
+  "folderName": "ks_ford_escort_mk1",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ford_escort_mk1",
+  "specs": {
+    "convertedPower": "191kW/260hp",
+    "isManufacturerData": false,
+    "bhp": "260+bhp",
+    "torque": "200+Nm",
+    "weight": "885kg",
+    "topspeed": "220+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "3.40kg/hp"
+  },
+  "tags": [],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

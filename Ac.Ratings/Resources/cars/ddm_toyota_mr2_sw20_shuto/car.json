@@ -1,0 +1,35 @@
+{
+  "name": "Toyota MR2 Shutoko Spec",
+  "brand": "Toyota",
+  "year": "1998",
+  "author": "ДЯДЯ ДИМА",
+  "folderName": "ddm_toyota_mr2_sw20_shuto",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ddm_toyota_mr2_sw20_shuto",
+  "specs": {
+    "convertedPower": "426kW/580hp",
+    "isManufacturerData": false,
+    "bhp": "580 bhp",
+    "torque": "618 Nm",
+    "weight": "1230 kg",
+    "topspeed": "330 km/h",
+    "acceleration": "4.0s 0-100",
+    "pwratio": "2.12 kg/hp"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Abarth 500 EsseEsse Step1",
+  "brand": "Abarth",
+  "year": "2008",
+  "author": "Kunos",
+  "folderName": "abarth500_s1",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\abarth500_s1",
+  "specs": {
+    "convertedPower": "129kW/175hp",
+    "isManufacturerData": true,
+    "bhp": "129kW/175hp",
+    "torque": "245Nm",
+    "weight": "1025kg",
+    "topspeed": "211km/h",
+    "acceleration": "7.4s 0-100",
+    "pwratio": "7.95 kg/hp"
+  },
+  "tags": [
+    "#+ fwd",
+    "#- manual",
+    "#! 1.4L & I4"
+  ],
+  "data": {
+    "tractionType": "FWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

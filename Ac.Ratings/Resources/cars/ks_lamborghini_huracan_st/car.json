@@ -1,0 +1,36 @@
+{
+  "name": "Lamborghini Huracan ST",
+  "brand": "Lamborghini",
+  "year": "2014",
+  "author": "Kunos",
+  "folderName": "ks_lamborghini_huracan_st",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_huracan_st",
+  "specs": {
+    "convertedPower": "456kW/620hp",
+    "isManufacturerData": false,
+    "bhp": "620bhp",
+    "torque": "570Nm",
+    "weight": "1270kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.04kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

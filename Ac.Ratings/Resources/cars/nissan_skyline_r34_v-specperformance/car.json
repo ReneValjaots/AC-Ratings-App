@@ -1,0 +1,36 @@
+{
+  "name": "Nissan Skyline GT-R R34 V-SPEC Performance",
+  "brand": "Nissan",
+  "year": "2000",
+  "author": "Kai Banksy",
+  "folderName": "nissan_skyline_r34_v-specperformance",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\nissan_skyline_r34_v-specperformance",
+  "specs": {
+    "convertedPower": "672kW/914hp",
+    "isManufacturerData": false,
+    "bhp": "914 bhp",
+    "torque": "924 Nm",
+    "weight": "1560kg",
+    "topspeed": "300+km/h",
+    "acceleration": "3.3s 0-100",
+    "pwratio": "1.71 kg/hp"
+  },
+  "tags": [
+    "#- manual",
+    "#+ awd"
+  ],
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

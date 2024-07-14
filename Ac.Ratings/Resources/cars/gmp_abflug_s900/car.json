@@ -1,0 +1,36 @@
+{
+  "name": "Toyota Supra AB-Flug S900",
+  "brand": "Toyota",
+  "year": "1998",
+  "author": "RemcoJZA80",
+  "folderName": "gmp_abflug_s900",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\gmp_abflug_s900",
+  "specs": {
+    "convertedPower": "516kW/702hp",
+    "isManufacturerData": false,
+    "bhp": "702 bhp",
+    "torque": "755 Nm",
+    "weight": "1525 kg",
+    "topspeed": "250+ km/h",
+    "acceleration": "5.9s 0-100",
+    "pwratio": "2.17 kg/hp"
+  },
+  "tags": [
+    "#- manual",
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

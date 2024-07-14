@@ -1,0 +1,36 @@
+{
+  "name": "Ferrari 250 GTO",
+  "brand": "Ferrari",
+  "year": "1962",
+  "author": "Kunos",
+  "folderName": "ks_ferrari_250_gto",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_250_gto",
+  "specs": {
+    "convertedPower": "221kW/300hp",
+    "isManufacturerData": false,
+    "bhp": "300bhp",
+    "torque": "294Nm",
+    "weight": "880kg",
+    "topspeed": "280km/h",
+    "acceleration": "6.1s 0-100",
+    "pwratio": "2.93kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

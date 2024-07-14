@@ -1,0 +1,36 @@
+{
+  "name": "Ferrari FXX K",
+  "brand": "Ferrari",
+  "year": "2015",
+  "author": "Kunos",
+  "folderName": "ks_ferrari_fxx_k",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_fxx_k",
+  "specs": {
+    "convertedPower": "772kW/1050hp",
+    "isManufacturerData": false,
+    "bhp": "1050bhp",
+    "torque": "900+Nm",
+    "weight": "--kg",
+    "topspeed": "350+km/h",
+    "acceleration": "<3.0s 0-100",
+    "pwratio": "--kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

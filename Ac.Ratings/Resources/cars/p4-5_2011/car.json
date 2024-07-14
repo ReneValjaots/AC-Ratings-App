@@ -1,0 +1,36 @@
+{
+  "name": "P4/5 Competizione 2011",
+  "brand": "Scuderia Glickenhaus",
+  "year": "2011",
+  "author": "Kunos",
+  "folderName": "p4-5_2011",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\p4-5_2011",
+  "specs": {
+    "convertedPower": "331kW/450hp",
+    "isManufacturerData": false,
+    "bhp": "450bhp",
+    "torque": "500Nm",
+    "weight": "1230kg",
+    "topspeed": "260km/h",
+    "acceleration": "3.9s 0-100",
+    "pwratio": "2.62kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Lister Storm GT",
+  "brand": "Lister",
+  "year": null,
+  "author": "Race Sim Studio",
+  "folderName": "rss_gt_tornado_v12",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gt_tornado_v12",
+  "specs": {
+    "convertedPower": "446kW/606hp",
+    "isManufacturerData": false,
+    "bhp": "606bhp",
+    "torque": "790Nm",
+    "weight": "1180kg",
+    "topspeed": "295km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.95kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

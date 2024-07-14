@@ -1,0 +1,36 @@
+{
+  "name": "Ferrari 360 Modena N-GT",
+  "brand": "Ferrari",
+  "year": null,
+  "author": "Race Sim Studio",
+  "folderName": "rss_gtn_ferruccio_36",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtn_ferruccio_36",
+  "specs": {
+    "convertedPower": "327kW/445hp",
+    "isManufacturerData": false,
+    "bhp": "445bhp",
+    "torque": "410Nm",
+    "weight": "1190kg",
+    "topspeed": "+280",
+    "acceleration": "--s",
+    "pwratio": "2.67kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

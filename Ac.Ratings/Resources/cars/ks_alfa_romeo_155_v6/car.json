@@ -1,0 +1,37 @@
+{
+  "name": "Alfa Romeo 155 TI V6",
+  "brand": "Alfa Romeo",
+  "year": "1996",
+  "author": "Kunos",
+  "folderName": "ks_alfa_romeo_155_v6",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_alfa_romeo_155_v6",
+  "specs": {
+    "convertedPower": "309kW/420hp",
+    "isManufacturerData": true,
+    "bhp": "309kW/420hp",
+    "torque": "294Nm",
+    "weight": "1050kg",
+    "topspeed": "280+km/h",
+    "acceleration": "2.5s 0-100",
+    "pwratio": "3.4 kg/hp"
+  },
+  "tags": [
+    "#+ awd",
+    "#- manual",
+    "#! 2.5L & V6"
+  ],
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

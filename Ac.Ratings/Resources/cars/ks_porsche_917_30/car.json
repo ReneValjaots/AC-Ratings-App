@@ -1,0 +1,35 @@
+{
+  "name": "Porsche 917/30 Spyder",
+  "brand": "Porsche",
+  "year": "1973",
+  "author": "Kunos",
+  "folderName": "ks_porsche_917_30",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_917_30",
+  "specs": {
+    "convertedPower": "882kW/1200hp",
+    "isManufacturerData": false,
+    "bhp": "1200bhp",
+    "torque": "1200Nm",
+    "weight": "800kg",
+    "topspeed": "385km/h",
+    "acceleration": "2.4s 0-100",
+    "pwratio": "0.66kg/hp"
+  },
+  "tags": [
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 4,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Toyota MR-S Haru Spec",
+  "brand": "Toyota",
+  "year": "2003",
+  "author": null,
+  "folderName": "ddm_toyota_mrs_haru",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ddm_toyota_mrs_haru",
+  "specs": {
+    "convertedPower": "141kW/192hp",
+    "isManufacturerData": false,
+    "bhp": "192 bhp",
+    "torque": "190 Nm",
+    "weight": "918 kg",
+    "topspeed": "230 km/h",
+    "acceleration": "5.8s 0-100, 14.1 qtr",
+    "pwratio": "4.78 kg/hp"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Renault Laguna",
+  "brand": "Renault",
+  "year": "1999",
+  "author": "VRC Modding Team",
+  "folderName": "vrc_erc_1999_renoir",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_erc_1999_renoir",
+  "specs": {
+    "convertedPower": "235kW/320hp",
+    "isManufacturerData": false,
+    "bhp": "320 bhp",
+    "torque": "273Nm",
+    "weight": "975kg",
+    "topspeed": "275 km/h",
+    "acceleration": "5s",
+    "pwratio": "3.05 kg/hp"
+  },
+  "tags": [
+    "#+ fwd"
+  ],
+  "data": {
+    "tractionType": "FWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

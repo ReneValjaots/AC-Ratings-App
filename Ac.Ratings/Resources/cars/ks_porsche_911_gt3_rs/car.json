@@ -1,0 +1,36 @@
+{
+  "name": "Porsche 911 GT3 RS",
+  "brand": "Porsche",
+  "year": "2015",
+  "author": "Kunos",
+  "folderName": "ks_porsche_911_gt3_rs",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_gt3_rs",
+  "specs": {
+    "convertedPower": "368kW/500hp",
+    "isManufacturerData": false,
+    "bhp": "500bhp",
+    "torque": "460Nm",
+    "weight": "1420kg",
+    "topspeed": "310km/h",
+    "acceleration": "3.1s 0-100",
+    "pwratio": "2.84 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

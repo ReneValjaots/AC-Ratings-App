@@ -1,0 +1,36 @@
+{
+  "name": "Porsche 996 GT3 RS N-GT",
+  "brand": "Porsche",
+  "year": null,
+  "author": "Race Sim Studio",
+  "folderName": "rss_gtn_darche_96",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtn_darche_96",
+  "specs": {
+    "convertedPower": "335kW/455hp",
+    "isManufacturerData": false,
+    "bhp": "455bhp",
+    "torque": "410Nm",
+    "weight": "1190kg",
+    "topspeed": "+280km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.61kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

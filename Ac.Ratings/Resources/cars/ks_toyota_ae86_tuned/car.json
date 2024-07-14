@@ -1,0 +1,36 @@
+{
+  "name": "Toyota AE86 Tuned",
+  "brand": "Toyota",
+  "year": "1983",
+  "author": "Kunos",
+  "folderName": "ks_toyota_ae86_tuned",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_ae86_tuned",
+  "specs": {
+    "convertedPower": "147kW/200hp",
+    "isManufacturerData": false,
+    "bhp": "200bhp",
+    "torque": "206Nm",
+    "weight": "900kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "4.50kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

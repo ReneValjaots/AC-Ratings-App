@@ -1,0 +1,33 @@
+{
+  "name": "Mazda RX-7 Infini",
+  "brand": "Mazda",
+  "year": "1991",
+  "author": "ДЯДЯ ДИМА",
+  "folderName": "ddm_mazda_rx7_infini_fc3s",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ddm_mazda_rx7_infini_fc3s",
+  "specs": {
+    "convertedPower": "156kW/212hp",
+    "isManufacturerData": false,
+    "bhp": "212 bhp",
+    "torque": "275 Nm",
+    "weight": "1230 kg",
+    "topspeed": "245 km/h",
+    "acceleration": "6.4s 0-100",
+    "pwratio": "5.8 kg/hp"
+  },
+  "tags": [],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

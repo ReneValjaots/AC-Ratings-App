@@ -1,0 +1,36 @@
+{
+  "name": "Toyota Celica ST185 4WD Turbo",
+  "brand": "Toyota",
+  "year": "1989",
+  "author": "Kunos",
+  "folderName": "ks_toyota_celica_st185",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_celica_st185",
+  "specs": {
+    "convertedPower": "217kW/295hp",
+    "isManufacturerData": false,
+    "bhp": "295bhp",
+    "torque": "459Nm",
+    "weight": "1045kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "3.54kg/hp"
+  },
+  "tags": [
+    "#- manual",
+    "#+ awd"
+  ],
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

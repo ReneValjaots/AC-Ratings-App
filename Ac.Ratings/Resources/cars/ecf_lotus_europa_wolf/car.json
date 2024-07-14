@@ -1,0 +1,35 @@
+{
+  "name": "Lotus Europa Circuit Wolf",
+  "brand": "Lotus",
+  "year": "1973",
+  "author": "Project Enthusia",
+  "folderName": "ecf_lotus_europa_wolf",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ecf_lotus_europa_wolf",
+  "specs": {
+    "convertedPower": "146kW/198hp",
+    "isManufacturerData": false,
+    "bhp": "198 bhp",
+    "torque": "227 Nm",
+    "weight": "712 kg",
+    "topspeed": "256km/h",
+    "acceleration": "5.4s 0-100",
+    "pwratio": "3.6 kg/hp"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

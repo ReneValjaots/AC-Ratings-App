@@ -1,0 +1,35 @@
+{
+  "name": "Chevrolet Camaro IMSA GTO",
+  "brand": "Chevrolet",
+  "year": "1989",
+  "author": "VRC Modding Team",
+  "folderName": "vrc_arc_chevrette28",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_arc_chevrette28",
+  "specs": {
+    "convertedPower": "441kW/600hp",
+    "isManufacturerData": false,
+    "bhp": "600 bhp",
+    "torque": "705Nm",
+    "weight": "1180kg",
+    "topspeed": "290km/h",
+    "acceleration": "3.52s",
+    "pwratio": "1.97 kg/hp"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

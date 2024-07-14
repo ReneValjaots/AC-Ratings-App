@@ -1,0 +1,36 @@
+{
+  "name": "Lotus Exige Scura",
+  "brand": "Lotus",
+  "year": "2009",
+  "author": "Kunos",
+  "folderName": "lotus_exige_scura",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_exige_scura",
+  "specs": {
+    "convertedPower": "189kW/257hp",
+    "isManufacturerData": false,
+    "bhp": "257bhp",
+    "torque": "243Nm",
+    "weight": "925kg",
+    "topspeed": "245km/h",
+    "acceleration": "4.1s 0-100",
+    "pwratio": "3.60kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

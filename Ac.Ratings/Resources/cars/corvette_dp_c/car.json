@@ -1,0 +1,36 @@
+{
+  "name": "Coyote Corvette DP",
+  "brand": "Chevrolet",
+  "year": "2014",
+  "author": "IER Simulations",
+  "folderName": "corvette_dp_c",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\corvette_dp_c",
+  "specs": {
+    "convertedPower": "440kW/598hp",
+    "isManufacturerData": false,
+    "bhp": "598 bhp",
+    "torque": "729 Nm",
+    "weight": "1039kg",
+    "topspeed": "300+km/h",
+    "acceleration": null,
+    "pwratio": "1.74 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

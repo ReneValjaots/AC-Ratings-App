@@ -1,0 +1,37 @@
+{
+  "name": "Abarth 595 SS Step 2",
+  "brand": "Abarth",
+  "year": "1964",
+  "author": "Kunos",
+  "folderName": "ks_abarth_595ss_s2",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_abarth_595ss_s2",
+  "specs": {
+    "convertedPower": "48kW/65hp",
+    "isManufacturerData": true,
+    "bhp": "48kW/65hp",
+    "torque": "80Nm",
+    "weight": "470kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "9.79 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual",
+    "#! -"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 4,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Oldbac Kalana 2023",
+  "brand": "Oldbac",
+  "year": "2024",
+  "author": "IER Simulations",
+  "folderName": "ier_oldbac_kalana_v1",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ier_oldbac_kalana_v1",
+  "specs": {
+    "convertedPower": "449kW/610hp",
+    "isManufacturerData": false,
+    "bhp": "610 bhp",
+    "torque": "465 Nm",
+    "weight": "950 kg",
+    "topspeed": "300+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.56 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": null,
+    "gearsCount": 0,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

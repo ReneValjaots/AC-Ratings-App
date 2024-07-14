@@ -1,0 +1,36 @@
+{
+  "name": "Toyota Supra Interceptor",
+  "brand": "Toyota",
+  "year": null,
+  "author": "SRP",
+  "folderName": "srp_toyota_supra_mkiv_interceptor",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\srp_toyota_supra_mkiv_interceptor",
+  "specs": {
+    "convertedPower": "206kW/280hp",
+    "isManufacturerData": false,
+    "bhp": "280bhp",
+    "torque": "458Nm",
+    "weight": "1510kg",
+    "topspeed": "249km/h",
+    "acceleration": "5.0s 0-100",
+    "pwratio": "5.39kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

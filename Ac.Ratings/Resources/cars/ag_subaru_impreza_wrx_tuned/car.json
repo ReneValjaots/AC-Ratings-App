@@ -1,0 +1,36 @@
+{
+  "name": "Subaru Impreza WRX (GD) Tuned",
+  "brand": "Subaru",
+  "year": "2007",
+  "author": "aphidgod, A3DR & Davide Cervone",
+  "folderName": "ag_subaru_impreza_wrx_tuned",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ag_subaru_impreza_wrx_tuned",
+  "specs": {
+    "convertedPower": "343kW/467hp",
+    "isManufacturerData": false,
+    "bhp": "467 bhp",
+    "torque": "693 Nm",
+    "weight": "1383 kg",
+    "topspeed": "270 km/h",
+    "acceleration": "3.5 s 0–100",
+    "pwratio": "2.96 kg/hp"
+  },
+  "tags": [
+    "#- manual",
+    "#+ awd"
+  ],
+  "data": {
+    "tractionType": "AWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

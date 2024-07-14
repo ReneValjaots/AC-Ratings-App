@@ -1,0 +1,36 @@
+{
+  "name": "Lamborghini Miura P400 SV",
+  "brand": "Lamborghini",
+  "year": "1966",
+  "author": "Kunos",
+  "folderName": "ks_lamborghini_miura_sv",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_miura_sv",
+  "specs": {
+    "convertedPower": "283kW/385hp",
+    "isManufacturerData": false,
+    "bhp": "385bhp",
+    "torque": "400Nm",
+    "weight": "1245kg",
+    "topspeed": "300km/h",
+    "acceleration": "6.5s 0-100",
+    "pwratio": "3.19kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

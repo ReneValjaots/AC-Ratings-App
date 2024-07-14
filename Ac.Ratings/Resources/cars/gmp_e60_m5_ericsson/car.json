@@ -1,0 +1,35 @@
+{
+  "name": "Ericsson M5",
+  "brand": "BMW",
+  "year": "2003",
+  "author": "Gentle Mind Performance",
+  "folderName": "gmp_e60_m5_ericsson",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\gmp_e60_m5_ericsson",
+  "specs": {
+    "convertedPower": "397kW/540hp",
+    "isManufacturerData": false,
+    "bhp": "540 bhp",
+    "torque": "535 Nm",
+    "weight": "1750 kg",
+    "topspeed": "250 km/h",
+    "acceleration": "4.7s 0-100",
+    "pwratio": "3.24 kg/hp"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

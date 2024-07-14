@@ -1,0 +1,35 @@
+{
+  "name": "Mitsubishi Lancer Evolution IV GSR",
+  "brand": "Mitsubishi",
+  "year": "1996",
+  "author": "ДЯДЯ ДИМА",
+  "folderName": "ddm_mitsubishi_evo_iv_gsr",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ddm_mitsubishi_evo_iv_gsr",
+  "specs": {
+    "convertedPower": "203kW/276hp",
+    "isManufacturerData": false,
+    "bhp": "276 bhp",
+    "torque": "357 Nm",
+    "weight": "1350 kg",
+    "topspeed": "243 km/h",
+    "acceleration": "5.4s 0-100",
+    "pwratio": "4.89 kg/hp"
+  },
+  "tags": [
+    "#+ awd"
+  ],
+  "data": {
+    "tractionType": "AWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

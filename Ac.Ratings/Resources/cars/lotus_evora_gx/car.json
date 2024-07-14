@@ -1,0 +1,36 @@
+{
+  "name": "Lotus Evora GX",
+  "brand": "Lotus",
+  "year": "2014",
+  "author": "Kunos",
+  "folderName": "lotus_evora_gx",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_evora_gx",
+  "specs": {
+    "convertedPower": "324kW/440hp",
+    "isManufacturerData": false,
+    "bhp": "440bhp",
+    "torque": "460Nm",
+    "weight": "1395kg",
+    "topspeed": "288km/h",
+    "acceleration": "4.5s 0-100",
+    "pwratio": "3.32kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

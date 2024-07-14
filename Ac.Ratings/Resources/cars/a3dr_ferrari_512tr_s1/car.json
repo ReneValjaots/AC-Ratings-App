@@ -1,0 +1,35 @@
+{
+  "name": "Ferrari 512 TR Canyon Spec",
+  "brand": "Ferrari",
+  "year": "1994",
+  "author": "Alberto Daniel Russo",
+  "folderName": "a3dr_ferrari_512tr_s1",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_ferrari_512tr_s1",
+  "specs": {
+    "convertedPower": "405kW/551hp",
+    "isManufacturerData": false,
+    "bhp": "551 bhp",
+    "torque": "540 Nm",
+    "weight": "1533 kg",
+    "topspeed": "341 km/h",
+    "acceleration": "3.8 s 0–100",
+    "pwratio": "2.78 kg/hp"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

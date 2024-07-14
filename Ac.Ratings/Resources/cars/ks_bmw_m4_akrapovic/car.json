@@ -1,0 +1,36 @@
+{
+  "name": "BMW M4 Akrapovic",
+  "brand": "BMW",
+  "year": "2015",
+  "author": "Kunos",
+  "folderName": "ks_bmw_m4_akrapovic",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_bmw_m4_akrapovic",
+  "specs": {
+    "convertedPower": "327kW/445hp",
+    "isManufacturerData": false,
+    "bhp": "445bhp",
+    "torque": "589Nm",
+    "weight": "1572kg",
+    "topspeed": "250km/h",
+    "acceleration": "3.9s 0-100",
+    "pwratio": "3.53kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

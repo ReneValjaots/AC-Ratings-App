@@ -1,0 +1,37 @@
+{
+  "name": "Audi Sport quattro Step1",
+  "brand": "Audi",
+  "year": "1994",
+  "author": "Kunos",
+  "folderName": "ks_audi_sport_quattro_s1",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_sport_quattro_s1",
+  "specs": {
+    "convertedPower": "274kW/373hp",
+    "isManufacturerData": true,
+    "bhp": "274kW/373hp",
+    "torque": "425Nm",
+    "weight": "1298kg",
+    "topspeed": "272km/h",
+    "acceleration": "4.5s 0-100",
+    "pwratio": "4.74 kg/hp"
+  },
+  "tags": [
+    "#+ awd",
+    "#- manual",
+    "#! 2.1L & I5"
+  ],
+  "data": {
+    "tractionType": "AWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

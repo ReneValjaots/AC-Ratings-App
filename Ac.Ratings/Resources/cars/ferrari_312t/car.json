@@ -1,0 +1,36 @@
+{
+  "name": "Ferrari 312T",
+  "brand": "Ferrari",
+  "year": "1975",
+  "author": "Kunos",
+  "folderName": "ferrari_312t",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ferrari_312t",
+  "specs": {
+    "convertedPower": "364kW/495hp",
+    "isManufacturerData": false,
+    "bhp": "495bhp",
+    "torque": "308Nm",
+    "weight": "606kg",
+    "topspeed": "320km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.22kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

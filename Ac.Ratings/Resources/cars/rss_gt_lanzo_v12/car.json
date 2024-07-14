@@ -1,0 +1,36 @@
+{
+  "name": "Lamborghini Murcielago R-GT",
+  "brand": "Lamborghini",
+  "year": null,
+  "author": "Race Sim Studio",
+  "folderName": "rss_gt_lanzo_v12",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gt_lanzo_v12",
+  "specs": {
+    "convertedPower": "443kW/603hp",
+    "isManufacturerData": false,
+    "bhp": "603 bhp",
+    "torque": "652 Nm",
+    "weight": "1185kg",
+    "topspeed": "295km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.96 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

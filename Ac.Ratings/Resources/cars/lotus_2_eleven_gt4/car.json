@@ -1,0 +1,36 @@
+{
+  "name": "Lotus 2-Eleven GT4",
+  "brand": "Lotus",
+  "year": "2007",
+  "author": "Kunos",
+  "folderName": "lotus_2_eleven_gt4",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_2_eleven_gt4",
+  "specs": {
+    "convertedPower": "199kW/270hp",
+    "isManufacturerData": false,
+    "bhp": "270bhp",
+    "torque": "252Nm",
+    "weight": "670kg",
+    "topspeed": "260km/h",
+    "acceleration": "3.7s 0-100",
+    "pwratio": "2.48kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

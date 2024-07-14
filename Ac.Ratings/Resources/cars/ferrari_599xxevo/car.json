@@ -1,0 +1,36 @@
+{
+  "name": "Ferrari 599XX EVO",
+  "brand": "Ferrari",
+  "year": "2012",
+  "author": "Kunos",
+  "folderName": "ferrari_599xxevo",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ferrari_599xxevo",
+  "specs": {
+    "convertedPower": "551kW/750hp",
+    "isManufacturerData": false,
+    "bhp": "750bhp",
+    "torque": "700Nm",
+    "weight": "1310kg",
+    "topspeed": "303km/h",
+    "acceleration": "2.5s 0-100",
+    "pwratio": "1.74kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

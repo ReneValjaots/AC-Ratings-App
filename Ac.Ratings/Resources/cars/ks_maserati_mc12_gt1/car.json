@@ -1,0 +1,36 @@
+{
+  "name": "Maserati MC12 GT1",
+  "brand": "Maserati",
+  "year": "2004",
+  "author": "Kunos",
+  "folderName": "ks_maserati_mc12_gt1",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_maserati_mc12_gt1",
+  "specs": {
+    "convertedPower": "426kW/580hp",
+    "isManufacturerData": false,
+    "bhp": "580bhp",
+    "torque": "650Nm",
+    "weight": "1100kg",
+    "topspeed": "320km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.89kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

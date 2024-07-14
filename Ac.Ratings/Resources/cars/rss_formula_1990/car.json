@@ -1,0 +1,35 @@
+{
+  "name": "Ferrari 641",
+  "brand": "Ferrari",
+  "year": "1990",
+  "author": "Race Sim Studio",
+  "folderName": "rss_formula_1990",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_1990",
+  "specs": {
+    "convertedPower": "500kW/680hp",
+    "isManufacturerData": false,
+    "bhp": "680bhp",
+    "torque": "393Nm",
+    "weight": "503kg",
+    "topspeed": "+320 km/h",
+    "acceleration": "3s 0-100",
+    "pwratio": "0.74kg/hp"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Porsche 917 K",
+  "brand": "Porsche",
+  "year": "1970",
+  "author": "Kunos",
+  "folderName": "ks_porsche_917_k",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_917_k",
+  "specs": {
+    "convertedPower": "441kW/600hp",
+    "isManufacturerData": false,
+    "bhp": "600bhp",
+    "torque": "--Nm",
+    "weight": "820kg",
+    "topspeed": "350km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.37 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

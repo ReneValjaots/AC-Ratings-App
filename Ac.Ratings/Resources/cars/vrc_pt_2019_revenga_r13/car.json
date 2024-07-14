@@ -1,0 +1,35 @@
+{
+  "name": "Rebellion R13",
+  "brand": "Rebellion Racing",
+  "year": "2019",
+  "author": "VRC Modding Team",
+  "folderName": "vrc_pt_2019_revenga_r13",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_2019_revenga_r13",
+  "specs": {
+    "convertedPower": "510kW/693hp",
+    "isManufacturerData": false,
+    "bhp": "693bhp",
+    "torque": "720Nm",
+    "weight": "833kg",
+    "topspeed": "339km/h",
+    "acceleration": "2.96s",
+    "pwratio": "1.2 kg/hp"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

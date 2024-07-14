@@ -1,0 +1,36 @@
+{
+  "name": "Dallara F2",
+  "brand": "Dallara",
+  "year": "2020",
+  "author": "Race Sim Studio",
+  "folderName": "rss_formula_rss_2_v6_2020",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_rss_2_v6_2020",
+  "specs": {
+    "convertedPower": "456kW/620hp",
+    "isManufacturerData": false,
+    "bhp": "620bhp",
+    "torque": "575Nm",
+    "weight": "750kg",
+    "topspeed": "320 km/h",
+    "acceleration": "2.6s 0-100",
+    "pwratio": "1.21kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

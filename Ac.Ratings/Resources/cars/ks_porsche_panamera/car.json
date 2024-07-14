@@ -1,0 +1,36 @@
+{
+  "name": "Porsche Panamera Turbo",
+  "brand": "Porsche",
+  "year": "2016",
+  "author": "Kunos",
+  "folderName": "ks_porsche_panamera",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_panamera",
+  "specs": {
+    "convertedPower": "404kW/550hp",
+    "isManufacturerData": false,
+    "bhp": "550bhp",
+    "torque": "770Nm",
+    "weight": "2070kg",
+    "topspeed": "306km/h",
+    "acceleration": "3.6s 0-100",
+    "pwratio": "3.76kg/hp"
+  },
+  "tags": [
+    "#+ awd",
+    "#- semiautomatic"
+  ],
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 8,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

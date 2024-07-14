@@ -1,0 +1,36 @@
+{
+  "name": "Honda Civic EK Cup",
+  "brand": "Honda",
+  "year": "1998",
+  "author": "Seb/Amy",
+  "folderName": "amy_ek_cup",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\amy_ek_cup",
+  "specs": {
+    "convertedPower": "169kW/230hp",
+    "isManufacturerData": false,
+    "bhp": "230 bhp",
+    "torque": "209 Nm",
+    "weight": "960 kg",
+    "topspeed": "280 km/h",
+    "acceleration": "",
+    "pwratio": "4.17 kg/hp"
+  },
+  "tags": [
+    "#- manual",
+    "#+ fwd"
+  ],
+  "data": {
+    "tractionType": "FWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Caterham Academy 2020",
+  "brand": "Caterham",
+  "year": "2020",
+  "author": "Ben O'Bro & JackCY",
+  "folderName": "bo_caterham_academy",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bo_caterham_academy",
+  "specs": {
+    "convertedPower": "92kW/125hp",
+    "isManufacturerData": false,
+    "bhp": "125 bhp",
+    "torque": "178 Nm",
+    "weight": "575 kg",
+    "topspeed": "170 km/h",
+    "acceleration": "6 s 0–100",
+    "pwratio": "4.6 kg/hp"
+  },
+  "tags": [
+    "#- manual",
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

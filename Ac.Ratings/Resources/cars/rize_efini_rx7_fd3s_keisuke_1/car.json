@@ -1,0 +1,36 @@
+{
+  "name": "Mazda RX-7 FD3S Type R",
+  "brand": "Mazda",
+  "year": "1993",
+  "author": "RiZe",
+  "folderName": "rize_efini_rx7_fd3s_keisuke_1",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rize_efini_rx7_fd3s_keisuke_1",
+  "specs": {
+    "convertedPower": "246kW/334hp",
+    "isManufacturerData": false,
+    "bhp": "334 bhp",
+    "torque": "380 Nm",
+    "weight": "1200kg",
+    "topspeed": "285 km/h",
+    "acceleration": "5.7s 0-100",
+    "pwratio": "3.59 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

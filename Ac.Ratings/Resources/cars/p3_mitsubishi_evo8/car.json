@@ -1,0 +1,36 @@
+{
+  "name": "Mitsubishi Lancer Evolution VIII MR",
+  "brand": "Mitsubishi",
+  "year": null,
+  "author": null,
+  "folderName": "p3_mitsubishi_evo8",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\p3_mitsubishi_evo8",
+  "specs": {
+    "convertedPower": "203kW/276hp",
+    "isManufacturerData": false,
+    "bhp": "276 bhp",
+    "torque": "374Nm",
+    "weight": "1455kg",
+    "topspeed": "252km/h",
+    "acceleration": "4.8s 0-100",
+    "pwratio": "5.27kg/hp"
+  },
+  "tags": [
+    "#- manual",
+    "#+ awd"
+  ],
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

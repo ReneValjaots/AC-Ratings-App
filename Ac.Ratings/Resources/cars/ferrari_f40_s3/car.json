@@ -1,0 +1,36 @@
+{
+  "name": "Ferrari F40 Stage 3",
+  "brand": "Ferrari",
+  "year": "1987",
+  "author": "Kunos",
+  "folderName": "ferrari_f40_s3",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ferrari_f40_s3",
+  "specs": {
+    "convertedPower": "449kW/610hp",
+    "isManufacturerData": false,
+    "bhp": "610+bhp",
+    "torque": "715Nm",
+    "weight": "1175kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.93kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

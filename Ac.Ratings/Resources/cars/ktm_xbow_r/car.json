@@ -1,0 +1,36 @@
+{
+  "name": "KTM X-Bow R",
+  "brand": "KTM",
+  "year": "2008",
+  "author": "Kunos",
+  "folderName": "ktm_xbow_r",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ktm_xbow_r",
+  "specs": {
+    "convertedPower": "221kW/300hp",
+    "isManufacturerData": false,
+    "bhp": "300bhp",
+    "torque": "400Nm",
+    "weight": "795kg",
+    "topspeed": "250km/h",
+    "acceleration": "3.7s 0-100",
+    "pwratio": "2.65kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

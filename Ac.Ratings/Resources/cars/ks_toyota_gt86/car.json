@@ -1,0 +1,36 @@
+{
+  "name": "Toyota GT86",
+  "brand": "Toyota",
+  "year": "2015",
+  "author": "Kunos",
+  "folderName": "ks_toyota_gt86",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_gt86",
+  "specs": {
+    "convertedPower": "147kW/200hp",
+    "isManufacturerData": false,
+    "bhp": "200bhp",
+    "torque": "205Nm",
+    "weight": "1250kg",
+    "topspeed": "233km/h",
+    "acceleration": "7.6s 0-100",
+    "pwratio": "6.25kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

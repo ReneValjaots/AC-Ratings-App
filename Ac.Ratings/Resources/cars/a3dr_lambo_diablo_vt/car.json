@@ -1,0 +1,36 @@
+{
+  "name": "Lamborghini Diablo VT",
+  "brand": "Lamborghini",
+  "year": "1995",
+  "author": "Alberto Daniel Russo",
+  "folderName": "a3dr_lambo_diablo_vt",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_lambo_diablo_vt",
+  "specs": {
+    "convertedPower": "362kW/492hp",
+    "isManufacturerData": false,
+    "bhp": "492bhp",
+    "torque": "580Nm",
+    "weight": "1625kg",
+    "topspeed": "325km/h",
+    "acceleration": "4.1s 0-100",
+    "pwratio": "3.3kg/hp"
+  },
+  "tags": [
+    "#+ awd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

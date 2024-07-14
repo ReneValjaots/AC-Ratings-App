@@ -1,0 +1,33 @@
+{
+  "name": "Lexus IS500",
+  "brand": "Lexus",
+  "year": "2024",
+  "author": "No hesi, TimTheSpy, Hugo",
+  "folderName": "nohesi_lexus_is500",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\nohesi_lexus_is500",
+  "specs": {
+    "convertedPower": "703kW/956hp",
+    "isManufacturerData": false,
+    "bhp": "956 bhp",
+    "torque": "1055 Nm",
+    "weight": "1724 kg",
+    "topspeed": "300+km/h",
+    "acceleration": null,
+    "pwratio": "1.8 kg/hp"
+  },
+  "tags": [],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 8,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

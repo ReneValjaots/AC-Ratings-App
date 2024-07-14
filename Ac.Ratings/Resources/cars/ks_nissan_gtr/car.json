@@ -1,0 +1,36 @@
+{
+  "name": "Nissan GT-R NISMO",
+  "brand": "Nissan",
+  "year": "2014",
+  "author": "Kunos",
+  "folderName": "ks_nissan_gtr",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_nissan_gtr",
+  "specs": {
+    "convertedPower": "435kW/592hp",
+    "isManufacturerData": false,
+    "bhp": "592bhp",
+    "torque": "652Nm",
+    "weight": "1750kg",
+    "topspeed": "313km/h",
+    "acceleration": "2.1s 0-100",
+    "pwratio": "2.28kg/hp"
+  },
+  "tags": [
+    "#+ awd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

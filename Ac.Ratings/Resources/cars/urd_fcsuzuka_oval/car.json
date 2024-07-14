@@ -1,0 +1,36 @@
+{
+  "name": "Dallara DW12 Honda Engine Oval",
+  "brand": "Dallara",
+  "year": "2015",
+  "author": "United Racing Design",
+  "folderName": "urd_fcsuzuka_oval",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_fcsuzuka_oval",
+  "specs": {
+    "convertedPower": "331kW/450hp",
+    "isManufacturerData": false,
+    "bhp": "450 bhp",
+    "torque": "578Nm",
+    "weight": "675kg",
+    "topspeed": "250+km/h",
+    "acceleration": "--s",
+    "pwratio": "--"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

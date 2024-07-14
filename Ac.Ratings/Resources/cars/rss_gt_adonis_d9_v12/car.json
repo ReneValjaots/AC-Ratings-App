@@ -1,0 +1,36 @@
+{
+  "name": "Aston Martin DBR9 GT1",
+  "brand": "Aston Martin",
+  "year": null,
+  "author": "Race Sim Studio",
+  "folderName": "rss_gt_adonis_d9_v12",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gt_adonis_d9_v12",
+  "specs": {
+    "convertedPower": "430kW/585hp",
+    "isManufacturerData": false,
+    "bhp": "585bhp",
+    "torque": "675Nm",
+    "weight": "1180kg",
+    "topspeed": "300km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.46kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Porsche 911 4.0 by Singer",
+  "brand": "Porsche",
+  "year": "2019",
+  "author": "Ben O'Bro, Arch",
+  "folderName": "bo_singer",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bo_singer",
+  "specs": {
+    "convertedPower": "287kW/390hp",
+    "isManufacturerData": false,
+    "bhp": "390bhp",
+    "torque": "427Nm",
+    "weight": "1254kg",
+    "topspeed": "- km/h",
+    "acceleration": "- s 0–100",
+    "pwratio": "3.22kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

@@ -85,19 +85,6 @@ namespace Ac.Ratings {
             catch (Exception ex) {
                 MessageBox.Show($"Failed to load image: {ex.Message}");
             }
-            
-
-            //try {
-            //    if (!string.IsNullOrEmpty(car.PreviewFolder) && File.Exists(car.PreviewFolder)) {
-            //        CarImage.Source = new BitmapImage(new Uri(car.PreviewFolder, UriKind.Absolute));
-            //    }
-            //    else {
-            //        MessageBox.Show($"Preview image not found for {car.Name}");
-            //    }
-            //}
-            //catch (Exception ex) {
-            //    MessageBox.Show($"Failed to load image: {ex.Message}");
-            //}
         }
 
         private void SaveRatings() {
@@ -113,33 +100,59 @@ namespace Ac.Ratings {
 
                 var jsonContent = JsonConvert.SerializeObject(_data.CarDb, Formatting.Indented);
                 File.WriteAllText(_data.carDbFilePath, jsonContent);
+                SaveCarToFile(selectedCar);
+            }
+        }
+
+        private void SaveCarToFile(Car car) {
+            try {
+                string carFolderPath = Path.Combine(_data.carsRootFolder, car.FolderName);
+                string carJsonFilePath = Path.Combine(carFolderPath, "car.json");
+
+                // Serialize and save the car object to its car.json file
+                var jsonContent = JsonConvert.SerializeObject(car, Formatting.Indented);
+                File.WriteAllText(carJsonFilePath, jsonContent);
+            }
+            catch (Exception ex) {
+                MessageBox.Show($"Failed to save car ratings to file: {ex.Message}");
             }
         }
 
         private void ClearRatings() {
             var selectedCar = (Car)CarList.SelectedItem;
-            if (selectedCar != null) {
-                selectedCar.Ratings.Handling = 0;
-                selectedCar.Ratings.Physics = 0;
-                selectedCar.Ratings.Realism = 0;
-                selectedCar.Ratings.Sound = 0;
-                selectedCar.Ratings.Visuals = 0;
-                selectedCar.Ratings.FunFactor = 0;  
-                selectedCar.Ratings.ExtraFeatures = 0;
+            if (selectedCar != null)
+            {
+                ResetRatingValues(selectedCar);
 
-                HandlingSlider.Value = 0;
-                PhysicsSlider.Value = 0;
-                RealismSlider.Value = 0;
-                SoundSlider.Value = 0;
-                VisualsSlider.Value = 0;
-                FunFactorSlider.Value = 0;
-                ExtraFeaturesSlider.Value = 0;
+                ResetSliderValues();
 
                 var jsonContent = JsonConvert.SerializeObject(_data.CarDb, Formatting.Indented);
                 File.WriteAllText(_data.carDbFilePath, jsonContent);
 
                 UpdateAverageRating();
+
+                SaveCarToFile(selectedCar);
             }
+        }
+
+        private static void ResetRatingValues(Car selectedCar) {
+            selectedCar.Ratings.Handling = 0;
+            selectedCar.Ratings.Physics = 0;
+            selectedCar.Ratings.Realism = 0;
+            selectedCar.Ratings.Sound = 0;
+            selectedCar.Ratings.Visuals = 0;
+            selectedCar.Ratings.FunFactor = 0;
+            selectedCar.Ratings.ExtraFeatures = 0;
+        }
+
+        private void ResetSliderValues() {
+            HandlingSlider.Value = 0;
+            PhysicsSlider.Value = 0;
+            RealismSlider.Value = 0;
+            SoundSlider.Value = 0;
+            VisualsSlider.Value = 0;
+            FunFactorSlider.Value = 0;
+            ExtraFeaturesSlider.Value = 0;
         }
 
         private void SaveButton_Click(object sender, RoutedEventArgs e) => SaveRatings();
@@ -202,8 +215,8 @@ namespace Ac.Ratings {
         }
 
         private string ShowCarGearbox(Car selectedCar) {
-            var gearsCount = selectedCar.CarData.GearsCount;
-            var isManual = selectedCar.CarData.SupportsShifter;
+            var gearsCount = selectedCar.Data.GearsCount;
+            var isManual = selectedCar.Data.SupportsShifter;
             var tags = selectedCar.Tags;
             var gearboxFromTags = tags?.FirstOrDefault(x => x.Contains("#-"))?.Replace(" ", "").Remove(0, 2);
             if (gearsCount == 0) {

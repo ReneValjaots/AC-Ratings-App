@@ -1,0 +1,37 @@
+{
+  "name": "BMW M235i Racing",
+  "brand": "BMW",
+  "year": "2014",
+  "author": "Kunos",
+  "folderName": "ks_bmw_m235i_racing",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_bmw_m235i_racing",
+  "specs": {
+    "convertedPower": "245kW/333hp",
+    "isManufacturerData": true,
+    "bhp": "245kW/333hp",
+    "torque": "500Nm",
+    "weight": "1424kg",
+    "topspeed": "250+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "5.81 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic",
+    "#! 3.0L & I6 & M TwinPower Turbo"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 8,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

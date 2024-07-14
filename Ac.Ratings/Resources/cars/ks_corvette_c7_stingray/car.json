@@ -1,0 +1,35 @@
+{
+  "name": "Chevrolet Corvette C7 Stingray",
+  "brand": "Chevrolet",
+  "year": "2014",
+  "author": "Kunos",
+  "folderName": "ks_corvette_c7_stingray",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_corvette_c7_stingray",
+  "specs": {
+    "convertedPower": "335kW/455hp",
+    "isManufacturerData": false,
+    "bhp": "455bhp",
+    "torque": "625Nm",
+    "weight": "1496kg",
+    "topspeed": "290km/h",
+    "acceleration": "3.8s 0-100",
+    "pwratio": "3.29kg/hp"
+  },
+  "tags": [
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

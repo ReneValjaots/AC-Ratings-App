@@ -1,0 +1,36 @@
+{
+  "name": "Lotus 2-Eleven",
+  "brand": "Lotus",
+  "year": "2007",
+  "author": "Kunos",
+  "folderName": "lotus_2_eleven",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_2_eleven",
+  "specs": {
+    "convertedPower": "185kW/252hp",
+    "isManufacturerData": false,
+    "bhp": "252bhp",
+    "torque": "242Nm",
+    "weight": "670kg",
+    "topspeed": "249km/h",
+    "acceleration": "3.8s 0-100",
+    "pwratio": "2.65kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

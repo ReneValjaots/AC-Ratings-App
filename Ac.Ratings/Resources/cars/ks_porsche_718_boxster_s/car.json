@@ -1,0 +1,36 @@
+{
+  "name": "Porsche 718 Boxster S",
+  "brand": "Porsche",
+  "year": "2016",
+  "author": "Kunos",
+  "folderName": "ks_porsche_718_boxster_s",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_718_boxster_s",
+  "specs": {
+    "convertedPower": "257kW/350hp",
+    "isManufacturerData": false,
+    "bhp": "350bhp",
+    "torque": "420Nm",
+    "weight": "1355kg",
+    "topspeed": "285km/h",
+    "acceleration": "4.6s 0-100",
+    "pwratio": "3.87 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

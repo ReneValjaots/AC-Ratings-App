@@ -1,0 +1,36 @@
+{
+  "name": "Porsche 963",
+  "brand": "Porsche",
+  "year": "2024",
+  "author": "Race Sim Studio",
+  "folderName": "rss_mph_protech_p96_v8",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_mph_protech_p96_v8",
+  "specs": {
+    "convertedPower": "460kW/625hp",
+    "isManufacturerData": false,
+    "bhp": "625bhp",
+    "torque": "625Nm",
+    "weight": "1118kg",
+    "topspeed": "340+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.79kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

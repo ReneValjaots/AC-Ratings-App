@@ -1,0 +1,35 @@
+{
+  "name": "Audi 90 quattro IMSA GTO",
+  "brand": "Audi",
+  "year": "1989",
+  "author": "VRC Modding Team",
+  "folderName": "vrc_arc_auriel90",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_arc_auriel90",
+  "specs": {
+    "convertedPower": "521kW/709hp",
+    "isManufacturerData": false,
+    "bhp": "709 bhp",
+    "torque": "720Nm",
+    "weight": "1206kg",
+    "topspeed": "310km/h",
+    "acceleration": "2.88s",
+    "pwratio": "1.7 kg/hp"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

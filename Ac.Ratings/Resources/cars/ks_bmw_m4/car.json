@@ -1,0 +1,36 @@
+{
+  "name": "BMW M4",
+  "brand": "BMW",
+  "year": "2015",
+  "author": "Kunos",
+  "folderName": "ks_bmw_m4",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_bmw_m4",
+  "specs": {
+    "convertedPower": "317kW/431hp",
+    "isManufacturerData": false,
+    "bhp": "431bhp",
+    "torque": "550Nm",
+    "weight": "1572kg",
+    "topspeed": "250km/h",
+    "acceleration": "3.9s 0-100",
+    "pwratio": "3.64kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Porsche 919 Hybrid Evo",
+  "brand": "Porsche",
+  "year": "2018",
+  "author": "Race Sim Studio",
+  "folderName": "rss_lmp1_protech_p91_evo",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_lmp1_protech_p91_evo",
+  "specs": {
+    "convertedPower": "527kW/717hp",
+    "isManufacturerData": false,
+    "bhp": "717bhp",
+    "torque": "690Nm",
+    "weight": "919kg",
+    "topspeed": "370 km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "1.28 kg/hp"
+  },
+  "tags": [
+    "#+ awd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

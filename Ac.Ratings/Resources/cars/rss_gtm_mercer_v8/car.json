@@ -1,0 +1,36 @@
+{
+  "name": "Mercedes-AMG GT3 Evo",
+  "brand": "Mercedes-Benz",
+  "year": "2024",
+  "author": "Race Sim Studio",
+  "folderName": "rss_gtm_mercer_v8",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtm_mercer_v8",
+  "specs": {
+    "convertedPower": "368kW/500hp",
+    "isManufacturerData": false,
+    "bhp": "500bhp",
+    "torque": "610Nm",
+    "weight": "1390kg",
+    "topspeed": "270+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.78 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Ford Mondeo (CSP)",
+  "brand": "Ford",
+  "year": "1999",
+  "author": "VRC Modding Team",
+  "folderName": "vrc_erc_1999_fortix_csp",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_erc_1999_fortix_csp",
+  "specs": {
+    "convertedPower": "234kW/318hp",
+    "isManufacturerData": false,
+    "bhp": "318 bhp",
+    "torque": "284 Nm",
+    "weight": "975 kg",
+    "topspeed": "275 km/h",
+    "acceleration": "5.5s",
+    "pwratio": "3.07 kg/hp"
+  },
+  "tags": [
+    "#+ fwd"
+  ],
+  "data": {
+    "tractionType": "FWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

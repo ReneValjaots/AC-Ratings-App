@@ -1,0 +1,36 @@
+{
+  "name": "Shelby Cobra 427 S/C",
+  "brand": "Shelby",
+  "year": "1966",
+  "author": "Kunos",
+  "folderName": "shelby_cobra_427sc",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\shelby_cobra_427sc",
+  "specs": {
+    "convertedPower": "368kW/500hp",
+    "isManufacturerData": false,
+    "bhp": "500bhp",
+    "torque": "626Nm",
+    "weight": "1110kg",
+    "topspeed": "265km/h",
+    "acceleration": "4.3s 0-100",
+    "pwratio": "2.14kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 4,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

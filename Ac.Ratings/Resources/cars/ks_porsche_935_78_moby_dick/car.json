@@ -1,0 +1,35 @@
+{
+  "name": "Porsche 935/78 'Moby Dick'",
+  "brand": "Porsche",
+  "year": "1978",
+  "author": "Kunos",
+  "folderName": "ks_porsche_935_78_moby_dick",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_935_78_moby_dick",
+  "specs": {
+    "convertedPower": "621kW/845hp",
+    "isManufacturerData": false,
+    "bhp": "845bhp",
+    "torque": "784Nm",
+    "weight": "1025kg",
+    "topspeed": "366km/h",
+    "acceleration": "2.6s 0-100",
+    "pwratio": "1.21kg/hp"
+  },
+  "tags": [
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 4,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

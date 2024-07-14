@@ -1,0 +1,36 @@
+{
+  "name": "Mercedes SLS AMG",
+  "brand": "Mercedes-Benz",
+  "year": "2009",
+  "author": "Kunos",
+  "folderName": "mercedes_sls",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\mercedes_sls",
+  "specs": {
+    "convertedPower": "420kW/571hp",
+    "isManufacturerData": false,
+    "bhp": "571bhp",
+    "torque": "650Nm",
+    "weight": "1620kg",
+    "topspeed": "317+km/h",
+    "acceleration": "3.8s 0-100",
+    "pwratio": "2.84kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

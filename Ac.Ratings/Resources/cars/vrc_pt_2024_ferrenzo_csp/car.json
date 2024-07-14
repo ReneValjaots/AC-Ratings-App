@@ -1,0 +1,35 @@
+{
+  "name": "Ferrari P499 (CSP)",
+  "brand": "Ferrari",
+  "year": "2024",
+  "author": "VRC Modding Team",
+  "folderName": "vrc_pt_2024_ferrenzo_csp",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_2024_ferrenzo_csp",
+  "specs": {
+    "convertedPower": "512kW/697hp",
+    "isManufacturerData": false,
+    "bhp": "697 bhp",
+    "torque": "670 Nm",
+    "weight": "1030kg",
+    "topspeed": "340km/h",
+    "acceleration": "3 s",
+    "pwratio": "1.48 kg/hp"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "AWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

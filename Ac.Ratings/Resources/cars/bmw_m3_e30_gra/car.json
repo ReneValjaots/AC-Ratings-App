@@ -1,0 +1,37 @@
+{
+  "name": "BMW M3 E30 Group A",
+  "brand": "BMW",
+  "year": "1986",
+  "author": "Kunos",
+  "folderName": "bmw_m3_e30_gra",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e30_gra",
+  "specs": {
+    "convertedPower": "213kW/290hp",
+    "isManufacturerData": false,
+    "bhp": "290+bhp",
+    "torque": "310Nm",
+    "weight": "945kg",
+    "topspeed": "280+km/h",
+    "acceleration": "4.3s 0-100",
+    "pwratio": "3.26kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual",
+    "#! 2.3L & I4"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

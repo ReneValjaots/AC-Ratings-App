@@ -1,0 +1,35 @@
+{
+  "name": "Bentley Speed 8",
+  "brand": "Bentley",
+  "year": "2003",
+  "author": "VRC Modding Team",
+  "folderName": "vrc_pt_project8",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_project8",
+  "specs": {
+    "convertedPower": "452kW/615hp",
+    "isManufacturerData": false,
+    "bhp": "615bhp",
+    "torque": "812Nm",
+    "weight": "908kg",
+    "topspeed": "+320km/h",
+    "acceleration": "2.5s",
+    "pwratio": "1.48 kg/hp"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

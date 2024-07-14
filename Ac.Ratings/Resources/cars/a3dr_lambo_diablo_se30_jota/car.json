@@ -1,0 +1,36 @@
+{
+  "name": "Lamborghini Diablo SE30 Jota",
+  "brand": "Lamborghini",
+  "year": "1995",
+  "author": "Alberto Daniel Russo",
+  "folderName": "a3dr_lambo_diablo_se30_jota",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_lambo_diablo_se30_jota",
+  "specs": {
+    "convertedPower": "437kW/595hp",
+    "isManufacturerData": false,
+    "bhp": "595 bhp",
+    "torque": "639 Nm",
+    "weight": "1450kg",
+    "topspeed": "340km/h",
+    "acceleration": "3.9s 0-100",
+    "pwratio": "2.44 kg/hp"
+  },
+  "tags": [
+    "#- manual",
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

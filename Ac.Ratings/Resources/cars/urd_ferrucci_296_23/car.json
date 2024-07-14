@@ -1,0 +1,36 @@
+{
+  "name": "Ferrari 296 GT3",
+  "brand": "Ferrari",
+  "year": "2023",
+  "author": "United Racing Design",
+  "folderName": "urd_ferrucci_296_23",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_ferrucci_296_23",
+  "specs": {
+    "convertedPower": "434kW/590hp",
+    "isManufacturerData": false,
+    "bhp": "590 bhp",
+    "torque": "699 Nm",
+    "weight": "1250kg",
+    "topspeed": "300 km/h",
+    "acceleration": "2.9s 0-100",
+    "pwratio": "2.12 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": null,
+    "gearsCount": 0,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

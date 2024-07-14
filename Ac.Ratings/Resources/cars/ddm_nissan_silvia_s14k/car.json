@@ -1,0 +1,35 @@
+{
+  "name": "Nissan Silvia K's Aero (S14)",
+  "brand": "Nissan",
+  "year": "1996",
+  "author": "ДЯДЯ ДИМА",
+  "folderName": "ddm_nissan_silvia_s14k",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ddm_nissan_silvia_s14k",
+  "specs": {
+    "convertedPower": "160kW/217hp",
+    "isManufacturerData": false,
+    "bhp": "217 bhp",
+    "torque": "286 Nm",
+    "weight": "1250 kg",
+    "topspeed": "242 km/h",
+    "acceleration": "7.0s 0-100",
+    "pwratio": "5.76 kg/hp"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Nissan Z GT500",
+  "brand": "Nissan",
+  "year": "2022",
+  "author": "United Racing Design",
+  "folderName": "urd_jt5_shiro_2022",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_jt5_shiro_2022",
+  "specs": {
+    "convertedPower": "481kW/654hp",
+    "isManufacturerData": false,
+    "bhp": "654 bhp",
+    "torque": "630 Nm",
+    "weight": "1020 kg",
+    "topspeed": "300 km/h",
+    "acceleration": "3s 0-100",
+    "pwratio": "1.56 kg/hp"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": null,
+    "gearsCount": 0,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

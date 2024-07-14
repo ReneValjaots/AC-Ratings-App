@@ -1,0 +1,36 @@
+{
+  "name": "Chevrolet Corvette C8.R",
+  "brand": "Chevrolet",
+  "year": "2020",
+  "author": "United Racing Design",
+  "folderName": "urd_michigan_gtd",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_michigan_gtd",
+  "specs": {
+    "convertedPower": "379kW/515hp",
+    "isManufacturerData": false,
+    "bhp": "515 bhp",
+    "torque": "662 Nm",
+    "weight": "1300kg",
+    "topspeed": "300+km/h",
+    "acceleration": "3.2s 0-100",
+    "pwratio": "2.52 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

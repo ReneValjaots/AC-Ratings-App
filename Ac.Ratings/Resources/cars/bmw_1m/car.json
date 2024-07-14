@@ -1,0 +1,37 @@
+{
+  "name": "BMW 1M",
+  "brand": "BMW",
+  "year": "2004",
+  "author": "Kunos",
+  "folderName": "bmw_1m",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_1m",
+  "specs": {
+    "convertedPower": "250kW/340hp",
+    "isManufacturerData": true,
+    "bhp": "250kW/340hp",
+    "torque": "500Nm",
+    "weight": "1495kg",
+    "topspeed": "250+km/h",
+    "acceleration": "4.9s 0-100",
+    "pwratio": "5.98 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual",
+    "#! 3.0L & I6 & M TwinPower Turbo"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

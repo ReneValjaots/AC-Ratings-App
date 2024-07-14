@@ -1,0 +1,36 @@
+{
+  "name": "Lexus RC-F GT3",
+  "brand": "Lexus",
+  "year": "2019",
+  "author": "United Racing Design",
+  "folderName": "urd_rekus_rcf_gt3",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_rekus_rcf_gt3",
+  "specs": {
+    "convertedPower": "404kW/550hp",
+    "isManufacturerData": false,
+    "bhp": "550 bhp",
+    "torque": "583 Nm",
+    "weight": "1376kg*",
+    "topspeed": "270+km/h",
+    "acceleration": null,
+    "pwratio": "2.5 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": null,
+    "gearsCount": 0,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

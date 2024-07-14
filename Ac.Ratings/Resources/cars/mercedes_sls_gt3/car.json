@@ -1,0 +1,36 @@
+{
+  "name": "Mercedes SLS AMG GT3",
+  "brand": "Mercedes-Benz",
+  "year": "2009",
+  "author": "Kunos",
+  "folderName": "mercedes_sls_gt3",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\mercedes_sls_gt3",
+  "specs": {
+    "convertedPower": "382kW/520hp",
+    "isManufacturerData": false,
+    "bhp": "520bhp",
+    "torque": "600Nm",
+    "weight": "1265kg",
+    "topspeed": "280+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.43kg/hp"
+  },
+  "tags": [
+    "#- sequential",
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

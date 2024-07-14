@@ -1,0 +1,36 @@
+{
+  "name": "Pagani Huayra",
+  "brand": "Pagani",
+  "year": "2012",
+  "author": "Kunos",
+  "folderName": "pagani_huayra",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pagani_huayra",
+  "specs": {
+    "convertedPower": "537kW/730hp",
+    "isManufacturerData": false,
+    "bhp": "730bhp",
+    "torque": "1000Nm",
+    "weight": "1360kg",
+    "topspeed": "370+km/h",
+    "acceleration": "2.7s 0-100",
+    "pwratio": "1.86kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

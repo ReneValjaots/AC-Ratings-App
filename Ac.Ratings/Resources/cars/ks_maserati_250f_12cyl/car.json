@@ -1,0 +1,36 @@
+{
+  "name": "Maserati 250F 12 cylinder",
+  "brand": "Maserati",
+  "year": "1954",
+  "author": "Kunos",
+  "folderName": "ks_maserati_250f_12cyl",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_maserati_250f_12cyl",
+  "specs": {
+    "convertedPower": "228kW/310hp",
+    "isManufacturerData": false,
+    "bhp": "310bhp",
+    "torque": "--Nm",
+    "weight": "670kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "2.16kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

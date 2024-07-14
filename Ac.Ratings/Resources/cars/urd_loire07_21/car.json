@@ -1,0 +1,36 @@
+{
+  "name": "Oreca 07 Gibson",
+  "brand": "Oreca",
+  "year": "2021",
+  "author": "United Racing Design",
+  "folderName": "urd_loire07_21",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_loire07_21",
+  "specs": {
+    "convertedPower": "412kW/560hp",
+    "isManufacturerData": false,
+    "bhp": "560 bhp",
+    "torque": "513 Nm",
+    "weight": "950 kg",
+    "topspeed": "320 km/h",
+    "acceleration": "2.8 s 0-100",
+    "pwratio": "1.7 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": null,
+    "gearsCount": 0,
+    "supportsShifter": false
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

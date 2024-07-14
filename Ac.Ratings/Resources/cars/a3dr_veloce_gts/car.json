@@ -1,0 +1,35 @@
+{
+  "name": "Veloce GTS-8",
+  "brand": "Henry Clay Motorsports",
+  "year": "2016",
+  "author": "Alberto Daniel Russo",
+  "folderName": "a3dr_veloce_gts",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_veloce_gts",
+  "specs": {
+    "convertedPower": "357kW/486hp",
+    "isManufacturerData": false,
+    "bhp": "486 bhp",
+    "torque": "643 Nm",
+    "weight": "1103 Kg",
+    "topspeed": "197 mph",
+    "acceleration": "4.12s 0-60",
+    "pwratio": "2.27 kg/cv"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

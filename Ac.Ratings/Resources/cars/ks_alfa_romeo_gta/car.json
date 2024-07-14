@@ -1,0 +1,36 @@
+{
+  "name": "Alfa Romeo GTA",
+  "brand": "Alfa Romeo",
+  "year": "1965",
+  "author": "Kunos",
+  "folderName": "ks_alfa_romeo_gta",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_alfa_romeo_gta",
+  "specs": {
+    "convertedPower": "125kW/170hp",
+    "isManufacturerData": false,
+    "bhp": "170bhp",
+    "torque": "200Nm",
+    "weight": "750kg",
+    "topspeed": "210+km/h",
+    "acceleration": "--s 0-100",
+    "pwratio": "4.41kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

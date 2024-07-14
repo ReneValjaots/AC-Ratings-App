@@ -1,0 +1,36 @@
+{
+  "name": "Honda Civic Type R (EK9) Turbo",
+  "brand": "Honda",
+  "year": "1998",
+  "author": "Seb/Amy",
+  "folderName": "amy_honda_ek9_turbo",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\amy_honda_ek9_turbo",
+  "specs": {
+    "convertedPower": "279kW/380hp",
+    "isManufacturerData": false,
+    "bhp": "380 bhp",
+    "torque": "351 Nm",
+    "weight": "1100 kg",
+    "topspeed": "280 km/h",
+    "acceleration": "",
+    "pwratio": "2.89 kg/hp"
+  },
+  "tags": [
+    "#- manual",
+    "#+ fwd"
+  ],
+  "data": {
+    "tractionType": "FWD",
+    "gearsCount": 5,
+    "supportsShifter": true
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

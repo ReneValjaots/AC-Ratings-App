@@ -143,6 +143,7 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
 
                     <StackPanel Grid.Column="0" HorizontalAlignment="Center">
@@ -154,6 +155,14 @@
                     </StackPanel>
 
                     <StackPanel Grid.Column="1" HorizontalAlignment="Center">
+                        <TextBlock x:Name="InductionSystem"
+                                   Foreground="White"
+                                   FontSize="12"
+                                   FontWeight="Bold"
+                                   TextAlignment="Center" />
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="2" HorizontalAlignment="Center">
                         <TextBlock x:Name="Gearbox"
                     Foreground="White"
                     FontSize="12"
@@ -161,7 +170,7 @@
                     TextAlignment="Center" />
                     </StackPanel>
 
-                    <StackPanel Grid.Column="2" HorizontalAlignment="Center">
+                    <StackPanel Grid.Column="3" HorizontalAlignment="Center">
                         <TextBlock x:Name="Drivetrain"
                     Foreground="White"
                     FontSize="12"

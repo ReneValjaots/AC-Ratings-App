@@ -22,7 +22,8 @@
   "data": {
     "tractionType": "AWD2",
     "gearsCount": 5,
-    "supportsShifter": true
+    "supportsShifter": true,
+    "turboCount": 2
   },
   "ratings": {
     "handling": 0.0,

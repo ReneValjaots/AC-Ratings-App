@@ -21,7 +21,8 @@
   "data": {
     "tractionType": "FWD",
     "gearsCount": 6,
-    "supportsShifter": false
+    "supportsShifter": false,
+    "turboCount": 1
   },
   "ratings": {
     "handling": 0.0,

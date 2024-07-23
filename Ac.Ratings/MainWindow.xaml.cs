@@ -49,6 +49,7 @@ namespace Ac.Ratings {
             TopSpeedFigures.Text = selectedCar.Specs.Topspeed ?? string.Empty;
 
             Engine.Text = ShowCarEngineStats(selectedCar);
+            InductionSystem.Text = ShowInductionSystem(selectedCar);
             Drivetrain.Text = ShowCarDriveTrain(selectedCar);
             Gearbox.Text = ShowCarGearbox(selectedCar);
 
@@ -90,18 +91,22 @@ namespace Ac.Ratings {
         private void SaveRatings() {
             var selectedCar = (Car)CarList.SelectedItem;
             if (selectedCar != null) {
-                selectedCar.Ratings.Handling = HandlingSlider.Value;
-                selectedCar.Ratings.Physics = PhysicsSlider.Value;
-                selectedCar.Ratings.Realism = RealismSlider.Value;
-                selectedCar.Ratings.Sound = SoundSlider.Value;
-                selectedCar.Ratings.Visuals = VisualsSlider.Value;
-                selectedCar.Ratings.FunFactor = FunFactorSlider.Value;
-                selectedCar.Ratings.ExtraFeatures = ExtraFeaturesSlider.Value;
+                SetRatingsFromSliders(selectedCar);
 
                 var jsonContent = JsonConvert.SerializeObject(_data.CarDb, Formatting.Indented);
                 File.WriteAllText(_data.carDbFilePath, jsonContent);
                 SaveCarToFile(selectedCar);
             }
+        }
+
+        private void SetRatingsFromSliders(Car car) {
+            car.Ratings.Handling = HandlingSlider.Value;
+            car.Ratings.Physics = PhysicsSlider.Value;
+            car.Ratings.Realism = RealismSlider.Value;
+            car.Ratings.Sound = SoundSlider.Value;
+            car.Ratings.Visuals = VisualsSlider.Value;
+            car.Ratings.FunFactor = FunFactorSlider.Value;
+            car.Ratings.ExtraFeatures = ExtraFeaturesSlider.Value;
         }
 
         private void SaveCarToFile(Car car) {
@@ -204,14 +209,19 @@ namespace Ac.Ratings {
 
         private string ShowCarDriveTrain(Car selectedCar) {
             var tags = selectedCar.Tags;
+            var data = selectedCar.Data.TractionType;
+
+            if (data != null) {
+                if (data.Contains("rwd", StringComparison.OrdinalIgnoreCase))
+                    return "RWD";
+                if (data.Contains("awd", StringComparison.OrdinalIgnoreCase))
+                    return "AWD";
+                if (data.Contains("fwd", StringComparison.OrdinalIgnoreCase))
+                    return "FWD";
+            }
+
             var drivetrainTag = tags?.FirstOrDefault(x => x.Contains("#+"))?.Replace(" ", "").ToLower().Remove(0, 2);
-            if (drivetrainTag == null)
-                return string.Empty; 
-            if (drivetrainTag.Contains("rwd"))
-                return "RWD";
-            if (drivetrainTag.Contains("fwd"))
-                return "FWD";
-            return drivetrainTag.Contains("awd") ? "AWD" : string.Empty;
+            return drivetrainTag == null ? string.Empty : drivetrainTag.ToUpper();
         }
 
         private string ShowCarGearbox(Car selectedCar) {
@@ -219,19 +229,15 @@ namespace Ac.Ratings {
             var isManual = selectedCar.Data.SupportsShifter;
             var tags = selectedCar.Tags;
             var gearboxFromTags = tags?.FirstOrDefault(x => x.Contains("#-"))?.Replace(" ", "").Remove(0, 2);
-            if (gearsCount == 0) {
-                if (gearboxFromTags == null)
-                    return string.Empty;
-                return gearboxFromTags;
-            }
 
-            if (isManual) {
+            if (gearsCount == 0)
+                return gearboxFromTags ?? string.Empty;
+
+            if (isManual)
                 return $"{gearsCount}-speed manual";
-            }
 
-            if (!isManual) {
+            if (!isManual)
                 return $"{gearsCount}-speed automatic";
-            }
 
             return string.Empty;
         }
@@ -244,9 +250,8 @@ namespace Ac.Ratings {
 
         private string ShowCarEngineStats(Car selectedCar) {
             var data = GetCarEngineData(selectedCar);
-            if (string.IsNullOrEmpty(data)) {
+            if (string.IsNullOrEmpty(data)) 
                 return string.Empty;
-            }
 
             var result = string.Empty;
             var parts = data.Split('&');
@@ -258,24 +263,21 @@ namespace Ac.Ratings {
         }
 
         private string GetLayout(string result, string data) {
-            if (data.StartsWith('I') || data.StartsWith('i')) {
+            if (data.StartsWith("I", StringComparison.OrdinalIgnoreCase)) 
                 result += "inline-" + Regex.Match(data, @"\d+").Value + " engine";
-            }
 
-            if (data.StartsWith('V') || data.StartsWith('v')) {
+            if (data.StartsWith("V", StringComparison.OrdinalIgnoreCase)) 
                 result += data.ToUpper() + " engine";
-            }
-
-            if (data.StartsWith('F') || data.StartsWith('f')) {
+            
+            if (data.StartsWith("F", StringComparison.OrdinalIgnoreCase)) 
                 result += "flat-" + Regex.Match(data, @"\d+").Value + " engine";
-            }
-
-            if (data.StartsWith('R') || data.StartsWith('r')) {
+            
+            if (data.StartsWith("R", StringComparison.OrdinalIgnoreCase)) 
                 result += "rotary engine";
-            }
 
             return result;
         }
+
 
         private string GetDisplacement(string result, string data) {
             if (char.IsDigit(data[0])) {
@@ -283,6 +285,15 @@ namespace Ac.Ratings {
                 result += $"{displacementValue}-litre ";
             }
             return result;
+        }
+
+        private string ShowInductionSystem(Car car) {
+            var result = string.Empty;
+            return car.Data.TurboCount switch {
+                1 => "single turbo",
+                2 => "twin turbo",
+                _ => "naturally aspirated"
+            };
         }
     }
 }

@@ -7,6 +7,7 @@ namespace Ac.Ratings.Model {
         private string? _tractionType;
         private int _gearsCount;
         private bool _supportsShifter;
+        private int _turboCount;
 
         [JsonProperty("tractionType")] public string? TractionType {
             get => _tractionType;
@@ -21,6 +22,11 @@ namespace Ac.Ratings.Model {
         [JsonProperty("supportsShifter")] public bool SupportsShifter {
             get => _supportsShifter;
             set => SetField(ref _supportsShifter, value);
+        }
+
+        [JsonProperty("turboCount")] public int TurboCount {
+            get => _turboCount;
+            set => SetField(ref _turboCount, value);
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;

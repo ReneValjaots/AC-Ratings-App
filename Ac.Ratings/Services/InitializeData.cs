@@ -79,12 +79,19 @@ namespace Ac.Ratings.Services {
                 }
                 var jsonFilePath = Path.Combine(directory, "ui", "ui_car.json");
                 var drivetrainFilePath = Path.Combine(directory, "data", "drivetrain.ini");
+                var engineFilePath = Path.Combine(directory, "data", "engine.ini");
                 if (File.Exists(jsonFilePath)) {
                     var car = ReadDataFromJson(jsonFilePath, directory);
                     if (File.Exists(drivetrainFilePath)) {
                         var carData = ReadDataFromIni(drivetrainFilePath);
                         car.Data = carData;
                     }
+
+                    if (File.Exists(engineFilePath)) {
+                        var turboCount = ReadTurboCountFromIni(engineFilePath);
+                        car.Data.TurboCount = turboCount;
+                    }
+
                     result.Add(car);
                 }
                 else {
@@ -92,6 +99,11 @@ namespace Ac.Ratings.Services {
                 }
             }
             return result;
+        }
+
+        private int ReadTurboCountFromIni(string filePath) {
+            var lines = File.ReadAllLines(filePath);
+            return lines.Count(line => line.StartsWith("[TURBO_"));
         }
 
         private CarData ReadDataFromIni(string filePath) {

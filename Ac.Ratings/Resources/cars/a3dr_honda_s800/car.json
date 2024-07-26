@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "51kW/70hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "12.8s",
     "bhp": "70 bhp",
     "torque": "66Nm",
     "weight": "750kg",

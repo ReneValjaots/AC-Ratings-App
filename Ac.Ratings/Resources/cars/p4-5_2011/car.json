@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "331kW/450hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "3.9s",
     "bhp": "450bhp",
     "torque": "500Nm",
     "weight": "1230kg",

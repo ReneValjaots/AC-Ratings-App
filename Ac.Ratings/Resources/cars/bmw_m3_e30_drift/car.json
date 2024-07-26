@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "252kW/343hp",
     "isManufacturerData": true,
+    "normalizedAcceleration": "5.3s",
     "bhp": "252kW/343hp",
     "torque": "365Nm",
     "weight": "1150kg",
@@ -18,7 +19,7 @@
   "tags": [
     "#+ rwd",
     "#- manual",
-    "#! 3.2L & I6 & S54"
+    "#! 3.2L & I6"
   ],
   "data": {
     "tractionType": "RWD",

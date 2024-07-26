@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "199kW/270hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "3.7s",
     "bhp": "270bhp",
     "torque": "252Nm",
     "weight": "670kg",

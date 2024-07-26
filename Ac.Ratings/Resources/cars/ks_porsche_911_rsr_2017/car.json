@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "375kW/510hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
     "bhp": "510bhp",
     "torque": "--Nm",
     "weight": "1245kg",

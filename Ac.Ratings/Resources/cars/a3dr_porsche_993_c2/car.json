@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "204kW/278hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "5.3s",
     "bhp": "278 bhp",
     "torque": "349 Nm",
     "weight": "1390 kg",

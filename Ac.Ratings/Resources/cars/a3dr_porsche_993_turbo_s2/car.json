@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "360kW/490hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "3.4s",
     "bhp": "490 bhp",
     "torque": "648 Nm",
     "weight": "1448 kg",

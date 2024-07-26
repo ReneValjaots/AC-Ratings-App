@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "250kW/340hp",
     "isManufacturerData": true,
+    "normalizedAcceleration": "4.9s",
     "bhp": "250kW/340hp",
     "torque": "500Nm",
     "weight": "1495kg",
@@ -18,7 +19,7 @@
   "tags": [
     "#+ rwd",
     "#- manual",
-    "#! 3.0L & I6 & M TwinPower Turbo"
+    "#! 3.0L & I6"
   ],
   "data": {
     "tractionType": "RWD",

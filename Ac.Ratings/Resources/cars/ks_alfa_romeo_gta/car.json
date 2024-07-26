@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "125kW/170hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
     "bhp": "170bhp",
     "torque": "200Nm",
     "weight": "750kg",

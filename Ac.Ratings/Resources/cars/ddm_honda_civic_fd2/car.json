@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "163kW/222hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "6.7s",
     "bhp": "222 bhp",
     "torque": "215 Nm",
     "weight": "1263 kg",

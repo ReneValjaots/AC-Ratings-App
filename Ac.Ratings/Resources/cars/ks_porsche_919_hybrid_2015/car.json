@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "662kW/900hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "2.2s",
     "bhp": "900bhp",
     "torque": "--Nm",
     "weight": "875kg",

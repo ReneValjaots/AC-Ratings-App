@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "120kW/163hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "9.2s",
     "bhp": "163 bhp",
     "torque": "171 Nm",
     "weight": "880 kg",

@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "368kW/500hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "4.3s",
     "bhp": "500bhp",
     "torque": "626Nm",
     "weight": "1110kg",

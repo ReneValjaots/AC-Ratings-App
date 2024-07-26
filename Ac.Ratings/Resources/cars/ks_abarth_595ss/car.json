@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "24kW/32hp",
     "isManufacturerData": true,
+    "normalizedAcceleration": "25.8s",
     "bhp": "24kW/32hp",
     "torque": "44Nm",
     "weight": "470kg",

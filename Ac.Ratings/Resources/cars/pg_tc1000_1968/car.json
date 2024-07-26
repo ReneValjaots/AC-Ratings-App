@@ -8,7 +8,8 @@
   "specs": {
     "convertedPower": "76kW/104hp",
     "isManufacturerData": false,
-    "bhp": "104 bhp",
+    "normalizedAcceleration": "7.2s",
+    "bhp": "104bhp",
     "torque": "99 Nm",
     "weight": "605 kg*",
     "topspeed": "195 Km/h",

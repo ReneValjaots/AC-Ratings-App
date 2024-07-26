@@ -6,14 +6,15 @@
   "folderName": "sl_toyota_supra_mkiv_ridox",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\sl_toyota_supra_mkiv_ridox",
   "specs": {
-    "convertedPower": "494л.с.",
+    "convertedPower": "363kW/494hp",
     "isManufacturerData": false,
-    "bhp": "494л.с.",
-    "torque": "610Нм",
-    "weight": "1470кг",
-    "topspeed": "",
-    "acceleration": "",
-    "pwratio": "2.98кг/л.с."
+    "normalizedAcceleration": null,
+    "bhp": "494bhp",
+    "torque": "610nm",
+    "weight": "1470kg",
+    "topspeed": null,
+    "acceleration": null,
+    "pwratio": "2.98 kg/hp"
   },
   "tags": [
     "#- manual",

@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "434kW/590hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": null,
     "bhp": "590 bhp",
     "torque": "700 Nm",
     "weight": "1000 kg",

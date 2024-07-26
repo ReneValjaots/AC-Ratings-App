@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "48kW/65hp",
     "isManufacturerData": true,
+    "normalizedAcceleration": "-",
     "bhp": "48kW/65hp",
     "torque": "80Nm",
     "weight": "470kg",
@@ -17,8 +18,7 @@
   },
   "tags": [
     "#+ rwd",
-    "#- manual",
-    "#! -"
+    "#- manual"
   ],
   "data": {
     "tractionType": "RWD",

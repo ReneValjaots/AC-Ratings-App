@@ -9,6 +9,7 @@
     "specs": {
       "convertedPower": "82kW/112hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "7.2s",
       "bhp": "112 bhp",
       "torque": "101 Nm",
       "weight": "605 kg*",
@@ -46,7 +47,8 @@
     "specs": {
       "convertedPower": "76kW/104hp",
       "isManufacturerData": false,
-      "bhp": "104 bhp",
+      "normalizedAcceleration": "7.2s",
+      "bhp": "104bhp",
       "torque": "99 Nm",
       "weight": "605 kg*",
       "topspeed": "195 Km/h",
@@ -83,6 +85,7 @@
     "specs": {
       "convertedPower": "140kW/190hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "<7.0s",
       "bhp": "140kW/190hp",
       "torque": "302Nm",
       "weight": "930kg",
@@ -121,6 +124,7 @@
     "specs": {
       "convertedPower": "118kW/160hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "7.4s",
       "bhp": "118kW/160hp",
       "torque": "230Nm",
       "weight": "1025kg",
@@ -159,6 +163,7 @@
     "specs": {
       "convertedPower": "129kW/175hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "7.4s",
       "bhp": "129kW/175hp",
       "torque": "245Nm",
       "weight": "1025kg",
@@ -197,6 +202,7 @@
     "specs": {
       "convertedPower": "24kW/32hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "25.8s",
       "bhp": "24kW/32hp",
       "torque": "44Nm",
       "weight": "470kg",
@@ -235,6 +241,7 @@
     "specs": {
       "convertedPower": "24kW/32hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "24.7s",
       "bhp": "24kW/32hp",
       "torque": "44Nm",
       "weight": "470kg",
@@ -273,6 +280,7 @@
     "specs": {
       "convertedPower": "48kW/65hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "-",
       "bhp": "48kW/65hp",
       "torque": "80Nm",
       "weight": "470kg",
@@ -282,8 +290,7 @@
     },
     "tags": [
       "#+ rwd",
-      "#- manual",
-      "#! -"
+      "#- manual"
     ],
     "data": {
       "tractionType": "RWD",
@@ -311,6 +318,7 @@
     "specs": {
       "convertedPower": "370kW/503hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "503bhp",
       "torque": "644Nm",
       "weight": "1370kg",
@@ -348,6 +356,7 @@
     "specs": {
       "convertedPower": "309kW/420hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "2.5s",
       "bhp": "309kW/420hp",
       "torque": "294Nm",
       "weight": "1050kg",
@@ -386,6 +395,7 @@
     "specs": {
       "convertedPower": "169kW/230hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "-",
       "bhp": "169kW/230hp",
       "torque": "206Nm",
       "weight": "700kg",
@@ -424,6 +434,7 @@
     "specs": {
       "convertedPower": "176kW/240hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.5s",
       "bhp": "240bhp",
       "torque": "350Nm",
       "weight": "925kg",
@@ -461,6 +472,7 @@
     "specs": {
       "convertedPower": "375kW/510hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.9s",
       "bhp": "510bhp",
       "torque": "600Nm",
       "weight": "1595kg",
@@ -498,6 +510,7 @@
     "specs": {
       "convertedPower": "125kW/170hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "170bhp",
       "torque": "200Nm",
       "weight": "750kg",
@@ -535,6 +548,7 @@
     "specs": {
       "convertedPower": "124kW/168hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "7.3s",
       "bhp": "168bhp",
       "torque": "250Nm",
       "weight": "1140kg",
@@ -572,6 +586,7 @@
     "specs": {
       "convertedPower": "430kW/585hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "585bhp",
       "torque": "675Nm",
       "weight": "1180kg",
@@ -609,6 +624,7 @@
     "specs": {
       "convertedPower": "521kW/709hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.9s",
       "bhp": "709 bhp",
       "torque": "720Nm",
       "weight": "1206kg",
@@ -645,6 +661,7 @@
     "specs": {
       "convertedPower": "441kW/600hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.0s",
       "bhp": "600 bhp",
       "torque": "609 Nm*",
       "weight": "1206kg",
@@ -681,6 +698,7 @@
     "specs": {
       "convertedPower": "580kW/700hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "2.7s",
       "bhp": "580kW/700hp",
       "torque": "850+Nm",
       "weight": "915kg",
@@ -691,7 +709,7 @@
     "tags": [
       "#+ awd",
       "#- sequential",
-      "#! 4.0L & V6 & TDI"
+      "#! 4.0L & V6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -719,6 +737,7 @@
     "specs": {
       "convertedPower": "419kW/570hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.7s",
       "bhp": "570bhp",
       "torque": "652Nm",
       "weight": "910kg",
@@ -755,6 +774,7 @@
     "specs": {
       "convertedPower": "368kW/500hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.2s",
       "bhp": "500bhp",
       "torque": "500Nm",
       "weight": "1270kg",
@@ -793,6 +813,7 @@
     "specs": {
       "convertedPower": "368kW/501hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "501bhp",
       "torque": "472Nm",
       "weight": "1411kg",
@@ -830,6 +851,7 @@
     "specs": {
       "convertedPower": "419kW/570hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "-",
       "bhp": "419kW/570hp",
       "torque": "500+Nm",
       "weight": "1250kg",
@@ -868,6 +890,7 @@
     "specs": {
       "convertedPower": "404kW/550hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "3.5s",
       "bhp": "404kW/550hp",
       "torque": "540Nm",
       "weight": "1620kg",
@@ -906,6 +929,7 @@
     "specs": {
       "convertedPower": "493kW/670hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "670 bhp",
       "torque": "797 Nm",
       "weight": "1240 kg",
@@ -940,6 +964,7 @@
     "specs": {
       "convertedPower": "170kW/231hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "5.8s",
       "bhp": "170kW/231hp",
       "torque": "370Nm",
       "weight": "1340kg",
@@ -977,6 +1002,7 @@
     "specs": {
       "convertedPower": "225kW/306hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "4.7s",
       "bhp": "225kW/306hp",
       "torque": "350Nm",
       "weight": "1298kg",
@@ -1015,6 +1041,7 @@
     "specs": {
       "convertedPower": "440kW/595hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "3.1s",
       "bhp": "440kW/595hp",
       "torque": "590Nm",
       "weight": "1090kg",
@@ -1053,6 +1080,7 @@
     "specs": {
       "convertedPower": "274kW/373hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "4.5s",
       "bhp": "274kW/373hp",
       "torque": "425Nm",
       "weight": "1298kg",
@@ -1091,6 +1119,7 @@
     "specs": {
       "convertedPower": "228kW/310hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "4.5s",
       "bhp": "228kW/310hp",
       "torque": "400+Nm",
       "weight": "1125kg",
@@ -1101,7 +1130,7 @@
     "tags": [
       "#+ fwd",
       "#- sequential",
-      "#! 2.0L & I4 & TSFI"
+      "#! 2.0L & I4"
     ],
     "data": {
       "tractionType": "FWD",
@@ -1129,6 +1158,7 @@
     "specs": {
       "convertedPower": "280kW/380hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "-",
       "bhp": "280kW/380hp",
       "torque": "530Nm",
       "weight": "1120kg",
@@ -1139,7 +1169,7 @@
     "tags": [
       "#+ fwd",
       "#- sequential",
-      "#! 2.5L & I5 & TSFI"
+      "#! 2.5L & I5"
     ],
     "data": {
       "tractionType": "FWD",
@@ -1167,6 +1197,7 @@
     "specs": {
       "convertedPower": "452kW/615hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.5s",
       "bhp": "615bhp",
       "torque": "812Nm",
       "weight": "908kg",
@@ -1203,6 +1234,7 @@
     "specs": {
       "convertedPower": "250kW/340hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "4.9s",
       "bhp": "250kW/340hp",
       "torque": "500Nm",
       "weight": "1495kg",
@@ -1213,7 +1245,7 @@
     "tags": [
       "#+ rwd",
       "#- manual",
-      "#! 3.0L & I6 & M TwinPower Turbo"
+      "#! 3.0L & I6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -1241,6 +1273,7 @@
     "specs": {
       "convertedPower": "294kW/400hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "400bhp",
       "torque": "580Nm",
       "weight": "1495kg",
@@ -1251,7 +1284,7 @@
     "tags": [
       "#+ rwd",
       "#- manual",
-      "#! 3.0L & I6 & M TwinPower Turbo"
+      "#! 3.0L & I6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -1279,6 +1312,7 @@
     "specs": {
       "convertedPower": "441kW/600hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "600bhp",
       "torque": "615Nm",
       "weight": "1120kg",
@@ -1316,6 +1350,7 @@
     "specs": {
       "convertedPower": "245kW/333hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "-",
       "bhp": "245kW/333hp",
       "torque": "500Nm",
       "weight": "1424kg",
@@ -1326,7 +1361,7 @@
     "tags": [
       "#+ rwd",
       "#- semiautomatic",
-      "#! 3.0L & I6 & M TwinPower Turbo"
+      "#! 3.0L & I6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -1354,6 +1389,7 @@
     "specs": {
       "convertedPower": "175kW/238hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "7.4s",
       "bhp": "175kW/238hp",
       "torque": "240Nm",
       "weight": "1200kg",
@@ -1392,6 +1428,7 @@
     "specs": {
       "convertedPower": "252kW/343hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "5.3s",
       "bhp": "252kW/343hp",
       "torque": "365Nm",
       "weight": "1150kg",
@@ -1402,7 +1439,7 @@
     "tags": [
       "#+ rwd",
       "#- manual",
-      "#! 3.2L & I6 & S54"
+      "#! 3.2L & I6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -1430,6 +1467,7 @@
     "specs": {
       "convertedPower": "257kW/350hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.3s",
       "bhp": "350+bhp",
       "torque": "310Nm",
       "weight": "945kg",
@@ -1468,6 +1506,7 @@
     "specs": {
       "convertedPower": "213kW/290hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.3s",
       "bhp": "290+bhp",
       "torque": "310Nm",
       "weight": "945kg",
@@ -1506,6 +1545,7 @@
     "specs": {
       "convertedPower": "175kW/238hp",
       "isManufacturerData": true,
+      "normalizedAcceleration": "7.4s",
       "bhp": "175kW/238hp",
       "torque": "240Nm",
       "weight": "1200kg",
@@ -1544,6 +1584,7 @@
     "specs": {
       "convertedPower": "304kW/414hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.3s",
       "bhp": "414bhp",
       "torque": "400Nm",
       "weight": "1605kg",
@@ -1581,6 +1622,7 @@
     "specs": {
       "convertedPower": "304kW/414hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.3s",
       "bhp": "414bhp",
       "torque": "400Nm",
       "weight": "1605kg",
@@ -1618,6 +1660,7 @@
     "specs": {
       "convertedPower": "304kW/414hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.3s",
       "bhp": "414bhp",
       "torque": "400Nm",
       "weight": "1605kg",
@@ -1655,6 +1698,7 @@
     "specs": {
       "convertedPower": "357kW/485hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "485+bhp",
       "torque": "499Nm",
       "weight": "1245kg",
@@ -1692,6 +1736,7 @@
     "specs": {
       "convertedPower": "317kW/431hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.9s",
       "bhp": "431bhp",
       "torque": "550Nm",
       "weight": "1572kg",
@@ -1729,6 +1774,7 @@
     "specs": {
       "convertedPower": "327kW/445hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.9s",
       "bhp": "445bhp",
       "torque": "589Nm",
       "weight": "1572kg",
@@ -1766,6 +1812,7 @@
     "specs": {
       "convertedPower": "404kW/550hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "550bhp",
       "torque": "660Nm",
       "weight": "1380kg",
@@ -1803,6 +1850,7 @@
     "specs": {
       "convertedPower": "426kW/580hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.7s",
       "bhp": "580bhp",
       "torque": "670Nm",
       "weight": "900kg",
@@ -1839,6 +1887,7 @@
     "specs": {
       "convertedPower": "243kW/330hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.7s",
       "bhp": "330bhp",
       "torque": "500Nm",
       "weight": "1605kg",
@@ -1876,6 +1925,7 @@
     "specs": {
       "convertedPower": "287kW/390hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "390bhp",
       "torque": "580Nm",
       "weight": "1525kg",
@@ -1913,6 +1963,7 @@
     "specs": {
       "convertedPower": "243kW/330hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.7s",
       "bhp": "330bhp",
       "torque": "500Nm",
       "weight": "1605kg",
@@ -1950,6 +2001,7 @@
     "specs": {
       "convertedPower": "390kW/530hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "530bhp",
       "torque": "520Nm",
       "weight": "1265kg",
@@ -1987,6 +2039,7 @@
     "specs": {
       "convertedPower": "146kW/198hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.4s",
       "bhp": "198 bhp",
       "torque": "203 Nm",
       "weight": "877 kg",
@@ -2023,6 +2076,7 @@
     "specs": {
       "convertedPower": "450kW/612hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.4s",
       "bhp": "612bhp",
       "torque": "746Nm",
       "weight": "905kg",
@@ -2059,6 +2113,7 @@
     "specs": {
       "convertedPower": "92kW/125hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "6.0s",
       "bhp": "125 bhp",
       "torque": "178 Nm",
       "weight": "575 kg",
@@ -2096,6 +2151,7 @@
     "specs": {
       "convertedPower": "377kW/513hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.2s",
       "bhp": "513 bhp",
       "torque": "656 Nm",
       "weight": "1200 kg",
@@ -2132,6 +2188,7 @@
     "specs": {
       "convertedPower": "377kW/513hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.2s",
       "bhp": "513 bhp",
       "torque": "656 Nm",
       "weight": "1200 kg",
@@ -2168,6 +2225,7 @@
     "specs": {
       "convertedPower": "441kW/600hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.5s",
       "bhp": "600 bhp",
       "torque": "705Nm",
       "weight": "1180kg",
@@ -2204,6 +2262,7 @@
     "specs": {
       "convertedPower": "298kW/405hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.4s",
       "bhp": "405 bhp",
       "torque": "522 Nm",
       "weight": "1503 kg",
@@ -2241,6 +2300,7 @@
     "specs": {
       "convertedPower": "415kW/565hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.0s",
       "bhp": "565 bhp",
       "torque": "660 Nm",
       "weight": "1405 kg",
@@ -2278,6 +2338,7 @@
     "specs": {
       "convertedPower": "335kW/455hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.8s",
       "bhp": "455bhp",
       "torque": "625Nm",
       "weight": "1496kg",
@@ -2314,6 +2375,7 @@
     "specs": {
       "convertedPower": "364kW/495hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "495+bhp",
       "torque": "650+Nm",
       "weight": "1320kg",
@@ -2351,6 +2413,7 @@
     "specs": {
       "convertedPower": "379kW/515hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.2s",
       "bhp": "515 bhp",
       "torque": "662 Nm",
       "weight": "1300kg",
@@ -2388,6 +2451,7 @@
     "specs": {
       "convertedPower": "404kW/550hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.2s",
       "bhp": "550 bhp",
       "torque": "705 Nm",
       "weight": "1240kg",
@@ -2425,6 +2489,7 @@
     "specs": {
       "convertedPower": "440kW/598hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": null,
       "bhp": "598 bhp",
       "torque": "729 Nm",
       "weight": "1039kg",
@@ -2462,6 +2527,7 @@
     "specs": {
       "convertedPower": "251kW/341hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.0s",
       "bhp": "341 bhp",
       "torque": "436 Nm",
       "weight": "1235 kg",
@@ -2499,6 +2565,7 @@
     "specs": {
       "convertedPower": "144kW/196hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "6.0s",
       "bhp": "196 bhp",
       "torque": "213 Nm",
       "weight": "830 kg",
@@ -2535,6 +2602,7 @@
     "specs": {
       "convertedPower": "440kW/598hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": null,
       "bhp": "598 bhp",
       "torque": "729 Nm",
       "weight": "1039kg",
@@ -2572,6 +2640,7 @@
     "specs": {
       "convertedPower": "331kW/450hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "450 bhp",
       "torque": "578Nm",
       "weight": "675kg",
@@ -2609,6 +2678,7 @@
     "specs": {
       "convertedPower": "331kW/450hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "450 bhp",
       "torque": "578Nm",
       "weight": "675kg",
@@ -2646,6 +2716,7 @@
     "specs": {
       "convertedPower": "331kW/450hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "450 bhp",
       "torque": "578Nm",
       "weight": "675kg",
@@ -2683,6 +2754,7 @@
     "specs": {
       "convertedPower": "331kW/450hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "450 bhp",
       "torque": "578Nm",
       "weight": "675kg",
@@ -2720,6 +2792,7 @@
     "specs": {
       "convertedPower": "456kW/620hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.6s",
       "bhp": "620bhp",
       "torque": "575Nm",
       "weight": "750kg",
@@ -2757,6 +2830,7 @@
     "specs": {
       "convertedPower": "279kW/380hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.0s",
       "bhp": "380bhp",
       "torque": "385Nm",
       "weight": "690kg",
@@ -2794,6 +2868,7 @@
     "specs": {
       "convertedPower": "450kW/612hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.6s",
       "bhp": "612bhp",
       "torque": "500Nm",
       "weight": "688kg",
@@ -2831,6 +2906,7 @@
     "specs": {
       "convertedPower": "331kW/450hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "450 bhp",
       "torque": "578Nm",
       "weight": "675kg",
@@ -2868,6 +2944,7 @@
     "specs": {
       "convertedPower": "331kW/450hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "450 bhp",
       "torque": "578Nm",
       "weight": "675kg",
@@ -2905,6 +2982,7 @@
     "specs": {
       "convertedPower": "384kW/522hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.2s",
       "bhp": "522 bhp",
       "torque": "667 Nm",
       "weight": "1200 kg",
@@ -2941,6 +3019,7 @@
     "specs": {
       "convertedPower": "384kW/522hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.2s",
       "bhp": "522 bhp",
       "torque": "667 Nm",
       "weight": "1200 kg",
@@ -2977,6 +3056,7 @@
     "specs": {
       "convertedPower": "464kW/631hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "631bhp",
       "torque": "743Nm",
       "weight": "1140kg",
@@ -3014,6 +3094,7 @@
     "specs": {
       "convertedPower": "294kW/400hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.6s",
       "bhp": "400 bhp",
       "torque": "627 Nm",
       "weight": "1494 kg",
@@ -3051,6 +3132,7 @@
     "specs": {
       "convertedPower": "306kW/416hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "416 bhp",
       "torque": "315 Nm",
       "weight": "535 kg",
@@ -3088,6 +3170,7 @@
     "specs": {
       "convertedPower": "510kW/693hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.8s",
       "bhp": "693bhp",
       "torque": "720Nm",
       "weight": "833Kg",
@@ -3124,6 +3207,7 @@
     "specs": {
       "convertedPower": "397kW/540hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.7s",
       "bhp": "540 bhp",
       "torque": "535 Nm",
       "weight": "1750 kg",
@@ -3160,6 +3244,7 @@
     "specs": {
       "convertedPower": "146kW/198hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "9.1s",
       "bhp": "198 bhp",
       "torque": "245 Nm",
       "weight": "960 kg",
@@ -3197,6 +3282,7 @@
     "specs": {
       "convertedPower": "221kW/300hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "6.1s",
       "bhp": "300bhp",
       "torque": "294Nm",
       "weight": "880kg",
@@ -3234,6 +3320,7 @@
     "specs": {
       "convertedPower": "434kW/590hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.9s",
       "bhp": "590 bhp",
       "torque": "699 Nm",
       "weight": "1250kg",
@@ -3271,6 +3358,7 @@
     "specs": {
       "convertedPower": "287kW/390hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "390bhp",
       "torque": "--Nm",
       "weight": "548kg",
@@ -3308,6 +3396,7 @@
     "specs": {
       "convertedPower": "364kW/495hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "495bhp",
       "torque": "308Nm",
       "weight": "606kg",
@@ -3345,6 +3434,7 @@
     "specs": {
       "convertedPower": "331kW/450hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "450bhp",
       "torque": "--Nm",
       "weight": "792kg",
@@ -3382,6 +3472,7 @@
     "specs": {
       "convertedPower": "441kW/600hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": null,
       "bhp": "600 bhp",
       "torque": "416 Nm",
       "weight": "979kg",
@@ -3418,6 +3509,7 @@
     "specs": {
       "convertedPower": "327kW/445hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "445bhp",
       "torque": "410Nm",
       "weight": "1190kg",
@@ -3455,6 +3547,7 @@
     "specs": {
       "convertedPower": "346kW/470hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "470bhp",
       "torque": "520Nm",
       "weight": "1245kg",
@@ -3492,6 +3585,7 @@
     "specs": {
       "convertedPower": "419kW/570hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.3s",
       "bhp": "570bhp",
       "torque": "540Nm",
       "weight": "1573kg",
@@ -3529,6 +3623,7 @@
     "specs": {
       "convertedPower": "419kW/570hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "570bhp",
       "torque": "540Nm",
       "weight": "1140kg",
@@ -3566,6 +3661,7 @@
     "specs": {
       "convertedPower": "368kW/500hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "500bhp",
       "torque": "640Nm",
       "weight": "1270kg",
@@ -3603,6 +3699,7 @@
     "specs": {
       "convertedPower": "368kW/500hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "500bhp",
       "torque": "640Nm",
       "weight": "1270kg",
@@ -3640,6 +3737,7 @@
     "specs": {
       "convertedPower": "485kW/660hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.0s",
       "bhp": "660bhp",
       "torque": "760Nm",
       "weight": "1370kg",
@@ -3677,6 +3775,7 @@
     "specs": {
       "convertedPower": "312kW/425hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.6s",
       "bhp": "425 bhp",
       "torque": "491 Nm",
       "weight": "1573 kg",
@@ -3713,6 +3812,7 @@
     "specs": {
       "convertedPower": "405kW/551hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.8s",
       "bhp": "551 bhp",
       "torque": "540 Nm",
       "weight": "1533 kg",
@@ -3749,6 +3849,7 @@
     "specs": {
       "convertedPower": "462kW/628hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "628bhp",
       "torque": "673Nm",
       "weight": "1100kg",
@@ -3786,6 +3887,7 @@
     "specs": {
       "convertedPower": "456kW/620hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "620bhp",
       "torque": "665Nm",
       "weight": "1150kg",
@@ -3823,6 +3925,7 @@
     "specs": {
       "convertedPower": "551kW/750hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.5s",
       "bhp": "750bhp",
       "torque": "700Nm",
       "weight": "1310kg",
@@ -3860,6 +3963,7 @@
     "specs": {
       "convertedPower": "500kW/680hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.0s",
       "bhp": "680bhp",
       "torque": "393Nm",
       "weight": "503kg",
@@ -3896,6 +4000,7 @@
     "specs": {
       "convertedPower": "588kW/800hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.9s",
       "bhp": "800bhp",
       "torque": "718Nm",
       "weight": "1525kg",
@@ -3933,6 +4038,7 @@
     "specs": {
       "convertedPower": "571kW/777hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "777bhp",
       "torque": "324Nm",
       "weight": "621kg*",
@@ -3970,6 +4076,7 @@
     "specs": {
       "convertedPower": "561kW/763hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "763bhp",
       "torque": "310Nm",
       "weight": "642kg*",
@@ -4007,6 +4114,7 @@
     "specs": {
       "convertedPower": "636kW/865hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "865bhp",
       "torque": "--Nm",
       "weight": "--kg",
@@ -4044,6 +4152,7 @@
     "specs": {
       "convertedPower": "351kW/478hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.5s",
       "bhp": "478bhp",
       "torque": "577Nm",
       "weight": "1175kg",
@@ -4081,6 +4190,7 @@
     "specs": {
       "convertedPower": "417kW/567hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.9s",
       "bhp": "567 bhp",
       "torque": "681 Nm",
       "weight": "1175 kg",
@@ -4118,6 +4228,7 @@
     "specs": {
       "convertedPower": "449kW/610hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "610+bhp",
       "torque": "715Nm",
       "weight": "1175kg",
@@ -4155,6 +4266,7 @@
     "specs": {
       "convertedPower": "772kW/1050hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "<3.0s",
       "bhp": "1050bhp",
       "torque": "900+Nm",
       "weight": "--kg",
@@ -4192,6 +4304,7 @@
     "specs": {
       "convertedPower": "294kW/400hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.9s",
       "bhp": "400bhp",
       "torque": "496Nm",
       "weight": "1160kg",
@@ -4229,6 +4342,7 @@
     "specs": {
       "convertedPower": "708kW/963hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "<3.0s",
       "bhp": "963bhp",
       "torque": "900+Nm",
       "weight": "--kg",
@@ -4266,6 +4380,7 @@
     "specs": {
       "convertedPower": "512kW/697hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.0s",
       "bhp": "697 bhp",
       "torque": "670 Nm",
       "weight": "1030kg",
@@ -4302,6 +4417,7 @@
     "specs": {
       "convertedPower": "512kW/697hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.0s",
       "bhp": "697 bhp",
       "torque": "670 Nm",
       "weight": "1030kg",
@@ -4338,6 +4454,7 @@
     "specs": {
       "convertedPower": "618kW/840hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "840bhp",
       "torque": "721Nm",
       "weight": "702kg*",
@@ -4375,6 +4492,7 @@
     "specs": {
       "convertedPower": "--bhp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "--bhp",
       "torque": "--Nm",
       "weight": "--kg",
@@ -4412,6 +4530,7 @@
     "specs": {
       "convertedPower": "191kW/260hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "260+bhp",
       "torque": "200+Nm",
       "weight": "885kg",
@@ -4446,6 +4565,7 @@
     "specs": {
       "convertedPower": "316kW/430hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "430bhp",
       "torque": "530Nm",
       "weight": "1025kg",
@@ -4480,6 +4600,7 @@
     "specs": {
       "convertedPower": "234kW/318hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.5s",
       "bhp": "318 bhp",
       "torque": "284 Nm",
       "weight": "975 kg",
@@ -4516,6 +4637,7 @@
     "specs": {
       "convertedPower": "234kW/318hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.5s",
       "bhp": "318 bhp",
       "torque": "284 Nm",
       "weight": "975 kg",
@@ -4552,6 +4674,7 @@
     "specs": {
       "convertedPower": "320kW/435hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.4s",
       "bhp": "435bhp",
       "torque": "542Nm",
       "weight": "1680kg",
@@ -4588,6 +4711,7 @@
     "specs": {
       "convertedPower": "347kW/472hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.7s",
       "bhp": "472 bhp",
       "torque": "529 Nm",
       "weight": "1318 kg",
@@ -4625,6 +4749,7 @@
     "specs": {
       "convertedPower": "377kW/513hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.2s",
       "bhp": "513 bhp",
       "torque": "656 Nm",
       "weight": "1200 kg",
@@ -4661,6 +4786,7 @@
     "specs": {
       "convertedPower": "377kW/513hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.2s",
       "bhp": "513 bhp",
       "torque": "656 Nm",
       "weight": "1200 kg",
@@ -4697,6 +4823,7 @@
     "specs": {
       "convertedPower": "312kW/424hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.2s",
       "bhp": "424 bhp",
       "torque": "380 Nm",
       "weight": "1040 kg",
@@ -4734,6 +4861,7 @@
     "specs": {
       "convertedPower": "732kW/996hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.0s",
       "bhp": "996bhp",
       "torque": "555Nm",
       "weight": "807kg",
@@ -4771,6 +4899,7 @@
     "specs": {
       "convertedPower": "330kW/449hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "449bhp",
       "torque": "332Nm",
       "weight": "640kg",
@@ -4809,6 +4938,7 @@
     "specs": {
       "convertedPower": "330kW/449hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "449bhp",
       "torque": "332Nm",
       "weight": "640kg",
@@ -4847,6 +4977,7 @@
     "specs": {
       "convertedPower": "529kW/720hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.8s",
       "bhp": "720 bhp",
       "torque": "850 Nm",
       "weight": "833 kg",
@@ -4883,6 +5014,7 @@
     "specs": {
       "convertedPower": "173kW/235hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "6.6s",
       "bhp": "235bhp",
       "torque": "349Nm",
       "weight": "1390kg",
@@ -4920,6 +5052,7 @@
     "specs": {
       "convertedPower": "176kW/240hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "6.0s",
       "bhp": "240bhp",
       "torque": "349Nm",
       "weight": "1390kg",
@@ -4956,6 +5089,7 @@
     "specs": {
       "convertedPower": "235kW/320hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.3s",
       "bhp": "320 bhp",
       "torque": "282 Nm",
       "weight": "975 kg",
@@ -4992,6 +5126,7 @@
     "specs": {
       "convertedPower": "235kW/320hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.3s",
       "bhp": "320 bhp",
       "torque": "282 Nm",
       "weight": "975 kg",
@@ -5028,6 +5163,7 @@
     "specs": {
       "convertedPower": "169kW/230hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "230 bhp",
       "torque": "209 Nm",
       "weight": "960 kg",
@@ -5065,6 +5201,7 @@
     "specs": {
       "convertedPower": "279kW/380hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "380 bhp",
       "torque": "351 Nm",
       "weight": "1100 kg",
@@ -5102,6 +5239,7 @@
     "specs": {
       "convertedPower": "163kW/222hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "6.7s",
       "bhp": "222 bhp",
       "torque": "215 Nm",
       "weight": "1263 kg",
@@ -5138,6 +5276,7 @@
     "specs": {
       "convertedPower": "287kW/390hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "390 bhp",
       "torque": "365 Nm",
       "weight": "1120 kg",
@@ -5175,6 +5314,7 @@
     "specs": {
       "convertedPower": "478kW/650hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.0s",
       "bhp": "650 bhp",
       "torque": "628 Nm",
       "weight": "1020 kg",
@@ -5209,6 +5349,7 @@
     "specs": {
       "convertedPower": "176kW/240hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "6.1s",
       "bhp": "240 bhp",
       "torque": "233 Nm",
       "weight": "982 kg",
@@ -5245,6 +5386,7 @@
     "specs": {
       "convertedPower": "180kW/245hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.8s",
       "bhp": "245 bhp",
       "torque": "224 Nm",
       "weight": "1240 kg",
@@ -5282,6 +5424,7 @@
     "specs": {
       "convertedPower": "365kW/497hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.9s",
       "bhp": "497 bhp",
       "torque": "495 Nm",
       "weight": "1157 kg",
@@ -5319,6 +5462,7 @@
     "specs": {
       "convertedPower": "374kW/509hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": null,
       "bhp": "509 bhp",
       "torque": "491 Nm",
       "weight": "1120 kg",
@@ -5356,6 +5500,7 @@
     "specs": {
       "convertedPower": "51kW/70hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "12.8s",
       "bhp": "70 bhp",
       "torque": "66Nm",
       "weight": "750kg",
@@ -5393,6 +5538,7 @@
     "specs": {
       "convertedPower": "74kW/100hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "6.1s",
       "bhp": "100bhp",
       "torque": "80Nm",
       "weight": "660kg",
@@ -5430,6 +5576,7 @@
     "specs": {
       "convertedPower": "443kW/603hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "603 bhp",
       "torque": "485 Nm",
       "weight": "890kg",
@@ -5467,6 +5614,7 @@
     "specs": {
       "convertedPower": "360kW/489hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "489 bhp",
       "torque": "587 Nm",
       "weight": "900kg",
@@ -5504,6 +5652,7 @@
     "specs": {
       "convertedPower": "221kW/300hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.7s",
       "bhp": "300bhp",
       "torque": "400Nm",
       "weight": "795kg",
@@ -5541,6 +5690,7 @@
     "specs": {
       "convertedPower": "551kW/750hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.8s",
       "bhp": "750bhp",
       "torque": "690Nm",
       "weight": "1525kg",
@@ -5578,6 +5728,7 @@
     "specs": {
       "convertedPower": "325kW/442hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.6s",
       "bhp": "442bhp",
       "torque": "500Nm",
       "weight": "1490kg",
@@ -5615,6 +5766,7 @@
     "specs": {
       "convertedPower": "325kW/442hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.6s",
       "bhp": "442bhp",
       "torque": "500Nm",
       "weight": "1490kg",
@@ -5652,6 +5804,7 @@
     "specs": {
       "convertedPower": "437kW/595hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.9s",
       "bhp": "595 bhp",
       "torque": "639 Nm",
       "weight": "1450kg",
@@ -5689,6 +5842,7 @@
     "specs": {
       "convertedPower": "362kW/492hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.1s",
       "bhp": "492bhp",
       "torque": "580Nm",
       "weight": "1625kg",
@@ -5726,6 +5880,7 @@
     "specs": {
       "convertedPower": "419kW/570hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.4s",
       "bhp": "570bhp",
       "torque": "540Nm",
       "weight": "1340kg",
@@ -5763,6 +5918,7 @@
     "specs": {
       "convertedPower": "882kW/1200hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.5s",
       "bhp": "1200bhp",
       "torque": "--Nm",
       "weight": "1390kg",
@@ -5800,6 +5956,7 @@
     "specs": {
       "convertedPower": "441kW/600hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "600bhp",
       "torque": "500+Nm",
       "weight": "1239kg",
@@ -5837,6 +5994,7 @@
     "specs": {
       "convertedPower": "390kW/530hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "530bhp",
       "torque": "500Nm",
       "weight": "1380kg",
@@ -5874,6 +6032,7 @@
     "specs": {
       "convertedPower": "390kW/530hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "530bhp",
       "torque": "500Nm",
       "weight": "1400 kg*",
@@ -5911,6 +6070,7 @@
     "specs": {
       "convertedPower": "471kW/640hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.9s",
       "bhp": "640bhp",
       "torque": "600Nm",
       "weight": "1382kg",
@@ -5948,6 +6108,7 @@
     "specs": {
       "convertedPower": "456kW/620hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "620bhp",
       "torque": "570Nm",
       "weight": "1270kg",
@@ -5985,6 +6146,7 @@
     "specs": {
       "convertedPower": "283kW/385hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "6.5s",
       "bhp": "385bhp",
       "torque": "400Nm",
       "weight": "1245kg",
@@ -6022,6 +6184,7 @@
     "specs": {
       "convertedPower": "464kW/631hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.4s",
       "bhp": "631 bhp",
       "torque": "660 Nm",
       "weight": "1665 kg",
@@ -6059,6 +6222,7 @@
     "specs": {
       "convertedPower": "443kW/603hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "603 bhp",
       "torque": "652 Nm",
       "weight": "1185kg",
@@ -6096,6 +6260,7 @@
     "specs": {
       "convertedPower": "419kW/570hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.5s",
       "bhp": "570bhp",
       "torque": "540Nm",
       "weight": "999kg",
@@ -6133,6 +6298,7 @@
     "specs": {
       "convertedPower": "703kW/956hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": null,
       "bhp": "956 bhp",
       "torque": "1055 Nm",
       "weight": "1724 kg",
@@ -6167,6 +6333,7 @@
     "specs": {
       "convertedPower": "340kW/463hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "463bhp",
       "torque": "529Nm",
       "weight": "1395kg",
@@ -6204,6 +6371,7 @@
     "specs": {
       "convertedPower": "404kW/550hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": null,
       "bhp": "550 bhp",
       "torque": "583 Nm",
       "weight": "1376kg*",
@@ -6241,6 +6409,7 @@
     "specs": {
       "convertedPower": "446kW/606hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "606bhp",
       "torque": "790Nm",
       "weight": "1180kg",
@@ -6278,6 +6447,7 @@
     "specs": {
       "convertedPower": "185kW/252hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.8s",
       "bhp": "252bhp",
       "torque": "242Nm",
       "weight": "670kg",
@@ -6315,6 +6485,7 @@
     "specs": {
       "convertedPower": "199kW/270hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.7s",
       "bhp": "270bhp",
       "torque": "252Nm",
       "weight": "670kg",
@@ -6352,6 +6523,7 @@
     "specs": {
       "convertedPower": "338kW/460hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.9s",
       "bhp": "460bhp",
       "torque": "525Nm",
       "weight": "890kg",
@@ -6389,6 +6561,7 @@
     "specs": {
       "convertedPower": "324kW/440hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "440bhp",
       "torque": "332Nm",
       "weight": "550kg",
@@ -6426,6 +6599,7 @@
     "specs": {
       "convertedPower": "340kW/463hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.0s",
       "bhp": "463bhp",
       "torque": "333Nm",
       "weight": "610kg",
@@ -6462,6 +6636,7 @@
     "specs": {
       "convertedPower": "735kW/1000hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "1000+bhp",
       "torque": "800+Nm",
       "weight": "523kg",
@@ -6499,6 +6674,7 @@
     "specs": {
       "convertedPower": "160kW/217hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.6s",
       "bhp": "217bhp",
       "torque": "242Nm",
       "weight": "929kg",
@@ -6536,6 +6712,7 @@
     "specs": {
       "convertedPower": "160kW/217hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.6s",
       "bhp": "217bhp",
       "torque": "242Nm",
       "weight": "929kg",
@@ -6573,6 +6750,7 @@
     "specs": {
       "convertedPower": "160kW/217hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.6s",
       "bhp": "217bhp",
       "torque": "242Nm",
       "weight": "929kg",
@@ -6610,6 +6788,7 @@
     "specs": {
       "convertedPower": "146kW/198hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.4s",
       "bhp": "198 bhp",
       "torque": "227 Nm",
       "weight": "712 kg",
@@ -6646,6 +6825,7 @@
     "specs": {
       "convertedPower": "331kW/450hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "450bhp",
       "torque": "460Nm",
       "weight": "1205kg",
@@ -6683,6 +6863,7 @@
     "specs": {
       "convertedPower": "309kW/420hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.5s",
       "bhp": "420bhp",
       "torque": "461Nm",
       "weight": "1395kg",
@@ -6720,6 +6901,7 @@
     "specs": {
       "convertedPower": "309kW/420hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.4s",
       "bhp": "420bhp",
       "torque": "461Nm",
       "weight": "1285kg",
@@ -6757,6 +6939,7 @@
     "specs": {
       "convertedPower": "324kW/440hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.5s",
       "bhp": "440bhp",
       "torque": "460Nm",
       "weight": "1395kg",
@@ -6794,6 +6977,7 @@
     "specs": {
       "convertedPower": "254kW/345hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.6s",
       "bhp": "345bhp",
       "torque": "400Nm",
       "weight": "1385kg",
@@ -6831,6 +7015,7 @@
     "specs": {
       "convertedPower": "294kW/400hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.6s",
       "bhp": "400bhp",
       "torque": "420Nm",
       "weight": "1385kg",
@@ -6868,6 +7053,7 @@
     "specs": {
       "convertedPower": "179kW/243hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.0s",
       "bhp": "243bhp",
       "torque": "236Nm",
       "weight": "930kg",
@@ -6905,6 +7091,7 @@
     "specs": {
       "convertedPower": "199kW/270hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.0s",
       "bhp": "270bhp",
       "torque": "270Nm",
       "weight": "900kg",
@@ -6942,6 +7129,7 @@
     "specs": {
       "convertedPower": "254kW/345hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.0s",
       "bhp": "345bhp",
       "torque": "400Nm",
       "weight": "1176kg",
@@ -6979,6 +7167,7 @@
     "specs": {
       "convertedPower": "254kW/345hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.0s",
       "bhp": "345bhp",
       "torque": "400Nm",
       "weight": "1166kg",
@@ -7016,6 +7205,7 @@
     "specs": {
       "convertedPower": "189kW/257hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.1s",
       "bhp": "257bhp",
       "torque": "243Nm",
       "weight": "925kg",
@@ -7053,6 +7243,7 @@
     "specs": {
       "convertedPower": "254kW/345hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.0s",
       "bhp": "345bhp",
       "torque": "400Nm",
       "weight": "1080kg",
@@ -7090,6 +7281,7 @@
     "specs": {
       "convertedPower": "471kW/640hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "640bhp",
       "torque": "450Nm",
       "weight": "660kg",
@@ -7127,6 +7319,7 @@
     "specs": {
       "convertedPower": "551kW/750hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "750bhp",
       "torque": "--Nm",
       "weight": "660kg",
@@ -7164,6 +7357,7 @@
     "specs": {
       "convertedPower": "143kW/195hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "195bhp",
       "torque": "160Nm",
       "weight": "451kg",
@@ -7201,6 +7395,7 @@
     "specs": {
       "convertedPower": "301kW/410hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "410bhp",
       "torque": "350Nm",
       "weight": "575kg",
@@ -7238,6 +7433,7 @@
     "specs": {
       "convertedPower": "228kW/310hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "310bhp",
       "torque": "--Nm",
       "weight": "670kg",
@@ -7275,6 +7471,7 @@
     "specs": {
       "convertedPower": "199kW/270hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "270bhp",
       "torque": "--Nm",
       "weight": "670kg",
@@ -7312,6 +7509,7 @@
     "specs": {
       "convertedPower": "338kW/460hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "460bhp",
       "torque": "520Nm",
       "weight": "1496kg",
@@ -7349,6 +7547,7 @@
     "specs": {
       "convertedPower": "316kW/430hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "430bhp",
       "torque": "535Nm",
       "weight": "1410kg",
@@ -7386,6 +7585,7 @@
     "specs": {
       "convertedPower": "312kW/424hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.0s",
       "bhp": "424bhp",
       "torque": "580Nm",
       "weight": "2108kg",
@@ -7422,6 +7622,7 @@
     "specs": {
       "convertedPower": "426kW/580hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "580bhp",
       "torque": "650Nm",
       "weight": "1100kg",
@@ -7459,6 +7660,7 @@
     "specs": {
       "convertedPower": "390kW/530hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.7s",
       "bhp": "530bhp",
       "torque": "710Nm",
       "weight": "1900kg",
@@ -7496,6 +7698,7 @@
     "specs": {
       "convertedPower": "507kW/690hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "690bhp",
       "torque": "608Nm",
       "weight": "845kg",
@@ -7532,6 +7735,7 @@
     "specs": {
       "convertedPower": "96kW/130hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "8.8s",
       "bhp": "130bhp",
       "torque": "152Nm",
       "weight": "1040kg",
@@ -7569,6 +7773,7 @@
     "specs": {
       "convertedPower": "118kW/160hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "160bhp",
       "torque": "200Nm",
       "weight": "908kg",
@@ -7606,6 +7811,7 @@
     "specs": {
       "convertedPower": "118kW/160hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "7.3s",
       "bhp": "160bhp",
       "torque": "200Nm",
       "weight": "1058kg",
@@ -7643,6 +7849,7 @@
     "specs": {
       "convertedPower": "386kW/525hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.4s",
       "bhp": "525 bhp",
       "torque": "526 Nm",
       "weight": "1250kg",
@@ -7680,6 +7887,7 @@
     "specs": {
       "convertedPower": "246kW/334hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.7s",
       "bhp": "334 bhp",
       "torque": "380 Nm",
       "weight": "1200kg",
@@ -7717,6 +7925,7 @@
     "specs": {
       "convertedPower": "156kW/212hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "6.4s",
       "bhp": "212 bhp",
       "torque": "275 Nm",
       "weight": "1230 kg",
@@ -7751,6 +7960,7 @@
     "specs": {
       "convertedPower": "203kW/276hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.3s",
       "bhp": "276bhp",
       "torque": "314Nm",
       "weight": "1270kg",
@@ -7788,6 +7998,7 @@
     "specs": {
       "convertedPower": "326kW/444hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "444bhp",
       "torque": "398Nm",
       "weight": "1312kg",
@@ -7825,6 +8036,7 @@
     "specs": {
       "convertedPower": "413kW/562hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.2s",
       "bhp": "562bhp",
       "torque": "600Nm",
       "weight": "1313kg",
@@ -7862,6 +8074,7 @@
     "specs": {
       "convertedPower": "368kW/500hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "500bhp",
       "torque": "500Nm",
       "weight": "1240kg",
@@ -7899,6 +8112,7 @@
     "specs": {
       "convertedPower": "437kW/595hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "595bhp",
       "torque": "693Nm",
       "weight": "1010kg",
@@ -7936,6 +8150,7 @@
     "specs": {
       "convertedPower": "453kW/616hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.2s",
       "bhp": "616bhp",
       "torque": "600Nm",
       "weight": "1434kg",
@@ -7973,6 +8188,7 @@
     "specs": {
       "convertedPower": "368kW/500hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "500bhp",
       "torque": "500Nm",
       "weight": "1245kg",
@@ -8010,6 +8226,7 @@
     "specs": {
       "convertedPower": "664kW/903hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.8s",
       "bhp": "903bhp",
       "torque": "900Nm",
       "weight": "1450kg",
@@ -8047,6 +8264,7 @@
     "specs": {
       "convertedPower": "725kW/986hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.4s",
       "bhp": "986bhp",
       "torque": "1000+Nm",
       "weight": "1400kg",
@@ -8084,6 +8302,7 @@
     "specs": {
       "convertedPower": "420kW/571hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.8s",
       "bhp": "571bhp",
       "torque": "650Nm",
       "weight": "1620kg",
@@ -8121,6 +8340,7 @@
     "specs": {
       "convertedPower": "382kW/520hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "520bhp",
       "torque": "600Nm",
       "weight": "1265kg",
@@ -8158,6 +8378,7 @@
     "specs": {
       "convertedPower": "368kW/500hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "500bhp",
       "torque": "610Nm",
       "weight": "1390kg",
@@ -8195,6 +8416,7 @@
     "specs": {
       "convertedPower": "272kW/370hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "370+bhp",
       "torque": "310Nm",
       "weight": "980kg",
@@ -8232,6 +8454,7 @@
     "specs": {
       "convertedPower": "382kW/520hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "520bhp",
       "torque": "600Nm",
       "weight": "1265kg",
@@ -8269,6 +8492,7 @@
     "specs": {
       "convertedPower": "551kW/750hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "750+bhp",
       "torque": "500Nm",
       "weight": "905kg",
@@ -8306,6 +8530,7 @@
     "specs": {
       "convertedPower": "434kW/590hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": null,
       "bhp": "590 bhp",
       "torque": "700 Nm",
       "weight": "1000 kg",
@@ -8343,6 +8568,7 @@
     "specs": {
       "convertedPower": "441kW/600hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.7s",
       "bhp": "600 bhp",
       "torque": "684 Nm",
       "weight": "921 kg",
@@ -8380,6 +8606,7 @@
     "specs": {
       "convertedPower": "203kW/276hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.4s",
       "bhp": "276 bhp",
       "torque": "357 Nm",
       "weight": "1350 kg",
@@ -8416,6 +8643,7 @@
     "specs": {
       "convertedPower": "473kW/643hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.6s",
       "bhp": "643 bhp",
       "torque": "812 Nm",
       "weight": "1415 kg",
@@ -8450,6 +8678,7 @@
     "specs": {
       "convertedPower": "394kW/536hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.5s",
       "bhp": "536 bhp",
       "torque": "651 Nm",
       "weight": "1250 kg",
@@ -8486,6 +8715,7 @@
     "specs": {
       "convertedPower": "203kW/276hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.8s",
       "bhp": "276 bhp",
       "torque": "374Nm",
       "weight": "1455kg",
@@ -8523,6 +8753,7 @@
     "specs": {
       "convertedPower": "204kW/277hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.7s",
       "bhp": "277 bhp",
       "torque": "258 Nm",
       "weight": "970 kg",
@@ -8559,6 +8790,7 @@
     "specs": {
       "convertedPower": "544kW/740hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "740bhp",
       "torque": "658Nm",
       "weight": "1505kg",
@@ -8596,6 +8828,7 @@
     "specs": {
       "convertedPower": "257kW/350hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.0s",
       "bhp": "350bhp",
       "torque": "374Nm",
       "weight": "1498kg",
@@ -8633,6 +8866,7 @@
     "specs": {
       "convertedPower": "435kW/592hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.5s",
       "bhp": "592 bhp",
       "torque": "628 Nm",
       "weight": "1100 kg",
@@ -8670,6 +8904,7 @@
     "specs": {
       "convertedPower": "441kW/600hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "600bhp",
       "torque": "700Nm",
       "weight": "1300kg",
@@ -8707,6 +8942,7 @@
     "specs": {
       "convertedPower": "435kW/592hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.1s",
       "bhp": "592bhp",
       "torque": "652Nm",
       "weight": "1750kg",
@@ -8744,6 +8980,7 @@
     "specs": {
       "convertedPower": "481kW/654hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.0s",
       "bhp": "654 bhp",
       "torque": "630 Nm",
       "weight": "1020 kg",
@@ -8778,6 +9015,7 @@
     "specs": {
       "convertedPower": "437kW/595hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "595bhp",
       "torque": "652Nm",
       "weight": "1070kg",
@@ -8815,6 +9053,7 @@
     "specs": {
       "convertedPower": "160kW/217hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "7.0s",
       "bhp": "217 bhp",
       "torque": "286 Nm",
       "weight": "1250 kg",
@@ -8851,6 +9090,7 @@
     "specs": {
       "convertedPower": "165kW/225hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "6.9s",
       "bhp": "225 bhp",
       "torque": "300 Nm",
       "weight": "1240 kg",
@@ -8887,6 +9127,7 @@
     "specs": {
       "convertedPower": "368kW/500hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.5s",
       "bhp": "500 bhp",
       "torque": "539 Nm",
       "weight": "1050 kg",
@@ -8924,6 +9165,7 @@
     "specs": {
       "convertedPower": "181kW/246hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.9s",
       "bhp": "246 bhp",
       "torque": "310 Nm",
       "weight": "1240 kg",
@@ -8961,6 +9203,7 @@
     "specs": {
       "convertedPower": "499kW/678hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.3s",
       "bhp": "678bhp",
       "torque": "740Nm",
       "weight": "1560kg",
@@ -8998,6 +9241,7 @@
     "specs": {
       "convertedPower": "672kW/914hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.3s",
       "bhp": "914 bhp",
       "torque": "924 Nm",
       "weight": "1560kg",
@@ -9035,6 +9279,7 @@
     "specs": {
       "convertedPower": "600kW/816hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.9s",
       "bhp": "816 bhp",
       "torque": "823 Nm",
       "weight": "1560kg",
@@ -9072,6 +9317,7 @@
     "specs": {
       "convertedPower": "231kW/314hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.1s",
       "bhp": "314 bhp",
       "torque": "368 Nm",
       "weight": "1500 kg",
@@ -9108,6 +9354,7 @@
     "specs": {
       "convertedPower": "239kW/325hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.9s",
       "bhp": "325bhp",
       "torque": "392Nm",
       "weight": "1560kg",
@@ -9145,6 +9392,7 @@
     "specs": {
       "convertedPower": "239kW/325hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.9s",
       "bhp": "325bhp",
       "torque": "392Nm",
       "weight": "1560kg",
@@ -9182,6 +9430,7 @@
     "specs": {
       "convertedPower": "449kW/610hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.2s",
       "bhp": "610 bhp",
       "torque": "765 Nm",
       "weight": "1208 kg",
@@ -9218,6 +9467,7 @@
     "specs": {
       "convertedPower": "481kW/654hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.0s",
       "bhp": "654 bhp",
       "torque": "630 Nm",
       "weight": "1020 kg",
@@ -9254,6 +9504,7 @@
     "specs": {
       "convertedPower": "449kW/610hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "610 bhp",
       "torque": "465 Nm",
       "weight": "950 kg",
@@ -9291,6 +9542,7 @@
     "specs": {
       "convertedPower": "229kW/311hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.0s",
       "bhp": "311 bhp",
       "torque": "276 Nm",
       "weight": "975 kg",
@@ -9327,6 +9579,7 @@
     "specs": {
       "convertedPower": "229kW/311hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.0s",
       "bhp": "311 bhp",
       "torque": "276 Nm",
       "weight": "975 kg",
@@ -9363,6 +9616,7 @@
     "specs": {
       "convertedPower": "412kW/560hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.8s",
       "bhp": "560 bhp",
       "torque": "513 Nm",
       "weight": "950 kg",
@@ -9400,6 +9654,7 @@
     "specs": {
       "convertedPower": "374kW/509hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": null,
       "bhp": "509 bhp",
       "torque": "636 Nm",
       "weight": "910kg",
@@ -9437,6 +9692,7 @@
     "specs": {
       "convertedPower": "331kW/450hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.9s",
       "bhp": "450bhp",
       "torque": "500Nm",
       "weight": "1230kg",
@@ -9474,6 +9730,7 @@
     "specs": {
       "convertedPower": "537kW/730hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.7s",
       "bhp": "730bhp",
       "torque": "1000Nm",
       "weight": "1360kg",
@@ -9511,6 +9768,7 @@
     "specs": {
       "convertedPower": "544kW/740hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "740bhp",
       "torque": "1100Nm",
       "weight": "1218kg",
@@ -9548,6 +9806,7 @@
     "specs": {
       "convertedPower": "551kW/750hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.7s",
       "bhp": "750bhp",
       "torque": "710Nm",
       "weight": "1070kg",
@@ -9585,6 +9844,7 @@
     "specs": {
       "convertedPower": "446kW/607hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.5s",
       "bhp": "607 bhp",
       "torque": "650 NM",
       "weight": "910 kg",
@@ -9621,6 +9881,7 @@
     "specs": {
       "convertedPower": "231kW/314hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.0s",
       "bhp": "314 bhp",
       "torque": "269 Nm",
       "weight": "975 kg",
@@ -9657,6 +9918,7 @@
     "specs": {
       "convertedPower": "231kW/314hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.0s",
       "bhp": "314 bhp",
       "torque": "269 Nm",
       "weight": "975 kg",
@@ -9693,6 +9955,7 @@
     "specs": {
       "convertedPower": "512kW/697hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.7s",
       "bhp": "697 bhp",
       "torque": "655 Nm",
       "weight": "1030kg",
@@ -9729,6 +9992,7 @@
     "specs": {
       "convertedPower": "512kW/697hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.7s",
       "bhp": "697 bhp",
       "torque": "655 Nm",
       "weight": "1030kg",
@@ -9765,6 +10029,7 @@
     "specs": {
       "convertedPower": "257kW/350hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.6s",
       "bhp": "350bhp",
       "torque": "420Nm",
       "weight": "1355kg",
@@ -9802,6 +10067,7 @@
     "specs": {
       "convertedPower": "257kW/350hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.2s",
       "bhp": "350bhp",
       "torque": "420Nm",
       "weight": "1385kg",
@@ -9839,6 +10105,7 @@
     "specs": {
       "convertedPower": "257kW/350hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.7s",
       "bhp": "350bhp",
       "torque": "420Nm",
       "weight": "1355kg",
@@ -9876,6 +10143,7 @@
     "specs": {
       "convertedPower": "110kW/150hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "150bhp",
       "torque": "148Nm",
       "weight": "580kg",
@@ -9913,6 +10181,7 @@
     "specs": {
       "convertedPower": "257kW/350hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "350bhp",
       "torque": "320Nm",
       "weight": "680kg",
@@ -9950,6 +10219,7 @@
     "specs": {
       "convertedPower": "204kW/278hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.3s",
       "bhp": "278 bhp",
       "torque": "349 Nm",
       "weight": "1390 kg",
@@ -9986,6 +10256,7 @@
     "specs": {
       "convertedPower": "204kW/278hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.2s",
       "bhp": "278 bhp",
       "torque": "349 Nm",
       "weight": "1427 kg",
@@ -10022,6 +10293,7 @@
     "specs": {
       "convertedPower": "296kW/403hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.8s",
       "bhp": "403 bhp",
       "torque": "542 Nm",
       "weight": "1502 kg",
@@ -10058,6 +10330,7 @@
     "specs": {
       "convertedPower": "360kW/490hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.4s",
       "bhp": "490 bhp",
       "torque": "648 Nm",
       "weight": "1448 kg",
@@ -10094,11 +10367,12 @@
     "specs": {
       "convertedPower": "221kW/300hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "300bhp",
       "torque": "355Nm",
       "weight": "1254kg",
-      "topspeed": "- km/h",
-      "acceleration": "- s 0–100",
+      "topspeed": "",
+      "acceleration": "",
       "pwratio": "4.18kg/hp"
     },
     "tags": [
@@ -10131,11 +10405,12 @@
     "specs": {
       "convertedPower": "287kW/390hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "390bhp",
       "torque": "427Nm",
       "weight": "1254kg",
-      "topspeed": "- km/h",
-      "acceleration": "- s 0–100",
+      "topspeed": "",
+      "acceleration": "",
       "pwratio": "3.22kg/hp"
     },
     "tags": [
@@ -10168,11 +10443,12 @@
     "specs": {
       "convertedPower": "287kW/390hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "390bhp",
       "torque": "427Nm",
       "weight": "1284kg",
-      "topspeed": "- km/h",
-      "acceleration": "- s 0–100",
+      "topspeed": "",
+      "acceleration": "",
       "pwratio": "3.29kg/hp"
     },
     "tags": [
@@ -10205,6 +10481,7 @@
     "specs": {
       "convertedPower": "243kW/330hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "330bhp",
       "torque": "--Nm",
       "weight": "850kg",
@@ -10242,6 +10519,7 @@
     "specs": {
       "convertedPower": "309kW/420hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.9s",
       "bhp": "420bhp",
       "torque": "500Nm",
       "weight": "1515kg",
@@ -10279,6 +10557,7 @@
     "specs": {
       "convertedPower": "351kW/477hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "477 bhp",
       "torque": "484 Nm",
       "weight": "1190kg",
@@ -10316,6 +10595,7 @@
     "specs": {
       "convertedPower": "400kW/544hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": null,
       "bhp": "544 bhp",
       "torque": "595 Nm",
       "weight": "1040 kg",
@@ -10353,6 +10633,7 @@
     "specs": {
       "convertedPower": "441kW/600hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "600bhp",
       "torque": "--Nm",
       "weight": "950kg",
@@ -10390,6 +10671,7 @@
     "specs": {
       "convertedPower": "357kW/485hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "485bhp",
       "torque": "--Nm",
       "weight": "1220kg",
@@ -10427,6 +10709,7 @@
     "specs": {
       "convertedPower": "368kW/500hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "500bhp",
       "torque": "--Nm",
       "weight": "1245kg",
@@ -10464,6 +10747,7 @@
     "specs": {
       "convertedPower": "368kW/500hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.1s",
       "bhp": "500bhp",
       "torque": "460Nm",
       "weight": "1420kg",
@@ -10501,6 +10785,7 @@
     "specs": {
       "convertedPower": "368kW/500hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.8s",
       "bhp": "500bhp",
       "torque": "460Nm",
       "weight": "1370kg",
@@ -10538,6 +10823,7 @@
     "specs": {
       "convertedPower": "375kW/510hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "510bhp",
       "torque": "--Nm",
       "weight": "1245kg",
@@ -10575,6 +10861,7 @@
     "specs": {
       "convertedPower": "334kW/454hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "454 bhp",
       "torque": "566 Nm",
       "weight": "1199kg",
@@ -10612,6 +10899,7 @@
     "specs": {
       "convertedPower": "426kW/580hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.9s",
       "bhp": "580bhp",
       "torque": "750Nm",
       "weight": "1600kg",
@@ -10649,6 +10937,7 @@
     "specs": {
       "convertedPower": "441kW/600hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "600bhp",
       "torque": "--Nm",
       "weight": "820kg",
@@ -10686,6 +10975,7 @@
     "specs": {
       "convertedPower": "882kW/1200hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.4s",
       "bhp": "1200bhp",
       "torque": "1200Nm",
       "weight": "800kg",
@@ -10722,6 +11012,7 @@
     "specs": {
       "convertedPower": "652kW/887hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.6s",
       "bhp": "887bhp",
       "torque": "1275Nm",
       "weight": "1640kg",
@@ -10759,6 +11050,7 @@
     "specs": {
       "convertedPower": "662kW/900hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.2s",
       "bhp": "900bhp",
       "torque": "--Nm",
       "weight": "875kg",
@@ -10796,6 +11088,7 @@
     "specs": {
       "convertedPower": "662kW/900hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.2s",
       "bhp": "900bhp",
       "torque": "--Nm",
       "weight": "875kg",
@@ -10833,6 +11126,7 @@
     "specs": {
       "convertedPower": "527kW/717hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "717bhp",
       "torque": "690Nm",
       "weight": "919kg",
@@ -10870,6 +11164,7 @@
     "specs": {
       "convertedPower": "621kW/845hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.6s",
       "bhp": "845bhp",
       "torque": "784Nm",
       "weight": "1025kg",
@@ -10906,6 +11201,7 @@
     "specs": {
       "convertedPower": "478kW/650hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "650bhp",
       "torque": "---Nm",
       "weight": "825kg",
@@ -10943,6 +11239,7 @@
     "specs": {
       "convertedPower": "460kW/625hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "625bhp",
       "torque": "---Nm",
       "weight": "850kg",
@@ -10980,6 +11277,7 @@
     "specs": {
       "convertedPower": "460kW/625hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "625bhp",
       "torque": "625Nm",
       "weight": "1118kg",
@@ -11017,6 +11315,7 @@
     "specs": {
       "convertedPower": "404kW/550hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.8s",
       "bhp": "550 bhp",
       "torque": "494 Nm",
       "weight": "1240kg",
@@ -11054,6 +11353,7 @@
     "specs": {
       "convertedPower": "335kW/455hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "455bhp",
       "torque": "410Nm",
       "weight": "1190kg",
@@ -11091,6 +11391,7 @@
     "specs": {
       "convertedPower": "419kW/570hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.1s",
       "bhp": "570bhp",
       "torque": "800Nm",
       "weight": "2235kg",
@@ -11127,6 +11428,7 @@
     "specs": {
       "convertedPower": "283kW/385hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.4s",
       "bhp": "385bhp",
       "torque": "420Nm",
       "weight": "1340kg",
@@ -11164,6 +11466,7 @@
     "specs": {
       "convertedPower": "283kW/385hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "385bhp",
       "torque": "420Nm",
       "weight": "1300kg",
@@ -11201,6 +11504,7 @@
     "specs": {
       "convertedPower": "294kW/400hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.8s",
       "bhp": "400bhp",
       "torque": "550Nm",
       "weight": "1925kg",
@@ -11238,6 +11542,7 @@
     "specs": {
       "convertedPower": "404kW/550hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.6s",
       "bhp": "550bhp",
       "torque": "770Nm",
       "weight": "2070kg",
@@ -11275,6 +11580,7 @@
     "specs": {
       "convertedPower": "154kW/210hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "210bhp",
       "torque": "220Nm",
       "weight": "585kg",
@@ -11312,6 +11618,7 @@
     "specs": {
       "convertedPower": "312kW/425hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.5s",
       "bhp": "425 bhp",
       "torque": "515 Nm",
       "weight": "725kg",
@@ -11349,6 +11656,7 @@
     "specs": {
       "convertedPower": "171kW/232hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.2s",
       "bhp": "232 bhp",
       "torque": "186 Nm",
       "weight": "662 kg",
@@ -11386,6 +11694,7 @@
     "specs": {
       "convertedPower": "338kW/460hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.4s",
       "bhp": "460 bhp",
       "torque": "532 Nm",
       "weight": "1060 kg",
@@ -11420,6 +11729,7 @@
     "specs": {
       "convertedPower": "510kW/693hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.0s",
       "bhp": "693bhp",
       "torque": "720Nm",
       "weight": "833kg",
@@ -11456,6 +11766,7 @@
     "specs": {
       "convertedPower": "235kW/320hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.0s",
       "bhp": "320 bhp",
       "torque": "273Nm",
       "weight": "975kg",
@@ -11492,6 +11803,7 @@
     "specs": {
       "convertedPower": "235kW/320hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.0s",
       "bhp": "320 bhp",
       "torque": "273Nm",
       "weight": "975kg",
@@ -11528,6 +11840,7 @@
     "specs": {
       "convertedPower": "345kW/469hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.0s",
       "bhp": "469bhp",
       "torque": "553Nm",
       "weight": "1147kg",
@@ -11565,6 +11878,7 @@
     "specs": {
       "convertedPower": "537kW/730hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "730bhp",
       "torque": "940Nm",
       "weight": "1,495kg",
@@ -11601,6 +11915,7 @@
     "specs": {
       "convertedPower": "537kW/730hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "730bhp",
       "torque": "940Nm",
       "weight": "1,495kg",
@@ -11638,6 +11953,7 @@
     "specs": {
       "convertedPower": "109kW/148hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.8s",
       "bhp": "148 bhp",
       "torque": "102 Nm",
       "weight": "420 kg",
@@ -11675,6 +11991,7 @@
     "specs": {
       "convertedPower": "454kW/618hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "618 bhp",
       "torque": "732 Nm",
       "weight": "1165kg",
@@ -11712,6 +12029,7 @@
     "specs": {
       "convertedPower": "390kW/530hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "530bhp",
       "torque": "700Nm",
       "weight": "1350kg",
@@ -11749,6 +12067,7 @@
     "specs": {
       "convertedPower": "368kW/500hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.3s",
       "bhp": "500bhp",
       "torque": "626Nm",
       "weight": "1110kg",
@@ -11786,6 +12105,7 @@
     "specs": {
       "convertedPower": "346kW/470hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.0s",
       "bhp": "470 bhp",
       "torque": "",
       "weight": "771 kg",
@@ -11820,6 +12140,7 @@
     "specs": {
       "convertedPower": "346kW/470hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.0s",
       "bhp": "470 bhp",
       "torque": "",
       "weight": "771 kg",
@@ -11854,6 +12175,7 @@
     "specs": {
       "convertedPower": "212kW/289hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.6s",
       "bhp": "289 bhp",
       "torque": "381 Nm",
       "weight": "1270 kg",
@@ -11891,6 +12213,7 @@
     "specs": {
       "convertedPower": "343kW/467hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.5s",
       "bhp": "467 bhp",
       "torque": "693 Nm",
       "weight": "1383 kg",
@@ -11928,6 +12251,7 @@
     "specs": {
       "convertedPower": "146kW/198hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "198bhp",
       "torque": "230Nm",
       "weight": "455kg",
@@ -11965,6 +12289,7 @@
     "specs": {
       "convertedPower": "588kW/800hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.5s",
       "bhp": "800 bhp",
       "torque": "950 Nm",
       "weight": "1670 kg",
@@ -12002,6 +12327,7 @@
     "specs": {
       "convertedPower": "90kW/122hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "9.2s",
       "bhp": "122bhp",
       "torque": "142Nm",
       "weight": "925kg",
@@ -12039,6 +12365,7 @@
     "specs": {
       "convertedPower": "120kW/163hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "9.2s",
       "bhp": "163 bhp",
       "torque": "171 Nm",
       "weight": "880 kg",
@@ -12076,6 +12403,7 @@
     "specs": {
       "convertedPower": "136kW/185hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "185bhp",
       "torque": "206Nm",
       "weight": "920kg",
@@ -12113,6 +12441,7 @@
     "specs": {
       "convertedPower": "147kW/200hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "200bhp",
       "torque": "206Nm",
       "weight": "900kg",
@@ -12150,6 +12479,7 @@
     "specs": {
       "convertedPower": "217kW/295hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "295bhp",
       "torque": "459Nm",
       "weight": "1045kg",
@@ -12187,6 +12517,7 @@
     "specs": {
       "convertedPower": "488kW/664hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.0s",
       "bhp": "664 bhp",
       "torque": "633 Nm",
       "weight": "1020 kg",
@@ -12221,6 +12552,7 @@
     "specs": {
       "convertedPower": "444kW/604hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "604bhp",
       "torque": "650Nm",
       "weight": "990kg",
@@ -12257,6 +12589,7 @@
     "specs": {
       "convertedPower": "147kW/200hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "7.6s",
       "bhp": "200bhp",
       "torque": "205Nm",
       "weight": "1250kg",
@@ -12294,6 +12627,7 @@
     "specs": {
       "convertedPower": "141kW/192hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.8s",
       "bhp": "192 bhp",
       "torque": "190 Nm",
       "weight": "918 kg",
@@ -12330,6 +12664,7 @@
     "specs": {
       "convertedPower": "178kW/242hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.6s",
       "bhp": "242 bhp",
       "torque": "302 Nm",
       "weight": "1270 kg",
@@ -12366,6 +12701,7 @@
     "specs": {
       "convertedPower": "426kW/580hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.0s",
       "bhp": "580 bhp",
       "torque": "618 Nm",
       "weight": "1230 kg",
@@ -12402,6 +12738,7 @@
     "specs": {
       "convertedPower": "196kW/267hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "6.3s",
       "bhp": "267 bhp",
       "torque": "358 Nm",
       "weight": "1540 kg",
@@ -12438,6 +12775,7 @@
     "specs": {
       "convertedPower": "516kW/702hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.9s",
       "bhp": "702 bhp",
       "torque": "755 Nm",
       "weight": "1525 kg",
@@ -12475,6 +12813,7 @@
     "specs": {
       "convertedPower": "206kW/280hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.0s",
       "bhp": "280bhp",
       "torque": "458Nm",
       "weight": "1510kg",
@@ -12512,6 +12851,7 @@
     "specs": {
       "convertedPower": "206kW/280hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "5.0s",
       "bhp": "280bhp",
       "torque": "458Nm",
       "weight": "1510kg",
@@ -12549,6 +12889,7 @@
     "specs": {
       "convertedPower": "459kW/624hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "624bhp",
       "torque": "756Nm",
       "weight": "1505kg",
@@ -12584,14 +12925,15 @@
     "folderName": "sl_toyota_supra_mkiv_ridox",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\sl_toyota_supra_mkiv_ridox",
     "specs": {
-      "convertedPower": "494л.с.",
+      "convertedPower": "363kW/494hp",
       "isManufacturerData": false,
-      "bhp": "494л.с.",
-      "torque": "610Нм",
-      "weight": "1470кг",
-      "topspeed": "",
-      "acceleration": "",
-      "pwratio": "2.98кг/л.с."
+      "normalizedAcceleration": null,
+      "bhp": "494bhp",
+      "torque": "610nm",
+      "weight": "1470kg",
+      "topspeed": null,
+      "acceleration": null,
+      "pwratio": "2.98 kg/hp"
     },
     "tags": [
       "#- manual",
@@ -12623,6 +12965,7 @@
     "specs": {
       "convertedPower": "507kW/690hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "690bhp",
       "torque": "756Nm",
       "weight": "1505kg",
@@ -12660,6 +13003,7 @@
     "specs": {
       "convertedPower": "735kW/1000hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "-",
       "bhp": "1000bhp",
       "torque": "--Nm",
       "weight": "--kg",
@@ -12697,6 +13041,7 @@
     "specs": {
       "convertedPower": "759kW/1032hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "1.7s",
       "bhp": "1032 bhp",
       "torque": "",
       "weight": "878kg",
@@ -12733,6 +13078,7 @@
     "specs": {
       "convertedPower": "357kW/486hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "4.1s",
       "bhp": "486 bhp",
       "torque": "643 Nm",
       "weight": "1103 Kg",
@@ -12769,6 +13115,7 @@
     "specs": {
       "convertedPower": "744kW/1012hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.6s",
       "bhp": "1012 bhp",
       "torque": "571 Nm",
       "weight": "722kg",
@@ -12806,6 +13153,7 @@
     "specs": {
       "convertedPower": "744kW/1012hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "2.6s",
       "bhp": "1012 bhp",
       "torque": "571 Nm",
       "weight": "722kg",
@@ -12843,6 +13191,7 @@
     "specs": {
       "convertedPower": "882kW/1200hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "3.0s",
       "bhp": "1200bhp",
       "torque": "778Nm",
       "weight": "610kg",
@@ -12880,6 +13229,7 @@
     "specs": {
       "convertedPower": "67kW/91hp",
       "isManufacturerData": false,
+      "normalizedAcceleration": "20.9s",
       "bhp": "91 bhp",
       "torque": "130 Nm",
       "weight": "800kg",

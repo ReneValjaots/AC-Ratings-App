@@ -1,19 +1,19 @@
 ﻿using System.Text.RegularExpressions;
 
 namespace Ac.Ratings.Services {
-    public class DataConverter {
+    public class PowerConverter {
         private readonly string _powerValue;
         public string ConvertedPower { get; private set; }
         public bool IsManufacturerData { get; private set; }
 
-        public DataConverter(string powerValue) {
+        public PowerConverter(string powerValue) {
             _powerValue = powerValue.Replace(" ", "").ToLower();
-            IsManufacturerData = !RequiresConversion(_powerValue);
+            IsManufacturerData = IsExpectedPowerFormat(_powerValue);
             ConvertedPower = IsManufacturerData ? powerValue : ConvertPowerString(_powerValue);
         }
 
-        private bool RequiresConversion(string powerValue) {
-            return !Regex.IsMatch(powerValue, @"^\d+kw/\d+hp$");
+        private bool IsExpectedPowerFormat(string powerValue) {
+            return Regex.IsMatch(powerValue, @"^\d+kw/\d+hp$") || Regex.IsMatch(powerValue, @"^\d+kw$");
         }
 
         private string ConvertPowerString(string powerValue) {

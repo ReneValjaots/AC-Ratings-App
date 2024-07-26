@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "185kW/252hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "3.8s",
     "bhp": "252bhp",
     "torque": "242Nm",
     "weight": "670kg",

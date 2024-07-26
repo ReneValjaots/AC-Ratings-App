@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "735kW/1000hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
     "bhp": "1000bhp",
     "torque": "--Nm",
     "weight": "--kg",

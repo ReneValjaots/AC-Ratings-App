@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "279kW/380hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "3.0s",
     "bhp": "380bhp",
     "torque": "385Nm",
     "weight": "690kg",

@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "245kW/333hp",
     "isManufacturerData": true,
+    "normalizedAcceleration": "-",
     "bhp": "245kW/333hp",
     "torque": "500Nm",
     "weight": "1424kg",
@@ -18,7 +19,7 @@
   "tags": [
     "#+ rwd",
     "#- semiautomatic",
-    "#! 3.0L & I6 & M TwinPower Turbo"
+    "#! 3.0L & I6"
   ],
   "data": {
     "tractionType": "RWD",

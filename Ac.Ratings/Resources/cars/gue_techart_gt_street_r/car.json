@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "588kW/800hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "2.5s",
     "bhp": "800 bhp",
     "torque": "950 Nm",
     "weight": "1670 kg",

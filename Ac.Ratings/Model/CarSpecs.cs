@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Text;
 
 namespace Ac.Ratings.Model {
     public class CarSpecs : INotifyPropertyChanged {
@@ -13,6 +14,7 @@ namespace Ac.Ratings.Model {
         private string? _pwratio;
         private string? _convertedPower;
         private bool _isManufacturerData;
+        private string? _normalizedAcceleration;
 
         [JsonProperty("convertedPower")] public string? ConvertedPower {
             get => _convertedPower;
@@ -23,12 +25,17 @@ namespace Ac.Ratings.Model {
             internal set => SetField(ref _isManufacturerData, value);
         }
 
+        [JsonProperty("normalizedAcceleration")] public string? NormalizedAcceleration {
+            get => _normalizedAcceleration;
+            private set => SetField(ref _normalizedAcceleration, value);
+        }
+
         [JsonProperty("bhp")] public string? Bhp {
             get => _bhp;
             set {
                 if (SetField(ref _bhp, value)) {
                     if (value != null) {
-                        var converter = new DataConverter(value);
+                        var converter = new PowerConverter(value);
                         ConvertedPower = converter.ConvertedPower;
                         IsManufacturerData = converter.IsManufacturerData;
                     }
@@ -53,7 +60,14 @@ namespace Ac.Ratings.Model {
 
         [JsonProperty("acceleration")] public string? Acceleration {
             get => _acceleration;
-            set => SetField(ref _acceleration, value);
+            set {
+                if (SetField(ref _acceleration, value)) {
+                    if (value != null) {
+                        var converter = new AccelerationConverter(value, GetCarData());
+                        NormalizedAcceleration = converter.ConvertedAcceleration;
+                    }
+                }
+            }
         }
 
         [JsonProperty("pwratio")] public string? Pwratio {
@@ -72,6 +86,17 @@ namespace Ac.Ratings.Model {
 
         protected void OnPropertyChanged(string? propertyName) {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        private string GetCarData() {
+            var sb = new StringBuilder();
+            sb.AppendLine($"\"bhp\": \"{Bhp}\",");
+            sb.AppendLine($"\"torque\": \"{Torque}\",");
+            sb.AppendLine($"\"weight\": \"{Weight}\",");
+            sb.AppendLine($"\"topspeed\": \"{Topspeed}\",");
+            sb.AppendLine($"\"acceleration\": \"{Acceleration}\",");
+            sb.AppendLine($"\"pwratio\": \"{Pwratio}\"");
+            return sb.ToString();
         }
     }
 }

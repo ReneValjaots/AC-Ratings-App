@@ -45,7 +45,7 @@ namespace Ac.Ratings {
             Name.Text = selectedCar.Name;
             PowerFigures.Text = selectedCar.Specs.ConvertedPower ?? string.Empty;
             TorqueFigures.Text = selectedCar.Specs.Torque ?? string.Empty;
-            AccelerationFigures.Text = selectedCar.Specs.Acceleration ?? string.Empty;
+            AccelerationFigures.Text = selectedCar.Specs.NormalizedAcceleration ?? string.Empty;
             TopSpeedFigures.Text = selectedCar.Specs.Topspeed ?? string.Empty;
 
             Engine.Text = ShowCarEngineStats(selectedCar);

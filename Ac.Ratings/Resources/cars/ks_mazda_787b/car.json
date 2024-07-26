@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "507kW/690hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
     "bhp": "690bhp",
     "torque": "608Nm",
     "weight": "845kg",

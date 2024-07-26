@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "412kW/560hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "2.8s",
     "bhp": "560 bhp",
     "torque": "513 Nm",
     "weight": "950 kg",

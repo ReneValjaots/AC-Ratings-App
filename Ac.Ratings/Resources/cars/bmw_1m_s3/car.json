@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "294kW/400hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
     "bhp": "400bhp",
     "torque": "580Nm",
     "weight": "1495kg",
@@ -18,7 +19,7 @@
   "tags": [
     "#+ rwd",
     "#- manual",
-    "#! 3.0L & I6 & M TwinPower Turbo"
+    "#! 3.0L & I6"
   ],
   "data": {
     "tractionType": "RWD",

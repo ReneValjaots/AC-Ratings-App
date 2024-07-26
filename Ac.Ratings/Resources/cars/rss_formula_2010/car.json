@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "571kW/777hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
     "bhp": "777bhp",
     "torque": "324Nm",
     "weight": "621kg*",

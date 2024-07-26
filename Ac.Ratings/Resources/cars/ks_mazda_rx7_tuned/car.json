@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "326kW/444hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
     "bhp": "444bhp",
     "torque": "398Nm",
     "weight": "1312kg",

@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "96kW/130hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "8.8s",
     "bhp": "130bhp",
     "torque": "152Nm",
     "weight": "1040kg",

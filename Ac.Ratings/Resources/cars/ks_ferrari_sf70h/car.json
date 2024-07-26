@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "--bhp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
     "bhp": "--bhp",
     "torque": "--Nm",
     "weight": "--kg",

@@ -1,8 +1,6 @@
 ﻿using System.IO;
-using System.Reflection;
 using Ac.Ratings.Model;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Serialization;
 
 namespace Ac.Ratings.Services {
     public class InitializeData {
@@ -18,6 +16,7 @@ namespace Ac.Ratings.Services {
             //    CarDb = JsonConvert.DeserializeObject<List<Car>>(jsonContent);
             //}
             //else {
+            AccelerationConverter.InitializeLogFile();
             CarDb = ReadDataFromFiles(_acRootFolder);
             OrganizeCarDb();
             SaveCarData(carDbFilePath);

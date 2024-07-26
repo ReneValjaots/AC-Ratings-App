@@ -8,6 +8,7 @@
   "specs": {
     "convertedPower": "235kW/320hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "5.3s",
     "bhp": "320 bhp",
     "torque": "282 Nm",
     "weight": "975 kg",

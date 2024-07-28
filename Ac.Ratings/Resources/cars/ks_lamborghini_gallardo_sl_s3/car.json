@@ -9,6 +9,7 @@
     "convertedPower": "882kW/1200hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "2.5s",
+    "normalizedTorque": "-",
     "bhp": "1200bhp",
     "torque": "--Nm",
     "weight": "1390kg",

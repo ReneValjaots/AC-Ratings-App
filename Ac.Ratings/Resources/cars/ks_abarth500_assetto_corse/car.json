@@ -9,6 +9,7 @@
     "convertedPower": "140kW/190hp",
     "isManufacturerData": true,
     "normalizedAcceleration": "<7.0s",
+    "normalizedTorque": "302 Nm",
     "bhp": "140kW/190hp",
     "torque": "302Nm",
     "weight": "930kg",

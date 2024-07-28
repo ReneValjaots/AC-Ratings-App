@@ -9,6 +9,7 @@
     "convertedPower": "221kW/300hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "3.7s",
+    "normalizedTorque": "400 Nm",
     "bhp": "300bhp",
     "torque": "400Nm",
     "weight": "795kg",

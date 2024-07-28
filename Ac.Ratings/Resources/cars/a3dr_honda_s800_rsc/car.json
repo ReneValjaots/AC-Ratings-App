@@ -9,6 +9,7 @@
     "convertedPower": "74kW/100hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "6.1s",
+    "normalizedTorque": "80 Nm",
     "bhp": "100bhp",
     "torque": "80Nm",
     "weight": "660kg",

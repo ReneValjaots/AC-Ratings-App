@@ -9,6 +9,7 @@
     "convertedPower": "636kW/865hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "-",
+    "normalizedTorque": "-",
     "bhp": "865bhp",
     "torque": "--Nm",
     "weight": "--kg",

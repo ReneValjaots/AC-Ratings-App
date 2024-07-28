@@ -9,6 +9,7 @@
     "convertedPower": "--bhp",
     "isManufacturerData": false,
     "normalizedAcceleration": "-",
+    "normalizedTorque": "-",
     "bhp": "--bhp",
     "torque": "--Nm",
     "weight": "--kg",

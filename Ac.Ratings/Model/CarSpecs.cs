@@ -15,6 +15,7 @@ namespace Ac.Ratings.Model {
         private string? _convertedPower;
         private bool _isManufacturerData;
         private string? _normalizedAcceleration;
+        private string? _normalizedTorque;
 
         [JsonProperty("convertedPower")] public string? ConvertedPower {
             get => _convertedPower;
@@ -28,6 +29,11 @@ namespace Ac.Ratings.Model {
         [JsonProperty("normalizedAcceleration")] public string? NormalizedAcceleration {
             get => _normalizedAcceleration;
             private set => SetField(ref _normalizedAcceleration, value);
+        }
+
+        [JsonProperty("normalizedTorque")] public string? NormalizedTorque {
+            get => _normalizedTorque;
+            private set => SetField(ref _normalizedTorque, value);
         }
 
         [JsonProperty("bhp")] public string? Bhp {
@@ -45,7 +51,14 @@ namespace Ac.Ratings.Model {
 
         [JsonProperty("torque")] public string? Torque {
             get => _torque;
-            set => SetField(ref _torque, value);
+            set {
+                if (SetField(ref _torque, value)) {
+                    if (value != null) {
+                        var converter = new TorqueConverter(value);
+                        NormalizedTorque = converter.ConvertedTorque;
+                    }
+                }
+            }
         }
 
         [JsonProperty("weight")] public string? Weight {

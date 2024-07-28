@@ -9,6 +9,7 @@
     "convertedPower": "90kW/122hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "9.2s",
+    "normalizedTorque": "142 Nm",
     "bhp": "122bhp",
     "torque": "142Nm",
     "weight": "925kg",

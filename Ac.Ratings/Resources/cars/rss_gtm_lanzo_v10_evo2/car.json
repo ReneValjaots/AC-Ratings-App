@@ -9,6 +9,7 @@
     "convertedPower": "390kW/530hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "-",
+    "normalizedTorque": "500 Nm",
     "bhp": "530bhp",
     "torque": "500Nm",
     "weight": "1400 kg*",

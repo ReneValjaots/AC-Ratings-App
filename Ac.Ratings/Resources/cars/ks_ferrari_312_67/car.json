@@ -9,6 +9,7 @@
     "convertedPower": "287kW/390hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "-",
+    "normalizedTorque": "-",
     "bhp": "390bhp",
     "torque": "--Nm",
     "weight": "548kg",

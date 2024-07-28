@@ -9,6 +9,7 @@
     "convertedPower": "735kW/1000hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "-",
+    "normalizedTorque": "-",
     "bhp": "1000bhp",
     "torque": "--Nm",
     "weight": "--kg",

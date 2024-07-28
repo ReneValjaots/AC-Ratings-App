@@ -9,6 +9,7 @@
     "convertedPower": "404kW/550hp",
     "isManufacturerData": true,
     "normalizedAcceleration": "3.5s",
+    "normalizedTorque": "540 Nm",
     "bhp": "404kW/550hp",
     "torque": "540Nm",
     "weight": "1620kg",

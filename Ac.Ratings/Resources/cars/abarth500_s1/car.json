@@ -9,6 +9,7 @@
     "convertedPower": "129kW/175hp",
     "isManufacturerData": true,
     "normalizedAcceleration": "7.4s",
+    "normalizedTorque": "245 Nm",
     "bhp": "129kW/175hp",
     "torque": "245Nm",
     "weight": "1025kg",

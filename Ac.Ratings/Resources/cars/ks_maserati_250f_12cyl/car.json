@@ -9,6 +9,7 @@
     "convertedPower": "228kW/310hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "-",
+    "normalizedTorque": "-",
     "bhp": "310bhp",
     "torque": "--Nm",
     "weight": "670kg",

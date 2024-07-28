@@ -44,7 +44,7 @@ namespace Ac.Ratings {
         private void DisplayCarStats(Car selectedCar) {
             Name.Text = selectedCar.Name;
             PowerFigures.Text = selectedCar.Specs.ConvertedPower ?? string.Empty;
-            TorqueFigures.Text = selectedCar.Specs.Torque ?? string.Empty;
+            TorqueFigures.Text = selectedCar.Specs.NormalizedTorque ?? string.Empty;
             AccelerationFigures.Text = selectedCar.Specs.NormalizedAcceleration ?? string.Empty;
             TopSpeedFigures.Text = selectedCar.Specs.Topspeed ?? string.Empty;
 

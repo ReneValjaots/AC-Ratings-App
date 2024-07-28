@@ -9,6 +9,7 @@
     "convertedPower": "92kW/125hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "6.0s",
+    "normalizedTorque": "178 Nm",
     "bhp": "125 bhp",
     "torque": "178 Nm",
     "weight": "575 kg",

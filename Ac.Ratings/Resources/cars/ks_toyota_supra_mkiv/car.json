@@ -9,6 +9,7 @@
     "convertedPower": "206kW/280hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "5.0s",
+    "normalizedTorque": "458 Nm",
     "bhp": "280bhp",
     "torque": "458Nm",
     "weight": "1510kg",

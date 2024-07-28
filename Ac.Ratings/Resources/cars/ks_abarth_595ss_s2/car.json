@@ -9,6 +9,7 @@
     "convertedPower": "48kW/65hp",
     "isManufacturerData": true,
     "normalizedAcceleration": "-",
+    "normalizedTorque": "80 Nm",
     "bhp": "48kW/65hp",
     "torque": "80Nm",
     "weight": "470kg",

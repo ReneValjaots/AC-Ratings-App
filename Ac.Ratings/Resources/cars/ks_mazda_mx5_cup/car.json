@@ -9,6 +9,7 @@
     "convertedPower": "118kW/160hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "-",
+    "normalizedTorque": "200 Nm",
     "bhp": "160bhp",
     "torque": "200Nm",
     "weight": "908kg",

@@ -9,6 +9,7 @@
     "convertedPower": "338kW/460hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "2.9s",
+    "normalizedTorque": "525 Nm",
     "bhp": "460bhp",
     "torque": "525Nm",
     "weight": "890kg",

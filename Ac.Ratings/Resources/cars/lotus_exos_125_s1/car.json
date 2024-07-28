@@ -9,6 +9,7 @@
     "convertedPower": "551kW/750hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "-",
+    "normalizedTorque": "-",
     "bhp": "750bhp",
     "torque": "--Nm",
     "weight": "660kg",

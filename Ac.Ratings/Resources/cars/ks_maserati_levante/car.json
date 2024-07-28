@@ -9,6 +9,7 @@
     "convertedPower": "312kW/424hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "5.0s",
+    "normalizedTorque": "580 Nm",
     "bhp": "424bhp",
     "torque": "580Nm",
     "weight": "2108kg",

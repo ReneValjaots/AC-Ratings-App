@@ -9,6 +9,7 @@
     "convertedPower": "160kW/217hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "7.0s",
+    "normalizedTorque": "286 Nm",
     "bhp": "217 bhp",
     "torque": "286 Nm",
     "weight": "1250 kg",

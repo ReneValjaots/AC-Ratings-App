@@ -9,6 +9,7 @@
     "convertedPower": "441kW/600hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "-",
+    "normalizedTorque": "700 Nm",
     "bhp": "600bhp",
     "torque": "700Nm",
     "weight": "1300kg",

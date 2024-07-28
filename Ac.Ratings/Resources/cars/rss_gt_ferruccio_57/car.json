@@ -9,6 +9,7 @@
     "convertedPower": "456kW/620hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "-",
+    "normalizedTorque": "665 Nm",
     "bhp": "620bhp",
     "torque": "665Nm",
     "weight": "1150kg",

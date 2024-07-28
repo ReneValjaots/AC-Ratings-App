@@ -9,6 +9,7 @@
     "convertedPower": "345kW/469hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "4.0s",
+    "normalizedTorque": "553 Nm",
     "bhp": "469bhp",
     "torque": "553Nm",
     "weight": "1147kg",

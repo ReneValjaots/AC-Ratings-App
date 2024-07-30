@@ -1,6 +1,7 @@
 ﻿using Ac.Ratings.Services;
 using Newtonsoft.Json;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Text;
 
@@ -45,7 +46,7 @@ namespace Ac.Ratings.Model {
         [JsonProperty("bhp")] public string? Bhp {
             get => _bhp;
             set {
-                if (SetField(ref _bhp, value)) {
+                if (SetField(ref _bhp, value ?? string.Empty)) {
                     if (value != null) {
                         var converter = new PowerConverter(value);
                         ConvertedPower = converter.ConvertedPower;
@@ -58,7 +59,7 @@ namespace Ac.Ratings.Model {
         [JsonProperty("torque")] public string? Torque {
             get => _torque;
             set {
-                if (SetField(ref _torque, value)) {
+                if (SetField(ref _torque, value ?? string.Empty)) {
                     if (!string.IsNullOrEmpty(value)) {
                         var converter = new TorqueConverter(value);
                         NormalizedTorque = converter.ConvertedTorque;
@@ -78,7 +79,7 @@ namespace Ac.Ratings.Model {
         [JsonProperty("topspeed")] public string? Topspeed {
             get => _topspeed;
             set {
-                if (SetField(ref _topspeed, value)) {
+                if (SetField(ref _topspeed, value ?? string.Empty)) {
                     if (!string.IsNullOrEmpty(value)) {
                         var converter = new TopSpeedConverter(value);
                         NormalizedTopSpeed = converter.ConvertedTopSpeed;
@@ -93,7 +94,7 @@ namespace Ac.Ratings.Model {
         [JsonProperty("acceleration")] public string? Acceleration {
             get => _acceleration;
             set {
-                if (SetField(ref _acceleration, value)) {
+                if (SetField(ref _acceleration, value ?? string.Empty)) {
                     if (!string.IsNullOrEmpty(value)) {
                         var converter = new AccelerationConverter(value, GetCarData());
                         NormalizedAcceleration = converter.ConvertedAcceleration;

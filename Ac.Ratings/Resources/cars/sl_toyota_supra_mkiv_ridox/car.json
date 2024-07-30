@@ -8,14 +8,14 @@
   "specs": {
     "convertedPower": "363kW/494hp",
     "isManufacturerData": false,
-    "normalizedAcceleration": null,
+    "normalizedAcceleration": "-",
     "normalizedTorque": "610 Nm",
-    "normalizedTopSpeed": null,
+    "normalizedTopSpeed": "-",
     "bhp": "494bhp",
     "torque": "610nm",
     "weight": "1470kg",
-    "topspeed": null,
-    "acceleration": null,
+    "topspeed": "",
+    "acceleration": "",
     "pwratio": "2.98 kg/hp"
   },
   "tags": [

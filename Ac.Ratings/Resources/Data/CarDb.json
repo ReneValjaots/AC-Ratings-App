@@ -2619,14 +2619,14 @@
     "specs": {
       "convertedPower": "440kW/598hp",
       "isManufacturerData": false,
-      "normalizedAcceleration": null,
+      "normalizedAcceleration": "-",
       "normalizedTorque": "729 Nm",
       "normalizedTopSpeed": "300+ km/h",
       "bhp": "598 bhp",
       "torque": "729 Nm",
       "weight": "1039kg",
       "topspeed": "300+km/h",
-      "acceleration": null,
+      "acceleration": "",
       "pwratio": "1.74 kg/hp"
     },
     "tags": [
@@ -2738,14 +2738,14 @@
     "specs": {
       "convertedPower": "440kW/598hp",
       "isManufacturerData": false,
-      "normalizedAcceleration": null,
+      "normalizedAcceleration": "-",
       "normalizedTorque": "729 Nm",
       "normalizedTopSpeed": "300+ km/h",
       "bhp": "598 bhp",
       "torque": "729 Nm",
       "weight": "1039kg",
       "topspeed": "300+km/h",
-      "acceleration": null,
+      "acceleration": "",
       "pwratio": "1.74 kg/hp"
     },
     "tags": [
@@ -3654,14 +3654,14 @@
     "specs": {
       "convertedPower": "441kW/600hp",
       "isManufacturerData": false,
-      "normalizedAcceleration": null,
+      "normalizedAcceleration": "-",
       "normalizedTorque": "416 Nm",
       "normalizedTopSpeed": "330+ km/h",
       "bhp": "600 bhp",
       "torque": "416 Nm",
       "weight": "979kg",
       "topspeed": "330+km/h ",
-      "acceleration": null,
+      "acceleration": "",
       "pwratio": "1.63 kg/hp"
     },
     "tags": [
@@ -5750,14 +5750,14 @@
     "specs": {
       "convertedPower": "374kW/509hp",
       "isManufacturerData": false,
-      "normalizedAcceleration": null,
+      "normalizedAcceleration": "-",
       "normalizedTorque": "491 Nm",
       "normalizedTopSpeed": "300 km/h",
       "bhp": "509 bhp",
       "torque": "491 Nm",
       "weight": "1120 kg",
       "topspeed": "300 km/h",
-      "acceleration": null,
+      "acceleration": "",
       "pwratio": "2.2 kg/hp"
     },
     "tags": [
@@ -6630,14 +6630,14 @@
     "specs": {
       "convertedPower": "703kW/956hp",
       "isManufacturerData": false,
-      "normalizedAcceleration": null,
+      "normalizedAcceleration": "-",
       "normalizedTorque": "1055 Nm",
       "normalizedTopSpeed": "300+ km/h",
       "bhp": "956 bhp",
       "torque": "1055 Nm",
       "weight": "1724 kg",
       "topspeed": "300+km/h",
-      "acceleration": null,
+      "acceleration": "",
       "pwratio": "1.8 kg/hp"
     },
     "tags": [],
@@ -6707,14 +6707,14 @@
     "specs": {
       "convertedPower": "404kW/550hp",
       "isManufacturerData": false,
-      "normalizedAcceleration": null,
+      "normalizedAcceleration": "-",
       "normalizedTorque": "583 Nm",
       "normalizedTopSpeed": "270+ km/h",
       "bhp": "550 bhp",
       "torque": "583 Nm",
       "weight": "1376kg*",
       "topspeed": "270+km/h",
-      "acceleration": null,
+      "acceleration": "",
       "pwratio": "2.5 kg/hp"
     },
     "tags": [
@@ -8980,14 +8980,14 @@
     "specs": {
       "convertedPower": "434kW/590hp",
       "isManufacturerData": false,
-      "normalizedAcceleration": null,
+      "normalizedAcceleration": "-",
       "normalizedTorque": "700 Nm",
       "normalizedTopSpeed": "330+ km/h",
       "bhp": "590 bhp",
       "torque": "700 Nm",
       "weight": "1000 kg",
       "topspeed": "330+km/h",
-      "acceleration": null,
+      "acceleration": "",
       "pwratio": "1.69 kg/hp"
     },
     "tags": [
@@ -10164,14 +10164,14 @@
     "specs": {
       "convertedPower": "374kW/509hp",
       "isManufacturerData": false,
-      "normalizedAcceleration": null,
+      "normalizedAcceleration": "-",
       "normalizedTorque": "636 Nm",
       "normalizedTopSpeed": "300+ km/h",
       "bhp": "509 bhp",
       "torque": "636 Nm",
       "weight": "910kg",
       "topspeed": "300+km/h",
-      "acceleration": null,
+      "acceleration": "",
       "pwratio": "1.79 kg/hp"
     },
     "tags": [
@@ -11155,14 +11155,14 @@
     "specs": {
       "convertedPower": "400kW/544hp",
       "isManufacturerData": false,
-      "normalizedAcceleration": null,
+      "normalizedAcceleration": "-",
       "normalizedTorque": "595 Nm",
       "normalizedTopSpeed": "310 km/h",
       "bhp": "544 bhp",
       "torque": "595 Nm",
       "weight": "1040 kg",
       "topspeed": "310 km/h",
-      "acceleration": null,
+      "acceleration": "",
       "pwratio": "1.91 kg/hp"
     },
     "tags": [
@@ -13611,14 +13611,14 @@
     "specs": {
       "convertedPower": "363kW/494hp",
       "isManufacturerData": false,
-      "normalizedAcceleration": null,
+      "normalizedAcceleration": "-",
       "normalizedTorque": "610 Nm",
-      "normalizedTopSpeed": null,
+      "normalizedTopSpeed": "-",
       "bhp": "494bhp",
       "torque": "610nm",
       "weight": "1470kg",
-      "topspeed": null,
-      "acceleration": null,
+      "topspeed": "",
+      "acceleration": "",
       "pwratio": "2.98 kg/hp"
     },
     "tags": [

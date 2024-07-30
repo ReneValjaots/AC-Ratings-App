@@ -8,14 +8,14 @@
   "specs": {
     "convertedPower": "434kW/590hp",
     "isManufacturerData": false,
-    "normalizedAcceleration": null,
+    "normalizedAcceleration": "-",
     "normalizedTorque": "700 Nm",
     "normalizedTopSpeed": "330+ km/h",
     "bhp": "590 bhp",
     "torque": "700 Nm",
     "weight": "1000 kg",
     "topspeed": "330+km/h",
-    "acceleration": null,
+    "acceleration": "",
     "pwratio": "1.69 kg/hp"
   },
   "tags": [

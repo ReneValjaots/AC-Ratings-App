@@ -8,14 +8,14 @@
   "specs": {
     "convertedPower": "400kW/544hp",
     "isManufacturerData": false,
-    "normalizedAcceleration": null,
+    "normalizedAcceleration": "-",
     "normalizedTorque": "595 Nm",
     "normalizedTopSpeed": "310 km/h",
     "bhp": "544 bhp",
     "torque": "595 Nm",
     "weight": "1040 kg",
     "topspeed": "310 km/h",
-    "acceleration": null,
+    "acceleration": "",
     "pwratio": "1.91 kg/hp"
   },
   "tags": [

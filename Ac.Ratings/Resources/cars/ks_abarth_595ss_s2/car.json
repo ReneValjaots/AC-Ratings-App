@@ -10,6 +10,7 @@
     "isManufacturerData": true,
     "normalizedAcceleration": "-",
     "normalizedTorque": "80 Nm",
+    "normalizedTopSpeed": "-",
     "bhp": "48kW/65hp",
     "torque": "80Nm",
     "weight": "470kg",

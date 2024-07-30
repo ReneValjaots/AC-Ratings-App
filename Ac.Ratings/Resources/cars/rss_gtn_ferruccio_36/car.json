@@ -10,6 +10,7 @@
     "isManufacturerData": false,
     "normalizedAcceleration": "-",
     "normalizedTorque": "410 Nm",
+    "normalizedTopSpeed": "-",
     "bhp": "445bhp",
     "torque": "410Nm",
     "weight": "1190kg",

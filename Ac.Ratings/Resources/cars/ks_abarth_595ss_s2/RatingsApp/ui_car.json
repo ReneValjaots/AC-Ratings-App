@@ -5,8 +5,7 @@
   "description": "Carlo Abarth began his well-known association with Fiat in 1952, building the Abarth 1500 Biposto upon Fiat mechanicals.<br><br>Fiat &quot;Nuova 500&quot; was introduced in 1957 and Abarth soon realized some versions with elaborate mechanics. In 1963 he was presented the &quot;595&quot;, produced until the end of 1971 in two series. The Abarth receives from FIAT incomplete cars and then mounts on them the special pieces.<br><br>In February 1964 the 595 SS was presented, featuring a top speed of 130 km/h.",
   "tags": [
     "#+ rwd",
-    "#- manual",
-    "#! -"
+    "#- manual"
   ],
   "class": "street",
   "specs": {

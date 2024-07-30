@@ -8,12 +8,12 @@
   ],
   "class": "street",
   "specs": {
-    "bhp": "494л.с.",
-    "torque": "610Нм",
-    "weight": "1470кг",
-    "topspeed": "",
-    "acceleration": "",
-    "pwratio": "2.98кг/л.с."
+    "bhp": "494bhp",
+    "torque": "610nm",
+    "weight": "1470kg",
+    "topspeed": null,
+    "acceleration": null,
+    "pwratio": "2.98 kg/hp"
   },
   "torqueCurve": [
     [

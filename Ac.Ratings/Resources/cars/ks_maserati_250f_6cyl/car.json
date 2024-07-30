@@ -10,6 +10,7 @@
     "isManufacturerData": false,
     "normalizedAcceleration": "-",
     "normalizedTorque": "-",
+    "normalizedTopSpeed": "-",
     "bhp": "270bhp",
     "torque": "--Nm",
     "weight": "670kg",

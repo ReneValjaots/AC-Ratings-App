@@ -3,12 +3,11 @@ using System.Text.RegularExpressions;
 
 namespace Ac.Ratings.Services {
     public class AccelerationConverter {
-        private readonly string _accelerationValue;
         public string ConvertedAcceleration { get; private set; }
 
-        public AccelerationConverter(string accelerationValue, string carData) {
-            _accelerationValue = accelerationValue.Replace(" ", "").ToLower();
-            ConvertedAcceleration = ConvertAccelerationString(_accelerationValue, carData);
+        public AccelerationConverter(string acceleration, string carData) {
+            var accelerationValue = acceleration.Replace(" ", "").ToLower();
+            ConvertedAcceleration = ConvertAccelerationString(accelerationValue, carData);
         }
 
         private string ConvertAccelerationString(string acceleration, string carData) {

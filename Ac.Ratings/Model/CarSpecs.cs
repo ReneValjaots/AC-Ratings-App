@@ -16,6 +16,7 @@ namespace Ac.Ratings.Model {
         private bool _isManufacturerData;
         private string? _normalizedAcceleration;
         private string? _normalizedTorque;
+        private string? _normalizedTopSpeed;
 
         [JsonProperty("convertedPower")] public string? ConvertedPower {
             get => _convertedPower;
@@ -36,6 +37,11 @@ namespace Ac.Ratings.Model {
             private set => SetField(ref _normalizedTorque, value);
         }
 
+        [JsonProperty("normalizedTopSpeed")] public string? NormalizedTopSpeed {
+            get => _normalizedTopSpeed;
+            private set => SetField(ref _normalizedTopSpeed, value);
+        }
+
         [JsonProperty("bhp")] public string? Bhp {
             get => _bhp;
             set {
@@ -53,9 +59,12 @@ namespace Ac.Ratings.Model {
             get => _torque;
             set {
                 if (SetField(ref _torque, value)) {
-                    if (value != null) {
+                    if (!string.IsNullOrEmpty(value)) {
                         var converter = new TorqueConverter(value);
                         NormalizedTorque = converter.ConvertedTorque;
+                    }
+                    else {
+                        NormalizedTorque = "-";
                     }
                 }
             }
@@ -68,16 +77,29 @@ namespace Ac.Ratings.Model {
 
         [JsonProperty("topspeed")] public string? Topspeed {
             get => _topspeed;
-            set => SetField(ref _topspeed, value);
+            set {
+                if (SetField(ref _topspeed, value)) {
+                    if (!string.IsNullOrEmpty(value)) {
+                        var converter = new TopSpeedConverter(value);
+                        NormalizedTopSpeed = converter.ConvertedTopSpeed;
+                    }
+                    else {
+                        NormalizedTopSpeed = "-";
+                    }
+                }
+            }
         }
 
         [JsonProperty("acceleration")] public string? Acceleration {
             get => _acceleration;
             set {
                 if (SetField(ref _acceleration, value)) {
-                    if (value != null) {
+                    if (!string.IsNullOrEmpty(value)) {
                         var converter = new AccelerationConverter(value, GetCarData());
                         NormalizedAcceleration = converter.ConvertedAcceleration;
+                    }
+                    else {
+                        NormalizedAcceleration = "-";
                     }
                 }
             }

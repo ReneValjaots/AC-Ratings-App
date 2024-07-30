@@ -2,14 +2,13 @@
 
 namespace Ac.Ratings.Services {
     public class PowerConverter {
-        private readonly string _powerValue;
         public string ConvertedPower { get; private set; }
         public bool IsManufacturerData { get; private set; }
 
-        public PowerConverter(string powerValue) {
-            _powerValue = powerValue.Replace(" ", "").ToLower();
-            IsManufacturerData = IsExpectedPowerFormat(_powerValue);
-            ConvertedPower = IsManufacturerData ? powerValue : ConvertPowerString(_powerValue);
+        public PowerConverter(string power) {
+            var powerValue = power.Replace(" ", "").ToLower();
+            IsManufacturerData = IsExpectedPowerFormat(powerValue);
+            ConvertedPower = IsManufacturerData ? power : ConvertPowerString(powerValue);
         }
 
         private bool IsExpectedPowerFormat(string powerValue) {

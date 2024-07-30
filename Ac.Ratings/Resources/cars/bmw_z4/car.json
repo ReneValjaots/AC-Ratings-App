@@ -10,6 +10,7 @@
     "isManufacturerData": false,
     "normalizedAcceleration": "4.7s",
     "normalizedTorque": "500 Nm",
+    "normalizedTopSpeed": "250+ km/h",
     "bhp": "330bhp",
     "torque": "500Nm",
     "weight": "1605kg",

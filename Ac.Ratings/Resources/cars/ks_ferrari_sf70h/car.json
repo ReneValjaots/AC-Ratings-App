@@ -10,6 +10,7 @@
     "isManufacturerData": false,
     "normalizedAcceleration": "-",
     "normalizedTorque": "-",
+    "normalizedTopSpeed": "-",
     "bhp": "--bhp",
     "torque": "--Nm",
     "weight": "--kg",

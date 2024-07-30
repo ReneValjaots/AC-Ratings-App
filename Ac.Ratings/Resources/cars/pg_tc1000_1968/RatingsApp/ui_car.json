@@ -8,7 +8,7 @@
   ],
   "class": "race",
   "specs": {
-    "bhp": "104 bhp",
+    "bhp": "104bhp",
     "torque": "99 Nm",
     "weight": "605 kg*",
     "topspeed": "195 Km/h",

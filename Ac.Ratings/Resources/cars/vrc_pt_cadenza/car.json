@@ -3,6 +3,7 @@
   "brand": "Cadillac",
   "year": "2002",
   "author": "VRC Modding Team",
+  "class": "race",
   "folderName": "vrc_pt_cadenza",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_cadenza",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "2.4s",
     "normalizedTorque": "746 Nm",
     "normalizedTopSpeed": "325 km/h",
+    "normalizedWeight": "905 kg",
+    "normalizedPwRatio": "0.68 hp/kg",
     "bhp": "612bhp",
     "torque": "746Nm",
     "weight": "905kg",

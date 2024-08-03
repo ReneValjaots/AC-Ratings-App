@@ -3,6 +3,7 @@
   "brand": "Dallara",
   "year": "2019",
   "author": "Race Sim Studio",
+  "class": "race",
   "folderName": "rss_formula_rss_3_v6",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_rss_3_v6",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "3.0s",
     "normalizedTorque": "385 Nm",
     "normalizedTopSpeed": "280 km/h",
+    "normalizedWeight": "690 kg",
+    "normalizedPwRatio": "0.55 hp/kg",
     "bhp": "380bhp",
     "torque": "385Nm",
     "weight": "690kg",

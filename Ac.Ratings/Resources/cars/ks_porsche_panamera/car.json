@@ -3,6 +3,7 @@
   "brand": "Porsche",
   "year": "2016",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_porsche_panamera",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_panamera",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "3.6s",
     "normalizedTorque": "770 Nm",
     "normalizedTopSpeed": "306 km/h",
+    "normalizedWeight": "2070 kg",
+    "normalizedPwRatio": "0.27 hp/kg",
     "bhp": "550bhp",
     "torque": "770Nm",
     "weight": "2070kg",

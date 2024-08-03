@@ -3,6 +3,7 @@
   "brand": "Porsche",
   "year": "1968",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_porsche_908_lh",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_908_lh",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "320 Nm",
     "normalizedTopSpeed": "320 km/h",
+    "normalizedWeight": "680 kg",
+    "normalizedPwRatio": "0.51 hp/kg",
     "bhp": "350bhp",
     "torque": "320Nm",
     "weight": "680kg",

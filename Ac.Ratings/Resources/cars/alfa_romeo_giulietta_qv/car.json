@@ -3,6 +3,7 @@
   "brand": "Alfa Romeo",
   "year": "2014",
   "author": "Kunos",
+  "class": "street",
   "folderName": "alfa_romeo_giulietta_qv",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\alfa_romeo_giulietta_qv",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "6.6s",
     "normalizedTorque": "349 Nm",
     "normalizedTopSpeed": "241 km/h",
+    "normalizedWeight": "1390 kg",
+    "normalizedPwRatio": "0.17 hp/kg",
     "bhp": "235bhp",
     "torque": "349Nm",
     "weight": "1390kg",

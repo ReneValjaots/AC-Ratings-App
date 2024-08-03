@@ -3,6 +3,7 @@
   "brand": "Pagani",
   "year": "2012",
   "author": "Kunos",
+  "class": "street",
   "folderName": "pagani_huayra",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pagani_huayra",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "2.7s",
     "normalizedTorque": "1000 Nm",
     "normalizedTopSpeed": "370+ km/h",
+    "normalizedWeight": "1360 kg",
+    "normalizedPwRatio": "0.54 hp/kg",
     "bhp": "730bhp",
     "torque": "1000Nm",
     "weight": "1360kg",

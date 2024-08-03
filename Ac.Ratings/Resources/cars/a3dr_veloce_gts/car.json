@@ -3,6 +3,7 @@
   "brand": "Henry Clay Motorsports",
   "year": "2016",
   "author": "Alberto Daniel Russo",
+  "class": "street",
   "folderName": "a3dr_veloce_gts",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_veloce_gts",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "4.1s",
     "normalizedTorque": "643 Nm",
     "normalizedTopSpeed": "317 km/h",
+    "normalizedWeight": "1103 kg",
+    "normalizedPwRatio": "0.44 hp/kg",
     "bhp": "486 bhp",
     "torque": "643 Nm",
     "weight": "1103 Kg",

@@ -3,6 +3,7 @@
   "brand": "Lotus",
   "year": "2008",
   "author": "Kunos",
+  "class": "street",
   "folderName": "lotus_exige_240",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_exige_240",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "4.0s",
     "normalizedTorque": "236 Nm",
     "normalizedTopSpeed": "249 km/h",
+    "normalizedWeight": "930 kg",
+    "normalizedPwRatio": "0.26 hp/kg",
     "bhp": "243bhp",
     "torque": "236Nm",
     "weight": "930kg",

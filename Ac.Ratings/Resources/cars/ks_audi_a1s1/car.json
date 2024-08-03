@@ -3,6 +3,7 @@
   "brand": "Audi",
   "year": "2015",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_audi_a1s1",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_a1s1",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "5.8s",
     "normalizedTorque": "370 Nm",
     "normalizedTopSpeed": "241 km/h",
+    "normalizedWeight": "1340 kg",
+    "normalizedPwRatio": "0.17 hp/kg",
     "bhp": "170kW/231hp",
     "torque": "370Nm",
     "weight": "1340kg",

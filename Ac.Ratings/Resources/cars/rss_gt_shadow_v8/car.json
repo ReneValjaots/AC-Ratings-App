@@ -3,6 +3,7 @@
   "brand": "Saleen",
   "year": null,
   "author": "Race Sim Studio",
+  "class": "race",
   "folderName": "rss_gt_shadow_v8",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gt_shadow_v8",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "732 Nm",
     "normalizedTopSpeed": "290+ km/h",
+    "normalizedWeight": "1165 kg",
+    "normalizedPwRatio": "0.53 hp/kg",
     "bhp": "618 bhp",
     "torque": "732 Nm",
     "weight": "1165kg",

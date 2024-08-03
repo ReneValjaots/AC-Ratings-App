@@ -3,6 +3,7 @@
   "brand": "Porsche",
   "year": "1996",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_porsche_911_gt1",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_gt1",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "-",
     "normalizedTopSpeed": "350 km/h",
+    "normalizedWeight": "950 kg",
+    "normalizedPwRatio": "0.63 hp/kg",
     "bhp": "600bhp",
     "torque": "--Nm",
     "weight": "950kg",

@@ -3,6 +3,7 @@
   "brand": "Lotus",
   "year": "2014",
   "author": "Kunos",
+  "class": "street",
   "folderName": "lotus_evora_s",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_evora_s",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "4.6s",
     "normalizedTorque": "400 Nm",
     "normalizedTopSpeed": "277 km/h",
+    "normalizedWeight": "1385 kg",
+    "normalizedPwRatio": "0.25 hp/kg",
     "bhp": "345bhp",
     "torque": "400Nm",
     "weight": "1385kg",

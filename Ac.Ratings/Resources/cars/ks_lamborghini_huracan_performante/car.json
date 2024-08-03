@@ -3,6 +3,7 @@
   "brand": "Lamborghini",
   "year": "2014",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_lamborghini_huracan_performante",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_huracan_performante",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "2.9s",
     "normalizedTorque": "600 Nm",
     "normalizedTopSpeed": "325 km/h",
+    "normalizedWeight": "1382 kg",
+    "normalizedPwRatio": "0.46 hp/kg",
     "bhp": "640bhp",
     "torque": "600Nm",
     "weight": "1382kg",

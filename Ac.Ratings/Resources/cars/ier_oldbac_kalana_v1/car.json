@@ -3,6 +3,7 @@
   "brand": "Oldbac",
   "year": "2024",
   "author": "IER Simulations",
+  "class": "race",
   "folderName": "ier_oldbac_kalana_v1",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ier_oldbac_kalana_v1",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "465 Nm",
     "normalizedTopSpeed": "300+ km/h",
+    "normalizedWeight": "950 kg",
+    "normalizedPwRatio": "0.64 hp/kg",
     "bhp": "610 bhp",
     "torque": "465 Nm",
     "weight": "950 kg",

@@ -3,6 +3,7 @@
   "brand": "Mercedes-Benz",
   "year": "2009",
   "author": "Kunos",
+  "class": "street",
   "folderName": "mercedes_sls",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\mercedes_sls",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "3.8s",
     "normalizedTorque": "650 Nm",
     "normalizedTopSpeed": "317+ km/h",
+    "normalizedWeight": "1620 kg",
+    "normalizedPwRatio": "0.35 hp/kg",
     "bhp": "571bhp",
     "torque": "650Nm",
     "weight": "1620kg",

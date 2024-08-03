@@ -3,6 +3,7 @@
   "brand": "Alfa Romeo",
   "year": "1965",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_alfa_romeo_gta",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_alfa_romeo_gta",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "200 Nm",
     "normalizedTopSpeed": "210+ km/h",
+    "normalizedWeight": "750 kg",
+    "normalizedPwRatio": "0.23 hp/kg",
     "bhp": "170bhp",
     "torque": "200Nm",
     "weight": "750kg",

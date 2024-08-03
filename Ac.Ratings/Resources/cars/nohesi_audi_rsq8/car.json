@@ -3,6 +3,7 @@
   "brand": "Audi",
   "year": "2019",
   "author": "No Hesi, Hugo",
+  "class": "street",
   "folderName": "nohesi_audi_rsq8",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\nohesi_audi_rsq8",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "797 Nm",
     "normalizedTopSpeed": "315 km/h",
+    "normalizedWeight": "1240 kg",
+    "normalizedPwRatio": "0.54 hp/kg",
     "bhp": "670 bhp",
     "torque": "797 Nm",
     "weight": "1240 kg",

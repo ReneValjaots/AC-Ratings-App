@@ -3,6 +3,7 @@
   "brand": "Ferrari",
   "year": "2017",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_ferrari_812_superfast",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_812_superfast",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "2.9s",
     "normalizedTorque": "718 Nm",
     "normalizedTopSpeed": "340 km/h",
+    "normalizedWeight": "1525 kg",
+    "normalizedPwRatio": "0.52 hp/kg",
     "bhp": "800bhp",
     "torque": "718Nm",
     "weight": "1525kg",

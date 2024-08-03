@@ -3,6 +3,7 @@
   "brand": "Ferrari",
   "year": "2013",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_ferrari_f138",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_f138",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "310 Nm",
     "normalizedTopSpeed": "-",
+    "normalizedWeight": "642 kg",
+    "normalizedPwRatio": "1.19 hp/kg",
     "bhp": "763bhp",
     "torque": "310Nm",
     "weight": "642kg*",

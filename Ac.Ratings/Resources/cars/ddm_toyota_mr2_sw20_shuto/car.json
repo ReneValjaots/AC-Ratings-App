@@ -3,6 +3,7 @@
   "brand": "Toyota",
   "year": "1998",
   "author": "ДЯДЯ ДИМА",
+  "class": "shuto",
   "folderName": "ddm_toyota_mr2_sw20_shuto",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ddm_toyota_mr2_sw20_shuto",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "4.0s",
     "normalizedTorque": "618 Nm",
     "normalizedTopSpeed": "330 km/h",
+    "normalizedWeight": "1230 kg",
+    "normalizedPwRatio": "0.47 hp/kg",
     "bhp": "580 bhp",
     "torque": "618 Nm",
     "weight": "1230 kg",

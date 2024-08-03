@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ac.Ratings"
         mc:Ignorable="d"
-        Title="Ratings App" Height="600" Width="900">
+        Title="Ratings App" Height="900" Width="1600">
 
     <Border Background="Black"
             CornerRadius="10">
@@ -70,9 +70,11 @@
                            Margin="10,0,0,0"
                            Foreground="White"/>
 
-                <Viewbox HorizontalAlignment="Right" VerticalAlignment="Center">
-                    <Image x:Name="CarImage"/>
-                </Viewbox>
+                <Image x:Name="CarImage" 
+                       MaxWidth="800" 
+                       MaxHeight="445" 
+                       HorizontalAlignment="Left" 
+                       VerticalAlignment="Center"/>
 
 
                 <Grid>
@@ -193,11 +195,10 @@
                                    TargetType="{x:Type TextBlock}"/>
                         </StackPanel.Resources>
                         <TextBlock Text="Brand:"/>
-                        <TextBlock Text="Power:"/>
-                        <TextBlock Text="Torque"/>
+                        <TextBlock Text="Year:"/>
+                        <TextBlock Text="Class:"/>
+                        <TextBlock Text="Author:"/>
                         <TextBlock Text="Weight:"/>
-                        <TextBlock Text="Top Speed:"/>
-                        <TextBlock Text="Acceleration:"/>
                         <TextBlock Text="Power-to-weight ratio:"/>
                     </StackPanel>
 
@@ -209,11 +210,10 @@
                                    TargetType="{x:Type TextBox}"/>
                         </StackPanel.Resources>
                         <TextBox x:Name="Brand"/>
-                        <TextBox x:Name="Power"/>
-                        <TextBox x:Name="Torque"/>
+                        <TextBox x:Name="Year"/>
+                        <TextBox x:Name="Class"/>
+                        <TextBox x:Name="Author"/>
                         <TextBox x:Name="Weight"/>
-                        <TextBox x:Name="Topspeed"/>
-                        <TextBox x:Name="Acceleration"/>
                         <TextBox x:Name="Pwratio"/>
                     </StackPanel>
                 </Grid>

@@ -3,6 +3,7 @@
   "brand": "Porsche",
   "year": "2017",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_porsche_911_gt3_cup_2017",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_gt3_cup_2017",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "-",
     "normalizedTopSpeed": "-",
+    "normalizedWeight": "1220 kg",
+    "normalizedPwRatio": "0.40 hp/kg",
     "bhp": "485bhp",
     "torque": "--Nm",
     "weight": "1220kg",

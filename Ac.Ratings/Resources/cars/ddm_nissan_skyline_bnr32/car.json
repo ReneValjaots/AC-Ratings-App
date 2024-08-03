@@ -3,6 +3,7 @@
   "brand": "Nissan",
   "year": "1994",
   "author": "ДЯДЯ ДИМА",
+  "class": "street",
   "folderName": "ddm_nissan_skyline_bnr32",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ddm_nissan_skyline_bnr32",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "5.1s",
     "normalizedTorque": "368 Nm",
     "normalizedTopSpeed": "254 km/h",
+    "normalizedWeight": "1500 kg",
+    "normalizedPwRatio": "0.21 hp/kg",
     "bhp": "314 bhp",
     "torque": "368 Nm",
     "weight": "1500 kg",

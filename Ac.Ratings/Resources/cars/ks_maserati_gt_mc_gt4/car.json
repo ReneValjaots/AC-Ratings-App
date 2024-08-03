@@ -3,6 +3,7 @@
   "brand": "Maserati",
   "year": "2016",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_maserati_gt_mc_gt4",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_maserati_gt_mc_gt4",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "535 Nm",
     "normalizedTopSpeed": "-",
+    "normalizedWeight": "1410 kg",
+    "normalizedPwRatio": "0.30 hp/kg",
     "bhp": "430bhp",
     "torque": "535Nm",
     "weight": "1410kg",

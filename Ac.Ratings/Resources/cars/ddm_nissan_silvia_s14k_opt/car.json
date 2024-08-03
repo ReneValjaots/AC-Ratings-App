@@ -3,6 +3,7 @@
   "brand": "Nissan",
   "year": "1996",
   "author": "ДЯДЯ ДИМА",
+  "class": "street",
   "folderName": "ddm_nissan_silvia_s14k_opt",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ddm_nissan_silvia_s14k_opt",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "6.9s",
     "normalizedTorque": "300 Nm",
     "normalizedTopSpeed": "245 km/h",
+    "normalizedWeight": "1240 kg",
+    "normalizedPwRatio": "0.18 hp/kg",
     "bhp": "225 bhp",
     "torque": "300 Nm",
     "weight": "1240 kg",

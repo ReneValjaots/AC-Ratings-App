@@ -3,6 +3,7 @@
   "brand": "Beijing Zhonghua Automobile Manufacturing Co. Ltd.",
   "year": "1994",
   "author": "Snips",
+  "class": "street",
   "folderName": "snp_zhonghua_zidantou_wangan_spec",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\snp_zhonghua_zidantou_wangan_spec",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "20.9s",
     "normalizedTorque": "130 Nm",
     "normalizedTopSpeed": "150 km/h",
+    "normalizedWeight": "800 kg",
+    "normalizedPwRatio": "0.11 hp/kg",
     "bhp": "91 bhp",
     "torque": "130 Nm",
     "weight": "800kg",

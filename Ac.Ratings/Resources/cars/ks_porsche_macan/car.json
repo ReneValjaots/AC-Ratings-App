@@ -3,6 +3,7 @@
   "brand": "Porsche",
   "year": "2014",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_porsche_macan",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_macan",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "4.8s",
     "normalizedTorque": "550 Nm",
     "normalizedTopSpeed": "266 km/h",
+    "normalizedWeight": "1925 kg",
+    "normalizedPwRatio": "0.21 hp/kg",
     "bhp": "400bhp",
     "torque": "550Nm",
     "weight": "1925kg",

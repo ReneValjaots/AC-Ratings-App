@@ -3,6 +3,7 @@
   "brand": "Audi",
   "year": "1989",
   "author": "VRC Modding Team",
+  "class": "race",
   "folderName": "vrc_arc_auriel90_bop",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_arc_auriel90_bop",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "3.0s",
     "normalizedTorque": "609 Nm",
     "normalizedTopSpeed": "290 km/h",
+    "normalizedWeight": "1206 kg",
+    "normalizedPwRatio": "0.50 hp/kg",
     "bhp": "600 bhp",
     "torque": "609 Nm*",
     "weight": "1206kg",

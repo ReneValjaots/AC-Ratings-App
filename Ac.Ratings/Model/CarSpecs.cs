@@ -1,9 +1,10 @@
 ﻿using Ac.Ratings.Services;
 using Newtonsoft.Json;
 using System.ComponentModel;
-using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Text.RegularExpressions;
+using System.Windows.Input;
 
 namespace Ac.Ratings.Model {
     public class CarSpecs : INotifyPropertyChanged {
@@ -18,6 +19,10 @@ namespace Ac.Ratings.Model {
         private string? _normalizedAcceleration;
         private string? _normalizedTorque;
         private string? _normalizedTopSpeed;
+        private string? _normalizedWeight;
+        private string? _normalizedPwRatio;
+        private int _weightValue;
+        private int _hpValue;
 
         [JsonProperty("convertedPower")] public string? ConvertedPower {
             get => _convertedPower;
@@ -43,6 +48,16 @@ namespace Ac.Ratings.Model {
             private set => SetField(ref _normalizedTopSpeed, value);
         }
 
+        [JsonProperty("normalizedWeight")] public string? NormalizedWeight {
+            get => _normalizedWeight;
+            private set => SetField(ref _normalizedWeight, value);
+        }
+
+        [JsonProperty("normalizedPwRatio")] public string? NormalizedPwRatio {
+            get => _normalizedPwRatio;
+            private set => SetField(ref _normalizedPwRatio, value);
+        }
+
         [JsonProperty("bhp")] public string? Bhp {
             get => _bhp;
             set {
@@ -51,6 +66,7 @@ namespace Ac.Ratings.Model {
                         var converter = new PowerConverter(value);
                         ConvertedPower = converter.ConvertedPower;
                         IsManufacturerData = converter.IsManufacturerData;
+                        _hpValue = converter.Hp;
                     }
                 }
             }
@@ -73,7 +89,19 @@ namespace Ac.Ratings.Model {
 
         [JsonProperty("weight")] public string? Weight {
             get => _weight;
-            set => SetField(ref _weight, value);
+            set {
+                if (SetField(ref _weight, value ?? string.Empty)) {
+                    if (!string.IsNullOrEmpty(value)) {
+                        var converter = new WeightConverter(value);
+                        NormalizedWeight = converter.ConvertedWeight;
+                        _weightValue = converter.Weight;
+                    }
+                    else {
+                        NormalizedWeight = "-";
+                    }
+                    UpdatePowerToWeightRatio();
+                }
+            }
         }
 
         [JsonProperty("topspeed")] public string? Topspeed {
@@ -133,6 +161,16 @@ namespace Ac.Ratings.Model {
             sb.AppendLine($"\"acceleration\": \"{Acceleration}\",");
             sb.AppendLine($"\"pwratio\": \"{Pwratio}\"");
             return sb.ToString();
+        }
+
+        private void UpdatePowerToWeightRatio() {
+            if (_hpValue > 0 && _weightValue > 0) {
+                double pwRatio = _hpValue / (double)_weightValue;
+                NormalizedPwRatio = $"{pwRatio:F2} hp/kg";
+            }
+            else {
+                NormalizedPwRatio = "-";
+            }
         }
     }
 }

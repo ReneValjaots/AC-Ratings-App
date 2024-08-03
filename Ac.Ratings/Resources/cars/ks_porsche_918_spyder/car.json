@@ -3,6 +3,7 @@
   "brand": "Porsche",
   "year": "2014",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_porsche_918_spyder",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_918_spyder",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "2.6s",
     "normalizedTorque": "1275 Nm",
     "normalizedTopSpeed": "345 km/h",
+    "normalizedWeight": "1640 kg",
+    "normalizedPwRatio": "0.54 hp/kg",
     "bhp": "887bhp",
     "torque": "1275Nm",
     "weight": "1640kg",

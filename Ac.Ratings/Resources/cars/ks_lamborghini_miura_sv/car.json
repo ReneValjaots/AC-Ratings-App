@@ -3,6 +3,7 @@
   "brand": "Lamborghini",
   "year": "1966",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_lamborghini_miura_sv",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_miura_sv",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "6.5s",
     "normalizedTorque": "400 Nm",
     "normalizedTopSpeed": "300 km/h",
+    "normalizedWeight": "1245 kg",
+    "normalizedPwRatio": "0.31 hp/kg",
     "bhp": "385bhp",
     "torque": "400Nm",
     "weight": "1245kg",

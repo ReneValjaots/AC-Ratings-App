@@ -3,6 +3,7 @@
   "brand": "McLaren",
   "year": "2015",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_mclaren_p1_gtr",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mclaren_p1_gtr",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "2.4s",
     "normalizedTorque": "1000+ Nm",
     "normalizedTopSpeed": "350+ km/h",
+    "normalizedWeight": "1400 kg",
+    "normalizedPwRatio": "0.70 hp/kg",
     "bhp": "986bhp",
     "torque": "1000+Nm",
     "weight": "1400kg",

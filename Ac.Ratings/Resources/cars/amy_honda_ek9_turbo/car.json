@@ -3,6 +3,7 @@
   "brand": "Honda",
   "year": "1998",
   "author": "Seb/Amy",
+  "class": "street",
   "folderName": "amy_honda_ek9_turbo",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\amy_honda_ek9_turbo",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "351 Nm",
     "normalizedTopSpeed": "280 km/h",
+    "normalizedWeight": "1100 kg",
+    "normalizedPwRatio": "0.35 hp/kg",
     "bhp": "380 bhp",
     "torque": "351 Nm",
     "weight": "1100 kg",

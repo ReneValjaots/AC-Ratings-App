@@ -3,6 +3,7 @@
   "brand": "Dodge",
   "year": null,
   "author": "Race Sim Studio",
+  "class": "race",
   "folderName": "rss_gt_vortex_v10",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gt_vortex_v10",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "743 Nm",
     "normalizedTopSpeed": "300 km/h",
+    "normalizedWeight": "1140 kg",
+    "normalizedPwRatio": "0.55 hp/kg",
     "bhp": "631bhp",
     "torque": "743Nm",
     "weight": "1140kg",

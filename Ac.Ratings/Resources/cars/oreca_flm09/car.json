@@ -3,6 +3,7 @@
   "brand": "Oreca Technology",
   "year": "2009",
   "author": "IER Simulations",
+  "class": "LMPC",
   "folderName": "oreca_flm09",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\oreca_flm09",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "636 Nm",
     "normalizedTopSpeed": "300+ km/h",
+    "normalizedWeight": "910 kg",
+    "normalizedPwRatio": "0.56 hp/kg",
     "bhp": "509 bhp",
     "torque": "636 Nm",
     "weight": "910kg",

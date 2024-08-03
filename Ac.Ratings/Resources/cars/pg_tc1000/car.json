@@ -3,6 +3,7 @@
   "brand": "Abarth",
   "year": "1970",
   "author": "Pessio Garage [ Pessio - Abbo90 - Hillclimber96 ]",
+  "class": "race",
   "folderName": "pg_tc1000",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pg_tc1000",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "7.2s",
     "normalizedTorque": "101 Nm",
     "normalizedTopSpeed": "200 km/h",
+    "normalizedWeight": "605 kg",
+    "normalizedPwRatio": "0.19 hp/kg",
     "bhp": "112 bhp",
     "torque": "101 Nm",
     "weight": "605 kg*",

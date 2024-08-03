@@ -3,6 +3,7 @@
   "brand": "Alfa Romeo",
   "year": "1967",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_alfa_33_stradale",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_alfa_33_stradale",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "206 Nm",
     "normalizedTopSpeed": "260 km/h",
+    "normalizedWeight": "700 kg",
+    "normalizedPwRatio": "0.33 hp/kg",
     "bhp": "169kW/230hp",
     "torque": "206Nm",
     "weight": "700kg",

@@ -3,6 +3,7 @@
   "brand": "Chevrolet",
   "year": "1990",
   "author": "Siim Annuk (Some1), aphidgod, A3DR & others",
+  "class": "street",
   "folderName": "some1_corvette_c4_zr1_1990_s1",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\some1_corvette_c4_zr1_1990_s1",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "4.0s",
     "normalizedTorque": "660 Nm",
     "normalizedTopSpeed": "306 km/h",
+    "normalizedWeight": "1405 kg",
+    "normalizedPwRatio": "0.40 hp/kg",
     "bhp": "565 bhp",
     "torque": "660 Nm",
     "weight": "1405 kg",

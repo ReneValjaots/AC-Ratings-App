@@ -3,6 +3,7 @@
   "brand": "Renault",
   "year": "1999",
   "author": "VRC Modding Team",
+  "class": "race",
   "folderName": "vrc_erc_1999_renoir_csp",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_erc_1999_renoir_csp",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "5.0s",
     "normalizedTorque": "273 Nm",
     "normalizedTopSpeed": "275 km/h",
+    "normalizedWeight": "975 kg",
+    "normalizedPwRatio": "0.33 hp/kg",
     "bhp": "320 bhp",
     "torque": "273Nm",
     "weight": "975kg",

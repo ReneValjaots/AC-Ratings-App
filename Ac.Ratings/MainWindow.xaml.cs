@@ -53,13 +53,18 @@ namespace Ac.Ratings {
             Drivetrain.Text = ShowCarDriveTrain(selectedCar);
             Gearbox.Text = ShowCarGearbox(selectedCar);
 
+            var className = selectedCar.Class;
+            if (!string.IsNullOrEmpty(className)) {
+                className = className.ToLower();
+                className = char.ToUpper(className[0]) + className.Substring(1);
+            }
+
             Brand.Text = selectedCar.Brand ?? string.Empty;
-            Power.Text = selectedCar.Specs.Bhp ?? string.Empty;
-            Torque.Text = selectedCar.Specs.Torque ?? string.Empty;
-            Weight.Text = selectedCar.Specs.Weight ?? string.Empty;
-            Topspeed.Text = selectedCar.Specs.Topspeed ?? string.Empty;
-            Acceleration.Text = selectedCar.Specs.Acceleration ?? string.Empty;
-            Pwratio.Text = selectedCar.Specs.Pwratio ?? string.Empty;
+            Year.Text = selectedCar.Year ?? string.Empty;
+            Class.Text = className ?? string.Empty;
+            Author.Text = selectedCar.Author ?? string.Empty;
+            Weight.Text = selectedCar.Specs.NormalizedWeight ?? string.Empty;
+            Pwratio.Text = selectedCar.Specs.NormalizedPwRatio ?? string.Empty;
         }
 
         private void LoadCarImage(Car car) {
@@ -189,6 +194,13 @@ namespace Ac.Ratings {
 
         private bool FilterCarList(object obj) {
             var car = (Car)obj;
+            var searchText = SearchBox.Text.Trim();
+
+            if (searchText.StartsWith("author:", StringComparison.OrdinalIgnoreCase)) {
+                var authorSearch = searchText.Substring("author:".Length).Trim();
+                return car.Author != null && car.Author.Contains(authorSearch, StringComparison.OrdinalIgnoreCase);
+            }
+
             return car.Name.Contains(SearchBox.Text, StringComparison.OrdinalIgnoreCase);
         }
 
@@ -290,9 +302,9 @@ namespace Ac.Ratings {
         private string ShowInductionSystem(Car car) {
             var result = string.Empty;
             return car.Data.TurboCount switch {
-                1 => "single turbo",
-                2 => "twin turbo",
-                _ => "naturally aspirated"
+                1 => "Single turbo",
+                2 => "Twin turbo",
+                _ => "Naturally aspirated"
             };
         }
     }

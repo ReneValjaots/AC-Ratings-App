@@ -3,6 +3,7 @@
   "brand": "Rush Auto Works",
   "year": "2024",
   "author": "Authentic Simulation LLC",
+  "class": "race",
   "folderName": "authentic_2023_rush_sr",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\authentic_2023_rush_sr",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "3.8s",
     "normalizedTorque": "102 Nm",
     "normalizedTopSpeed": "249 km/h",
+    "normalizedWeight": "420 kg",
+    "normalizedPwRatio": "0.35 hp/kg",
     "bhp": "148 bhp",
     "torque": "102 Nm",
     "weight": "420 kg",

@@ -3,6 +3,7 @@
   "brand": "BMW",
   "year": "1999",
   "author": "VRC Modding Team",
+  "class": "race",
   "folderName": "vrc_pt_1999_beamer",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_1999_beamer",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "2.7s",
     "normalizedTorque": "670 Nm",
     "normalizedTopSpeed": "340 km/h",
+    "normalizedWeight": "900 kg",
+    "normalizedPwRatio": "0.64 hp/kg",
     "bhp": "580bhp",
     "torque": "670Nm",
     "weight": "900kg",

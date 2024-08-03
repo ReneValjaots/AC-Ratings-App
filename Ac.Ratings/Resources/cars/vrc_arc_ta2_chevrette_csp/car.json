@@ -3,6 +3,7 @@
   "brand": "Chevrolet",
   "year": "2021",
   "author": "VRC Modding Team",
+  "class": "race",
   "folderName": "vrc_arc_ta2_chevrette_csp",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_arc_ta2_chevrette_csp",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "4.2s",
     "normalizedTorque": "656 Nm",
     "normalizedTopSpeed": "295 km/h",
+    "normalizedWeight": "1200 kg",
+    "normalizedPwRatio": "0.43 hp/kg",
     "bhp": "513 bhp",
     "torque": "656 Nm",
     "weight": "1200 kg",

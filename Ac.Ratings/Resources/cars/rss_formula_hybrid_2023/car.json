@@ -3,6 +3,7 @@
   "brand": "Race Sim Studio",
   "year": "2023",
   "author": "Race Sim Studio",
+  "class": "race",
   "folderName": "rss_formula_hybrid_2023",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_hybrid_2023",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "2.0s",
     "normalizedTorque": "555 Nm",
     "normalizedTopSpeed": "340 km/h",
+    "normalizedWeight": "807 kg",
+    "normalizedPwRatio": "1.23 hp/kg",
     "bhp": "996bhp",
     "torque": "555Nm",
     "weight": "807kg",

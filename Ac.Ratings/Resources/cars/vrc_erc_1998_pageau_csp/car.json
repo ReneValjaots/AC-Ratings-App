@@ -3,6 +3,7 @@
   "brand": "Peugeot",
   "year": "1998",
   "author": "VRC Modding Team",
+  "class": "race",
   "folderName": "vrc_erc_1998_pageau_csp",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_erc_1998_pageau_csp",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "5.0s",
     "normalizedTorque": "269 Nm",
     "normalizedTopSpeed": "275 km/h",
+    "normalizedWeight": "975 kg",
+    "normalizedPwRatio": "0.32 hp/kg",
     "bhp": "314 bhp",
     "torque": "269 Nm",
     "weight": "975 kg",

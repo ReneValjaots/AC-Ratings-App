@@ -3,6 +3,7 @@
   "brand": "Porsche",
   "year": "1970",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_porsche_917_k",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_917_k",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "-",
     "normalizedTopSpeed": "350 km/h",
+    "normalizedWeight": "820 kg",
+    "normalizedPwRatio": "0.73 hp/kg",
     "bhp": "600bhp",
     "torque": "--Nm",
     "weight": "820kg",

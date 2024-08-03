@@ -3,6 +3,7 @@
   "brand": "Lotus Classic Cars",
   "year": "1967",
   "author": "Kunos",
+  "class": "race",
   "folderName": "lotus_49",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_49",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "350 Nm",
     "normalizedTopSpeed": "300+ km/h",
+    "normalizedWeight": "575 kg",
+    "normalizedPwRatio": "0.71 hp/kg",
     "bhp": "410bhp",
     "torque": "350Nm",
     "weight": "575kg",

@@ -4,7 +4,7 @@
         <Style.Setters>
             <Setter Property="Foreground" Value="White"/>
             <Setter Property="Margin" Value="10,0,0,0"/>
-            <Setter Property="FontSize" Value="10"/>
+            <Setter Property="FontSize" Value="12"/>
         </Style.Setters>
     </Style>
 </ResourceDictionary>

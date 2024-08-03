@@ -3,6 +3,7 @@
   "brand": "Aston Martin",
   "year": null,
   "author": "Race Sim Studio",
+  "class": "race",
   "folderName": "rss_gt_adonis_d9_v12",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gt_adonis_d9_v12",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "675 Nm",
     "normalizedTopSpeed": "300 km/h",
+    "normalizedWeight": "1180 kg",
+    "normalizedPwRatio": "0.50 hp/kg",
     "bhp": "585bhp",
     "torque": "675Nm",
     "weight": "1180kg",

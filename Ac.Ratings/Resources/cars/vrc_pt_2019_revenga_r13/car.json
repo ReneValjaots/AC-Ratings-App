@@ -3,6 +3,7 @@
   "brand": "Rebellion Racing",
   "year": "2019",
   "author": "VRC Modding Team",
+  "class": "race",
   "folderName": "vrc_pt_2019_revenga_r13",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_2019_revenga_r13",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "3.0s",
     "normalizedTorque": "720 Nm",
     "normalizedTopSpeed": "339 km/h",
+    "normalizedWeight": "833 kg",
+    "normalizedPwRatio": "0.83 hp/kg",
     "bhp": "693bhp",
     "torque": "720Nm",
     "weight": "833kg",

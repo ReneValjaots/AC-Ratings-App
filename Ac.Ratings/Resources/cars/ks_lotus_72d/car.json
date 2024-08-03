@@ -3,6 +3,7 @@
   "brand": "Lotus Classic Cars",
   "year": "1970",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_lotus_72d",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lotus_72d",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "332 Nm",
     "normalizedTopSpeed": "-",
+    "normalizedWeight": "550 kg",
+    "normalizedPwRatio": "0.80 hp/kg",
     "bhp": "440bhp",
     "torque": "332Nm",
     "weight": "550kg",

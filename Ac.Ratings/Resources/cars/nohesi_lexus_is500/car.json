@@ -3,6 +3,7 @@
   "brand": "Lexus",
   "year": "2024",
   "author": "No hesi, TimTheSpy, Hugo",
+  "class": "street",
   "folderName": "nohesi_lexus_is500",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\nohesi_lexus_is500",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "1055 Nm",
     "normalizedTopSpeed": "300+ km/h",
+    "normalizedWeight": "1724 kg",
+    "normalizedPwRatio": "0.55 hp/kg",
     "bhp": "956 bhp",
     "torque": "1055 Nm",
     "weight": "1724 kg",

@@ -3,6 +3,7 @@
   "brand": "Abarth",
   "year": "1964",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_abarth_595ss",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_abarth_595ss",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "25.8s",
     "normalizedTorque": "44 Nm",
     "normalizedTopSpeed": "124 km/h",
+    "normalizedWeight": "470 kg",
+    "normalizedPwRatio": "0.07 hp/kg",
     "bhp": "24kW/32hp",
     "torque": "44Nm",
     "weight": "470kg",

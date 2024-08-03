@@ -3,6 +3,7 @@
   "brand": "Lotus",
   "year": "2010",
   "author": "Kunos",
+  "class": "race",
   "folderName": "lotus_exos_125",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_exos_125",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "450 Nm",
     "normalizedTopSpeed": "-",
+    "normalizedWeight": "660 kg",
+    "normalizedPwRatio": "0.97 hp/kg",
     "bhp": "640bhp",
     "torque": "450Nm",
     "weight": "660kg",

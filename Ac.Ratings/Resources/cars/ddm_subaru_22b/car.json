@@ -3,6 +3,7 @@
   "brand": "Subaru",
   "year": "1998",
   "author": "ДЯДЯ ДИМА",
+  "class": "street",
   "folderName": "ddm_subaru_22b",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ddm_subaru_22b",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "4.6s",
     "normalizedTorque": "381 Nm",
     "normalizedTopSpeed": "247 km/h",
+    "normalizedWeight": "1270 kg",
+    "normalizedPwRatio": "0.23 hp/kg",
     "bhp": "289 bhp",
     "torque": "381 Nm",
     "weight": "1270 kg",

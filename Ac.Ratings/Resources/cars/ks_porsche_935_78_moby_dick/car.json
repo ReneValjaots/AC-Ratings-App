@@ -3,6 +3,7 @@
   "brand": "Porsche",
   "year": "1978",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_porsche_935_78_moby_dick",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_935_78_moby_dick",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "2.6s",
     "normalizedTorque": "784 Nm",
     "normalizedTopSpeed": "366 km/h",
+    "normalizedWeight": "1025 kg",
+    "normalizedPwRatio": "0.82 hp/kg",
     "bhp": "845bhp",
     "torque": "784Nm",
     "weight": "1025kg",

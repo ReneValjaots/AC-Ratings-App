@@ -3,6 +3,7 @@
   "brand": "Mazda",
   "year": "1990",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_mazda_787b",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mazda_787b",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "608 Nm",
     "normalizedTopSpeed": "340+ km/h",
+    "normalizedWeight": "845 kg",
+    "normalizedPwRatio": "0.82 hp/kg",
     "bhp": "690bhp",
     "torque": "608Nm",
     "weight": "845kg",

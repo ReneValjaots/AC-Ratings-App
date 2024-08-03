@@ -3,6 +3,7 @@
   "brand": "Audi",
   "year": "2013",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_audi_r8_plus",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r8_plus",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "3.5s",
     "normalizedTorque": "540 Nm",
     "normalizedTopSpeed": "317 km/h",
+    "normalizedWeight": "1620 kg",
+    "normalizedPwRatio": "0.34 hp/kg",
     "bhp": "404kW/550hp",
     "torque": "540Nm",
     "weight": "1620kg",

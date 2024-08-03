@@ -3,6 +3,7 @@
   "brand": "Abarth",
   "year": "2008",
   "author": "Kunos",
+  "class": "street",
   "folderName": "abarth500_s1",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\abarth500_s1",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "7.4s",
     "normalizedTorque": "245 Nm",
     "normalizedTopSpeed": "211 km/h",
+    "normalizedWeight": "1025 kg",
+    "normalizedPwRatio": "0.17 hp/kg",
     "bhp": "129kW/175hp",
     "torque": "245Nm",
     "weight": "1025kg",

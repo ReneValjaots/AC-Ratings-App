@@ -3,6 +3,7 @@
   "brand": "Tatuus",
   "year": "2010",
   "author": "Kunos",
+  "class": "race",
   "folderName": "tatuusfa1",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\tatuusfa1",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "230 Nm",
     "normalizedTopSpeed": "230+ km/h",
+    "normalizedWeight": "455 kg",
+    "normalizedPwRatio": "0.44 hp/kg",
     "bhp": "198bhp",
     "torque": "230Nm",
     "weight": "455kg",

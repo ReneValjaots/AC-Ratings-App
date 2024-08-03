@@ -3,6 +3,7 @@
   "brand": "Porsche",
   "year": "1996",
   "author": "Alberto Daniel Russo",
+  "class": "street",
   "folderName": "a3dr_porsche_993_turbo_s2",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_porsche_993_turbo_s2",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "3.4s",
     "normalizedTorque": "648 Nm",
     "normalizedTopSpeed": "321 km/h",
+    "normalizedWeight": "1448 kg",
+    "normalizedPwRatio": "0.34 hp/kg",
     "bhp": "490 bhp",
     "torque": "648 Nm",
     "weight": "1448 kg",

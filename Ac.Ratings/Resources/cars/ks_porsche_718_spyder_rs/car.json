@@ -3,6 +3,7 @@
   "brand": "Porsche",
   "year": "1960",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_porsche_718_spyder_rs",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_718_spyder_rs",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "148 Nm",
     "normalizedTopSpeed": "230 km/h",
+    "normalizedWeight": "580 kg",
+    "normalizedPwRatio": "0.26 hp/kg",
     "bhp": "150bhp",
     "torque": "148Nm",
     "weight": "580kg",

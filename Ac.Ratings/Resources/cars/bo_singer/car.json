@@ -3,6 +3,7 @@
   "brand": "Porsche",
   "year": "2019",
   "author": "Ben O'Bro, Arch",
+  "class": "street",
   "folderName": "bo_singer",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bo_singer",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "427 Nm",
     "normalizedTopSpeed": "-",
+    "normalizedWeight": "1254 kg",
+    "normalizedPwRatio": "0.31 hp/kg",
     "bhp": "390bhp",
     "torque": "427Nm",
     "weight": "1254kg",

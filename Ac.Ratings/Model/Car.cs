@@ -14,6 +14,7 @@ namespace Ac.Ratings.Model {
         private List<string>? _tags;
         private string? _year;
         private string? _author;
+        private string? _class;
 
         [JsonProperty("name")] public string? Name {
             get => _name;
@@ -33,6 +34,11 @@ namespace Ac.Ratings.Model {
         [JsonProperty("author")] public string? Author {
             get => _author;
             set => SetField(ref _author, value);
+        }
+
+        [JsonProperty("class")] public string? Class {
+            get => _class;
+            set => SetField(ref _class, value);
         }
 
         [JsonProperty("folderName")] public string? FolderName {

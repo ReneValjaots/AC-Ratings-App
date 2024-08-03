@@ -3,6 +3,7 @@
   "brand": "Daihatsu",
   "year": "2002",
   "author": "ДЯДЯ ДИМА",
+  "class": "Street",
   "folderName": "ddm_daihatsu_copen_street",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ddm_daihatsu_copen_street",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "6.0s",
     "normalizedTorque": "213 Nm",
     "normalizedTopSpeed": "223 km/h",
+    "normalizedWeight": "830 kg",
+    "normalizedPwRatio": "0.24 hp/kg",
     "bhp": "196 bhp",
     "torque": "213 Nm",
     "weight": "830 kg",

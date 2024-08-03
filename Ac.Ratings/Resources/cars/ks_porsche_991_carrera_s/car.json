@@ -3,6 +3,7 @@
   "brand": "Porsche",
   "year": "2015",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_porsche_991_carrera_s",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_991_carrera_s",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "3.9s",
     "normalizedTorque": "500 Nm",
     "normalizedTopSpeed": "308 km/h",
+    "normalizedWeight": "1515 kg",
+    "normalizedPwRatio": "0.28 hp/kg",
     "bhp": "420bhp",
     "torque": "500Nm",
     "weight": "1515kg",

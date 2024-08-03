@@ -3,6 +3,7 @@
   "brand": "Maserati",
   "year": "2016",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_maserati_levante",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_maserati_levante",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "5.0s",
     "normalizedTorque": "580 Nm",
     "normalizedTopSpeed": "-",
+    "normalizedWeight": "2108 kg",
+    "normalizedPwRatio": "0.20 hp/kg",
     "bhp": "424bhp",
     "torque": "580Nm",
     "weight": "2108kg",

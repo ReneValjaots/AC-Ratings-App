@@ -3,6 +3,7 @@
   "brand": "Lamborghini",
   "year": "1995",
   "author": "Alberto Daniel Russo",
+  "class": "street",
   "folderName": "a3dr_lambo_diablo_se30_jota",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_lambo_diablo_se30_jota",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "3.9s",
     "normalizedTorque": "639 Nm",
     "normalizedTopSpeed": "340 km/h",
+    "normalizedWeight": "1450 kg",
+    "normalizedPwRatio": "0.41 hp/kg",
     "bhp": "595 bhp",
     "torque": "639 Nm",
     "weight": "1450kg",

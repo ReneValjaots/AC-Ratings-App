@@ -3,6 +3,7 @@
   "brand": "Toyota",
   "year": "1985",
   "author": "Jugee8",
+  "class": "street",
   "folderName": "j8_ae86_tuned_coupe",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\j8_ae86_tuned_coupe",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "9.2s",
     "normalizedTorque": "171 Nm",
     "normalizedTopSpeed": "196 km/h",
+    "normalizedWeight": "880 kg",
+    "normalizedPwRatio": "0.19 hp/kg",
     "bhp": "163 bhp",
     "torque": "171 Nm",
     "weight": "880 kg",

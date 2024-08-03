@@ -3,6 +3,7 @@
   "brand": "Toyota",
   "year": "1983",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_toyota_ae86_tuned",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_ae86_tuned",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "206 Nm",
     "normalizedTopSpeed": "-",
+    "normalizedWeight": "900 kg",
+    "normalizedPwRatio": "0.22 hp/kg",
     "bhp": "200bhp",
     "torque": "206Nm",
     "weight": "900kg",

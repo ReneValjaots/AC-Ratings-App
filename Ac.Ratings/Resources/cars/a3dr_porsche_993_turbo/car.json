@@ -3,6 +3,7 @@
   "brand": "Porsche",
   "year": "1995",
   "author": "Alberto Daniel Russo",
+  "class": "street",
   "folderName": "a3dr_porsche_993_turbo",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_porsche_993_turbo",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "3.8s",
     "normalizedTorque": "542 Nm",
     "normalizedTopSpeed": "295 km/h",
+    "normalizedWeight": "1502 kg",
+    "normalizedPwRatio": "0.27 hp/kg",
     "bhp": "403 bhp",
     "torque": "542 Nm",
     "weight": "1502 kg",

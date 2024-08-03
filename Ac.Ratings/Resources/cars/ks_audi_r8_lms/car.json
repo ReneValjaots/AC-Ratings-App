@@ -3,6 +3,7 @@
   "brand": "Audi",
   "year": "2009",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_audi_r8_lms",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r8_lms",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "500+ Nm",
     "normalizedTopSpeed": "-",
+    "normalizedWeight": "1250 kg",
+    "normalizedPwRatio": "0.46 hp/kg",
     "bhp": "419kW/570hp",
     "torque": "500+Nm",
     "weight": "1250kg",

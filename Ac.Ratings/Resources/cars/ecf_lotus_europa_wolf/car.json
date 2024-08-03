@@ -3,6 +3,7 @@
   "brand": "Lotus",
   "year": "1973",
   "author": "Project Enthusia",
+  "class": "street",
   "folderName": "ecf_lotus_europa_wolf",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ecf_lotus_europa_wolf",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "5.4s",
     "normalizedTorque": "227 Nm",
     "normalizedTopSpeed": "256 km/h",
+    "normalizedWeight": "712 kg",
+    "normalizedPwRatio": "0.28 hp/kg",
     "bhp": "198 bhp",
     "torque": "227 Nm",
     "weight": "712 kg",

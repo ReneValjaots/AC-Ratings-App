@@ -3,6 +3,7 @@
   "brand": "Ferrari",
   "year": "1967",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_ferrari_312_67",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_312_67",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "-",
     "normalizedTopSpeed": "-",
+    "normalizedWeight": "548 kg",
+    "normalizedPwRatio": "0.71 hp/kg",
     "bhp": "390bhp",
     "torque": "--Nm",
     "weight": "548kg",

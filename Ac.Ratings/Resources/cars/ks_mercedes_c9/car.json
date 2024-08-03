@@ -3,6 +3,7 @@
   "brand": "Mercedes-Benz",
   "year": "1989",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_mercedes_c9",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mercedes_c9",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "500 Nm",
     "normalizedTopSpeed": "380+ km/h",
+    "normalizedWeight": "905 kg",
+    "normalizedPwRatio": "0.83 hp/kg",
     "bhp": "750+bhp",
     "torque": "500Nm",
     "weight": "905kg",

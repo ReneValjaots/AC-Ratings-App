@@ -3,6 +3,7 @@
   "brand": "AAR",
   "year": "1967",
   "author": "Pessio Garage & abbo90",
+  "class": "race",
   "folderName": "pg_heat",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pg_heat",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "315 Nm",
     "normalizedTopSpeed": "320 km/h",
+    "normalizedWeight": "535 kg",
+    "normalizedPwRatio": "0.78 hp/kg",
     "bhp": "416 bhp",
     "torque": "315 Nm",
     "weight": "535 kg",

@@ -3,6 +3,7 @@
   "brand": "Audi",
   "year": "2014",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_audi_r18_etron_quattro",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r18_etron_quattro",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "2.7s",
     "normalizedTorque": "850+ Nm",
     "normalizedTopSpeed": "330 km/h",
+    "normalizedWeight": "915 kg",
+    "normalizedPwRatio": "0.86 hp/kg",
     "bhp": "580kW/700hp",
     "torque": "850+Nm",
     "weight": "915kg",

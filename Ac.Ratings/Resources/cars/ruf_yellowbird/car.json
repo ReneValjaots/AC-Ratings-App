@@ -3,6 +3,7 @@
   "brand": "RUF",
   "year": "1987",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ruf_yellowbird",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ruf_yellowbird",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "4.0s",
     "normalizedTorque": "553 Nm",
     "normalizedTopSpeed": "342 km/h",
+    "normalizedWeight": "1147 kg",
+    "normalizedPwRatio": "0.41 hp/kg",
     "bhp": "469bhp",
     "torque": "553Nm",
     "weight": "1147kg",

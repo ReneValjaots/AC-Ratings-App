@@ -3,6 +3,7 @@
   "brand": "Audi",
   "year": "2016",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_audi_tt_cup",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_tt_cup",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "4.5s",
     "normalizedTorque": "400+ Nm",
     "normalizedTopSpeed": "239 km/h",
+    "normalizedWeight": "1125 kg",
+    "normalizedPwRatio": "0.28 hp/kg",
     "bhp": "228kW/310hp",
     "torque": "400+Nm",
     "weight": "1125kg",

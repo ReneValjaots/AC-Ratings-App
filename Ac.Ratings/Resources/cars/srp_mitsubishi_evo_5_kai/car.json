@@ -3,6 +3,7 @@
   "brand": "Mitsubishi",
   "year": "2000",
   "author": "SRP",
+  "class": "Street",
   "folderName": "srp_mitsubishi_evo_5_kai",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\srp_mitsubishi_evo_5_kai",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "3.5s",
     "normalizedTorque": "651 Nm",
     "normalizedTopSpeed": "320+ km/h",
+    "normalizedWeight": "1250 kg",
+    "normalizedPwRatio": "0.43 hp/kg",
     "bhp": "536 bhp",
     "torque": "651 Nm",
     "weight": "1250 kg",

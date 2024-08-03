@@ -3,6 +3,7 @@
   "brand": "Ford",
   "year": "1999",
   "author": "VRC Modding Team",
+  "class": "race",
   "folderName": "vrc_erc_1999_fortix_csp",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_erc_1999_fortix_csp",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "5.5s",
     "normalizedTorque": "284 Nm",
     "normalizedTopSpeed": "275 km/h",
+    "normalizedWeight": "975 kg",
+    "normalizedPwRatio": "0.33 hp/kg",
     "bhp": "318 bhp",
     "torque": "284 Nm",
     "weight": "975 kg",

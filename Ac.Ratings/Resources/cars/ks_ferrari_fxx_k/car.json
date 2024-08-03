@@ -3,6 +3,7 @@
   "brand": "Ferrari",
   "year": "2015",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_ferrari_fxx_k",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_fxx_k",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "<3.0s",
     "normalizedTorque": "900+ Nm",
     "normalizedTopSpeed": "350+ km/h",
+    "normalizedWeight": "-",
+    "normalizedPwRatio": "-",
     "bhp": "1050bhp",
     "torque": "900+Nm",
     "weight": "--kg",

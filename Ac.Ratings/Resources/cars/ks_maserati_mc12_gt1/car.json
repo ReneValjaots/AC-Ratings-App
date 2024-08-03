@@ -3,6 +3,7 @@
   "brand": "Maserati",
   "year": "2004",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_maserati_mc12_gt1",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_maserati_mc12_gt1",
   "specs": {
@@ -11,6 +12,8 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "650 Nm",
     "normalizedTopSpeed": "320 km/h",
+    "normalizedWeight": "1100 kg",
+    "normalizedPwRatio": "0.53 hp/kg",
     "bhp": "580bhp",
     "torque": "650Nm",
     "weight": "1100kg",

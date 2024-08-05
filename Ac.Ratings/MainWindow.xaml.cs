@@ -77,20 +77,59 @@ namespace Ac.Ratings {
                 }
 
                 var skinDirectories = Directory.GetDirectories(skinsDirectory);
-                foreach (var skinDir in skinDirectories) {
-                    var previewFilePath = Path.Combine(skinDir, "preview.jpg");
-                    if (File.Exists(previewFilePath)) {
-                        CarImage.Source = new BitmapImage(new Uri(previewFilePath, UriKind.Absolute));
-                        return;
-                    }
-                }
+                PopulateSkinGrid(skinDirectories);
 
-                MessageBox.Show($"Preview image not found for {car.Name}");
+                var previewFilePath = Path.Combine(skinDirectories[0], "preview.jpg");
+                if (File.Exists(previewFilePath)) {
+                    CarImage.Source = new BitmapImage(new Uri(previewFilePath, UriKind.Absolute));
+                }
             }
 
             catch (Exception ex) {
                 MessageBox.Show($"Failed to load image: {ex.Message}");
             }
+        }
+
+        private void PopulateSkinGrid(string[] skinDirectories) {
+            SkinGrid.Children.Clear();
+            SkinGrid.RowDefinitions.Clear();
+            SkinGrid.ColumnDefinitions.Clear();
+
+            const int boxSize = 35;
+            const int boxesPerRow = 25;
+            const int marginSize = 1;
+
+            for (int i = 0; i < boxesPerRow; i++) {
+                SkinGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(boxSize + marginSize) });
+            }
+
+            for (int i = 0; i < skinDirectories.Length; i++) {
+                if (i % boxesPerRow == 0) {
+                    SkinGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(boxSize + marginSize) });
+                }
+
+                var previewFilePath = Path.Combine(skinDirectories[i], "preview.jpg");
+                var liveryFilePath = Path.Combine(skinDirectories[i], "livery.png");
+
+                if (File.Exists(previewFilePath) && File.Exists(liveryFilePath)) {
+                    var image = new Image {
+                        Width = boxSize,
+                        Height = boxSize,
+                        Source = new BitmapImage(new Uri(liveryFilePath, UriKind.Absolute)),
+                        Stretch = System.Windows.Media.Stretch.UniformToFill,
+                    };
+
+                    image.MouseLeftButtonDown += (s, e) => SkinBox_Clicked(previewFilePath);
+
+                    Grid.SetRow(image, i / boxesPerRow);
+                    Grid.SetColumn(image, i % boxesPerRow);
+                    SkinGrid.Children.Add(image);
+                }
+            }
+        }
+
+        private void SkinBox_Clicked(string previewFilePath) {
+            CarImage.Source = new BitmapImage(new Uri(previewFilePath, UriKind.Absolute));
         }
 
         private void SaveRatings() {
@@ -300,12 +339,21 @@ namespace Ac.Ratings {
         }
 
         private string ShowInductionSystem(Car car) {
-            var result = string.Empty;
             return car.Data.TurboCount switch {
                 1 => "Single turbo",
                 2 => "Twin turbo",
                 _ => "Naturally aspirated"
             };
         }
+
+        //private void AuthorFilter_SelectionChanged(object sender, SelectionChangedEventArgs e) {
+        //    CarList.Items.Filter = FilterByAuthor;
+        //}
+
+        //private bool FilterByAuthor(object obj) {
+        //    var car = (Car)obj;
+        //    var authorFilter = AuthorFilter.SelectedItem?.ToString();
+        //    return car.Author.Contains(authorFilter, StringComparison.OrdinalIgnoreCase);
+        //}
     }
 }

@@ -15,8 +15,8 @@
   <ItemGroup>
     <Folder Include="Resources\Backup\" />
     <Folder Include="Resources\cars\" />
-    <Folder Include="View\" />
     <Folder Include="ViewModel\" />
+    <Folder Include="View\" />
   </ItemGroup>
 
   <ItemGroup>

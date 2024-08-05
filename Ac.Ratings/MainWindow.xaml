@@ -13,12 +13,12 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="175"/>
             </Grid.ColumnDefinitions>
 
             <Grid.RowDefinitions>
-                <RowDefinition Height="75"/>
-                <RowDefinition Height="20"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
@@ -61,11 +61,30 @@
                 </ListView.ItemTemplate>
             </ListView>
 
+            <Grid x:Name="SkinGrid" 
+                  Grid.Row="1" 
+                  Grid.Column="1">
+            </Grid>
+
+            <!--FINISH LATER-->
+            <Grid Grid.Row="0" Grid.Column="1">
+                <ComboBox x:Name="AuthorFilter" HorizontalAlignment="Left"
+                          VerticalAlignment="Center"
+                          Width="200"
+                          Margin="10,0,0,0">
+                    <!--SelectionChanged="AuthorFilter_SelectionChanged"-->
+                    <ComboBoxItem Content="Kunos"/>
+                    <ComboBoxItem Content="RSS"/>
+                    <ComboBoxItem Content="Other"/>
+                </ComboBox>
+            </Grid>
+
             <StackPanel Grid.Row="2"
                         Grid.Column="1">
                 <TextBlock x:Name="Name" 
                            Height="25"
-                           HorizontalAlignment="Left"
+                           FontSize="16"
+                           HorizontalAlignment="Center"
                            VerticalAlignment="Center"
                            Margin="10,0,0,0"
                            Foreground="White"/>
@@ -95,7 +114,7 @@
                                 <ColumnDefinition Width="9*"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
-                     
+
                             <TextBlock x:Name="PowerFigures"
                                    Foreground="White"
                                    FontSize="16"
@@ -220,7 +239,7 @@
             </StackPanel>
 
             <StackPanel Grid.Row="2" Grid.Column="2" 
-                        VerticalAlignment="Top" Margin="10">
+                        VerticalAlignment="Top" Margin="0,0,10,0">
 
                 <TextBlock Text="{Binding ElementName=HandlingSlider, 
                     Path=Value, 

@@ -1,5 +1,48 @@
 [
   {
+    "name": "1968 Toyota 415S - Flatnose JGT",
+    "brand": "Toyota",
+    "year": "1968",
+    "author": "Historic Sim Studios",
+    "class": "race",
+    "folderName": "hss_1968_toyota_415S_flatnose",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\hss_1968_toyota_415S_flatnose",
+    "specs": {
+      "convertedPower": "243kW/330hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "300 Nm",
+      "normalizedTopSpeed": "-",
+      "normalizedWeight": "800 kg",
+      "normalizedPwRatio": "0.41 hp/kg",
+      "bhp": "330 bhp",
+      "torque": "300 Nm",
+      "weight": "800 kg",
+      "topspeed": "TBC",
+      "acceleration": "TBC",
+      "pwratio": "2.42 kg/hp"
+    },
+    "tags": [
+      "rwd",
+      "manual"
+    ],
+    "data": {
+      "tractionType": "RWD",
+      "gearsCount": 4,
+      "supportsShifter": true,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
     "name": "Abarth 1000 TC",
     "brand": "Abarth",
     "year": "1970",
@@ -208,9 +251,9 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
-      "realism": 0.0,
+      "handling": 8.0,
+      "physics": 3.0,
+      "realism": 7.0,
       "sound": 0.0,
       "visuals": 0.0,
       "funFactor": 0.0,
@@ -2873,6 +2916,49 @@
     "tags": [
       "#- sequential",
       "#+ fwd"
+    ],
+    "data": {
+      "tractionType": "FWD",
+      "gearsCount": 6,
+      "supportsShifter": false,
+      "turboCount": 1
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Cupra Leon Competición 2024",
+    "brand": "Cupra",
+    "year": "2020",
+    "author": "Fuzo's Workshop",
+    "class": "TCR",
+    "folderName": "fw_cupra_tcr_2024",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\fw_cupra_tcr_2024",
+    "specs": {
+      "convertedPower": "250kW/340hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "5.0s",
+      "normalizedTorque": "420 Nm",
+      "normalizedTopSpeed": "260 km/h",
+      "normalizedWeight": "1190 kg",
+      "normalizedPwRatio": "0.29 hp/kg",
+      "bhp": "340 bhp",
+      "torque": "420 Nm",
+      "weight": "1190 kg",
+      "topspeed": "260 km/h",
+      "acceleration": "5.0s 0-100",
+      "pwratio": "3.5 kg/hp"
+    },
+    "tags": [
+      "fwd",
+      "sequential"
     ],
     "data": {
       "tractionType": "FWD",
@@ -6345,6 +6431,49 @@
     }
   },
   {
+    "name": "Hyundai Elantra N TCR 2024",
+    "brand": "Hyundai",
+    "year": "2020",
+    "author": "Fuzo's Workshop",
+    "class": "TCR",
+    "folderName": "fw_elantra_tcr_2024",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\fw_elantra_tcr_2024",
+    "specs": {
+      "convertedPower": "257kW/350hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "5.0s",
+      "normalizedTorque": "450 Nm",
+      "normalizedTopSpeed": "260 km/h",
+      "normalizedWeight": "1200 kg",
+      "normalizedPwRatio": "0.29 hp/kg",
+      "bhp": "350 bhp",
+      "torque": "450 Nm",
+      "weight": "1200 kg",
+      "topspeed": "260 km/h",
+      "acceleration": "5.0s 0-100",
+      "pwratio": "3.43 kg/hp"
+    },
+    "tags": [
+      "fwd",
+      "sequential"
+    ],
+    "data": {
+      "tractionType": "FWD",
+      "gearsCount": 6,
+      "supportsShifter": false,
+      "turboCount": 1
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
     "name": "IER P13b",
     "brand": "IER",
     "year": "2013",
@@ -6375,6 +6504,49 @@
       "tractionType": null,
       "gearsCount": 0,
       "supportsShifter": false,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Jidé 1600 S",
+    "brand": "Jidé",
+    "year": "1972",
+    "author": "rnoir",
+    "class": "street",
+    "folderName": "jide_1600_s",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\jide_1600_s",
+    "specs": {
+      "convertedPower": "115kW/157hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "6.0s",
+      "normalizedTorque": "167 Nm",
+      "normalizedTopSpeed": "212 km/h",
+      "normalizedWeight": "640 kg",
+      "normalizedPwRatio": "0.25 hp/kg",
+      "bhp": "157 bhp",
+      "torque": "167 Nm",
+      "weight": "640 kg",
+      "topspeed": "212 km/h",
+      "acceleration": "5.96s 0-100, 26.93s 1000m DA 70s Slicks",
+      "pwratio": "4.08 kg/hp"
+    },
+    "tags": [
+      "rwd",
+      "manual"
+    ],
+    "data": {
+      "tractionType": "RWD",
+      "gearsCount": 5,
+      "supportsShifter": true,
       "turboCount": 0
     },
     "ratings": {
@@ -7062,6 +7234,46 @@
     "data": {
       "tractionType": "RWD",
       "gearsCount": 6,
+      "supportsShifter": false,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Lamborghini Revuelto 2024",
+    "brand": "Lamborghini",
+    "year": "2024",
+    "author": "Ceky Performance",
+    "class": "street",
+    "folderName": "cky_lamborghini_revuelto",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\cky_lamborghini_revuelto",
+    "specs": {
+      "convertedPower": "746kW/1015hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "2.5s",
+      "normalizedTorque": "725 Nm",
+      "normalizedTopSpeed": "350 km/h",
+      "normalizedWeight": "1770 kg",
+      "normalizedPwRatio": "0.57 hp/kg",
+      "bhp": "1015 Hp",
+      "torque": "725 Nm",
+      "weight": "1770 kg",
+      "topspeed": "350 km/h",
+      "acceleration": "2.5s 0-100",
+      "pwratio": "1.74 kg/hp"
+    },
+    "tags": [],
+    "data": {
+      "tractionType": "AWD",
+      "gearsCount": 8,
       "supportsShifter": false,
       "turboCount": 0
     },
@@ -9719,6 +9931,49 @@
       "tractionType": "RWD",
       "gearsCount": 6,
       "supportsShifter": false,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Mini Cooper Sport 500",
+    "brand": "Mini",
+    "year": "2000",
+    "author": null,
+    "class": "street",
+    "folderName": "zs_rover_mini_newmap",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\zs_rover_mini_newmap",
+    "specs": {
+      "convertedPower": "46kW/63hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "12.8s",
+      "normalizedTorque": "95 Nm",
+      "normalizedTopSpeed": "148 km/h",
+      "normalizedWeight": "730 kg",
+      "normalizedPwRatio": "0.09 hp/kg",
+      "bhp": "63bhp",
+      "torque": "95Nm",
+      "weight": "730kg",
+      "topspeed": "148km/h",
+      "acceleration": "12.8s 0-100",
+      "pwratio": "11.6 kg/bhp"
+    },
+    "tags": [
+      "fwd",
+      "manual"
+    ],
+    "data": {
+      "tractionType": "FWD",
+      "gearsCount": 4,
+      "supportsShifter": true,
       "turboCount": 0
     },
     "ratings": {
@@ -13847,6 +14102,49 @@
     ],
     "data": {
       "tractionType": "AWD",
+      "gearsCount": 5,
+      "supportsShifter": true,
+      "turboCount": 1
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Suzuki Cappuccino",
+    "brand": "Suzuki",
+    "year": "1994",
+    "author": "wiltse0, supraboy981322",
+    "class": "Street",
+    "folderName": "suzuki_cappuccino_hayabusa_swap_stock",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\suzuki_cappuccino_hayabusa_swap_stock",
+    "specs": {
+      "convertedPower": "46kW/63hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "4.0s",
+      "normalizedTorque": "85 Nm",
+      "normalizedTopSpeed": "136 km/h",
+      "normalizedWeight": "725 kg",
+      "normalizedPwRatio": "0.09 hp/kg",
+      "bhp": "63 bhp",
+      "torque": "85 Nm",
+      "weight": "725 kg*",
+      "topspeed": "136 km/h",
+      "acceleration": "4s 0–100",
+      "pwratio": "11.51 kg/hp"
+    },
+    "tags": [
+      "rwd",
+      "inline 3"
+    ],
+    "data": {
+      "tractionType": "RWD",
       "gearsCount": 5,
       "supportsShifter": true,
       "turboCount": 1

@@ -17,6 +17,8 @@ namespace Ac.Ratings {
         public MainWindow() {
             InitializeComponent();
             _data = new InitializeData();
+            AuthorFilter.ItemsSource = GetDistinctAuthors();
+            AuthorFilter.SelectedIndex = -1;
             CarList.ItemsSource = _data.CarDb;
         }
 
@@ -69,6 +71,11 @@ namespace Ac.Ratings {
 
         private void LoadCarImage(Car car) {
             try {
+                if (string.IsNullOrEmpty(car.FolderPath)) {
+                    MessageBox.Show("Car folder path is null or empty.");
+                    return;
+                }
+
                 var skinsDirectory = Path.Combine(car.FolderPath, "skins");
 
                 if (!Directory.Exists(skinsDirectory)) {
@@ -155,10 +162,18 @@ namespace Ac.Ratings {
 
         private void SaveCarToFile(Car car) {
             try {
-                string carFolderPath = Path.Combine(_data.carsRootFolder, car.FolderName);
-                string carJsonFilePath = Path.Combine(carFolderPath, "car.json");
+                if (string.IsNullOrEmpty(_data.carsRootFolder)) {
+                    MessageBox.Show("Cars root folder path is null or empty.");
+                    return;
+                }
 
-                // Serialize and save the car object to its car.json file
+                if (string.IsNullOrEmpty(car.FolderName)) {
+                    MessageBox.Show($"Folder name for car {car.Name} is null or empty.");
+                    return;
+                }
+
+                var carFolderPath = Path.Combine(_data.carsRootFolder, car.FolderName);
+                var carJsonFilePath = Path.Combine(carFolderPath, "car.json");
                 var jsonContent = JsonConvert.SerializeObject(car, Formatting.Indented);
                 File.WriteAllText(carJsonFilePath, jsonContent);
             }
@@ -169,8 +184,7 @@ namespace Ac.Ratings {
 
         private void ClearRatings() {
             var selectedCar = (Car)CarList.SelectedItem;
-            if (selectedCar != null)
-            {
+            if (selectedCar != null) {
                 ResetRatingValues(selectedCar);
 
                 ResetSliderValues();
@@ -236,11 +250,11 @@ namespace Ac.Ratings {
             var searchText = SearchBox.Text.Trim();
 
             if (searchText.StartsWith("author:", StringComparison.OrdinalIgnoreCase)) {
-                var authorSearch = searchText.Substring("author:".Length).Trim();
+                var authorSearch = searchText["author:".Length..].Trim();
                 return car.Author != null && car.Author.Contains(authorSearch, StringComparison.OrdinalIgnoreCase);
             }
 
-            return car.Name.Contains(SearchBox.Text, StringComparison.OrdinalIgnoreCase);
+            return car.Name != null && car.Name.Contains(SearchBox.Text, StringComparison.OrdinalIgnoreCase);
         }
 
         private void MenuButton_OnClick(object sender, RoutedEventArgs e) {
@@ -284,13 +298,10 @@ namespace Ac.Ratings {
             if (gearsCount == 0)
                 return gearboxFromTags ?? string.Empty;
 
-            if (isManual)
-                return $"{gearsCount}-speed manual";
-
-            if (!isManual)
-                return $"{gearsCount}-speed automatic";
-
-            return string.Empty;
+            return isManual switch {
+                true => $"{gearsCount}-speed manual",
+                false => $"{gearsCount}-speed automatic",
+            };
         }
 
         private string? GetCarEngineData(Car selectedCar) {
@@ -346,14 +357,27 @@ namespace Ac.Ratings {
             };
         }
 
-        //private void AuthorFilter_SelectionChanged(object sender, SelectionChangedEventArgs e) {
-        //    CarList.Items.Filter = FilterByAuthor;
-        //}
+        private bool FilterByAuthor(object obj) {
+            if (obj is Car car) {
+                var selectedAuthor = AuthorFilter.SelectedItem?.ToString();
+                if (string.IsNullOrEmpty(selectedAuthor)) {
+                    return true;
+                }
 
-        //private bool FilterByAuthor(object obj) {
-        //    var car = (Car)obj;
-        //    var authorFilter = AuthorFilter.SelectedItem?.ToString();
-        //    return car.Author.Contains(authorFilter, StringComparison.OrdinalIgnoreCase);
-        //}
+                var carAuthor = car.Author ?? string.Empty;
+
+                return carAuthor.Equals(selectedAuthor, StringComparison.OrdinalIgnoreCase);
+            }
+
+            return false;
+        }
+
+        private List<string> GetDistinctAuthors() {
+            return _data.CarDb.Select(x => x.Author).Where(author => !string.IsNullOrEmpty(author)).Distinct().ToList();
+        }
+
+        private void AuthorFilter_OnSelectionChanged(object sender, SelectionChangedEventArgs e) {
+            CarList.Items.Filter = FilterByAuthor;
+        }
     }
 }

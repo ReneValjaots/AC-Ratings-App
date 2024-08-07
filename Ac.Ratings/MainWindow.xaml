@@ -71,11 +71,9 @@
                 <ComboBox x:Name="AuthorFilter" HorizontalAlignment="Left"
                           VerticalAlignment="Center"
                           Width="200"
-                          Margin="10,0,0,0">
-                    <!--SelectionChanged="AuthorFilter_SelectionChanged"-->
-                    <ComboBoxItem Content="Kunos"/>
-                    <ComboBoxItem Content="RSS"/>
-                    <ComboBoxItem Content="Other"/>
+                          Margin="10,0,0,0"
+                          SelectionChanged="AuthorFilter_OnSelectionChanged"
+                          ItemsSource="{Binding Authors}">
                 </ComboBox>
             </Grid>
 

@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Windows;
 using Ac.Ratings.Model;
 using Newtonsoft.Json;
 
@@ -28,21 +29,41 @@ namespace Ac.Ratings.Services {
         }
 
         private void SaveCarDataToIndividualFiles() {
+            if (string.IsNullOrEmpty(carsRootFolder)) {
+                MessageBox.Show("Cars root folder path is null or empty.");
+                return;
+            }
+
             foreach (var car in CarDb) {
-                string carFolder = Path.Combine(carsRootFolder, car.FolderName);
+                if (string.IsNullOrEmpty(car.FolderName)) {
+                    MessageBox.Show($"Folder name for car {car.Name} is null or empty.");
+                    continue; 
+                }
+
+                var carFolder = Path.Combine(carsRootFolder, car.FolderName);
                 Directory.CreateDirectory(carFolder);
-                string carFilePath = Path.Combine(carFolder, "car.json");
+                var carFilePath = Path.Combine(carFolder, "car.json");
                 File.WriteAllText(carFilePath, JsonConvert.SerializeObject(car, Formatting.Indented));
             }
         }
 
         private void CopyUiFiles() {
             foreach (var car in CarDb) {
-                string sourceFilePath = Path.Combine(car.FolderPath, "ui", "ui_car.json");
+                if (string.IsNullOrEmpty(car.FolderPath)) {
+                    MessageBox.Show($"Folder path for car {car.Name} is null or empty.");
+                    continue;
+                }
+                if (string.IsNullOrEmpty(car.FolderName)) {
+                    MessageBox.Show($"Folder name for car {car.Name} is null or empty.");
+                    continue;
+                }
+
+                var sourceFilePath = Path.Combine(car.FolderPath, "ui", "ui_car.json");
+
                 if (File.Exists(sourceFilePath)) {
-                    string destinationFolderPath = Path.Combine(carsRootFolder, car.FolderName, "RatingsApp");
-                    string destinationFilePath = Path.Combine(destinationFolderPath, "ui_car.json");
-                    Directory.CreateDirectory(destinationFolderPath); // Ensure the directory exists
+                    var destinationFolderPath = Path.Combine(carsRootFolder, car.FolderName, "RatingsApp");
+                    var destinationFilePath = Path.Combine(destinationFolderPath, "ui_car.json");
+                    Directory.CreateDirectory(destinationFolderPath); 
                     File.Copy(sourceFilePath, destinationFilePath, overwrite: true);
                 }
             }
@@ -50,19 +71,21 @@ namespace Ac.Ratings.Services {
 
         private void CreateCarDirectories() {
             foreach (var car in CarDb) {
+                if (string.IsNullOrEmpty(car.FolderName)) {
+                    MessageBox.Show($"Folder name for car {car.Name} is null or empty.");
+                    continue;
+                }
+
                 string carFolder = Path.Combine(carsRootFolder, car.FolderName);
                 string ratingsAppFolder = Path.Combine(carFolder, "RatingsApp");
 
-                // Create directories if they do not exist
                 Directory.CreateDirectory(carFolder);
                 Directory.CreateDirectory(ratingsAppFolder);
 
-                // Define file paths
                 string physicsDataPath = Path.Combine(ratingsAppFolder, "data.json");
                 string uiDataPath = Path.Combine(ratingsAppFolder, "ui.json");
                 string ratingsDataPath = Path.Combine(ratingsAppFolder, "ratings.json");
 
-                // Create JSON files
                 File.WriteAllText(physicsDataPath, JsonConvert.SerializeObject(car.Data, Formatting.Indented));
                 File.WriteAllText(uiDataPath, JsonConvert.SerializeObject(car, Formatting.Indented));
                 File.WriteAllText(ratingsDataPath, JsonConvert.SerializeObject(car.Ratings, Formatting.Indented));

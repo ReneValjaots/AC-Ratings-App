@@ -3,17 +3,33 @@
   "brand": "Porsche",
   "year": "1960",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_porsche_718_spyder_rs",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_718_spyder_rs",
   "specs": {
     "convertedPower": "110kW/150hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "148 Nm",
+    "normalizedTopSpeed": "230 km/h",
+    "normalizedWeight": "580 kg",
+    "normalizedPwRatio": "0.26 hp/kg",
     "bhp": "150bhp",
     "torque": "148Nm",
     "weight": "580kg",
     "topspeed": "230km/h",
     "acceleration": "--s 0-100",
     "pwratio": "3.87 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 5,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#+ rwd",
-    "#- manual"
-  ]
+  }
 }

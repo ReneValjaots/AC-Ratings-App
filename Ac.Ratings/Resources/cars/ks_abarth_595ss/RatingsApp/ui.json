@@ -3,17 +3,34 @@
   "brand": "Abarth",
   "year": "1964",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_abarth_595ss",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_abarth_595ss",
   "specs": {
     "convertedPower": "24kW/32hp",
     "isManufacturerData": true,
+    "normalizedAcceleration": "25.8s",
+    "normalizedTorque": "44 Nm",
+    "normalizedTopSpeed": "124 km/h",
+    "normalizedWeight": "470 kg",
+    "normalizedPwRatio": "0.07 hp/kg",
     "bhp": "24kW/32hp",
     "torque": "44Nm",
     "weight": "470kg",
     "topspeed": "124km/h",
     "acceleration": "25.8s 0-100",
     "pwratio": "19.58 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual",
+    "#! 0.6L & I2"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 4,
+    "supportsShifter": true,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,15 +40,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 4,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#+ rwd",
-    "#- manual",
-    "#! 0.6L & I2"
-  ]
+  }
 }

@@ -3,17 +3,33 @@
   "brand": "Chevrolet",
   "year": "2014",
   "author": "IER Simulations",
+  "class": "Prototype",
   "folderName": "corvette_dp_c",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\corvette_dp_c",
   "specs": {
     "convertedPower": "440kW/598hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "729 Nm",
+    "normalizedTopSpeed": "300+ km/h",
+    "normalizedWeight": "1039 kg",
+    "normalizedPwRatio": "0.58 hp/kg",
     "bhp": "598 bhp",
     "torque": "729 Nm",
     "weight": "1039kg",
     "topspeed": "300+km/h",
-    "acceleration": null,
+    "acceleration": "",
     "pwratio": "1.74 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 6,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd",
-    "#- sequential"
-  ]
+  }
 }

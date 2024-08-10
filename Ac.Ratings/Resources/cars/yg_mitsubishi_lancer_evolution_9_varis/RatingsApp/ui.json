@@ -3,17 +3,30 @@
   "brand": "Mitsubishi",
   "year": "2006",
   "author": "YoikiGarage",
+  "class": "street",
   "folderName": "yg_mitsubishi_lancer_evolution_9_varis",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\yg_mitsubishi_lancer_evolution_9_varis",
   "specs": {
     "convertedPower": "473kW/643hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "4.6s",
+    "normalizedTorque": "812 Nm",
+    "normalizedTopSpeed": "246 km/h",
+    "normalizedWeight": "1415 kg",
+    "normalizedPwRatio": "0.45 hp/kg",
     "bhp": "643 bhp",
     "torque": "812 Nm",
     "weight": "1415 kg",
     "topspeed": "246 km/h",
     "acceleration": "4.55s 0-100",
     "pwratio": "2.2 kg/hp"
+  },
+  "tags": [],
+  "data": {
+    "tractionType": "AWD",
+    "gearsCount": 5,
+    "supportsShifter": true,
+    "turboCount": 1
   },
   "ratings": {
     "handling": 0.0,
@@ -23,11 +36,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "AWD",
-    "gearsCount": 5,
-    "supportsShifter": true
-  },
-  "tags": []
+  }
 }

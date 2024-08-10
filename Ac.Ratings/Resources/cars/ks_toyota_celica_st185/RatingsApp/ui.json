@@ -3,17 +3,33 @@
   "brand": "Toyota",
   "year": "1989",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_toyota_celica_st185",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_celica_st185",
   "specs": {
     "convertedPower": "217kW/295hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "459 Nm",
+    "normalizedTopSpeed": "-",
+    "normalizedWeight": "1045 kg",
+    "normalizedPwRatio": "0.28 hp/kg",
     "bhp": "295bhp",
     "torque": "459Nm",
     "weight": "1045kg",
     "topspeed": "--km/h",
     "acceleration": "--s 0-100",
     "pwratio": "3.54kg/hp"
+  },
+  "tags": [
+    "#- manual",
+    "#+ awd"
+  ],
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 6,
+    "supportsShifter": true,
+    "turboCount": 1
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "AWD2",
-    "gearsCount": 6,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#- manual",
-    "#+ awd"
-  ]
+  }
 }

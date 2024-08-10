@@ -3,17 +3,33 @@
   "brand": "Toyota",
   "year": "1993",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_toyota_supra_mkiv_tuned",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_supra_mkiv_tuned",
   "specs": {
     "convertedPower": "507kW/690hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "756 Nm",
+    "normalizedTopSpeed": "-",
+    "normalizedWeight": "1505 kg",
+    "normalizedPwRatio": "0.46 hp/kg",
     "bhp": "690bhp",
     "torque": "756Nm",
     "weight": "1505kg",
     "topspeed": "--km/h",
     "acceleration": "--s 0-100",
     "pwratio": "2.18kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true,
+    "turboCount": 2
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 6,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#+ rwd",
-    "#- manual"
-  ]
+  }
 }

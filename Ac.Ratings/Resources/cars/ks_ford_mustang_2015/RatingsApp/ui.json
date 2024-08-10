@@ -3,17 +3,32 @@
   "brand": "Ford",
   "year": "2015",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_ford_mustang_2015",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ford_mustang_2015",
   "specs": {
     "convertedPower": "320kW/435hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "4.4s",
+    "normalizedTorque": "542 Nm",
+    "normalizedTopSpeed": "250 km/h",
+    "normalizedWeight": "1680 kg",
+    "normalizedPwRatio": "0.26 hp/kg",
     "bhp": "435bhp",
     "torque": "542Nm",
     "weight": "1680kg",
     "topspeed": "250km/h",
     "acceleration": "4.4s 0-100",
     "pwratio": "3.84kg/hp"
+  },
+  "tags": [
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,13 +38,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 6,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#- manual"
-  ]
+  }
 }

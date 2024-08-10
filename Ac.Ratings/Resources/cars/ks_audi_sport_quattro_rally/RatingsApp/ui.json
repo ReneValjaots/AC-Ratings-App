@@ -3,17 +3,34 @@
   "brand": "Audi",
   "year": "1984",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_audi_sport_quattro_rally",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_sport_quattro_rally",
   "specs": {
     "convertedPower": "440kW/595hp",
     "isManufacturerData": true,
+    "normalizedAcceleration": "3.1s",
+    "normalizedTorque": "590 Nm",
+    "normalizedTopSpeed": "250+ km/h",
+    "normalizedWeight": "1090 kg",
+    "normalizedPwRatio": "0.55 hp/kg",
     "bhp": "440kW/595hp",
     "torque": "590Nm",
     "weight": "1090kg",
     "topspeed": "250+km/h",
     "acceleration": "3.1s 0-100",
     "pwratio": "2.48 kg/hp"
+  },
+  "tags": [
+    "#+ awd",
+    "#- manual",
+    "#! 2.1L & I5"
+  ],
+  "data": {
+    "tractionType": "AWD",
+    "gearsCount": 5,
+    "supportsShifter": true,
+    "turboCount": 1
   },
   "ratings": {
     "handling": 0.0,
@@ -23,15 +40,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "AWD",
-    "gearsCount": 5,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#+ awd",
-    "#- manual",
-    "#! 2.1L & I5"
-  ]
+  }
 }

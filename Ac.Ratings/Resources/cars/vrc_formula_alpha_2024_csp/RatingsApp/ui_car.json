@@ -1,0 +1,214 @@
+{
+  "name": "VRC Formula Alpha 2024 (CSP)",
+  "brand": "VRC",
+  "description": "Formula Alpha 2024:<br><br>VRC proudly presents the Formula Alpha 2024, an evolution of our acclaimed FA 2023 project: With around 1000hp, including 160hp from a refined electric powertrain, and a car weight of 722kg, this machine dominates the track with superior downforce and handling. The Formula Alpha 2024 features an advanced ERS mapper, enhanced setup options, multiple steering wheel configurations, and a highly optimized performance model, pushing the boundaries of realism and immersion.<br><br>This car is using many of the extended physics features and  requires Content Manager (CM) and Custom Shader Patch 0.2.3 (or above) to work properly.<br>Vanilla physics will also be provided, although they might show their limits in some situation (altitude changes for example), we wanted to make sure that even those to decided not board the CSP ship can still be able to drive the car.",
+  "tags": [
+    "rwd",
+    "race",
+    "sequential",
+    "singleseater",
+    "VRC"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "1000 Bhp",
+    "torque": "577 Nm",
+    "weight": "722kg",
+    "topspeed": "355kph",
+    "acceleration": "2.6s",
+    "pwratio": "0.72 kg/hp"
+  },
+  "torqueCurve": [
+    [
+      3500.0,
+      398.15
+    ],
+    [
+      4000.0,
+      426.59
+    ],
+    [
+      4500.0,
+      450.29
+    ],
+    [
+      5000.0,
+      466.4
+    ],
+    [
+      5500.0,
+      491.22
+    ],
+    [
+      6000.0,
+      511.91
+    ],
+    [
+      6500.0,
+      532.69
+    ],
+    [
+      7000.0,
+      546.44
+    ],
+    [
+      7500.0,
+      550.77
+    ],
+    [
+      8000.0,
+      558.12
+    ],
+    [
+      8500.0,
+      568.78
+    ],
+    [
+      9000.0,
+      577.47
+    ],
+    [
+      9750.0,
+      576.8
+    ],
+    [
+      10000.0,
+      575.89
+    ],
+    [
+      10500.0,
+      568.78
+    ],
+    [
+      11000.0,
+      542.28
+    ],
+    [
+      11500.0,
+      514.38
+    ],
+    [
+      11750.0,
+      499.2
+    ],
+    [
+      12000.0,
+      479.91
+    ],
+    [
+      12250.0,
+      452.71
+    ],
+    [
+      12500.0,
+      409.52
+    ],
+    [
+      12750.0,
+      365.25
+    ],
+    [
+      13000.0,
+      284.39
+    ]
+  ],
+  "powerCurve": [
+    [
+      3500.0,
+      196.0
+    ],
+    [
+      4000.0,
+      240.0
+    ],
+    [
+      4500.0,
+      285.0
+    ],
+    [
+      5000.0,
+      328.0
+    ],
+    [
+      5500.0,
+      380.0
+    ],
+    [
+      6000.0,
+      432.0
+    ],
+    [
+      6500.0,
+      487.0
+    ],
+    [
+      7000.0,
+      538.0
+    ],
+    [
+      7500.0,
+      581.0
+    ],
+    [
+      8000.0,
+      628.0
+    ],
+    [
+      8500.0,
+      680.0
+    ],
+    [
+      9000.0,
+      731.0
+    ],
+    [
+      9750.0,
+      791.0
+    ],
+    [
+      10000.0,
+      810.0
+    ],
+    [
+      10500.0,
+      840.0
+    ],
+    [
+      11000.0,
+      839.0
+    ],
+    [
+      11500.0,
+      832.0
+    ],
+    [
+      11750.0,
+      825.0
+    ],
+    [
+      12000.0,
+      810.0
+    ],
+    [
+      12250.0,
+      780.0
+    ],
+    [
+      12500.0,
+      720.0
+    ],
+    [
+      12750.0,
+      655.0
+    ],
+    [
+      13000.0,
+      520.0
+    ]
+  ],
+  "country": null,
+  "author": "VRC Modding Team",
+  "version": "1.1",
+  "url": "www.virtual-racing-cars.com",
+  "year": 2024
+}

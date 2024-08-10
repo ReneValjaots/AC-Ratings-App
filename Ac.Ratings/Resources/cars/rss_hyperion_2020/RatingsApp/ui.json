@@ -3,17 +3,33 @@
   "brand": "Ford",
   "year": "2020",
   "author": "Race Sim Studio",
+  "class": "race",
   "folderName": "rss_hyperion_2020",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_hyperion_2020",
   "specs": {
     "convertedPower": "544kW/740hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "658 Nm",
+    "normalizedTopSpeed": "310+ km/h",
+    "normalizedWeight": "1505 kg",
+    "normalizedPwRatio": "0.49 hp/kg",
     "bhp": "740bhp",
     "torque": "658Nm",
     "weight": "1505kg",
     "topspeed": "310+km/h",
     "acceleration": "--s 0-100",
     "pwratio": "2.04kg/hp"
+  },
+  "tags": [
+    "#- manual",
+    "#+ fwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 4,
+    "supportsShifter": true,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 4,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#- manual",
-    "#+ fwd"
-  ]
+  }
 }

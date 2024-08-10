@@ -68,13 +68,183 @@
 
             <!--FINISH LATER-->
             <Grid Grid.Row="0" Grid.Column="1">
-                <ComboBox x:Name="AuthorFilter" HorizontalAlignment="Left"
-                          VerticalAlignment="Center"
-                          Width="200"
-                          Margin="10,0,0,0"
-                          SelectionChanged="AuthorFilter_OnSelectionChanged"
-                          ItemsSource="{Binding Authors}">
-                </ComboBox>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <ComboBox x:Name="AuthorFilter"
+                              Grid.Column="0"
+                              HorizontalAlignment="Left"
+                              VerticalAlignment="Top"
+                              Width="200"
+                              Margin="10,15,0,0"
+                              SelectionChanged="AuthorFilter_OnSelectionChanged"
+                              ItemsSource="{Binding Authors}"/>
+
+                    <ComboBox Grid.Row="0" 
+                              Grid.Column="1"
+                              x:Name="ClassFilter"
+                              HorizontalAlignment="Left"
+                              VerticalAlignment="Top"
+                              Width="200"
+                              Margin="10,15,0,0"
+                              SelectionChanged="ClassFilter_OnSelectionChanged"
+                              ItemsSource="{Binding Classes}"/>
+
+                    <ComboBox x:Name="RatingsFilter" 
+                              Grid.Column="2"
+                              HorizontalAlignment="Left"
+                              VerticalAlignment="Top"
+                              Width="200"
+                              Margin="10,15,0,0">
+                        <ComboBoxItem>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Grid.Column="0"
+                                           Grid.Row="0"
+                                           Text="{Binding ElementName=HandlingFilter, 
+                                    Path=Value, 
+                                    StringFormat='Handling: {0}'}"/>
+
+                                <Slider x:Name="HandlingFilter" 
+                                        Grid.Column="1"
+                                        Grid.Row="0"
+                                        Minimum="0"
+                                        Maximum="10"
+                                        TickFrequency="1"
+                                        IsSnapToTickEnabled="True"
+                                        Width="150"
+                                        ValueChanged="HandlingFilter_OnValueChanged"/>
+
+                                <TextBlock Grid.Column="0"
+                                           Grid.Row="1"
+                                           Text="{Binding ElementName=PhysicsFilter, 
+                                    Path=Value, 
+                                    StringFormat='Physics: {0}'}"/>
+
+                                <Slider x:Name="PhysicsFilter"
+                                        Grid.Column="1"
+                                        Grid.Row="1"
+                                        Minimum="0"
+                                        Maximum="10"
+                                        TickFrequency="1"
+                                        IsSnapToTickEnabled="True"
+                                        Width="150"
+                                        ValueChanged="PhysicsFilter_OnValueChanged"/>
+
+                                <TextBlock Grid.Column="0"
+                                           Grid.Row="2"
+                                           Text="{Binding ElementName=RealismFilter, 
+                                    Path=Value, 
+                                    StringFormat='Realism: {0}'}" />
+
+                                <Slider x:Name="RealismFilter"
+                                        Grid.Column="1"
+                                        Grid.Row="2"
+                                        Minimum="0"
+                                        Maximum="10"
+                                        TickFrequency="1"
+                                        IsSnapToTickEnabled="True"
+                                        Width="150"
+                                        ValueChanged="RealismFilter_OnValueChanged"/>
+
+                                <TextBlock Grid.Column="0"
+                                           Grid.Row="3"
+                                           Text="{Binding ElementName=SoundFilter, 
+                                    Path=Value, 
+                                    StringFormat='Sound: {0}'}" />
+
+                                <Slider x:Name="SoundFilter"
+                                        Grid.Column="1"
+                                        Grid.Row="3"
+                                        Minimum="0"
+                                        Maximum="10"
+                                        TickFrequency="1"
+                                        IsSnapToTickEnabled="True"
+                                        Width="150"
+                                        ValueChanged="SoundFilter_OnValueChanged"/>
+
+                                <TextBlock Grid.Column="0"
+                                           Grid.Row="4"
+                                           Text="{Binding ElementName=VisualsFilter, 
+                                    Path=Value, 
+                                    StringFormat='Visuals: {0}'}"/>
+
+                                <Slider x:Name="VisualsFilter"
+                                        Grid.Column="1"
+                                        Grid.Row="4"
+                                        Minimum="0"
+                                        Maximum="10"
+                                        TickFrequency="1"
+                                        IsSnapToTickEnabled="True"
+                                        Width="150"
+                                        ValueChanged="VisualsFilter_OnValueChanged"/>
+
+                                <TextBlock Grid.Column="0"
+                                           Grid.Row="5"
+                                           Text="{Binding ElementName=FunFactorFilter, 
+                                    Path=Value, 
+                                    StringFormat='Fun Factor: {0}'}" />
+
+                                <Slider x:Name="FunFactorFilter"
+                                        Grid.Column="1"
+                                        Grid.Row="5"
+                                        Minimum="0"
+                                        Maximum="10"
+                                        TickFrequency="1"
+                                        IsSnapToTickEnabled="True"
+                                        Width="150"
+                                        ValueChanged="FunFactorFilter_OnValueChanged" />
+
+                                <TextBlock Grid.Column="0"
+                                           Grid.Row="6"
+                                           Text="{Binding ElementName=ExtraFeaturesFilter, 
+                                    Path=Value, 
+                                    StringFormat='Extra Features: {0}'}" />
+
+                                <Slider x:Name="ExtraFeaturesFilter"
+                                        Grid.Column="1"
+                                        Grid.Row="6"
+                                        Minimum="0"
+                                        Maximum="10"
+                                        TickFrequency="1"
+                                        IsSnapToTickEnabled="True"
+                                        Width="150"
+                                        ValueChanged="ExtraFeaturesFilter_OnValueChanged" />
+                            </Grid>
+                        </ComboBoxItem>
+                    </ComboBox>
+
+                    <Button x:Name="ResetFilters"
+                            Grid.Column="3"
+                            Content="Reset"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Top"
+                            Width="50"
+                            Margin="10,15,0,0"
+                            Height="{Binding ElementName=AuthorFilter, Path=ActualHeight}"
+                            Click="ResetFilters_Click" />
+                </Grid>
             </Grid>
 
             <StackPanel Grid.Row="2"
@@ -305,6 +475,7 @@
                         TickFrequency="0.5" 
                         IsSnapToTickEnabled="True" 
                         Width="150"
+                        TickPlacement="BottomRight"
                         ValueChanged="Slider_ValueChanged"/>
 
                 <TextBlock Text="{Binding ElementName=FunFactorSlider, 

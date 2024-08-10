@@ -19,6 +19,8 @@ namespace Ac.Ratings {
             _data = new InitializeData();
             AuthorFilter.ItemsSource = GetDistinctAuthors();
             AuthorFilter.SelectedIndex = -1;
+            ClassFilter.ItemsSource = GetDistinctClasses();
+            ClassFilter.SelectedIndex = -1;
             CarList.ItemsSource = _data.CarDb;
         }
 
@@ -58,7 +60,7 @@ namespace Ac.Ratings {
             var className = selectedCar.Class;
             if (!string.IsNullOrEmpty(className)) {
                 className = className.ToLower();
-                className = char.ToUpper(className[0]) + className.Substring(1);
+                className = char.ToUpper(className[0]) + className[1..];
             }
 
             Brand.Text = selectedCar.Brand ?? string.Empty;
@@ -357,27 +359,105 @@ namespace Ac.Ratings {
             };
         }
 
-        private bool FilterByAuthor(object obj) {
+        private bool CombinedFilter(object obj) {
             if (obj is Car car) {
                 var selectedAuthor = AuthorFilter.SelectedItem?.ToString();
-                if (string.IsNullOrEmpty(selectedAuthor)) {
-                    return true;
-                }
+                var selectedClass = ClassFilter.SelectedItem?.ToString();
+                var physicsRatings = PhysicsFilter.Value;
+                var handlingRatings = HandlingFilter.Value;
+                var realismRatings = RealismFilter.Value;
+                var soundRatings = SoundFilter.Value;
+                var visualsRatings = VisualsFilter.Value;
+                var funFactorRatings = FunFactorFilter.Value;
+                var extraFeaturesRatings = ExtraFeaturesFilter.Value;
 
-                var carAuthor = car.Author ?? string.Empty;
+                bool authorMatches = string.IsNullOrEmpty(selectedAuthor) ||
+                                     (car.Author?.Equals(selectedAuthor, StringComparison.OrdinalIgnoreCase) ?? false);
 
-                return carAuthor.Equals(selectedAuthor, StringComparison.OrdinalIgnoreCase);
+            
+                bool classMatches = string.IsNullOrEmpty(selectedClass) ||
+                                    (car.Class?.Equals(selectedClass, StringComparison.OrdinalIgnoreCase) ?? false);
+
+                bool physicsRatingMatches = car.Ratings.Physics >= physicsRatings;
+                bool handlingRatingMatches = car.Ratings.Handling >= handlingRatings;
+                bool realismRatingMatches = car.Ratings.Realism >= realismRatings;
+                bool soundRatingMatches = car.Ratings.Sound >= soundRatings;
+                bool visualsRatingMatches = car.Ratings.Visuals >= visualsRatings;
+                bool funFactorRatingMatches = car.Ratings.FunFactor >= funFactorRatings;
+                bool extraFeaturesRatingMatches = car.Ratings.ExtraFeatures >= extraFeaturesRatings;
+
+
+                return authorMatches && classMatches && physicsRatingMatches && handlingRatingMatches && realismRatingMatches && soundRatingMatches && visualsRatingMatches && funFactorRatingMatches && extraFeaturesRatingMatches;
             }
 
             return false;
         }
 
-        private List<string> GetDistinctAuthors() {
-            return _data.CarDb.Select(x => x.Author).Where(author => !string.IsNullOrEmpty(author)).Distinct().ToList();
+        private List<string?> GetDistinctAuthors() {
+            return _data.CarDb
+                .Select(x => x.Author)
+                .Where(author => !string.IsNullOrEmpty(author))
+                .Distinct()
+                .OrderBy(author => author)
+                .ToList();
+        }
+
+        private List<string?> GetDistinctClasses() {
+            return _data.CarDb
+                .Select(x => x.Class)
+                .Where(x => !string.IsNullOrEmpty(x))
+                .Distinct()
+                .OrderBy(x => x)
+                .ToList();
         }
 
         private void AuthorFilter_OnSelectionChanged(object sender, SelectionChangedEventArgs e) {
-            CarList.Items.Filter = FilterByAuthor;
+            CarList.Items.Filter = CombinedFilter;
+        }
+
+        private void ClassFilter_OnSelectionChanged(object sender, SelectionChangedEventArgs e) {
+            CarList.Items.Filter = CombinedFilter;
+        }
+
+        private void ResetFilters_Click(object sender, RoutedEventArgs e) {
+            AuthorFilter.SelectedItem = null;
+            ClassFilter.SelectedItem = null;
+            PhysicsFilter.Value = 0;
+            HandlingFilter.Value = 0;
+            RealismFilter.Value = 0;
+            SoundFilter.Value = 0;
+            VisualsFilter.Value = 0;
+            FunFactorFilter.Value = 0;
+            ExtraFeaturesFilter.Value = 0;
+            CarList.Items.Filter = null;
+        }
+
+        private void PhysicsFilter_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
+            CarList.Items.Filter = CombinedFilter;
+        }
+
+        private void HandlingFilter_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
+            CarList.Items.Filter = CombinedFilter;
+        }
+
+        private void RealismFilter_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
+            CarList.Items.Filter = CombinedFilter;
+        }
+
+        private void SoundFilter_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
+            CarList.Items.Filter = CombinedFilter;
+        }
+
+        private void VisualsFilter_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
+            CarList.Items.Filter = CombinedFilter;
+        }
+
+        private void FunFactorFilter_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
+            CarList.Items.Filter = CombinedFilter;
+        }
+
+        private void ExtraFeaturesFilter_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
+            CarList.Items.Filter = CombinedFilter;
         }
     }
 }

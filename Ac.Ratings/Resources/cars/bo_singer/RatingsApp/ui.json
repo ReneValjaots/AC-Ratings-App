@@ -3,17 +3,33 @@
   "brand": "Porsche",
   "year": "2019",
   "author": "Ben O'Bro, Arch",
+  "class": "street",
   "folderName": "bo_singer",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bo_singer",
   "specs": {
     "convertedPower": "287kW/390hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "427 Nm",
+    "normalizedTopSpeed": "-",
+    "normalizedWeight": "1254 kg",
+    "normalizedPwRatio": "0.31 hp/kg",
     "bhp": "390bhp",
     "torque": "427Nm",
     "weight": "1254kg",
-    "topspeed": "- km/h",
-    "acceleration": "- s 0–100",
+    "topspeed": "",
+    "acceleration": "",
     "pwratio": "3.22kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 6,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#+ rwd",
-    "#- manual"
-  ]
+  }
 }

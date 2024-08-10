@@ -11,8 +11,8 @@
     "bhp": "390bhp",
     "torque": "427Nm",
     "weight": "1254kg",
-    "topspeed": "",
-    "acceleration": "",
+    "topspeed": null,
+    "acceleration": null,
     "pwratio": "3.22kg/hp"
   },
   "torqueCurve": [

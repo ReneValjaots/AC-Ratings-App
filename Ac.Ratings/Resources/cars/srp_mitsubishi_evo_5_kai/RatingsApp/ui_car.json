@@ -5,7 +5,7 @@
   "tags": [
     "#+ awd"
   ],
-  "class": "Street",
+  "class": "street",
   "specs": {
     "bhp": "536 bhp",
     "torque": "651 Nm",
@@ -355,7 +355,7 @@
     ]
   ],
   "country": "Japan",
-  "author": "SRP",
+  "author": "Shutoko Revival Project",
   "version": "1.1",
   "url": null,
   "year": 2000

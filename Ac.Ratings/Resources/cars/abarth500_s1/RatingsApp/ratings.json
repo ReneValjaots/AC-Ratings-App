@@ -1,7 +1,7 @@
 {
-  "handling": 0.0,
-  "physics": 0.0,
-  "realism": 0.0,
+  "handling": 8.0,
+  "physics": 3.0,
+  "realism": 7.0,
   "sound": 0.0,
   "visuals": 0.0,
   "funFactor": 0.0,

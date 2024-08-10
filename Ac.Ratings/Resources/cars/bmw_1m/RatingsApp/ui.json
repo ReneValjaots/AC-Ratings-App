@@ -3,17 +3,34 @@
   "brand": "BMW",
   "year": "2004",
   "author": "Kunos",
+  "class": "street",
   "folderName": "bmw_1m",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_1m",
   "specs": {
     "convertedPower": "250kW/340hp",
     "isManufacturerData": true,
+    "normalizedAcceleration": "4.9s",
+    "normalizedTorque": "500 Nm",
+    "normalizedTopSpeed": "250+ km/h",
+    "normalizedWeight": "1495 kg",
+    "normalizedPwRatio": "0.23 hp/kg",
     "bhp": "250kW/340hp",
     "torque": "500Nm",
     "weight": "1495kg",
     "topspeed": "250+km/h",
     "acceleration": "4.9s 0-100",
     "pwratio": "5.98 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual",
+    "#! 3.0L & I6"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true,
+    "turboCount": 2
   },
   "ratings": {
     "handling": 0.0,
@@ -23,15 +40,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 6,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#+ rwd",
-    "#- manual",
-    "#! 3.0L & I6 & M TwinPower Turbo"
-  ]
+  }
 }

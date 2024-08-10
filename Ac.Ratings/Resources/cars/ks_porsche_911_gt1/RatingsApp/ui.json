@@ -3,17 +3,33 @@
   "brand": "Porsche",
   "year": "1996",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_porsche_911_gt1",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_gt1",
   "specs": {
     "convertedPower": "441kW/600hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "-",
+    "normalizedTopSpeed": "350 km/h",
+    "normalizedWeight": "950 kg",
+    "normalizedPwRatio": "0.63 hp/kg",
     "bhp": "600bhp",
     "torque": "--Nm",
     "weight": "950kg",
     "topspeed": "350km/h",
     "acceleration": "--s 0-100",
     "pwratio": "1.58 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false,
+    "turboCount": 2
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 6,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd",
-    "#- sequential"
-  ]
+  }
 }

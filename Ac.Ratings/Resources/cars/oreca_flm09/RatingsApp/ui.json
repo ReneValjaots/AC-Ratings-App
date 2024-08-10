@@ -3,17 +3,33 @@
   "brand": "Oreca Technology",
   "year": "2009",
   "author": "IER Simulations",
+  "class": "Prototype",
   "folderName": "oreca_flm09",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\oreca_flm09",
   "specs": {
     "convertedPower": "374kW/509hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "636 Nm",
+    "normalizedTopSpeed": "300+ km/h",
+    "normalizedWeight": "910 kg",
+    "normalizedPwRatio": "0.56 hp/kg",
     "bhp": "509 bhp",
     "torque": "636 Nm",
     "weight": "910kg",
     "topspeed": "300+km/h",
-    "acceleration": null,
+    "acceleration": "",
     "pwratio": "1.79 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 6,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd",
-    "#- sequential"
-  ]
+  }
 }

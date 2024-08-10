@@ -1,0 +1,48 @@
+{
+  "name": "Daihatsu P-5 JGT",
+  "brand": "Daihatsu",
+  "year": "1967",
+  "author": "Historic Sim Studios",
+  "class": "race",
+  "folderName": "hss_1968_daihatsu_p5",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\hss_1968_daihatsu_p5",
+  "specs": {
+    "convertedPower": "101kW/138hp",
+    "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "128 Nm",
+    "normalizedTopSpeed": "-",
+    "normalizedWeight": "510 kg",
+    "normalizedPwRatio": "0.27 hp/kg",
+    "bhp": "138 bhp",
+    "torque": "128 Nm",
+    "weight": "510 kg",
+    "topspeed": "",
+    "acceleration": "",
+    "pwratio": "3.7 kg/hp"
+  },
+  "tags": [
+    "rwd",
+    "race",
+    "can-am",
+    "manual",
+    "Japan",
+    "vintage",
+    "#Vintage GT"
+  ],
+  "data": {
+    "tractionType": null,
+    "gearsCount": 0,
+    "supportsShifter": false,
+    "turboCount": 0
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

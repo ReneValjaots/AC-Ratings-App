@@ -3,17 +3,32 @@
   "brand": "Cadillac",
   "year": "2002",
   "author": "VRC Modding Team",
+  "class": "race",
   "folderName": "vrc_pt_cadenza",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_cadenza",
   "specs": {
     "convertedPower": "450kW/612hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "2.4s",
+    "normalizedTorque": "746 Nm",
+    "normalizedTopSpeed": "325 km/h",
+    "normalizedWeight": "905 kg",
+    "normalizedPwRatio": "0.68 hp/kg",
     "bhp": "612bhp",
     "torque": "746Nm",
     "weight": "905kg",
     "topspeed": "325km/h",
     "acceleration": "2.4s",
     "pwratio": "1.48 kg/hp"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false,
+    "turboCount": 2
   },
   "ratings": {
     "handling": 0.0,
@@ -23,13 +38,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 6,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd"
-  ]
+  }
 }

@@ -3,17 +3,33 @@
   "brand": "Honda",
   "year": "1968",
   "author": "Alberto Daniel Russo",
+  "class": "race",
   "folderName": "a3dr_honda_s800_rsc",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_honda_s800_rsc",
   "specs": {
     "convertedPower": "74kW/100hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "6.1s",
+    "normalizedTorque": "80 Nm",
+    "normalizedTopSpeed": "182 km/h",
+    "normalizedWeight": "660 kg",
+    "normalizedPwRatio": "0.15 hp/kg",
     "bhp": "100bhp",
     "torque": "80Nm",
     "weight": "660kg",
     "topspeed": "182km/h",
     "acceleration": "6.1s 0-100",
     "pwratio": "6.6kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 5,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#+ rwd",
-    "#- manual"
-  ]
+  }
 }

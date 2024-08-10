@@ -3,17 +3,33 @@
   "brand": "Porsche",
   "year": "2015",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_porsche_991_turbo_s",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_991_turbo_s",
   "specs": {
     "convertedPower": "426kW/580hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "2.9s",
+    "normalizedTorque": "750 Nm",
+    "normalizedTopSpeed": "330 km/h",
+    "normalizedWeight": "1600 kg",
+    "normalizedPwRatio": "0.36 hp/kg",
     "bhp": "580bhp",
     "torque": "750Nm",
     "weight": "1600kg",
     "topspeed": "330km/h",
     "acceleration": "2.9s 0-100",
     "pwratio": "2.75kg/hp"
+  },
+  "tags": [
+    "#+ awd",
+    "#- semiautomatic"
+  ],
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 7,
+    "supportsShifter": false,
+    "turboCount": 2
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "AWD2",
-    "gearsCount": 7,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ awd",
-    "#- semiautomatic"
-  ]
+  }
 }

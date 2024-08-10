@@ -12,7 +12,7 @@
     "torque": "365 Nm",
     "weight": "1120 kg",
     "topspeed": "280 km/h",
-    "acceleration": "",
+    "acceleration": null,
     "pwratio": "2.87 kg/hp"
   },
   "torqueCurve": [

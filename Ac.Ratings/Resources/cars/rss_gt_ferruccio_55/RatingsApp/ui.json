@@ -3,17 +3,33 @@
   "brand": "Ferrari",
   "year": null,
   "author": "Race Sim Studio",
+  "class": "race",
   "folderName": "rss_gt_ferruccio_55",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gt_ferruccio_55",
   "specs": {
     "convertedPower": "462kW/628hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "673 Nm",
+    "normalizedTopSpeed": "300 km/h",
+    "normalizedWeight": "1100 kg",
+    "normalizedPwRatio": "0.57 hp/kg",
     "bhp": "628bhp",
     "torque": "673Nm",
     "weight": "1100kg",
     "topspeed": "+300km/h",
     "acceleration": "--s 0-100",
     "pwratio": "1.75kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 6,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd",
-    "#- sequential"
-  ]
+  }
 }

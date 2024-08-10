@@ -3,17 +3,33 @@
   "brand": "Dodge",
   "year": "1995",
   "author": "Alberto Daniel Russo",
+  "class": "street",
   "folderName": "a3dr_viper_rt10",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_viper_rt10",
   "specs": {
     "convertedPower": "294kW/400hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "4.6s",
+    "normalizedTorque": "627 Nm",
+    "normalizedTopSpeed": "266 km/h",
+    "normalizedWeight": "1494 kg",
+    "normalizedPwRatio": "0.27 hp/kg",
     "bhp": "400 bhp",
     "torque": "627 Nm",
     "weight": "1494 kg",
     "topspeed": "266 km/h",
     "acceleration": "4.6 s 0–100",
     "pwratio": "3.74 kg/hp"
+  },
+  "tags": [
+    "#- manual",
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 6,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#- manual",
-    "#+ rwd"
-  ]
+  }
 }

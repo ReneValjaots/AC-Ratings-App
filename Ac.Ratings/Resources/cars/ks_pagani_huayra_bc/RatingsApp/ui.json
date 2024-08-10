@@ -3,17 +3,33 @@
   "brand": "Pagani",
   "year": "2016",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_pagani_huayra_bc",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_pagani_huayra_bc",
   "specs": {
     "convertedPower": "544kW/740hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "1100 Nm",
+    "normalizedTopSpeed": "-",
+    "normalizedWeight": "1218 kg",
+    "normalizedPwRatio": "0.61 hp/kg",
     "bhp": "740bhp",
     "torque": "1100Nm",
     "weight": "1218kg",
     "topspeed": "--km/h",
     "acceleration": "--s 0-100",
     "pwratio": "1.64kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false,
+    "turboCount": 2
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 7,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd",
-    "#- sequential"
-  ]
+  }
 }

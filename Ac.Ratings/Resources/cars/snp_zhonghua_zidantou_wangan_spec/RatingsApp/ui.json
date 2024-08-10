@@ -3,17 +3,33 @@
   "brand": "Beijing Zhonghua Automobile Manufacturing Co. Ltd.",
   "year": "1994",
   "author": "Snips",
+  "class": "street",
   "folderName": "snp_zhonghua_zidantou_wangan_spec",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\snp_zhonghua_zidantou_wangan_spec",
   "specs": {
     "convertedPower": "67kW/91hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "20.9s",
+    "normalizedTorque": "130 Nm",
+    "normalizedTopSpeed": "150 km/h",
+    "normalizedWeight": "800 kg",
+    "normalizedPwRatio": "0.11 hp/kg",
     "bhp": "91 bhp",
     "torque": "130 Nm",
     "weight": "800kg",
     "topspeed": "150 km/h",
     "acceleration": "20.9 sec",
     "pwratio": "8.79 kg/hp"
+  },
+  "tags": [
+    "#- manual",
+    "#+ fwd"
+  ],
+  "data": {
+    "tractionType": "FWD",
+    "gearsCount": 5,
+    "supportsShifter": true,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "FWD",
-    "gearsCount": 5,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#- manual",
-    "#+ fwd"
-  ]
+  }
 }

@@ -1,9 +1,9 @@
 {
-  "handling": 0.0,
-  "physics": 0.0,
-  "realism": 0.0,
-  "sound": 0.0,
-  "visuals": 0.0,
+  "handling": 9.0,
+  "physics": 4.0,
+  "realism": 9.0,
+  "sound": 6.0,
+  "visuals": 2.5,
   "funFactor": 0.0,
   "extraFeatures": 0.0
 }

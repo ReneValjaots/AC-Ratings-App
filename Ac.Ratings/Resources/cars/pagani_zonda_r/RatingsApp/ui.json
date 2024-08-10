@@ -3,17 +3,33 @@
   "brand": "Pagani",
   "year": "2009",
   "author": "Kunos",
+  "class": "race",
   "folderName": "pagani_zonda_r",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pagani_zonda_r",
   "specs": {
     "convertedPower": "551kW/750hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "2.7s",
+    "normalizedTorque": "710 Nm",
+    "normalizedTopSpeed": "350+ km/h",
+    "normalizedWeight": "1070 kg",
+    "normalizedPwRatio": "0.70 hp/kg",
     "bhp": "750bhp",
     "torque": "710Nm",
     "weight": "1070kg",
     "topspeed": "350+km/h",
     "acceleration": "2.7s 0-100",
     "pwratio": "1.43kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 6,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd",
-    "#- sequential"
-  ]
+  }
 }

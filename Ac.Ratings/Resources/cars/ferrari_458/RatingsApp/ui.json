@@ -3,17 +3,33 @@
   "brand": "Ferrari",
   "year": "2011",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ferrari_458",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ferrari_458",
   "specs": {
     "convertedPower": "419kW/570hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "3.3s",
+    "normalizedTorque": "540 Nm",
+    "normalizedTopSpeed": "325+ km/h",
+    "normalizedWeight": "1573 kg",
+    "normalizedPwRatio": "0.36 hp/kg",
     "bhp": "570bhp",
     "torque": "540Nm",
     "weight": "1573kg",
     "topspeed": "325+km/h",
     "acceleration": "3.3s 0-100",
     "pwratio": "2.76kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 7,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd",
-    "#- semiautomatic"
-  ]
+  }
 }

@@ -3,17 +3,30 @@
   "brand": "Ford",
   "year": "1966",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_ford_gt40",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ford_gt40",
   "specs": {
     "convertedPower": "316kW/430hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "530 Nm",
+    "normalizedTopSpeed": "335 km/h",
+    "normalizedWeight": "1025 kg",
+    "normalizedPwRatio": "0.42 hp/kg",
     "bhp": "430bhp",
     "torque": "530Nm",
     "weight": "1025kg",
     "topspeed": "335km/h",
     "acceleration": "--s 0-100",
     "pwratio": "2.38kg/hp"
+  },
+  "tags": [],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,11 +36,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 5,
-    "supportsShifter": true
-  },
-  "tags": []
+  }
 }

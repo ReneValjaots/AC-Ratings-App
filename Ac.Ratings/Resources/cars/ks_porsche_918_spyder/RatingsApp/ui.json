@@ -3,17 +3,33 @@
   "brand": "Porsche",
   "year": "2014",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_porsche_918_spyder",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_918_spyder",
   "specs": {
     "convertedPower": "652kW/887hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "2.6s",
+    "normalizedTorque": "1275 Nm",
+    "normalizedTopSpeed": "345 km/h",
+    "normalizedWeight": "1640 kg",
+    "normalizedPwRatio": "0.54 hp/kg",
     "bhp": "887bhp",
     "torque": "1275Nm",
     "weight": "1640kg",
     "topspeed": "345km/h",
     "acceleration": "2.6s 0-100",
     "pwratio": "1.84kg/hp"
+  },
+  "tags": [
+    "#+ awd",
+    "#- semiautomatic"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 7,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ awd",
-    "#- semiautomatic"
-  ]
+  }
 }

@@ -3,11 +3,17 @@
   "brand": "Porsche",
   "year": "1995",
   "author": "Alberto Daniel Russo",
+  "class": "street",
   "folderName": "a3dr_porsche_993_c4",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\a3dr_porsche_993_c4",
   "specs": {
     "convertedPower": "204kW/278hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "5.2s",
+    "normalizedTorque": "349 Nm",
+    "normalizedTopSpeed": "274 km/h",
+    "normalizedWeight": "1427 kg",
+    "normalizedPwRatio": "0.19 hp/kg",
     "bhp": "278 bhp",
     "torque": "349 Nm",
     "weight": "1427 kg",
@@ -15,21 +21,22 @@
     "acceleration": "5.2 s 0–100",
     "pwratio": "5.13 kg/hp"
   },
+  "tags": [
+    "#+ awd"
+  ],
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 6,
+    "supportsShifter": true,
+    "turboCount": 1
+  },
   "ratings": {
-    "handling": 0.0,
+    "handling": 6.5,
     "physics": 0.0,
     "realism": 0.0,
     "sound": 0.0,
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "AWD2",
-    "gearsCount": 6,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#+ awd"
-  ]
+  }
 }

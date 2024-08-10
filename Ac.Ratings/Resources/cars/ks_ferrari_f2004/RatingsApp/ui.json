@@ -3,17 +3,33 @@
   "brand": "Ferrari",
   "year": "2004",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_ferrari_f2004",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_f2004",
   "specs": {
     "convertedPower": "636kW/865hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "-",
+    "normalizedTopSpeed": "-",
+    "normalizedWeight": "-",
+    "normalizedPwRatio": "-",
     "bhp": "865bhp",
     "torque": "--Nm",
     "weight": "--kg",
     "topspeed": "--km/h",
     "acceleration": "--s 0-100",
     "pwratio": "--kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 7,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd",
-    "#- sequential"
-  ]
+  }
 }

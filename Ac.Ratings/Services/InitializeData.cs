@@ -12,20 +12,14 @@ namespace Ac.Ratings.Services {
         public string carsRootFolder = @"C:\Users\ReneVa\source\repos\Ac.Ratings\Ac.Ratings\Resources\cars\";
 
         public InitializeData() {
-            //if (File.Exists(carDbFilePath)) {
-            //    var jsonContent = File.ReadAllText(carDbFilePath);
-            //    CarDb = JsonConvert.DeserializeObject<List<Car>>(jsonContent);
-            //}
-            //else {
             AccelerationConverter.InitializeLogFile();
             CarDb = ReadDataFromFiles(_acRootFolder);
             OrganizeCarDb();
             SaveCarData(carDbFilePath);
             SaveCarDataToIndividualFiles();
 
-            //CreateCarDirectories();
-            //CopyUiFiles();
-            //}
+            CreateCarDirectories();
+            CopyUiFiles();
         }
 
         private void SaveCarDataToIndividualFiles() {

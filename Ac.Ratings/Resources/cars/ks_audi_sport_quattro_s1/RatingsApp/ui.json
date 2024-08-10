@@ -3,17 +3,34 @@
   "brand": "Audi",
   "year": "1994",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_audi_sport_quattro_s1",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_sport_quattro_s1",
   "specs": {
     "convertedPower": "274kW/373hp",
     "isManufacturerData": true,
+    "normalizedAcceleration": "4.5s",
+    "normalizedTorque": "425 Nm",
+    "normalizedTopSpeed": "272 km/h",
+    "normalizedWeight": "1298 kg",
+    "normalizedPwRatio": "0.29 hp/kg",
     "bhp": "274kW/373hp",
     "torque": "425Nm",
     "weight": "1298kg",
     "topspeed": "272km/h",
     "acceleration": "4.5s 0-100",
     "pwratio": "4.74 kg/hp"
+  },
+  "tags": [
+    "#+ awd",
+    "#- manual",
+    "#! 2.1L & I5"
+  ],
+  "data": {
+    "tractionType": "AWD",
+    "gearsCount": 5,
+    "supportsShifter": true,
+    "turboCount": 1
   },
   "ratings": {
     "handling": 0.0,
@@ -23,15 +40,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "AWD",
-    "gearsCount": 5,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#+ awd",
-    "#- manual",
-    "#! 2.1L & I5"
-  ]
+  }
 }

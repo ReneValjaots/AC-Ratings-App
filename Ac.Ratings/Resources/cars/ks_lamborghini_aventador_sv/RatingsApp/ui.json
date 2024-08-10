@@ -3,17 +3,33 @@
   "brand": "Lamborghini",
   "year": "2011",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_lamborghini_aventador_sv",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_aventador_sv",
   "specs": {
     "convertedPower": "551kW/750hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "2.8s",
+    "normalizedTorque": "690 Nm",
+    "normalizedTopSpeed": "350+ km/h",
+    "normalizedWeight": "1525 kg",
+    "normalizedPwRatio": "0.49 hp/kg",
     "bhp": "750bhp",
     "torque": "690Nm",
     "weight": "1525kg",
     "topspeed": "350+km/h",
     "acceleration": "2.8s 0-100",
     "pwratio": "2.03 kg/hp"
+  },
+  "tags": [
+    "#+ awd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 7,
+    "supportsShifter": false,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "AWD2",
-    "gearsCount": 7,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ awd",
-    "#- sequential"
-  ]
+  }
 }

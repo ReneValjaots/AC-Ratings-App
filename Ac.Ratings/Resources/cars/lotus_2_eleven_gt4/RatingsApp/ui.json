@@ -3,17 +3,33 @@
   "brand": "Lotus",
   "year": "2007",
   "author": "Kunos",
+  "class": "race",
   "folderName": "lotus_2_eleven_gt4",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\lotus_2_eleven_gt4",
   "specs": {
     "convertedPower": "199kW/270hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "3.7s",
+    "normalizedTorque": "252 Nm",
+    "normalizedTopSpeed": "260 km/h",
+    "normalizedWeight": "670 kg",
+    "normalizedPwRatio": "0.40 hp/kg",
     "bhp": "270bhp",
     "torque": "252Nm",
     "weight": "670kg",
     "topspeed": "260km/h",
     "acceleration": "3.7s 0-100",
     "pwratio": "2.48kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 6,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd",
-    "#- sequential"
-  ]
+  }
 }

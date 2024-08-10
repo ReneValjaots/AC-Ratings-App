@@ -1,0 +1,148 @@
+{
+  "name": "Mygale M21-F4",
+  "brand": "Mygale",
+  "description": "The Mygale M21-F4 is an open-wheel formula race car, designed, developed and built by French manufacturer Mygale, for Formula 4 junior categories, since 2021.<br><br><br>7 years after the early days of the FIA Formula 4 category and first generation Formula 4 reveal, Mygale has presented its Formula 4 Generation 2 during the FIA Conference 2021. The single-seater, designed with the same energy and devotion we use to develop open-market racecars, get major upgrades on performance and safety. The second generation of Formula 4 will enter championships worldwide starting 2022.<br><br>New Formula 4 Generation 2 is equipped with an Alpine engine prepared by Oreca, as well as a brand new turbo. The complete package allows for a significant gain in performance. The M21-F4 is now equipped with a Safety Halo, a full-carbon bodywork, and many more driver safety oriented evolutions.<br><br>* Weight includes driver",
+  "tags": [
+    "rwd",
+    "race",
+    "sequential"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "163bhp",
+    "torque": "242Nm",
+    "weight": "599kg",
+    "topspeed": ">230 km/h",
+    "acceleration": "0-100",
+    "pwratio": "3.67kg/hp"
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      196.0
+    ],
+    [
+      1000.0,
+      204.0
+    ],
+    [
+      1500.0,
+      212.0
+    ],
+    [
+      2000.0,
+      219.0
+    ],
+    [
+      2500.0,
+      227.0
+    ],
+    [
+      3000.0,
+      235.0
+    ],
+    [
+      3500.0,
+      242.0
+    ],
+    [
+      4000.0,
+      237.0
+    ],
+    [
+      4500.0,
+      233.0
+    ],
+    [
+      5000.0,
+      223.0
+    ],
+    [
+      5500.0,
+      208.0
+    ],
+    [
+      6000.0,
+      193.0
+    ],
+    [
+      6500.0,
+      178.0
+    ],
+    [
+      7000.0,
+      160.2
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      13.7625836357825
+    ],
+    [
+      1000.0,
+      28.6486434867309
+    ],
+    [
+      1500.0,
+      44.6581795528452
+    ],
+    [
+      2000.0,
+      61.510322780334
+    ],
+    [
+      2500.0,
+      79.6965940133323
+    ],
+    [
+      3000.0,
+      99.0063414614965
+    ],
+    [
+      3500.0,
+      118.948044280692
+    ],
+    [
+      4000.0,
+      133.131931497161
+    ],
+    [
+      4500.0,
+      147.245601450183
+    ],
+    [
+      5000.0,
+      156.58449748875
+    ],
+    [
+      5500.0,
+      160.657098768726
+    ],
+    [
+      6000.0,
+      162.623182145267
+    ],
+    [
+      6500.0,
+      162.482747618371
+    ],
+    [
+      7000.0,
+      157.483278460883
+    ]
+  ],
+  "country": "France",
+  "year": 2024,
+  "author": "Race Sim Studio",
+  "version": "1",
+  "url": "http://www.racesimstudio.com/"
+}

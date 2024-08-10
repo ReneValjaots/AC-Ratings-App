@@ -3,17 +3,32 @@
   "brand": "Ferrari",
   "year": "1990",
   "author": "Race Sim Studio",
+  "class": "race",
   "folderName": "rss_formula_1990",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_1990",
   "specs": {
     "convertedPower": "500kW/680hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "3.0s",
+    "normalizedTorque": "393 Nm",
+    "normalizedTopSpeed": "320 km/h",
+    "normalizedWeight": "503 kg",
+    "normalizedPwRatio": "1.35 hp/kg",
     "bhp": "680bhp",
     "torque": "393Nm",
     "weight": "503kg",
     "topspeed": "+320 km/h",
     "acceleration": "3s 0-100",
     "pwratio": "0.74kg/hp"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,13 +38,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 7,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd"
-  ]
+  }
 }

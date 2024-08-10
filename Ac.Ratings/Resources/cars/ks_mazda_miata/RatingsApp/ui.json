@@ -3,17 +3,33 @@
   "brand": "Mazda",
   "year": "1990",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_mazda_miata",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mazda_miata",
   "specs": {
     "convertedPower": "96kW/130hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "8.8s",
+    "normalizedTorque": "152 Nm",
+    "normalizedTopSpeed": "197+ km/h",
+    "normalizedWeight": "1040 kg",
+    "normalizedPwRatio": "0.12 hp/kg",
     "bhp": "130bhp",
     "torque": "152Nm",
     "weight": "1040kg",
     "topspeed": "197+km/h",
     "acceleration": "8.8s 0-100km/h",
     "pwratio": "8kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 5,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#+ rwd",
-    "#- manual"
-  ]
+  }
 }

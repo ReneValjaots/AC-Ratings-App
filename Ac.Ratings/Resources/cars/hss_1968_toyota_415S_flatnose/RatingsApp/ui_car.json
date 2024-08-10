@@ -1,0 +1,191 @@
+{
+  "name": "Toyota 415S - Flatnose JGT",
+  "brand": "Toyota",
+  "description": "The Toyota 415S was the result of the combined development of Yamaha and Toyota. Yamaha purchased a Ford GT40 and used that as the basis for the 415S&#39; aluminium monocoque chassis design.<br><br>Meanwhile Toyota designed the aluminum-block 2986 cc DOHC V8 engine, the Toyota 61E. The engine produced 330 hp at 8500rpm, with peak torque of 300nm produced at 6400 rpm. Unfortunately, this engine was to be the car&#39;s downfall, as it produced 120hp less then its competitors, the Nissan R381 and the Lola T70, all powered by small block Chevy V8 engines producing around 450hp.<br><br>Despite this lack of power, the car&#39;s excellent reliability and good handling attributes enabled the Toyota racing team&#39;s talented drivers to win 7 Japanese races over the course of the 1968 and 1969 seasons, including the Fuji 1000km, the Suzuka 1000km, and the 12 Hours of Suzuka.",
+  "tags": [
+    "rwd",
+    "manual"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "330 bhp",
+    "torque": "300 Nm",
+    "weight": "800 kg",
+    "topspeed": "TBC",
+    "acceleration": "TBC",
+    "pwratio": "2.42 kg/hp"
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      85.2272727272727
+    ],
+    [
+      3000.0,
+      221.590909090909
+    ],
+    [
+      3500.0,
+      242.045454545455
+    ],
+    [
+      4000.0,
+      259.090909090909
+    ],
+    [
+      4500.0,
+      272.727272727273
+    ],
+    [
+      5000.0,
+      284.090909090909
+    ],
+    [
+      5500.0,
+      293.181818181818
+    ],
+    [
+      6400.0,
+      300.0
+    ],
+    [
+      7000.0,
+      297.727272727273
+    ],
+    [
+      7500.0,
+      294.318181818182
+    ],
+    [
+      8000.0,
+      287.5
+    ],
+    [
+      8500.0,
+      276.136363636364
+    ],
+    [
+      9500.0,
+      232.954545454545
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      95.0,
+      1.19468719937929
+    ],
+    [
+      190.0,
+      2.5045980372774
+    ],
+    [
+      285.0,
+      3.92973251369432
+    ],
+    [
+      380.0,
+      5.47009062863006
+    ],
+    [
+      570.0,
+      8.89647777405798
+    ],
+    [
+      760.0,
+      12.7837594735612
+    ],
+    [
+      950.0,
+      17.1319357271396
+    ],
+    [
+      1140.0,
+      21.9410065347933
+    ],
+    [
+      1425.0,
+      30.018790035165
+    ],
+    [
+      1710.0,
+      39.133586282206
+    ],
+    [
+      2090.0,
+      52.8997788841907
+    ],
+    [
+      2470.0,
+      68.5095497024765
+    ],
+    [
+      2945.0,
+      90.6142950920071
+    ],
+    [
+      5500.0,
+      226.457538861771
+    ],
+    [
+      6400.0,
+      269.642464877271
+    ],
+    [
+      7000.0,
+      292.687192581034
+    ],
+    [
+      7500.0,
+      310.002656264263
+    ],
+    [
+      8000.0,
+      323.009202717565
+    ],
+    [
+      8265.0,
+      326.718143120607
+    ],
+    [
+      8500.0,
+      329.632168089491
+    ],
+    [
+      8645.0,
+      327.653425523268
+    ],
+    [
+      8740.0,
+      326.218739613658
+    ],
+    [
+      8835.0,
+      324.674591247456
+    ],
+    [
+      9025.0,
+      321.257907145271
+    ],
+    [
+      9215.0,
+      317.403373216715
+    ],
+    [
+      9405.0,
+      313.110989461788
+    ],
+    [
+      9500.0,
+      310.800603899435
+    ]
+  ],
+  "year": 1968,
+  "country": "Japan",
+  "author": "Historic Sim Studios",
+  "url": "www.historicsimstudios.com",
+  "version": "1.03"
+}

@@ -3,17 +3,33 @@
   "brand": "Porsche",
   "year": "2016",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_porsche_panamera",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_panamera",
   "specs": {
     "convertedPower": "404kW/550hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "3.6s",
+    "normalizedTorque": "770 Nm",
+    "normalizedTopSpeed": "306 km/h",
+    "normalizedWeight": "2070 kg",
+    "normalizedPwRatio": "0.27 hp/kg",
     "bhp": "550bhp",
     "torque": "770Nm",
     "weight": "2070kg",
     "topspeed": "306km/h",
     "acceleration": "3.6s 0-100",
     "pwratio": "3.76kg/hp"
+  },
+  "tags": [
+    "#+ awd",
+    "#- semiautomatic"
+  ],
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 8,
+    "supportsShifter": false,
+    "turboCount": 2
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "AWD2",
-    "gearsCount": 8,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ awd",
-    "#- semiautomatic"
-  ]
+  }
 }

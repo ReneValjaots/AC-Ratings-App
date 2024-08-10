@@ -3,17 +3,33 @@
   "brand": "Ferrari",
   "year": "2015",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_ferrari_fxx_k",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_fxx_k",
   "specs": {
     "convertedPower": "772kW/1050hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "<3.0s",
+    "normalizedTorque": "900+ Nm",
+    "normalizedTopSpeed": "350+ km/h",
+    "normalizedWeight": "-",
+    "normalizedPwRatio": "-",
     "bhp": "1050bhp",
     "torque": "900+Nm",
     "weight": "--kg",
     "topspeed": "350+km/h",
     "acceleration": "<3.0s 0-100",
     "pwratio": "--kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 7,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd",
-    "#- sequential"
-  ]
+  }
 }

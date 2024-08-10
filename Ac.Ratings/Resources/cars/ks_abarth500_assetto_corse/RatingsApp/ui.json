@@ -3,11 +3,17 @@
   "brand": "Abarth",
   "year": "2014",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_abarth500_assetto_corse",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_abarth500_assetto_corse",
   "specs": {
     "convertedPower": "140kW/190hp",
     "isManufacturerData": true,
+    "normalizedAcceleration": "<7.0s",
+    "normalizedTorque": "302 Nm",
+    "normalizedTopSpeed": "225 km/h",
+    "normalizedWeight": "930 kg",
+    "normalizedPwRatio": "0.20 hp/kg",
     "bhp": "140kW/190hp",
     "torque": "302Nm",
     "weight": "930kg",
@@ -15,23 +21,24 @@
     "acceleration": "<7s 0-100",
     "pwratio": "6.64 kg/hp"
   },
-  "ratings": {
-    "handling": 0.0,
-    "physics": 0.0,
-    "realism": 0.0,
-    "sound": 0.0,
-    "visuals": 0.0,
-    "funFactor": 0.0,
-    "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "FWD",
-    "gearsCount": 6,
-    "supportsShifter": true
-  },
   "tags": [
     "#! 1.4L & I4",
     "#- manual",
     "#+ fwd"
-  ]
+  ],
+  "data": {
+    "tractionType": "FWD",
+    "gearsCount": 6,
+    "supportsShifter": true,
+    "turboCount": 1
+  },
+  "ratings": {
+    "handling": 9.0,
+    "physics": 0.0,
+    "realism": 7.5,
+    "sound": 3.5,
+    "visuals": 6.0,
+    "funFactor": 9.5,
+    "extraFeatures": 3.5
+  }
 }

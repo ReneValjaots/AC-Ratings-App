@@ -3,17 +3,33 @@
   "brand": "BMW",
   "year": "2015",
   "author": "Kunos",
+  "class": "street",
   "folderName": "bmw_m3_e92",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e92",
   "specs": {
     "convertedPower": "304kW/414hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "4.3s",
+    "normalizedTorque": "400 Nm",
+    "normalizedTopSpeed": "250+ km/h",
+    "normalizedWeight": "1605 kg",
+    "normalizedPwRatio": "0.26 hp/kg",
     "bhp": "414bhp",
     "torque": "400Nm",
     "weight": "1605kg",
     "topspeed": "250+km/h",
     "acceleration": "4.3s 0-100",
     "pwratio": "3.87kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 7,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd",
-    "#- semiautomatic"
-  ]
+  }
 }

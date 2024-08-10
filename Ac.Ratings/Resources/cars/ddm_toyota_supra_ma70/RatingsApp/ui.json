@@ -2,18 +2,33 @@
   "name": "Toyota Supra 3.0GT Turbo A",
   "brand": "Toyota",
   "year": "1988",
-  "author": null,
+  "author": "ДЯДЯ ДИМА",
+  "class": "Street",
   "folderName": "ddm_toyota_supra_ma70",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ddm_toyota_supra_ma70",
   "specs": {
     "convertedPower": "196kW/267hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "6.3s",
+    "normalizedTorque": "358 Nm",
+    "normalizedTopSpeed": "255 km/h",
+    "normalizedWeight": "1540 kg",
+    "normalizedPwRatio": "0.17 hp/kg",
     "bhp": "267 bhp",
     "torque": "358 Nm",
     "weight": "1540 kg",
     "topspeed": "255 km/h",
     "acceleration": "6.3s 0-100",
     "pwratio": "5.77 kg/hp"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true,
+    "turboCount": 1
   },
   "ratings": {
     "handling": 0.0,
@@ -23,13 +38,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 5,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#+ rwd"
-  ]
+  }
 }

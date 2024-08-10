@@ -1,5 +1,6 @@
 {
   "tractionType": "AWD2",
   "gearsCount": 5,
-  "supportsShifter": true
+  "supportsShifter": true,
+  "turboCount": 1
 }

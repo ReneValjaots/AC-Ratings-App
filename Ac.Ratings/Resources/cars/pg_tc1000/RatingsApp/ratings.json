@@ -1,8 +1,8 @@
 {
-  "handling": 0.0,
-  "physics": 0.0,
-  "realism": 0.0,
-  "sound": 0.0,
+  "handling": 8.5,
+  "physics": 5.0,
+  "realism": 8.5,
+  "sound": 5.5,
   "visuals": 0.0,
   "funFactor": 0.0,
   "extraFeatures": 0.0

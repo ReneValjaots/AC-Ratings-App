@@ -3,17 +3,33 @@
   "brand": "Toyota",
   "year": "1983",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_toyota_ae86",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_ae86",
   "specs": {
     "convertedPower": "90kW/122hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "9.2s",
+    "normalizedTorque": "142 Nm",
+    "normalizedTopSpeed": "196 km/h",
+    "normalizedWeight": "925 kg",
+    "normalizedPwRatio": "0.13 hp/kg",
     "bhp": "122bhp",
     "torque": "142Nm",
     "weight": "925kg",
     "topspeed": "196km/h",
     "acceleration": "9.2s 0-100",
     "pwratio": "7.58kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 5,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#+ rwd",
-    "#- manual"
-  ]
+  }
 }

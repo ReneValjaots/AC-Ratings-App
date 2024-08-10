@@ -3,17 +3,33 @@
   "brand": "McLaren",
   "year": "1995",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_mclaren_f1_gtr",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mclaren_f1_gtr",
   "specs": {
     "convertedPower": "437kW/595hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "693 Nm",
+    "normalizedTopSpeed": "330+ km/h",
+    "normalizedWeight": "1010 kg",
+    "normalizedPwRatio": "0.59 hp/kg",
     "bhp": "595bhp",
     "torque": "693Nm",
     "weight": "1010kg",
     "topspeed": "330+km/h",
     "acceleration": "--s 0-100",
     "pwratio": "1.69kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 6,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#+ rwd",
-    "#- manual"
-  ]
+  }
 }

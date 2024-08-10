@@ -3,17 +3,33 @@
   "brand": "Ferrari",
   "year": "1987",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ferrari_f40_s3",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ferrari_f40_s3",
   "specs": {
     "convertedPower": "449kW/610hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "715 Nm",
+    "normalizedTopSpeed": "-",
+    "normalizedWeight": "1175 kg",
+    "normalizedPwRatio": "0.52 hp/kg",
     "bhp": "610+bhp",
     "torque": "715Nm",
     "weight": "1175kg",
     "topspeed": "--km/h",
     "acceleration": "--s 0-100",
     "pwratio": "1.93kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true,
+    "turboCount": 2
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 5,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#+ rwd",
-    "#- manual"
-  ]
+  }
 }

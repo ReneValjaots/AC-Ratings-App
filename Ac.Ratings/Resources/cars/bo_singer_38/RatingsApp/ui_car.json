@@ -11,8 +11,8 @@
     "bhp": "300bhp",
     "torque": "355Nm",
     "weight": "1254kg",
-    "topspeed": "",
-    "acceleration": "",
+    "topspeed": null,
+    "acceleration": null,
     "pwratio": "4.18kg/hp"
   },
   "torqueCurve": [

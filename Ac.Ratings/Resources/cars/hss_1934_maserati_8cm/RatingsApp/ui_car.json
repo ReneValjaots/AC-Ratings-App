@@ -1,0 +1,181 @@
+{
+  "name": "Maserati 8CM",
+  "brand": "Maserati",
+  "description": "The 1934 Maserati 8CM was powered by a 3.0-liter supercharged straight-eight engine that could produce up to 240 horsepower. The car had a top speed of around 155 miles per hour and could go from 0 to 60 miles per hour in just over 6 seconds. It featured a 400mm drum brake on each wheel and a lightweight chassis which gave it rather pleasant handling characteristics. The car debuted in 1933 and won the 1933 Belgian GP. However, in 1934 the car would be outshone by the silver arrows as the 8CM did not have the horsepower or luck necessary to bring home a victory in 1934, although it was competitive throughout the season.",
+  "tags": [
+    "Italy",
+    "Pre-War",
+    "#GP750kg",
+    "singleseater"
+  ],
+  "class": "Grand Prix 750kg",
+  "specs": {
+    "bhp": "240 bhp",
+    "torque": "320 Nm",
+    "weight": "750 kg",
+    "topspeed": "250 km/h",
+    "acceleration": "6.5s 0-100",
+    "pwratio": "3.12 kg/hp"
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      101.149425287356
+    ],
+    [
+      61.1,
+      108.544938562157
+    ],
+    [
+      122.2,
+      113.824186625674
+    ],
+    [
+      2000.0,
+      245.918797799646
+    ],
+    [
+      2500.0,
+      279.034482758621
+    ],
+    [
+      3000.0,
+      293.396551724138
+    ],
+    [
+      3500.0,
+      305.706896551724
+    ],
+    [
+      4000.0,
+      315.965517241379
+    ],
+    [
+      4500.0,
+      320.068965517241
+    ],
+    [
+      5000.0,
+      315.965517241379
+    ],
+    [
+      5500.0,
+      309.810344827586
+    ],
+    [
+      5800.0,
+      294.422413793103
+    ],
+    [
+      6000.0,
+      264.672413793103
+    ],
+    [
+      6110.0,
+      237.589655172414
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      61.1,
+      0.931403460569457
+    ],
+    [
+      183.3,
+      3.04075470228516
+    ],
+    [
+      305.5,
+      5.43673667635978
+    ],
+    [
+      427.7,
+      8.12776838847535
+    ],
+    [
+      549.9,
+      11.1138498386319
+    ],
+    [
+      733.2,
+      16.1461902726934
+    ],
+    [
+      916.5,
+      21.842392617347
+    ],
+    [
+      1160.9,
+      30.4700031600285
+    ],
+    [
+      1405.3,
+      40.2778126548738
+    ],
+    [
+      1710.8,
+      54.1972292999107
+    ],
+    [
+      2138.5,
+      76.6113093950197
+    ],
+    [
+      2500.0,
+      97.9681584854023
+    ],
+    [
+      4000.0,
+      177.495251844141
+    ],
+    [
+      4500.0,
+      202.275433108095
+    ],
+    [
+      5000.0,
+      221.869064805176
+    ],
+    [
+      5500.0,
+      239.301634182725
+    ],
+    [
+      5560.1,
+      239.50939864209
+    ],
+    [
+      5621.2,
+      239.667275554091
+    ],
+    [
+      5682.3,
+      239.771367803013
+    ],
+    [
+      5743.4,
+      239.821675388855
+    ],
+    [
+      5800.0,
+      239.820289139413
+    ],
+    [
+      6000.0,
+      223.021631375592
+    ],
+    [
+      6110.0,
+      203.871161524837
+    ]
+  ],
+  "country": "Italy",
+  "author": "Historic Sim Studios",
+  "url": "historicsimstudios.com",
+  "year": 1934,
+  "version": "1.1"
+}

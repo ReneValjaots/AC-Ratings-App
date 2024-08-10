@@ -3,17 +3,33 @@
   "brand": "McLaren",
   "year": "2015",
   "author": "Kunos",
+  "class": "street",
   "folderName": "ks_mclaren_p1_gtr",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mclaren_p1_gtr",
   "specs": {
     "convertedPower": "725kW/986hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "2.4s",
+    "normalizedTorque": "1000+ Nm",
+    "normalizedTopSpeed": "350+ km/h",
+    "normalizedWeight": "1400 kg",
+    "normalizedPwRatio": "0.70 hp/kg",
     "bhp": "986bhp",
     "torque": "1000+Nm",
     "weight": "1400kg",
     "topspeed": "350+km/h",
     "acceleration": "2.4s 0-100",
     "pwratio": "1.41kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- semiautomatic"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false,
+    "turboCount": 2
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 7,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd",
-    "#- semiautomatic"
-  ]
+  }
 }

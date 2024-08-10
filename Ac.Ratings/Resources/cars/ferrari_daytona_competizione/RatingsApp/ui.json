@@ -1,0 +1,48 @@
+{
+  "name": "Ferrari 365 GTB/4 Daytona Competizione",
+  "brand": "Ferrari",
+  "year": "1972",
+  "author": "Pessio Garage",
+  "class": "race",
+  "folderName": "ferrari_daytona_competizione",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ferrari_daytona_competizione",
+  "specs": {
+    "convertedPower": "316kW/430hp",
+    "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "461 Nm",
+    "normalizedTopSpeed": "300 km/h",
+    "normalizedWeight": "1200 kg",
+    "normalizedPwRatio": "0.36 hp/kg",
+    "bhp": "430hp",
+    "torque": "461Nm",
+    "weight": "1200 kg",
+    "topspeed": "300 km/h",
+    "acceleration": "",
+    "pwratio": "2.79kg/cv"
+  },
+  "tags": [
+    "rwd",
+    "manual",
+    "vintage",
+    "race",
+    "historic",
+    "italy",
+    "gr4"
+  ],
+  "data": {
+    "tractionType": null,
+    "gearsCount": 0,
+    "supportsShifter": false,
+    "turboCount": 0
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

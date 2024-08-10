@@ -3,17 +3,33 @@
   "brand": "Dallara",
   "year": "2017",
   "author": "Race Sim Studio",
+  "class": "race",
   "folderName": "rss_formula_rss_2_v8",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_rss_2_v8",
   "specs": {
     "convertedPower": "450kW/612hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "2.6s",
+    "normalizedTorque": "500 Nm",
+    "normalizedTopSpeed": "320 km/h",
+    "normalizedWeight": "688 kg",
+    "normalizedPwRatio": "0.89 hp/kg",
     "bhp": "612bhp",
     "torque": "500Nm",
     "weight": "688kg",
     "topspeed": "320 km/h",
     "acceleration": "2.6s 0-100",
     "pwratio": "1.13kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 6,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd",
-    "#- sequential"
-  ]
+  }
 }

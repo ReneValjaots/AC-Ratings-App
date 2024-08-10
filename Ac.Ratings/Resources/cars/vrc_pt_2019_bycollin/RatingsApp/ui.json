@@ -3,17 +3,32 @@
   "brand": "ByKolles Racing",
   "year": "2019",
   "author": "VRC Modding Team",
+  "class": "race",
   "folderName": "vrc_pt_2019_bycollin",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_2019_bycollin",
   "specs": {
     "convertedPower": "510kW/693hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "2.8s",
+    "normalizedTorque": "720 Nm",
+    "normalizedTopSpeed": "333 km/h",
+    "normalizedWeight": "833 kg",
+    "normalizedPwRatio": "0.83 hp/kg",
     "bhp": "693bhp",
     "torque": "720Nm",
     "weight": "833Kg",
     "topspeed": "333Kph",
     "acceleration": "2.79s",
     "pwratio": "1.2 kg/hp"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,13 +38,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 7,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd"
-  ]
+  }
 }

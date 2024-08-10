@@ -3,11 +3,17 @@
   "brand": "Abarth",
   "year": "2008",
   "author": "Kunos",
+  "class": "street",
   "folderName": "abarth500",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\abarth500",
   "specs": {
     "convertedPower": "118kW/160hp",
     "isManufacturerData": true,
+    "normalizedAcceleration": "7.4s",
+    "normalizedTorque": "230 Nm",
+    "normalizedTopSpeed": "211 km/h",
+    "normalizedWeight": "1025 kg",
+    "normalizedPwRatio": "0.16 hp/kg",
     "bhp": "118kW/160hp",
     "torque": "230Nm",
     "weight": "1025kg",
@@ -15,23 +21,24 @@
     "acceleration": "7.4s 0-100",
     "pwratio": "8.69 kg/hp"
   },
-  "ratings": {
-    "handling": 0.0,
-    "physics": 0.0,
-    "realism": 0.0,
-    "sound": 0.0,
-    "visuals": 0.0,
-    "funFactor": 0.0,
-    "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "FWD",
-    "gearsCount": 5,
-    "supportsShifter": true
-  },
   "tags": [
     "#- manual",
     "#+ fwd",
     "#! 1.4L & I4"
-  ]
+  ],
+  "data": {
+    "tractionType": "FWD",
+    "gearsCount": 5,
+    "supportsShifter": true,
+    "turboCount": 1
+  },
+  "ratings": {
+    "handling": 9.0,
+    "physics": 4.0,
+    "realism": 9.0,
+    "sound": 6.0,
+    "visuals": 2.5,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
 }

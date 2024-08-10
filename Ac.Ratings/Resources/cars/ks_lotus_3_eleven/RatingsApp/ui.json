@@ -3,17 +3,33 @@
   "brand": "Lotus",
   "year": "2015",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_lotus_3_eleven",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lotus_3_eleven",
   "specs": {
     "convertedPower": "338kW/460hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "2.9s",
+    "normalizedTorque": "525 Nm",
+    "normalizedTopSpeed": "290 km/h",
+    "normalizedWeight": "890 kg",
+    "normalizedPwRatio": "0.52 hp/kg",
     "bhp": "460bhp",
     "torque": "525Nm",
     "weight": "890kg",
     "topspeed": "290km/h",
     "acceleration": "2.9s 0-100",
     "pwratio": "1.93kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 6,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd",
-    "#- sequential"
-  ]
+  }
 }

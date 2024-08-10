@@ -3,17 +3,33 @@
   "brand": "Mercedes-Benz",
   "year": "1997",
   "author": "United Racing Design",
+  "class": "race",
   "folderName": "urd_maures_gtr_97",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_maures_gtr_97",
   "specs": {
     "convertedPower": "434kW/590hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "700 Nm",
+    "normalizedTopSpeed": "330+ km/h",
+    "normalizedWeight": "1000 kg",
+    "normalizedPwRatio": "0.59 hp/kg",
     "bhp": "590 bhp",
     "torque": "700 Nm",
     "weight": "1000 kg",
     "topspeed": "330+km/h",
-    "acceleration": null,
+    "acceleration": "",
     "pwratio": "1.69 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 6,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd",
-    "#- sequential"
-  ]
+  }
 }

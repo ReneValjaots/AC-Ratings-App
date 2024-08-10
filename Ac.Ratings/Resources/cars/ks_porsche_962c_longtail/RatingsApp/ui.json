@@ -3,17 +3,33 @@
   "brand": "Porsche",
   "year": "1984",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_porsche_962c_longtail",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_962c_longtail",
   "specs": {
     "convertedPower": "478kW/650hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "-",
+    "normalizedTopSpeed": "360 km/h",
+    "normalizedWeight": "825 kg",
+    "normalizedPwRatio": "0.79 hp/kg",
     "bhp": "650bhp",
     "torque": "---Nm",
     "weight": "825kg",
     "topspeed": "360km/h",
     "acceleration": "--s 0-100",
     "pwratio": "1.27 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true,
+    "turboCount": 2
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 5,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#+ rwd",
-    "#- sequential"
-  ]
+  }
 }

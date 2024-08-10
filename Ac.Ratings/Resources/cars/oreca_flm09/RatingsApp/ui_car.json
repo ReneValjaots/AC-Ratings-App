@@ -6,7 +6,7 @@
     "#+ rwd",
     "#- sequential"
   ],
-  "class": "LMPC",
+  "class": "Prototype",
   "specs": {
     "bhp": "509 bhp",
     "torque": "636 Nm",
@@ -276,5 +276,5 @@
   "year": 2009,
   "author": "IER Simulations",
   "version": null,
-  "url": null
+  "url": "www.iersimulations.com"
 }

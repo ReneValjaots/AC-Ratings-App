@@ -3,17 +3,33 @@
   "brand": "Toyota",
   "year": "2014",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_toyota_ts040",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_ts040",
   "specs": {
     "convertedPower": "735kW/1000hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "-",
+    "normalizedTopSpeed": "320 km/h",
+    "normalizedWeight": "-",
+    "normalizedPwRatio": "-",
     "bhp": "1000bhp",
     "torque": "--Nm",
     "weight": "--kg",
     "topspeed": "320km/h",
     "acceleration": "--s 0-100",
     "pwratio": "--kg/hp"
+  },
+  "tags": [
+    "#+ awd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 7,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ awd",
-    "#- sequential"
-  ]
+  }
 }

@@ -2,18 +2,34 @@
   "name": "Porsche 911 Turbo (930) Blackbird",
   "brand": "Porsche",
   "year": "1983",
-  "author": "RiZe - Arean - Skyline",
+  "author": "RiZe",
+  "class": "street",
   "folderName": "wm_porsche_911_930",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\wm_porsche_911_930",
   "specs": {
     "convertedPower": "334kW/454hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "566 Nm",
+    "normalizedTopSpeed": "300+ km/h",
+    "normalizedWeight": "1199 kg",
+    "normalizedPwRatio": "0.38 hp/kg",
     "bhp": "454 bhp",
     "torque": "566 Nm",
     "weight": "1199kg",
     "topspeed": "300+ km/h",
     "acceleration": "-- 0-100",
     "pwratio": "2.64 kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- manual"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true,
+    "turboCount": 1
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 5,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#+ rwd",
-    "#- manual"
-  ]
+  }
 }

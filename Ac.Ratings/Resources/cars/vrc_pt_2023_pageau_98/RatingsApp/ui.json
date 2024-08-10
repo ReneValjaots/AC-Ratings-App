@@ -3,17 +3,32 @@
   "brand": "Peugeot",
   "year": "2023",
   "author": "VRC Modding Team",
+  "class": "race",
   "folderName": "vrc_pt_2023_pageau_98",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_2023_pageau_98",
   "specs": {
     "convertedPower": "512kW/697hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "3.7s",
+    "normalizedTorque": "655 Nm",
+    "normalizedTopSpeed": "340 km/h",
+    "normalizedWeight": "1030 kg",
+    "normalizedPwRatio": "0.68 hp/kg",
     "bhp": "697 bhp",
     "torque": "655 Nm",
     "weight": "1030kg",
     "topspeed": "340km/h",
     "acceleration": "3.7s",
     "pwratio": "1.48 kg/hp"
+  },
+  "tags": [
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 7,
+    "supportsShifter": false,
+    "turboCount": 2
   },
   "ratings": {
     "handling": 0.0,
@@ -23,13 +38,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "AWD2",
-    "gearsCount": 7,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd"
-  ]
+  }
 }

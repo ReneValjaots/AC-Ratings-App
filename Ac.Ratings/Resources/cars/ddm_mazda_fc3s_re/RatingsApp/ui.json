@@ -3,17 +3,30 @@
   "brand": "Mazda",
   "year": "1990",
   "author": "ДЯДЯ ДИМА",
+  "class": "sport",
   "folderName": "ddm_mazda_fc3s_re",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ddm_mazda_fc3s_re",
   "specs": {
     "convertedPower": "338kW/460hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "4.4s",
+    "normalizedTorque": "532 Nm",
+    "normalizedTopSpeed": "319 km/h",
+    "normalizedWeight": "1060 kg",
+    "normalizedPwRatio": "0.43 hp/kg",
     "bhp": "460 bhp",
     "torque": "532 Nm",
     "weight": "1060 kg",
     "topspeed": "319 km/h",
     "acceleration": "4.4s 0-100",
     "pwratio": "2.3 kg/hp"
+  },
+  "tags": [],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 5,
+    "supportsShifter": true,
+    "turboCount": 3
   },
   "ratings": {
     "handling": 0.0,
@@ -23,11 +36,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 5,
-    "supportsShifter": true
-  },
-  "tags": []
+  }
 }

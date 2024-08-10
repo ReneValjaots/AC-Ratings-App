@@ -1,5 +1,6 @@
 {
   "tractionType": null,
   "gearsCount": 0,
-  "supportsShifter": false
+  "supportsShifter": false,
+  "turboCount": 0
 }

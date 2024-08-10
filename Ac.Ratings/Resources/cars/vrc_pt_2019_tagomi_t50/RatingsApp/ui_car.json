@@ -8,7 +8,7 @@
   "class": "race",
   "specs": {
     "bhp": "1032 bhp",
-    "torque": "",
+    "torque": null,
     "weight": "878kg",
     "topspeed": "340km/h",
     "acceleration": "1.7s",

@@ -2,7 +2,7 @@
   "name": "Eunos Roadster Tuned",
   "brand": "Mazda",
   "description": "CREDITS<br><br>Model - Gran Turismo 7<br>Suspension physics - Zero240gl<br>Setup menu - Zero240gl<br>Bucket seat - Macedo<br>Tire physics - Kunos<br>Engine/drivetrain tweaks - Zero240gl<br>Tire model - phani<br>Plates - RiZe/C13/Drifty Joe<br>Soft top - Gran Turismo Sport<br>Sound - redSerpente<br>Soft top details - Crew 2 extracted by Joe325<br><br>Thanks to Terra, Johnnye, Pijus and everyone else for giving feedback and technical help<br><br>The Mazda MX-5 is a lightweight two-passenger roadster sports car manufactured and marketed by Mazda with a front mid-engine, rear-wheel-drive layout. The convertible is marketed as the Mazda Roadster (マツダ・ロードスター, Matsuda Rōdosutā) or Eunos Roadster (ユーノス・ロードスター, Yūnosu Rōdosutā) in Japan, and as the Mazda MX-5 Miata (/miˈɑːtə/) in North America, where it is widely known as the Miata.",
-  "author": "Jugee8 (1.1)",
+  "author": "Jugee8",
   "year": 1989,
   "tags": [
     "#- manual",
@@ -186,6 +186,6 @@
     ]
   ],
   "country": "Japan",
-  "version": null,
+  "version": "1.1",
   "url": null
 }

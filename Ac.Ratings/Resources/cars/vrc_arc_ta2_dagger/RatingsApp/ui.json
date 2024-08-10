@@ -3,17 +3,32 @@
   "brand": "Dodge",
   "year": "2021",
   "author": "VRC Modding Team",
+  "class": "race",
   "folderName": "vrc_arc_ta2_dagger",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_arc_ta2_dagger",
   "specs": {
     "convertedPower": "384kW/522hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "4.2s",
+    "normalizedTorque": "667 Nm",
+    "normalizedTopSpeed": "292 km/h",
+    "normalizedWeight": "1200 kg",
+    "normalizedPwRatio": "0.43 hp/kg",
     "bhp": "522 bhp",
     "torque": "667 Nm",
     "weight": "1200 kg",
     "topspeed": "292km/h",
     "acceleration": "4.2s",
     "pwratio": "2.3 kg/hp"
+  },
+  "tags": [
+    "#+ awd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 4,
+    "supportsShifter": true,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,13 +38,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 4,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#+ awd"
-  ]
+  }
 }

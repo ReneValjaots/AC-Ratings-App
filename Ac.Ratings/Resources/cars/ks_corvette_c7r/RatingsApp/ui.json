@@ -3,17 +3,33 @@
   "brand": "Chevrolet",
   "year": "2015",
   "author": "Kunos",
+  "class": "race",
   "folderName": "ks_corvette_c7r",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_corvette_c7r",
   "specs": {
     "convertedPower": "364kW/495hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "650+ Nm",
+    "normalizedTopSpeed": "280+ km/h",
+    "normalizedWeight": "1320 kg",
+    "normalizedPwRatio": "0.38 hp/kg",
     "bhp": "495+bhp",
     "torque": "650+Nm",
     "weight": "1320kg",
     "topspeed": "280+km/h",
     "acceleration": "--s 0-100",
     "pwratio": "2.66kg/hp"
+  },
+  "tags": [
+    "#+ rwd",
+    "#- sequential"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false,
+    "turboCount": 0
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 6,
-    "supportsShifter": false
-  },
-  "tags": [
-    "#+ rwd",
-    "#- sequential"
-  ]
+  }
 }

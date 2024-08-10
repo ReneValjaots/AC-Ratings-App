@@ -1,5 +1,6 @@
 {
   "tractionType": "RWD",
   "gearsCount": 7,
-  "supportsShifter": false
+  "supportsShifter": false,
+  "turboCount": 10
 }

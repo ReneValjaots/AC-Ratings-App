@@ -3,17 +3,33 @@
   "brand": "Honda",
   "year": "2005",
   "author": "Remco & abbo90",
+  "class": "street",
   "folderName": "srp_honda_s2000_legendary",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\srp_honda_s2000_legendary",
   "specs": {
     "convertedPower": "365kW/497hp",
     "isManufacturerData": false,
+    "normalizedAcceleration": "3.9s",
+    "normalizedTorque": "495 Nm",
+    "normalizedTopSpeed": "300 km/h",
+    "normalizedWeight": "1157 kg",
+    "normalizedPwRatio": "0.43 hp/kg",
     "bhp": "497 bhp",
     "torque": "495 Nm",
     "weight": "1157 kg",
     "topspeed": "300 km/h",
     "acceleration": "3.9s 0-100",
     "pwratio": "2.33 kg/hp"
+  },
+  "tags": [
+    "#- manual",
+    "#+ rwd"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": true,
+    "turboCount": 1
   },
   "ratings": {
     "handling": 0.0,
@@ -23,14 +39,5 @@
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0
-  },
-  "data": {
-    "tractionType": "RWD",
-    "gearsCount": 6,
-    "supportsShifter": true
-  },
-  "tags": [
-    "#- manual",
-    "#+ rwd"
-  ]
+  }
 }

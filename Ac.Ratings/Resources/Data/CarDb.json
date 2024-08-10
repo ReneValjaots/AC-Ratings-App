@@ -1,52 +1,9 @@
 [
   {
-    "name": "1968 Toyota 415S - Flatnose JGT",
-    "brand": "Toyota",
-    "year": "1968",
-    "author": "Historic Sim Studios",
-    "class": "race",
-    "folderName": "hss_1968_toyota_415S_flatnose",
-    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\hss_1968_toyota_415S_flatnose",
-    "specs": {
-      "convertedPower": "243kW/330hp",
-      "isManufacturerData": false,
-      "normalizedAcceleration": "-",
-      "normalizedTorque": "300 Nm",
-      "normalizedTopSpeed": "-",
-      "normalizedWeight": "800 kg",
-      "normalizedPwRatio": "0.41 hp/kg",
-      "bhp": "330 bhp",
-      "torque": "300 Nm",
-      "weight": "800 kg",
-      "topspeed": "TBC",
-      "acceleration": "TBC",
-      "pwratio": "2.42 kg/hp"
-    },
-    "tags": [
-      "rwd",
-      "manual"
-    ],
-    "data": {
-      "tractionType": "RWD",
-      "gearsCount": 4,
-      "supportsShifter": true,
-      "turboCount": 0
-    },
-    "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
-      "realism": 0.0,
-      "sound": 0.0,
-      "visuals": 0.0,
-      "funFactor": 0.0,
-      "extraFeatures": 0.0
-    }
-  },
-  {
     "name": "Abarth 1000 TC",
     "brand": "Abarth",
     "year": "1970",
-    "author": "Pessio Garage [ Pessio - Abbo90 - Hillclimber96 ]",
+    "author": "Pessio Garage",
     "class": "race",
     "folderName": "pg_tc1000",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pg_tc1000",
@@ -89,7 +46,7 @@
     "name": "Abarth 1000 TC",
     "brand": "Abarth",
     "year": "1968",
-    "author": "Pessio Garage [ Pessio - Abbo90 - Hillclimber96 ]",
+    "author": "Pessio Garage",
     "class": "race",
     "folderName": "pg_tc1000_1968",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pg_tc1000_1968",
@@ -1374,6 +1331,100 @@
       "gearsCount": 6,
       "supportsShifter": false,
       "turboCount": 1
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Austin Mini Cooper S 1000 Group 2",
+    "brand": "Austin",
+    "year": "1964",
+    "author": "Pessio Garage",
+    "class": "race",
+    "folderName": "austin_mini_cooper_s_1000",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\austin_mini_cooper_s_1000",
+    "specs": {
+      "convertedPower": "72kW/98hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "6.5s",
+      "normalizedTorque": "120 Nm",
+      "normalizedTopSpeed": "200 km/h",
+      "normalizedWeight": "620 kg",
+      "normalizedPwRatio": "0.16 hp/kg",
+      "bhp": "99cv",
+      "torque": "120Nm",
+      "weight": "620Kg",
+      "topspeed": "200Km/h",
+      "acceleration": "6.5s 0-100",
+      "pwratio": "6.26kg/cv"
+    },
+    "tags": [
+      "manual",
+      "lightweight",
+      "vintage",
+      "historic",
+      "fwd",
+      "60s"
+    ],
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Austin Mini Cooper S FIA App.K Historic Racing",
+    "brand": "Austin",
+    "year": "1964",
+    "author": "Pessio Garage",
+    "class": "race",
+    "folderName": "austin_mini_cooper_s_appk",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\austin_mini_cooper_s_appk",
+    "specs": {
+      "convertedPower": "90kW/123hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "6.5s",
+      "normalizedTorque": "148 Nm",
+      "normalizedTopSpeed": "200 km/h",
+      "normalizedWeight": "620 kg",
+      "normalizedPwRatio": "0.20 hp/kg",
+      "bhp": "125cv",
+      "torque": "148Nm",
+      "weight": "620Kg",
+      "topspeed": "200Km/h",
+      "acceleration": "6.5s 0-100",
+      "pwratio": "4.96kg/cv"
+    },
+    "tags": [
+      "manual",
+      "lightweight",
+      "vintage",
+      "historic",
+      "fwd",
+      "60s"
+    ],
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false,
+      "turboCount": 0
     },
     "ratings": {
       "handling": 0.0,
@@ -3019,6 +3070,54 @@
     }
   },
   {
+    "name": "Daihatsu P-5 JGT",
+    "brand": "Daihatsu",
+    "year": "1967",
+    "author": "Historic Sim Studios",
+    "class": "race",
+    "folderName": "hss_1968_daihatsu_p5",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\hss_1968_daihatsu_p5",
+    "specs": {
+      "convertedPower": "101kW/138hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "128 Nm",
+      "normalizedTopSpeed": "-",
+      "normalizedWeight": "510 kg",
+      "normalizedPwRatio": "0.27 hp/kg",
+      "bhp": "138 bhp",
+      "torque": "128 Nm",
+      "weight": "510 kg",
+      "topspeed": "",
+      "acceleration": "",
+      "pwratio": "3.7 kg/hp"
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "can-am",
+      "manual",
+      "Japan",
+      "vintage",
+      "#Vintage GT"
+    ],
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
     "name": "Dallara Corvette DP",
     "brand": "Chevrolet",
     "year": "2014",
@@ -3622,7 +3721,7 @@
     "name": "Eagle Mk1",
     "brand": "AAR",
     "year": "1967",
-    "author": "Pessio Garage & abbo90",
+    "author": "Pessio Garage",
     "class": "race",
     "folderName": "pg_heat",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pg_heat",
@@ -3749,7 +3848,7 @@
     "name": "Eunos Roadster Tuned",
     "brand": "Mazda",
     "year": "1989",
-    "author": "Jugee8 (1.1)",
+    "author": "Jugee8",
     "class": "street",
     "folderName": "j8_eunos_roadster_tuned",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\j8_eunos_roadster_tuned",
@@ -3776,6 +3875,182 @@
       "tractionType": "RWD",
       "gearsCount": 5,
       "supportsShifter": true,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "EURO NASCAR (Chevrolet)",
+    "brand": "Euro Nascar",
+    "year": "2021",
+    "author": "Pessio Garage",
+    "class": "race",
+    "folderName": "pg_euronascar",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pg_euronascar",
+    "specs": {
+      "convertedPower": "290kW/394hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "543 Nm",
+      "normalizedTopSpeed": "245+ km/h",
+      "normalizedWeight": "1225 kg",
+      "normalizedPwRatio": "0.32 hp/kg",
+      "bhp": "400cv",
+      "torque": "543Nm",
+      "weight": "1225kg",
+      "topspeed": "245+km/h",
+      "acceleration": "--s 0-100",
+      "pwratio": "3.06kg/cv"
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "nascar"
+    ],
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "EURO NASCAR (FJ)",
+    "brand": "Euro Nascar",
+    "year": "2021",
+    "author": "Pessio Garage",
+    "class": "race",
+    "folderName": "pg_euronascarfj",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pg_euronascarfj",
+    "specs": {
+      "convertedPower": "290kW/394hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "543 Nm",
+      "normalizedTopSpeed": "245+ km/h",
+      "normalizedWeight": "1225 kg",
+      "normalizedPwRatio": "0.32 hp/kg",
+      "bhp": "400cv",
+      "torque": "543Nm",
+      "weight": "1225kg",
+      "topspeed": "245+km/h",
+      "acceleration": "--s 0-100",
+      "pwratio": "3.06kg/cv"
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "nascar"
+    ],
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "EURO NASCAR (Ford)",
+    "brand": "Euro Nascar",
+    "year": "2021",
+    "author": "Pessio Garage",
+    "class": "race",
+    "folderName": "pg_euronascarford",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pg_euronascarford",
+    "specs": {
+      "convertedPower": "290kW/394hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "543 Nm",
+      "normalizedTopSpeed": "245+ km/h",
+      "normalizedWeight": "1225 kg",
+      "normalizedPwRatio": "0.32 hp/kg",
+      "bhp": "400cv",
+      "torque": "543Nm",
+      "weight": "1225kg",
+      "topspeed": "245+km/h",
+      "acceleration": "--s 0-100",
+      "pwratio": "3.06kg/cv"
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "nascar"
+    ],
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "EURO NASCAR (Shadow)",
+    "brand": "Euro Nascar",
+    "year": "2021",
+    "author": "Pessio Garage",
+    "class": "race",
+    "folderName": "pg_euronascarshadow",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pg_euronascarshadow",
+    "specs": {
+      "convertedPower": "290kW/394hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "543 Nm",
+      "normalizedTopSpeed": "245+ km/h",
+      "normalizedWeight": "1225 kg",
+      "normalizedPwRatio": "0.32 hp/kg",
+      "bhp": "400cv",
+      "torque": "543Nm",
+      "weight": "1225kg",
+      "topspeed": "245+km/h",
+      "acceleration": "--s 0-100",
+      "pwratio": "3.06kg/cv"
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "nascar"
+    ],
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false,
       "turboCount": 0
     },
     "ratings": {
@@ -4075,6 +4350,54 @@
     "data": {
       "tractionType": "RWD",
       "gearsCount": 6,
+      "supportsShifter": false,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Ferrari 365 GTB/4 Daytona Competizione",
+    "brand": "Ferrari",
+    "year": "1972",
+    "author": "Pessio Garage",
+    "class": "race",
+    "folderName": "ferrari_daytona_competizione",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ferrari_daytona_competizione",
+    "specs": {
+      "convertedPower": "316kW/430hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "461 Nm",
+      "normalizedTopSpeed": "300 km/h",
+      "normalizedWeight": "1200 kg",
+      "normalizedPwRatio": "0.36 hp/kg",
+      "bhp": "430hp",
+      "torque": "461Nm",
+      "weight": "1200 kg",
+      "topspeed": "300 km/h",
+      "acceleration": "",
+      "pwratio": "2.79kg/cv"
+    },
+    "tags": [
+      "rwd",
+      "manual",
+      "vintage",
+      "race",
+      "historic",
+      "italy",
+      "gr4"
+    ],
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
       "supportsShifter": false,
       "turboCount": 0
     },
@@ -5411,7 +5734,7 @@
     "name": "Ford Mustang Boss 302",
     "brand": "Ford",
     "year": "1969",
-    "author": "Pessio Garage & abbo90",
+    "author": "Pessio Garage",
     "class": "race",
     "folderName": "pg_mustard",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pg_mustard",
@@ -5538,7 +5861,7 @@
     "name": "Ford RS3100 Carpi",
     "brand": "Ford",
     "year": "1974",
-    "author": "Pessio Garage & abbo90",
+    "author": "Pessio Garage",
     "class": "race",
     "folderName": "pg_carpi_rs31",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pg_carpi_rs31",
@@ -6536,7 +6859,7 @@
       "torque": "167 Nm",
       "weight": "640 kg",
       "topspeed": "212 km/h",
-      "acceleration": "5.96s 0-100, 26.93s 1000m DA 70s Slicks",
+      "acceleration": "5.96s 0-100",
       "pwratio": "4.08 kg/hp"
     },
     "tags": [
@@ -7334,7 +7657,7 @@
     "name": "Lexus IS500",
     "brand": "Lexus",
     "year": "2024",
-    "author": "No hesi, TimTheSpy, Hugo",
+    "author": "No Hesi, Hugo",
     "class": "street",
     "folderName": "nohesi_lexus_is500",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\nohesi_lexus_is500",
@@ -8702,6 +9025,51 @@
     }
   },
   {
+    "name": "Maserati 8CM",
+    "brand": "Maserati",
+    "year": "1934",
+    "author": "Historic Sim Studios",
+    "class": "Grand Prix 750kg",
+    "folderName": "hss_1934_maserati_8cm",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\hss_1934_maserati_8cm",
+    "specs": {
+      "convertedPower": "176kW/240hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "6.5s",
+      "normalizedTorque": "320 Nm",
+      "normalizedTopSpeed": "250 km/h",
+      "normalizedWeight": "750 kg",
+      "normalizedPwRatio": "0.32 hp/kg",
+      "bhp": "240 bhp",
+      "torque": "320 Nm",
+      "weight": "750 kg",
+      "topspeed": "250 km/h",
+      "acceleration": "6.5s 0-100",
+      "pwratio": "3.12 kg/hp"
+    },
+    "tags": [
+      "Italy",
+      "Pre-War",
+      "#GP750kg",
+      "singleseater"
+    ],
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
     "name": "Maserati Alfieri",
     "brand": "Maserati",
     "year": "2014",
@@ -8904,6 +9272,53 @@
       "gearsCount": 8,
       "supportsShifter": false,
       "turboCount": 2
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Maserati Tipo 61 Birdcage",
+    "brand": "Maserati",
+    "year": "1959",
+    "author": "Pessio Garage",
+    "class": "race",
+    "folderName": "birdcage",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\birdcage",
+    "specs": {
+      "convertedPower": "184kW/250hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "5.3s",
+      "normalizedTorque": "330 Nm",
+      "normalizedTopSpeed": "280 km/h",
+      "normalizedWeight": "600 kg",
+      "normalizedPwRatio": "0.42 hp/kg",
+      "bhp": "250hp",
+      "torque": "330Nm",
+      "weight": "600kg",
+      "topspeed": "280km/h",
+      "acceleration": "5.3s 0-100",
+      "pwratio": "2.4kg/cv"
+    },
+    "tags": [
+      "#Vintage Supercars",
+      "rwd",
+      "manual",
+      "lightweight",
+      "vintage",
+      "race"
+    ],
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false,
+      "turboCount": 0
     },
     "ratings": {
       "handling": 0.0,
@@ -9987,6 +10402,51 @@
     }
   },
   {
+    "name": "Mini Miglia",
+    "brand": "MINI",
+    "year": "2022",
+    "author": "Pessio Garage",
+    "class": "race",
+    "folderName": "minimiglia",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\minimiglia",
+    "specs": {
+      "convertedPower": "94kW/128hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "6.0s",
+      "normalizedTorque": "150 Nm",
+      "normalizedTopSpeed": "185 km/h",
+      "normalizedWeight": "620 kg",
+      "normalizedPwRatio": "0.21 hp/kg",
+      "bhp": "130cv",
+      "torque": "150Nm",
+      "weight": "620Kg",
+      "topspeed": "185Km/h",
+      "acceleration": "6.0s 0-100",
+      "pwratio": "4.77kg/cv"
+    },
+    "tags": [
+      "manual",
+      "lightweight",
+      "fwd",
+      "race"
+    ],
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
     "name": "Mitsubishi Lancer Evolution IV GSR",
     "brand": "Mitsubishi",
     "year": "1996",
@@ -10072,8 +10532,8 @@
     "name": "Mitsubishi Lancer Evolution V Kai",
     "brand": "Mitsubishi",
     "year": "2000",
-    "author": "SRP",
-    "class": "Street",
+    "author": "Shutoko Revival Project",
+    "class": "street",
     "folderName": "srp_mitsubishi_evo_5_kai",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\srp_mitsubishi_evo_5_kai",
     "specs": {
@@ -10114,7 +10574,7 @@
     "name": "Mitsubishi Lancer Evolution VIII MR",
     "brand": "Mitsubishi",
     "year": null,
-    "author": null,
+    "author": "Shutoko Revival Project",
     "class": "street",
     "folderName": "p3_mitsubishi_evo8",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\p3_mitsubishi_evo8",
@@ -10183,6 +10643,50 @@
       "tractionType": "FWD",
       "gearsCount": 6,
       "supportsShifter": true,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Mygale M21-F4",
+    "brand": "Mygale",
+    "year": "2024",
+    "author": "Race Sim Studio",
+    "class": "race",
+    "folderName": "rss_formula_rss_4_2024",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_formula_rss_4_2024",
+    "specs": {
+      "convertedPower": "120kW/163hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "242 Nm",
+      "normalizedTopSpeed": "230 km/h",
+      "normalizedWeight": "599 kg",
+      "normalizedPwRatio": "0.27 hp/kg",
+      "bhp": "163bhp",
+      "torque": "242Nm",
+      "weight": "599kg",
+      "topspeed": ">230 km/h",
+      "acceleration": "0-100",
+      "pwratio": "3.67kg/hp"
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "sequential"
+    ],
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false,
       "turboCount": 0
     },
     "ratings": {
@@ -10285,7 +10789,7 @@
     "name": "Nissan Fairlady Z S30 Devil Z",
     "brand": "Nissan",
     "year": "1969",
-    "author": "RiZe + skyline",
+    "author": "RiZe",
     "class": "street",
     "folderName": "wm_nissan_fairlady_z_s30",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\wm_nissan_fairlady_z_s30",
@@ -10710,7 +11214,7 @@
     "name": "Nissan Skyline GT-R R34 V-SPEC Performance",
     "brand": "Nissan",
     "year": "2000",
-    "author": "Kai Banksy",
+    "author": "BANKSY",
     "class": "street",
     "folderName": "nissan_skyline_r34_v-specperformance",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\nissan_skyline_r34_v-specperformance",
@@ -10925,7 +11429,7 @@
     "brand": "Nissan",
     "year": "1987",
     "author": "ДЯДЯ ДИМА",
-    "class": "shutoko",
+    "class": "street",
     "folderName": "ddm_nissan_skyline_hr31_house",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ddm_nissan_skyline_hr31_house",
     "specs": {
@@ -10951,6 +11455,100 @@
       "gearsCount": 5,
       "supportsShifter": true,
       "turboCount": 2
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Nissan Skyline R33 GT-R",
+    "brand": "Nissan",
+    "year": "1995",
+    "author": "Ma7heus, Arch",
+    "class": "street",
+    "folderName": "m7_nissan_r33_1995_gtr",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\m7_nissan_r33_1995_gtr",
+    "specs": {
+      "convertedPower": "242kW/329hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "-",
+      "normalizedTopSpeed": "-",
+      "normalizedWeight": "1553 kg",
+      "normalizedPwRatio": "0.21 hp/kg",
+      "bhp": "333ps",
+      "torque": "42.3kg-m",
+      "weight": "1553kg",
+      "topspeed": "-- km/h",
+      "acceleration": "-- s 0-100",
+      "pwratio": "4.66kg/ps"
+    },
+    "tags": [
+      "#Sportscars",
+      "awd",
+      "manual",
+      "street",
+      "turbo",
+      "japan"
+    ],
+    "data": {
+      "tractionType": "AWD2",
+      "gearsCount": 5,
+      "supportsShifter": true,
+      "turboCount": 2
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Nissan Skyline R33 GTS-25t Type-M",
+    "brand": "Nissan",
+    "year": "1993",
+    "author": "Ma7heus, Arch",
+    "class": "street",
+    "folderName": "m7_nissan_r33_1993_gts25t_typem",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\m7_nissan_r33_1993_gts25t_typem",
+    "specs": {
+      "convertedPower": "182kW/247hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "-",
+      "normalizedTopSpeed": "-",
+      "normalizedWeight": "1373 kg",
+      "normalizedPwRatio": "0.18 hp/kg",
+      "bhp": "250ps",
+      "torque": "30.0kg-m",
+      "weight": "1373kg",
+      "topspeed": "-- km/h",
+      "acceleration": "-- s 0-100",
+      "pwratio": "5.49kg/ps"
+    },
+    "tags": [
+      "#Sportscars",
+      "rwd",
+      "manual",
+      "street",
+      "turbo",
+      "japan"
+    ],
+    "data": {
+      "tractionType": "RWD",
+      "gearsCount": 5,
+      "supportsShifter": true,
+      "turboCount": 1
     },
     "ratings": {
       "handling": 0.0,
@@ -11179,7 +11777,7 @@
     "brand": "Oreca Technology",
     "year": "2009",
     "author": "IER Simulations",
-    "class": "LMPC",
+    "class": "Prototype",
     "folderName": "oreca_flm09",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\oreca_flm09",
     "specs": {
@@ -12545,7 +13143,7 @@
     "name": "Porsche 911 Turbo (930) Blackbird",
     "brand": "Porsche",
     "year": "1983",
-    "author": "RiZe - Arean - Skyline",
+    "author": "RiZe",
     "class": "street",
     "folderName": "wm_porsche_911_930",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\wm_porsche_911_930",
@@ -13485,6 +14083,54 @@
     }
   },
   {
+    "name": "RD1 Porknose",
+    "brand": "Pessio Garage",
+    "year": "2020",
+    "author": "Pessio Garage",
+    "class": "race",
+    "folderName": "pessio_garage_rd1",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\pessio_garage_rd1",
+    "specs": {
+      "convertedPower": "254kW/345hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "452 Nm",
+      "normalizedTopSpeed": "300+ km/h",
+      "normalizedWeight": "590 kg",
+      "normalizedPwRatio": "0.58 hp/kg",
+      "bhp": "350cv",
+      "torque": "452Nm",
+      "weight": "590kg",
+      "topspeed": "300+km/h",
+      "acceleration": "--s 0-100",
+      "pwratio": "1.69kg/cv"
+    },
+    "tags": [
+      "#Vintage Racecar",
+      "rwd",
+      "race",
+      "manual",
+      "gp",
+      "singleseater",
+      "vintage"
+    ],
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
     "name": "RE Amemiya Furinkazan μ FC",
     "brand": "Mazda",
     "year": "1990",
@@ -13553,6 +14199,52 @@
     "data": {
       "tractionType": "RWD",
       "gearsCount": 6,
+      "supportsShifter": false,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Renault Clio 5 Cup",
+    "brand": "Renault",
+    "year": "2020",
+    "author": "ASMG",
+    "class": "cup",
+    "folderName": "asrc_clio_cup_5",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\asrc_clio_cup_5",
+    "specs": {
+      "convertedPower": "147kW/200hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "310 Nm",
+      "normalizedTopSpeed": "220 km/h",
+      "normalizedWeight": "1040 kg",
+      "normalizedPwRatio": "0.19 hp/kg",
+      "bhp": "200 bhp",
+      "torque": "310 Nm",
+      "weight": "1040 kg",
+      "topspeed": "220 km/h",
+      "acceleration": "",
+      "pwratio": "5.2 kg/hp"
+    },
+    "tags": [
+      "fwd",
+      "sequential",
+      "race",
+      "cup",
+      "renault"
+    ],
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
       "supportsShifter": false,
       "turboCount": 0
     },
@@ -14121,7 +14813,7 @@
     "brand": "Suzuki",
     "year": "1994",
     "author": "wiltse0, supraboy981322",
-    "class": "Street",
+    "class": "street",
     "folderName": "suzuki_cappuccino_hayabusa_swap_stock",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\suzuki_cappuccino_hayabusa_swap_stock",
     "specs": {
@@ -14234,6 +14926,49 @@
       "gearsCount": 8,
       "supportsShifter": false,
       "turboCount": 2
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Toyota 415S - Flatnose JGT",
+    "brand": "Toyota",
+    "year": "1968",
+    "author": "Historic Sim Studios",
+    "class": "race",
+    "folderName": "hss_1968_toyota_415S_flatnose",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\hss_1968_toyota_415S_flatnose",
+    "specs": {
+      "convertedPower": "243kW/330hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "300 Nm",
+      "normalizedTopSpeed": "-",
+      "normalizedWeight": "800 kg",
+      "normalizedPwRatio": "0.41 hp/kg",
+      "bhp": "330 bhp",
+      "torque": "300 Nm",
+      "weight": "800 kg",
+      "topspeed": "TBC",
+      "acceleration": "TBC",
+      "pwratio": "2.42 kg/hp"
+    },
+    "tags": [
+      "rwd",
+      "manual"
+    ],
+    "data": {
+      "tractionType": "RWD",
+      "gearsCount": 4,
+      "supportsShifter": true,
+      "turboCount": 0
     },
     "ratings": {
       "handling": 0.0,
@@ -14589,7 +15324,7 @@
     "name": "Toyota MR-S Haru Spec",
     "brand": "Toyota",
     "year": "2003",
-    "author": null,
+    "author": "ДЯДЯ ДИМА",
     "class": "race",
     "folderName": "ddm_toyota_mrs_haru",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ddm_toyota_mrs_haru",
@@ -14674,7 +15409,7 @@
     "brand": "Toyota",
     "year": "1998",
     "author": "ДЯДЯ ДИМА",
-    "class": "shuto",
+    "class": "street",
     "folderName": "ddm_toyota_mr2_sw20_shuto",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ddm_toyota_mr2_sw20_shuto",
     "specs": {
@@ -14715,7 +15450,7 @@
     "name": "Toyota Supra 3.0GT Turbo A",
     "brand": "Toyota",
     "year": "1988",
-    "author": null,
+    "author": "ДЯДЯ ДИМА",
     "class": "Street",
     "folderName": "ddm_toyota_supra_ma70",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ddm_toyota_supra_ma70",
@@ -14800,7 +15535,7 @@
     "name": "Toyota Supra Interceptor",
     "brand": "Toyota",
     "year": null,
-    "author": "SRP",
+    "author": "Shutoko Revival Project",
     "class": "street",
     "folderName": "srp_toyota_supra_mkiv_interceptor",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\srp_toyota_supra_mkiv_interceptor",
@@ -15213,6 +15948,98 @@
       "gearsCount": 8,
       "supportsShifter": false,
       "turboCount": 1
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "VRC Formula Alpha 2024",
+    "brand": "VRC",
+    "year": "2024",
+    "author": "VRC Modding Team",
+    "class": "race",
+    "folderName": "vrc_formula_alpha_2024",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_formula_alpha_2024",
+    "specs": {
+      "convertedPower": "735kW/1000hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "2.6s",
+      "normalizedTorque": "577 Nm",
+      "normalizedTopSpeed": "355 km/h",
+      "normalizedWeight": "722 kg",
+      "normalizedPwRatio": "1.39 hp/kg",
+      "bhp": "1000 Bhp",
+      "torque": "577 Nm",
+      "weight": "722kg",
+      "topspeed": "355kph",
+      "acceleration": "2.6s",
+      "pwratio": "0.72 kg/hp"
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "sequential",
+      "singleseater",
+      "VRC"
+    ],
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "VRC Formula Alpha 2024 (CSP)",
+    "brand": "VRC",
+    "year": "2024",
+    "author": "VRC Modding Team",
+    "class": "race",
+    "folderName": "vrc_formula_alpha_2024_csp",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_formula_alpha_2024_csp",
+    "specs": {
+      "convertedPower": "735kW/1000hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "2.6s",
+      "normalizedTorque": "577 Nm",
+      "normalizedTopSpeed": "355 km/h",
+      "normalizedWeight": "722 kg",
+      "normalizedPwRatio": "1.39 hp/kg",
+      "bhp": "1000 Bhp",
+      "torque": "577 Nm",
+      "weight": "722kg",
+      "topspeed": "355kph",
+      "acceleration": "2.6s",
+      "pwratio": "0.72 kg/hp"
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "sequential",
+      "singleseater",
+      "VRC"
+    ],
+    "data": {
+      "tractionType": null,
+      "gearsCount": 0,
+      "supportsShifter": false,
+      "turboCount": 0
     },
     "ratings": {
       "handling": 0.0,

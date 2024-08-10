@@ -244,19 +244,7 @@ namespace Ac.Ratings {
         private void ClearButton_Click(object sender, RoutedEventArgs e) => ClearRatings();
 
         private void SearchBox_TextChanged(object sender, TextChangedEventArgs e) {
-            CarList.Items.Filter = FilterCarList;
-        }
-
-        private bool FilterCarList(object obj) {
-            var car = (Car)obj;
-            var searchText = SearchBox.Text.Trim();
-
-            if (searchText.StartsWith("author:", StringComparison.OrdinalIgnoreCase)) {
-                var authorSearch = searchText["author:".Length..].Trim();
-                return car.Author != null && car.Author.Contains(authorSearch, StringComparison.OrdinalIgnoreCase);
-            }
-
-            return car.Name != null && car.Name.Contains(SearchBox.Text, StringComparison.OrdinalIgnoreCase);
+            CarList.Items.Filter = CombinedFilter;
         }
 
         private void MenuButton_OnClick(object sender, RoutedEventArgs e) {
@@ -363,6 +351,7 @@ namespace Ac.Ratings {
             if (obj is Car car) {
                 var selectedAuthor = AuthorFilter.SelectedItem?.ToString();
                 var selectedClass = ClassFilter.SelectedItem?.ToString();
+                var searchText = SearchBox.Text.Trim();
                 var physicsRatings = PhysicsFilter.Value;
                 var handlingRatings = HandlingFilter.Value;
                 var realismRatings = RealismFilter.Value;
@@ -386,8 +375,10 @@ namespace Ac.Ratings {
                 bool funFactorRatingMatches = car.Ratings.FunFactor >= funFactorRatings;
                 bool extraFeaturesRatingMatches = car.Ratings.ExtraFeatures >= extraFeaturesRatings;
 
+                bool searchMatches = string.IsNullOrEmpty(searchText) ||
+                                     (car.Name?.Contains(searchText, StringComparison.OrdinalIgnoreCase) ?? false);
 
-                return authorMatches && classMatches && physicsRatingMatches && handlingRatingMatches && realismRatingMatches && soundRatingMatches && visualsRatingMatches && funFactorRatingMatches && extraFeaturesRatingMatches;
+                return authorMatches && classMatches && physicsRatingMatches && handlingRatingMatches && realismRatingMatches && soundRatingMatches && visualsRatingMatches && funFactorRatingMatches && extraFeaturesRatingMatches && searchMatches;
             }
 
             return false;

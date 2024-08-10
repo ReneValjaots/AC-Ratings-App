@@ -124,7 +124,8 @@
                                            Grid.Row="0"
                                            Text="{Binding ElementName=HandlingFilter, 
                                     Path=Value, 
-                                    StringFormat='Handling: {0}'}"/>
+                                    StringFormat='Handling: {0}'}"
+                                           Margin="0,0,5,0"/>
 
                                 <Slider x:Name="HandlingFilter" 
                                         Grid.Column="1"
@@ -140,7 +141,8 @@
                                            Grid.Row="1"
                                            Text="{Binding ElementName=PhysicsFilter, 
                                     Path=Value, 
-                                    StringFormat='Physics: {0}'}"/>
+                                    StringFormat='Physics: {0}'}"
+                                           Margin="0,0,5,0"/>
 
                                 <Slider x:Name="PhysicsFilter"
                                         Grid.Column="1"
@@ -156,7 +158,8 @@
                                            Grid.Row="2"
                                            Text="{Binding ElementName=RealismFilter, 
                                     Path=Value, 
-                                    StringFormat='Realism: {0}'}" />
+                                    StringFormat='Realism: {0}'}"
+                                           Margin="0,0,5,0"/>
 
                                 <Slider x:Name="RealismFilter"
                                         Grid.Column="1"
@@ -172,7 +175,8 @@
                                            Grid.Row="3"
                                            Text="{Binding ElementName=SoundFilter, 
                                     Path=Value, 
-                                    StringFormat='Sound: {0}'}" />
+                                    StringFormat='Sound: {0}'}"
+                                           Margin="0,0,5,0"/>
 
                                 <Slider x:Name="SoundFilter"
                                         Grid.Column="1"
@@ -188,7 +192,8 @@
                                            Grid.Row="4"
                                            Text="{Binding ElementName=VisualsFilter, 
                                     Path=Value, 
-                                    StringFormat='Visuals: {0}'}"/>
+                                    StringFormat='Visuals: {0}'}"
+                                           Margin="0,0,5,0"/>
 
                                 <Slider x:Name="VisualsFilter"
                                         Grid.Column="1"
@@ -204,7 +209,8 @@
                                            Grid.Row="5"
                                            Text="{Binding ElementName=FunFactorFilter, 
                                     Path=Value, 
-                                    StringFormat='Fun Factor: {0}'}" />
+                                    StringFormat='Fun Factor: {0}'}"
+                                           Margin="0,0,5,0"/>
 
                                 <Slider x:Name="FunFactorFilter"
                                         Grid.Column="1"
@@ -214,13 +220,14 @@
                                         TickFrequency="1"
                                         IsSnapToTickEnabled="True"
                                         Width="150"
-                                        ValueChanged="FunFactorFilter_OnValueChanged" />
+                                        ValueChanged="FunFactorFilter_OnValueChanged"/>
 
                                 <TextBlock Grid.Column="0"
                                            Grid.Row="6"
                                            Text="{Binding ElementName=ExtraFeaturesFilter, 
                                     Path=Value, 
-                                    StringFormat='Extra Features: {0}'}" />
+                                    StringFormat='Extra Features: {0}'}"
+                                           Margin="0,0,5,0"/>
 
                                 <Slider x:Name="ExtraFeaturesFilter"
                                         Grid.Column="1"
@@ -230,7 +237,7 @@
                                         TickFrequency="1"
                                         IsSnapToTickEnabled="True"
                                         Width="150"
-                                        ValueChanged="ExtraFeaturesFilter_OnValueChanged" />
+                                        ValueChanged="ExtraFeaturesFilter_OnValueChanged"/>
                             </Grid>
                         </ComboBoxItem>
                     </ComboBox>

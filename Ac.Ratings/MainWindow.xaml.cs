@@ -13,6 +13,8 @@ namespace Ac.Ratings {
     /// </summary>
     public partial class MainWindow : Window {
         private InitializeData _data;
+        private static readonly List<string> _gearboxTags = ["manual", "automatic", "semiautomatic", "sequential"];
+        private static readonly List<string> _drivetrainTags = ["rwd", "awd", "fwd"];
 
         public MainWindow() {
             InitializeComponent();
@@ -59,8 +61,10 @@ namespace Ac.Ratings {
 
             var className = selectedCar.Class;
             if (!string.IsNullOrEmpty(className)) {
-                className = className.ToLower();
-                className = char.ToUpper(className[0]) + className[1..];
+                if (!className.All(char.IsUpper)) {
+                    className = className.ToLower();
+                    className = char.ToUpper(className[0]) + className[1..];
+                }
             }
 
             Brand.Text = selectedCar.Brand ?? string.Empty;
@@ -147,7 +151,7 @@ namespace Ac.Ratings {
                 SetRatingsFromSliders(selectedCar);
 
                 var jsonContent = JsonConvert.SerializeObject(_data.CarDb, Formatting.Indented);
-                File.WriteAllText(_data.carDbFilePath, jsonContent);
+                File.WriteAllText(_data.CarDbFilePath, jsonContent);
                 SaveCarToFile(selectedCar);
             }
         }
@@ -164,7 +168,7 @@ namespace Ac.Ratings {
 
         private void SaveCarToFile(Car car) {
             try {
-                if (string.IsNullOrEmpty(_data.carsRootFolder)) {
+                if (string.IsNullOrEmpty(_data.CarsRootFolder)) {
                     MessageBox.Show("Cars root folder path is null or empty.");
                     return;
                 }
@@ -174,7 +178,7 @@ namespace Ac.Ratings {
                     return;
                 }
 
-                var carFolderPath = Path.Combine(_data.carsRootFolder, car.FolderName);
+                var carFolderPath = Path.Combine(_data.CarsRootFolder, car.FolderName);
                 var carJsonFilePath = Path.Combine(carFolderPath, "car.json");
                 var jsonContent = JsonConvert.SerializeObject(car, Formatting.Indented);
                 File.WriteAllText(carJsonFilePath, jsonContent);
@@ -189,10 +193,10 @@ namespace Ac.Ratings {
             if (selectedCar != null) {
                 ResetRatingValues(selectedCar);
 
-                ResetSliderValues();
+                ResetRatingSliderValues();
 
                 var jsonContent = JsonConvert.SerializeObject(_data.CarDb, Formatting.Indented);
-                File.WriteAllText(_data.carDbFilePath, jsonContent);
+                File.WriteAllText(_data.CarDbFilePath, jsonContent);
 
                 UpdateAverageRating();
 
@@ -210,7 +214,7 @@ namespace Ac.Ratings {
             selectedCar.Ratings.ExtraFeatures = 0;
         }
 
-        private void ResetSliderValues() {
+        private void ResetRatingSliderValues() {
             HandlingSlider.Value = 0;
             PhysicsSlider.Value = 0;
             RealismSlider.Value = 0;
@@ -275,18 +279,20 @@ namespace Ac.Ratings {
                     return "FWD";
             }
 
-            var drivetrainTag = tags?.FirstOrDefault(x => x.Contains("#+"))?.Replace(" ", "").ToLower().Remove(0, 2);
-            return drivetrainTag == null ? string.Empty : drivetrainTag.ToUpper();
+            var drivetrainFromSpecificTag = tags?.FirstOrDefault(x => x.Contains("#+"))?.Replace(" ", "").ToLower().Remove(0, 2);
+            var drivetrainFromRegularTags = tags?.FirstOrDefault(tag => _drivetrainTags.Contains(tag.ToLower()));
+            return drivetrainFromSpecificTag?.ToUpper() ?? drivetrainFromRegularTags?.ToUpper() ?? string.Empty;
         }
 
         private string ShowCarGearbox(Car selectedCar) {
             var gearsCount = selectedCar.Data.GearsCount;
             var isManual = selectedCar.Data.SupportsShifter;
             var tags = selectedCar.Tags;
-            var gearboxFromTags = tags?.FirstOrDefault(x => x.Contains("#-"))?.Replace(" ", "").Remove(0, 2);
+            var gearboxFromSpecificTag = tags?.FirstOrDefault(x => x.Contains("#-"))?.Replace(" ", "").Remove(0, 2);
+            var gearboxFromRegularTags = tags?.FirstOrDefault(tag => _gearboxTags.Contains(tag.ToLower()));
 
             if (gearsCount == 0)
-                return gearboxFromTags ?? string.Empty;
+                return gearboxFromSpecificTag ?? gearboxFromRegularTags ?? string.Empty;
 
             return isManual switch {
                 true => $"{gearsCount}-speed manual",
@@ -393,13 +399,43 @@ namespace Ac.Ratings {
                 .ToList();
         }
 
-        private List<string?> GetDistinctClasses() {
+        private List<string> GetDistinctClasses() {
             return _data.CarDb
-                .Select(x => x.Class)
+                .Select(x => x.Class?.Trim()) 
                 .Where(x => !string.IsNullOrEmpty(x))
-                .Distinct()
+                .GroupBy(x => x?.ToLower()) 
+                .Select(NormalizeClassName) 
                 .OrderBy(x => x)
                 .ToList();
+        }
+
+        private string NormalizeClassName(IGrouping<string?, string?> group) {
+            var uppercaseName = group.FirstOrDefault(name => name != null && name.All(char.IsUpper));
+
+            if (uppercaseName != null)
+                return uppercaseName;
+
+            var name = group.FirstOrDefault();
+
+            return name == null ? string.Empty : char.ToUpper(name[0]) + name[1..].ToLower();
+        }
+
+        private void ResetFilters_Click(object sender, RoutedEventArgs e) {
+            AuthorFilter.SelectedItem = null;
+            ClassFilter.SelectedItem = null;
+            SearchBox.Text = string.Empty;
+            ResetFilterSliderValues();
+            CarList.Items.Filter = null;
+        }
+
+        private void ResetFilterSliderValues() {
+            PhysicsFilter.Value = 0;
+            HandlingFilter.Value = 0;
+            RealismFilter.Value = 0;
+            SoundFilter.Value = 0;
+            VisualsFilter.Value = 0;
+            FunFactorFilter.Value = 0;
+            ExtraFeaturesFilter.Value = 0;
         }
 
         private void AuthorFilter_OnSelectionChanged(object sender, SelectionChangedEventArgs e) {
@@ -408,19 +444,6 @@ namespace Ac.Ratings {
 
         private void ClassFilter_OnSelectionChanged(object sender, SelectionChangedEventArgs e) {
             CarList.Items.Filter = CombinedFilter;
-        }
-
-        private void ResetFilters_Click(object sender, RoutedEventArgs e) {
-            AuthorFilter.SelectedItem = null;
-            ClassFilter.SelectedItem = null;
-            PhysicsFilter.Value = 0;
-            HandlingFilter.Value = 0;
-            RealismFilter.Value = 0;
-            SoundFilter.Value = 0;
-            VisualsFilter.Value = 0;
-            FunFactorFilter.Value = 0;
-            ExtraFeaturesFilter.Value = 0;
-            CarList.Items.Filter = null;
         }
 
         private void PhysicsFilter_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {

@@ -32,12 +32,12 @@
     "turboCount": 0
   },
   "ratings": {
-    "handling": 0.0,
-    "physics": 0.0,
-    "realism": 0.0,
-    "sound": 0.0,
-    "visuals": 0.0,
-    "funFactor": 0.0,
-    "extraFeatures": 0.0
+    "handling": 4.0,
+    "physics": 1.0,
+    "realism": 3.0,
+    "sound": 4.0,
+    "visuals": 5.0,
+    "funFactor": 3.0,
+    "extraFeatures": 3.0
   }
 }

@@ -33,13 +33,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 8.5,
-      "physics": 5.0,
-      "realism": 8.5,
-      "sound": 5.5,
-      "visuals": 0.0,
-      "funFactor": 0.0,
-      "extraFeatures": 0.0
+      "handling": 5.5,
+      "physics": 7.0,
+      "realism": 6.0,
+      "sound": 5.0,
+      "visuals": 7.5,
+      "funFactor": 5.0,
+      "extraFeatures": 4.0
     }
   },
   {
@@ -76,13 +76,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
-      "realism": 0.0,
-      "sound": 0.0,
-      "visuals": 0.0,
-      "funFactor": 0.0,
-      "extraFeatures": 0.0
+      "handling": 7.0,
+      "physics": 4.5,
+      "realism": 7.5,
+      "sound": 5.0,
+      "visuals": 8.0,
+      "funFactor": 4.0,
+      "extraFeatures": 8.0
     }
   },
   {
@@ -120,13 +120,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 9.0,
-      "physics": 0.0,
-      "realism": 7.5,
-      "sound": 3.5,
-      "visuals": 6.0,
-      "funFactor": 9.5,
-      "extraFeatures": 3.5
+      "handling": 5.5,
+      "physics": 8.0,
+      "realism": 6.5,
+      "sound": 2.5,
+      "visuals": 2.0,
+      "funFactor": 8.0,
+      "extraFeatures": 5.5
     }
   },
   {
@@ -164,11 +164,11 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 9.0,
-      "physics": 4.0,
-      "realism": 9.0,
-      "sound": 6.0,
-      "visuals": 2.5,
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
     }
@@ -208,9 +208,9 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 8.0,
-      "physics": 3.0,
-      "realism": 7.0,
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
       "sound": 0.0,
       "visuals": 0.0,
       "funFactor": 0.0,
@@ -1381,8 +1381,8 @@
     },
     "ratings": {
       "handling": 0.0,
-      "physics": 0.0,
-      "realism": 0.0,
+      "physics": 4.0,
+      "realism": 1.0,
       "sound": 0.0,
       "visuals": 0.0,
       "funFactor": 0.0,
@@ -1688,13 +1688,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
-      "realism": 0.0,
-      "sound": 0.0,
-      "visuals": 0.0,
-      "funFactor": 0.0,
-      "extraFeatures": 0.0
+      "handling": 9.5,
+      "physics": 5.5,
+      "realism": 5.0,
+      "sound": 3.5,
+      "visuals": 7.0,
+      "funFactor": 10.0,
+      "extraFeatures": 6.0
     }
   },
   {
@@ -1820,12 +1820,12 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
-      "realism": 0.0,
-      "sound": 0.0,
-      "visuals": 0.0,
-      "funFactor": 0.0,
+      "handling": 3.5,
+      "physics": 1.0,
+      "realism": 5.0,
+      "sound": 4.0,
+      "visuals": 6.0,
+      "funFactor": 4.0,
       "extraFeatures": 0.0
     }
   },
@@ -1907,13 +1907,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
-      "realism": 0.0,
-      "sound": 0.0,
-      "visuals": 0.0,
-      "funFactor": 0.0,
-      "extraFeatures": 0.0
+      "handling": 4.0,
+      "physics": 1.0,
+      "realism": 3.0,
+      "sound": 4.0,
+      "visuals": 5.0,
+      "funFactor": 3.0,
+      "extraFeatures": 3.0
     }
   },
   {
@@ -9029,7 +9029,7 @@
     "brand": "Maserati",
     "year": "1934",
     "author": "Historic Sim Studios",
-    "class": "Grand Prix 750kg",
+    "class": "race",
     "folderName": "hss_1934_maserati_8cm",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\hss_1934_maserati_8cm",
     "specs": {
@@ -9048,16 +9048,13 @@
       "pwratio": "3.12 kg/hp"
     },
     "tags": [
-      "Italy",
-      "Pre-War",
-      "#GP750kg",
-      "singleseater"
+      "#GP750kg"
     ],
     "data": {
-      "tractionType": null,
-      "gearsCount": 0,
-      "supportsShifter": false,
-      "turboCount": 0
+      "tractionType": "RWD",
+      "gearsCount": 4,
+      "supportsShifter": true,
+      "turboCount": 1
     },
     "ratings": {
       "handling": 0.0,
@@ -12487,7 +12484,7 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 6.5,
+      "handling": 0.0,
       "physics": 0.0,
       "realism": 0.0,
       "sound": 0.0,
@@ -14239,8 +14236,7 @@
       "fwd",
       "sequential",
       "race",
-      "cup",
-      "renault"
+      "cup"
     ],
     "data": {
       "tractionType": null,

@@ -2,9 +2,6 @@
 using Newtonsoft.Json;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Windows.Input;
 
 namespace Ac.Ratings.Model {
     public class CarSpecs : INotifyPropertyChanged {
@@ -124,7 +121,7 @@ namespace Ac.Ratings.Model {
             set {
                 if (SetField(ref _acceleration, value ?? string.Empty)) {
                     if (!string.IsNullOrEmpty(value)) {
-                        var converter = new AccelerationConverter(value, GetCarData());
+                        var converter = new AccelerationConverter(value);
                         NormalizedAcceleration = converter.ConvertedAcceleration;
                     }
                     else {
@@ -150,17 +147,6 @@ namespace Ac.Ratings.Model {
 
         protected void OnPropertyChanged(string? propertyName) {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
-
-        private string GetCarData() {
-            var sb = new StringBuilder();
-            sb.AppendLine($"\"bhp\": \"{Bhp}\",");
-            sb.AppendLine($"\"torque\": \"{Torque}\",");
-            sb.AppendLine($"\"weight\": \"{Weight}\",");
-            sb.AppendLine($"\"topspeed\": \"{Topspeed}\",");
-            sb.AppendLine($"\"acceleration\": \"{Acceleration}\",");
-            sb.AppendLine($"\"pwratio\": \"{Pwratio}\"");
-            return sb.ToString();
         }
 
         private void UpdatePowerToWeightRatio() {

@@ -5,12 +5,12 @@ namespace Ac.Ratings.Services {
     public class AccelerationConverter {
         public string ConvertedAcceleration { get; private set; }
 
-        public AccelerationConverter(string acceleration, string carData) {
+        public AccelerationConverter(string acceleration) {
             var accelerationValue = acceleration.Replace(" ", "").ToLower();
-            ConvertedAcceleration = ConvertAccelerationString(accelerationValue, carData);
+            ConvertedAcceleration = ConvertAccelerationString(accelerationValue);
         }
 
-        private string ConvertAccelerationString(string acceleration, string carData) {
+        private string ConvertAccelerationString(string acceleration) {
             if (string.IsNullOrWhiteSpace(acceleration) || !acceleration.Contains("s")) {
                 return "-";
             }
@@ -40,22 +40,7 @@ namespace Ac.Ratings.Services {
                 }
             }
 
-            LogUnconvertedData(carData);
             return acceleration;
-        }
-
-        private void LogUnconvertedData(string carData) {
-            string logFilePath = @"C:\Users\ReneVa\source\repos\Ac.Ratings\Ac.Ratings\Resources\Data\AccelerationConverterErrorLog.txt";
-            string logEntry = $"{DateTime.Now}: {carData}\n";
-            File.AppendAllText(logFilePath, logEntry);
-        }
-
-        public static void InitializeLogFile() {
-            string logFilePath =
-                @"C:\Users\ReneVa\source\repos\Ac.Ratings\Ac.Ratings\Resources\Data\AccelerationConverterErrorLog.txt";
-            if (File.Exists(logFilePath)) {
-                File.WriteAllText(logFilePath, string.Empty);
-            }
         }
     }
 }

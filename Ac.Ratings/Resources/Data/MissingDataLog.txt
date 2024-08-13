@@ -1,0 +1,16 @@
+14/08/2024 00:52:25: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\asrc_clio_cup_5
+14/08/2024 00:52:25: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\austin_mini_cooper_s_1000
+14/08/2024 00:52:25: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\austin_mini_cooper_s_appk
+14/08/2024 00:52:25: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\birdcage
+14/08/2024 00:52:25: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\ferrari_daytona_competizione
+14/08/2024 00:52:25: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\hss_1968_daihatsu_p5
+14/08/2024 00:52:25: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\ks_ferrari_488_challenge_evo
+14/08/2024 00:52:26: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\minimiglia
+14/08/2024 00:52:26: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\pessio_garage_rd1
+14/08/2024 00:52:26: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\pg_euronascar
+14/08/2024 00:52:26: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\pg_euronascarfj
+14/08/2024 00:52:26: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\pg_euronascarford
+14/08/2024 00:52:26: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\pg_euronascarshadow
+14/08/2024 00:52:26: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\rss_formula_rss_4_2024
+14/08/2024 00:52:26: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\vrc_formula_alpha_2024
+14/08/2024 00:52:26: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\vrc_formula_alpha_2024_csp

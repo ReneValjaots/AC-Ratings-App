@@ -32,11 +32,11 @@
   },
   "ratings": {
     "handling": 0.0,
-    "physics": 0.0,
+    "physics": 4.5,
     "realism": 0.0,
     "sound": 0.0,
-    "visuals": 0.0,
-    "funFactor": 0.0,
+    "visuals": 5.5,
+    "funFactor": 6.0,
     "extraFeatures": 0.0
   }
 }

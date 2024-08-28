@@ -470,13 +470,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
-      "realism": 0.0,
-      "sound": 0.0,
-      "visuals": 0.0,
+      "handling": 4.0,
+      "physics": 3.0,
+      "realism": 7.5,
+      "sound": 4.0,
+      "visuals": 7.0,
       "funFactor": 0.0,
-      "extraFeatures": 0.0
+      "extraFeatures": 6.0
     }
   },
   {
@@ -685,10 +685,10 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
-      "realism": 0.0,
-      "sound": 0.0,
+      "handling": 9.5,
+      "physics": 10.0,
+      "realism": 5.5,
+      "sound": 8.0,
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
@@ -728,11 +728,11 @@
     },
     "ratings": {
       "handling": 0.0,
-      "physics": 0.0,
+      "physics": 4.5,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
-      "funFactor": 0.0,
+      "visuals": 5.5,
+      "funFactor": 6.0,
       "extraFeatures": 0.0
     }
   },

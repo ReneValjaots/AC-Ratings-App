@@ -354,40 +354,31 @@ namespace Ac.Ratings {
         }
 
         private bool CombinedFilter(object obj) {
-            if (obj is Car car) {
-                var selectedAuthor = AuthorFilter.SelectedItem?.ToString();
-                var selectedClass = ClassFilter.SelectedItem?.ToString();
-                var searchText = SearchBox.Text.Trim();
-                var physicsRatings = PhysicsFilter.Value;
-                var handlingRatings = HandlingFilter.Value;
-                var realismRatings = RealismFilter.Value;
-                var soundRatings = SoundFilter.Value;
-                var visualsRatings = VisualsFilter.Value;
-                var funFactorRatings = FunFactorFilter.Value;
-                var extraFeaturesRatings = ExtraFeaturesFilter.Value;
+            if (obj is not Car car) return false;
 
-                bool authorMatches = string.IsNullOrEmpty(selectedAuthor) ||
-                                     (car.Author?.Equals(selectedAuthor, StringComparison.OrdinalIgnoreCase) ?? false);
+            var selectedAuthor = AuthorFilter.SelectedItem?.ToString();
+            var selectedClass = ClassFilter.SelectedItem?.ToString();
+            var searchText = SearchBox.Text.Trim();
 
-            
-                bool classMatches = string.IsNullOrEmpty(selectedClass) ||
-                                    (car.Class?.Equals(selectedClass, StringComparison.OrdinalIgnoreCase) ?? false);
+            var conditions = new List<Func<bool>> {
+                () => IsMatch(car.Author, selectedAuthor),
+                () => IsMatch(car.Class, selectedClass),
+                () => car.Name?.Contains(searchText, StringComparison.OrdinalIgnoreCase) ?? false,
+                () => car.Ratings.Physics >= PhysicsFilter.Value,
+                () => car.Ratings.Handling >= HandlingFilter.Value,
+                () => car.Ratings.Realism >= RealismFilter.Value,
+                () => car.Ratings.Sound >= SoundFilter.Value,
+                () => car.Ratings.Visuals >= VisualsFilter.Value,
+                () => car.Ratings.FunFactor >= FunFactorFilter.Value,
+                () => car.Ratings.ExtraFeatures >= ExtraFeaturesFilter.Value
+            };
 
-                bool physicsRatingMatches = car.Ratings.Physics >= physicsRatings;
-                bool handlingRatingMatches = car.Ratings.Handling >= handlingRatings;
-                bool realismRatingMatches = car.Ratings.Realism >= realismRatings;
-                bool soundRatingMatches = car.Ratings.Sound >= soundRatings;
-                bool visualsRatingMatches = car.Ratings.Visuals >= visualsRatings;
-                bool funFactorRatingMatches = car.Ratings.FunFactor >= funFactorRatings;
-                bool extraFeaturesRatingMatches = car.Ratings.ExtraFeatures >= extraFeaturesRatings;
+            return conditions.All(condition => condition());
+        }
 
-                bool searchMatches = string.IsNullOrEmpty(searchText) ||
-                                     (car.Name?.Contains(searchText, StringComparison.OrdinalIgnoreCase) ?? false);
-
-                return authorMatches && classMatches && physicsRatingMatches && handlingRatingMatches && realismRatingMatches && soundRatingMatches && visualsRatingMatches && funFactorRatingMatches && extraFeaturesRatingMatches && searchMatches;
-            }
-
-            return false;
+        private bool IsMatch(string? value, string? filter) {
+            return string.IsNullOrEmpty(filter) ||
+                   string.Equals(value, filter, StringComparison.OrdinalIgnoreCase);
         }
 
         private List<string?> GetDistinctAuthors() {

@@ -1,0 +1,44 @@
+{
+  "name": "Mitsubishi Lancer Evo IX MR",
+  "brand": "Mitsubishi",
+  "year": "2006",
+  "author": "Ceky Performance (By Syke)",
+  "class": "street",
+  "folderName": "cky_evo_ix_mr",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\cky_evo_ix_mr",
+  "specs": {
+    "convertedPower": "203kW/276hp",
+    "isManufacturerData": false,
+    "normalizedAcceleration": "5.7s",
+    "normalizedTorque": "355 Nm",
+    "normalizedTopSpeed": "249 km/h",
+    "normalizedWeight": "1485 kg",
+    "normalizedPwRatio": "0.19 hp/kg",
+    "bhp": "276 Hp",
+    "torque": "355 Nm",
+    "weight": "1485 kg",
+    "topspeed": "249 km/h",
+    "acceleration": "5.7s 0-100",
+    "pwratio": "5.38 kg/hp"
+  },
+  "tags": [
+    "4wd",
+    "manual",
+    "rally"
+  ],
+  "data": {
+    "tractionType": "AWD",
+    "gearsCount": 6,
+    "supportsShifter": true,
+    "turboCount": 1
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

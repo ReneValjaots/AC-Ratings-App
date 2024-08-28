@@ -1,5 +1,5 @@
 {
-  "name": "BMW M3 E92 drift",
+  "name": "BMW M3 E92 Drift",
   "parent": "bmw_m3_e92",
   "brand": "BMW",
   "description": "The Drift tuned version of M3 E92 series has adjustable aftermarket dampers with coilover springs, camber plates to adjust for massive range of camber at the front, and rear toe links for equally big range of camber adjustment at the rear. The front steering rods are also modify to permits very wide angles for steering up to 55 degrees. <br><br>The fourth generation - 20 years and still designed to thrill.<br>The BMW M3 Coupe continues the tradition of the M GmbH to build a perfect high-performance sports car. It comes with a completely new V8 engine and drivetrain, a lightweight body that is also extremely stiff, a lowered centre of gravity and a carbon roof which, while just as strong as a steel roof, weighs far less. And of course, everything has been tried and tested on the toughest proving ground in the world, the Nurburgring-Nordschleife. Underneath the distinctive powerdome: the V8 high-rev engine with up to 8.400 rpm which is transferred by the double-clutch transmission M DKG Drivelogic to the M differential lock and then to the rear wheels without the slightest disruption to tractive force.<br><br>With a vehicle as powerful and dynamic as this, styling is never an aim in itself. Form will always be driven by functional considerations. The expressive front is designed to accommodate the V8 high-rev engine. The muscular rear allows for the wider track and four tailpipes. Even the shape of the exterior mirrors adds to the overall aerodynamics. Only the interplay of all these measures ensures the desired effect: sports car performance that is ideally suited to everyday driving.",
@@ -7,7 +7,7 @@
     "#+ rwd",
     "#- semiautomatic"
   ],
-  "class": "street",
+  "class": "Drift",
   "specs": {
     "bhp": "414bhp",
     "torque": "400Nm",

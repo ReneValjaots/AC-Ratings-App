@@ -7,7 +7,7 @@
     "#+ rwd",
     "#- semiautomatic"
   ],
-  "class": "street",
+  "class": "Drift",
   "specs": {
     "bhp": "390bhp",
     "torque": "580Nm",

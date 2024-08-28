@@ -27,10 +27,10 @@
     "sequential"
   ],
   "data": {
-    "tractionType": null,
-    "gearsCount": 0,
+    "tractionType": "RWD",
+    "gearsCount": 6,
     "supportsShifter": false,
-    "turboCount": 0
+    "turboCount": 1
   },
   "ratings": {
     "handling": 0.0,

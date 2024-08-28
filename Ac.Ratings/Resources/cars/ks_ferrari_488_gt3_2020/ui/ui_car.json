@@ -1,12 +1,12 @@
 {
-  "name": "Ferrari 488 GT3 Evo 2020",
+  "name": "Ferrari 488 GT3 Evo",
   "brand": "Ferrari",
   "description": "The Ferrari 488 GT3 Evo 2020 is the latest racing version of the 488 GTB, presented at the Ferrari Finali Mondiali, as replacement for the 458 Italia. <br><br>This car features large side intakes to provide a better air flow to its twin-turbocharged 3.9-liter V8.",
   "tags": [
     "#+ rwd",
     "#- sequential"
   ],
-  "class": "race",
+  "class": "GT3",
   "specs": {
     "bhp": "500bhp",
     "torque": "640Nm",
@@ -174,5 +174,6 @@
   "country": "Italy",
   "author": "Ferrari Esports Series",
   "version": null,
-  "url": "https://esportsseries.ferrari.com/events"
+  "url": "https://esportsseries.ferrari.com/events",
+  "year": 2020
 }

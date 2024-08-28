@@ -6,7 +6,7 @@
     "#+ rwd",
     "#- manual"
   ],
-  "class": "street",
+  "class": "Drift",
   "specs": {
     "bhp": "624bhp",
     "torque": "756Nm",

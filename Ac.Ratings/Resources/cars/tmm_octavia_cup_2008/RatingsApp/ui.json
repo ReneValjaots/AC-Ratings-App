@@ -1,0 +1,47 @@
+{
+  "name": "Skoda Octavia Cup",
+  "brand": "Skoda",
+  "year": "2008",
+  "author": "TM-Modding",
+  "class": "cup",
+  "folderName": "tmm_octavia_cup_2008",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\tmm_octavia_cup_2008",
+  "specs": {
+    "convertedPower": "162kW/220hp",
+    "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "225 Nm",
+    "normalizedTopSpeed": "208 km/h",
+    "normalizedWeight": "1120 kg",
+    "normalizedPwRatio": "0.20 hp/kg",
+    "bhp": "220 bhp",
+    "torque": "225 Nm",
+    "weight": "1120kg",
+    "topspeed": "208 km/h",
+    "acceleration": "",
+    "pwratio": "5.09 kg/hp"
+  },
+  "tags": [
+    "fwd",
+    "race",
+    "sequential",
+    "cup",
+    "octavia",
+    "octavia cup"
+  ],
+  "data": {
+    "tractionType": "FWD",
+    "gearsCount": 6,
+    "supportsShifter": false,
+    "turboCount": 0
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

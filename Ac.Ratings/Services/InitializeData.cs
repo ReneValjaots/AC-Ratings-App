@@ -61,16 +61,19 @@ namespace Ac.Ratings.Services {
                     File.Copy(sourceUiFilePath, destinationUiFilePath, overwrite: true);
                 }
                 else {
-                    Console.WriteLine($"ui_car.json not found for car: {car.Name}");
+                    LogMissingData($"ui_car.json not found for car: {car.Name}");
                 }
 
                 string physicsDataPath = Path.Combine(ratingsAppFolder, "data.json");
                 string uiJsonPath = Path.Combine(ratingsAppFolder, "ui.json");
                 string ratingsDataPath = Path.Combine(ratingsAppFolder, "ratings.json");
 
+                if (!File.Exists(ratingsDataPath)) {
+                    File.WriteAllText(ratingsDataPath, JsonConvert.SerializeObject(car.Ratings, Formatting.Indented));
+                }
+
                 File.WriteAllText(physicsDataPath, JsonConvert.SerializeObject(car.Data, Formatting.Indented));
                 File.WriteAllText(uiJsonPath, JsonConvert.SerializeObject(car, Formatting.Indented));
-                File.WriteAllText(ratingsDataPath, JsonConvert.SerializeObject(car.Ratings, Formatting.Indented));
             }
         }
 
@@ -83,7 +86,7 @@ namespace Ac.Ratings.Services {
                 }
                 var jsonFilePath = Path.Combine(directory, "ui", "ui_car.json");
 
-                var dataFolders = Directory.GetDirectories(directory, "data", SearchOption.AllDirectories);
+                var dataFolders = Directory.GetDirectories(directory, "data*", SearchOption.TopDirectoryOnly);
 
                 if (dataFolders.Length == 0) {
                     LogMissingData($"No data folder found for car in directory: {directory}");
@@ -163,7 +166,7 @@ namespace Ac.Ratings.Services {
         }
 
         private Car? LoadCarFromFolder(string carDirectory) {
-            var carFilePath = Path.Combine(CarsRootFolder, Path.GetFileName(carDirectory), "car.json");
+            var carFilePath = Path.Combine(CarsRootFolder, Path.GetFileName(carDirectory), "RatingsApp", "ui.json");
 
             if (File.Exists(carFilePath)) {
                 var jsonContent = File.ReadAllText(carFilePath);

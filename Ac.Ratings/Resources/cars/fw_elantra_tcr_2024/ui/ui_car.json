@@ -1,5 +1,5 @@
 {
-  "name": "Hyundai Elantra N TCR 2024",
+  "name": "Hyundai Elantra N TCR",
   "brand": "Hyundai",
   "description": "Hyundai Elantra N TCR 2024 specs<br><br>Cphys enabled version (CSP 0.2.3 required!)<br><br>Extra button mapping:<br>Extra_F = launch control<br>Extra_B = fog lights",
   "tags": [
@@ -267,5 +267,5 @@
   "author": "Fuzo's Workshop",
   "version": "1.0",
   "url": "https://www.patreon.com/fuzosworkshop",
-  "year": 2020
+  "year": 2024
 }

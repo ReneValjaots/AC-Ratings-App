@@ -1,0 +1,207 @@
+{
+  "name": "Tatra 603-2 B5 Marathon",
+  "brand": "Tatra",
+  "description": "The Tatra 603 is a large rear-engined luxury car which was produced by the Czechoslovak company Tatra from 1956 to 1975. It was a continuation of the series of Tatra streamlined sedans which began with the Tatra 77. In Socialist Czechoslovakia, only high-ranking party officials and heads of factories were driven in 603s; the car was also exported to a number of other countries. <br><br>The T603s took part in 79 races (24 international) in years 1957 to 1967, resulting in a total 60 first, 56 second and 49 third positions. In most cases production cars with minimum modifications participated in races, but more modified versions also emerged later, notably one with ejector cooled engine.",
+  "tags": [
+    "rwd",
+    "race",
+    "Czech Republic",
+    "historic",
+    "endurance",
+    "B5"
+  ],
+  "class": "race",
+  "specs": {
+    "bhp": "170 bhp",
+    "torque": "207 Nm",
+    "weight": "1320 kg",
+    "topspeed": "190+km/h",
+    "acceleration": null,
+    "pwratio": "7.76 kg/hp"
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      91.9540229885057
+    ],
+    [
+      500.0,
+      113.793103448276
+    ],
+    [
+      1000.0,
+      131.034482758621
+    ],
+    [
+      1500.0,
+      155.172413793103
+    ],
+    [
+      2000.0,
+      187.35632183908
+    ],
+    [
+      2500.0,
+      197.701149425287
+    ],
+    [
+      3000.0,
+      206.896551724138
+    ],
+    [
+      3500.0,
+      203.448275862069
+    ],
+    [
+      4000.0,
+      206.896551724138
+    ],
+    [
+      4500.0,
+      204.597701149425
+    ],
+    [
+      5000.0,
+      193.103448275862
+    ],
+    [
+      5500.0,
+      189.655172413793
+    ],
+    [
+      5525.0,
+      189.655172413793
+    ],
+    [
+      5590.0,
+      189.655172413793
+    ],
+    [
+      5655.0,
+      189.655172413793
+    ],
+    [
+      5720.0,
+      189.655172413793
+    ],
+    [
+      5785.0,
+      189.655172413793
+    ],
+    [
+      5850.0,
+      189.655172413793
+    ],
+    [
+      5915.0,
+      189.655172413793
+    ],
+    [
+      5980.0,
+      189.655172413793
+    ],
+    [
+      6000.0,
+      189.655172413793
+    ],
+    [
+      6250.0,
+      187.35632183908
+    ],
+    [
+      6500.0,
+      186.206896551724
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      130.0,
+      1.7824748716881
+    ],
+    [
+      260.0,
+      3.77228258693964
+    ],
+    [
+      390.0,
+      5.96942314575462
+    ],
+    [
+      650.0,
+      10.8597921603319
+    ],
+    [
+      910.0,
+      16.3494957915258
+    ],
+    [
+      1000.0,
+      18.4023233932046
+    ],
+    [
+      1235.0,
+      24.6945378194261
+    ],
+    [
+      1500.0,
+      32.6883376063502
+    ],
+    [
+      1755.0,
+      42.2908636615917
+    ],
+    [
+      2000.0,
+      52.6241879489885
+    ],
+    [
+      3000.0,
+      87.1689002836006
+    ],
+    [
+      3500.0,
+      100.00209949202
+    ],
+    [
+      4000.0,
+      116.225200378134
+    ],
+    [
+      4500.0,
+      129.300535420674
+    ],
+    [
+      4745.0,
+      132.5870450972
+    ],
+    [
+      5000.0,
+      135.596067107823
+    ],
+    [
+      5500.0,
+      146.492179643273
+    ],
+    [
+      6000.0,
+      159.809650519935
+    ],
+    [
+      6250.0,
+      164.450587340589
+    ],
+    [
+      6500.0,
+      169.979355553021
+    ]
+  ],
+  "country": "Czech Republic",
+  "author": "TM-Modding",
+  "version": "1.2",
+  "url": "https://tm-modding.eu",
+  "year": 1967
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Skoda Fabia R5 DTRi Evo 3",
+  "brand": "Skoda",
+  "year": "2019",
+  "author": "TM-Modding",
+  "class": "hillclimb",
+  "folderName": "tmm_fabia_r5_dtri_evo_3",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\tmm_fabia_r5_dtri_evo_3",
+  "specs": {
+    "convertedPower": "468kW/637hp",
+    "isManufacturerData": false,
+    "normalizedAcceleration": "2.0s",
+    "normalizedTorque": "664 Nm",
+    "normalizedTopSpeed": "200+ km/h",
+    "normalizedWeight": "940 kg",
+    "normalizedPwRatio": "0.68 hp/kg",
+    "bhp": "637 bhp",
+    "torque": "664 Nm",
+    "weight": "940 kg*",
+    "topspeed": "200+km/h",
+    "acceleration": "2.0s 0-100",
+    "pwratio": "1.48 kg/hp"
+  },
+  "tags": [
+    "awd",
+    "sequential",
+    "hillclimb",
+    "E1 +2000",
+    "evo"
+  ],
+  "data": {
+    "tractionType": "AWD",
+    "gearsCount": 6,
+    "supportsShifter": false,
+    "turboCount": 1
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

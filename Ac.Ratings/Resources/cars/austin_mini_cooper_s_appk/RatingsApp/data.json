@@ -1,6 +1,6 @@
 {
-  "tractionType": null,
-  "gearsCount": 0,
-  "supportsShifter": false,
-  "turboCount": 0
+  "tractionType": "FWD",
+  "gearsCount": 4,
+  "supportsShifter": true,
+  "turboCount": 1
 }

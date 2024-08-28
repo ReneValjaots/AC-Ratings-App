@@ -1,0 +1,45 @@
+{
+  "name": "Skoda Octavia Cup",
+  "brand": "Skoda",
+  "year": "2018",
+  "author": "TM-Modding",
+  "class": "cup",
+  "folderName": "tmm_octavia_cup_2018",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\tmm_octavia_cup_2018",
+  "specs": {
+    "convertedPower": "207kW/281hp",
+    "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "324 Nm",
+    "normalizedTopSpeed": "230+ km/h",
+    "normalizedWeight": "1165 kg",
+    "normalizedPwRatio": "0.24 hp/kg",
+    "bhp": "281 bhp",
+    "torque": "324 Nm",
+    "weight": "1165 kg",
+    "topspeed": "230+ km/h",
+    "acceleration": "",
+    "pwratio": "4.15 kg/hp"
+  },
+  "tags": [
+    "fwd",
+    "race",
+    "cup",
+    "dsg"
+  ],
+  "data": {
+    "tractionType": "FWD",
+    "gearsCount": 6,
+    "supportsShifter": false,
+    "turboCount": 1
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

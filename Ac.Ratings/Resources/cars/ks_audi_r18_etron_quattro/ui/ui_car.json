@@ -7,7 +7,7 @@
     "#- sequential",
     "#! 4.0L & V6"
   ],
-  "class": "race",
+  "class": "Prototype",
   "specs": {
     "bhp": "580kW/700hp",
     "torque": "850+Nm",

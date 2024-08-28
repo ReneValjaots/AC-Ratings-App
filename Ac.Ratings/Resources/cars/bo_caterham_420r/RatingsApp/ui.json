@@ -1,0 +1,48 @@
+{
+  "name": "Caterham 420R 2020",
+  "brand": "Caterham",
+  "year": "2020",
+  "author": "Ben O'Bro & JackCY",
+  "class": "race",
+  "folderName": "bo_caterham_420r",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bo_caterham_420r",
+  "specs": {
+    "convertedPower": "129kW/175hp",
+    "isManufacturerData": false,
+    "normalizedAcceleration": "4.0s",
+    "normalizedTorque": "201 Nm",
+    "normalizedTopSpeed": "218 km/h",
+    "normalizedWeight": "585 kg",
+    "normalizedPwRatio": "0.30 hp/kg",
+    "bhp": "175 bhp",
+    "torque": "201 Nm",
+    "weight": "585 kg",
+    "topspeed": "218 km/h",
+    "acceleration": "4 s 0–100",
+    "pwratio": "3.34 kg/hp"
+  },
+  "tags": [
+    "rwd",
+    "lightweight",
+    "trackday",
+    "great britain",
+    "sequential",
+    "caterham motorsport",
+    "race"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 6,
+    "supportsShifter": false,
+    "turboCount": 0
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

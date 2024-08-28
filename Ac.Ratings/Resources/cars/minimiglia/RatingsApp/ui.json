@@ -28,9 +28,9 @@
     "race"
   ],
   "data": {
-    "tractionType": null,
-    "gearsCount": 0,
-    "supportsShifter": false,
+    "tractionType": "FWD",
+    "gearsCount": 4,
+    "supportsShifter": true,
     "turboCount": 0
   },
   "ratings": {

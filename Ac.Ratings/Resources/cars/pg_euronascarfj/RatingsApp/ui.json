@@ -27,9 +27,9 @@
     "nascar"
   ],
   "data": {
-    "tractionType": null,
-    "gearsCount": 0,
-    "supportsShifter": false,
+    "tractionType": "RWD",
+    "gearsCount": 4,
+    "supportsShifter": true,
     "turboCount": 0
   },
   "ratings": {

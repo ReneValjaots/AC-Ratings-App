@@ -3,7 +3,7 @@
   "brand": "Maserati",
   "year": "1934",
   "author": "Historic Sim Studios",
-  "class": "Grand Prix 750kg",
+  "class": "race",
   "folderName": "hss_1934_maserati_8cm",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\hss_1934_maserati_8cm",
   "specs": {
@@ -22,16 +22,13 @@
     "pwratio": "3.12 kg/hp"
   },
   "tags": [
-    "Italy",
-    "Pre-War",
-    "#GP750kg",
-    "singleseater"
+    "#GP750kg"
   ],
   "data": {
-    "tractionType": null,
-    "gearsCount": 0,
-    "supportsShifter": false,
-    "turboCount": 0
+    "tractionType": "RWD",
+    "gearsCount": 4,
+    "supportsShifter": true,
+    "turboCount": 1
   },
   "ratings": {
     "handling": 0.0,

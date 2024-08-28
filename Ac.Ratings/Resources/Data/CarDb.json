@@ -33,13 +33,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 5.5,
-      "physics": 7.0,
-      "realism": 6.0,
-      "sound": 5.0,
-      "visuals": 7.5,
-      "funFactor": 5.0,
-      "extraFeatures": 4.0
+      "handling": 6.0,
+      "physics": 4.0,
+      "realism": 9.0,
+      "sound": 6.5,
+      "visuals": 5.0,
+      "funFactor": 7.5,
+      "extraFeatures": 0.0
     }
   },
   {
@@ -76,13 +76,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 7.0,
-      "physics": 4.5,
-      "realism": 7.5,
-      "sound": 5.0,
-      "visuals": 8.0,
-      "funFactor": 4.0,
-      "extraFeatures": 8.0
+      "handling": 10.0,
+      "physics": 6.5,
+      "realism": 5.0,
+      "sound": 4.5,
+      "visuals": 8.5,
+      "funFactor": 4.5,
+      "extraFeatures": 0.0
     }
   },
   {
@@ -120,13 +120,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 5.5,
-      "physics": 8.0,
-      "realism": 6.5,
-      "sound": 2.5,
-      "visuals": 2.0,
-      "funFactor": 8.0,
-      "extraFeatures": 5.5
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
     }
   },
   {
@@ -353,7 +353,7 @@
     "brand": "Acura",
     "year": "2024",
     "author": "Race Sim Studio",
-    "class": "race",
+    "class": "GT3",
     "folderName": "rss_gtm_akuro_v6_evo2",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtm_akuro_v6_evo2",
     "specs": {
@@ -783,7 +783,7 @@
     "brand": "Audi",
     "year": "2014",
     "author": "Kunos",
-    "class": "race",
+    "class": "Prototype",
     "folderName": "ks_audi_r18_etron_quattro",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r18_etron_quattro",
     "specs": {
@@ -913,7 +913,7 @@
     "brand": "Audi",
     "year": "2024",
     "author": "Race Sim Studio",
-    "class": "race",
+    "class": "GT3",
     "folderName": "rss_gtm_aero_v10_evo2",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtm_aero_v10_evo2",
     "specs": {
@@ -1374,15 +1374,15 @@
       "60s"
     ],
     "data": {
-      "tractionType": null,
-      "gearsCount": 0,
-      "supportsShifter": false,
-      "turboCount": 0
+      "tractionType": "FWD",
+      "gearsCount": 4,
+      "supportsShifter": true,
+      "turboCount": 1
     },
     "ratings": {
       "handling": 0.0,
-      "physics": 4.0,
-      "realism": 1.0,
+      "physics": 0.0,
+      "realism": 0.0,
       "sound": 0.0,
       "visuals": 0.0,
       "funFactor": 0.0,
@@ -1421,10 +1421,10 @@
       "60s"
     ],
     "data": {
-      "tractionType": null,
-      "gearsCount": 0,
-      "supportsShifter": false,
-      "turboCount": 0
+      "tractionType": "FWD",
+      "gearsCount": 4,
+      "supportsShifter": true,
+      "turboCount": 1
     },
     "ratings": {
       "handling": 0.0,
@@ -1688,13 +1688,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 9.5,
-      "physics": 5.5,
-      "realism": 5.0,
-      "sound": 3.5,
-      "visuals": 7.0,
-      "funFactor": 10.0,
-      "extraFeatures": 6.0
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
     }
   },
   {
@@ -1702,7 +1702,7 @@
     "brand": "BMW",
     "year": "1986",
     "author": "Kunos",
-    "class": "street",
+    "class": "Drift",
     "folderName": "bmw_m3_e30_drift",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e30_drift",
     "specs": {
@@ -1820,12 +1820,12 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 3.5,
-      "physics": 1.0,
-      "realism": 5.0,
-      "sound": 4.0,
-      "visuals": 6.0,
-      "funFactor": 4.0,
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
       "extraFeatures": 0.0
     }
   },
@@ -1907,21 +1907,21 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 4.0,
-      "physics": 1.0,
-      "realism": 3.0,
-      "sound": 4.0,
-      "visuals": 5.0,
-      "funFactor": 3.0,
-      "extraFeatures": 3.0
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
     }
   },
   {
-    "name": "BMW M3 E92 drift",
+    "name": "BMW M3 E92 Drift",
     "brand": "BMW",
     "year": "2015",
     "author": "Kunos",
-    "class": "street",
+    "class": "Drift",
     "folderName": "bmw_m3_e92_drift",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e92_drift",
     "specs": {
@@ -2136,7 +2136,7 @@
     "brand": "BMW",
     "year": "2020",
     "author": "Race Sim Studio",
-    "class": "race",
+    "class": "GT3",
     "folderName": "rss_gtm_bayer_v8",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtm_bayer_v8",
     "specs": {
@@ -2264,7 +2264,7 @@
     "brand": "BMW",
     "year": "2009",
     "author": "Kunos",
-    "class": "street",
+    "class": "Drift",
     "folderName": "bmw_z4_drift",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_z4_drift",
     "specs": {
@@ -2350,7 +2350,7 @@
     "brand": "BMW",
     "year": "2010",
     "author": "Kunos",
-    "class": "race",
+    "class": "GT3",
     "folderName": "bmw_z4_gt3",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_z4_gt3",
     "specs": {
@@ -2473,10 +2473,58 @@
     }
   },
   {
-    "name": "Caterham Academy 2020",
+    "name": "Caterham 420R 2020",
     "brand": "Caterham",
     "year": "2020",
     "author": "Ben O'Bro & JackCY",
+    "class": "race",
+    "folderName": "bo_caterham_420r",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bo_caterham_420r",
+    "specs": {
+      "convertedPower": "129kW/175hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "4.0s",
+      "normalizedTorque": "201 Nm",
+      "normalizedTopSpeed": "218 km/h",
+      "normalizedWeight": "585 kg",
+      "normalizedPwRatio": "0.30 hp/kg",
+      "bhp": "175 bhp",
+      "torque": "201 Nm",
+      "weight": "585 kg",
+      "topspeed": "218 km/h",
+      "acceleration": "4 s 0–100",
+      "pwratio": "3.34 kg/hp"
+    },
+    "tags": [
+      "rwd",
+      "lightweight",
+      "trackday",
+      "great britain",
+      "sequential",
+      "caterham motorsport",
+      "race"
+    ],
+    "data": {
+      "tractionType": "RWD",
+      "gearsCount": 6,
+      "supportsShifter": false,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Caterham Academy 2020",
+    "brand": "Caterham",
+    "year": "2020",
+    "author": "Ben O'Bro",
     "class": "race",
     "folderName": "bo_caterham_academy",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bo_caterham_academy",
@@ -2502,6 +2550,54 @@
     "data": {
       "tractionType": "RWD",
       "gearsCount": 5,
+      "supportsShifter": true,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Caterham R300 2008",
+    "brand": "Caterham",
+    "year": "2008",
+    "author": "Ben O'Bro & JackCY",
+    "class": "race",
+    "folderName": "bo_caterham_r300",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bo_caterham_r300",
+    "specs": {
+      "convertedPower": "129kW/175hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "4.0s",
+      "normalizedTorque": "201 Nm",
+      "normalizedTopSpeed": "218 km/h",
+      "normalizedWeight": "585 kg",
+      "normalizedPwRatio": "0.30 hp/kg",
+      "bhp": "175 bhp",
+      "torque": "201 Nm",
+      "weight": "585 kg",
+      "topspeed": "218 km/h",
+      "acceleration": "4 s 0–100",
+      "pwratio": "3.34 kg/hp"
+    },
+    "tags": [
+      "rwd",
+      "lightweight",
+      "trackday",
+      "great britain",
+      "manual",
+      "caterham motorsport",
+      "race"
+    ],
+    "data": {
+      "tractionType": "RWD",
+      "gearsCount": 6,
       "supportsShifter": true,
       "turboCount": 0
     },
@@ -2942,7 +3038,50 @@
     }
   },
   {
-    "name": "Cupra Leon Competición 2022",
+    "name": "Cupra Leon Competición TCR",
+    "brand": "Cupra",
+    "year": "2024",
+    "author": "Fuzo's Workshop",
+    "class": "TCR",
+    "folderName": "fw_cupra_tcr_2024",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\fw_cupra_tcr_2024",
+    "specs": {
+      "convertedPower": "250kW/340hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "5.0s",
+      "normalizedTorque": "420 Nm",
+      "normalizedTopSpeed": "260 km/h",
+      "normalizedWeight": "1190 kg",
+      "normalizedPwRatio": "0.29 hp/kg",
+      "bhp": "340 bhp",
+      "torque": "420 Nm",
+      "weight": "1190 kg",
+      "topspeed": "260 km/h",
+      "acceleration": "5.0s 0-100",
+      "pwratio": "3.5 kg/hp"
+    },
+    "tags": [
+      "fwd",
+      "sequential"
+    ],
+    "data": {
+      "tractionType": "FWD",
+      "gearsCount": 6,
+      "supportsShifter": false,
+      "turboCount": 1
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Cupra Leon Competición TCR",
     "brand": "Cupra",
     "year": "2022",
     "author": "TM-Modding",
@@ -2967,49 +3106,6 @@
     "tags": [
       "#- sequential",
       "#+ fwd"
-    ],
-    "data": {
-      "tractionType": "FWD",
-      "gearsCount": 6,
-      "supportsShifter": false,
-      "turboCount": 1
-    },
-    "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
-      "realism": 0.0,
-      "sound": 0.0,
-      "visuals": 0.0,
-      "funFactor": 0.0,
-      "extraFeatures": 0.0
-    }
-  },
-  {
-    "name": "Cupra Leon Competición 2024",
-    "brand": "Cupra",
-    "year": "2020",
-    "author": "Fuzo's Workshop",
-    "class": "TCR",
-    "folderName": "fw_cupra_tcr_2024",
-    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\fw_cupra_tcr_2024",
-    "specs": {
-      "convertedPower": "250kW/340hp",
-      "isManufacturerData": false,
-      "normalizedAcceleration": "5.0s",
-      "normalizedTorque": "420 Nm",
-      "normalizedTopSpeed": "260 km/h",
-      "normalizedWeight": "1190 kg",
-      "normalizedPwRatio": "0.29 hp/kg",
-      "bhp": "340 bhp",
-      "torque": "420 Nm",
-      "weight": "1190 kg",
-      "topspeed": "260 km/h",
-      "acceleration": "5.0s 0-100",
-      "pwratio": "3.5 kg/hp"
-    },
-    "tags": [
-      "fwd",
-      "sequential"
     ],
     "data": {
       "tractionType": "FWD",
@@ -3102,9 +3198,9 @@
       "#Vintage GT"
     ],
     "data": {
-      "tractionType": null,
-      "gearsCount": 0,
-      "supportsShifter": false,
+      "tractionType": "RWD",
+      "gearsCount": 5,
+      "supportsShifter": true,
       "turboCount": 0
     },
     "ratings": {
@@ -3916,9 +4012,9 @@
       "nascar"
     ],
     "data": {
-      "tractionType": null,
-      "gearsCount": 0,
-      "supportsShifter": false,
+      "tractionType": "RWD",
+      "gearsCount": 4,
+      "supportsShifter": true,
       "turboCount": 0
     },
     "ratings": {
@@ -3960,9 +4056,9 @@
       "nascar"
     ],
     "data": {
-      "tractionType": null,
-      "gearsCount": 0,
-      "supportsShifter": false,
+      "tractionType": "RWD",
+      "gearsCount": 4,
+      "supportsShifter": true,
       "turboCount": 0
     },
     "ratings": {
@@ -4004,9 +4100,9 @@
       "nascar"
     ],
     "data": {
-      "tractionType": null,
-      "gearsCount": 0,
-      "supportsShifter": false,
+      "tractionType": "RWD",
+      "gearsCount": 4,
+      "supportsShifter": true,
       "turboCount": 0
     },
     "ratings": {
@@ -4048,9 +4144,9 @@
       "nascar"
     ],
     "data": {
-      "tractionType": null,
-      "gearsCount": 0,
-      "supportsShifter": false,
+      "tractionType": "RWD",
+      "gearsCount": 4,
+      "supportsShifter": true,
       "turboCount": 0
     },
     "ratings": {
@@ -4111,7 +4207,7 @@
     "brand": "Ferrari",
     "year": "2023",
     "author": "United Racing Design",
-    "class": "race",
+    "class": "GT3",
     "folderName": "urd_ferrucci_296_23",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_ferrucci_296_23",
     "specs": {
@@ -4396,9 +4492,9 @@
       "gr4"
     ],
     "data": {
-      "tractionType": null,
-      "gearsCount": 0,
-      "supportsShifter": false,
+      "tractionType": "RWD",
+      "gearsCount": 5,
+      "supportsShifter": true,
       "turboCount": 0
     },
     "ratings": {
@@ -4545,7 +4641,7 @@
     "brand": "Ferrari",
     "year": "2011",
     "author": "Kunos",
-    "class": "race",
+    "class": "GT3",
     "folderName": "ks_ferrari_488_gt3",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_488_gt3",
     "specs": {
@@ -4584,11 +4680,11 @@
     }
   },
   {
-    "name": "Ferrari 488 GT3 Evo 2020",
+    "name": "Ferrari 488 GT3 Evo",
     "brand": "Ferrari",
-    "year": null,
+    "year": "2020",
     "author": "Ferrari Esports Series",
-    "class": "race",
+    "class": "GT3",
     "folderName": "ks_ferrari_488_gt3_2020",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_488_gt3_2020",
     "specs": {
@@ -4702,13 +4798,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
-      "realism": 0.0,
-      "sound": 0.0,
-      "visuals": 0.0,
-      "funFactor": 0.0,
-      "extraFeatures": 0.0
+      "handling": 7.5,
+      "physics": 6.0,
+      "realism": 5.5,
+      "sound": 7.5,
+      "visuals": 2.0,
+      "funFactor": 7.5,
+      "extraFeatures": 4.5
     }
   },
   {
@@ -5143,7 +5239,7 @@
     "name": "Ferrari F40 Custom",
     "brand": "Ferrari",
     "year": "1992",
-    "author": "F40_LM_Lover edit Opperslang",
+    "author": "Opperslang",
     "class": "street",
     "folderName": "slang_ferrari_f40",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\slang_ferrari_f40",
@@ -6754,9 +6850,9 @@
     }
   },
   {
-    "name": "Hyundai Elantra N TCR 2024",
+    "name": "Hyundai Elantra N TCR",
     "brand": "Hyundai",
-    "year": "2020",
+    "year": "2024",
     "author": "Fuzo's Workshop",
     "class": "TCR",
     "folderName": "fw_elantra_tcr_2024",
@@ -7231,7 +7327,7 @@
     "brand": "Lamborghini",
     "year": "2015",
     "author": "Kunos",
-    "class": "race",
+    "class": "GT3",
     "folderName": "ks_lamborghini_huracan_gt3",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_lamborghini_huracan_gt3",
     "specs": {
@@ -7274,7 +7370,7 @@
     "brand": "Lamborghini",
     "year": "2020",
     "author": "Race Sim Studio",
-    "class": "race",
+    "class": "GT3",
     "folderName": "rss_gtm_lanzo_v10",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtm_lanzo_v10",
     "specs": {
@@ -7317,7 +7413,7 @@
     "brand": "Lamborghini",
     "year": "2024",
     "author": "Race Sim Studio",
-    "class": "race",
+    "class": "GT3",
     "folderName": "rss_gtm_lanzo_v10_evo2",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtm_lanzo_v10_evo2",
     "specs": {
@@ -7571,7 +7667,7 @@
     }
   },
   {
-    "name": "Lamborghini Revuelto 2024",
+    "name": "Lamborghini Revuelto",
     "brand": "Lamborghini",
     "year": "2024",
     "author": "Ceky Performance",
@@ -7698,7 +7794,7 @@
     "brand": "Lexus",
     "year": "2024",
     "author": "Race Sim Studio",
-    "class": "race",
+    "class": "GT3",
     "folderName": "rss_gtm_lux_v8",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtm_lux_v8",
     "specs": {
@@ -7741,7 +7837,7 @@
     "brand": "Lexus",
     "year": "2019",
     "author": "United Racing Design",
-    "class": "race",
+    "class": "GT3",
     "folderName": "urd_rekus_rcf_gt3",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_rekus_rcf_gt3",
     "specs": {
@@ -9312,10 +9408,10 @@
       "race"
     ],
     "data": {
-      "tractionType": null,
-      "gearsCount": 0,
-      "supportsShifter": false,
-      "turboCount": 0
+      "tractionType": "RWD",
+      "gearsCount": 5,
+      "supportsShifter": true,
+      "turboCount": 1
     },
     "ratings": {
       "handling": 0.0,
@@ -9758,7 +9854,7 @@
     "brand": "McLaren",
     "year": "2014",
     "author": "Kunos",
-    "class": "race",
+    "class": "GT3",
     "folderName": "ks_mclaren_650_gt3",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mclaren_650_gt3",
     "specs": {
@@ -9887,7 +9983,7 @@
     "brand": "McLaren",
     "year": "2011",
     "author": "Kunos",
-    "class": "race",
+    "class": "GT3",
     "folderName": "mclaren_mp412c_gt3",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\mclaren_mp412c_gt3",
     "specs": {
@@ -10059,7 +10155,7 @@
     "brand": "Mercedes-Benz",
     "year": "2009",
     "author": "Kunos",
-    "class": "race",
+    "class": "GT3",
     "folderName": "mercedes_sls_gt3",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\mercedes_sls_gt3",
     "specs": {
@@ -10102,7 +10198,7 @@
     "brand": "Mercedes-Benz",
     "year": "2024",
     "author": "Race Sim Studio",
-    "class": "race",
+    "class": "GT3",
     "folderName": "rss_gtm_mercer_v8",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rss_gtm_mercer_v8",
     "specs": {
@@ -10188,7 +10284,7 @@
     "brand": "Mercedes-Benz",
     "year": "2015",
     "author": "Kunos",
-    "class": "race",
+    "class": "GT3",
     "folderName": "ks_mercedes_amg_gt3",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_mercedes_amg_gt3",
     "specs": {
@@ -10356,49 +10452,6 @@
     }
   },
   {
-    "name": "Mini Cooper Sport 500",
-    "brand": "Mini",
-    "year": "2000",
-    "author": null,
-    "class": "street",
-    "folderName": "zs_rover_mini_newmap",
-    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\zs_rover_mini_newmap",
-    "specs": {
-      "convertedPower": "46kW/63hp",
-      "isManufacturerData": false,
-      "normalizedAcceleration": "12.8s",
-      "normalizedTorque": "95 Nm",
-      "normalizedTopSpeed": "148 km/h",
-      "normalizedWeight": "730 kg",
-      "normalizedPwRatio": "0.09 hp/kg",
-      "bhp": "63bhp",
-      "torque": "95Nm",
-      "weight": "730kg",
-      "topspeed": "148km/h",
-      "acceleration": "12.8s 0-100",
-      "pwratio": "11.6 kg/bhp"
-    },
-    "tags": [
-      "fwd",
-      "manual"
-    ],
-    "data": {
-      "tractionType": "FWD",
-      "gearsCount": 4,
-      "supportsShifter": true,
-      "turboCount": 0
-    },
-    "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
-      "realism": 0.0,
-      "sound": 0.0,
-      "visuals": 0.0,
-      "funFactor": 0.0,
-      "extraFeatures": 0.0
-    }
-  },
-  {
     "name": "Mini Miglia",
     "brand": "MINI",
     "year": "2022",
@@ -10428,10 +10481,54 @@
       "race"
     ],
     "data": {
-      "tractionType": null,
-      "gearsCount": 0,
-      "supportsShifter": false,
+      "tractionType": "FWD",
+      "gearsCount": 4,
+      "supportsShifter": true,
       "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Mitsubishi Lancer Evo IX MR",
+    "brand": "Mitsubishi",
+    "year": "2006",
+    "author": "Ceky Performance (By Syke)",
+    "class": "street",
+    "folderName": "cky_evo_ix_mr",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\cky_evo_ix_mr",
+    "specs": {
+      "convertedPower": "203kW/276hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "5.7s",
+      "normalizedTorque": "355 Nm",
+      "normalizedTopSpeed": "249 km/h",
+      "normalizedWeight": "1485 kg",
+      "normalizedPwRatio": "0.19 hp/kg",
+      "bhp": "276 Hp",
+      "torque": "355 Nm",
+      "weight": "1485 kg",
+      "topspeed": "249 km/h",
+      "acceleration": "5.7s 0-100",
+      "pwratio": "5.38 kg/hp"
+    },
+    "tags": [
+      "4wd",
+      "manual",
+      "rally"
+    ],
+    "data": {
+      "tractionType": "AWD",
+      "gearsCount": 6,
+      "supportsShifter": true,
+      "turboCount": 1
     },
     "ratings": {
       "handling": 0.0,
@@ -10681,10 +10778,10 @@
       "sequential"
     ],
     "data": {
-      "tractionType": null,
-      "gearsCount": 0,
+      "tractionType": "RWD",
+      "gearsCount": 6,
       "supportsShifter": false,
-      "turboCount": 0
+      "turboCount": 1
     },
     "ratings": {
       "handling": 0.0,
@@ -10830,7 +10927,7 @@
     "brand": "Nissan",
     "year": "2012",
     "author": "Kunos",
-    "class": "race",
+    "class": "GT3",
     "folderName": "ks_nissan_gtr_gt3",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_nissan_gtr_gt3",
     "specs": {
@@ -12581,7 +12678,7 @@
     "name": "Porsche 911 3.8 by Singer",
     "brand": "Porsche",
     "year": "2019",
-    "author": "Ben O'Bro, Arch",
+    "author": "Ben O'Bro",
     "class": "street",
     "folderName": "bo_singer_38",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bo_singer_38",
@@ -12624,7 +12721,7 @@
     "name": "Porsche 911 4.0 by Singer",
     "brand": "Porsche",
     "year": "2019",
-    "author": "Ben O'Bro, Arch",
+    "author": "Ben O'Bro",
     "class": "street",
     "folderName": "bo_singer",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bo_singer",
@@ -12667,7 +12764,7 @@
     "name": "Porsche 911 AWD by Singer",
     "brand": "Porsche",
     "year": "2019",
-    "author": "Ben O'Bro, Arch",
+    "author": "Ben O'Bro",
     "class": "street",
     "folderName": "bo_singer_awd",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bo_singer_awd",
@@ -12836,6 +12933,49 @@
     }
   },
   {
+    "name": "Porsche 911 GT1 98",
+    "brand": "Porsche",
+    "year": "1996",
+    "author": "Kunos",
+    "class": "race",
+    "folderName": "ks_porsche_911_gt1",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_gt1",
+    "specs": {
+      "convertedPower": "441kW/600hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "-",
+      "normalizedTopSpeed": "350 km/h",
+      "normalizedWeight": "950 kg",
+      "normalizedPwRatio": "0.63 hp/kg",
+      "bhp": "600bhp",
+      "torque": "--Nm",
+      "weight": "950kg",
+      "topspeed": "350km/h",
+      "acceleration": "--s 0-100",
+      "pwratio": "1.58 kg/hp"
+    },
+    "tags": [
+      "#+ rwd",
+      "#- sequential"
+    ],
+    "data": {
+      "tractionType": "RWD",
+      "gearsCount": 6,
+      "supportsShifter": false,
+      "turboCount": 2
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
     "name": "Porsche 911 GT1 Evolution",
     "brand": "Porsche",
     "year": "1997",
@@ -12879,50 +13019,7 @@
     }
   },
   {
-    "name": "Porsche 911 GT1-98",
-    "brand": "Porsche",
-    "year": "1996",
-    "author": "Kunos",
-    "class": "race",
-    "folderName": "ks_porsche_911_gt1",
-    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_gt1",
-    "specs": {
-      "convertedPower": "441kW/600hp",
-      "isManufacturerData": false,
-      "normalizedAcceleration": "-",
-      "normalizedTorque": "-",
-      "normalizedTopSpeed": "350 km/h",
-      "normalizedWeight": "950 kg",
-      "normalizedPwRatio": "0.63 hp/kg",
-      "bhp": "600bhp",
-      "torque": "--Nm",
-      "weight": "950kg",
-      "topspeed": "350km/h",
-      "acceleration": "--s 0-100",
-      "pwratio": "1.58 kg/hp"
-    },
-    "tags": [
-      "#+ rwd",
-      "#- sequential"
-    ],
-    "data": {
-      "tractionType": "RWD",
-      "gearsCount": 6,
-      "supportsShifter": false,
-      "turboCount": 2
-    },
-    "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
-      "realism": 0.0,
-      "sound": 0.0,
-      "visuals": 0.0,
-      "funFactor": 0.0,
-      "extraFeatures": 0.0
-    }
-  },
-  {
-    "name": "Porsche 911 GT3 Cup 2017",
+    "name": "Porsche 911 GT3 Cup",
     "brand": "Porsche",
     "year": "2017",
     "author": "Kunos",
@@ -12965,11 +13062,11 @@
     }
   },
   {
-    "name": "Porsche 911 GT3 R 2016",
+    "name": "Porsche 911 GT3 R",
     "brand": "Porsche",
     "year": "2016",
     "author": "Kunos",
-    "class": "race",
+    "class": "GT3",
     "folderName": "ks_porsche_911_gt3_r_2016",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_gt3_r_2016",
     "specs": {
@@ -13655,7 +13752,7 @@
     "brand": "Porsche",
     "year": "2023",
     "author": "United Racing Design",
-    "class": "race",
+    "class": "GT3",
     "folderName": "urd_darche_992_23",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_darche_992_23",
     "specs": {
@@ -13682,6 +13779,48 @@
       "gearsCount": 0,
       "supportsShifter": false,
       "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Porsche 992 Turbo S 2023",
+    "brand": "Porsche",
+    "year": "2023",
+    "author": "Ceky Performance",
+    "class": "street",
+    "folderName": "cky_porsche_992_turbos",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\cky_porsche_992_turbos",
+    "specs": {
+      "convertedPower": "478kW/650hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "2.6s",
+      "normalizedTorque": "800 Nm",
+      "normalizedTopSpeed": "330 km/h",
+      "normalizedWeight": "1650 kg",
+      "normalizedPwRatio": "0.39 hp/kg",
+      "bhp": "650 Hp",
+      "torque": "800 Nm",
+      "weight": "1650 kg",
+      "topspeed": "330 km/h",
+      "acceleration": "2.6s 0-100",
+      "pwratio": "2.54 kg/hp"
+    },
+    "tags": [
+      "awd"
+    ],
+    "data": {
+      "tractionType": "AWD",
+      "gearsCount": 8,
+      "supportsShifter": false,
+      "turboCount": 2
     },
     "ratings": {
       "handling": 0.0,
@@ -14112,9 +14251,9 @@
       "vintage"
     ],
     "data": {
-      "tractionType": null,
-      "gearsCount": 0,
-      "supportsShifter": false,
+      "tractionType": "RWD",
+      "gearsCount": 5,
+      "supportsShifter": true,
       "turboCount": 0
     },
     "ratings": {
@@ -14213,7 +14352,7 @@
     "name": "Renault Clio 5 Cup",
     "brand": "Renault",
     "year": "2020",
-    "author": "ASMG",
+    "author": "Fuzo's Workshop",
     "class": "cup",
     "folderName": "asrc_clio_cup_5",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\asrc_clio_cup_5",
@@ -14239,10 +14378,56 @@
       "cup"
     ],
     "data": {
-      "tractionType": null,
-      "gearsCount": 0,
+      "tractionType": "FWD",
+      "gearsCount": 5,
       "supportsShifter": false,
-      "turboCount": 0
+      "turboCount": 1
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Renault Clio 5 Cup Phase 2",
+    "brand": "Renault",
+    "year": "2024",
+    "author": "Fuzo's Workshop",
+    "class": "cup",
+    "folderName": "fw_clio_cup_5_2024",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\fw_clio_cup_5_2024",
+    "specs": {
+      "convertedPower": "147kW/200hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "310 Nm",
+      "normalizedTopSpeed": "220 km/h",
+      "normalizedWeight": "1040 kg",
+      "normalizedPwRatio": "0.19 hp/kg",
+      "bhp": "200 bhp",
+      "torque": "310 Nm",
+      "weight": "1040 kg",
+      "topspeed": "220 km/h",
+      "acceleration": "",
+      "pwratio": "5.2 kg/hp"
+    },
+    "tags": [
+      "fwd",
+      "sequential",
+      "race",
+      "cup",
+      "renault"
+    ],
+    "data": {
+      "tractionType": "FWD",
+      "gearsCount": 5,
+      "supportsShifter": false,
+      "turboCount": 1
     },
     "ratings": {
       "handling": 0.0,
@@ -14639,6 +14824,237 @@
     }
   },
   {
+    "name": "Skoda 130 RS",
+    "brand": "Skoda",
+    "year": "1975",
+    "author": "TM-Modding",
+    "class": "historic",
+    "folderName": "tmm_skoda_130rs",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\tmm_skoda_130rs",
+    "specs": {
+      "convertedPower": "96kW/131hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "134 Nm",
+      "normalizedTopSpeed": "170+ km/h",
+      "normalizedWeight": "740 kg",
+      "normalizedPwRatio": "0.18 hp/kg",
+      "bhp": "131 bhp",
+      "torque": "134 Nm",
+      "weight": "740 kg",
+      "topspeed": "170+km/h",
+      "acceleration": "",
+      "pwratio": "5.65 kg/hp"
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "Czech Republic",
+      "historic",
+      "A2",
+      "legend",
+      "tm-modding"
+    ],
+    "data": {
+      "tractionType": "RWD",
+      "gearsCount": 4,
+      "supportsShifter": true,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Skoda Fabia R5 DTRi Evo 3",
+    "brand": "Skoda",
+    "year": "2019",
+    "author": "TM-Modding",
+    "class": "hillclimb",
+    "folderName": "tmm_fabia_r5_dtri_evo_3",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\tmm_fabia_r5_dtri_evo_3",
+    "specs": {
+      "convertedPower": "468kW/637hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "2.0s",
+      "normalizedTorque": "664 Nm",
+      "normalizedTopSpeed": "200+ km/h",
+      "normalizedWeight": "940 kg",
+      "normalizedPwRatio": "0.68 hp/kg",
+      "bhp": "637 bhp",
+      "torque": "664 Nm",
+      "weight": "940 kg*",
+      "topspeed": "200+km/h",
+      "acceleration": "2.0s 0-100",
+      "pwratio": "1.48 kg/hp"
+    },
+    "tags": [
+      "awd",
+      "sequential",
+      "hillclimb",
+      "E1 +2000",
+      "evo"
+    ],
+    "data": {
+      "tractionType": "AWD",
+      "gearsCount": 6,
+      "supportsShifter": false,
+      "turboCount": 1
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Skoda Octavia Cup",
+    "brand": "Skoda",
+    "year": "2008",
+    "author": "TM-Modding",
+    "class": "cup",
+    "folderName": "tmm_octavia_cup_2008",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\tmm_octavia_cup_2008",
+    "specs": {
+      "convertedPower": "162kW/220hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "225 Nm",
+      "normalizedTopSpeed": "208 km/h",
+      "normalizedWeight": "1120 kg",
+      "normalizedPwRatio": "0.20 hp/kg",
+      "bhp": "220 bhp",
+      "torque": "225 Nm",
+      "weight": "1120kg",
+      "topspeed": "208 km/h",
+      "acceleration": "",
+      "pwratio": "5.09 kg/hp"
+    },
+    "tags": [
+      "fwd",
+      "race",
+      "sequential",
+      "cup",
+      "octavia",
+      "octavia cup"
+    ],
+    "data": {
+      "tractionType": "FWD",
+      "gearsCount": 6,
+      "supportsShifter": false,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Skoda Octavia Cup",
+    "brand": "Skoda",
+    "year": "2018",
+    "author": "TM-Modding",
+    "class": "cup",
+    "folderName": "tmm_octavia_cup_2018",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\tmm_octavia_cup_2018",
+    "specs": {
+      "convertedPower": "207kW/281hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "324 Nm",
+      "normalizedTopSpeed": "230+ km/h",
+      "normalizedWeight": "1165 kg",
+      "normalizedPwRatio": "0.24 hp/kg",
+      "bhp": "281 bhp",
+      "torque": "324 Nm",
+      "weight": "1165 kg",
+      "topspeed": "230+ km/h",
+      "acceleration": "",
+      "pwratio": "4.15 kg/hp"
+    },
+    "tags": [
+      "fwd",
+      "race",
+      "cup",
+      "dsg"
+    ],
+    "data": {
+      "tractionType": "FWD",
+      "gearsCount": 6,
+      "supportsShifter": false,
+      "turboCount": 1
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Skoda Octavia Cup",
+    "brand": "Skoda",
+    "year": "2019",
+    "author": "TM-Modding",
+    "class": "cup",
+    "folderName": "tmm_octavia_cup_2019",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\tmm_octavia_cup_2019",
+    "specs": {
+      "convertedPower": "210kW/286hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "324 Nm",
+      "normalizedTopSpeed": "230+ km/h",
+      "normalizedWeight": "1165 kg",
+      "normalizedPwRatio": "0.25 hp/kg",
+      "bhp": "286 bhp",
+      "torque": "324 Nm",
+      "weight": "1165 kg",
+      "topspeed": "230+ km/h",
+      "acceleration": "",
+      "pwratio": "4.07 kg/hp"
+    },
+    "tags": [
+      "fwd",
+      "race",
+      "cup",
+      "dsg"
+    ],
+    "data": {
+      "tractionType": "FWD",
+      "gearsCount": 6,
+      "supportsShifter": false,
+      "turboCount": 1
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
     "name": "Spark Formula E Gen3",
     "brand": "Spark Racing Technologies",
     "year": "2023",
@@ -14836,6 +15252,53 @@
       "gearsCount": 5,
       "supportsShifter": true,
       "turboCount": 1
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Tatra 603-2 B5 Marathon",
+    "brand": "Tatra",
+    "year": "1967",
+    "author": "TM-Modding",
+    "class": "race",
+    "folderName": "tmm_tatra_603",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\tmm_tatra_603",
+    "specs": {
+      "convertedPower": "125kW/170hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "207 Nm",
+      "normalizedTopSpeed": "190+ km/h",
+      "normalizedWeight": "1320 kg",
+      "normalizedPwRatio": "0.13 hp/kg",
+      "bhp": "170 bhp",
+      "torque": "207 Nm",
+      "weight": "1320 kg",
+      "topspeed": "190+km/h",
+      "acceleration": "",
+      "pwratio": "7.76 kg/hp"
+    },
+    "tags": [
+      "rwd",
+      "race",
+      "Czech Republic",
+      "historic",
+      "endurance",
+      "B5"
+    ],
+    "data": {
+      "tractionType": "RWD",
+      "gearsCount": 4,
+      "supportsShifter": true,
+      "turboCount": 0
     },
     "ratings": {
       "handling": 0.0,
@@ -15067,7 +15530,7 @@
     "brand": "Toyota",
     "year": "1983",
     "author": "Kunos",
-    "class": "street",
+    "class": "Drift",
     "folderName": "ks_toyota_ae86_drift",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_ae86_drift",
     "specs": {
@@ -15618,7 +16081,7 @@
     "brand": "Toyota",
     "year": "1993",
     "author": "Kunos",
-    "class": "street",
+    "class": "Drift",
     "folderName": "ks_toyota_supra_mkiv_drift",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_toyota_supra_mkiv_drift",
     "specs": {
@@ -15828,6 +16291,53 @@
     }
   },
   {
+    "name": "Trabant P 601 RS",
+    "brand": "Trabant",
+    "year": "1991",
+    "author": "TM-Modding",
+    "class": "racing",
+    "folderName": "tmm_trabant_601",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\tmm_trabant_601",
+    "specs": {
+      "convertedPower": "52kW/71hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "91 Nm",
+      "normalizedTopSpeed": "160+ km/h",
+      "normalizedWeight": "635 kg",
+      "normalizedPwRatio": "0.11 hp/kg",
+      "bhp": "71 bhp",
+      "torque": "91 Nm",
+      "weight": "635 kg",
+      "topspeed": "160+km/h",
+      "acceleration": "--s",
+      "pwratio": "8.94 kg/hp"
+    },
+    "tags": [
+      "fwd",
+      "racing",
+      "cup",
+      "historic",
+      "vintage",
+      "group A600"
+    ],
+    "data": {
+      "tractionType": "FWD",
+      "gearsCount": 4,
+      "supportsShifter": true,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
     "name": "Veloce GTS-8",
     "brand": "Henry Clay Motorsports",
     "year": "2016",
@@ -15986,10 +16496,10 @@
       "VRC"
     ],
     "data": {
-      "tractionType": null,
-      "gearsCount": 0,
+      "tractionType": "RWD",
+      "gearsCount": 8,
       "supportsShifter": false,
-      "turboCount": 0
+      "turboCount": 1
     },
     "ratings": {
       "handling": 0.0,
@@ -16032,10 +16542,10 @@
       "VRC"
     ],
     "data": {
-      "tractionType": null,
-      "gearsCount": 0,
+      "tractionType": "RWD",
+      "gearsCount": 8,
       "supportsShifter": false,
-      "turboCount": 0
+      "turboCount": 1
     },
     "ratings": {
       "handling": 0.0,

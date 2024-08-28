@@ -29,10 +29,10 @@
     "VRC"
   ],
   "data": {
-    "tractionType": null,
-    "gearsCount": 0,
+    "tractionType": "RWD",
+    "gearsCount": 8,
     "supportsShifter": false,
-    "turboCount": 0
+    "turboCount": 1
   },
   "ratings": {
     "handling": 0.0,

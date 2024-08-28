@@ -1,0 +1,47 @@
+{
+  "name": "Tatra 603-2 B5 Marathon",
+  "brand": "Tatra",
+  "year": "1967",
+  "author": "TM-Modding",
+  "class": "race",
+  "folderName": "tmm_tatra_603",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\tmm_tatra_603",
+  "specs": {
+    "convertedPower": "125kW/170hp",
+    "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "207 Nm",
+    "normalizedTopSpeed": "190+ km/h",
+    "normalizedWeight": "1320 kg",
+    "normalizedPwRatio": "0.13 hp/kg",
+    "bhp": "170 bhp",
+    "torque": "207 Nm",
+    "weight": "1320 kg",
+    "topspeed": "190+km/h",
+    "acceleration": "",
+    "pwratio": "7.76 kg/hp"
+  },
+  "tags": [
+    "rwd",
+    "race",
+    "Czech Republic",
+    "historic",
+    "endurance",
+    "B5"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 4,
+    "supportsShifter": true,
+    "turboCount": 0
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

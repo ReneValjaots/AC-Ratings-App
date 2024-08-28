@@ -1,9 +1,9 @@
 {
-  "name": "Porsche 911 GT3 R 2016",
+  "name": "Porsche 911 GT3 R",
   "brand": "Porsche",
   "year": "2016",
   "author": "Kunos",
-  "class": "race",
+  "class": "GT3",
   "folderName": "ks_porsche_911_gt3_r_2016",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_porsche_911_gt3_r_2016",
   "specs": {

@@ -16,8 +16,8 @@
     "bhp": "138 bhp",
     "torque": "128 Nm",
     "weight": "510 kg",
-    "topspeed": "",
-    "acceleration": "",
+    "topspeed": null,
+    "acceleration": null,
     "pwratio": "3.7 kg/hp"
   },
   "torqueCurve": [

@@ -6,7 +6,7 @@
     "#+ rwd",
     "#- sequential"
   ],
-  "class": "race",
+  "class": "GT3",
   "specs": {
     "bhp": "600bhp",
     "torque": "500+Nm",

@@ -2,7 +2,7 @@
   "name": "Renault Clio 5 Cup",
   "brand": "Renault",
   "year": "2020",
-  "author": "ASMG",
+  "author": "Fuzo's Workshop",
   "class": "cup",
   "folderName": "asrc_clio_cup_5",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\asrc_clio_cup_5",
@@ -25,14 +25,13 @@
     "fwd",
     "sequential",
     "race",
-    "cup",
-    "renault"
+    "cup"
   ],
   "data": {
-    "tractionType": null,
-    "gearsCount": 0,
+    "tractionType": "FWD",
+    "gearsCount": 5,
     "supportsShifter": false,
-    "turboCount": 0
+    "turboCount": 1
   },
   "ratings": {
     "handling": 0.0,

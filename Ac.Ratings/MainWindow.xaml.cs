@@ -179,7 +179,7 @@ namespace Ac.Ratings {
                 }
 
                 var carFolderPath = Path.Combine(_data.CarsRootFolder, car.FolderName);
-                var carJsonFilePath = Path.Combine(carFolderPath, "car.json");
+                var carJsonFilePath = Path.Combine(carFolderPath, "RatingsApp", "ui.json");
                 var jsonContent = JsonConvert.SerializeObject(car, Formatting.Indented);
                 File.WriteAllText(carJsonFilePath, jsonContent);
             }
@@ -422,6 +422,7 @@ namespace Ac.Ratings {
 
         private void ResetFilters_Click(object sender, RoutedEventArgs e) {
             AuthorFilter.SelectedItem = null;
+            AuthorFilter.Text = "Filter by author";
             ClassFilter.SelectedItem = null;
             SearchBox.Text = string.Empty;
             ResetFilterSliderValues();
@@ -472,6 +473,38 @@ namespace Ac.Ratings {
 
         private void ExtraFeaturesFilter_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
             CarList.Items.Filter = CombinedFilter;
+        }
+
+        private void SettingsButton_OnClick(object sender, RoutedEventArgs e) {
+            var settingsWindow = new SettingsWindow(this);
+            settingsWindow.ShowDialog();
+        }
+
+        public void ResetAllRatingsInDatabase() {
+            foreach (var car in _data.CarDb) {
+                ResetRatingValues(car);
+                if (car.FolderName != null) {
+                    var carFolder = Path.Combine(_data.CarsRootFolder, car.FolderName);
+                    var carRatingsAppFolder = Path.Combine(carFolder, "RatingsApp");
+                    var carJsonPath = Path.Combine(carRatingsAppFolder, "ui.json");
+
+                    if (Directory.Exists(carRatingsAppFolder)) {
+                        var jsonContent = JsonConvert.SerializeObject(car, Formatting.Indented);
+                        File.WriteAllText(carJsonPath, jsonContent);
+                    }
+                }
+            }
+
+            var dbJsonContent = JsonConvert.SerializeObject(_data.CarDb, Formatting.Indented);
+            File.WriteAllText(_data.CarDbFilePath, dbJsonContent);
+            CarList.Items.Refresh();
+
+            var previouslySelectedCar = CarList.SelectedItem;
+            CarList.SelectedItem = null;
+            CarList.Items.Refresh();
+
+            CarList.SelectedItem = previouslySelectedCar;
+            CarList.Items.Refresh();
         }
     }
 }

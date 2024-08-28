@@ -1,9 +1,9 @@
 {
-  "name": "Ferrari 488 GT3 Evo 2020",
+  "name": "Ferrari 488 GT3 Evo",
   "brand": "Ferrari",
-  "year": null,
+  "year": "2020",
   "author": "Ferrari Esports Series",
-  "class": "race",
+  "class": "GT3",
   "folderName": "ks_ferrari_488_gt3_2020",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_488_gt3_2020",
   "specs": {

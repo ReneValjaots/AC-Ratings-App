@@ -34,6 +34,19 @@
             <!--Style="{StaticResource ModernTextBox}"-->
             <!--TextChanged="SearchBox_TextChanged"/>-->
 
+            <StackPanel Grid.Row="0" Grid.Column="2"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Top"
+                        Margin="10">
+                <Button x:Name="SettingsButton" Content="Settings"
+                        Foreground="White"
+                        Background="Transparent"
+                        FontSize="12"
+                        Cursor="Hand"
+                        Click="SettingsButton_OnClick">
+                </Button>
+            </StackPanel>
+
             <Button x:Name="MenuButton" 
                     Grid.Column="0"
                     Grid.Row="0"
@@ -66,7 +79,6 @@
                   Grid.Column="1">
             </Grid>
 
-            <!--FINISH LATER-->
             <Grid Grid.Row="0" Grid.Column="1">
                 <Grid>
                     <Grid.ColumnDefinitions>
@@ -84,7 +96,9 @@
                               Width="200"
                               Margin="10,15,0,0"
                               SelectionChanged="AuthorFilter_OnSelectionChanged"
-                              ItemsSource="{Binding Authors}"/>
+                              ItemsSource="{Binding Authors}"
+                              IsEditable="True"
+                              Text="Filter by author"/>
 
                     <ComboBox Grid.Row="0" 
                               Grid.Column="1"

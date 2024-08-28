@@ -1,9 +1,9 @@
 {
-  "name": "BMW M3 E92 drift",
+  "name": "BMW M3 E92 Drift",
   "brand": "BMW",
   "year": "2015",
   "author": "Kunos",
-  "class": "street",
+  "class": "Drift",
   "folderName": "bmw_m3_e92_drift",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e92_drift",
   "specs": {

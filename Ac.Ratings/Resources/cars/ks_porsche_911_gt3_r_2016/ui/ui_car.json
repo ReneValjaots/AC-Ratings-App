@@ -1,12 +1,12 @@
 {
-  "name": "Porsche 911 GT3 R 2016",
+  "name": "Porsche 911 GT3 R",
   "brand": "Porsche",
   "description": "Based on the 911 GT3 RS production sports car, the 911 GT3 R has been designed as customer sport race car for GT3 series around the world.<br><br><br>In developing the more than 368 kW (500 hp) racing nine-eleven, special attention was paid to lightweight design, better aerodynamic efficiency, reducing consumption, improved handling, further optimised safety as well as lowering service and spare parts costs.<br><br><br>The lightweight body design of the 911 GT3 RS production sports car featuring intelligent aluminium-steel composite construction has proven to be the ideal basis for the race car and its cutting-edge four-litre flat-six unit is largely identical to the high-performance production engine of the road-legal model.",
   "tags": [
     "#+ rwd",
     "#- sequential"
   ],
-  "class": "race",
+  "class": "GT3",
   "specs": {
     "bhp": "500bhp",
     "torque": "--Nm",

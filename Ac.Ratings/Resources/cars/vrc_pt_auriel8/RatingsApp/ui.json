@@ -22,7 +22,8 @@
     "pwratio": "1.6 kg/hp"
   },
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 3.6L & V8"
   ],
   "data": {
     "tractionType": "RWD",

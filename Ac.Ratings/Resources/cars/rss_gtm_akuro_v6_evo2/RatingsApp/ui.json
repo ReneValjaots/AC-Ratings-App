@@ -23,7 +23,8 @@
   },
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 3.5L & V6"
   ],
   "data": {
     "tractionType": "RWD",

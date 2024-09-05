@@ -22,7 +22,8 @@
     "pwratio": "1.97 kg/hp"
   },
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 5.9L & V8"
   ],
   "data": {
     "tractionType": "RWD",

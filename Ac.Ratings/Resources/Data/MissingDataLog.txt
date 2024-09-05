@@ -1,1 +1,0 @@
-29/08/2024 00:41:26: Multiple data folders found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\rss_formula_hybrid_2023

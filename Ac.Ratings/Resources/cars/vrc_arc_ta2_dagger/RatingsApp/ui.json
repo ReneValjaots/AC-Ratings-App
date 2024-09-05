@@ -22,7 +22,8 @@
     "pwratio": "2.3 kg/hp"
   },
   "tags": [
-    "#+ awd"
+    "#+ awd",
+    "#! 6.2L & V8"
   ],
   "data": {
     "tractionType": "RWD",

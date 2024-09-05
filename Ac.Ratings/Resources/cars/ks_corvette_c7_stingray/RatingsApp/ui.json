@@ -22,7 +22,8 @@
     "pwratio": "3.29kg/hp"
   },
   "tags": [
-    "#- manual"
+    "#- manual",
+    "#! 6.2L & V8"
   ],
   "data": {
     "tractionType": "RWD",

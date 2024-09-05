@@ -23,7 +23,8 @@
   },
   "tags": [
     "#+ rwd",
-    "#- semiautomatic"
+    "#- semiautomatic",
+    "#! 4.0L & V8"
   ],
   "data": {
     "tractionType": "RWD",

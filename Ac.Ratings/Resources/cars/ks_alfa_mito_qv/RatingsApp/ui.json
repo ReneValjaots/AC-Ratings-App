@@ -23,7 +23,8 @@
   },
   "tags": [
     "#+ fwd",
-    "#- manual"
+    "#- manual",
+    "#! 1.4L & I4"
   ],
   "data": {
     "tractionType": "FWD",

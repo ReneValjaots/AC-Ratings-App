@@ -23,7 +23,8 @@
   },
   "tags": [
     "#- manual",
-    "#+ rwd"
+    "#+ rwd",
+    "#! 2.0L & I4"
   ],
   "data": {
     "tractionType": "RWD",

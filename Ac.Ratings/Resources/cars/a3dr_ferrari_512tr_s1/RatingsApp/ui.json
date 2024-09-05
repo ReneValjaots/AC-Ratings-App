@@ -22,7 +22,8 @@
     "pwratio": "2.78 kg/hp"
   },
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 4.9L & F12"
   ],
   "data": {
     "tractionType": "RWD",

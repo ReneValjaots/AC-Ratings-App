@@ -12,18 +12,19 @@
     "normalizedAcceleration": "-",
     "normalizedTorque": "-",
     "normalizedTopSpeed": "-",
-    "normalizedWeight": "-",
-    "normalizedPwRatio": "-",
+    "normalizedWeight": "605 kg",
+    "normalizedPwRatio": "1.43 hp/kg",
     "bhp": "865bhp",
     "torque": "--Nm",
-    "weight": "--kg",
+    "weight": "605kg",
     "topspeed": "--km/h",
     "acceleration": "--s 0-100",
-    "pwratio": "--kg/hp"
+    "pwratio": "0.7 kg/hp"
   },
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 3.0L & V10"
   ],
   "data": {
     "tractionType": "RWD",

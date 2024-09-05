@@ -22,7 +22,8 @@
     "pwratio": "1.16 kg/hp"
   },
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 2.4L & V6"
   ],
   "data": {
     "tractionType": "RWD",

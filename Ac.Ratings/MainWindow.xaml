@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ac.Ratings"
         mc:Ignorable="d"
-        Title="Ratings App" Height="900" Width="1600">
+        Title="Ratings App" Height="900" Width="1600"
+        WindowStartupLocation="CenterScreen">
 
     <Border Background="Black"
             CornerRadius="10">

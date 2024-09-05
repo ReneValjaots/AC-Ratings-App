@@ -1,7 +1,7 @@
 {
   "name": "Aston Martin DBR9 GT1",
   "brand": "Aston Martin",
-  "year": null,
+  "year": "2009",
   "author": "Race Sim Studio",
   "class": "race",
   "folderName": "rss_gt_adonis_d9_v12",
@@ -23,7 +23,8 @@
   },
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 6.0L & V12"
   ],
   "data": {
     "tractionType": "RWD",
@@ -32,10 +33,10 @@
     "turboCount": 0
   },
   "ratings": {
-    "handling": 9.5,
-    "physics": 10.0,
-    "realism": 5.5,
-    "sound": 8.0,
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
     "visuals": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0

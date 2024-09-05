@@ -23,7 +23,8 @@
   },
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 2.4L & V8"
   ],
   "data": {
     "tractionType": "RWD",

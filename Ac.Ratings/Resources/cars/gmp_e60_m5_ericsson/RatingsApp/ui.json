@@ -22,7 +22,8 @@
     "pwratio": "3.24 kg/hp"
   },
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 5.0L & V10"
   ],
   "data": {
     "tractionType": "RWD",

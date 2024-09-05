@@ -23,7 +23,8 @@
   },
   "tags": [
     "#+ rwd",
-    "#- semiautomatic"
+    "#- semiautomatic",
+    "#! 3.0L & I6"
   ],
   "data": {
     "tractionType": "RWD",

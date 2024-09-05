@@ -24,7 +24,8 @@
     },
     "tags": [
       "#- manual",
-      "#+ rwd"
+      "#+ rwd",
+      "#! 1.0L & I4"
     ],
     "data": {
       "tractionType": "RWD",
@@ -33,12 +34,12 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 6.0,
-      "physics": 4.0,
-      "realism": 9.0,
-      "sound": 6.5,
-      "visuals": 5.0,
-      "funFactor": 7.5,
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
       "extraFeatures": 0.0
     }
   },
@@ -67,7 +68,8 @@
     },
     "tags": [
       "#- manual",
-      "#+ rwd"
+      "#+ rwd",
+      "#! 1.0L & I4"
     ],
     "data": {
       "tractionType": "RWD",
@@ -76,12 +78,12 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 10.0,
-      "physics": 6.5,
-      "realism": 5.0,
-      "sound": 4.5,
-      "visuals": 8.5,
-      "funFactor": 4.5,
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
       "extraFeatures": 0.0
     }
   },
@@ -373,7 +375,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 3.5L & V6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -470,13 +473,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 4.0,
-      "physics": 3.0,
-      "realism": 7.5,
-      "sound": 4.0,
-      "visuals": 7.0,
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
       "funFactor": 0.0,
-      "extraFeatures": 6.0
+      "extraFeatures": 0.0
     }
   },
   {
@@ -504,7 +507,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- semiautomatic"
+      "#- semiautomatic",
+      "#! 1.7L & I4"
     ],
     "data": {
       "tractionType": "RWD",
@@ -547,7 +551,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- manual"
+      "#- manual",
+      "#! 2.9L & V6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -590,7 +595,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- manual"
+      "#- manual",
+      "#! 1.6L & I4"
     ],
     "data": {
       "tractionType": "RWD",
@@ -633,7 +639,8 @@
     },
     "tags": [
       "#+ fwd",
-      "#- manual"
+      "#- manual",
+      "#! 1.4L & I4"
     ],
     "data": {
       "tractionType": "FWD",
@@ -654,7 +661,7 @@
   {
     "name": "Aston Martin DBR9 GT1",
     "brand": "Aston Martin",
-    "year": null,
+    "year": "2009",
     "author": "Race Sim Studio",
     "class": "race",
     "folderName": "rss_gt_adonis_d9_v12",
@@ -676,7 +683,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 6.0L & V12"
     ],
     "data": {
       "tractionType": "RWD",
@@ -685,10 +693,10 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 9.5,
-      "physics": 10.0,
-      "realism": 5.5,
-      "sound": 8.0,
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
       "visuals": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0
@@ -718,7 +726,8 @@
       "pwratio": "1.7 kg/hp"
     },
     "tags": [
-      "#+ rwd"
+      "#+ rwd",
+      "#! 2.2L & I5"
     ],
     "data": {
       "tractionType": "AWD2",
@@ -728,11 +737,11 @@
     },
     "ratings": {
       "handling": 0.0,
-      "physics": 4.5,
+      "physics": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 5.5,
-      "funFactor": 6.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
       "extraFeatures": 0.0
     }
   },
@@ -760,7 +769,8 @@
       "pwratio": "2.01 kg/hp"
     },
     "tags": [
-      "#+ rwd"
+      "#+ rwd",
+      "#! 2.2L & I5"
     ],
     "data": {
       "tractionType": "AWD2",
@@ -846,7 +856,8 @@
       "pwratio": "1.6 kg/hp"
     },
     "tags": [
-      "#+ rwd"
+      "#+ rwd",
+      "#! 3.6L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -933,7 +944,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 5.2L & V10"
     ],
     "data": {
       "tractionType": "RWD",
@@ -1062,7 +1074,9 @@
       "acceleration": "--s",
       "pwratio": "1.85 kg/hp"
     },
-    "tags": [],
+    "tags": [
+      "#! 4.0L & V8"
+    ],
     "data": {
       "tractionType": "rwd",
       "gearsCount": 8,
@@ -1371,7 +1385,8 @@
       "vintage",
       "historic",
       "fwd",
-      "60s"
+      "60s",
+      "#! 1.1L & I4"
     ],
     "data": {
       "tractionType": "FWD",
@@ -1418,7 +1433,8 @@
       "vintage",
       "historic",
       "fwd",
-      "60s"
+      "60s",
+      "#! 1.1L & I4"
     ],
     "data": {
       "tractionType": "FWD",
@@ -1460,7 +1476,8 @@
       "pwratio": "1.48 kg/hp"
     },
     "tags": [
-      "#+ rwd"
+      "#+ rwd",
+      "#! 4.0L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -1591,7 +1608,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 4.0L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -1898,7 +1916,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- semiautomatic"
+      "#- semiautomatic",
+      "#! 4.0L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -1941,7 +1960,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- semiautomatic"
+      "#- semiautomatic",
+      "#! 4.0L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -1984,7 +2004,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- semiautomatic"
+      "#- semiautomatic",
+      "#! 4.0L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2027,7 +2048,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 4.0L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2070,7 +2092,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- semiautomatic"
+      "#- semiautomatic",
+      "#! 3.0L & I6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2113,7 +2136,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- semiautomatic"
+      "#- semiautomatic",
+      "#! 3.0L & I6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2156,7 +2180,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 4.4L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2198,7 +2223,8 @@
       "pwratio": "1.55 kg/hp"
     },
     "tags": [
-      "#+ rwd"
+      "#+ rwd",
+      "#! 6.1L & V12"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2241,7 +2267,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- semiautomatic"
+      "#- semiautomatic",
+      "#! 3.0L & I6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2284,7 +2311,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- semiautomatic"
+      "#- semiautomatic",
+      "#! 3.0L & I6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2327,7 +2355,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- semiautomatic"
+      "#- semiautomatic",
+      "#! 3.0L & I6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2370,7 +2399,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 4.4L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2454,7 +2484,8 @@
       "pwratio": "1.48 kg/hp"
     },
     "tags": [
-      "#+ rwd"
+      "#+ rwd",
+      "#! 4.0L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2473,7 +2504,7 @@
     }
   },
   {
-    "name": "Caterham 420R 2020",
+    "name": "Caterham 420R",
     "brand": "Caterham",
     "year": "2020",
     "author": "Ben O'Bro & JackCY",
@@ -2498,11 +2529,9 @@
     "tags": [
       "rwd",
       "lightweight",
-      "trackday",
-      "great britain",
       "sequential",
-      "caterham motorsport",
-      "race"
+      "race",
+      "#! 2.0L & I4"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2545,7 +2574,8 @@
     },
     "tags": [
       "#- manual",
-      "#+ rwd"
+      "#+ rwd",
+      "#! 1.6L & I4"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2589,11 +2619,9 @@
     "tags": [
       "rwd",
       "lightweight",
-      "trackday",
-      "great britain",
       "manual",
-      "caterham motorsport",
-      "race"
+      "race",
+      "#! 2.0L & I4"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2635,7 +2663,8 @@
       "pwratio": "2.34 kg/hp"
     },
     "tags": [
-      "#+ awd"
+      "#+ awd",
+      "#! 6.2L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2677,7 +2706,8 @@
       "pwratio": "2.34 kg/hp"
     },
     "tags": [
-      "#+ awd"
+      "#+ awd",
+      "#! 6.2L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2719,7 +2749,8 @@
       "pwratio": "1.97 kg/hp"
     },
     "tags": [
-      "#+ rwd"
+      "#+ rwd",
+      "#! 5.9L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2762,7 +2793,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- manual"
+      "#- manual",
+      "#! 5.7L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2805,7 +2837,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- manual"
+      "#- manual",
+      "#! 5.7L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2847,7 +2880,8 @@
       "pwratio": "3.29kg/hp"
     },
     "tags": [
-      "#- manual"
+      "#- manual",
+      "#! 6.2L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2890,7 +2924,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 5.5L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2933,7 +2968,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 5.5L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -2976,7 +3012,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 5.5L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3019,7 +3056,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 5.5L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3062,7 +3100,8 @@
     },
     "tags": [
       "fwd",
-      "sequential"
+      "sequential",
+      "#! 2.0L & I4"
     ],
     "data": {
       "tractionType": "FWD",
@@ -3105,7 +3144,8 @@
     },
     "tags": [
       "#- sequential",
-      "#+ fwd"
+      "#+ fwd",
+      "#! 2.0L & I4"
     ],
     "data": {
       "tractionType": "FWD",
@@ -3147,7 +3187,8 @@
       "pwratio": "4.23 kg/hp"
     },
     "tags": [
-      "#+ fwd"
+      "#+ fwd",
+      "#! 0.7L & I4"
     ],
     "data": {
       "tractionType": "FWD",
@@ -3191,11 +3232,9 @@
     "tags": [
       "rwd",
       "race",
-      "can-am",
       "manual",
-      "Japan",
-      "vintage",
-      "#Vintage GT"
+      "#Vintage GT",
+      "#! 1.3L & I4"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3238,7 +3277,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 5.5L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3281,7 +3321,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 2.2L & V6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3324,7 +3365,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 2.2L & V6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3367,7 +3409,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 2.2L & V6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3410,7 +3453,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 2.2L & V6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3453,7 +3497,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 3.4L & V6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3496,7 +3541,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 3.4L & V6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3539,7 +3585,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 4.0L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3582,7 +3629,8 @@
     },
     "tags": [
       "#- sequential",
-      "#+ rwd"
+      "#+ rwd",
+      "#! 2.0L & I4"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3625,7 +3673,8 @@
     },
     "tags": [
       "#- sequential",
-      "#+ rwd"
+      "#+ rwd",
+      "#! 2.0L & I4"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3667,7 +3716,8 @@
       "pwratio": "2.3 kg/hp"
     },
     "tags": [
-      "#+ awd"
+      "#+ awd",
+      "#! 6.2L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3709,7 +3759,8 @@
       "pwratio": "2.3 kg/hp"
     },
     "tags": [
-      "#+ awd"
+      "#+ awd",
+      "#! 6.2L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3730,7 +3781,7 @@
   {
     "name": "Dodge Viper GTS-R",
     "brand": "Dodge",
-    "year": null,
+    "year": "2000",
     "author": "Race Sim Studio",
     "class": "race",
     "folderName": "rss_gt_vortex_v10",
@@ -3752,7 +3803,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 8.0L & V10"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3795,7 +3847,8 @@
     },
     "tags": [
       "#- manual",
-      "#+ rwd"
+      "#+ rwd",
+      "#! 8.0L & V10"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3838,7 +3891,8 @@
     },
     "tags": [
       "#- manual",
-      "#+ rwd"
+      "#+ rwd",
+      "#! 3.0L & V12"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3880,7 +3934,8 @@
       "pwratio": "1.2 kg/hp"
     },
     "tags": [
-      "#+ rwd"
+      "#+ rwd",
+      "#! 4.5L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3922,7 +3977,8 @@
       "pwratio": "3.24 kg/hp"
     },
     "tags": [
-      "#+ rwd"
+      "#+ rwd",
+      "#! 5.0L & V10"
     ],
     "data": {
       "tractionType": "RWD",
@@ -3965,7 +4021,8 @@
     },
     "tags": [
       "#- manual",
-      "#+ rwd"
+      "#+ rwd",
+      "#! 1.6L & I4"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4009,7 +4066,8 @@
     "tags": [
       "rwd",
       "race",
-      "nascar"
+      "nascar",
+      "#! 5.7L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4053,7 +4111,8 @@
     "tags": [
       "rwd",
       "race",
-      "nascar"
+      "nascar",
+      "#! 5.7L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4097,7 +4156,8 @@
     "tags": [
       "rwd",
       "race",
-      "nascar"
+      "nascar",
+      "#! 5.7L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4141,7 +4201,8 @@
     "tags": [
       "rwd",
       "race",
-      "nascar"
+      "nascar",
+      "#! 5.7L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4184,7 +4245,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- manual"
+      "#- manual",
+      "#! 3.0L & V12"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4227,7 +4289,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 3.0L & V6"
     ],
     "data": {
       "tractionType": null,
@@ -4270,7 +4333,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- manual"
+      "#- manual",
+      "#! 3.0L & V12"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4313,7 +4377,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- manual"
+      "#- manual",
+      "#! 3.0L & F12"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4356,7 +4421,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- manual"
+      "#- manual",
+      "#! 4.0L & V12"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4398,7 +4464,8 @@
       "pwratio": "1.63 kg/hp"
     },
     "tags": [
-      "#+ rwd"
+      "#+ rwd",
+      "#! 4.0L & V12"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4441,7 +4508,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 3.6L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4485,11 +4553,8 @@
     "tags": [
       "rwd",
       "manual",
-      "vintage",
       "race",
-      "historic",
-      "italy",
-      "gr4"
+      "#! 4.4L & V12"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4532,7 +4597,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 4.5L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4575,7 +4641,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- semiautomatic"
+      "#- semiautomatic",
+      "#! 4.5L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4618,7 +4685,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- semiautomatic"
+      "#- semiautomatic",
+      "#! 4.5L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4661,7 +4729,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 3.9L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4704,7 +4773,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 3.9L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4747,13 +4817,100 @@
     },
     "tags": [
       "#+ rwd",
-      "#- semiautomatic"
+      "#- semiautomatic",
+      "#! 3.9L & V8"
     ],
     "data": {
       "tractionType": "RWD",
       "gearsCount": 7,
       "supportsShifter": false,
       "turboCount": 10
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Ferrari 499P",
+    "brand": "Ferrari",
+    "year": "2024",
+    "author": "VRC Modding Team",
+    "class": "race",
+    "folderName": "vrc_pt_2024_ferrenzo",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_2024_ferrenzo",
+    "specs": {
+      "convertedPower": "512kW/697hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "3.0s",
+      "normalizedTorque": "670 Nm",
+      "normalizedTopSpeed": "340 km/h",
+      "normalizedWeight": "1030 kg",
+      "normalizedPwRatio": "0.68 hp/kg",
+      "bhp": "697 bhp",
+      "torque": "670 Nm",
+      "weight": "1030kg",
+      "topspeed": "340km/h",
+      "acceleration": "3 s",
+      "pwratio": "1.48 kg/hp"
+    },
+    "tags": [
+      "#+ rwd",
+      "#! 3.0L & V6"
+    ],
+    "data": {
+      "tractionType": "AWD2",
+      "gearsCount": 7,
+      "supportsShifter": false,
+      "turboCount": 2
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "Ferrari 499P (CSP)",
+    "brand": "Ferrari",
+    "year": "2024",
+    "author": "VRC Modding Team",
+    "class": "race",
+    "folderName": "vrc_pt_2024_ferrenzo_csp",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_2024_ferrenzo_csp",
+    "specs": {
+      "convertedPower": "512kW/697hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "3.0s",
+      "normalizedTorque": "670 Nm",
+      "normalizedTopSpeed": "340 km/h",
+      "normalizedWeight": "1030 kg",
+      "normalizedPwRatio": "0.68 hp/kg",
+      "bhp": "697 bhp",
+      "torque": "670 Nm",
+      "weight": "1030kg",
+      "topspeed": "340km/h",
+      "acceleration": "3 s",
+      "pwratio": "1.48 kg/hp"
+    },
+    "tags": [
+      "#+ rwd",
+      "#! 3.0L & V6"
+    ],
+    "data": {
+      "tractionType": "AWD",
+      "gearsCount": 7,
+      "supportsShifter": false,
+      "turboCount": 2
     },
     "ratings": {
       "handling": 0.0,
@@ -4789,7 +4946,8 @@
       "pwratio": "3.7 kg/hp"
     },
     "tags": [
-      "#+ rwd"
+      "#+ rwd",
+      "#! 4.9L & F12"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4798,13 +4956,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 7.5,
-      "physics": 6.0,
-      "realism": 5.5,
-      "sound": 7.5,
-      "visuals": 2.0,
-      "funFactor": 7.5,
-      "extraFeatures": 4.5
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
     }
   },
   {
@@ -4831,7 +4989,8 @@
       "pwratio": "2.78 kg/hp"
     },
     "tags": [
-      "#+ rwd"
+      "#+ rwd",
+      "#! 4.9L & F12"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4852,7 +5011,7 @@
   {
     "name": "Ferrari 550 GTS Maranello",
     "brand": "Ferrari",
-    "year": null,
+    "year": "2003",
     "author": "Race Sim Studio",
     "class": "race",
     "folderName": "rss_gt_ferruccio_55",
@@ -4874,7 +5033,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 6.0L & V12"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4895,7 +5055,7 @@
   {
     "name": "Ferrari 575 GTC",
     "brand": "Ferrari",
-    "year": null,
+    "year": "2003",
     "author": "Race Sim Studio",
     "class": "race",
     "folderName": "rss_gt_ferruccio_57",
@@ -4917,7 +5077,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 6.0L & V12"
     ],
     "data": {
       "tractionType": "RWD",
@@ -4960,7 +5121,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 6.0L & V12"
     ],
     "data": {
       "tractionType": "RWD",
@@ -5002,7 +5164,8 @@
       "pwratio": "0.74kg/hp"
     },
     "tags": [
-      "#+ rwd"
+      "#+ rwd",
+      "#! 3.5L & V12"
     ],
     "data": {
       "tractionType": "RWD",
@@ -5039,13 +5202,14 @@
       "bhp": "800bhp",
       "torque": "718Nm",
       "weight": "1525kg",
-      "topspeed": ">340km/h",
+      "topspeed": "340km/h",
       "acceleration": "2.9s 0-100",
       "pwratio": "1.91kg/hp"
     },
     "tags": [
       "#+ rwd",
-      "#- semiautomatic"
+      "#- semiautomatic",
+      "#! 6.5L & V12"
     ],
     "data": {
       "tractionType": "RWD",
@@ -5088,7 +5252,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 2.4L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -5131,7 +5296,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 2.4L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -5163,18 +5329,19 @@
       "normalizedAcceleration": "-",
       "normalizedTorque": "-",
       "normalizedTopSpeed": "-",
-      "normalizedWeight": "-",
-      "normalizedPwRatio": "-",
+      "normalizedWeight": "605 kg",
+      "normalizedPwRatio": "1.43 hp/kg",
       "bhp": "865bhp",
       "torque": "--Nm",
-      "weight": "--kg",
+      "weight": "605kg",
       "topspeed": "--km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "--kg/hp"
+      "pwratio": "0.7 kg/hp"
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 3.0L & V10"
     ],
     "data": {
       "tractionType": "RWD",
@@ -5217,7 +5384,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- manual"
+      "#- manual",
+      "#! 2.9L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -5260,7 +5428,8 @@
     },
     "tags": [
       "#- manual",
-      "#+ rwd"
+      "#+ rwd",
+      "#! 2.9L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -5303,7 +5472,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- manual"
+      "#- manual",
+      "#! 2.9L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -5346,7 +5516,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 6.3L & V12"
     ],
     "data": {
       "tractionType": "RWD",
@@ -5389,7 +5560,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- manual"
+      "#- manual",
+      "#! 2.9L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -5432,97 +5604,14 @@
     },
     "tags": [
       "#+ rwd",
-      "#- semiautomatic"
+      "#- semiautomatic",
+      "#! 6.3L & V12"
     ],
     "data": {
       "tractionType": "RWD",
       "gearsCount": 7,
       "supportsShifter": false,
       "turboCount": 0
-    },
-    "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
-      "realism": 0.0,
-      "sound": 0.0,
-      "visuals": 0.0,
-      "funFactor": 0.0,
-      "extraFeatures": 0.0
-    }
-  },
-  {
-    "name": "Ferrari P499",
-    "brand": "Ferrari",
-    "year": "2024",
-    "author": "VRC Modding Team",
-    "class": "race",
-    "folderName": "vrc_pt_2024_ferrenzo",
-    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_2024_ferrenzo",
-    "specs": {
-      "convertedPower": "512kW/697hp",
-      "isManufacturerData": false,
-      "normalizedAcceleration": "3.0s",
-      "normalizedTorque": "670 Nm",
-      "normalizedTopSpeed": "340 km/h",
-      "normalizedWeight": "1030 kg",
-      "normalizedPwRatio": "0.68 hp/kg",
-      "bhp": "697 bhp",
-      "torque": "670 Nm",
-      "weight": "1030kg",
-      "topspeed": "340km/h",
-      "acceleration": "3 s",
-      "pwratio": "1.48 kg/hp"
-    },
-    "tags": [
-      "#+ rwd"
-    ],
-    "data": {
-      "tractionType": "AWD2",
-      "gearsCount": 7,
-      "supportsShifter": false,
-      "turboCount": 2
-    },
-    "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
-      "realism": 0.0,
-      "sound": 0.0,
-      "visuals": 0.0,
-      "funFactor": 0.0,
-      "extraFeatures": 0.0
-    }
-  },
-  {
-    "name": "Ferrari P499 (CSP)",
-    "brand": "Ferrari",
-    "year": "2024",
-    "author": "VRC Modding Team",
-    "class": "race",
-    "folderName": "vrc_pt_2024_ferrenzo_csp",
-    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\vrc_pt_2024_ferrenzo_csp",
-    "specs": {
-      "convertedPower": "512kW/697hp",
-      "isManufacturerData": false,
-      "normalizedAcceleration": "3.0s",
-      "normalizedTorque": "670 Nm",
-      "normalizedTopSpeed": "340 km/h",
-      "normalizedWeight": "1030 kg",
-      "normalizedPwRatio": "0.68 hp/kg",
-      "bhp": "697 bhp",
-      "torque": "670 Nm",
-      "weight": "1030kg",
-      "topspeed": "340km/h",
-      "acceleration": "3 s",
-      "pwratio": "1.48 kg/hp"
-    },
-    "tags": [
-      "#+ rwd"
-    ],
-    "data": {
-      "tractionType": "AWD",
-      "gearsCount": 7,
-      "supportsShifter": false,
-      "turboCount": 2
     },
     "ratings": {
       "handling": 0.0,
@@ -5559,7 +5648,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 1.6L & V6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -5586,23 +5676,24 @@
     "folderName": "ks_ferrari_sf70h",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_sf70h",
     "specs": {
-      "convertedPower": "-",
+      "convertedPower": "699kW/950hp",
       "isManufacturerData": false,
       "normalizedAcceleration": "-",
       "normalizedTorque": "-",
       "normalizedTopSpeed": "-",
-      "normalizedWeight": "-",
-      "normalizedPwRatio": "-",
-      "bhp": "--bhp",
+      "normalizedWeight": "728 kg",
+      "normalizedPwRatio": "1.30 hp/kg",
+      "bhp": "950+bhp",
       "torque": "--Nm",
-      "weight": "--kg",
+      "weight": "728kg",
       "topspeed": "--km/h",
       "acceleration": "--s 0-100",
-      "pwratio": "--kg/hp"
+      "pwratio": "0.77 kg/hp"
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 1.6L & V6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -5643,7 +5734,9 @@
       "acceleration": "--s 0-100",
       "pwratio": "3.40kg/hp"
     },
-    "tags": [],
+    "tags": [
+      "#! 1.8L & I4"
+    ],
     "data": {
       "tractionType": "RWD",
       "gearsCount": 5,
@@ -5683,7 +5776,9 @@
       "acceleration": "--s 0-100",
       "pwratio": "2.38kg/hp"
     },
-    "tags": [],
+    "tags": [
+      "#! 4.9L & V8"
+    ],
     "data": {
       "tractionType": "RWD",
       "gearsCount": 5,
@@ -5724,7 +5819,8 @@
       "pwratio": "3.07 kg/hp"
     },
     "tags": [
-      "#+ fwd"
+      "#+ fwd",
+      "#! 2.0L & V6"
     ],
     "data": {
       "tractionType": "FWD",
@@ -5766,7 +5862,8 @@
       "pwratio": "3.07 kg/hp"
     },
     "tags": [
-      "#+ fwd"
+      "#+ fwd",
+      "#! 2.0L & V6"
     ],
     "data": {
       "tractionType": "FWD",
@@ -5785,7 +5882,7 @@
     }
   },
   {
-    "name": "Ford Mustang 2015",
+    "name": "Ford Mustang",
     "brand": "Ford",
     "year": "2015",
     "author": "Kunos",
@@ -5808,7 +5905,8 @@
       "pwratio": "3.84kg/hp"
     },
     "tags": [
-      "#- manual"
+      "#- manual",
+      "#! 5.0L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -5851,7 +5949,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- manual"
+      "#- manual",
+      "#! 4.9L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -5893,7 +5992,8 @@
       "pwratio": "2.34 kg/hp"
     },
     "tags": [
-      "#+ awd"
+      "#+ awd",
+      "#! 6.2L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -5935,7 +6035,8 @@
       "pwratio": "2.34 kg/hp"
     },
     "tags": [
-      "#+ awd"
+      "#+ awd",
+      "#! 6.2L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -5978,7 +6079,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- manual"
+      "#- manual",
+      "#! 3.1L & V6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -6021,7 +6123,8 @@
     },
     "tags": [
       "#+ rwd",
-      "#- sequential"
+      "#- sequential",
+      "#! 1.6L & V6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -6065,7 +6168,8 @@
     "tags": [
       "#+ rwd",
       "#- manual",
-      "#- sequential"
+      "#- sequential",
+      "#! 3.0L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -6109,7 +6213,8 @@
     "tags": [
       "#+ rwd",
       "#- manual",
-      "#- sequential"
+      "#- sequential",
+      "#! 3.0L & V8"
     ],
     "data": {
       "tractionType": "RWD",
@@ -6151,7 +6256,8 @@
       "pwratio": "1.16 kg/hp"
     },
     "tags": [
-      "#+ rwd"
+      "#+ rwd",
+      "#! 2.4L & V6"
     ],
     "data": {
       "tractionType": "RWD",
@@ -6194,7 +6300,8 @@
     },
     "tags": [
       "#+ fwd",
-      "#- manual"
+      "#- manual",
+      "#! 1.7L & I4"
     ],
     "data": {
       "tractionType": "FWD",
@@ -6213,7 +6320,7 @@
     }
   },
   {
-    "name": "Giulietta QV Launch Edition 2014",
+    "name": "Giulietta QV Launch Edition",
     "brand": "Alfa Romeo",
     "year": "2014",
     "author": "Kunos",
@@ -6236,7 +6343,8 @@
       "pwratio": "5.79kg/hp"
     },
     "tags": [
-      "#+ fwd"
+      "#+ fwd",
+      "#! 1.7L & I4"
     ],
     "data": {
       "tractionType": "FWD",
@@ -6278,7 +6386,8 @@
       "pwratio": "3.05 kg/hp"
     },
     "tags": [
-      "#+ fwd"
+      "#+ fwd",
+      "#! 2.0L & I4"
     ],
     "data": {
       "tractionType": "FWD",
@@ -6320,7 +6429,8 @@
       "pwratio": "3.05 kg/hp"
     },
     "tags": [
-      "#+ fwd"
+      "#+ fwd",
+      "#! 2.0L & I4"
     ],
     "data": {
       "tractionType": "FWD",
@@ -6363,7 +6473,8 @@
     },
     "tags": [
       "#- manual",
-      "#+ fwd"
+      "#+ fwd",
+      "#! 1.6L & I4"
     ],
     "data": {
       "tractionType": "FWD",
@@ -6406,7 +6517,8 @@
     },
     "tags": [
       "#- manual",
-      "#+ fwd"
+      "#+ fwd",
+      "#! 1.6L & I4"
     ],
     "data": {
       "tractionType": "FWD",
@@ -6448,7 +6560,8 @@
       "pwratio": "5.69 kg/hp"
     },
     "tags": [
-      "#+ fwd"
+      "#+ fwd",
+      "#! 2.0L & I4"
     ],
     "data": {
       "tractionType": "FWD",
@@ -6491,7 +6604,8 @@
     },
     "tags": [
       "#- manual",
-      "#+ fwd"
+      "#+ fwd",
+      "#! 1.8L & I4"
     ],
     "data": {
       "tractionType": "FWD",
@@ -6532,7 +6646,9 @@
       "acceleration": "3s 0-100",
       "pwratio": "1.57 kg/hp"
     },
-    "tags": [],
+    "tags": [
+      "#! 2.0L & I4"
+    ],
     "data": {
       "tractionType": null,
       "gearsCount": 0,
@@ -6573,7 +6689,8 @@
       "pwratio": "4.09 kg/hp"
     },
     "tags": [
-      "#+ fwd"
+      "#+ fwd",
+      "#! 2.3L & I4"
     ],
     "data": {
       "tractionType": "FWD",
@@ -6616,7 +6733,8 @@
     },
     "tags": [
       "#- manual",
-      "#+ rwd"
+      "#+ rwd",
+      "#! 2.0L & I4"
     ],
     "data": {
       "tractionType": "RWD",

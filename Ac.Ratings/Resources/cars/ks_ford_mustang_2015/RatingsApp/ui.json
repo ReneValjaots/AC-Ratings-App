@@ -1,5 +1,5 @@
 {
-  "name": "Ford Mustang 2015",
+  "name": "Ford Mustang",
   "brand": "Ford",
   "year": "2015",
   "author": "Kunos",
@@ -22,7 +22,8 @@
     "pwratio": "3.84kg/hp"
   },
   "tags": [
-    "#- manual"
+    "#- manual",
+    "#! 5.0L & V8"
   ],
   "data": {
     "tractionType": "RWD",

@@ -23,7 +23,8 @@
   },
   "tags": [
     "#+ rwd",
-    "#- semiautomatic"
+    "#- semiautomatic",
+    "#! 1.7L & I4"
   ],
   "data": {
     "tractionType": "RWD",

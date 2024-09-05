@@ -22,7 +22,8 @@
     "pwratio": "4.09 kg/hp"
   },
   "tags": [
-    "#+ fwd"
+    "#+ fwd",
+    "#! 2.3L & I4"
   ],
   "data": {
     "tractionType": "FWD",

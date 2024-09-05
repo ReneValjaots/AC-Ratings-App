@@ -22,7 +22,8 @@
     "pwratio": "4.23 kg/hp"
   },
   "tags": [
-    "#+ fwd"
+    "#+ fwd",
+    "#! 0.7L & I4"
   ],
   "data": {
     "tractionType": "FWD",

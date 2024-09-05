@@ -329,7 +329,10 @@ namespace Ac.Ratings {
             
             if (data.StartsWith("F", StringComparison.OrdinalIgnoreCase)) 
                 result += "flat-" + Regex.Match(data, @"\d+").Value + " engine";
-            
+
+            if (data.StartsWith("B", StringComparison.OrdinalIgnoreCase))
+                result += "boxer-" + Regex.Match(data, @"\d+").Value + " engine";
+
             if (data.StartsWith("R", StringComparison.OrdinalIgnoreCase)) 
                 result += "rotary engine";
 
@@ -472,6 +475,8 @@ namespace Ac.Ratings {
         }
 
         public void ResetAllRatingsInDatabase() {
+            CreateBackupOfCarDb();
+
             foreach (var car in _data.CarDb) {
                 ResetRatingValues(car);
                 if (car.FolderName != null) {
@@ -496,6 +501,29 @@ namespace Ac.Ratings {
 
             CarList.SelectedItem = previouslySelectedCar;
             CarList.Items.Refresh();
+        }
+
+        private void CreateBackupOfCarDb() {
+            try {
+                string resourcesFolder = Directory.GetParent(Directory.GetParent(_data.CarDbFilePath).FullName).FullName;
+                string backupFolder = Path.Combine(resourcesFolder, "Backup");
+
+                if (!Directory.Exists(backupFolder)) {
+                    Directory.CreateDirectory(backupFolder);
+                }
+
+                string backupFileName = $"CarDb_backup_{DateTime.Now:dd_mm_yyyy_HHmm}.json";
+                string backupFilePath = Path.Combine(backupFolder, backupFileName);
+
+                File.Copy(_data.CarDbFilePath, backupFilePath, overwrite: true);
+
+                MessageBox.Show("Backup of CarDb.json created successfully.", "Backup Complete", MessageBoxButton.OK,
+                    MessageBoxImage.Information);
+            }
+            catch (Exception ex) {
+                MessageBox.Show($"Error creating backup: {ex.Message}", "Backup Error", MessageBoxButton.OK,
+                    MessageBoxImage.Error);
+            }
         }
     }
 }

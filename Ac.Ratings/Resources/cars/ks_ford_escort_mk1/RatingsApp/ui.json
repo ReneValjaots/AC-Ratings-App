@@ -21,7 +21,9 @@
     "acceleration": "--s 0-100",
     "pwratio": "3.40kg/hp"
   },
-  "tags": [],
+  "tags": [
+    "#! 1.8L & I4"
+  ],
   "data": {
     "tractionType": "RWD",
     "gearsCount": 5,

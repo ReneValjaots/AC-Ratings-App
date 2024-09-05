@@ -22,7 +22,8 @@
     "pwratio": "1.55 kg/hp"
   },
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 6.1L & V12"
   ],
   "data": {
     "tractionType": "RWD",

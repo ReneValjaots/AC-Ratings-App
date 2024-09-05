@@ -1,5 +1,5 @@
 {
-  "name": "Ferrari P499",
+  "name": "Ferrari 499P",
   "brand": "Ferrari",
   "year": "2024",
   "author": "VRC Modding Team",
@@ -22,7 +22,8 @@
     "pwratio": "1.48 kg/hp"
   },
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 3.0L & V6"
   ],
   "data": {
     "tractionType": "AWD2",

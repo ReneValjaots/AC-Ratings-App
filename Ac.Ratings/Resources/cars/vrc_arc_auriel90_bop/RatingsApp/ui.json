@@ -22,7 +22,8 @@
     "pwratio": "2.01 kg/hp"
   },
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 2.2L & I5"
   ],
   "data": {
     "tractionType": "AWD2",

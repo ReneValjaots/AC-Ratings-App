@@ -23,7 +23,8 @@
   },
   "tags": [
     "#- manual",
-    "#+ fwd"
+    "#+ fwd",
+    "#! 1.8L & I4"
   ],
   "data": {
     "tractionType": "FWD",

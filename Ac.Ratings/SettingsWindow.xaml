@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ac.Ratings"
         mc:Ignorable="d"
-        Title="SettingsWindow" Height="300" Width="400">
+        Title="SettingsWindow" Height="300" Width="400"
+        WindowStartupLocation="CenterScreen">
     <Border Background="Black" CornerRadius="10">
         <Grid>
             <Grid.ColumnDefinitions>

@@ -22,7 +22,8 @@
     "pwratio": "1.48 kg/hp"
   },
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 4.0L & V8"
   ],
   "data": {
     "tractionType": "RWD",

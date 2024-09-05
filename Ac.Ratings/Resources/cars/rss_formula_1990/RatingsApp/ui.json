@@ -22,7 +22,8 @@
     "pwratio": "0.74kg/hp"
   },
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 3.5L & V12"
   ],
   "data": {
     "tractionType": "RWD",

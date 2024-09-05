@@ -1,7 +1,7 @@
 {
   "name": "Dodge Viper GTS-R",
   "brand": "Dodge",
-  "year": null,
+  "year": "2000",
   "author": "Race Sim Studio",
   "class": "race",
   "folderName": "rss_gt_vortex_v10",
@@ -23,7 +23,8 @@
   },
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 8.0L & V10"
   ],
   "data": {
     "tractionType": "RWD",

@@ -23,7 +23,8 @@
   },
   "tags": [
     "#- manual",
-    "#+ rwd"
+    "#+ rwd",
+    "#! 2.9L & V8"
   ],
   "data": {
     "tractionType": "RWD",

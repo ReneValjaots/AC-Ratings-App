@@ -23,7 +23,8 @@
   },
   "tags": [
     "#+ rwd",
-    "#- manual"
+    "#- manual",
+    "#! 1.6L & I4"
   ],
   "data": {
     "tractionType": "RWD",

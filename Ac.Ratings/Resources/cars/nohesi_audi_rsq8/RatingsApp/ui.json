@@ -21,7 +21,9 @@
     "acceleration": "--s",
     "pwratio": "1.85 kg/hp"
   },
-  "tags": [],
+  "tags": [
+    "#! 4.0L & V8"
+  ],
   "data": {
     "tractionType": "rwd",
     "gearsCount": 8,

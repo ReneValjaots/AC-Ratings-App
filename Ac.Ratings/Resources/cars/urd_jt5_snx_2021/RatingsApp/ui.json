@@ -21,7 +21,9 @@
     "acceleration": "3s 0-100",
     "pwratio": "1.57 kg/hp"
   },
-  "tags": [],
+  "tags": [
+    "#! 2.0L & I4"
+  ],
   "data": {
     "tractionType": null,
     "gearsCount": 0,

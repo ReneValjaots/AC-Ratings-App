@@ -23,7 +23,8 @@
   },
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 1.6L & V6"
   ],
   "data": {
     "tractionType": "RWD",

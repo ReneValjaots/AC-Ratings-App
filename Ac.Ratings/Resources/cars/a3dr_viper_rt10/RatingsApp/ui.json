@@ -23,7 +23,8 @@
   },
   "tags": [
     "#- manual",
-    "#+ rwd"
+    "#+ rwd",
+    "#! 8.0L & V10"
   ],
   "data": {
     "tractionType": "RWD",

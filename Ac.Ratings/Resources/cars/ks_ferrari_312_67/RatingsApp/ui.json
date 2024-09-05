@@ -23,7 +23,8 @@
   },
   "tags": [
     "#+ rwd",
-    "#- manual"
+    "#- manual",
+    "#! 3.0L & V12"
   ],
   "data": {
     "tractionType": "RWD",

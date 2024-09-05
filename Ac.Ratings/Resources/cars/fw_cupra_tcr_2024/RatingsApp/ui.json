@@ -23,7 +23,8 @@
   },
   "tags": [
     "fwd",
-    "sequential"
+    "sequential",
+    "#! 2.0L & I4"
   ],
   "data": {
     "tractionType": "FWD",

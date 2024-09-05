@@ -24,7 +24,8 @@
   "tags": [
     "#+ rwd",
     "#- manual",
-    "#- sequential"
+    "#- sequential",
+    "#! 3.0L & V8"
   ],
   "data": {
     "tractionType": "RWD",

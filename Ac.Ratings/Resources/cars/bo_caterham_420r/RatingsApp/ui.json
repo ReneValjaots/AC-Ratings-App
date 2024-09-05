@@ -1,5 +1,5 @@
 {
-  "name": "Caterham 420R 2020",
+  "name": "Caterham 420R",
   "brand": "Caterham",
   "year": "2020",
   "author": "Ben O'Bro & JackCY",
@@ -24,11 +24,9 @@
   "tags": [
     "rwd",
     "lightweight",
-    "trackday",
-    "great britain",
     "sequential",
-    "caterham motorsport",
-    "race"
+    "race",
+    "#! 2.0L & I4"
   ],
   "data": {
     "tractionType": "RWD",

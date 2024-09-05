@@ -1,7 +1,7 @@
 {
   "name": "Ferrari 575 GTC",
   "brand": "Ferrari",
-  "year": null,
+  "year": "2003",
   "author": "Race Sim Studio",
   "class": "race",
   "folderName": "rss_gt_ferruccio_57",
@@ -23,7 +23,8 @@
   },
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 6.0L & V12"
   ],
   "data": {
     "tractionType": "RWD",

@@ -23,7 +23,8 @@
   },
   "tags": [
     "#- manual",
-    "#+ rwd"
+    "#+ rwd",
+    "#! 1.0L & I4"
   ],
   "data": {
     "tractionType": "RWD",
@@ -32,12 +33,12 @@
     "turboCount": 1
   },
   "ratings": {
-    "handling": 6.0,
-    "physics": 4.0,
-    "realism": 9.0,
-    "sound": 6.5,
-    "visuals": 5.0,
-    "funFactor": 7.5,
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
     "extraFeatures": 0.0
   }
 }

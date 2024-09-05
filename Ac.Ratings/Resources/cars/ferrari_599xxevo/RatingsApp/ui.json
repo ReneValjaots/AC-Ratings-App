@@ -23,7 +23,8 @@
   },
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 6.0L & V12"
   ],
   "data": {
     "tractionType": "RWD",

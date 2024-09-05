@@ -21,7 +21,9 @@
     "acceleration": "--s 0-100",
     "pwratio": "2.38kg/hp"
   },
-  "tags": [],
+  "tags": [
+    "#! 4.9L & V8"
+  ],
   "data": {
     "tractionType": "RWD",
     "gearsCount": 5,

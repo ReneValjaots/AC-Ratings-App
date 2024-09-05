@@ -17,13 +17,14 @@
     "bhp": "800bhp",
     "torque": "718Nm",
     "weight": "1525kg",
-    "topspeed": ">340km/h",
+    "topspeed": "340km/h",
     "acceleration": "2.9s 0-100",
     "pwratio": "1.91kg/hp"
   },
   "tags": [
     "#+ rwd",
-    "#- semiautomatic"
+    "#- semiautomatic",
+    "#! 6.5L & V12"
   ],
   "data": {
     "tractionType": "RWD",

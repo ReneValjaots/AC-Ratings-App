@@ -7,23 +7,24 @@
   "folderName": "ks_ferrari_sf70h",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_ferrari_sf70h",
   "specs": {
-    "convertedPower": "-",
+    "convertedPower": "699kW/950hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "-",
     "normalizedTorque": "-",
     "normalizedTopSpeed": "-",
-    "normalizedWeight": "-",
-    "normalizedPwRatio": "-",
-    "bhp": "--bhp",
+    "normalizedWeight": "728 kg",
+    "normalizedPwRatio": "1.30 hp/kg",
+    "bhp": "950+bhp",
     "torque": "--Nm",
-    "weight": "--kg",
+    "weight": "728kg",
     "topspeed": "--km/h",
     "acceleration": "--s 0-100",
-    "pwratio": "--kg/hp"
+    "pwratio": "0.77 kg/hp"
   },
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 1.6L & V6"
   ],
   "data": {
     "tractionType": "RWD",

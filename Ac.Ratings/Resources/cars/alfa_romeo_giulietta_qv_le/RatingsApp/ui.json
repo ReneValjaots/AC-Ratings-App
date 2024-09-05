@@ -1,5 +1,5 @@
 {
-  "name": "Giulietta QV Launch Edition 2014",
+  "name": "Giulietta QV Launch Edition",
   "brand": "Alfa Romeo",
   "year": "2014",
   "author": "Kunos",
@@ -22,7 +22,8 @@
     "pwratio": "5.79kg/hp"
   },
   "tags": [
-    "#+ fwd"
+    "#+ fwd",
+    "#! 1.7L & I4"
   ],
   "data": {
     "tractionType": "FWD",

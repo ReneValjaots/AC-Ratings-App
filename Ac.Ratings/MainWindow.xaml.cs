@@ -2,6 +2,7 @@
 using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 using System.Windows.Media.Imaging;
 using Ac.Ratings.Model;
 using Ac.Ratings.Services;
@@ -342,7 +343,7 @@ namespace Ac.Ratings {
 
         private string GetDisplacement(string result, string data) {
             if (char.IsDigit(data[0])) {
-                var displacementValue = data.Replace("L", "");
+                var displacementValue = data.Replace("L", "", StringComparison.OrdinalIgnoreCase);
                 result += $"{displacementValue}-litre ";
             }
             return result;
@@ -404,7 +405,7 @@ namespace Ac.Ratings {
         }
 
         private string NormalizeClassName(IGrouping<string?, string?> group) {
-            var uppercaseName = group.FirstOrDefault(name => name != null && name.All(char.IsUpper));
+            var uppercaseName = group.FirstOrDefault(name => name != null && name.All(c => !char.IsLetter(c) || char.IsUpper(c)));
 
             if (uppercaseName != null)
                 return uppercaseName;

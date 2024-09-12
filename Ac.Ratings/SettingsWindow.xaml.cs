@@ -1,4 +1,6 @@
 ﻿using System.Windows;
+using Ac.Ratings.Services;
+using Microsoft.Win32;
 
 namespace Ac.Ratings {
     /// <summary>
@@ -28,6 +30,17 @@ namespace Ac.Ratings {
                 MessageBox.Show("Reset operation canceled.", "Cancel", MessageBoxButton.OK,
                     MessageBoxImage.Information);
             }
+        }
+
+        private void SetRootFolderButton_OnClick(object sender, RoutedEventArgs e) {
+            //var folderDialog = new OpenFolderDialog {
+            //    Title = "Select cars root folder",
+            //    InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86)
+            //};
+            //if (folderDialog.ShowDialog() == true) {
+            //    var folderName = folderDialog.FolderName;
+            //    MessageBox.Show($"Cars root folder set to: ${folderName}");
+            //}
         }
     }
 }

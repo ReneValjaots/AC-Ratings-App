@@ -789,7 +789,7 @@
     }
   },
   {
-    "name": "Audi R18 e-tron quattro 2014",
+    "name": "Audi R18 e-tron quattro",
     "brand": "Audi",
     "year": "2014",
     "author": "Kunos",
@@ -876,7 +876,7 @@
     }
   },
   {
-    "name": "Audi R8 LMS 2016",
+    "name": "Audi R8 LMS",
     "brand": "Audi",
     "year": "2016",
     "author": "Kunos",
@@ -1357,7 +1357,7 @@
     }
   },
   {
-    "name": "Austin Mini Cooper S 1000 Group 2",
+    "name": "Austin Mini Cooper S 1000",
     "brand": "Austin",
     "year": "1964",
     "author": "Pessio Garage",
@@ -1405,7 +1405,7 @@
     }
   },
   {
-    "name": "Austin Mini Cooper S FIA App.K Historic Racing",
+    "name": "Austin Mini Cooper S FIA K",
     "brand": "Austin",
     "year": "1964",
     "author": "Pessio Garage",
@@ -1441,6 +1441,53 @@
       "gearsCount": 4,
       "supportsShifter": true,
       "turboCount": 1
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
+    "name": "BAC Mono",
+    "brand": "BAC",
+    "year": "2017",
+    "author": "Reboot Team",
+    "class": "street",
+    "folderName": "rt_bacmono",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\rt_bacmono",
+    "specs": {
+      "convertedPower": "224kW/304hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "2.8s",
+      "normalizedTorque": "307 Nm",
+      "normalizedTopSpeed": "274 km/h",
+      "normalizedWeight": "580 kg",
+      "normalizedPwRatio": "0.52 hp/kg",
+      "bhp": "304 bhp",
+      "torque": "307 Nm",
+      "weight": "580 kg",
+      "topspeed": "274 km/h",
+      "acceleration": "2.8 s 0-100",
+      "pwratio": "1.91 kg/hp"
+    },
+    "tags": [
+      "rwd",
+      "sequential",
+      "lightweight",
+      "street",
+      "race",
+      "trackday"
+    ],
+    "data": {
+      "tractionType": "RWD",
+      "gearsCount": 6,
+      "supportsShifter": false,
+      "turboCount": 0
     },
     "ratings": {
       "handling": 0.0,
@@ -2507,7 +2554,7 @@
     "name": "Caterham 420R",
     "brand": "Caterham",
     "year": "2020",
-    "author": "Ben O'Bro & JackCY",
+    "author": "Ben O'Bro",
     "class": "race",
     "folderName": "bo_caterham_420r",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bo_caterham_420r",
@@ -2550,7 +2597,7 @@
     }
   },
   {
-    "name": "Caterham Academy 2020",
+    "name": "Caterham Academy",
     "brand": "Caterham",
     "year": "2020",
     "author": "Ben O'Bro",
@@ -2594,10 +2641,10 @@
     }
   },
   {
-    "name": "Caterham R300 2008",
+    "name": "Caterham R300",
     "brand": "Caterham",
     "year": "2008",
-    "author": "Ben O'Bro & JackCY",
+    "author": "Ben O'Bro",
     "class": "race",
     "folderName": "bo_caterham_r300",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bo_caterham_r300",
@@ -7868,6 +7915,49 @@
     }
   },
   {
+    "name": "Lexus IS F 2007",
+    "brand": "Lexus",
+    "year": "2007",
+    "author": "101 Creative",
+    "class": "street",
+    "folderName": "2007_isf_lexus",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\2007_isf_lexus",
+    "specs": {
+      "convertedPower": "307kW/417hp",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "sec",
+      "normalizedTorque": "506 Nm",
+      "normalizedTopSpeed": "270 km/h",
+      "normalizedWeight": "1690 kg",
+      "normalizedPwRatio": "0.25 hp/kg",
+      "bhp": "417 bhp",
+      "torque": "506 Nm",
+      "weight": "1690kg",
+      "topspeed": "270km/h",
+      "acceleration": "--sec",
+      "pwratio": "4.05 kg/hp"
+    },
+    "tags": [
+      "rwd",
+      "#! 5.0L & V8"
+    ],
+    "data": {
+      "tractionType": "RWD",
+      "gearsCount": 8,
+      "supportsShifter": false,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
     "name": "Lexus IS500",
     "brand": "Lexus",
     "year": "2024",
@@ -10618,7 +10708,7 @@
     "name": "Mitsubishi Lancer Evo IX MR",
     "brand": "Mitsubishi",
     "year": "2006",
-    "author": "Ceky Performance (By Syke)",
+    "author": "Ceky Performance",
     "class": "street",
     "folderName": "cky_evo_ix_mr",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\cky_evo_ix_mr",
@@ -11815,7 +11905,7 @@
     }
   },
   {
-    "name": "Oldbac Kalana 2023",
+    "name": "Oldbac Kalana",
     "brand": "Oldbac",
     "year": "2024",
     "author": "IER Simulations",
@@ -12028,7 +12118,7 @@
     }
   },
   {
-    "name": "P4/5 Competizione 2011",
+    "name": "P4/5 Competizione",
     "brand": "Scuderia Glickenhaus",
     "year": "2011",
     "author": "Kunos",
@@ -13309,7 +13399,7 @@
     }
   },
   {
-    "name": "Porsche 911 RSR 2017",
+    "name": "Porsche 911 RSR",
     "brand": "Porsche",
     "year": "2017",
     "author": "Kunos",
@@ -13566,7 +13656,7 @@
     }
   },
   {
-    "name": "Porsche 919 Hybrid 2015",
+    "name": "Porsche 919 Hybrid",
     "brand": "Porsche",
     "year": "2015",
     "author": "Kunos",
@@ -13609,7 +13699,7 @@
     }
   },
   {
-    "name": "Porsche 919 Hybrid 2016",
+    "name": "Porsche 919 Hybrid",
     "brand": "Porsche",
     "year": "2016",
     "author": "Kunos",
@@ -13909,7 +13999,7 @@
     }
   },
   {
-    "name": "Porsche 992 Turbo S 2023",
+    "name": "Porsche 992 Turbo S",
     "brand": "Porsche",
     "year": "2023",
     "author": "Ceky Performance",
@@ -15253,6 +15343,50 @@
     }
   },
   {
+    "name": "Spec P71",
+    "brand": "Ford",
+    "year": "2006",
+    "author": "Spec P71 Racing Series",
+    "class": "street",
+    "folderName": "specp71",
+    "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\specp71",
+    "specs": {
+      "convertedPower": "-",
+      "isManufacturerData": false,
+      "normalizedAcceleration": "-",
+      "normalizedTorque": "-",
+      "normalizedTopSpeed": "-",
+      "normalizedWeight": "1858 kg",
+      "normalizedPwRatio": "-",
+      "bhp": "222rwhp",
+      "torque": "268rwtq",
+      "weight": "1858 kg*",
+      "topspeed": "Yes",
+      "acceleration": "Eventually",
+      "pwratio": "8.37 kg/hp"
+    },
+    "tags": [
+      "rwd",
+      "automatic",
+      "street"
+    ],
+    "data": {
+      "tractionType": "RWD",
+      "gearsCount": 4,
+      "supportsShifter": false,
+      "turboCount": 0
+    },
+    "ratings": {
+      "handling": 0.0,
+      "physics": 0.0,
+      "realism": 0.0,
+      "sound": 0.0,
+      "visuals": 0.0,
+      "funFactor": 0.0,
+      "extraFeatures": 0.0
+    }
+  },
+  {
     "name": "Subaru Impreza 22B STi-Version",
     "brand": "Subaru",
     "year": "1998",
@@ -16324,7 +16458,7 @@
     }
   },
   {
-    "name": "Toyota TS040 Hybrid 2014",
+    "name": "Toyota TS040 Hybrid",
     "brand": "Toyota",
     "year": "2014",
     "author": "Kunos",
@@ -16413,7 +16547,7 @@
     "brand": "Trabant",
     "year": "1991",
     "author": "TM-Modding",
-    "class": "racing",
+    "class": "race",
     "folderName": "tmm_trabant_601",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\tmm_trabant_601",
     "specs": {
@@ -16719,8 +16853,8 @@
     }
   },
   {
-    "name": "Zhonghua Zidantou CHB6401TA Wangan Spec",
-    "brand": "Beijing Zhonghua Automobile Manufacturing Co. Ltd.",
+    "name": "Zhonghua Zidantou CHB6401TA",
+    "brand": "Zhonghua",
     "year": "1994",
     "author": "Snips",
     "class": "street",

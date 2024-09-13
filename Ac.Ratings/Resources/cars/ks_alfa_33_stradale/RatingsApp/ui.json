@@ -8,7 +8,7 @@
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_alfa_33_stradale",
   "specs": {
     "convertedPower": "169kW/230hp",
-    "isManufacturerData": true,
+    "isManufacturerData": false,
     "normalizedAcceleration": "-",
     "normalizedTorque": "206 Nm",
     "normalizedTopSpeed": "260 km/h",

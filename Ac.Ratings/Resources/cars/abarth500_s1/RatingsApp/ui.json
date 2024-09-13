@@ -8,7 +8,7 @@
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\abarth500_s1",
   "specs": {
     "convertedPower": "129kW/175hp",
-    "isManufacturerData": true,
+    "isManufacturerData": false,
     "normalizedAcceleration": "7.4s",
     "normalizedTorque": "245 Nm",
     "normalizedTopSpeed": "211 km/h",

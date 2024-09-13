@@ -1,15 +1,13 @@
 {
-  "name": "Caterham R300 2008",
+  "name": "Caterham R300",
   "brand": "Caterham",
   "description": "The Caterham R300 is the former name of the 420R (now known as Seven Championship UK).<br><br>Same specs than the more recent 420R only with a manual gearbox.",
   "tags": [
     "rwd",
     "lightweight",
-    "trackday",
-    "great britain",
     "manual",
-    "caterham motorsport",
-    "race"
+    "race",
+    "#! 2.0L & I4"
   ],
   "class": "race",
   "specs": {
@@ -265,7 +263,7 @@
     ]
   ],
   "country": "Great Britain",
-  "author": "Ben O'Bro & JackCY",
+  "author": "Ben O'Bro",
   "version": "1.5",
   "url": null,
   "year": 2008

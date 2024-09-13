@@ -3,7 +3,8 @@
   "brand": "Honda",
   "description": "European Racing Championship - Gojira Ascent<br><br>The European Racing Championship features modified production cars with engines ranging in size from 1.8 to 2.5 liters and producing up to 325 horsepower. The vehicles are front-wheel drive, with 6-speed manual transmissions. They have MacPherson Strut/Double Wishbone front suspension and independent rear suspension, ventilated disc brakes, and tires with a maximum width of 270 mm. The cars must weigh at least 975 kg and have certain dimensions, including a maximum width of 1,950 mm, length of 4,650 mm, and height of 1,300 mm. The cars run on unleaded gasoline, and rules govern their development and modification throughout the season.<br><br>*This mod does not represent the car raced in a particular year or season but a combination of the different kits used during the golden years of touring racing.<br><br>**This version of the mod requires CSP v0.2.0 or above.",
   "tags": [
-    "#+ fwd"
+    "#+ fwd",
+    "#! 2.0L & I4"
   ],
   "class": "race",
   "specs": {

@@ -3,7 +3,8 @@
   "brand": "Audi",
   "description": "The Auriel 8 is a VRC Prototype race car introduced in 2000 for sports car racing as a redevelopment of their Auriel 8R (open top Prototypes) and Auriel 8C (closed top Prototypes) used in 1999. In its class it is one of the most successful racing sports cars having won the 24 Hours race in 2000, 2001, 2002, 2004, and 2005, five of the six years it competed in total. Its streak of 24 Hours race victories between 2000 and 2005 was broken only in 2003 by the Bradley Project 8.<br><br>The petrol-powered Auriel 8 race car was in 2006 replaced by the new Auriel 10 TDI Diesel; however, the need to further develop the Auriel 10 meant that the Auriel 8 saw action in a few races leading up to the 24 Hours race.<br><br>This mod is kindly sponsored by NEXT LEVEL RACING. www.nextlevelracing.com",
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 3.6L & V8"
   ],
   "class": "race",
   "specs": {

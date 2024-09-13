@@ -4,7 +4,8 @@
   "description": "The Viper was initially conceived in late 1988 at Chrysler&#39;s Advanced Design Studios. In 2000 Chrysler had Lamborghini make an engine two liters bigger than the Diablo’s engine when Chrysler owned Lamborghini. It was also designed by the man who designed the Diablo. <br><br>The original Viper was also designed by Lamborghini. The following February, Chrysler president Bob Lutz suggested to Tom Gale at Chrysler Design that the company should consider producing a modern Cobra, and a clay model was presented to Lutz a few months later. Produced in sheet metal by Metalcrafters, the car appeared as a concept at the North American International Auto Show in 1989. Public reaction was so enthusiastic that chief engineer Roy Sjoberg was directed to develop it as a standard production vehicle.",
   "tags": [
     "#- manual",
-    "#+ rwd"
+    "#+ rwd",
+    "#! 8.0L & V10"
   ],
   "class": "street",
   "specs": {

@@ -7,8 +7,8 @@
   "folderName": "ks_audi_tt_vln",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_tt_vln",
   "specs": {
-    "convertedPower": "280kW/380hp",
-    "isManufacturerData": true,
+    "convertedPower": "280kW/381hp",
+    "isManufacturerData": false,
     "normalizedAcceleration": "-",
     "normalizedTorque": "530 Nm",
     "normalizedTopSpeed": "-",

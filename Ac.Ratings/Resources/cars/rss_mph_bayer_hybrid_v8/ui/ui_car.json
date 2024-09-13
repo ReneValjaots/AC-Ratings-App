@@ -4,7 +4,8 @@
   "description": "RSS MPH Bayer Hybrid V8 by Race Sim Studio.<br><br>*Weight includes the driver. Power curve (at wheels) from ICE.",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 4.0L & V8"
   ],
   "class": "race",
   "specs": {

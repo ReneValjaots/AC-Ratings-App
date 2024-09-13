@@ -4,7 +4,8 @@
   "parent": "a3dr_ferrari_512tr",
   "description": "The 512 TR Canyon Spec is equipped with a set of coilovers for greater adjustability and cornering performance, and a set of lightweight two-piece wheels. The car is also fitted with a Brembo high performance brake kit with increased response and performance in front and rear while maintaining stock brake balance. The engine is fully tuned, with intake and exhaust changes, a more aggressive set of camshafts, porting and polishing, balancing, and removal of some unnecessary systems - all under the control of a new MoTeC ECU. Overall these modifications lead to an immensely capable car with the legs to compete on the open road and the suspension to keep up on track.",
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 4.9L & F12"
   ],
   "class": "street",
   "specs": {

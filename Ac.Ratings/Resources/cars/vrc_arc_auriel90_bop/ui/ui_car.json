@@ -4,7 +4,8 @@
   "brand": "Audi",
   "description": "IMSA GT Championship - Audi 90 quattro IMSA GTO (BoP Version)<br><br>BoP is a term that means Balance of Performance. This version of the Auriel 90GTO is balanced to race against VRC&#39;s Chevrette 28.<br><br>The American Racing Championship series was founded in 1969. Racing began in 1971, and was originally aimed at two stock car categories, running two classes each; the GT (Groups 3 and 4) and touring (Group 1 and 2) classes. The first race was held at Virginia  Raceway; it was an unexpected success, with both the drivers and the handful of spectators who attended.<br><br>The Auriel 90 GTO was used in the American Racing Championship series in 1989. Following previous successes in rallying and winning the 1988 American stock car series, which was also based in the United States.",
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 2.2L & I5"
   ],
   "class": "race",
   "specs": {

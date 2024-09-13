@@ -2,7 +2,9 @@
   "name": "Ford GT40",
   "brand": "Ford",
   "description": "The Ford GT40 is a high performance American-British endurance racing car, built and designed in England (Mk I, Mk II, and Mk III) and in the United States (Mk IV), and powered by a series of American-built engines, which won the 24 Hours of Le Mans four consecutive times, from 1966 to 1969<br><br>Simulated in Assetto Corsa is chassis # P-1075, which won in 1968 and 1969, becoming the first car in Le Mans history to win the race more than once with the same chassis, using an American Ford V-8 engine originally of 4.7-litre displacement capacity (289 cubic inches), enlarged to 4.9-litre with special alloy Gurney-Weslake cylinder heads.<br><br>This specific version of the car has wider tyres, better brakes and chassis and bodywork improvements, making a much better car to drive hard and race, becoming even comfortable for its drivers in long 4 hours driving stints as it was necessary back in 1969 races",
-  "tags": [],
+  "tags": [
+    "#! 4.9L & V8"
+  ],
   "class": "race",
   "specs": {
     "bhp": "430bhp",

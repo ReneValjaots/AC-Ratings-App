@@ -4,7 +4,8 @@
   "description": "The SF15-T was built to compete in the 2015 Formula One season in which it was driven by Sebastian Vettel and Kimi R&#228;ikk&#246;nen.<br><br>Launched on 30 January 2015, it is the second car made by Ferrari since the reintroduction of turbo engines back in 2014.<br><br>* Weight includes driver",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 1.6L & V6"
   ],
   "onlywith": [
     "ks_ferrari_f138",

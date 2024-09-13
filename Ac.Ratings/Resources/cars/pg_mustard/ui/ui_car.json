@@ -6,7 +6,8 @@
   "description": "The Mustard was one of the 2 most famous and iconic competitors in the Production Class of the SCCA Trans-Am series of the last sixties. It had very strong battles with its other competitor; many head-to-head races were run by the 2 but unfortunately in 1969 The Mustard didn&#39;t get the title. It got it in 1970 with a new model car and with a bigger (and destroked to regulation maximum capacity) engine.<br>By the way, in 1969 the Bull came with a heavily tuned 302cid american muscle car engine capable of breathing air up to 9000rpms!<br>The suspension compartment was just slightly revised compared to the stock model due to regulation constraints and tires weren&#39;t slicks as they weren&#39;t common yet back then.<br>A front lip spoiler reduced the front lift but it was far from creating any negative load.<br>The mix of this very powerful engine on a quite normal setup with those bias ply racing tires requires you to be very careful on the throttle but also results in a stable car and a neutrally balanced vehicle dynamic.",
   "tags": [
     "#+ rwd",
-    "#- manual"
+    "#- manual",
+    "#! 4.9L & V8"
   ],
   "torqueCurve": [
     [

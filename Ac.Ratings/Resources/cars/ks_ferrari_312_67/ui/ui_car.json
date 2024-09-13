@@ -4,7 +4,8 @@
   "description": "Scuderia Ferrari started the 1967 Championship with the 312/67. The car&#39;s official debut was at the Champions&#39; Race in Brands-Hatch with Bandini and Scarfiotti behind the wheel.<br><br><br>The Scuderia&#39;s best results came courtesy of New Zealander Chris Amon, who managed third position on the podium on three occasions.",
   "tags": [
     "#+ rwd",
-    "#- manual"
+    "#- manual",
+    "#! 3.0L & V12"
   ],
   "class": "race",
   "specs": {

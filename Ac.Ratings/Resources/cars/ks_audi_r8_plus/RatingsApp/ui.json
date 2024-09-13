@@ -7,8 +7,8 @@
   "folderName": "ks_audi_r8_plus",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r8_plus",
   "specs": {
-    "convertedPower": "404kW/550hp",
-    "isManufacturerData": true,
+    "convertedPower": "404kW/549hp",
+    "isManufacturerData": false,
     "normalizedAcceleration": "3.5s",
     "normalizedTorque": "540 Nm",
     "normalizedTopSpeed": "317 km/h",

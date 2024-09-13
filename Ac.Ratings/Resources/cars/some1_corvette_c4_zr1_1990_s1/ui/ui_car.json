@@ -4,7 +4,8 @@
   "description": "For this tuned version the LT5 is bored and stroked to 385 cubic inches - combined with headers, sport mufflers, intake work and a dyno tune this nets 565bhp. Lightweight magnesium alloy wheels with modern semislick tires are fitted, as are lightly upgraded leaf springs and a set of 3.90 rear gears. <br><br>Nearly 100kg has also been shed from the car via simple modifications including a carbon fiber hood, aluminum single-mass flywheel, lightweight racing battery, as well as removal of the air conditioning system and (for trackdays, anyway) the spare tire, jack, and tools.<br><br>All in all this makes a seriously quick car devastatingly fast, able to keep pace with much more exotic hardware in the canyons.",
   "tags": [
     "#+ rwd",
-    "#- manual"
+    "#- manual",
+    "#! 5.7L & V8"
   ],
   "class": "street",
   "specs": {

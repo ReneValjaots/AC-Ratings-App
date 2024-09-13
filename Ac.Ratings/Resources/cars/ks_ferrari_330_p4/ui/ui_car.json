@@ -4,7 +4,8 @@
   "description": "With a styling very similar to that of the 330 P3, this model was powered by a V12 engine that had been radically redesigned by Franco Rocchi. The most obvious modification was the introduction of a three-valve cylinder head – two inlet and one exhaust.<br><br><br>Fuel feed was provided by a Lucas injection system. The chassis was slightly shorter than the 330 P3&#39;s, and the new suspension system improved roadholding. The car won numerous races and earned its place in the history books after a memorable 1-2-3 at Daytona.",
   "tags": [
     "#+ rwd",
-    "#- manual"
+    "#- manual",
+    "#! 4.0L & V12"
   ],
   "class": "race",
   "specs": {

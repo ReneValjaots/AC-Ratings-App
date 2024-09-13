@@ -4,7 +4,8 @@
   "description": "Formula Hybrid&#174; 2023 by Race Sim Studio.<br><br>* Weight includes driver.<br><br>Version 2",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 1.6L & V6"
   ],
   "class": "race",
   "specs": {

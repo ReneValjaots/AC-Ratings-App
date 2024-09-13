@@ -1,5 +1,5 @@
 {
-  "name": "Austin Mini Cooper S FIA App.K Historic Racing",
+  "name": "Austin Mini Cooper S FIA K",
   "brand": "Austin",
   "class": "race",
   "country": "Great Britain",
@@ -10,7 +10,8 @@
     "vintage",
     "historic",
     "fwd",
-    "60s"
+    "60s",
+    "#! 1.1L & I4"
   ],
   "specs": {
     "bhp": "125cv",

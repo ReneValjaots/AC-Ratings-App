@@ -4,7 +4,8 @@
   "description": "The Formula RSS 2010 V8 by Race Sim Studio.<br><br>Weight includes the driver.",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 2.4L & V8"
   ],
   "class": "race",
   "specs": {

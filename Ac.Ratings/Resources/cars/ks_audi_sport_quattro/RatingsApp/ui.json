@@ -8,7 +8,7 @@
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_sport_quattro",
   "specs": {
     "convertedPower": "225kW/306hp",
-    "isManufacturerData": true,
+    "isManufacturerData": false,
     "normalizedAcceleration": "4.7s",
     "normalizedTorque": "350 Nm",
     "normalizedTopSpeed": "250 km/h",

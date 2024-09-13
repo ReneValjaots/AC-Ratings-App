@@ -4,7 +4,8 @@
   "description": "RSS GT Adonis D9 V12 by Race Sim Studio.<br><br>* Weight includes driver.",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 6.0L & V12"
   ],
   "class": "race",
   "specs": {
@@ -158,5 +159,6 @@
   "country": "Great Britain",
   "author": "Race Sim Studio",
   "version": "1",
-  "url": "http://www.racesimstudio.com/"
+  "url": "http://www.racesimstudio.com/",
+  "year": 2009
 }

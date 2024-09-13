@@ -4,7 +4,8 @@
   "description": "The 250 GTO model was the pinnacle of the development of the 250 GT series in competition form, whilst still remaining a road car. It made its public debut at the annual pre-season Ferrari press conference in January 1962, and was the only front-engined model on display, with its monoposto and sports racing counterparts all having a mid-engine configuration.<br><br><br>The 250 GTO was the ultimate expression of the Ferrari 250 GT car. It was equally at home on the road or track – perhaps the last dual-purpose road/race car produced – and has achieved legendary status amongst aficionados of the marque. With only a relatively small production run of thirty-six cars, and with many of the examples produced having a great racing pedigree, it has become one of the icons of Ferrari&#39;s production history, with a revered position in collectors&#39; circles.",
   "tags": [
     "#+ rwd",
-    "#- manual"
+    "#- manual",
+    "#! 3.0L & V12"
   ],
   "class": "street",
   "specs": {

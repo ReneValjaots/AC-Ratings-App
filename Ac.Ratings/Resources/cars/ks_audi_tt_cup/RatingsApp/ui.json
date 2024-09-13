@@ -8,7 +8,7 @@
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_tt_cup",
   "specs": {
     "convertedPower": "228kW/310hp",
-    "isManufacturerData": true,
+    "isManufacturerData": false,
     "normalizedAcceleration": "4.5s",
     "normalizedTorque": "400+ Nm",
     "normalizedTopSpeed": "239 km/h",

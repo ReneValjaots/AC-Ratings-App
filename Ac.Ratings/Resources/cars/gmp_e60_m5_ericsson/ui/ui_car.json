@@ -3,7 +3,8 @@
   "brand": "BMW",
   "description": "Powerhouse Amuse has fancied this E60 M5 up with the following upgrades;<br><br>- Engine tuning with sharper cams, lighter shafts and pistons, bigger fuel injectors, proper ECU remap and erase of the catalytic converter.<br>- Amuse Ericsson Full Package that consist of Carbon front lip, Carbon front hood and rear trunk, full Titanium exhaust, BBS LM-R 20&quot; rims and some other details.<br>- KW V3 Series Coilover Kit 2 way adjustable in Slow Bump (14 clicks) and Rebound (Infinitely Adj. -&gt; 70 clicks here) plus height adjuster.<br><br>3D - T10, GMP<br>Physics - abbo90<br>Sound - Vilau<br>Textures - h ell<br>LUA - plus<br>RiZe - Japanese plate base<br>slam - Freude am Fahren sticker<br><br>Extra A = DRL<br><br>Thank you to all who tested, helped and gave remarks, you know who you are.",
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 5.0L & V10"
   ],
   "class": "street",
   "specs": {

@@ -7,8 +7,8 @@
   "folderName": "ks_audi_sport_quattro_rally",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_sport_quattro_rally",
   "specs": {
-    "convertedPower": "440kW/595hp",
-    "isManufacturerData": true,
+    "convertedPower": "440kW/598hp",
+    "isManufacturerData": false,
     "normalizedAcceleration": "3.1s",
     "normalizedTorque": "590 Nm",
     "normalizedTopSpeed": "250+ km/h",

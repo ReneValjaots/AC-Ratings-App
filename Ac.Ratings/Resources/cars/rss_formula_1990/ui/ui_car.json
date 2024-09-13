@@ -3,7 +3,8 @@
   "brand": "Ferrari",
   "description": "Formula RSS 1990 V12 by Race Sim Studio.<br><br>* Weight includes driver",
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 3.5L & V12"
   ],
   "class": "race",
   "specs": {

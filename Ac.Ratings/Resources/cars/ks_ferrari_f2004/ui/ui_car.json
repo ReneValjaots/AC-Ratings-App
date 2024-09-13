@@ -4,7 +4,8 @@
   "description": "The year 2004, the record season for Ferrari, went into a second act with the 2004 Championship: out of the 18 GPs, the Scuderia won 15 races (13 by Schumacher, 2 by Barrichello), 8 one-two wins, 12 pole positions for a total of 262 points in the Constructors&#39; Championship. Already in August, Ferrari archived the Championship files: at the Hungarian GP the Scuderia won the Constructors&#39; Title – the 14th in its history – with a one-two win, while Schumacher gained his fifth title in a row, the seventh of his career, in Belgium, on the same track where he debuted in the year 1991. <br><br><br>The season made history also thanks to one of the most competitive single-seaters ever built: the F2004, fitted with the new engine dubbed 053, a 10-cylinder unit with 865 bhp at 18,300 rpm, which exceeded all expectations in terms of performance and reliability, also regarding the new challenge set by the regulations, which aimed at reducing costs: one engine per race weekend, with an average lifespan of 800 instead of 350 kilometres.",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 3.0L & V10"
   ],
   "onlywith": [
     "ks_ferrari_f138",
@@ -16,10 +17,10 @@
   "specs": {
     "bhp": "865bhp",
     "torque": "--Nm",
-    "weight": "--kg",
+    "weight": "605kg",
     "topspeed": "--km/h",
     "acceleration": "--s 0-100",
-    "pwratio": "--kg/hp"
+    "pwratio": "0.7 kg/hp"
   },
   "torqueCurve": [
     [

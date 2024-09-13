@@ -170,8 +170,7 @@ namespace Ac.Ratings.Services {
 
             if (File.Exists(carFilePath)) {
                 var jsonContent = File.ReadAllText(carFilePath);
-                var existingCar = JsonConvert.DeserializeObject<Car>(jsonContent);
-                return existingCar;
+                return JsonConvert.DeserializeObject<Car>(jsonContent);
             }
             return null;
         }

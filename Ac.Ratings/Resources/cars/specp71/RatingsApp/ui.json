@@ -1,0 +1,44 @@
+{
+  "name": "Spec P71",
+  "brand": "Ford",
+  "year": "2006",
+  "author": "Spec P71 Racing Series",
+  "class": "street",
+  "folderName": "specp71",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\specp71",
+  "specs": {
+    "convertedPower": "-",
+    "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "-",
+    "normalizedTopSpeed": "-",
+    "normalizedWeight": "1858 kg",
+    "normalizedPwRatio": "-",
+    "bhp": "222rwhp",
+    "torque": "268rwtq",
+    "weight": "1858 kg*",
+    "topspeed": "Yes",
+    "acceleration": "Eventually",
+    "pwratio": "8.37 kg/hp"
+  },
+  "tags": [
+    "rwd",
+    "automatic",
+    "street"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 4,
+    "supportsShifter": false,
+    "turboCount": 0
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0
+  }
+}

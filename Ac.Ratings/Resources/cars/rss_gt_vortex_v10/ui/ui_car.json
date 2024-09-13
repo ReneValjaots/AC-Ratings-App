@@ -4,7 +4,8 @@
   "description": "RSS GT Vortex V10 by Race Sim Studio.<br><br>* Weight includes driver.",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 8.0L & V10"
   ],
   "class": "race",
   "specs": {
@@ -182,5 +183,6 @@
   "country": "USA",
   "author": "Race Sim Studio",
   "version": "4",
-  "url": "http://www.racesimstudio.com/"
+  "url": "http://www.racesimstudio.com/",
+  "year": 2000
 }

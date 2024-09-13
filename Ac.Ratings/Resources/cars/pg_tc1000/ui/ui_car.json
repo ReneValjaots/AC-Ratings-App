@@ -4,7 +4,8 @@
   "description": "Initially built in 1962 on the base of a little passenger car with just a bunch of horsies, the Abarth 1000 TC was very soon homologated for FIA Gr. 2 and was immediately successful thanks to its light weight and powerful tiny engine.<br>As the years passed by, the car received many upgrades regarding both engine and chassis; the last of which was the redesign of the rear suspension geometry that allowed the Abarth 1000 TC to earn the cover of the major newspapers of the time and to become de facto a legendary car. That modification finally improved a lot the oversteer tendency the car has always had due to the heavily rear-biased weight.<br>At the end of its racing career, the Abarth 1000 TC reached power up to 112 hp, really a lot for such a little engine.",
   "tags": [
     "#- manual",
-    "#+ rwd"
+    "#+ rwd",
+    "#! 1.0L & I4"
   ],
   "class": "race",
   "specs": {

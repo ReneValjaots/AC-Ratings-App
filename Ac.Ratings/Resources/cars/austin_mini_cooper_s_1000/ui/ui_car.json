@@ -1,5 +1,5 @@
 {
-  "name": "Austin Mini Cooper S 1000 Group 2",
+  "name": "Austin Mini Cooper S 1000",
   "brand": "Austin",
   "class": "race",
   "country": "Great Britain",
@@ -10,7 +10,8 @@
     "vintage",
     "historic",
     "fwd",
-    "60s"
+    "60s",
+    "#! 1.1L & I4"
   ],
   "specs": {
     "bhp": "99cv",

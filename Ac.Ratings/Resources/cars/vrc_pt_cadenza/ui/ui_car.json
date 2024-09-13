@@ -3,7 +3,8 @@
   "brand": "Cadillac",
   "description": "The Cadenza Polaris was a series of 24 hours race Prototypes built by Cadenza for use in the American 24 Hours Series as well as an attempt to return Cadenza to the 24 Hours races since they first entered in 1950. The Polaris Prototypes were named after the Polaris V8 engines which powered them. The Cadenza project ran from 2000 until 2002.<br><br>This mod is kindly sponsored by NEXT LEVEL RACING. www.nextlevelracing.com",
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 4.0L & V8"
   ],
   "class": "race",
   "specs": {

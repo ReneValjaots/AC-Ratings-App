@@ -4,7 +4,8 @@
   "description": "While it&#39;s true that every Ferrari is innovative by definition, it&#39;s equally true that in the course of the Prancing Horse&#39;s history, certain cars have marked a genuine departure from the current range. This is very much the case with the Ferrari 458 Italia, which is a massive leap forward from the company&#39;s previous mid-rear engined sports cars.<br><br>The Ferrari 458 Italia is a completely new car from every point of view: engine, design, aerodynamics, handling, instrumentation and ergonomics, just to name a few.<br><br>The 458 Italia is designed for owners for whom the priority is uncompromising on-road performance with occasional track day capability, but who still demand a car that is useable in day-to-day driving like all Ferrari&#39;s recent models.",
   "tags": [
     "#+ rwd",
-    "#- semiautomatic"
+    "#- semiautomatic",
+    "#! 4.5L & V8"
   ],
   "class": "street",
   "specs": {

@@ -4,7 +4,8 @@
   "description": "The LaFerrari represents Ferrari&#39;s most ambitious project yet to push the boundaries of technology on a road car, drawing together the finest expression of the marque&#39;s technical capabilities in both GT and Formula 1 engineering.<br><br>The LaFerrari is Ferrari&#39;s first ever production car to be equipped with the F1-derived hybrid solution – the HY-KERS system – which combines an electric motor producing over 150 CV with the most powerful incarnation yet of Ferrari&#39;s classic V12, with 800 CV at 9000 rpm.<br><br>To attain the performance goals set for the LaFerrari, Ferrari drew not only on the Scuderia&#39;s F1 experience in the choice of materials, design and engineering, but brought in the expertise of Rory Byrne, the legendary F1 designer who was responsible for no fewer than 11 of Ferrari&#39;s World Championship-winning cars. <br><br>The engineers&#39; aim was to deliver the highest degree of aerodynamic efficiency ever achieved with any road car, with a coefficient of nearly 3, thanks to technical solutions honed with CFD analysis and fine-tuned in the F1 Wind Tunnel.<br><br>Thanks to myriad innovations across the board in its design and construction, the LaFerrari delivers absolutely exceptional performance, establishing itself as Ferrari&#39;s fastest-ever road car. The LaFerrari slashes more than 5 seconds off the Enzo&#39;s lap record at the Fiorano circuit.",
   "tags": [
     "#+ rwd",
-    "#- semiautomatic"
+    "#- semiautomatic",
+    "#! 6.3L & V12"
   ],
   "class": "street",
   "specs": {

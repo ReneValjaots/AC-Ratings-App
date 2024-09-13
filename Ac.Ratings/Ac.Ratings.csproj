@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Images\Hamburger_icon.png" />    <Resource Include="Images\warning.png" />      
+    <Resource Include="Images\Hamburger_icon.png" />      
   </ItemGroup>
 
 </Project>

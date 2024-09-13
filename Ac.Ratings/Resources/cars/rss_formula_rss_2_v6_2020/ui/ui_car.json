@@ -4,7 +4,8 @@
   "description": "Formula RSS 2 V6 2020 by Race Sim Studio.<br><br>* Weight includes driver",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 3.4L & V6"
   ],
   "class": "race",
   "specs": {

@@ -4,7 +4,8 @@
   "description": "Formula RSS 2 by Race Sim Studio.<br><br>* Weight includes driver<br><br>Version 2.0",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 4.0L & V8"
   ],
   "class": "race",
   "specs": {

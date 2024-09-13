@@ -4,7 +4,8 @@
   "description": "Enjoy!<br><br>extra lights A for interior light, extra lights B for underglow (on supported skins), extra light C for foglights!<br><br>credits:<br>- model: polyphony digital (car model), LossTunes (plates), Katyusha (spoon calipers + their textures)<br>- textures: polyphony digital , Kaiser (plates documentation and .psd file), Amy/Seb (new plates .psd based off kaiser&#39;s), Kunos, Oto-san (paints)<br>- extension: Amy/Seb, Katyusha (scripting), ian W (headlights config*), the whole community for tutorials and explanations, Trappu-chan (PBR*)    *a couple of changes from Amy<br>- physics: Amy/Seb, Clarke/Kofffee<br>- sound: Vilau<br><br>Usernames i am known as: Seb, Amy, Amylmyra",
   "tags": [
     "#- manual",
-    "#+ fwd"
+    "#+ fwd",
+    "#! 1.8L & I4"
   ],
   "class": "street",
   "specs": {

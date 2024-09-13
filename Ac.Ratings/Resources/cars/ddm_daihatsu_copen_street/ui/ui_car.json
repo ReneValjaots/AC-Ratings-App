@@ -3,7 +3,8 @@
   "brand": "Daihatsu",
   "description": "2002 Daihatsu Copen (L880K) Street-Spec:<br>Heavily Tuned JB-DET Engine<br>RHF5 Turbocharger<br>5.5 Final Drive<br>Aftermarket Suspension Package<br>205 Tyres Width F/R",
   "tags": [
-    "#+ fwd"
+    "#+ fwd",
+    "#! 0.7L & I4"
   ],
   "class": "Street",
   "specs": {

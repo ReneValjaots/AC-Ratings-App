@@ -8,7 +8,7 @@
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_abarth500_assetto_corse",
   "specs": {
     "convertedPower": "140kW/190hp",
-    "isManufacturerData": true,
+    "isManufacturerData": false,
     "normalizedAcceleration": "<7.0s",
     "normalizedTorque": "302 Nm",
     "normalizedTopSpeed": "225 km/h",

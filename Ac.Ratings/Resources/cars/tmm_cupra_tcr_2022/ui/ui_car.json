@@ -4,7 +4,8 @@
   "description": "Cupra Leon Competici&#243;n TCR 2022 specs v.2.1<br><br>Cphys enabled version (CSP 0.1.78 required!)<br><br>Extra button mapping:<br>Extra_A = cycle dashboard pages<br>Extra_B = fog lights<br>Extra_F = launch control<br><br>Special thanks to Pavel Gellner, Petr Cizek (Fullinrace Academy), Bartek Groszek (Aditis Racing) and Comtoyou Racing Team.",
   "tags": [
     "#- sequential",
-    "#+ fwd"
+    "#+ fwd",
+    "#! 2.0L & I4"
   ],
   "class": "TCR",
   "specs": {

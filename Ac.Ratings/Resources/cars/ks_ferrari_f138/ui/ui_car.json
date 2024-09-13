@@ -4,7 +4,8 @@
   "description": "The Ferrari F138 (originally known as the Ferrari F2013, and sometimes referred to by its project number, the Ferrari 664) is a Formula One racing car designed and built by Scuderia Ferrari for use in the 2013 Formula One season. It was driven by two-times World Champion Fernando Alonso and his team-mate Felipe Massa. The chassis was named &quot;F138&quot; to represent the year that it would be raced in, 2013, <br>and to mark the final season that Formula One would use V8 engines.<br><br>* Weight includes driver",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 2.4L & V8"
   ],
   "onlywith": [
     "ks_ferrari_f138",

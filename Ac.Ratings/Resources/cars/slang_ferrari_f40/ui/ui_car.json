@@ -4,7 +4,8 @@
   "description": "Customized Ferrari F40 with LM style splitter, diffuser and wing, a set of BBS E88 and factory boosted turbo.<br><br>EXTRA A = Open left door<br>EXTRA B = Open trunk<br>EXTRA C = Hide front plate<br>EXTRA D = Fog lights<br><br>Check the car folder for higher quality textures for screenshots, 8k body ao and 4k versions of the skins.<br><br>2.5 update changelog:<br>- Remapped most of body and added better AO<br>- Added/replaced updated detail from stock mod<br>- Remade all paints and configs<br>- Remade all liveries and added/updated details/config<br>- Reconverted headlight body model<br>- Updated and improved PBR<br>- Remade a bunch of textures in better quality<br>- Couple more plate variants including pride plates<br>- Removed right door animation reducing object to 181<br>- Remapped aero to hide seams and improve alignment<br>- Various small fixes<br><br><br>2.0 update changelog:<br>- New base model, huge thanks to F40 LM_Lover!<br>- BBS E88 wheels<br>- Window banner<br>- Better fitting LM style aero<br>- New and improved paints and some tribute liveries<br>- Taisan tribute, Stirling Moss Verde Pallido tribute, Marlboro<br>- Objects reduced from 258 to 193 (compared to stock)<br>- Reduced triangles from 866K to 558k (compared to stock)<br>- Front plate removable with EXTRA C<br>- Factory boosted turbo<br><br><br>Credits<br>Base mod: F40 LM_Lover<br>Japanese Plates - Touge Workshop<br>Parts: NFS2015, PC3<br>Physics: Kunos, ACR, F40LM Lover, Opperslang<br>Config: F40 LM_Lover edited by Opperslang<br>Paints and liveries: Opperslang<br><br><br>Note: Quite a few details had to be sacrificed for server usage optimization so be sure to download the original mod if you haven&#39;t already!<br><br>Download link for the base F40 mod:<br>https://www.youtube.com/watch?v=LRbD-AT9n4U",
   "tags": [
     "#- manual",
-    "#+ rwd"
+    "#+ rwd",
+    "#! 2.9L & V8"
   ],
   "class": "street",
   "specs": {

@@ -4,7 +4,8 @@
   "description": "RSS GT Ferruccio v12 by Race Sim Studio.<br><br>* Weight includes driver.",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 6.0L & V12"
   ],
   "class": "race",
   "specs": {
@@ -190,5 +191,6 @@
   "country": "Italy",
   "author": "Race Sim Studio",
   "version": "2",
-  "url": "http://www.racesimstudio.com/"
+  "url": "http://www.racesimstudio.com/",
+  "year": 2003
 }

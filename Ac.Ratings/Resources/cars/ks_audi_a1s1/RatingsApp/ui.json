@@ -8,7 +8,7 @@
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_a1s1",
   "specs": {
     "convertedPower": "170kW/231hp",
-    "isManufacturerData": true,
+    "isManufacturerData": false,
     "normalizedAcceleration": "5.8s",
     "normalizedTorque": "370 Nm",
     "normalizedTopSpeed": "241 km/h",

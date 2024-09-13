@@ -8,7 +8,7 @@
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r8_lms",
   "specs": {
     "convertedPower": "419kW/570hp",
-    "isManufacturerData": true,
+    "isManufacturerData": false,
     "normalizedAcceleration": "-",
     "normalizedTorque": "500+ Nm",
     "normalizedTopSpeed": "-",

@@ -4,7 +4,8 @@
   "description": "1975. The year of the 312 T, where the T stood for the transversal gearbox, in a 90-degree angle to the engine. This solution led to a compact engine and an improved weight distribution and a very fast and agile car, but also quite nervous and difficult to drive to the limit. <br><br>After 11 years the Scuderia regained the Drivers&#39; Title with Niki Lauda, thanks to his 5 wins, 8 places on the podium, 9 pole positions and 12 times in the points in 14 races. <br><br>The Constructors&#39; Title was won thanks to the contribution of Clay Regazzoni, who won the Italian GP. This was the end of the domination by V8s with the first V12-cylinder winning the Championship with almost 500bhp",
   "tags": [
     "#+ rwd",
-    "#- manual"
+    "#- manual",
+    "#! 3.0L & F12"
   ],
   "class": "race",
   "specs": {

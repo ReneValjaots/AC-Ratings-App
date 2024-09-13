@@ -8,7 +8,7 @@
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e30_drift",
   "specs": {
     "convertedPower": "252kW/343hp",
-    "isManufacturerData": true,
+    "isManufacturerData": false,
     "normalizedAcceleration": "5.3s",
     "normalizedTorque": "365 Nm",
     "normalizedTopSpeed": "250+ km/h",

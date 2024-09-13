@@ -3,7 +3,8 @@
   "brand": "Dodge",
   "description": "ARC TA2 class rules specify a tubular chassis, and a Dagger TA2. The minimum base weight (including driver and any driver gear) for all cars is 2,830 pounds. The costs of shock absorbers, brake calipers &amp; pads, and wheels are controlled, and no titanium or carbon fiber components are allowed. Only the driver&#39;s seat and Derhaag single plane rear wing may be constructed using carbon fiber. TA2 is currently ARC&#39;s most popular class among competitors.<br><br>TA2 engines are similar to TA engines, except that they must be supplied by an ARC Approved and Certified Engine Builder/Rebuilder, and use fuel injection rather than a carburetor, as well as an ARC certified inlet restrictor plate, as maximum power is limited to 490 HP and 447 lb-ft of torque. Engines must comply with all TA2 engine regulations, and are sealed by the builder/rebuilder. As per current rules, &quot;Nothing may direct or force air to the filter or housing.&quot; Transmissions must be commercially available, &quot;H pattern&quot; manual units with four forward gear ratios (1:1 fourth gear ratio, and no overdrive) and a reverse gear. Sequential shift mechanisms are not allowed, nor are shift-without-lift mechanisms. Traction Control devices or systems that function independently of the driver are strictly prohibited, as is ABS (Anti-skid Braking System).",
   "tags": [
-    "#+ awd"
+    "#+ awd",
+    "#! 6.2L & V8"
   ],
   "class": "race",
   "specs": {

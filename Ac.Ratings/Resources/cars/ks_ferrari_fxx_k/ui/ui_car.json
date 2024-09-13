@@ -4,7 +4,8 @@
   "description": "The FXX K is the R&amp;D program of Ferrari starring the first hybrid prototype of Maranello.<br><br>In the name, the initials K recalls the &quot;KERS&quot; technology (kinetic energy recovery) for maximizing performance on the track. <br>Free from homologations and regulations, the FXX K has been developed with no compromise and is equipped with technological innovations that guarantee an unbelievable driving experience.<br><br>The FXX K features 1050hp (860hp by V12 heat engine, 190hp by electric engine) and a torque above 900Nm. Its 6262cc V12 engine has been optimized for performance and is managable through a 4 positions &quot;manettino&quot;: Qualify, Long Run, Manual Boost, Fast Charge.",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 6.3L & V12"
   ],
   "class": "race",
   "specs": {

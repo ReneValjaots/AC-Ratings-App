@@ -8,7 +8,7 @@
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_abarth_595ss_s2",
   "specs": {
     "convertedPower": "48kW/65hp",
-    "isManufacturerData": true,
+    "isManufacturerData": false,
     "normalizedAcceleration": "-",
     "normalizedTorque": "80 Nm",
     "normalizedTopSpeed": "-",

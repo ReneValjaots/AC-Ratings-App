@@ -3,6 +3,7 @@ using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using Ac.Ratings.Model;
 using Ac.Ratings.Services;
@@ -34,7 +35,6 @@ namespace Ac.Ratings {
                 DisplayCarStats(selectedCar);
                 DisplayCarRatings(selectedCar);
                 UpdateAverageRating();
-                DisplayWarningIcon(selectedCar.Specs.IsManufacturerData);
             }
         }
 
@@ -104,40 +104,59 @@ namespace Ac.Ratings {
             }
         }
 
-        private void PopulateSkinGrid(string[] skinDirectories) {
+        private async void PopulateSkinGrid(string[] skinDirectories) {
             SkinGrid.Children.Clear();
             SkinGrid.RowDefinitions.Clear();
             SkinGrid.ColumnDefinitions.Clear();
 
             const int boxSize = 35;
-            const int boxesPerRow = 25;
+            const int boxesPerRow = 31;
             const int marginSize = 1;
 
             for (int i = 0; i < boxesPerRow; i++) {
                 SkinGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(boxSize + marginSize) });
             }
 
-            for (int i = 0; i < skinDirectories.Length; i++) {
-                if (i % boxesPerRow == 0) {
-                    SkinGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(boxSize + marginSize) });
-                }
+            int totalRows = (int)Math.Ceiling((double)skinDirectories.Length / boxesPerRow);
+            for (int i = 0; i < totalRows; i++) {
+                SkinGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(boxSize + marginSize) });
+            }
 
+            for (int i = 0; i < skinDirectories.Length; i++) {
                 var previewFilePath = Path.Combine(skinDirectories[i], "preview.jpg");
                 var liveryFilePath = Path.Combine(skinDirectories[i], "livery.png");
 
+                // Load the file paths on a background thread
                 if (File.Exists(previewFilePath) && File.Exists(liveryFilePath)) {
-                    var image = new Image {
+                    var liveryUri = new Uri(liveryFilePath, UriKind.Absolute);
+
+                    // Load image in the background
+                    var bitmapImage = await Task.Run(() => {
+                        var image = new BitmapImage();
+                        image.BeginInit();
+                        image.UriSource = liveryUri;
+                        image.CacheOption = BitmapCacheOption.OnLoad;
+                        image.EndInit();
+                        image.Freeze(); // Freezes the image to be safely used across threads
+                        return image;
+                    });
+
+                    // Back to the UI thread to create and add UI components
+                    var imageControl = new Image {
                         Width = boxSize,
                         Height = boxSize,
-                        Source = new BitmapImage(new Uri(liveryFilePath, UriKind.Absolute)),
-                        Stretch = System.Windows.Media.Stretch.UniformToFill,
+                        Source = bitmapImage,
+                        Stretch = Stretch.UniformToFill,
                     };
 
-                    image.MouseLeftButtonDown += (s, e) => SkinBox_Clicked(previewFilePath);
+                    imageControl.MouseLeftButtonDown += (s, e) => SkinBox_Clicked(previewFilePath);
 
-                    Grid.SetRow(image, i / boxesPerRow);
-                    Grid.SetColumn(image, i % boxesPerRow);
-                    SkinGrid.Children.Add(image);
+                    // Ensure this part runs on the UI thread
+                    Dispatcher.Invoke(() => {
+                        Grid.SetRow(imageControl, i / boxesPerRow);
+                        Grid.SetColumn(imageControl, i % boxesPerRow);
+                        SkinGrid.Children.Add(imageControl);
+                    });
                 }
             }
         }
@@ -261,10 +280,6 @@ namespace Ac.Ratings {
                 CarList.Visibility = Visibility.Visible;
                 SearchBox.Visibility = Visibility.Visible;
             }
-        }
-
-        private void DisplayWarningIcon(bool isManufacturerData) {
-            WarningIcon.Visibility = isManufacturerData ? Visibility.Collapsed : Visibility.Visible;
         }
 
         private string ShowCarDriveTrain(Car selectedCar) {
@@ -524,6 +539,13 @@ namespace Ac.Ratings {
             catch (Exception ex) {
                 MessageBox.Show($"Error creating backup: {ex.Message}", "Backup Error", MessageBoxButton.OK,
                     MessageBoxImage.Error);
+            }
+        }
+
+        private void MainWindow_PreviewKeyDown(object sender, KeyEventArgs e) {
+            if (e.Key == Key.S && (Keyboard.Modifiers & ModifierKeys.Control) == ModifierKeys.Control) {
+                SaveRatings();
+                e.Handled = true;
             }
         }
     }

@@ -97,7 +97,7 @@
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_abarth500_assetto_corse",
     "specs": {
       "convertedPower": "140kW/190hp",
-      "isManufacturerData": true,
+      "isManufacturerData": false,
       "normalizedAcceleration": "<7.0s",
       "normalizedTorque": "302 Nm",
       "normalizedTopSpeed": "225 km/h",
@@ -141,7 +141,7 @@
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\abarth500",
     "specs": {
       "convertedPower": "118kW/160hp",
-      "isManufacturerData": true,
+      "isManufacturerData": false,
       "normalizedAcceleration": "7.4s",
       "normalizedTorque": "230 Nm",
       "normalizedTopSpeed": "211 km/h",
@@ -185,7 +185,7 @@
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\abarth500_s1",
     "specs": {
       "convertedPower": "129kW/175hp",
-      "isManufacturerData": true,
+      "isManufacturerData": false,
       "normalizedAcceleration": "7.4s",
       "normalizedTorque": "245 Nm",
       "normalizedTopSpeed": "211 km/h",
@@ -228,8 +228,8 @@
     "folderName": "ks_abarth_595ss",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_abarth_595ss",
     "specs": {
-      "convertedPower": "24kW/32hp",
-      "isManufacturerData": true,
+      "convertedPower": "24kW/33hp",
+      "isManufacturerData": false,
       "normalizedAcceleration": "25.8s",
       "normalizedTorque": "44 Nm",
       "normalizedTopSpeed": "124 km/h",
@@ -272,8 +272,8 @@
     "folderName": "ks_abarth_595ss_s1",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_abarth_595ss_s1",
     "specs": {
-      "convertedPower": "24kW/32hp",
-      "isManufacturerData": true,
+      "convertedPower": "24kW/33hp",
+      "isManufacturerData": false,
       "normalizedAcceleration": "24.7s",
       "normalizedTorque": "44 Nm",
       "normalizedTopSpeed": "130 km/h",
@@ -317,7 +317,7 @@
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_abarth_595ss_s2",
     "specs": {
       "convertedPower": "48kW/65hp",
-      "isManufacturerData": true,
+      "isManufacturerData": false,
       "normalizedAcceleration": "-",
       "normalizedTorque": "80 Nm",
       "normalizedTopSpeed": "-",
@@ -404,7 +404,7 @@
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_alfa_romeo_155_v6",
     "specs": {
       "convertedPower": "309kW/420hp",
-      "isManufacturerData": true,
+      "isManufacturerData": false,
       "normalizedAcceleration": "2.5s",
       "normalizedTorque": "294 Nm",
       "normalizedTopSpeed": "280+ km/h",
@@ -448,7 +448,7 @@
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_alfa_33_stradale",
     "specs": {
       "convertedPower": "169kW/230hp",
-      "isManufacturerData": true,
+      "isManufacturerData": false,
       "normalizedAcceleration": "-",
       "normalizedTorque": "206 Nm",
       "normalizedTopSpeed": "260 km/h",
@@ -797,8 +797,8 @@
     "folderName": "ks_audi_r18_etron_quattro",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r18_etron_quattro",
     "specs": {
-      "convertedPower": "580kW/700hp",
-      "isManufacturerData": true,
+      "convertedPower": "580kW/789hp",
+      "isManufacturerData": false,
       "normalizedAcceleration": "2.7s",
       "normalizedTorque": "850+ Nm",
       "normalizedTopSpeed": "330 km/h",
@@ -973,7 +973,7 @@
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r8_lms",
     "specs": {
       "convertedPower": "419kW/570hp",
-      "isManufacturerData": true,
+      "isManufacturerData": false,
       "normalizedAcceleration": "-",
       "normalizedTorque": "500+ Nm",
       "normalizedTopSpeed": "-",
@@ -1016,8 +1016,8 @@
     "folderName": "ks_audi_r8_plus",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r8_plus",
     "specs": {
-      "convertedPower": "404kW/550hp",
-      "isManufacturerData": true,
+      "convertedPower": "404kW/549hp",
+      "isManufacturerData": false,
       "normalizedAcceleration": "3.5s",
       "normalizedTorque": "540 Nm",
       "normalizedTopSpeed": "317 km/h",
@@ -1103,7 +1103,7 @@
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_a1s1",
     "specs": {
       "convertedPower": "170kW/231hp",
-      "isManufacturerData": true,
+      "isManufacturerData": false,
       "normalizedAcceleration": "5.8s",
       "normalizedTorque": "370 Nm",
       "normalizedTopSpeed": "241 km/h",
@@ -1146,7 +1146,7 @@
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_sport_quattro",
     "specs": {
       "convertedPower": "225kW/306hp",
-      "isManufacturerData": true,
+      "isManufacturerData": false,
       "normalizedAcceleration": "4.7s",
       "normalizedTorque": "350 Nm",
       "normalizedTopSpeed": "250 km/h",
@@ -1189,8 +1189,8 @@
     "folderName": "ks_audi_sport_quattro_rally",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_sport_quattro_rally",
     "specs": {
-      "convertedPower": "440kW/595hp",
-      "isManufacturerData": true,
+      "convertedPower": "440kW/598hp",
+      "isManufacturerData": false,
       "normalizedAcceleration": "3.1s",
       "normalizedTorque": "590 Nm",
       "normalizedTopSpeed": "250+ km/h",
@@ -1234,7 +1234,7 @@
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_sport_quattro_s1",
     "specs": {
       "convertedPower": "274kW/373hp",
-      "isManufacturerData": true,
+      "isManufacturerData": false,
       "normalizedAcceleration": "4.5s",
       "normalizedTorque": "425 Nm",
       "normalizedTopSpeed": "272 km/h",
@@ -1278,7 +1278,7 @@
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_tt_cup",
     "specs": {
       "convertedPower": "228kW/310hp",
-      "isManufacturerData": true,
+      "isManufacturerData": false,
       "normalizedAcceleration": "4.5s",
       "normalizedTorque": "400+ Nm",
       "normalizedTopSpeed": "239 km/h",
@@ -1321,8 +1321,8 @@
     "folderName": "ks_audi_tt_vln",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_tt_vln",
     "specs": {
-      "convertedPower": "280kW/380hp",
-      "isManufacturerData": true,
+      "convertedPower": "280kW/381hp",
+      "isManufacturerData": false,
       "normalizedAcceleration": "-",
       "normalizedTorque": "530 Nm",
       "normalizedTopSpeed": "-",
@@ -1552,7 +1552,7 @@
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_1m",
     "specs": {
       "convertedPower": "250kW/340hp",
-      "isManufacturerData": true,
+      "isManufacturerData": false,
       "normalizedAcceleration": "4.9s",
       "normalizedTorque": "500 Nm",
       "normalizedTopSpeed": "250+ km/h",
@@ -1684,7 +1684,7 @@
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_bmw_m235i_racing",
     "specs": {
       "convertedPower": "245kW/333hp",
-      "isManufacturerData": true,
+      "isManufacturerData": false,
       "normalizedAcceleration": "-",
       "normalizedTorque": "500 Nm",
       "normalizedTopSpeed": "250+ km/h",
@@ -1728,7 +1728,7 @@
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e30",
     "specs": {
       "convertedPower": "175kW/238hp",
-      "isManufacturerData": true,
+      "isManufacturerData": false,
       "normalizedAcceleration": "7.4s",
       "normalizedTorque": "240 Nm",
       "normalizedTopSpeed": "248 km/h",
@@ -1772,7 +1772,7 @@
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e30_drift",
     "specs": {
       "convertedPower": "252kW/343hp",
-      "isManufacturerData": true,
+      "isManufacturerData": false,
       "normalizedAcceleration": "5.3s",
       "normalizedTorque": "365 Nm",
       "normalizedTopSpeed": "250+ km/h",
@@ -1904,7 +1904,7 @@
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e30_s1",
     "specs": {
       "convertedPower": "175kW/238hp",
-      "isManufacturerData": true,
+      "isManufacturerData": false,
       "normalizedAcceleration": "7.4s",
       "normalizedTorque": "240 Nm",
       "normalizedTopSpeed": "248 km/h",

@@ -3,7 +3,8 @@
   "brand": "Ferrari",
   "description": "The 512 TR was the evolution of the Testarossa and production started in 1991. The interior was redesigned to increase comfort and ergonomics and the exterior facelift was designed to improve aerodynamics.<br><br>The 12-cylinder boxer was subject to a series of modifications, one of which was to lower the chassis to lower the car’s centre of gravity and thus improve road-holding and reduce the roll axis. Power was upped by 38 bhp and the 12-cylinder’s already generous torque was also increased.",
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 4.9L & F12"
   ],
   "class": "street",
   "specs": {

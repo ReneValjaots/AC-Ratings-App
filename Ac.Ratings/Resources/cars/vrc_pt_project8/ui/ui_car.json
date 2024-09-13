@@ -3,7 +3,8 @@
   "brand": "Bentley",
   "description": "VRC - Prototype Series - Bradley Project 8.<br><br>The &quot;Bradley Project 8&quot; (developed from the &quot;Bradley EXP Project 8&quot;) was an Autosport Award Winning 24 Heures Race Prototype race car. The EXP Project 8 debuted in the 24 Heures race in 2001 and won the race in 2003. The EXP Project 8 marked Bradley&#39;s return to racing after a 73-year absence.<br><br>This mod is kindly sponsored by NEXT LEVEL RACING. www.nextlevelracing.com",
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 4.0L & V8"
   ],
   "class": "race",
   "specs": {

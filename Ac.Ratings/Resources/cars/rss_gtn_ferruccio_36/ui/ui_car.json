@@ -6,7 +6,8 @@
   "description": "RSS GT-N Ferruccio 36 V8 by Race Sim Studio.<br><br>* Weight includes driver.",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 3.6L & V8"
   ],
   "torqueCurve": [
     [

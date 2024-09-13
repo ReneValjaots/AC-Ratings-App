@@ -3,7 +3,8 @@
   "brand": "BMW",
   "description": "The Beamer V12 LMR is a Prototype built for sports car racing from 1999 to 2000. The car was built through an alliance between Beamer Motorsport and a Formula Alpha team, and was the successor to the failed Beamer V12 LM of 1998. It is famous for earning Beamer its only overall victory to date at the 24 Hours Race.<br><br>This mod is kindly sponsored by NEXT LEVEL RACING. www.nextlevelracing.com",
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 6.1L & V12"
   ],
   "class": "race",
   "specs": {

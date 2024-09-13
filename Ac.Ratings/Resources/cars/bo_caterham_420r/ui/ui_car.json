@@ -1,15 +1,13 @@
 {
-  "name": "Caterham 420R 2020",
+  "name": "Caterham 420R",
   "brand": "Caterham",
   "description": "The &quot;Caterham Seven Championship UK&quot; is the only nationally recognised top-tier Caterham racing series in Britain.<br><br>Caterham has a well-established history when it comes to racing, we’ve been at it since day one – so naturally it’s one of the most competitive and exciting competitions going. To keep the playing field level, every car on the grid is identical, and the car is question is specifically designed for the competition.<br><br>A 180bhp 2.0 Caterham Motorsport Tuned Engine, paired to a six-speed sequential gearbox, is nestled within the bespoke racing chassis. One seat, no lights, this thing means business. Unlike other national racing series, this is pretty much out-of-the-box competition, meaning the season is included with the cost of the car, and there is no need for expensive testing and set ups. It’s all down to the skill of the driver.<br><br>More at :<br>https://www.caterhamcars.com/en/motorsport/seven-championship-uk",
   "tags": [
     "rwd",
     "lightweight",
-    "trackday",
-    "great britain",
     "sequential",
-    "caterham motorsport",
-    "race"
+    "race",
+    "#! 2.0L & I4"
   ],
   "class": "race",
   "specs": {
@@ -265,7 +263,7 @@
     ]
   ],
   "country": "Great Britain",
-  "author": "Ben O'Bro & JackCY",
+  "author": "Ben O'Bro",
   "version": "1.5",
   "url": null,
   "year": 2020

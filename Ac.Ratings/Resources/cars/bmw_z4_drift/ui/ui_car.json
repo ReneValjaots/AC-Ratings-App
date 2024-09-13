@@ -5,7 +5,8 @@
   "description": "The Drift tuned version of Z4 E89 35is series has adjustable aftermarket dampers with coilover springs, camber plates to adjust for massive range of camber at the front, and rear toe links for equally big range of camber adjustment at the rear. The front steering rods are also modify to permits very wide angles for steering up to 55 degrees. The engine is tuned with a new ECU that raises the turbo boost at over 1bar and a locked rear differential is installed to help those rear tyres spinning together. A slight weight reduction has also been achieved.<br><br>The BMW Z4 Roadster represents the interplay of classical proportions and state-of-the-art technology. The  BMW Z4 sDrive35is offering a higher standard of performance ensured both by the modified straight-six power unit with BMW Twin Turbo Technology and High Precision Injection, on the one hand, and by BMW&#39;s seven-speed Sport Automatic with double clutch operation and the M Sports Package including the adaptive M Suspension likewise featured as standard, on the other.<br><br>The BMW Z4 sDrive35is also comes as standard with an M Sports Package including the M Aerodynamics Package and adaptive M Suspension featuring electronically controlled dampers for even greater agility without making any concessions in terms of comfort.",
   "tags": [
     "#+ rwd",
-    "#- semiautomatic"
+    "#- semiautomatic",
+    "#! 3.0L & I6"
   ],
   "class": "Drift",
   "specs": {

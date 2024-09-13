@@ -3,7 +3,8 @@
   "brand": "Chevrolet",
   "description": "American Racing Championship - Chevrette 28<br><br>The American Racing Championship series was founded in 1969. Racing began in 1971, and was originally aimed at two stock car categories, running two classes each; the GT (Groups 3 and 4) and touring (Group 1 and 2) classes. The first race was held at Virginia  Raceway; it was an unexpected success, with both the drivers and the handful of spectators who attended.",
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 5.9L & V8"
   ],
   "class": "race",
   "specs": {

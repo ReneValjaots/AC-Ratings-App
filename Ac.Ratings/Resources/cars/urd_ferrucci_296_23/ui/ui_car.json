@@ -4,7 +4,8 @@
   "description": "Ferrucci 296 2023  by United Racing Design<br>Tyre info<br>Optimal pressure: 26psi/1.8bar<br>Optimal temp range: 80-95C",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 3.0L & V6"
   ],
   "class": "GT3",
   "specs": {

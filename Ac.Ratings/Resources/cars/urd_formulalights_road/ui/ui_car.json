@@ -4,7 +4,8 @@
   "description": "Indy Lights Presented by Cooper Tires is an American developmental automobile racing series sanctioned by IndyCar. The series ran from 1986 to 2001 as part of CART, first as the American Racing Series then as the Dayton Indy Lights. The IndyCar sanctioned series was founded in 2002 as the Infiniti Pro Series with the moniker Indy Lights returning in 2008 when CART and IndyCar unified.",
   "tags": [
     "#- sequential",
-    "#+ rwd"
+    "#+ rwd",
+    "#! 2.0L & I4"
   ],
   "class": "indy light",
   "specs": {

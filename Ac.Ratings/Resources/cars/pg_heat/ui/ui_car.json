@@ -6,7 +6,8 @@
   "description": "The Heat Mk1 is a creation of Dan Gurney, an american driver with car-maker aspirations.<br>His main target was to be the first american driver to hear the U.S.A. in the Formula 1 championship (the first doing such a thing, to be fair, was Jimmy Murphy in GP of France in 1921 but at that time it wasn’t yet an official F1 world championship in which this exists only from 1950).<br>He built his car in 1966 and the day finally came in Belgium GP of Spa-Francorchamps 1967 when he won the GP with his stars and stripes car.<br>Besides these results, he also placed the best lap and he became the second winning driver/car-maker with his own car (before him just Jack Brabham got it and after him was Bruce McLaren).<br>Unfortunately, this will remain the only victory for Dan in F1 in which a sequence of misfortune, lack of experience, and money forced him to retire from the championship just at the start of 1969 season.<br>The Heat Mk1 with its latest british V12 3 liters engine has however been the fastest car in 1967 season with a maximum of 320 km/h during Belgium GP.",
   "tags": [
     "#- manual",
-    "#+ rwd"
+    "#+ rwd",
+    "#! 3.0L & V12"
   ],
   "torqueCurve": [
     [

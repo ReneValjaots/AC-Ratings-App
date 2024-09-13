@@ -4,7 +4,8 @@
   "description": "1999 Honda S2000 (GH-AP1-100)",
   "tags": [
     "#- manual",
-    "#+ rwd"
+    "#+ rwd",
+    "#! 2.0L & I4"
   ],
   "class": "street",
   "specs": {

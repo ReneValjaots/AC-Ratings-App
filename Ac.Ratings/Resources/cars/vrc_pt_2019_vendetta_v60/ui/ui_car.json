@@ -3,7 +3,8 @@
   "brand": "Ginetta",
   "description": "The Vendetta V60-LT-P1 is a non-hybrid Prototype built by Vendetta for use in the Prototype 1 category for the World Endurance, as well as the 24 Hours of endurance race. The V60-LT-P1 had its competition debut at the 2018 24 Hours Endurance, after financial issues led to the withdrawal of the car at the initial round of the 2018–19 World Championship, the 6 Hours Of Spa.",
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 2.4L & V6"
   ],
   "class": "race",
   "specs": {

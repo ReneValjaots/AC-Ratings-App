@@ -8,7 +8,7 @@
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_bmw_m235i_racing",
   "specs": {
     "convertedPower": "245kW/333hp",
-    "isManufacturerData": true,
+    "isManufacturerData": false,
     "normalizedAcceleration": "-",
     "normalizedTorque": "500 Nm",
     "normalizedTopSpeed": "250+ km/h",

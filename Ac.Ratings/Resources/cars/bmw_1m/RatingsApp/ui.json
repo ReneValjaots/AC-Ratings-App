@@ -8,7 +8,7 @@
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_1m",
   "specs": {
     "convertedPower": "250kW/340hp",
-    "isManufacturerData": true,
+    "isManufacturerData": false,
     "normalizedAcceleration": "4.9s",
     "normalizedTorque": "500 Nm",
     "normalizedTopSpeed": "250+ km/h",

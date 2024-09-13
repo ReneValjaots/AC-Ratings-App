@@ -3,7 +3,8 @@
   "brand": "ByKolles Racing",
   "description": "The ByCollin P1, is a sports prototype racing car built for the Austrian and Romanian based team ByCollin. It is designed to meet the 2014 Prototype regulations for the Endurance Championship as well as at the 24 Hours race. The P1 debuted at the 2014 6 Hours of Track of the Americas, round four of the Endurance Championship.",
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 4.5L & V8"
   ],
   "class": "race",
   "specs": {

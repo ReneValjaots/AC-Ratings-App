@@ -8,7 +8,7 @@
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bmw_m3_e30_s1",
   "specs": {
     "convertedPower": "175kW/238hp",
-    "isManufacturerData": true,
+    "isManufacturerData": false,
     "normalizedAcceleration": "7.4s",
     "normalizedTorque": "240 Nm",
     "normalizedTopSpeed": "248 km/h",

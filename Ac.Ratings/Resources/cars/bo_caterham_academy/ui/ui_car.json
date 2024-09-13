@@ -1,10 +1,11 @@
 {
-  "name": "Caterham Academy 2020",
+  "name": "Caterham Academy",
   "brand": "Caterham",
   "description": "The Caterham Academy is a unique series exclusively for novice drivers. An all-inclusive ‘introduction to motorsport’ package, it includes a Ford Sigma powered road-legal race car, race licence, technical support, the racing itself and perhaps most importantly, the guidance of the Caterham team at every stage.<br><br>The 125bhp car uses an open differential, 5-speed gearbox and low-grip tyres to ‘teach’ car control. All 2020 Caterham Academy positions have long since sold out, and positions for the 2021 Academy grid are already being filling. Caterham’s Academy series is so popular its sold out every year since it’s inception in 1995, with 2017 marking a true milestone for the series- Caterham’s 1000th novice driver. Today Caterham Academy builds on its history of long-standing success and is considered one of Europes most successful novice driver series.<br><br>More at :<br>https://www.caterhamcars.com/en/motorsport/academy",
   "tags": [
     "#- manual",
-    "#+ rwd"
+    "#+ rwd",
+    "#! 1.6L & I4"
   ],
   "class": "race",
   "specs": {

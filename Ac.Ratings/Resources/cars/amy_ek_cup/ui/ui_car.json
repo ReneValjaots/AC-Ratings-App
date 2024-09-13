@@ -4,7 +4,8 @@
   "description": "EK chassis based racecar originally made for TKE&#39;s Civic Championship, now with license plates!<br><br>WARNING: dangerously high volume, adjust to avoid death.<br><br>my only request to you is: have as much fun as you can driving this, enjoy.<br><br>credits:<br>- model: polyphony digital (car and wheels models), LossTunes (plates + gauges), ian cw (wheels mapping), Amy (modelled parts)<br>- textures:  Kaiser (plates documentation and .psd file), Amy/Linglong tires (new plates .psd based off kaiser&#39;s), Kunos, Oto-san (paints)<br>- extension: Amy/Linglong tires, the whole community for tutorials and explanations, Trappu-chan (PBR)<br>- physics: Amy/Linglong tires, Giuseppe Abagnale (suspension geometry)<br>- sound: Dian Smit<br><br>Usernames i am known as: Seb, Amy, Amylmyra",
   "tags": [
     "#- manual",
-    "#+ fwd"
+    "#+ fwd",
+    "#! 1.6L & I4"
   ],
   "class": "street",
   "specs": {

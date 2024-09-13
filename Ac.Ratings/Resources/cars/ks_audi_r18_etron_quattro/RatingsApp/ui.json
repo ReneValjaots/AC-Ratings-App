@@ -7,8 +7,8 @@
   "folderName": "ks_audi_r18_etron_quattro",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r18_etron_quattro",
   "specs": {
-    "convertedPower": "580kW/700hp",
-    "isManufacturerData": true,
+    "convertedPower": "580kW/789hp",
+    "isManufacturerData": false,
     "normalizedAcceleration": "2.7s",
     "normalizedTorque": "850+ Nm",
     "normalizedTopSpeed": "330 km/h",

@@ -3,7 +3,8 @@
   "brand": "Ferrari",
   "description": "LMP Ferruccio 33 V12 by Race Sim Studio.<br><br>* Weight includes driver. TC &amp; ABS included for driver accessibility. <br><br>One of the finest sounding naturally aspirated 4.0L V12 engines to grace the prototype category produced a multi-category winning machine spanning a decade of racing. This is one for the history books. <br><br>Version 2.",
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 4.0L & V12"
   ],
   "class": "race",
   "specs": {

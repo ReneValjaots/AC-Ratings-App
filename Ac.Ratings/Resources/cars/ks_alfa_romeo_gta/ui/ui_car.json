@@ -4,7 +4,8 @@
   "description": "Autodelta, Alfa Romeo&#39;s racing division directed by Carlo Chiti, developed a car for competition that closely resembled the roadgoing Giulia. The cars were named GTA instead of GT, A standing for Alleggerita, italian for lightweight.  <br><br>The GTA had aluminium outer body panels instead of steel, magnesium allow wheels, clear plastic side windows and various other lightweight parts, bringing down the dry weight to about 750kg. The engine had extensive modifications and upgrades, delivering up to 170bhp in race trim.<br><br>Five hundred cars were made for homologation purposes and the cars were very successful, obtaining numerous victories and the title in 1966 with Andrea de Adamich. Different evolutions of the car would go ahead and also win the 1970 championship as well as many races up in the early 70s.",
   "tags": [
     "#+ rwd",
-    "#- manual"
+    "#- manual",
+    "#! 1.6L & I4"
   ],
   "class": "race",
   "specs": {

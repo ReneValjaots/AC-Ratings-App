@@ -4,7 +4,8 @@
   "description": "The Corvette Daytona Prototype, which was launched in 2011 to compete in GRAND-AM&#39;s Daytona Prototype category.  The body was designed at the same time as the Coyote chassis, but is also able to use the Riley and Dallara chassis.<br><br>With a tight timeline, Chevrolet collaborated with GRAND-AM and Pratt &amp; Miller design to design and complete the car in under 8 months, prepared for the 2012 season.<br><br>In 2014, the Daytona Prototype category ceased to exist, and was absorbed by the new Tudor United Sportscar Championship&#39;s Prototype class.  This is the 2014 car, balanced to perform against the former ACO-spec LMP2 cars.",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 5.5L & V8"
   ],
   "class": "Prototype",
   "specs": {

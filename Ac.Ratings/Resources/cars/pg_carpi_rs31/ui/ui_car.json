@@ -6,7 +6,8 @@
   "description": "Born to compete in the 5000cc class of the FIA Gr. 2, the Carpi was very successful in the mid-seventies. In that period, it was one of the two main players on the race tracks of all the world.<br>Such was the challenge with the other one player that, at the end of the year, the absolute winner title was won by a lower class competitor. Nevertheless, the Carpi entered the legend and there are very few people that don&#39;t know about its existence.<br>It was powered by a V6 engine delivering more than 420 bhp of power @ 8500 RPMs at the rear solid axle. The solid axle suspension gave this car a very predictable and stable behavior resulting in noticeable understeer also due to the quite front biased weight distribution.",
   "tags": [
     "#+ rwd",
-    "#- manual"
+    "#- manual",
+    "#! 3.1L & V6"
   ],
   "torqueCurve": [
     [

@@ -4,7 +4,8 @@
   "description": "GT-M Akuro V6 Evo2 by Race Sim Studio.<br><br>*Weight includes the driver.<br><br>Verion 2.",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 3.5L & V6"
   ],
   "class": "GT3",
   "specs": {

@@ -4,7 +4,8 @@
   "description": "The BMW M3 Race Version. Sportiness personified.<br>In the course of developing the race version of the BMW M3, BMW engineers were faced with an ambitious task: to improve upon the sportiness of an already sporting car. A better base would, though, be difficult to find. In standard form the vehicle delivers powerful dynamics and sporting aesthetics.<br><br>In order to enable the BMW M3 to make full use of this performance on the race circuit, the experts in Munich have not concentrated solely on the engine, but have race-tuned the chassis as well. The race version of the BMW M3 is wider and significantly lighter than its production equivalent, enabling it to perfectly transmit the power of its V8 to the track. Widespread use of carbon-reinforced plastic (CRP) provides proof of substantial weight reduction. As with the production version, the race car&#39;s roof is manufactured from this high-tech material.<br><br>The race version of the BMW M3 is clearly aimed at the top echelon of motorsport. As such, it is no surprise to discover that in the course of its development, begun in mid-2007, numerous Formula One techniques were applied. These include computational fluid dynamics (CFD) and wind tunnel analyses, both of which have ensured the best possible aerodynamic package for the BMW M3.",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 4.0L & V8"
   ],
   "class": "race",
   "specs": {

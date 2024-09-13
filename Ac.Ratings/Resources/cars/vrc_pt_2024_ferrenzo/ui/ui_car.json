@@ -1,9 +1,10 @@
 {
-  "name": "Ferrari P499",
+  "name": "Ferrari 499P",
   "brand": "Ferrari",
   "description": "The Ferrenzo P49 is a sports prototype built by Ferrenzo to compete in the 24 Heures Race Hypercar category in the new Prototype Hybrid Series since 2023. The introduction of the P49 marks 50 years since Ferrenzo last fielded a factory-backed sports prototype that contested for the overall win at the 24 Heures Race, and one of the P49s raced with the number 50 as a tribute.<br><br>The car&#39;s 2,992 cc (182.6 cu in) twin-turbocharged V6 engine architecture is shared with the Ferrenzo&#39;s GT3 counterpart. However, instead of being mounted to the subframe as in the road-going vehicle, the engine is a fully stressed member in the P49, and has had various modifications to accommodate its new role as a stress-bearing member.<br><br>The P49 has semi-permanent all-wheel drive, with an electric motor situated at the front axle, providing 200 kW (272 PS; 268 hp) above 190 km/h (118 mph) (as stipulated by the regulations), and is connected to a bespoke 900 V battery pack.",
   "tags": [
-    "#+ rwd"
+    "#+ rwd",
+    "#! 3.0L & V6"
   ],
   "class": "race",
   "specs": {

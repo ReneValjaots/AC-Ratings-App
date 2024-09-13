@@ -8,22 +8,25 @@ namespace Ac.Ratings.Services {
 
         public PowerConverter(string power) {
             var powerValue = power.Replace(" ", "").ToLower();
-            IsManufacturerData = IsExpectedPowerFormat(powerValue);
-            ConvertedPower = IsManufacturerData ? power : ConvertPowerString(powerValue);
+            ConvertedPower = ConvertPowerString(powerValue);
             Hp = GetHorsePower(powerValue);
-        }
-
-        private bool IsExpectedPowerFormat(string powerValue) {
-            return Regex.IsMatch(powerValue, @"^\d+kw/\d+hp$") || Regex.IsMatch(powerValue, @"^\d+kw$");
         }
 
         private string ConvertPowerString(string powerValue) {
             var matchHp = Regex.Match(powerValue, @"^(\d+)\+?(bhp|hp)$");
+            var matchKw = Regex.Match(powerValue, @"^(\d+)\+?kw");
             var matchCv = Regex.Match(powerValue, @"^(\d+)\+?cv$");
             var matchPs = Regex.Match(powerValue, @"^(\d+)\+?ps$");
+
             if (matchHp.Success) {
                 var hp = int.Parse(matchHp.Groups[1].Value);
                 var kw = (int)Math.Round(hp / 1.36);
+                return $"{kw}kW/{hp}hp";
+            }
+
+            if (matchKw.Success) {
+                var kw = int.Parse(matchKw.Groups[1].Value);
+                var hp = (int)Math.Round(kw * 1.36);
                 return $"{kw}kW/{hp}hp";
             }
 

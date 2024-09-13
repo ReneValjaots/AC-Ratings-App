@@ -4,7 +4,8 @@
   "description": "The 458 garnered a plethora of victories in its first two racing seasons: from the 24 Hours of Le Mans to the Teams and Constructors&#39; titles in the likes of the Le Mans Series, the International Le Mans Cup and the FIA World Endurance Championship. It also delivered Drivers&#39; title in the FIA GT and the GT3 Asia, Drivers&#39; and Teams&#39; titles in the International GT Open, in the Blancpain Championship and the British GT Championship.<br><br>The Ferrari 458 Italia GT2 simulated is an amazingly efficient car in terms of aerodynamics and chassis performance. Because of that, the engine is very restricted to keep the performance in balance with the other cars of the series. While the street car engine can deliver over 570bhp at 9000rpm, the race engine outputs about 100bhp less and although the limiter is at 8500, it doesn&#39;t make sense to push the engine above 7500rpm.",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 4.5L & V8"
   ],
   "class": "race",
   "specs": {

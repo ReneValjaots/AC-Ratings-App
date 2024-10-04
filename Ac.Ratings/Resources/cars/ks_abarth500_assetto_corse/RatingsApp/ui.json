@@ -14,12 +14,12 @@
     "normalizedTopSpeed": "225 km/h",
     "normalizedWeight": "930 kg",
     "normalizedPwRatio": "0.20 hp/kg",
-    "bhp": "140kW/190hp",
+    "bhp": "190bhp",
     "torque": "302Nm",
     "weight": "930kg",
     "topspeed": "225km/h",
     "acceleration": "<7s 0-100",
-    "pwratio": "6.64 kg/hp"
+    "pwratio": "4.89 kg/hp"
   },
   "tags": [
     "#! 1.4L & I4",
@@ -39,6 +39,7 @@
     "sound": 0.0,
     "visuals": 0.0,
     "funFactor": 0.0,
-    "extraFeatures": 0.0
+    "extraFeatures": 0.0,
+    "averageRating": 0.0
   }
 }

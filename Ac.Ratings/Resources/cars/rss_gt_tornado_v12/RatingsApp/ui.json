@@ -1,7 +1,7 @@
 {
   "name": "Lister Storm GT",
   "brand": "Lister",
-  "year": null,
+  "year": "2000",
   "author": "Race Sim Studio",
   "class": "race",
   "folderName": "rss_gt_tornado_v12",
@@ -23,7 +23,8 @@
   },
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 7.0L & V12"
   ],
   "data": {
     "tractionType": "RWD",
@@ -38,6 +39,7 @@
     "sound": 0.0,
     "visuals": 0.0,
     "funFactor": 0.0,
-    "extraFeatures": 0.0
+    "extraFeatures": 0.0,
+    "averageRating": 0.0
   }
 }

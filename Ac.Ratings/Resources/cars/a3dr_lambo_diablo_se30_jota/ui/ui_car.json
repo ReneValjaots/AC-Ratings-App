@@ -4,7 +4,8 @@
   "description": "Automobili Lamborghini SpA introduced their SE30 Diablo model as a limited edition, only 150 would be made, each one numbered and bearing a special plaque stating which serial number the car had ... but during the fabrication of this already very limited production run you could request an even more exclusive edition ... a Diablo SE30 with Jota upgrade. <br><br>See more at: http://www.lambocars.com/diablo/diablo_se_jota_edition.html",
   "tags": [
     "#- manual",
-    "#+ rwd"
+    "#+ rwd",
+    "#! 5.7L & V12"
   ],
   "class": "street",
   "specs": {

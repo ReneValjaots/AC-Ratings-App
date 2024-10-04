@@ -56,7 +56,6 @@ namespace Ac.Ratings {
             TopSpeedFigures.Text = selectedCar.Specs.NormalizedTopSpeed ?? string.Empty;
 
             Engine.Text = ShowCarEngineStats(selectedCar);
-            InductionSystem.Text = ShowInductionSystem(selectedCar);
             Drivetrain.Text = ShowCarDriveTrain(selectedCar);
             Gearbox.Text = ShowCarGearbox(selectedCar);
 
@@ -288,11 +287,11 @@ namespace Ac.Ratings {
 
             if (data != null) {
                 if (data.Contains("rwd", StringComparison.OrdinalIgnoreCase))
-                    return "RWD";
+                    return "Rear-wheel drive";
                 if (data.Contains("awd", StringComparison.OrdinalIgnoreCase))
-                    return "AWD";
+                    return "All-wheel drive";
                 if (data.Contains("fwd", StringComparison.OrdinalIgnoreCase))
-                    return "FWD";
+                    return "Front-wheel drive";
             }
 
             var drivetrainFromSpecificTag = tags?.FirstOrDefault(x => x.Contains("#+"))?.Replace(" ", "").ToLower().Remove(0, 2);
@@ -311,8 +310,8 @@ namespace Ac.Ratings {
                 return gearboxFromSpecificTag ?? gearboxFromRegularTags ?? string.Empty;
 
             return isManual switch {
-                true => $"{gearsCount}-speed manual",
-                false => $"{gearsCount}-speed automatic",
+                true => $"{gearsCount}-speed manual transmission",
+                false => $"{gearsCount}-speed automatic transmission",
             };
         }
 
@@ -331,6 +330,7 @@ namespace Ac.Ratings {
             var parts = data.Split('&');
 
             if (parts.Length > 0) result = GetDisplacement(result, parts[0]);
+            result = AppendInductionSystemToEngineStats(result, selectedCar);
             if (parts.Length > 1) result = GetLayout(result, parts[1]);
 
             return result.Trim();
@@ -359,16 +359,22 @@ namespace Ac.Ratings {
         private string GetDisplacement(string result, string data) {
             if (char.IsDigit(data[0])) {
                 var displacementValue = data.Replace("L", "", StringComparison.OrdinalIgnoreCase);
-                result += $"{displacementValue}-litre ";
+                result += $"{displacementValue}l ";
             }
             return result;
         }
 
-        private string ShowInductionSystem(Car car) {
+        private string AppendInductionSystemToEngineStats(string result, Car car) {
+            string inductionSystem = ShowInductionSystemForEngineStats(car);
+            result += inductionSystem + " ";
+            return result;
+        }
+
+        private string ShowInductionSystemForEngineStats(Car car) {
             return car.Data.TurboCount switch {
-                1 => "Single turbo",
-                2 => "Twin turbo",
-                _ => "Naturally aspirated"
+                1 => "turbocharged",
+                2 => "twin turbo",
+                _ => "naturally aspirated"
             };
         }
 

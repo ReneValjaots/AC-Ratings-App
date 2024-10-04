@@ -5,7 +5,8 @@
   "class": "race",
   "tags": [
     "#+ rwd",
-    "#- manual"
+    "#- manual",
+    "#! 0.8L & I4"
   ],
   "range": 79,
   "torqueCurve": [

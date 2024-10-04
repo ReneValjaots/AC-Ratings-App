@@ -1,0 +1,43 @@
+{
+  "name": "Mercedes-Benz Brabus GT600 | No Hesi Spec",
+  "brand": "Mercedes-Benz",
+  "year": "2015",
+  "author": "No Hesi, Hugo",
+  "class": "street",
+  "folderName": "nohesi_mercedes_brabus_gt600",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\nohesi_mercedes_brabus_gt600",
+  "specs": {
+    "convertedPower": "643kW/874hp",
+    "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "997 Nm",
+    "normalizedTopSpeed": "300+ km/h",
+    "normalizedWeight": "1640 kg",
+    "normalizedPwRatio": "0.53 hp/kg",
+    "bhp": "874 bhp",
+    "torque": "997 Nm",
+    "weight": "1640 kg",
+    "topspeed": "300+km/h",
+    "acceleration": "",
+    "pwratio": "1.88 kg/hp"
+  },
+  "tags": [
+    "automatic"
+  ],
+  "data": {
+    "tractionType": "RWD",
+    "gearsCount": 7,
+    "supportsShifter": false,
+    "turboCount": 2
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0,
+    "averageRating": 0.0
+  }
+}

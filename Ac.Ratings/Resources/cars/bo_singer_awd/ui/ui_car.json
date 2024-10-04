@@ -3,16 +3,16 @@
   "brand": "Porsche",
   "description": "The Ultimate Porsche Comes From California.<br><br>Singer Vehicle Design is driven by the singular vision of Rob Dickinson - an ex car designer who then became a rock musician - who now stands as one of the world’s foremost distillers of the essence of air cooled Porsches. <br><br>Restored.<br>Reimagined.<br>Reborn.<br><br>More at http://singervehicledesign.com/",
   "tags": [
-    "#- manual",
-    "#+ awd"
+    "awd",
+    "manual"
   ],
   "class": "street",
   "specs": {
     "bhp": "390bhp",
     "torque": "427Nm",
     "weight": "1284kg",
-    "topspeed": null,
-    "acceleration": null,
+    "topspeed": "- km/h",
+    "acceleration": "- s 0–100",
     "pwratio": "3.29kg/hp"
   },
   "torqueCurve": [
@@ -228,8 +228,8 @@
     ]
   ],
   "country": "USA",
-  "author": "Ben O'Bro",
-  "version": "1.2.0",
+  "author": "Ben O'Bro, Arch",
+  "version": "1.2.1",
   "url": "https://www.racedepartment.com/downloads/porsche-911-singer.29318/",
   "year": 2019,
   "parent": "bo_singer"

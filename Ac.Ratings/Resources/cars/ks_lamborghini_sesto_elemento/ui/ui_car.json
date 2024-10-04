@@ -4,7 +4,8 @@
   "description": "Automobili Lamborghini is redefining the future of super sports cars with this very limited special edition.<br>The Sesto Elemento is a masterpiece of extreme lightweight engineering that demonstrates the outstanding expertise of Automobili Lamborghini in all areas of carbon-fiber technology.<br>Boasting an extremely lightweight construction thanks to advanced carbon fiber technology, the Lamborghini Sesto Elemento has an overall curb weight of just 999 kilograms (2,202 lb) - including the V10 power unit and the permanent all-wheel drive. With its sensational power-to-weight ratio of only 1.75 kilograms per CV, this limited-edition super sports car offers unrivalled performance: from 0 to 100 km/h in a record time of only 2.5 seconds.",
   "tags": [
     "#+ awd",
-    "#- sequential"
+    "#- sequential",
+    "#! 5.2L & V10"
   ],
   "class": "street",
   "specs": {

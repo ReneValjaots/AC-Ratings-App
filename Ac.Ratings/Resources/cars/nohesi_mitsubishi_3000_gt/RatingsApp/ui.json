@@ -1,0 +1,44 @@
+{
+  "name": "Mitsubishi 3000GT | No Hesi Spec",
+  "brand": "Mitsubishi",
+  "year": "1991",
+  "author": "No Hesi, Hugo",
+  "class": "street",
+  "folderName": "nohesi_mitsubishi_3000_gt",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\nohesi_mitsubishi_3000_gt",
+  "specs": {
+    "convertedPower": "662kW/900hp",
+    "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "1040 Nm",
+    "normalizedTopSpeed": "-",
+    "normalizedWeight": "1240 kg",
+    "normalizedPwRatio": "0.73 hp/kg",
+    "bhp": "900 bhp",
+    "torque": "1040 Nm",
+    "weight": "1240 kg",
+    "topspeed": "--km/h",
+    "acceleration": "--s",
+    "pwratio": "1.38 kg/hp"
+  },
+  "tags": [
+    "No Hesi Spec",
+    "No Hesi Servers"
+  ],
+  "data": {
+    "tractionType": null,
+    "gearsCount": 0,
+    "supportsShifter": false,
+    "turboCount": 0
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0,
+    "averageRating": 0.0
+  }
+}

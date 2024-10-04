@@ -2,14 +2,14 @@
   "name": "Porsche 911 3.8 by Singer",
   "brand": "Porsche",
   "year": "2019",
-  "author": "Ben O'Bro",
+  "author": "Ben O'Bro, Arch",
   "class": "street",
   "folderName": "bo_singer_38",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bo_singer_38",
   "specs": {
     "convertedPower": "221kW/300hp",
     "isManufacturerData": false,
-    "normalizedAcceleration": "-",
+    "normalizedAcceleration": "s0–100",
     "normalizedTorque": "355 Nm",
     "normalizedTopSpeed": "-",
     "normalizedWeight": "1254 kg",
@@ -17,13 +17,13 @@
     "bhp": "300bhp",
     "torque": "355Nm",
     "weight": "1254kg",
-    "topspeed": "",
-    "acceleration": "",
+    "topspeed": "- km/h",
+    "acceleration": "- s 0–100",
     "pwratio": "4.18kg/hp"
   },
   "tags": [
-    "#- manual",
-    "#+ rwd"
+    "rwd",
+    "manual"
   ],
   "data": {
     "tractionType": "RWD",
@@ -38,6 +38,7 @@
     "sound": 0.0,
     "visuals": 0.0,
     "funFactor": 0.0,
-    "extraFeatures": 0.0
+    "extraFeatures": 0.0,
+    "averageRating": 0.0
   }
 }

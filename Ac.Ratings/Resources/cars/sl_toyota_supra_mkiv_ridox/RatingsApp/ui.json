@@ -11,13 +11,13 @@
     "isManufacturerData": false,
     "normalizedAcceleration": "-",
     "normalizedTorque": "610 Nm",
-    "normalizedTopSpeed": "-",
+    "normalizedTopSpeed": "303 km/h",
     "normalizedWeight": "1470 kg",
     "normalizedPwRatio": "0.34 hp/kg",
     "bhp": "494bhp",
     "torque": "610nm",
     "weight": "1470kg",
-    "topspeed": "",
+    "topspeed": "303 km/h",
     "acceleration": "",
     "pwratio": "2.98 kg/hp"
   },
@@ -38,6 +38,7 @@
     "sound": 0.0,
     "visuals": 0.0,
     "funFactor": 0.0,
-    "extraFeatures": 0.0
+    "extraFeatures": 0.0,
+    "averageRating": 0.0
   }
 }

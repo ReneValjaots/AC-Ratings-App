@@ -9,12 +9,12 @@
   ],
   "class": "race",
   "specs": {
-    "bhp": "245kW/333hp",
+    "bhp": "333bhp",
     "torque": "500Nm",
     "weight": "1424kg",
     "topspeed": "250+km/h",
     "acceleration": "--s 0-100",
-    "pwratio": "5.81 kg/hp",
+    "pwratio": "4.28 kg/hp",
     "range": 93
   },
   "torqueCurve": [

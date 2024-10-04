@@ -4,7 +4,8 @@
   "description": "With increased power, lower weight, improved aerodynamics and innovative technologies the Lamborghini Aventador LP 750-4 Superveloce is the most pure incarnation of a Lamborghini to date: unmistakable Lamborghini super sports car DNA, dynamic superiority and exceptional driving precision.<br><br>A focus on weight reduction while incorporating innovative technologies has resulted in the most sports-oriented, fastest and most emotional series production Lamborghini ever. The weight has been further reduced by 50 kg through enhanced lightweight engineering including significant use of carbon fiber. The naturally aspirated V12 engine&#39;s power is increased to 750 hp. This results in a power-to-weight-ratio of 2,03 kg/hp. The Superveloce accelerates from 0 to 100 km/h in 2.8 seconds and powers on to reach a top speed of more than 350 km/h.",
   "tags": [
     "#+ awd",
-    "#- sequential"
+    "#- sequential",
+    "#! 6.5L & V12"
   ],
   "class": "street",
   "specs": {

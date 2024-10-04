@@ -4,7 +4,8 @@
   "description": "Built around the 2013 LMP1 regulations, the P13c represents the pinnacle of pre-hybrid prototype race cars. Its 600 horsepower naturally aspirated 3.4L V8 propels the 890 kg chassis to over 200mph and its wide front tires and immense downforce allow cornering at up to 4G. On the engineering front, the car has a very wide setup window and performs well under many conditions, allowing drivers to more consistently extract the most from the car versus competitors.<br><br>The P13c features numerous physics developments courtesy of the AC &quot;Shader&quot; Patch. New thermal models for the brakes and tires, a new aerodynamic model, variable motion ratios in the suspension, engine maps, advanced traction control, and more accurate fuel consumption are only a few of the car&#39;s standout features - none of which previously seen in Assetto Corsa.",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 3.4L & V8"
   ],
   "class": "race",
   "specs": {

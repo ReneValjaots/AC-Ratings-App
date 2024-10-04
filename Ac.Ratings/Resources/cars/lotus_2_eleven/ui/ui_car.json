@@ -4,7 +4,8 @@
   "description": "Launched at the 77th annual Geneva International Motor Show, the Lotus 2-Eleven is aimed at the true track day enthusiast, taking Colin Chapman&#39;s philosophy of Performance Through Lightweight to its most extreme level yet.<br><br>Weighing in at just 670 kg (1,477 lbs) with 255 PS (252 bhp / 188 kw) on tap courtesy of its supercharged and intercooled 1796 cc engine, the Lotus 2-Eleven boasts a power to weight ratio similar to that of a 1960s Formula One car. Designed with the most serious of track day enthusiasts in mind, the Lotus 2-Eleven offers race car levels of performance coupled with legendary Lotus Ride and Handling to deliver a truly outstanding track day car.",
   "tags": [
     "#+ rwd",
-    "#- manual"
+    "#- manual",
+    "#! 1.8L & I4"
   ],
   "class": "street",
   "specs": {

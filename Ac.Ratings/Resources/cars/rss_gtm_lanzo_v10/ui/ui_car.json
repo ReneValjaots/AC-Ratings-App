@@ -4,7 +4,8 @@
   "description": "RSS GT-M Lanzo V10 by Race Sim Studio.<br><br>*Weight includes the driver.<br><br>Version 4.",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 5.2L & V10"
   ],
   "class": "GT3",
   "specs": {

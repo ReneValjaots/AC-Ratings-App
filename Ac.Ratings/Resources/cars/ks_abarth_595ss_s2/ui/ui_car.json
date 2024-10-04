@@ -9,12 +9,12 @@
   ],
   "class": "street",
   "specs": {
-    "bhp": "48kW/65hp",
+    "bhp": "65bhp",
     "torque": "80Nm",
     "weight": "470kg",
     "topspeed": "--km/h",
     "acceleration": "--s 0-100",
-    "pwratio": "9.79 kg/hp",
+    "pwratio": "7.23 kg/hp",
     "range": 105
   },
   "torqueCurve": [

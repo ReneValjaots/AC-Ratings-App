@@ -2,7 +2,9 @@
   "name": "Lexus IS500",
   "brand": "Lexus",
   "description": "Meet the latest marvel in the No Hesi lineup, the IS500 F Sport. Expertly tuned by the adept Casual_Software using precise Moza Racing hardware, this Lexus is not just any sedan—it&#39;s a drift-ready powerhouse disguised in luxury&#39;s clothing. With just a simple switch to drift tires, a lowering of the rear aero to position 2, and a kick into 3rd gear, it transforms into a drift demon that slides around corners with exhilarating ease.",
-  "tags": [],
+  "tags": [
+    "#! 5.0L & V8"
+  ],
   "class": "street",
   "specs": {
     "bhp": "956 bhp",

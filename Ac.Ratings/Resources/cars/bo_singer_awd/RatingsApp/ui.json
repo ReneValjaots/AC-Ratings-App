@@ -2,14 +2,14 @@
   "name": "Porsche 911 AWD by Singer",
   "brand": "Porsche",
   "year": "2019",
-  "author": "Ben O'Bro",
+  "author": "Ben O'Bro, Arch",
   "class": "street",
   "folderName": "bo_singer_awd",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\bo_singer_awd",
   "specs": {
     "convertedPower": "287kW/390hp",
     "isManufacturerData": false,
-    "normalizedAcceleration": "-",
+    "normalizedAcceleration": "s0–100",
     "normalizedTorque": "427 Nm",
     "normalizedTopSpeed": "-",
     "normalizedWeight": "1284 kg",
@@ -17,13 +17,13 @@
     "bhp": "390bhp",
     "torque": "427Nm",
     "weight": "1284kg",
-    "topspeed": "",
-    "acceleration": "",
+    "topspeed": "- km/h",
+    "acceleration": "- s 0–100",
     "pwratio": "3.29kg/hp"
   },
   "tags": [
-    "#- manual",
-    "#+ awd"
+    "awd",
+    "manual"
   ],
   "data": {
     "tractionType": "AWD2",
@@ -38,6 +38,7 @@
     "sound": 0.0,
     "visuals": 0.0,
     "funFactor": 0.0,
-    "extraFeatures": 0.0
+    "extraFeatures": 0.0,
+    "averageRating": 0.0
   }
 }

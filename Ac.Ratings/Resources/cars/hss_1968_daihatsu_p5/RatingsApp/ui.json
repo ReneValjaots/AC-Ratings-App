@@ -25,7 +25,6 @@
     "rwd",
     "race",
     "manual",
-    "#Vintage GT",
     "#! 1.3L & I4"
   ],
   "data": {
@@ -41,6 +40,7 @@
     "sound": 0.0,
     "visuals": 0.0,
     "funFactor": 0.0,
-    "extraFeatures": 0.0
+    "extraFeatures": 0.0,
+    "averageRating": 0.0
   }
 }

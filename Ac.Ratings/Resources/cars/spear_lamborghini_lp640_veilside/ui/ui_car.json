@@ -4,7 +4,8 @@
   "description": "CSP 1.76+ required!<br><br>Base model - Polyphony Digital, Zynga<br>Rims - De13te<br>Conversion - Spearmint<br>Physics base - abbo90<br>Encryption - x4fab",
   "tags": [
     "#- manual",
-    "#+ awd"
+    "#+ awd",
+    "#! 6.5L & V12"
   ],
   "class": "street",
   "specs": {

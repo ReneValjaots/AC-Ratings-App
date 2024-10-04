@@ -4,7 +4,8 @@
   "description": "The redesigned Hurac&#225;n Super Trofeo was developed in collaboration with Dallara Engineering, with direct involvement by founder Giampaolo Dallara. Dallara&#39;s history with Lamborghini dates back to 1963 when he worked as a Lamborghini engineer and later led the development of the legendary Miura.<br><br>The Hurac&#225;n Super Trofeo adopts the direct-injected V10 engine from the road car, delivering 620 horsepower in race trim, and a rear-drive set-up meant to accelerate the series racers&#39; transition into GT racing. The vehicle weighs an ultra-light 1,270 kg, attributed to the hybrid carbon fiber/aluminium chassis and strict motorsports weight reduction. The weight/power ratio is 2.04 kg/hp.<br><br>The aerodynamics provide better efficiency, traction and downforce using a ten-position rear wing, front and rear diffusers as well as adjustable front air intakes. The Hurac&#225;n Super Trofeo will be exclusively-equipped with Pirelli tires engineered specifically for this application.",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 5.2L & V10"
   ],
   "class": "race",
   "specs": {

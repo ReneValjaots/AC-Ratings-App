@@ -4,7 +4,8 @@
   "description": "Launched at the 77th annual Geneva International Motor Show, the Lotus 2-Eleven is aimed at the true track day enthusiast, taking Colin Chapman&#39;s philosophy of &#39;Performance Through Lightweight&#39; to its most extreme level yet.<br><br>Lotus Sport, the performance division of Lotus Cars Ltd has developed a striking race specification 2-Eleven eligible to compete in the 2009 SRO GT4 European Supersport Championship. This car builds upon the development of the Lotus Sport 2-Eleven range and 2006 Championship winning GT3 Exige to provide an extremely competitive package.",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 1.8L & I4"
   ],
   "class": "race",
   "specs": {

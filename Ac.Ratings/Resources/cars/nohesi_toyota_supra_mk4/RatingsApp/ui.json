@@ -1,0 +1,45 @@
+{
+  "name": "Toyota Supra MK4 A80 | No Hesi Spec",
+  "brand": "Toyota",
+  "year": "1998",
+  "author": "No Hesi, Hugo",
+  "class": "street",
+  "folderName": "nohesi_toyota_supra_mk4",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\nohesi_toyota_supra_mk4",
+  "specs": {
+    "convertedPower": "472kW/642hp",
+    "isManufacturerData": false,
+    "normalizedAcceleration": "5.0s",
+    "normalizedTorque": "695 Nm",
+    "normalizedTopSpeed": "249 km/h",
+    "normalizedWeight": "1510 kg",
+    "normalizedPwRatio": "0.43 hp/kg",
+    "bhp": "642 bhp",
+    "torque": "695 Nm",
+    "weight": "1510kg",
+    "topspeed": "249km/h",
+    "acceleration": "5.0s 0-100",
+    "pwratio": "2.35 kg/hp"
+  },
+  "tags": [
+    "No Hesi",
+    "No Hesi Servers",
+    "manual"
+  ],
+  "data": {
+    "tractionType": null,
+    "gearsCount": 0,
+    "supportsShifter": false,
+    "turboCount": 0
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0,
+    "averageRating": 0.0
+  }
+}

@@ -14,12 +14,12 @@
     "normalizedTopSpeed": "211 km/h",
     "normalizedWeight": "1025 kg",
     "normalizedPwRatio": "0.17 hp/kg",
-    "bhp": "129kW/175hp",
+    "bhp": "175bhp",
     "torque": "245Nm",
     "weight": "1025kg",
     "topspeed": "211km/h",
     "acceleration": "7.4s 0-100",
-    "pwratio": "7.95 kg/hp"
+    "pwratio": "5.86 kg/hp"
   },
   "tags": [
     "#+ fwd",
@@ -39,6 +39,7 @@
     "sound": 0.0,
     "visuals": 0.0,
     "funFactor": 0.0,
-    "extraFeatures": 0.0
+    "extraFeatures": 0.0,
+    "averageRating": 0.0
   }
 }

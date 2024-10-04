@@ -4,7 +4,8 @@
   "description": "In 1969 Jacques DURAND presented the Jid&#233;, a car he had created inspired by the Ford GT40 that had won at Le Mans. It was designed on the basis of a tubular chassis fixed to a fiberglass load-bearing shell. The Gordini 1600 S version, more expensive at the time than an Alpine 1600, was a formidable competitor in competition. In 1972, a Jid&#233; driven by Henri Rimaudi&#232;re won the Rallye du Poitou, ahead of Alpines and Porsches. The same year, a Jid&#233; entrusted to Jean Ragnotti finished 7th overall at the Crit&#233;rium des C&#233;vennes.",
   "tags": [
     "rwd",
-    "manual"
+    "manual",
+    "#! 1.6L & I4"
   ],
   "class": "street",
   "specs": {

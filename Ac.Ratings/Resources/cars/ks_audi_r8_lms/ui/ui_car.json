@@ -9,12 +9,12 @@
   ],
   "class": "race",
   "specs": {
-    "bhp": "419kW/570hp",
+    "bhp": "570bhp",
     "torque": "500+Nm",
     "weight": "1250kg",
     "topspeed": "--km/h",
     "acceleration": "--s 0-100",
-    "pwratio": "2.98 kg/hp",
+    "pwratio": "2.19 kg/hp",
     "range": 260
   },
   "torqueCurve": [

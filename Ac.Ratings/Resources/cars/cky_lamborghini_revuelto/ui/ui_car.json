@@ -2,7 +2,9 @@
   "name": "Lamborghini Revuelto",
   "brand": "Lamborghini",
   "description": "Just before the 60th anniversary of the marque, Lamborghini unveiled Revuelto, the first HPEV (High Performance Electrified Vehicle) hybrid super sports car. With the Revuelto, Lamborghini has established a new benchmark in performance, on-board technology, and driving pleasure. The ultimate thrill provided by the Revuelto is reached thanks to a powertrain that delivers 1015 CV total, combining the power of a brand-new 12-cylinder internal combustion engine with three high-density electric motors and a groundbreaking transversal dual clutch e-gearbox. <br><br>Made By Ceky Performance <br>Version: 1.0 (Patreons Release)<br>Patreon: https://www.patreon.com/CekyPerformance<br>Facebook group: https://www.facebook.com/groups/393890899432377/?ref=share_group_link<br>Discord: https://discord.gg/cekyperformance<br><br>Features:<br>-Android Auto <br>-Openable Hood ( EXTRA B )<br>-Openable  Trunk ( EXTRA A )<br>-Detailed Functions of the real car <br>-Realistic Performance &amp; Colors<br>-CM Paintshop<br>-Full PBR &amp; RainFX",
-  "tags": [],
+  "tags": [
+    "#! 6.5L & V12"
+  ],
   "class": "street",
   "specs": {
     "bhp": "1015 Hp",

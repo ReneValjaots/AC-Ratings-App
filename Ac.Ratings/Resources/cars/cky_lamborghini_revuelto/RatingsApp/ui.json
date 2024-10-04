@@ -21,7 +21,9 @@
     "acceleration": "2.5s 0-100",
     "pwratio": "1.74 kg/hp"
   },
-  "tags": [],
+  "tags": [
+    "#! 6.5L & V12"
+  ],
   "data": {
     "tractionType": "AWD",
     "gearsCount": 8,
@@ -35,6 +37,7 @@
     "sound": 0.0,
     "visuals": 0.0,
     "funFactor": 0.0,
-    "extraFeatures": 0.0
+    "extraFeatures": 0.0,
+    "averageRating": 0.0
   }
 }

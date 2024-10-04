@@ -4,7 +4,8 @@
   "description": "RSS GT-M Lux V8 by Race Sim Studio.<br><br>*Weight includes the driver. <br><br>Version 3",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 5.4L & V8"
   ],
   "class": "GT3",
   "specs": {

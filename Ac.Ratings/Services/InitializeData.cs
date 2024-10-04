@@ -9,7 +9,8 @@ namespace Ac.Ratings.Services {
         private const string _acRootFolder = @"D:\Steam\steamapps\common\assettocorsa\content\cars";
         public string CarDbFilePath = @"C:\Users\ReneVa\source\repos\Ac.Ratings\Ac.Ratings\Resources\Data\CarDb.json";
         public string CarsRootFolder = @"C:\Users\ReneVa\source\repos\Ac.Ratings\Ac.Ratings\Resources\cars\";
-        private string _missingDataLogFilePath = @"C:\Users\ReneVa\source\repos\Ac.Ratings\Ac.Ratings\Resources\Data\MissingDataLog.txt";
+        private const string _missingDataLogFilePath = @"C:\Users\ReneVa\source\repos\Ac.Ratings\Ac.Ratings\Resources\Data\MissingDataLog.txt";
+        private const string _folderCountFilePath = @"C:\Users\ReneVa\source\repos\Ac.Ratings\Ac.Ratings\Resources\Data\LastFolderCount.txt";
 
         public InitializeData() {
             if (File.Exists(_missingDataLogFilePath))
@@ -18,7 +19,7 @@ namespace Ac.Ratings.Services {
             CarDb = ReadDataFromFiles(_acRootFolder);
             OrganizeCarDb();
             SaveCarData(CarDbFilePath);
-            //CreateCarDirectories();
+            CheckAndCreateCarFolders();
         }
 
         private void LogMissingData(string message) {
@@ -74,6 +75,30 @@ namespace Ac.Ratings.Services {
 
                 File.WriteAllText(physicsDataPath, JsonConvert.SerializeObject(car.Data, Formatting.Indented));
                 File.WriteAllText(uiJsonPath, JsonConvert.SerializeObject(car, Formatting.Indented));
+            }
+        }
+
+        private int GetStoredFolderCount() {
+            if (File.Exists(_folderCountFilePath)) {
+                var text = File.ReadAllText(_folderCountFilePath);
+                if (int.TryParse(text, out int count))
+                    return count;
+            }
+            return 0;
+        }
+
+        private void SaveFolderCount(int count) {
+            File.WriteAllText(_folderCountFilePath, count.ToString());
+        }
+
+        private void CheckAndCreateCarFolders() {
+            var carDirectories = Directory.GetDirectories(_acRootFolder);
+            int currentFolderCount = carDirectories.Length;
+            int storedFolderCount = GetStoredFolderCount();
+
+            if (currentFolderCount != storedFolderCount) {
+                CreateCarDirectories();
+                SaveFolderCount(currentFolderCount);
             }
         }
 

@@ -7,19 +7,19 @@
   "folderName": "ks_abarth_595ss",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_abarth_595ss",
   "specs": {
-    "convertedPower": "24kW/33hp",
+    "convertedPower": "24kW/32hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "25.8s",
     "normalizedTorque": "44 Nm",
     "normalizedTopSpeed": "124 km/h",
     "normalizedWeight": "470 kg",
     "normalizedPwRatio": "0.07 hp/kg",
-    "bhp": "24kW/32hp",
+    "bhp": "32bhp",
     "torque": "44Nm",
     "weight": "470kg",
     "topspeed": "124km/h",
     "acceleration": "25.8s 0-100",
-    "pwratio": "19.58 kg/hp"
+    "pwratio": "14.69 kg/hp"
   },
   "tags": [
     "#+ rwd",
@@ -39,6 +39,7 @@
     "sound": 0.0,
     "visuals": 0.0,
     "funFactor": 0.0,
-    "extraFeatures": 0.0
+    "extraFeatures": 0.0,
+    "averageRating": 0.0
   }
 }

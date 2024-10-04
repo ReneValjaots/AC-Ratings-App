@@ -1,9 +1,9 @@
 {
-  "name": "Maserati 8CM",
+  "name": "1934 Maserati 8CM",
   "brand": "Maserati",
   "year": "1934",
   "author": "Historic Sim Studios",
-  "class": "race",
+  "class": "Grand Prix 750kg",
   "folderName": "hss_1934_maserati_8cm",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\hss_1934_maserati_8cm",
   "specs": {
@@ -18,11 +18,14 @@
     "torque": "320 Nm",
     "weight": "750 kg",
     "topspeed": "250 km/h",
-    "acceleration": "6.5s 0-100",
+    "acceleration": "0 - 100 kph in 6.5s",
     "pwratio": "3.12 kg/hp"
   },
   "tags": [
-    "#GP750kg"
+    "Italy",
+    "Pre-War",
+    "#GP750kg",
+    "singleseater"
   ],
   "data": {
     "tractionType": "RWD",
@@ -37,6 +40,7 @@
     "sound": 0.0,
     "visuals": 0.0,
     "funFactor": 0.0,
-    "extraFeatures": 0.0
+    "extraFeatures": 0.0,
+    "averageRating": 0.0
   }
 }

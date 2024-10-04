@@ -10,12 +10,12 @@
   ],
   "class": "Drift",
   "specs": {
-    "bhp": "252kW/343hp",
+    "bhp": "343bhp",
     "torque": "365Nm",
     "weight": "1150kg",
     "topspeed": "250+km/h",
     "acceleration": "5.3s 0-100",
-    "pwratio": "4.56 kg/hp",
+    "pwratio": "3.35 kg/hp",
     "range": 87
   },
   "torqueCurve": [

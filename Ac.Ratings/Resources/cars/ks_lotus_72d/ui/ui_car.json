@@ -4,7 +4,8 @@
   "description": "The Lotus 72 was a Formula One car designed by Colin Chapman and Maurice Philippe of Lotus for the 1970 Formula One season.<br><br>This was yet another innovative design by Chapman featuring inboard brakes, side mounted radiators in sidepods, as opposed to the nose mounted radiators which had been commonplace since the 1950s and an overhead air intake. The overall shape of the car was innovative too, resembling a wedge on wheels which was inspired by the earlier Lotus 56 gas turbine car, and the layout taken from the Lotus 63 four wheel drive project testbed. The shape made for better air penetration and higher speeds. In a back-to-back test with the Lotus 49, the 72 was 12 mph faster with the same Cosworth engine.<br><br>Chapman&#39;s efforts produced one of the most remarkable and successful designs in F1 history. Taking the stressed engine layout technique from the Lotus 49 and adding advanced aerodynamics produced a car that was years ahead of its rivals. To begin with however, problems with the handling of the car had to be overcome, due to a lack of &#39;feel&#39; caused by the anti-dive suspension geometry - which was designed to prevent the nose of the car dipping significantly under braking - and the anti-squat set-up at the rear, which was supposed to stop the car &#39;squatting down&#39; under acceleration. Once the suspension was modified, there were no further problems. The car caused a sensation amongst the media and fans, with many people clamouring to see the remarkable car in action.",
   "tags": [
     "#+ rwd",
-    "#- manual"
+    "#- manual",
+    "#! 3.0L & V8"
   ],
   "class": "race",
   "specs": {

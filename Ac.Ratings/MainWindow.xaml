@@ -133,7 +133,7 @@
                                HorizontalAlignment="Center"
                                FontSize="10"
                                Margin="0,2,0,0"
-                               Text="Filter by author"/>
+                               Text="Filter by rating"/>
 
                     <ComboBox x:Name="RatingsFilter" 
                               Grid.Column="2"
@@ -387,7 +387,6 @@
                         <ColumnDefinition Width="*" />
                         <ColumnDefinition Width="*" />
                         <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
 
                     <StackPanel Grid.Column="0" HorizontalAlignment="Center">
@@ -399,14 +398,6 @@
                     </StackPanel>
 
                     <StackPanel Grid.Column="1" HorizontalAlignment="Center">
-                        <TextBlock x:Name="InductionSystem"
-                                   Foreground="White"
-                                   FontSize="12"
-                                   FontWeight="Bold"
-                                   TextAlignment="Center" />
-                    </StackPanel>
-
-                    <StackPanel Grid.Column="2" HorizontalAlignment="Center">
                         <TextBlock x:Name="Gearbox"
                                    Foreground="White"
                                    FontSize="12"
@@ -414,7 +405,7 @@
                                    TextAlignment="Center" />
                     </StackPanel>
 
-                    <StackPanel Grid.Column="3" HorizontalAlignment="Center">
+                    <StackPanel Grid.Column="2" HorizontalAlignment="Center">
                         <TextBlock x:Name="Drivetrain"
                                    Foreground="White"
                                    FontSize="12"

@@ -14,12 +14,12 @@
     "normalizedTopSpeed": "-",
     "normalizedWeight": "1250 kg",
     "normalizedPwRatio": "0.46 hp/kg",
-    "bhp": "419kW/570hp",
+    "bhp": "570bhp",
     "torque": "500+Nm",
     "weight": "1250kg",
     "topspeed": "--km/h",
     "acceleration": "--s 0-100",
-    "pwratio": "2.98 kg/hp"
+    "pwratio": "2.19 kg/hp"
   },
   "tags": [
     "#+ rwd",
@@ -39,6 +39,7 @@
     "sound": 0.0,
     "visuals": 0.0,
     "funFactor": 0.0,
-    "extraFeatures": 0.0
+    "extraFeatures": 0.0,
+    "averageRating": 0.0
   }
 }

@@ -4,7 +4,8 @@
   "description": "Rekus RC-F GT3  by United Racing Design<br>Tyre info<br>Optimal pressure: 26psi/1.8bar<br>Optimal temp range: 80-95C",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 5.4L & V8"
   ],
   "class": "GT3",
   "specs": {

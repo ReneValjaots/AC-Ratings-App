@@ -7,19 +7,19 @@
   "folderName": "ks_audi_sport_quattro_rally",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_sport_quattro_rally",
   "specs": {
-    "convertedPower": "440kW/598hp",
+    "convertedPower": "437kW/595hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "3.1s",
     "normalizedTorque": "590 Nm",
     "normalizedTopSpeed": "250+ km/h",
     "normalizedWeight": "1090 kg",
     "normalizedPwRatio": "0.55 hp/kg",
-    "bhp": "440kW/595hp",
+    "bhp": "595bhp",
     "torque": "590Nm",
     "weight": "1090kg",
     "topspeed": "250+km/h",
     "acceleration": "3.1s 0-100",
-    "pwratio": "2.48 kg/hp"
+    "pwratio": "1.83 kg/hp"
   },
   "tags": [
     "#+ awd",
@@ -39,6 +39,7 @@
     "sound": 0.0,
     "visuals": 0.0,
     "funFactor": 0.0,
-    "extraFeatures": 0.0
+    "extraFeatures": 0.0,
+    "averageRating": 0.0
   }
 }

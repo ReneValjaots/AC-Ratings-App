@@ -9,12 +9,12 @@
   ],
   "class": "Prototype",
   "specs": {
-    "bhp": "580kW/700hp",
+    "bhp": "700bhp",
     "torque": "850+Nm",
     "weight": "915kg",
     "topspeed": "330km/h",
     "acceleration": "2.7s 0-100",
-    "pwratio": "1.58 kg/hp"
+    "pwratio": "1.31 kg/hp"
   },
   "torqueCurve": [
     [

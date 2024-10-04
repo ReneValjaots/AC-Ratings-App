@@ -4,7 +4,8 @@
   "description": "Despite sharing its chassis with the P13c, the P13b features different suspension, steering, aerodynamics, tires, and engine—the shared DNA is apparent, but the car is unique in its own right.<br><br>Built around the 2013 LMP2 regulations with some LMP1 embellishments, the P13b expands upon a decade-old platform to provide a well-rounded and easily accessible car catered towards Pro-Am racing. Featuring a ~500hp 2.8L TT V6, the 900kg prototype can exceed 180mph, slotting nicely between GT and LMP1 in multiclass racing. Downforce levels similar to its LMP1 sibling yield exceptional cornering ability, even if mildly limited by an off-the-shelf tire compound.<br><br>After a 4 year hiatus from the public sphere while working exclusively in professional motorsport, we are making a brief return to the community from which we were founded 10 years ago. Like with our 2019 release of the P13c, the P13b lies at the cutting edge of CSP technology, providing a more vital take on the abilities of IER in the present day. We hope to provide a glimpse into the world of professional simulation through the lens of a public release. Thank you for the fond memories; we hope you enjoy the car.<br><br>Liveries by ANCORD Design Co.<br>Audio by mikekrybus.com",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 2.8L & V6"
   ],
   "class": "race",
   "specs": {

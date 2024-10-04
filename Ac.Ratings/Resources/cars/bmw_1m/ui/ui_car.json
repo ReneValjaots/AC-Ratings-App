@@ -9,12 +9,12 @@
   ],
   "class": "street",
   "specs": {
-    "bhp": "250kW/340hp",
+    "bhp": "340bhp",
     "torque": "500Nm",
     "weight": "1495kg",
     "topspeed": "250+km/h",
     "acceleration": "4.9s 0-100",
-    "pwratio": "5.98 kg/hp",
+    "pwratio": "4.4 kg/hp",
     "range": 80
   },
   "torqueCurve": [

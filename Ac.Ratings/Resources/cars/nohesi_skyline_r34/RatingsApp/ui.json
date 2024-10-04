@@ -1,0 +1,45 @@
+{
+  "name": "Nissan Skyline GT-R R34 V-Spec | No Hesi Spec",
+  "brand": "Nissan",
+  "year": "2000",
+  "author": "No Hesi, Hugo",
+  "class": "street",
+  "folderName": "nohesi_skyline_r34",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\nohesi_skyline_r34",
+  "specs": {
+    "convertedPower": "642kW/873hp",
+    "isManufacturerData": false,
+    "normalizedAcceleration": "1.9s",
+    "normalizedTorque": "882 Nm",
+    "normalizedTopSpeed": "350+ km/h",
+    "normalizedWeight": "1560 kg",
+    "normalizedPwRatio": "0.56 hp/kg",
+    "bhp": "873 bhp",
+    "torque": "882 Nm",
+    "weight": "1560kg",
+    "topspeed": "350+km/h",
+    "acceleration": "1.9s 0-100",
+    "pwratio": "1.79 kg/hp"
+  },
+  "tags": [
+    "awd",
+    "manual",
+    "street"
+  ],
+  "data": {
+    "tractionType": "AWD2",
+    "gearsCount": 6,
+    "supportsShifter": true,
+    "turboCount": 1
+  },
+  "ratings": {
+    "handling": 10.0,
+    "physics": 7.0,
+    "realism": 5.0,
+    "sound": 10.0,
+    "visuals": 10.0,
+    "funFactor": 10.0,
+    "extraFeatures": 8.0,
+    "averageRating": 0.0
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Cadillac V-Series.R",
+  "brand": "Cadillac",
+  "year": "2023",
+  "author": "United Racing Design",
+  "class": "LMDh",
+  "folderName": "urd_dallas_vsr_hybrid",
+  "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\urd_dallas_vsr_hybrid",
+  "specs": {
+    "convertedPower": "-",
+    "isManufacturerData": false,
+    "normalizedAcceleration": "-",
+    "normalizedTorque": "629 Nm",
+    "normalizedTopSpeed": "330 km/h",
+    "normalizedWeight": "1030 kg",
+    "normalizedPwRatio": "-",
+    "bhp": "697 whp",
+    "torque": "629 Nm*",
+    "weight": "1030kg",
+    "topspeed": "330 km/h",
+    "acceleration": "---",
+    "pwratio": "1.48 kg/hp"
+  },
+  "tags": [
+    "rwd",
+    "race",
+    "sequential",
+    "LMDh",
+    "#! 5.5L & V8"
+  ],
+  "data": {
+    "tractionType": null,
+    "gearsCount": 0,
+    "supportsShifter": false,
+    "turboCount": 0
+  },
+  "ratings": {
+    "handling": 0.0,
+    "physics": 0.0,
+    "realism": 0.0,
+    "sound": 0.0,
+    "visuals": 0.0,
+    "funFactor": 0.0,
+    "extraFeatures": 0.0,
+    "averageRating": 0.0
+  }
+}

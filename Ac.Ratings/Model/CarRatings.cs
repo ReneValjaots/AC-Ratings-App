@@ -11,47 +11,46 @@ namespace Ac.Ratings.Model {
         private double _visuals;
         private double _funFactor;
         private double _extraFeatures;
+        private double _averageRating;
 
-        [JsonProperty("handling")]
-        public double Handling {
+        [JsonProperty("handling")] public double Handling {
             get => _handling;
             set => SetField(ref _handling, value);
         }
 
-        [JsonProperty("physics")]
-        public double Physics {
+        [JsonProperty("physics")] public double Physics {
             get => _physics;
             set => SetField(ref _physics, value);
         }
 
-        [JsonProperty("realism")]
-        public double Realism {
+        [JsonProperty("realism")] public double Realism {
             get => _realism;
             set => SetField(ref _realism, value);
         }
 
-        [JsonProperty("sound")]
-        public double Sound {
+        [JsonProperty("sound")] public double Sound {
             get => _sound;
             set => SetField(ref _sound, value);
         }
 
-        [JsonProperty("visuals")]
-        public double Visuals {
+        [JsonProperty("visuals")] public double Visuals {
             get => _visuals;
             set => SetField(ref _visuals, value);
         }
 
-        [JsonProperty("funFactor")]
-        public double FunFactor {
+        [JsonProperty("funFactor")] public double FunFactor {
             get => _funFactor;
             set => SetField(ref _funFactor, value);
         }
 
-        [JsonProperty("extraFeatures")]
-        public double ExtraFeatures {
+        [JsonProperty("extraFeatures")] public double ExtraFeatures {
             get => _extraFeatures;
             set => SetField(ref _extraFeatures, value);
+        }
+
+        [JsonProperty("averageRating")] public double AverageRating {
+            get => _averageRating;
+            set => SetField(ref _averageRating, value);
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;

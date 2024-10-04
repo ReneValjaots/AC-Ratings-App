@@ -4,7 +4,8 @@
   "description": "Lamborghini Miura P400 SV <br><br>The Lamborghini Miura is a sports car that was produced by Italian automaker Lamborghini between 1966 and 1973. The car is widely considered to have instigated the trend of high performance, two-seater, mid-engined sports cars. At launch, it was the fastest production road car available.<br><br>The 12 cylinder, double overhead camshaft naturally aspirated engine has 2 valves per cylinder and a volume of 3.9 litres. It produces power and torque figures of 385 bhp at 7850 rpm and 399 Nm (294 lbft/40.7 kgm) at 5750 rpm respectively.This power is transmitted to the wheels through a 5 speed manual gearbox. With a claimed kerb weight of 1293 kg, the Lamborghini Miura P400SV can dispense with the 0-100 km/h benchmark in 4.50 seconds and the kilometre from rest in 23.2 seconds. Its maximum speed claimed is 290 km/h or 180 mph.<br><br>The SV can be distinguished from its predecessors from its lack of eyelashes around the headlamps, wider rear fenders to accommodate the new 9-inch-wide rear wheels and Pirelli Cinturato tires, and different tail lights. The problem with excessive front end lift at speed was also reduced somewhat in the later model car, but not eliminated entirely.  150 Lamborghini Miura P400 SVs were produced.",
   "tags": [
     "#+ rwd",
-    "#- manual"
+    "#- manual",
+    "#! 3.9L & V12"
   ],
   "class": "street",
   "specs": {

@@ -4,7 +4,8 @@
   "description": "The Honda S2000 Legendary Edition is a mix of the best aftermarket upgrades that make the car so fast that it could be confused with its hypothetical Amuse GT1 sister that unfortunately was never completed.<br>It has a new bodykit for a good downforce generation, a 2.3 L F22C bored turbo engine, a new HKS transmission with new differential and final gears options, more efficient brake pads and discs and a new set of springs and dampers more adequate to a track surface. Finally, the adoption of carbon fiber panels instead of metal ones together with all the unnecessary parts elimination took the weight down a bit.<br><br>Original mod by Gentle Mind Performance, modified by SRP.<br><br>Freshly added paints and configs by Kaiser<br><br>Reworked by Rusty and Tsutarja495.",
   "tags": [
     "#- manual",
-    "#+ rwd"
+    "#+ rwd",
+    "#! 2.3L & I4"
   ],
   "class": "street",
   "specs": {

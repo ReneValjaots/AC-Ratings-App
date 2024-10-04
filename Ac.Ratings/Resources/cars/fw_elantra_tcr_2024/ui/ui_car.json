@@ -4,7 +4,8 @@
   "description": "Hyundai Elantra N TCR 2024 specs<br><br>Cphys enabled version (CSP 0.2.3 required!)<br><br>Extra button mapping:<br>Extra_F = launch control<br>Extra_B = fog lights",
   "tags": [
     "fwd",
-    "sequential"
+    "sequential",
+    "#! 2.0L & I4"
   ],
   "class": "TCR",
   "specs": {

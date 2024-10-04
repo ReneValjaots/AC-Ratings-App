@@ -7,19 +7,19 @@
   "folderName": "ks_audi_r18_etron_quattro",
   "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\ks_audi_r18_etron_quattro",
   "specs": {
-    "convertedPower": "580kW/789hp",
+    "convertedPower": "515kW/700hp",
     "isManufacturerData": false,
     "normalizedAcceleration": "2.7s",
     "normalizedTorque": "850+ Nm",
     "normalizedTopSpeed": "330 km/h",
     "normalizedWeight": "915 kg",
-    "normalizedPwRatio": "0.86 hp/kg",
-    "bhp": "580kW/700hp",
+    "normalizedPwRatio": "0.77 hp/kg",
+    "bhp": "700bhp",
     "torque": "850+Nm",
     "weight": "915kg",
     "topspeed": "330km/h",
     "acceleration": "2.7s 0-100",
-    "pwratio": "1.58 kg/hp"
+    "pwratio": "1.31 kg/hp"
   },
   "tags": [
     "#+ awd",
@@ -39,6 +39,7 @@
     "sound": 0.0,
     "visuals": 0.0,
     "funFactor": 0.0,
-    "extraFeatures": 0.0
+    "extraFeatures": 0.0,
+    "averageRating": 0.0
   }
 }

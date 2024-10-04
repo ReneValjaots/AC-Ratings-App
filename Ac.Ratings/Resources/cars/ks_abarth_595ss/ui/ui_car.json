@@ -9,12 +9,12 @@
   ],
   "class": "street",
   "specs": {
-    "bhp": "24kW/32hp",
+    "bhp": "32bhp",
     "torque": "44Nm",
     "weight": "470kg",
     "topspeed": "124km/h",
     "acceleration": "25.8s 0-100",
-    "pwratio": "19.58 kg/hp",
+    "pwratio": "14.69 kg/hp",
     "range": 100
   },
   "torqueCurve": [

@@ -4,7 +4,8 @@
   "description": "RSS GT Lanzo V12 by Race Sim Studio.<br><br>* Weight includes driver.",
   "tags": [
     "#+ rwd",
-    "#- sequential"
+    "#- sequential",
+    "#! 6.0L & V12"
   ],
   "class": "race",
   "specs": {

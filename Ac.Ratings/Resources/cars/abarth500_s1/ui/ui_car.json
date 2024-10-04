@@ -10,12 +10,12 @@
   ],
   "class": "street",
   "specs": {
-    "bhp": "129kW/175hp",
+    "bhp": "175bhp",
     "torque": "245Nm",
     "weight": "1025kg",
     "topspeed": "211km/h",
     "acceleration": "7.4s 0-100",
-    "pwratio": "7.95 kg/hp",
+    "pwratio": "5.86 kg/hp",
     "range": 65
   },
   "torqueCurve": [

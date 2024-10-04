@@ -4,7 +4,8 @@
   "description": "Amuse S2000 GT1 (AP1).<br><br>Credits:<br>Model, textures - PolyPhony Digital;<br>Shader, PBR - ltk, ???;<br>Sound - vilau;<br>Plate - Losstunes;<br>Digidash, gauges - えりいち, ltk;<br>Paint - Kaiser (envy and maziora), ltk,, Katyusha;<br>Encryption - x4fab;<br>Advices and helps -  Katyusha; <br><br>Power House Amuse has the know-how for tuning the S2000 for any application, from winding mountain roads to an all-out circuit run. One of their ultimate achievements is the S2000 GT1.<br><br>Hideki Tanabe, the president of Power House Amuse and a driving expert himself, worked to widen the car to 72 inches. Weight was reduced as much as possible, incorporating carbon in various aerodynamic parts, and by replacing other components with lighter materials. As a result, the total weight of the car was shaved down to approximately 1,120 kg.<br><br>The engine is just as special. According to Amuse, the base F20C engine was enlarged to 2.3 liters in displacement, and is combined with a GT30 Pro-S turbine. The turbo modification obviously required reinforcement of the engine block and other parts, but it more than pays off producing an amazing 617 BHP, with a maximum torque of 383.3 lb-ft. This means that the car has an incredible power-to-weight ratio of 1.79 kg per 1 BHP.",
   "tags": [
     "#+ rwd",
-    "#- manual"
+    "#- manual",
+    "#! 2.3L & I4"
   ],
   "class": "street",
   "specs": {

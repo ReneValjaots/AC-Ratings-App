@@ -4,7 +4,8 @@
   "description": "The Hurac&#225;n Performante has reworked the concept of super sports cars and taken the notion of performance to levels never seen before. The vehicle has been re-engineered in its entirety, as regards its weight, engine power, chassis and above all by introducing an innovative system of active aerodynamics: ALA. The use of the awarded Forged Composites&#174;, a shapable forged carbon fiber material patented by Automobili Lamborghini, is a real nice touch and it contributes to make the vehicle even lighter in weight.<br><br><br>The front and rear spoilers, made entirely of Forged Composites&#174;, enable the aerodynamics to be actively exploited to achieve maximum performance by increasing or decreasing the downforce as required. The new, even lighter wheel rims hold the new Pirelli P Zero Corsa tyres, providing incredible grip. <br><br><br>The even more powerful V10 engine, massive use of Forged Composites&#174; to make it even lighter in weight, the LDF 7-speed dual-clutch transmission and the new ALA active aerodynamic system that controls air and directs it in its favor.<br><br><br>Aerodinamica Lamborghini Attiva is a smart and innovative system that manages active aerodynamics. ALA adapts to the driving style and type of route. When necessary, it increases vertical load to assist stability and speed through curves, or it reduces aerodynamic resistance to assist acceleration and reaching the top speed.",
   "tags": [
     "#+ awd",
-    "#- semiautomatic"
+    "#- semiautomatic",
+    "#! 5.2L & V10"
   ],
   "class": "street",
   "specs": {

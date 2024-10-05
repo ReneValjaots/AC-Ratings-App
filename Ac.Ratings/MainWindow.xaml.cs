@@ -5,6 +5,7 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Xml.Serialization;
 using Ac.Ratings.Model;
 using Ac.Ratings.Services;
 using Newtonsoft.Json;
@@ -27,6 +28,10 @@ namespace Ac.Ratings {
             ClassFilter.ItemsSource = GetDistinctClasses();
             ClassFilter.SelectedIndex = -1;
             CarList.ItemsSource = _data.CarDb;
+
+            if (_data.CarDb.Count > 0) {
+                CarList.SelectedIndex = 0; 
+            }
         }
 
         private void CarList_SelectionChanged(object sender, SelectionChangedEventArgs e) {
@@ -284,7 +289,7 @@ namespace Ac.Ratings {
         private void ClearButton_Click(object sender, RoutedEventArgs e) => ClearRatings();
 
         private void SearchBox_TextChanged(object sender, TextChangedEventArgs e) {
-            CarList.Items.Filter = CombinedFilter;
+            UpdateCarListFilter();
         }
 
         private void MenuButton_OnClick(object sender, RoutedEventArgs e) {
@@ -480,50 +485,26 @@ namespace Ac.Ratings {
 
         private void AuthorFilter_OnSelectionChanged(object sender, SelectionChangedEventArgs e) {
             if (AuthorFilter.SelectedItem?.ToString() == "-- Reset --") {
-                AuthorFilter.SelectedIndex = -1; 
-                CarList.Items.Filter = CombinedFilter; 
+                AuthorFilter.SelectedIndex = -1;
+                UpdateCarListFilter();
                 return;
             }
 
-            CarList.Items.Filter = CombinedFilter;
+            UpdateCarListFilter();
         }
 
         private void ClassFilter_OnSelectionChanged(object sender, SelectionChangedEventArgs e) {
             if (ClassFilter.SelectedItem?.ToString() == "-- Reset --") {
                 ClassFilter.SelectedIndex = -1;
-                CarList.Items.Filter = CombinedFilter;
+                UpdateCarListFilter();
                 return;
             }
 
-            CarList.Items.Filter = CombinedFilter;
+            UpdateCarListFilter();
         }
 
-        private void PhysicsFilter_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
-            CarList.Items.Filter = CombinedFilter;
-        }
-
-        private void HandlingFilter_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
-            CarList.Items.Filter = CombinedFilter;
-        }
-
-        private void RealismFilter_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
-            CarList.Items.Filter = CombinedFilter;
-        }
-
-        private void SoundFilter_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
-            CarList.Items.Filter = CombinedFilter;
-        }
-
-        private void VisualsFilter_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
-            CarList.Items.Filter = CombinedFilter;
-        }
-
-        private void FunFactorFilter_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
-            CarList.Items.Filter = CombinedFilter;
-        }
-
-        private void ExtraFeaturesFilter_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
-            CarList.Items.Filter = CombinedFilter;
+        private void FilterSlider_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
+            UpdateCarListFilter();
         }
 
         private void SettingsButton_OnClick(object sender, RoutedEventArgs e) {
@@ -597,6 +578,10 @@ namespace Ac.Ratings {
                 RatingsFilter.SelectedIndex = -1;
             }
 
+            UpdateCarListFilter();
+        }
+
+        private void UpdateCarListFilter() {
             CarList.Items.Filter = CombinedFilter;
         }
     }

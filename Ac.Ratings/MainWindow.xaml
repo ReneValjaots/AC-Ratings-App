@@ -141,7 +141,10 @@
                               HorizontalAlignment="Left"
                               VerticalAlignment="Top"
                               Width="200"
-                              Margin="10,2,0,0">
+                              Margin="10,2,0,0"
+                              SelectionChanged="RatingsFilter_OnSelectionChanged">
+                        <ComboBoxItem>-- Reset --</ComboBoxItem>
+
                         <ComboBoxItem>
                             <Grid>
                                 <Grid.ColumnDefinitions>

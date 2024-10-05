@@ -17,6 +17,7 @@ namespace Ac.Ratings {
         private InitializeData _data;
         private static readonly List<string> _gearboxTags = ["manual", "automatic", "semiautomatic", "sequential"];
         private static readonly List<string> _drivetrainTags = ["rwd", "awd", "fwd"];
+        private CancellationTokenSource? _cancellationTokenSource;
 
         public MainWindow() {
             InitializeComponent();
@@ -104,6 +105,10 @@ namespace Ac.Ratings {
         }
 
         private async void PopulateSkinGrid(string[] skinDirectories) {
+            _cancellationTokenSource?.Cancel();
+            _cancellationTokenSource = new CancellationTokenSource();
+            var token = _cancellationTokenSource.Token;
+
             SkinGrid.Children.Clear();
             SkinGrid.RowDefinitions.Clear();
             SkinGrid.ColumnDefinitions.Clear();
@@ -122,6 +127,10 @@ namespace Ac.Ratings {
             }
 
             for (int i = 0; i < skinDirectories.Length; i++) {
+                if (token.IsCancellationRequested) {
+                    return;
+                }
+
                 var previewFilePath = Path.Combine(skinDirectories[i], "preview.jpg");
                 var liveryFilePath = Path.Combine(skinDirectories[i], "livery.png");
 
@@ -129,33 +138,41 @@ namespace Ac.Ratings {
                 if (File.Exists(previewFilePath) && File.Exists(liveryFilePath)) {
                     var liveryUri = new Uri(liveryFilePath, UriKind.Absolute);
 
-                    // Load image in the background
-                    var bitmapImage = await Task.Run(() => {
-                        var image = new BitmapImage();
-                        image.BeginInit();
-                        image.UriSource = liveryUri;
-                        image.CacheOption = BitmapCacheOption.OnLoad;
-                        image.EndInit();
-                        image.Freeze(); // Freezes the image to be safely used across threads
-                        return image;
-                    });
+                    try {
+                        // Load the image in the background with cancellation support
+                        var bitmapImage = await Task.Run(() => {
+                            var image = new BitmapImage();
+                            image.BeginInit();
+                            image.UriSource = liveryUri;
+                            image.CacheOption = BitmapCacheOption.OnLoad;
+                            image.EndInit();
+                            image.Freeze(); // Make it thread-safe
+                            return image;
+                        }, token); // Pass token to allow cancellation
 
-                    // Back to the UI thread to create and add UI components
-                    var imageControl = new Image {
-                        Width = boxSize,
-                        Height = boxSize,
-                        Source = bitmapImage,
-                        Stretch = Stretch.UniformToFill,
-                    };
+                        if (token.IsCancellationRequested) {
+                            return; // Stop processing if canceled
+                        }
 
-                    imageControl.MouseLeftButtonDown += (s, e) => SkinBox_Clicked(previewFilePath);
+                        // Back to the UI thread to add the image control
+                        var imageControl = new Image {
+                            Width = boxSize,
+                            Height = boxSize,
+                            Source = bitmapImage,
+                            Stretch = Stretch.UniformToFill,
+                        };
 
-                    // Ensure this part runs on the UI thread
-                    Dispatcher.Invoke(() => {
-                        Grid.SetRow(imageControl, i / boxesPerRow);
-                        Grid.SetColumn(imageControl, i % boxesPerRow);
-                        SkinGrid.Children.Add(imageControl);
-                    });
+                        imageControl.MouseLeftButtonDown += (s, e) => SkinBox_Clicked(previewFilePath);
+
+                        Dispatcher.Invoke(() => {
+                            Grid.SetRow(imageControl, i / boxesPerRow);
+                            Grid.SetColumn(imageControl, i % boxesPerRow);
+                            SkinGrid.Children.Add(imageControl);
+                        });
+                    }
+                    catch (TaskCanceledException) {
+                        
+                    }
                 }
             }
         }
@@ -407,22 +424,28 @@ namespace Ac.Ratings {
         }
 
         private List<string?> GetDistinctAuthors() {
-            return _data.CarDb
+            var authors = _data.CarDb
                 .Select(x => x.Author)
                 .Where(author => !string.IsNullOrEmpty(author))
                 .Distinct()
                 .OrderBy(author => author)
                 .ToList();
+
+            authors.Insert(0, "-- Reset --");
+            return authors;
         }
 
         private List<string> GetDistinctClasses() {
-            return _data.CarDb
+            var classes = _data.CarDb
                 .Select(x => x.Class?.Trim()) 
                 .Where(x => !string.IsNullOrEmpty(x))
                 .GroupBy(x => x?.ToLower()) 
                 .Select(NormalizeClassName) 
                 .OrderBy(x => x)
                 .ToList();
+
+            classes.Insert(0, "-- Reset --");
+            return classes;
         }
 
         private string NormalizeClassName(IGrouping<string?, string?> group) {
@@ -456,10 +479,22 @@ namespace Ac.Ratings {
         }
 
         private void AuthorFilter_OnSelectionChanged(object sender, SelectionChangedEventArgs e) {
+            if (AuthorFilter.SelectedItem?.ToString() == "-- Reset --") {
+                AuthorFilter.SelectedIndex = -1; 
+                CarList.Items.Filter = CombinedFilter; 
+                return;
+            }
+
             CarList.Items.Filter = CombinedFilter;
         }
 
         private void ClassFilter_OnSelectionChanged(object sender, SelectionChangedEventArgs e) {
+            if (ClassFilter.SelectedItem?.ToString() == "-- Reset --") {
+                ClassFilter.SelectedIndex = -1;
+                CarList.Items.Filter = CombinedFilter;
+                return;
+            }
+
             CarList.Items.Filter = CombinedFilter;
         }
 
@@ -553,6 +588,16 @@ namespace Ac.Ratings {
                 SaveRatings();
                 e.Handled = true;
             }
+        }
+
+        private void RatingsFilter_OnSelectionChanged(object sender, SelectionChangedEventArgs e) {
+            if (RatingsFilter.SelectedItem is ComboBoxItem selectedItem &&
+                selectedItem.Content.ToString() == "-- Reset --") {
+                ResetFilterSliderValues();
+                RatingsFilter.SelectedIndex = -1;
+            }
+
+            CarList.Items.Filter = CombinedFilter;
         }
     }
 }

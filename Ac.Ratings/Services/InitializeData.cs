@@ -110,7 +110,6 @@ namespace Ac.Ratings.Services {
                     continue;
                 }
                 var jsonFilePath = Path.Combine(directory, "ui", "ui_car.json");
-
                 var dataFolders = Directory.GetDirectories(directory, "data*", SearchOption.TopDirectoryOnly);
 
                 if (dataFolders.Length == 0) {
@@ -120,10 +119,14 @@ namespace Ac.Ratings.Services {
                     LogMissingData($"Multiple data folders found for car in directory: {directory}");
                 }
 
+                var ratingsAppFolderPath = Path.Combine(CarsRootFolder, Path.GetFileName(directory), "RatingsApp");
+                var dataJsonPath = Path.Combine(ratingsAppFolderPath, "data.json");
+
                 var drivetrainFilePath = Path.Combine(directory, "data", "drivetrain.ini");
                 var engineFilePath = Path.Combine(directory, "data", "engine.ini");
                 if (File.Exists(jsonFilePath)) {
                     var car = ReadDataFromJson(jsonFilePath, directory);
+
                     if (File.Exists(drivetrainFilePath)) {
                         var carData = ReadDataFromIni(drivetrainFilePath);
                         car.Data = carData;

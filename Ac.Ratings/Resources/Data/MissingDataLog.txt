@@ -1,5 +1,5 @@
-05/10/2024 23:13:31: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\hss_1906_renault
-05/10/2024 23:13:31: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\nohesi_honda_s2000
-05/10/2024 23:13:31: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\nohesi_mitsubishi_3000_gt
-05/10/2024 23:13:31: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\nohesi_toyota_supra_mk4
-05/10/2024 23:13:31: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\slang_mercedes_190_wahon_p2
+07/10/2024 00:07:11: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\hss_1906_renault
+07/10/2024 00:07:11: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\nohesi_honda_s2000
+07/10/2024 00:07:11: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\nohesi_mitsubishi_3000_gt
+07/10/2024 00:07:11: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\nohesi_toyota_supra_mk4
+07/10/2024 00:07:11: No data folder found for car in directory: D:\Steam\steamapps\common\assettocorsa\content\cars\slang_mercedes_190_wahon_p2

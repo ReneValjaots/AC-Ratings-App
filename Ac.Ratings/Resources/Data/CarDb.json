@@ -34,11 +34,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -79,11 +81,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -124,11 +128,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -169,11 +175,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -214,11 +222,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -259,11 +269,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -304,11 +316,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -348,11 +362,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -393,11 +409,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -438,11 +456,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -483,11 +503,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -528,11 +550,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -573,11 +597,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -618,11 +644,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -663,11 +691,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -708,11 +738,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -752,11 +784,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -796,11 +830,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -841,11 +877,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -885,11 +923,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -930,11 +970,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -975,11 +1017,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1020,11 +1064,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1065,11 +1111,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1108,11 +1156,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1152,11 +1202,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1197,11 +1249,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1242,11 +1296,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1287,11 +1343,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1332,11 +1390,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1377,11 +1437,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1426,11 +1488,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1475,11 +1539,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1524,11 +1590,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1568,11 +1636,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1613,11 +1683,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1658,11 +1730,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1703,11 +1777,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1748,11 +1824,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1793,11 +1871,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1838,11 +1918,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1883,11 +1965,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1928,11 +2012,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -1973,11 +2059,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2018,11 +2106,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2063,11 +2153,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2108,11 +2200,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2153,11 +2247,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2198,11 +2294,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2243,11 +2341,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2288,11 +2388,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2332,11 +2434,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2377,11 +2481,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2422,11 +2528,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2467,11 +2575,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2512,11 +2622,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2555,11 +2667,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2599,11 +2713,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2646,11 +2762,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2693,11 +2811,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2738,11 +2858,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2785,11 +2907,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2829,11 +2953,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2873,11 +2999,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2917,11 +3045,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -2962,11 +3092,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3007,11 +3139,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3051,11 +3185,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3096,11 +3232,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3141,11 +3279,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3186,11 +3326,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3231,11 +3373,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3245,7 +3389,7 @@
     "name": "Cupra Leon Competición TCR",
     "brand": "Cupra",
     "year": "2024",
-    "author": "Fuzo's Workshop",
+    "author": "Fuzo",
     "class": "TCR",
     "folderName": "fw_cupra_tcr_2024",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\fw_cupra_tcr_2024",
@@ -3276,11 +3420,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3321,11 +3467,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3365,11 +3513,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3411,11 +3561,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3456,11 +3608,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3501,11 +3655,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3546,11 +3702,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3591,11 +3749,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3636,11 +3796,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3681,11 +3843,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3726,11 +3890,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3771,11 +3937,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3816,11 +3984,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3861,11 +4031,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3905,11 +4077,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3949,11 +4123,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -3992,11 +4168,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4037,11 +4215,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4082,11 +4262,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4127,11 +4309,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4171,11 +4355,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4215,11 +4401,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4260,11 +4448,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4306,11 +4496,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4352,11 +4544,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4398,11 +4592,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4444,11 +4640,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4489,11 +4687,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4534,11 +4734,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4579,11 +4781,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4624,11 +4828,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4669,11 +4875,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4713,11 +4921,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4758,11 +4968,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4804,11 +5016,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4849,11 +5063,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4894,11 +5110,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4939,11 +5157,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -4984,11 +5204,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5029,11 +5251,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5074,11 +5298,13 @@
       "turboCount": 10
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5118,11 +5344,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5162,11 +5390,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5206,11 +5436,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5250,11 +5482,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5295,11 +5529,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5340,11 +5576,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5385,11 +5623,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5429,11 +5669,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5474,11 +5716,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5519,11 +5763,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5564,11 +5810,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5609,11 +5857,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5654,11 +5904,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5699,11 +5951,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5744,11 +5998,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5789,11 +6045,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5834,11 +6092,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5879,11 +6139,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5924,11 +6186,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -5969,11 +6233,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6012,11 +6278,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6055,11 +6323,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6099,11 +6369,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6143,11 +6415,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6187,11 +6461,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6232,11 +6508,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6276,11 +6554,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6320,11 +6600,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6365,11 +6647,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6410,11 +6694,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6456,11 +6742,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6502,11 +6790,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6546,11 +6836,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6591,11 +6883,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6635,11 +6929,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6679,11 +6975,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6723,11 +7021,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6768,11 +7068,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6813,11 +7115,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6857,11 +7161,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6902,11 +7208,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6945,11 +7253,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -6989,11 +7299,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7034,11 +7346,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7079,11 +7393,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7122,11 +7438,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7167,11 +7485,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7212,11 +7532,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7257,11 +7579,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7302,11 +7626,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7316,7 +7642,7 @@
     "name": "Hyundai Elantra N TCR",
     "brand": "Hyundai",
     "year": "2024",
-    "author": "Fuzo's Workshop",
+    "author": "Fuzo",
     "class": "TCR",
     "folderName": "fw_elantra_tcr_2024",
     "folderPath": "D:\\Steam\\steamapps\\common\\assettocorsa\\content\\cars\\fw_elantra_tcr_2024",
@@ -7347,11 +7673,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7392,11 +7720,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7437,11 +7767,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7482,11 +7814,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7527,11 +7861,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7572,11 +7908,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7617,11 +7955,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7662,11 +8002,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7707,11 +8049,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7752,11 +8096,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7797,11 +8143,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7842,11 +8190,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7887,11 +8237,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7932,11 +8284,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -7977,11 +8331,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8022,11 +8378,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8067,11 +8425,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8112,11 +8472,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8157,11 +8519,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8200,11 +8564,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8245,11 +8611,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8289,11 +8657,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8332,11 +8702,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8378,11 +8750,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8423,11 +8797,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8468,11 +8844,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8513,11 +8891,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8558,11 +8938,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8603,11 +8985,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8648,11 +9032,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8693,11 +9079,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8736,11 +9124,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8780,11 +9170,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8824,11 +9216,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8868,11 +9262,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8912,11 +9308,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8955,11 +9353,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -8999,11 +9399,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9043,11 +9445,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9087,11 +9491,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9131,11 +9537,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9175,11 +9583,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9219,11 +9629,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9263,11 +9675,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9307,11 +9721,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9351,11 +9767,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9395,11 +9813,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9439,11 +9859,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9483,11 +9905,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9527,11 +9951,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9571,11 +9997,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9615,11 +10043,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9659,11 +10089,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9703,11 +10135,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9747,11 +10181,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9793,11 +10229,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9837,11 +10275,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9881,11 +10321,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9924,11 +10366,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -9968,11 +10412,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10012,11 +10458,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10060,11 +10508,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10103,11 +10553,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10147,11 +10599,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10191,11 +10645,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10235,11 +10691,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10279,11 +10737,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10323,11 +10783,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10364,11 +10826,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10408,11 +10872,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10452,11 +10918,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10496,11 +10964,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10540,11 +11010,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10584,11 +11056,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10628,11 +11102,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10672,11 +11148,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10716,11 +11194,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10760,11 +11240,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10804,11 +11286,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10848,11 +11332,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10892,11 +11378,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10939,11 +11427,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -10988,11 +11478,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11037,11 +11529,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11086,11 +11580,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 7.0,
-      "physics": 7.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 7.5,
       "sound": 6.5,
-      "visuals": 7.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 7.5,
       "extraFeatures": 9.0,
       "averageRating": 0.0
@@ -11130,11 +11626,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11174,11 +11672,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11217,11 +11717,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11261,11 +11763,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11305,11 +11809,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11349,11 +11855,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11395,11 +11903,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11439,11 +11949,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11484,11 +11996,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11527,11 +12041,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11568,11 +12084,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11611,11 +12129,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11655,11 +12175,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11698,11 +12220,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11743,11 +12267,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11787,11 +12313,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11831,11 +12359,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11875,11 +12405,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11919,11 +12451,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -11963,11 +12497,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12004,11 +12540,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12048,11 +12586,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12091,11 +12631,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12134,11 +12676,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12178,11 +12722,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12222,11 +12768,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12266,11 +12814,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12311,11 +12861,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 10.0,
-      "physics": 7.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 5.0,
       "sound": 10.0,
-      "visuals": 10.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 10.0,
       "extraFeatures": 8.0,
       "averageRating": 0.0
@@ -12355,11 +12907,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12399,11 +12953,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12442,11 +12998,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12486,11 +13044,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12530,11 +13090,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12573,11 +13135,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12621,11 +13185,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12669,11 +13235,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12712,11 +13280,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12756,11 +13326,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12799,11 +13371,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12842,11 +13416,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12886,11 +13462,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12930,11 +13508,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -12974,11 +13554,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13018,11 +13600,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13062,11 +13646,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13106,11 +13692,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13149,11 +13737,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13192,11 +13782,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13235,11 +13827,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13278,11 +13872,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13321,11 +13917,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13365,11 +13963,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13409,11 +14009,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13453,11 +14055,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13497,11 +14101,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13541,11 +14147,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13584,11 +14192,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13627,11 +14237,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13670,11 +14282,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13713,11 +14327,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13757,11 +14373,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13801,11 +14419,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13845,11 +14465,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13889,11 +14511,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13933,11 +14557,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -13977,11 +14603,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14021,11 +14649,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14065,11 +14695,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14109,11 +14741,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14153,11 +14787,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14197,11 +14833,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14241,11 +14879,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14285,11 +14925,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14329,11 +14971,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14373,11 +15017,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14417,11 +15063,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14460,11 +15108,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14504,11 +15154,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14548,11 +15200,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14592,11 +15246,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14636,11 +15292,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14679,11 +15337,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14723,11 +15383,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14767,11 +15429,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14811,11 +15475,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14855,11 +15521,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14898,11 +15566,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14942,11 +15612,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -14985,11 +15657,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15029,11 +15703,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15073,11 +15749,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15117,11 +15795,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15161,11 +15841,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15205,11 +15887,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15249,11 +15933,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15293,11 +15979,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15342,11 +16030,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15383,11 +16073,13 @@
       "turboCount": 3
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15426,11 +16118,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15467,11 +16161,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15513,11 +16209,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15560,11 +16258,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15603,11 +16303,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15646,11 +16348,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15690,11 +16394,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15733,11 +16439,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15777,11 +16485,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15821,11 +16531,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15865,11 +16577,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15909,11 +16623,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -15953,11 +16669,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16002,11 +16720,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16049,11 +16769,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16097,11 +16819,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16143,11 +16867,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16189,11 +16915,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16230,11 +16958,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16271,11 +17001,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16316,11 +17048,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16360,11 +17094,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16404,11 +17140,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16448,11 +17186,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16496,11 +17236,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16540,11 +17282,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16584,11 +17328,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16628,11 +17374,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16672,11 +17420,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16716,11 +17466,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16760,11 +17512,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16804,11 +17558,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16848,11 +17604,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16889,11 +17647,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16932,11 +17692,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -16976,11 +17738,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17019,11 +17783,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17062,11 +17828,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17105,11 +17873,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17148,11 +17918,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17192,11 +17964,13 @@
       "turboCount": 3
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17236,11 +18010,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17281,11 +18057,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17325,11 +18103,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17369,11 +18149,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17413,11 +18195,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17457,11 +18241,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17502,11 +18288,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17546,11 +18334,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17589,11 +18379,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17637,11 +18429,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17680,11 +18474,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17724,11 +18520,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17768,11 +18566,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17815,11 +18615,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17862,11 +18664,13 @@
       "turboCount": 1
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17906,11 +18710,13 @@
       "turboCount": 2
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0
@@ -17950,11 +18756,13 @@
       "turboCount": 0
     },
     "ratings": {
-      "handling": 0.0,
-      "physics": 0.0,
+      "cornerHandling": 0.0,
+      "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "visuals": 0.0,
+      "exteriorQuality": 0.0,
+      "interiorQuality": 0.0,
+      "dashboardQuality": 0.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
       "averageRating": 0.0

@@ -162,16 +162,18 @@
                                     <RowDefinition Height="Auto"/>
                                     <RowDefinition Height="Auto"/>
                                     <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
                                 </Grid.RowDefinitions>
 
                                 <TextBlock Grid.Column="0"
                                            Grid.Row="0"
-                                           Text="{Binding ElementName=HandlingFilter, 
+                                           Text="{Binding ElementName=CornerHandlingFilter, 
                                             Path=Value, 
-                                            StringFormat='Handling: {0}'}"
+                                            StringFormat='Corner Handling: {0}'}"
                                            Margin="0,0,5,0"/>
 
-                                <Slider x:Name="HandlingFilter" 
+                                <Slider x:Name="CornerHandlingFilter" 
                                         Grid.Column="1"
                                         Grid.Row="0"
                                         Minimum="0"
@@ -183,12 +185,12 @@
 
                                 <TextBlock Grid.Column="0"
                                            Grid.Row="1"
-                                           Text="{Binding ElementName=PhysicsFilter, 
+                                           Text="{Binding ElementName=BrakingFilter, 
                                             Path=Value, 
-                                            StringFormat='Physics: {0}'}"
+                                            StringFormat='Braking: {0}'}"
                                            Margin="0,0,5,0"/>
 
-                                <Slider x:Name="PhysicsFilter"
+                                <Slider x:Name="BrakingFilter"
                                         Grid.Column="1"
                                         Grid.Row="1"
                                         Minimum="0"
@@ -234,12 +236,12 @@
 
                                 <TextBlock Grid.Column="0"
                                            Grid.Row="4"
-                                           Text="{Binding ElementName=VisualsFilter, 
+                                           Text="{Binding ElementName=ExteriorQualityFilter, 
                                             Path=Value, 
-                                            StringFormat='Visuals: {0}'}"
+                                            StringFormat='Exterior Quality: {0}'}"
                                            Margin="0,0,5,0"/>
 
-                                <Slider x:Name="VisualsFilter"
+                                <Slider x:Name="ExteriorQualityFilter"
                                         Grid.Column="1"
                                         Grid.Row="4"
                                         Minimum="0"
@@ -251,6 +253,40 @@
 
                                 <TextBlock Grid.Column="0"
                                            Grid.Row="5"
+                                           Text="{Binding ElementName=InteriorQualityFilter, 
+                                             Path=Value, 
+                                             StringFormat='Interior Quality: {0}'}"
+                                           Margin="0,0,5,0" />
+
+                                <Slider x:Name="InteriorQualityFilter"
+                                        Grid.Column="1"
+                                        Grid.Row="5"
+                                        Minimum="0"
+                                        Maximum="10"
+                                        TickFrequency="1"
+                                        IsSnapToTickEnabled="True"
+                                        Width="150"
+                                        ValueChanged="FilterSlider_OnValueChanged" />
+
+                                <TextBlock Grid.Column="0"
+                                           Grid.Row="6"
+                                           Text="{Binding ElementName=DashboardQualityFilter, 
+                                            Path=Value, 
+                                            StringFormat='Dashboard Quality: {0}'}"
+                                           Margin="0,0,5,0" />
+
+                                <Slider x:Name="DashboardQualityFilter"
+                                        Grid.Column="1"
+                                        Grid.Row="6"
+                                        Minimum="0"
+                                        Maximum="10"
+                                        TickFrequency="1"
+                                        IsSnapToTickEnabled="True"
+                                        Width="150"
+                                        ValueChanged="FilterSlider_OnValueChanged" />
+
+                                <TextBlock Grid.Column="0"
+                                           Grid.Row="7"
                                            Text="{Binding ElementName=FunFactorFilter, 
                                             Path=Value, 
                                             StringFormat='Fun Factor: {0}'}"
@@ -258,7 +294,7 @@
 
                                 <Slider x:Name="FunFactorFilter"
                                         Grid.Column="1"
-                                        Grid.Row="5"
+                                        Grid.Row="7"
                                         Minimum="0"
                                         Maximum="10"
                                         TickFrequency="1"
@@ -267,7 +303,7 @@
                                         ValueChanged="FilterSlider_OnValueChanged"/>
 
                                 <TextBlock Grid.Column="0"
-                                           Grid.Row="6"
+                                           Grid.Row="8"
                                            Text="{Binding ElementName=ExtraFeaturesFilter, 
                                             Path=Value, 
                                             StringFormat='Extra Features: {0}'}"
@@ -275,13 +311,30 @@
 
                                 <Slider x:Name="ExtraFeaturesFilter"
                                         Grid.Column="1"
-                                        Grid.Row="6"
+                                        Grid.Row="8"
                                         Minimum="0"
                                         Maximum="10"
                                         TickFrequency="1"
                                         IsSnapToTickEnabled="True"
                                         Width="150"
                                         ValueChanged="FilterSlider_OnValueChanged"/>
+
+                                <TextBlock Grid.Column="0"
+                                           Grid.Row="9"
+                                           Text="{Binding ElementName=AverageRatingFilter, 
+                                            Path=Value, 
+                                            StringFormat='Average Rating: {0}'}"
+                                           Margin="0,0,5,0" />
+
+                                <Slider x:Name="AverageRatingFilter"
+                                        Grid.Column="1"
+                                        Grid.Row="9"
+                                        Minimum="0"
+                                        Maximum="10"
+                                        TickFrequency="1"
+                                        IsSnapToTickEnabled="True"
+                                        Width="150"
+                                        ValueChanged="FilterSlider_OnValueChanged" />
                             </Grid>
                         </ComboBoxItem>
                     </ComboBox>
@@ -459,25 +512,25 @@
             <StackPanel Grid.Row="1" Grid.Column="2" 
                         VerticalAlignment="Top" Margin="0,0,10,0">
 
-                <TextBlock Text="{Binding ElementName=HandlingSlider, 
+                <TextBlock Text="{Binding ElementName=CornerHandlingSlider, 
                     Path=Value, 
-                    StringFormat='Handling: {0}'}" 
+                    StringFormat='Corner Handling: {0}'}" 
                            Foreground="White"/>
 
-                <Slider x:Name="HandlingSlider" 
+                <Slider x:Name="CornerHandlingSlider" 
                         Minimum="0" Maximum="10" 
                         TickFrequency="0.5" 
                         IsSnapToTickEnabled="True" 
                         Width="150"
                         ValueChanged="Slider_ValueChanged"/>
 
-                <TextBlock Text="{Binding ElementName=PhysicsSlider, 
+                <TextBlock Text="{Binding ElementName=BrakesSlider, 
                     Path=Value, 
-                    StringFormat='Physics: {0}'}"  
+                    StringFormat='Braking: {0}'}"  
                            Foreground="White" 
                            Margin="0,10,0,0"/>
 
-                <Slider x:Name="PhysicsSlider" 
+                <Slider x:Name="BrakesSlider" 
                         Minimum="0" 
                         Maximum="10" 
                         TickFrequency="0.5" 
@@ -513,19 +566,47 @@
                         Width="150"
                         ValueChanged="Slider_ValueChanged"/>
 
-                <TextBlock Text="{Binding ElementName=VisualsSlider, 
-                    Path=Value, 
-                    StringFormat='Visuals: {0}'}"  
-                           Foreground="White" 
-                           Margin="0,10,0,0"/>
+                <TextBlock Text="{Binding ElementName=ExteriorQualitySlider, 
+                        Path=Value, 
+                        StringFormat='Exterior Quality: {0}'}"  
+                    Foreground="White" 
+                    Margin="0,10,0,0"/>
 
-                <Slider x:Name="VisualsSlider" 
+                <Slider x:Name="ExteriorQualitySlider" 
                         Minimum="0" 
                         Maximum="10" 
                         TickFrequency="0.5" 
                         IsSnapToTickEnabled="True" 
                         Width="150"
                         ValueChanged="Slider_ValueChanged"/>
+
+                <TextBlock Text="{Binding ElementName=InteriorQualitySlider, 
+                        Path=Value, 
+                        StringFormat='Interior Quality: {0}'}"
+                    Foreground="White"
+                    Margin="0,10,0,0" />
+
+                <Slider x:Name="InteriorQualitySlider"
+                        Minimum="0"
+                        Maximum="10"
+                        TickFrequency="0.5"
+                        IsSnapToTickEnabled="True"
+                        Width="150"
+                        ValueChanged="Slider_ValueChanged" />
+
+                <TextBlock Text="{Binding ElementName=DashboardQualitySlider, 
+                        Path=Value, 
+                        StringFormat='Dashboard Quality: {0}'}"
+                    Foreground="White"
+                    Margin="0,10,0,0" />
+
+                <Slider x:Name="DashboardQualitySlider"
+                        Minimum="0"
+                        Maximum="10"
+                        TickFrequency="0.5"
+                        IsSnapToTickEnabled="True"
+                        Width="150"
+                        ValueChanged="Slider_ValueChanged" />
 
                 <TextBlock Text="{Binding ElementName=FunFactorSlider, 
                     Path=Value, 

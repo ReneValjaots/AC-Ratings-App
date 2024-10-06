@@ -4,23 +4,25 @@ using System.Runtime.CompilerServices;
 
 namespace Ac.Ratings.Model {
     public class CarRatings : INotifyPropertyChanged {
-        private double _handling;
-        private double _physics;
+        private double _cornerHandling;
+        private double _brakes;
         private double _realism;
         private double _sound;
-        private double _visuals;
+        private double _exteriorQuality;
+        private double _interiorQuality;
+        private double _dashboardQuality;
         private double _funFactor;
         private double _extraFeatures;
         private double _averageRating;
 
-        [JsonProperty("handling")] public double Handling {
-            get => _handling;
-            set => SetField(ref _handling, value);
+        [JsonProperty("cornerHandling")] public double CornerHandling {
+            get => _cornerHandling;
+            set => SetField(ref _cornerHandling, value);
         }
 
-        [JsonProperty("physics")] public double Physics {
-            get => _physics;
-            set => SetField(ref _physics, value);
+        [JsonProperty("brakes")] public double Brakes {
+            get => _brakes;
+            set => SetField(ref _brakes, value);
         }
 
         [JsonProperty("realism")] public double Realism {
@@ -33,9 +35,19 @@ namespace Ac.Ratings.Model {
             set => SetField(ref _sound, value);
         }
 
-        [JsonProperty("visuals")] public double Visuals {
-            get => _visuals;
-            set => SetField(ref _visuals, value);
+        [JsonProperty("exteriorQuality")] public double ExteriorQuality {
+            get => _exteriorQuality;
+            set => SetField(ref _exteriorQuality, value);
+        }
+
+        [JsonProperty("interiorQuality")] public double InteriorQuality {
+            get => _interiorQuality;
+            set => SetField(ref _interiorQuality, value);
+        }
+
+        [JsonProperty("dashboardQuality")] public double DashboardQuality {
+            get => _dashboardQuality;
+            set => SetField(ref _dashboardQuality, value);
         }
 
         [JsonProperty("funFactor")] public double FunFactor {

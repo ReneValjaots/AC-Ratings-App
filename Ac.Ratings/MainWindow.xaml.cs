@@ -45,11 +45,13 @@ namespace Ac.Ratings {
         }
 
         private void DisplayCarRatings(Car selectedCar) {
-            HandlingSlider.Value = selectedCar.Ratings.Handling;
-            PhysicsSlider.Value = selectedCar.Ratings.Physics;
+            CornerHandlingSlider.Value = selectedCar.Ratings.CornerHandling;
+            BrakesSlider.Value = selectedCar.Ratings.Brakes;
             RealismSlider.Value = selectedCar.Ratings.Realism;
             SoundSlider.Value = selectedCar.Ratings.Sound;
-            VisualsSlider.Value = selectedCar.Ratings.Visuals;
+            ExteriorQualitySlider.Value = selectedCar.Ratings.ExteriorQuality;
+            InteriorQualitySlider.Value = selectedCar.Ratings.InteriorQuality;
+            DashboardQualitySlider.Value = selectedCar.Ratings.DashboardQuality;
             FunFactorSlider.Value = selectedCar.Ratings.FunFactor;
             ExtraFeaturesSlider.Value = selectedCar.Ratings.ExtraFeatures;
         }
@@ -198,11 +200,13 @@ namespace Ac.Ratings {
         }
 
         private void SetRatingsFromSliders(Car car) {
-            car.Ratings.Handling = HandlingSlider.Value;
-            car.Ratings.Physics = PhysicsSlider.Value;
+            car.Ratings.CornerHandling = CornerHandlingSlider.Value;
+            car.Ratings.Brakes = BrakesSlider.Value;
             car.Ratings.Realism = RealismSlider.Value;
             car.Ratings.Sound = SoundSlider.Value;
-            car.Ratings.Visuals = VisualsSlider.Value;
+            car.Ratings.ExteriorQuality = ExteriorQualitySlider.Value;
+            car.Ratings.InteriorQuality = InteriorQualitySlider.Value;
+            car.Ratings.DashboardQuality = DashboardQualitySlider.Value;
             car.Ratings.FunFactor = FunFactorSlider.Value;
             car.Ratings.ExtraFeatures = ExtraFeaturesSlider.Value;
         }
@@ -246,21 +250,25 @@ namespace Ac.Ratings {
         }
 
         private static void ResetRatingValues(Car selectedCar) {
-            selectedCar.Ratings.Handling = 0;
-            selectedCar.Ratings.Physics = 0;
+            selectedCar.Ratings.CornerHandling = 0;
+            selectedCar.Ratings.Brakes = 0;
             selectedCar.Ratings.Realism = 0;
             selectedCar.Ratings.Sound = 0;
-            selectedCar.Ratings.Visuals = 0;
+            selectedCar.Ratings.ExteriorQuality = 0;
+            selectedCar.Ratings.InteriorQuality = 0;
+            selectedCar.Ratings.DashboardQuality = 0;
             selectedCar.Ratings.FunFactor = 0;
             selectedCar.Ratings.ExtraFeatures = 0;
         }
 
         private void ResetRatingSliderValues() {
-            HandlingSlider.Value = 0;
-            PhysicsSlider.Value = 0;
+            CornerHandlingSlider.Value = 0;
+            BrakesSlider.Value = 0;
             RealismSlider.Value = 0;
             SoundSlider.Value = 0;
-            VisualsSlider.Value = 0;
+            ExteriorQualitySlider.Value = 0;
+            InteriorQualitySlider.Value = 0;
+            DashboardQualitySlider.Value = 0;
             FunFactorSlider.Value = 0;
             ExtraFeaturesSlider.Value = 0;
         }
@@ -271,15 +279,19 @@ namespace Ac.Ratings {
             var selectedCar = (Car)CarList.SelectedItem;
             if (selectedCar != null) {
                 var ratings = new List<double> {
-                    HandlingSlider.Value,
-                    PhysicsSlider.Value,
-                    RealismSlider.Value,
-                    SoundSlider.Value,
-                    VisualsSlider.Value,
-                    FunFactorSlider.Value,
-                    ExtraFeaturesSlider.Value
+                    selectedCar.Ratings.CornerHandling,
+                    selectedCar.Ratings.Brakes,
+                    selectedCar.Ratings.Realism,
+                    selectedCar.Ratings.Sound,
+                    selectedCar.Ratings.ExteriorQuality,
+                    selectedCar.Ratings.InteriorQuality,
+                    selectedCar.Ratings.DashboardQuality,
+                    selectedCar.Ratings.FunFactor,
+                    selectedCar.Ratings.ExtraFeatures,
+
                 };
                 var averageRating = ratings.Average();
+                selectedCar.Ratings.AverageRating = averageRating;
                 AverageRating.Text = $"Average Rating: {averageRating:F2}";
             }
         }
@@ -411,13 +423,16 @@ namespace Ac.Ratings {
                 () => IsMatch(car.Author, selectedAuthor),
                 () => IsMatch(car.Class, selectedClass),
                 () => car.Name?.Contains(searchText, StringComparison.OrdinalIgnoreCase) ?? false,
-                () => car.Ratings.Physics >= PhysicsFilter.Value,
-                () => car.Ratings.Handling >= HandlingFilter.Value,
+                () => car.Ratings.CornerHandling >= CornerHandlingFilter.Value,
+                () => car.Ratings.Brakes >= BrakingFilter.Value,
                 () => car.Ratings.Realism >= RealismFilter.Value,
                 () => car.Ratings.Sound >= SoundFilter.Value,
-                () => car.Ratings.Visuals >= VisualsFilter.Value,
+                () => car.Ratings.ExteriorQuality >= ExteriorQualityFilter.Value,
+                () => car.Ratings.InteriorQuality >= InteriorQualityFilter.Value,
+                () => car.Ratings.DashboardQuality >= DashboardQualityFilter.Value,
                 () => car.Ratings.FunFactor >= FunFactorFilter.Value,
-                () => car.Ratings.ExtraFeatures >= ExtraFeaturesFilter.Value
+                () => car.Ratings.ExtraFeatures >= ExtraFeaturesFilter.Value,
+                () => car.Ratings.AverageRating >= AverageRatingFilter.Value
             };
 
             return conditions.All(condition => condition());
@@ -474,11 +489,13 @@ namespace Ac.Ratings {
         }
 
         private void ResetFilterSliderValues() {
-            PhysicsFilter.Value = 0;
-            HandlingFilter.Value = 0;
+            CornerHandlingFilter.Value = 0;
+            BrakingFilter.Value = 0;
             RealismFilter.Value = 0;
             SoundFilter.Value = 0;
-            VisualsFilter.Value = 0;
+            ExteriorQualityFilter.Value = 0;
+            InteriorQualityFilter.Value = 0;
+            DashboardQualityFilter.Value = 0;
             FunFactorFilter.Value = 0;
             ExtraFeaturesFilter.Value = 0;
         }

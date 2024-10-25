@@ -33,11 +33,14 @@
     "turboCount": 1
   },
   "ratings": {
-    "handling": 0.0,
-    "physics": 0.0,
+    "cornerHandling": 0.0,
+    "brakes": 0.0,
     "realism": 0.0,
     "sound": 0.0,
-    "visuals": 0.0,
+    "exteriorQuality": 0.0,
+    "interiorQuality": 0.0,
+    "dashboardQuality": 0.0,
+    "forceFeedbackQuality": 0.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0,
     "averageRating": 0.0

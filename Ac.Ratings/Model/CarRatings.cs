@@ -12,6 +12,7 @@ namespace Ac.Ratings.Model {
         private double _interiorQuality;
         private double _dashboardQuality;
         private double _funFactor;
+        private double _forceFeedbackQuality;
         private double _extraFeatures;
         private double _averageRating;
 
@@ -48,6 +49,11 @@ namespace Ac.Ratings.Model {
         [JsonProperty("dashboardQuality")] public double DashboardQuality {
             get => _dashboardQuality;
             set => SetField(ref _dashboardQuality, value);
+        }
+
+        [JsonProperty("forceFeedbackQuality")] public double ForceFeedbackQuality {
+            get => _forceFeedbackQuality;
+            set => SetField(ref _forceFeedbackQuality, value);
         }
 
         [JsonProperty("funFactor")] public double FunFactor {

@@ -164,6 +164,7 @@
                                     <RowDefinition Height="Auto"/>
                                     <RowDefinition Height="Auto"/>
                                     <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
                                 </Grid.RowDefinitions>
 
                                 <TextBlock Grid.Column="0"
@@ -286,13 +287,13 @@
                                         ValueChanged="FilterSlider_OnValueChanged" />
 
                                 <TextBlock Grid.Column="0"
-                                           Grid.Row="7"
-                                           Text="{Binding ElementName=FunFactorFilter, 
-                                            Path=Value, 
-                                            StringFormat='Fun Factor: {0}'}"
-                                           Margin="0,0,5,0"/>
+                                    Grid.Row="7"
+                                    Text="{Binding ElementName=ForceFeedbackQualityFilter, 
+                                    Path=Value, 
+                                    StringFormat='Force Feedback Quality: {0}'}"
+                                    Margin="0,0,5,0" />
 
-                                <Slider x:Name="FunFactorFilter"
+                                <Slider x:Name="ForceFeedbackQualityFilter"
                                         Grid.Column="1"
                                         Grid.Row="7"
                                         Minimum="0"
@@ -300,16 +301,16 @@
                                         TickFrequency="1"
                                         IsSnapToTickEnabled="True"
                                         Width="150"
-                                        ValueChanged="FilterSlider_OnValueChanged"/>
+                                        ValueChanged="FilterSlider_OnValueChanged" />
 
                                 <TextBlock Grid.Column="0"
                                            Grid.Row="8"
-                                           Text="{Binding ElementName=ExtraFeaturesFilter, 
+                                           Text="{Binding ElementName=FunFactorFilter, 
                                             Path=Value, 
-                                            StringFormat='Extra Features: {0}'}"
+                                            StringFormat='Fun Factor: {0}'}"
                                            Margin="0,0,5,0"/>
 
-                                <Slider x:Name="ExtraFeaturesFilter"
+                                <Slider x:Name="FunFactorFilter"
                                         Grid.Column="1"
                                         Grid.Row="8"
                                         Minimum="0"
@@ -321,6 +322,23 @@
 
                                 <TextBlock Grid.Column="0"
                                            Grid.Row="9"
+                                           Text="{Binding ElementName=ExtraFeaturesFilter, 
+                                            Path=Value, 
+                                            StringFormat='Extra Features: {0}'}"
+                                           Margin="0,0,5,0"/>
+
+                                <Slider x:Name="ExtraFeaturesFilter"
+                                        Grid.Column="1"
+                                        Grid.Row="9"
+                                        Minimum="0"
+                                        Maximum="10"
+                                        TickFrequency="1"
+                                        IsSnapToTickEnabled="True"
+                                        Width="150"
+                                        ValueChanged="FilterSlider_OnValueChanged"/>
+
+                                <TextBlock Grid.Column="0"
+                                           Grid.Row="10"
                                            Text="{Binding ElementName=AverageRatingFilter, 
                                             Path=Value, 
                                             StringFormat='Average Rating: {0}'}"
@@ -328,7 +346,7 @@
 
                                 <Slider x:Name="AverageRatingFilter"
                                         Grid.Column="1"
-                                        Grid.Row="9"
+                                        Grid.Row="10"
                                         Minimum="0"
                                         Maximum="10"
                                         TickFrequency="1"
@@ -601,6 +619,21 @@
                     Margin="0,10,0,0" />
 
                 <Slider x:Name="DashboardQualitySlider"
+                        Minimum="0"
+                        Maximum="10"
+                        TickFrequency="0.5"
+                        IsSnapToTickEnabled="True"
+                        Width="150"
+                        ValueChanged="Slider_ValueChanged" />
+
+                <TextBlock
+                    Text="{Binding ElementName=ForceFeedbackQualitySlider, 
+                    Path=Value, 
+                    StringFormat='Force Feedback Quality: {0}'}"
+                    Foreground="White"
+                    Margin="0,10,0,0" />
+
+                <Slider x:Name="ForceFeedbackQualitySlider"
                         Minimum="0"
                         Maximum="10"
                         TickFrequency="0.5"

@@ -52,6 +52,7 @@ namespace Ac.Ratings {
             ExteriorQualitySlider.Value = selectedCar.Ratings.ExteriorQuality;
             InteriorQualitySlider.Value = selectedCar.Ratings.InteriorQuality;
             DashboardQualitySlider.Value = selectedCar.Ratings.DashboardQuality;
+            ForceFeedbackQualitySlider.Value = selectedCar.Ratings.ForceFeedbackQuality;
             FunFactorSlider.Value = selectedCar.Ratings.FunFactor;
             ExtraFeaturesSlider.Value = selectedCar.Ratings.ExtraFeatures;
         }
@@ -207,6 +208,7 @@ namespace Ac.Ratings {
             car.Ratings.ExteriorQuality = ExteriorQualitySlider.Value;
             car.Ratings.InteriorQuality = InteriorQualitySlider.Value;
             car.Ratings.DashboardQuality = DashboardQualitySlider.Value;
+            car.Ratings.ForceFeedbackQuality = ForceFeedbackQualitySlider.Value;
             car.Ratings.FunFactor = FunFactorSlider.Value;
             car.Ratings.ExtraFeatures = ExtraFeaturesSlider.Value;
         }
@@ -257,6 +259,7 @@ namespace Ac.Ratings {
             selectedCar.Ratings.ExteriorQuality = 0;
             selectedCar.Ratings.InteriorQuality = 0;
             selectedCar.Ratings.DashboardQuality = 0;
+            selectedCar.Ratings.ForceFeedbackQuality = 0;
             selectedCar.Ratings.FunFactor = 0;
             selectedCar.Ratings.ExtraFeatures = 0;
         }
@@ -269,6 +272,7 @@ namespace Ac.Ratings {
             ExteriorQualitySlider.Value = 0;
             InteriorQualitySlider.Value = 0;
             DashboardQualitySlider.Value = 0;
+            ForceFeedbackQualitySlider.Value = 0;
             FunFactorSlider.Value = 0;
             ExtraFeaturesSlider.Value = 0;
         }
@@ -286,6 +290,7 @@ namespace Ac.Ratings {
                     selectedCar.Ratings.ExteriorQuality,
                     selectedCar.Ratings.InteriorQuality,
                     selectedCar.Ratings.DashboardQuality,
+                    selectedCar.Ratings.ForceFeedbackQuality,
                     selectedCar.Ratings.FunFactor,
                     selectedCar.Ratings.ExtraFeatures,
 
@@ -430,6 +435,7 @@ namespace Ac.Ratings {
                 () => car.Ratings.ExteriorQuality >= ExteriorQualityFilter.Value,
                 () => car.Ratings.InteriorQuality >= InteriorQualityFilter.Value,
                 () => car.Ratings.DashboardQuality >= DashboardQualityFilter.Value,
+                () => car.Ratings.ForceFeedbackQuality >= ForceFeedbackQualityFilter.Value,
                 () => car.Ratings.FunFactor >= FunFactorFilter.Value,
                 () => car.Ratings.ExtraFeatures >= ExtraFeaturesFilter.Value,
                 () => car.Ratings.AverageRating >= AverageRatingFilter.Value
@@ -496,6 +502,7 @@ namespace Ac.Ratings {
             ExteriorQualityFilter.Value = 0;
             InteriorQualityFilter.Value = 0;
             DashboardQualityFilter.Value = 0;
+            ForceFeedbackQualityFilter.Value = 0;
             FunFactorFilter.Value = 0;
             ExtraFeaturesFilter.Value = 0;
         }

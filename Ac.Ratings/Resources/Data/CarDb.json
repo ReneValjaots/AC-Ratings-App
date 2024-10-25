@@ -43,9 +43,9 @@
       "interiorQuality": 0.0,
       "dashboardQuality": 0.0,
       "forceFeedbackQuality": 0.0,
-      "funFactor": 0.0,
+      "funFactor": 7.5,
       "extraFeatures": 0.0,
-      "averageRating": 0.9
+      "averageRating": 0.0
     }
   },
   {
@@ -84,16 +84,16 @@
     },
     "ratings": {
       "cornerHandling": 0.0,
-      "brakes": 0.0,
-      "realism": 0.0,
-      "sound": 0.0,
-      "exteriorQuality": 0.0,
-      "interiorQuality": 0.0,
+      "brakes": 5.0,
+      "realism": 5.5,
+      "sound": 6.0,
+      "exteriorQuality": 3.0,
+      "interiorQuality": 4.5,
       "dashboardQuality": 0.0,
-      "forceFeedbackQuality": 0.0,
+      "forceFeedbackQuality": 4.5,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
-      "averageRating": 0.0
+      "averageRating": 2.85
     }
   },
   {
@@ -136,12 +136,12 @@
       "realism": 0.0,
       "sound": 0.0,
       "exteriorQuality": 0.0,
-      "interiorQuality": 0.0,
-      "dashboardQuality": 0.0,
-      "forceFeedbackQuality": 0.0,
+      "interiorQuality": 8.0,
+      "dashboardQuality": 6.0,
+      "forceFeedbackQuality": 8.0,
       "funFactor": 0.0,
       "extraFeatures": 0.0,
-      "averageRating": 0.0
+      "averageRating": 2.2
     }
   },
   {
@@ -18641,13 +18641,13 @@
       "brakes": 0.0,
       "realism": 0.0,
       "sound": 0.0,
-      "exteriorQuality": 0.0,
-      "interiorQuality": 0.0,
-      "dashboardQuality": 0.0,
+      "exteriorQuality": 6.0,
+      "interiorQuality": 5.0,
+      "dashboardQuality": 6.0,
       "forceFeedbackQuality": 0.0,
-      "funFactor": 0.0,
+      "funFactor": 7.5,
       "extraFeatures": 0.0,
-      "averageRating": 0.0
+      "averageRating": 2.45
     }
   },
   {

@@ -142,12 +142,10 @@ namespace Ac.Ratings {
                 var previewFilePath = Path.Combine(skinDirectories[i], "preview.jpg");
                 var liveryFilePath = Path.Combine(skinDirectories[i], "livery.png");
 
-                // Load the file paths on a background thread
                 if (File.Exists(previewFilePath) && File.Exists(liveryFilePath)) {
                     var liveryUri = new Uri(liveryFilePath, UriKind.Absolute);
 
                     try {
-                        // Load the image in the background with cancellation support
                         var bitmapImage = await Task.Run(() => {
                             var image = new BitmapImage();
                             image.BeginInit();
@@ -162,7 +160,6 @@ namespace Ac.Ratings {
                             return; // Stop processing if canceled
                         }
 
-                        // Back to the UI thread to add the image control
                         var imageControl = new Image {
                             Width = boxSize,
                             Height = boxSize,
@@ -193,6 +190,8 @@ namespace Ac.Ratings {
             var selectedCar = (Car)CarList.SelectedItem;
             if (selectedCar != null) {
                 SetRatingsFromSliders(selectedCar);
+
+                UpdateAverageRating();
 
                 var jsonContent = JsonConvert.SerializeObject(_data.CarDb, Formatting.Indented);
                 File.WriteAllText(_data.CarDbFilePath, jsonContent);
@@ -296,8 +295,8 @@ namespace Ac.Ratings {
 
                 };
                 var averageRating = ratings.Average();
+                AverageRatingTextBlock.Text = $"Average Rating: {averageRating:F2}";
                 selectedCar.Ratings.AverageRating = averageRating;
-                AverageRating.Text = $"Average Rating: {averageRating:F2}";
             }
         }
 

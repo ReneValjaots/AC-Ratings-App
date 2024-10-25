@@ -36,12 +36,12 @@
     "brakes": 0.0,
     "realism": 0.0,
     "sound": 0.0,
-    "exteriorQuality": 0.0,
-    "interiorQuality": 0.0,
-    "dashboardQuality": 0.0,
+    "exteriorQuality": 6.0,
+    "interiorQuality": 5.0,
+    "dashboardQuality": 6.0,
     "forceFeedbackQuality": 0.0,
-    "funFactor": 0.0,
+    "funFactor": 7.5,
     "extraFeatures": 0.0,
-    "averageRating": 0.0
+    "averageRating": 2.45
   }
 }

@@ -38,11 +38,11 @@
     "realism": 0.0,
     "sound": 0.0,
     "exteriorQuality": 0.0,
-    "interiorQuality": 0.0,
-    "dashboardQuality": 0.0,
-    "forceFeedbackQuality": 0.0,
+    "interiorQuality": 8.0,
+    "dashboardQuality": 6.0,
+    "forceFeedbackQuality": 8.0,
     "funFactor": 0.0,
     "extraFeatures": 0.0,
-    "averageRating": 0.0
+    "averageRating": 2.2
   }
 }

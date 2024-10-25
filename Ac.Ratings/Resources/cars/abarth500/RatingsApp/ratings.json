@@ -6,8 +6,8 @@
   "exteriorQuality": 0.0,
   "interiorQuality": 0.0,
   "dashboardQuality": 4.5,
-  "forceFeedbackQuality": 0.0,
-  "funFactor": 0.0,
-  "extraFeatures": 0.0,
+  "forceFeedbackQuality": 5.0,
+  "funFactor": 7.0,
+  "extraFeatures": 8.0,
   "averageRating": 0.0
 }

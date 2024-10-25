@@ -31,7 +31,18 @@ namespace Ac.Ratings.Services {
             if (!File.Exists(_missingDataLogFilePath)) 
                 File.Create(_missingDataLogFilePath).Dispose();
 
-            File.AppendAllText(_missingDataLogFilePath, $"{DateTime.Now}: {message}\n");
+            int retryCount = 3;
+            while (retryCount > 0) {
+                try {
+                    File.AppendAllText(_missingDataLogFilePath, $"{DateTime.Now}: {message}\n");
+                    break; 
+                }
+                catch (IOException ex) {
+                    Console.WriteLine($"IOException occurred: {ex.Message}");
+                    retryCount--;
+                    Thread.Sleep(100); 
+                }
+            }
         }
 
         private void CreateCarDirectories() {

@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Resources\Backup\" />
+    <Folder Include="Resources\backup\" />
     <Folder Include="Resources\cars\" />
     <Folder Include="ViewModel\" />
     <Folder Include="View\" />

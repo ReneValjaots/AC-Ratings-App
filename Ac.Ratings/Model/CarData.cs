@@ -3,43 +3,43 @@ using System.Runtime.CompilerServices;
 using Newtonsoft.Json;
 
 namespace Ac.Ratings.Model {
-    public class CarData : INotifyPropertyChanged {
-        private string? _tractionType;
-        private int _gearsCount;
-        private bool _supportsShifter;
-        private int _turboCount;
+    //public class CarData : INotifyPropertyChanged {
+    //    private string? _tractionType;
+    //    private int _gearsCount;
+    //    private bool _supportsShifter;
+    //    private int _turboCount;
 
-        [JsonProperty("tractionType")] public string? TractionType {
-            get => _tractionType;
-            set => SetField(ref _tractionType, value);
-        }
+    //    [JsonProperty("tractionType")] public string? TractionType {
+    //        get => _tractionType;
+    //        set => SetField(ref _tractionType, value);
+    //    }
 
-        [JsonProperty("gearsCount")] public int GearsCount {
-            get => _gearsCount;
-            set => SetField(ref _gearsCount, value);
-        }
+    //    [JsonProperty("gearsCount")] public int GearsCount {
+    //        get => _gearsCount;
+    //        set => SetField(ref _gearsCount, value);
+    //    }
 
-        [JsonProperty("supportsShifter")] public bool SupportsShifter {
-            get => _supportsShifter;
-            set => SetField(ref _supportsShifter, value);
-        }
+    //    [JsonProperty("supportsShifter")] public bool SupportsShifter {
+    //        get => _supportsShifter;
+    //        set => SetField(ref _supportsShifter, value);
+    //    }
 
-        [JsonProperty("turboCount")] public int TurboCount {
-            get => _turboCount;
-            set => SetField(ref _turboCount, value);
-        }
+    //    [JsonProperty("turboCount")] public int TurboCount {
+    //        get => _turboCount;
+    //        set => SetField(ref _turboCount, value);
+    //    }
 
-        public event PropertyChangedEventHandler? PropertyChanged;
+    //    public event PropertyChangedEventHandler? PropertyChanged;
 
-        protected bool SetField<T>(ref T field, T value, [CallerMemberName] string? propertyName = null) {
-            if (EqualityComparer<T>.Default.Equals(field, value)) return false;
-            field = value;
-            OnPropertyChanged(propertyName);
-            return true;
-        }
+    //    protected bool SetField<T>(ref T field, T value, [CallerMemberName] string? propertyName = null) {
+    //        if (EqualityComparer<T>.Default.Equals(field, value)) return false;
+    //        field = value;
+    //        OnPropertyChanged(propertyName);
+    //        return true;
+    //    }
 
-        protected void OnPropertyChanged(string? propertyName) {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
-    }
+    //    protected void OnPropertyChanged(string? propertyName) {
+    //        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+    //    }
+    //}
 }

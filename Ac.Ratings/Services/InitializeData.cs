@@ -222,5 +222,37 @@ namespace Ac.Ratings.Services {
         private void OrganizeCarDb() {
             CarDb = CarDb.OrderBy(car => car.Name).ToList();
         }
+
+        private void CreateKunosCarFolders() {
+            string exportRootFolder =
+                @"C:\\Users\\ReneVa\\source\\repos\\Ac.Ratings\\Ac.Ratings\\Resources\\test\\cars\\";
+            foreach (var car in CarDb.Where(c => c.Author.Equals("Kunos", StringComparison.OrdinalIgnoreCase))) {
+                if (string.IsNullOrEmpty(car.FolderName)) {
+                    LogMissingData($"Folder name for Kunos car {car.Name} is null or empty.");
+                    continue;
+                }
+
+                if (string.IsNullOrEmpty(car.FolderPath)) {
+                    LogMissingData($"Folder path for Kunos car {car.Name} is null or empty.");
+                    continue;
+                }
+
+                string carFolder = Path.Combine(exportRootFolder, car.FolderName);
+                Directory.CreateDirectory(carFolder);
+
+                string uiFolder = Path.Combine(carFolder, "ui");
+                Directory.CreateDirectory(uiFolder);
+
+                string sourceUiFilePath = Path.Combine(car.FolderPath, "ui", "ui_car.json");
+
+                if (File.Exists(sourceUiFilePath)) {
+                    var destinationUiFilePath = Path.Combine(uiFolder, "ui_car.json");
+                    File.Copy(sourceUiFilePath, destinationUiFilePath, overwrite: true);
+                }
+                else {
+                    LogMissingData($"ui_car.json not found for Kunos car: {car.Name}");
+                }
+            }
+        }
     }
 }

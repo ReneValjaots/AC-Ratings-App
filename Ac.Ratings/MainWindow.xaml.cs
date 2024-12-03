@@ -10,13 +10,14 @@ using Ac.Ratings.Model;
 using Ac.Ratings.Services;
 using JsonSerializer = System.Text.Json.JsonSerializer;
 
-namespace Ac.Ratings {
+namespace Ac.Ratings
+{
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window {
         //private InitializeData _data;
-        private NewInitializer _initializer;
+        private DataInitializer _initializer;
         private List<Car> _carDb = new();
         private static readonly List<string> _gearboxTags = ["manual", "automatic", "semiautomatic", "sequential"];
         private static readonly List<string> _drivetrainTags = ["rwd", "awd", "fwd"];
@@ -24,7 +25,7 @@ namespace Ac.Ratings {
 
         public MainWindow() {
             InitializeComponent();
-            _initializer = new NewInitializer();
+            _initializer = new DataInitializer();
             LoadCarDatabase();
 
             AuthorFilter.ItemsSource = GetDistinctAuthors();
@@ -61,6 +62,7 @@ namespace Ac.Ratings {
                     }
                 }
             }
+            _carDb = _carDb.OrderBy(x => x.Name).ToList();
         }
 
         private Car? LoadCarData(string filePath) {

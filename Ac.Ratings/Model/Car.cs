@@ -1,87 +1,25 @@
-﻿using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using Newtonsoft.Json;
+﻿using System.Text.Json.Serialization;
 
-namespace Ac.Ratings.Model {
-    //public class Car : INotifyPropertyChanged {
-    //    private CarData _data = new();
-    //    private CarRatings _ratings = new();
-    //    private string? _name;
-    //    private string? _brand;
-    //    private string? _folderName;
-    //    private string? _folderPath;
-    //    private CarSpecs _specs = new();
-    //    private List<string>? _tags;
-    //    private string? _year;
-    //    private string? _author;
-    //    private string? _class;
+namespace Ac.Ratings.Model;
 
-    //    [JsonProperty("name")] public string? Name {
-    //        get => _name;
-    //        set => SetField(ref _name, value);
-    //    }
+public class Car
+{
+    [JsonPropertyName("name")] public string? Name { get; set; }
+    [JsonPropertyName("brand")] public string? Brand { get; set; }
+    [JsonPropertyName("tags")] public List<string>? Tags { get; set; }
+    [JsonPropertyName("class")] public string? Class { get; set; }
+    [JsonPropertyName("specs")] public CarSpecs Specs { get; set; } = new();
+    [JsonPropertyName("torqueCurve")] public List<List<double>>? TorqueCurve { get; set; }
+    [JsonPropertyName("powerCurve")] public List<List<double>>? PowerCurve { get; set; }
+    [JsonPropertyName("country")] public string? Country { get; set; }
+    [JsonPropertyName("year")] public int? Year { get; set; }
+    [JsonPropertyName("author")] public string? Author { get; set; }
+    [JsonPropertyName("ratings")] public CarRatings Ratings { get; set; } = new();
+    [JsonPropertyName("data")] public CarData Data { get; set; } = new();
 
-    //    [JsonProperty("brand")] public string? Brand {
-    //        get => _brand;
-    //        set => SetField(ref _brand, value);
-    //    }
+    [JsonPropertyName("folderPath")]
+    public string? FolderPath { get; set; }
 
-    //    [JsonProperty("year")] public string? Year {
-    //        get => _year;
-    //        set => SetField(ref _year, value);
-    //    }
-
-    //    [JsonProperty("author")] public string? Author {
-    //        get => _author;
-    //        set => SetField(ref _author, value);
-    //    }
-
-    //    [JsonProperty("class")] public string? Class {
-    //        get => _class;
-    //        set => SetField(ref _class, value);
-    //    }
-
-    //    [JsonProperty("folderName")] public string? FolderName {
-    //        get => _folderName;
-    //        set => SetField(ref _folderName, value);
-    //    }
-
-    //    [JsonProperty("folderPath")] public string? FolderPath {
-    //        get => _folderPath;
-    //        set => SetField(ref _folderPath, value);
-    //    }
-
-    //    [JsonProperty("specs")] public CarSpecs Specs {
-    //        get => _specs;
-    //        set => SetField(ref _specs, value);
-    //    }
-
-    //    [JsonProperty("tags")] public List<string>? Tags {
-    //        get => _tags;
-    //        set => SetField(ref _tags, value);
-    //    }
-
-    //    [JsonProperty("data")] public CarData Data {
-    //        get => _data;
-    //        set => SetField(ref _data, value);
-    //    }
-
-    //    [JsonProperty("ratings")] public CarRatings Ratings {
-    //        get => _ratings;
-    //        set => SetField(ref _ratings, value);
-    //    }
-
-    //    public event PropertyChangedEventHandler? PropertyChanged;
-
-    //    protected bool SetField<T>(ref T field, T value, [CallerMemberName] string? propertyName = null) {
-    //        if (EqualityComparer<T>.Default.Equals(field, value)) return false;
-    //        field = value;
-    //        OnPropertyChanged(propertyName);
-    //        return true;
-    //    }
-
-    //    protected void OnPropertyChanged(string? propertyName) {
-    //        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-    //    }
-    //}
+    [JsonPropertyName("folderName")]
+    public string? FolderName { get; set; }
 }

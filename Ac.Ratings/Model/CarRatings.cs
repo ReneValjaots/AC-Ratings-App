@@ -1,87 +1,21 @@
-﻿using Newtonsoft.Json;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
+﻿using System.Text.Json.Serialization;
 
-namespace Ac.Ratings.Model {
-    //public class CarRatings : INotifyPropertyChanged {
-    //    private double _cornerHandling;
-    //    private double _brakes;
-    //    private double _realism;
-    //    private double _sound;
-    //    private double _exteriorQuality;
-    //    private double _interiorQuality;
-    //    private double _dashboardQuality;
-    //    private double _funFactor;
-    //    private double _forceFeedbackQuality;
-    //    private double _extraFeatures;
-    //    private double _averageRating;
+namespace Ac.Ratings.Model;
 
-    //    [JsonProperty("cornerHandling")] public double CornerHandling {
-    //        get => _cornerHandling;
-    //        set => SetField(ref _cornerHandling, value);
-    //    }
+public class CarRatings
+{
+    [JsonPropertyName("cornerHandling")] public double CornerHandling { get; set; } = 0.0;
+    [JsonPropertyName("brakes")] public double Brakes { get; set; } = 0.0;
+    [JsonPropertyName("realism")] public double Realism { get; set; } = 0.0;
+    [JsonPropertyName("sound")] public double Sound { get; set; } = 0.0;
+    [JsonPropertyName("exteriorQuality")] public double ExteriorQuality { get; set; } = 0.0;
+    [JsonPropertyName("interiorQuality")] public double InteriorQuality { get; set; } = 0.0;
+    [JsonPropertyName("dashboardQuality")] public double DashboardQuality { get; set; } = 0.0;
+    [JsonPropertyName("funFactor")] public double FunFactor { get; set; } = 0.0;
 
-    //    [JsonProperty("brakes")] public double Brakes {
-    //        get => _brakes;
-    //        set => SetField(ref _brakes, value);
-    //    }
+    [JsonPropertyName("forceFeedbackQuality")]
+    public double ForceFeedbackQuality { get; set; } = 0.0;
 
-    //    [JsonProperty("realism")] public double Realism {
-    //        get => _realism;
-    //        set => SetField(ref _realism, value);
-    //    }
-
-    //    [JsonProperty("sound")] public double Sound {
-    //        get => _sound;
-    //        set => SetField(ref _sound, value);
-    //    }
-
-    //    [JsonProperty("exteriorQuality")] public double ExteriorQuality {
-    //        get => _exteriorQuality;
-    //        set => SetField(ref _exteriorQuality, value);
-    //    }
-
-    //    [JsonProperty("interiorQuality")] public double InteriorQuality {
-    //        get => _interiorQuality;
-    //        set => SetField(ref _interiorQuality, value);
-    //    }
-
-    //    [JsonProperty("dashboardQuality")] public double DashboardQuality {
-    //        get => _dashboardQuality;
-    //        set => SetField(ref _dashboardQuality, value);
-    //    }
-
-    //    [JsonProperty("forceFeedbackQuality")] public double ForceFeedbackQuality {
-    //        get => _forceFeedbackQuality;
-    //        set => SetField(ref _forceFeedbackQuality, value);
-    //    }
-
-    //    [JsonProperty("funFactor")] public double FunFactor {
-    //        get => _funFactor;
-    //        set => SetField(ref _funFactor, value);
-    //    }
-
-    //    [JsonProperty("extraFeatures")] public double ExtraFeatures {
-    //        get => _extraFeatures;
-    //        set => SetField(ref _extraFeatures, value);
-    //    }
-
-    //    [JsonProperty("averageRating")] public double AverageRating {
-    //        get => _averageRating;
-    //        set => SetField(ref _averageRating, value);
-    //    }
-
-    //    public event PropertyChangedEventHandler? PropertyChanged;
-
-    //    protected bool SetField<T>(ref T field, T value, [CallerMemberName] string? propertyName = null) {
-    //        if (EqualityComparer<T>.Default.Equals(field, value)) return false;
-    //        field = value;
-    //        OnPropertyChanged(propertyName);
-    //        return true;
-    //    }
-
-    //    protected void OnPropertyChanged(string? propertyName) {
-    //        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-    //    }
-    //}
+    [JsonPropertyName("extraFeatures")] public double ExtraFeatures { get; set; } = 0.0;
+    [JsonPropertyName("averageRating")] public double AverageRating { get; set; } = 0.0;
 }

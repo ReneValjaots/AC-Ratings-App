@@ -449,7 +449,7 @@
                     <StackPanel Grid.Column="0" HorizontalAlignment="Center">
                         <TextBlock x:Name="Engine"
                                    Foreground="White"
-                                   FontSize="12"
+                                   FontSize="14"
                                    FontWeight="Bold"
                                    TextAlignment="Center" />
                     </StackPanel>
@@ -457,7 +457,7 @@
                     <StackPanel Grid.Column="1" HorizontalAlignment="Center">
                         <TextBlock x:Name="Gearbox"
                                    Foreground="White"
-                                   FontSize="12"
+                                   FontSize="14"
                                    FontWeight="Bold"
                                    TextAlignment="Center" />
                     </StackPanel>
@@ -465,7 +465,7 @@
                     <StackPanel Grid.Column="2" HorizontalAlignment="Center">
                         <TextBlock x:Name="Drivetrain"
                                    Foreground="White"
-                                   FontSize="12"
+                                   FontSize="14"
                                    FontWeight="Bold"
                                    TextAlignment="Center" />
                     </StackPanel>
@@ -643,6 +643,15 @@
 
                 <StackPanel x:Name="ExtraFeatures">
                     <TextBlock Text="Dashboard lights: " Foreground="White"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+
+
+                    </Grid>
 
                 </StackPanel>
 

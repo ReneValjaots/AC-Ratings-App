@@ -1,8 +1,10 @@
 ﻿using System.IO;
+using System.Text;
 using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using Ac.Ratings.Model;
+using Ac.Ratings.Services.Acd;
 
 namespace Ac.Ratings.Services
 {
@@ -56,6 +58,57 @@ namespace Ac.Ratings.Services
             }
         }
 
+        public CarData? ProcessAcdFile(string carFolder) {
+            var carData = new CarData();
+            var acdFilePath = Path.Combine(_acRootFolder, carFolder, "data.acd");
+            string unpackFolderPath = @"C:\Users\ReneVa\source\repos\Ac.Ratings\Ac.Ratings\Resources\unpackData\";
+
+            if (!File.Exists(acdFilePath)) {
+                LogMissingData($".acd file not found for car: {carFolder}");
+                return null;
+            }
+
+            FileUtils.EnsureDirectoryExists(unpackFolderPath);
+
+            var acd = Acd.Acd.FromFile(acdFilePath);
+
+            acd.ExportDirectory(unpackFolderPath);
+
+            string drivetrainFilePath = Path.Combine(unpackFolderPath, "drivetrain.ini");
+
+            if (File.Exists(drivetrainFilePath)) {
+                var lines = File.ReadAllLines(drivetrainFilePath);
+                foreach (var line in lines) {
+                    if (line.StartsWith("[TRACTION]")) {
+                        carData.TractionType = ParseIniValue(lines, "TYPE");
+                    }
+                    else if (line.StartsWith("[GEARS]")) {
+                        carData.GearsCount = int.Parse(ParseIniValue(lines, "COUNT"));
+                    }
+                }
+            }
+
+            string engineFilePath = Path.Combine(unpackFolderPath, "engine.ini");
+
+            if (File.Exists(engineFilePath)) {
+                var lines = File.ReadAllLines(engineFilePath);
+                carData.TurboCount = lines.Count(line => line.StartsWith("[TURBO_"));
+            }
+
+            try {
+                var directoryInfo = new DirectoryInfo(unpackFolderPath);
+
+                foreach (var file in directoryInfo.GetFiles()) {
+                    file.Delete();
+                }
+            }
+            catch (Exception ex) {
+                LogMissingData($"Failed to clean up unpack folder: {ex.Message}");
+            }
+
+            return carData;
+        }
+
         private void ProcessCarFolder(string carFolder) {
             var ratingsAppFolder = Path.Combine(CarsRootFolder, carFolder, "RatingsApp");
             var uiJsonPath = Path.Combine(ratingsAppFolder, "ui.json");
@@ -68,17 +121,9 @@ namespace Ac.Ratings.Services
             var backupCmUiPath = Path.Combine(cmBackupFolder, "ui_car.json");
             var backupRatingsUiPath = Path.Combine(appBackupFolder, "ui.json");
 
-            if (!Directory.Exists(ratingsAppFolder)) {
-                Directory.CreateDirectory(ratingsAppFolder);
-            }
-
-            if (!Directory.Exists(cmBackupFolder)) {
-                Directory.CreateDirectory(cmBackupFolder);
-            }
-
-            if (!Directory.Exists(appBackupFolder)) {
-                Directory.CreateDirectory(appBackupFolder);
-            }
+            Directory.CreateDirectory(ratingsAppFolder);
+            Directory.CreateDirectory(cmBackupFolder);
+            Directory.CreateDirectory(appBackupFolder);
 
             if (File.Exists(uiJsonPathInOriginalFolder)) {
                 File.Copy(uiJsonPathInOriginalFolder, backupCmUiPath, overwrite: true);
@@ -87,66 +132,51 @@ namespace Ac.Ratings.Services
                 LogMissingData($"ui_car.json not found for car: {carFolder}");
             }
 
-            var newCarData = LoadCarDataFromJson(uiJsonPathInOriginalFolder);
+            var newCar = LoadCarDataFromJson(uiJsonPathInOriginalFolder) ?? new();
             var fetchedData = GetCarDataFromOriginalFolder(originalCarFolder);
-
-            if (newCarData == null) {
-                LogMissingData($"Failed to load valid data from {uiJsonPathInOriginalFolder} for car: {carFolder}");
-                return;
-            }
+            var acdData = ProcessAcdFile(carFolder);
 
             if (fetchedData != null) {
-                if (string.IsNullOrEmpty(newCarData.Data.TractionType)) {
-                    newCarData.Data.TractionType = fetchedData.TractionType;
-                }
-
-                if (newCarData.Data.GearsCount == 0) {
-                    newCarData.Data.GearsCount = fetchedData.GearsCount;
-                }
-
-                if (newCarData.Data.TurboCount == 0) {
-                    newCarData.Data.TurboCount = fetchedData.TurboCount;
-                }
+                newCar.Data.TractionType ??= fetchedData.TractionType;
+                newCar.Data.GearsCount = newCar.Data.GearsCount == 0 ? fetchedData.GearsCount : newCar.Data.GearsCount;
+                newCar.Data.TurboCount = newCar.Data.TurboCount == 0 ? fetchedData.TurboCount : newCar.Data.TurboCount;
             }
-            else {
-                LogMissingData($"No valid data fetched from original folder for car: {carFolder}");
+
+            if (acdData != null) {
+                newCar.Data.TractionType ??= acdData.TractionType;
+                newCar.Data.GearsCount = newCar.Data.GearsCount == 0 ? acdData.GearsCount : newCar.Data.GearsCount;
+                newCar.Data.TurboCount = newCar.Data.TurboCount == 0 ? acdData.TurboCount : newCar.Data.TurboCount;
+                newCar.Data.SupportsShifter = acdData.SupportsShifter;
             }
 
             if (File.Exists(uiJsonPath)) {
                 var existingCarData = LoadCarDataFromJson(uiJsonPath);
                 if (existingCarData != null) {
-                    if (existingCarData.Ratings != null) {
-                        newCarData.Ratings = existingCarData.Ratings;
-                    }
-
-                    if (!string.IsNullOrEmpty(existingCarData.Data.TractionType)) {
-                        newCarData.Data.TractionType = existingCarData.Data.TractionType;
-                    }
-
-                    if (existingCarData.Data.GearsCount > 0) {
-                        newCarData.Data.GearsCount = existingCarData.Data.GearsCount;
-                    }
-
-                    if (existingCarData.Data.TurboCount > 0) {
-                        newCarData.Data.TurboCount = existingCarData.Data.TurboCount;
-                    }
+                    newCar.Ratings ??= existingCarData.Ratings;
+                    newCar.Data.TractionType ??= existingCarData.Data.TractionType;
+                    newCar.Data.GearsCount = newCar.Data.GearsCount == 0 ? existingCarData.Data.GearsCount : newCar.Data.GearsCount;
+                    newCar.Data.TurboCount = newCar.Data.TurboCount == 0 ? existingCarData.Data.TurboCount : newCar.Data.TurboCount;
                 }
             }
 
-            if (string.IsNullOrEmpty(newCarData.Data.TractionType) &&
-                newCarData.Data.GearsCount == 0) {
-                LogMissingData($"Data is missing for car: {carFolder}");
+            // Check for missing critical data
+            if (string.IsNullOrEmpty(newCar.Data.TractionType) || newCar.Data.GearsCount == 0) {
+                LogMissingData($"Critical data missing for car: {carFolder}");
             }
 
-            newCarData.FolderPath = originalCarFolder;
-            newCarData.FolderName = carFolder;
+            // Finalize newCar object
+            newCar.FolderPath = originalCarFolder;
+            newCar.FolderName = carFolder;
 
+            // Save newCar to ui.json
             using (var createStream = new FileStream(uiJsonPath, FileMode.Create, FileAccess.Write, FileShare.None, 4096, FileOptions.None)) {
-                JsonSerializer.Serialize(createStream, newCarData, JsonOptions);
+                JsonSerializer.Serialize(createStream, newCar, JsonOptions);
             }
 
+            // Backup the updated ui.json
             File.Copy(uiJsonPath, backupRatingsUiPath, overwrite: true);
         }
+
 
         private Car? LoadCarDataFromJson(string filePath) {
             if (!File.Exists(filePath)) return null;

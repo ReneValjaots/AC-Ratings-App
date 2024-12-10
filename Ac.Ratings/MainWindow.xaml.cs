@@ -5,7 +5,6 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Xml.Serialization;
 using Ac.Ratings.Model;
 using Ac.Ratings.Services;
 using JsonSerializer = System.Text.Json.JsonSerializer;
@@ -37,18 +36,6 @@ namespace Ac.Ratings
             if (_carDb.Count > 0) {
                 CarList.SelectedIndex = 0;
             }
-
-            //InitializeComponent();
-            //_data = new InitializeData();
-            //AuthorFilter.ItemsSource = GetDistinctAuthors();
-            //AuthorFilter.SelectedIndex = -1;
-            //ClassFilter.ItemsSource = GetDistinctClasses();
-            //ClassFilter.SelectedIndex = -1;
-            //CarList.ItemsSource = _data.CarDb;
-
-            //if (_data.CarDb.Count > 0) {
-            //    CarList.SelectedIndex = 0; 
-            //}
         }
 
         private void LoadCarDatabase() {

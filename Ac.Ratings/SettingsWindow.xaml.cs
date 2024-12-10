@@ -1,6 +1,4 @@
 ﻿using System.Windows;
-using Ac.Ratings.Services;
-using Microsoft.Win32;
 
 namespace Ac.Ratings {
     /// <summary>

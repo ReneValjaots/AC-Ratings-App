@@ -12,10 +12,6 @@ public class CarRatings
     [JsonPropertyName("interiorQuality")] public double InteriorQuality { get; set; } = 0.0;
     [JsonPropertyName("dashboardQuality")] public double DashboardQuality { get; set; } = 0.0;
     [JsonPropertyName("funFactor")] public double FunFactor { get; set; } = 0.0;
-
-    [JsonPropertyName("forceFeedbackQuality")]
-    public double ForceFeedbackQuality { get; set; } = 0.0;
-
-    [JsonPropertyName("extraFeatures")] public double ExtraFeatures { get; set; } = 0.0;
+    [JsonPropertyName("forceFeedbackQuality")] public double ForceFeedbackQuality { get; set; } = 0.0;
     [JsonPropertyName("averageRating")] public double AverageRating { get; set; } = 0.0;
 }

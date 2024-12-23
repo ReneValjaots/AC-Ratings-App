@@ -83,7 +83,6 @@ namespace Ac.Ratings
             InteriorQualitySlider.Value = selectedCar.Ratings.InteriorQuality;
             ForceFeedbackQualitySlider.Value = selectedCar.Ratings.ForceFeedbackQuality;
             FunFactorSlider.Value = selectedCar.Ratings.FunFactor;
-            ExtraFeaturesSlider.Value = selectedCar.Ratings.ExtraFeatures;
         }
 
         private void DisplayCarStats(Car selectedCar) {
@@ -237,7 +236,6 @@ namespace Ac.Ratings
             car.Ratings.InteriorQuality = InteriorQualitySlider.Value;
             car.Ratings.ForceFeedbackQuality = ForceFeedbackQualitySlider.Value;
             car.Ratings.FunFactor = FunFactorSlider.Value;
-            car.Ratings.ExtraFeatures = ExtraFeaturesSlider.Value;
         }
 
         private void SaveCarToFile(Car car) {
@@ -288,7 +286,6 @@ namespace Ac.Ratings
             selectedCar.Ratings.DashboardQuality = 0;
             selectedCar.Ratings.ForceFeedbackQuality = 0;
             selectedCar.Ratings.FunFactor = 0;
-            selectedCar.Ratings.ExtraFeatures = 0;
         }
 
         private void ResetRatingSliderValues() {
@@ -300,7 +297,6 @@ namespace Ac.Ratings
             InteriorQualitySlider.Value = 0;
             ForceFeedbackQualitySlider.Value = 0;
             FunFactorSlider.Value = 0;
-            ExtraFeaturesSlider.Value = 0;
         }
 
         private void SaveButton_Click(object sender, RoutedEventArgs e) => SaveRatings();
@@ -318,8 +314,6 @@ namespace Ac.Ratings
                     selectedCar.Ratings.DashboardQuality,
                     selectedCar.Ratings.ForceFeedbackQuality,
                     selectedCar.Ratings.FunFactor,
-                    selectedCar.Ratings.ExtraFeatures,
-
                 };
                 var averageRating = ratings.Average();
                 AverageRatingTextBlock.Text = $"Average Rating: {averageRating:F2}";
@@ -462,7 +456,6 @@ namespace Ac.Ratings
                 () => car.Ratings.InteriorQuality >= InteriorQualityFilter.Value,
                 () => car.Ratings.ForceFeedbackQuality >= ForceFeedbackQualityFilter.Value,
                 () => car.Ratings.FunFactor >= FunFactorFilter.Value,
-                () => car.Ratings.ExtraFeatures >= ExtraFeaturesFilter.Value,
                 () => car.Ratings.AverageRating >= AverageRatingFilter.Value
             };
 
@@ -528,7 +521,6 @@ namespace Ac.Ratings
             InteriorQualityFilter.Value = 0;
             ForceFeedbackQualityFilter.Value = 0;
             FunFactorFilter.Value = 0;
-            ExtraFeaturesFilter.Value = 0;
             AverageRatingFilter.Value = 0;
         }
 

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ac.Ratings"
         mc:Ignorable="d"
-        Title="Ratings App" Height="900" Width="1600"
+        Title="Ratings App" Height="1000" Width="1900"
         WindowStartupLocation="CenterScreen"
         PreviewKeyDown="MainWindow_PreviewKeyDown">
 
@@ -15,11 +15,11 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="175"/>
+                <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
 
             <Grid.RowDefinitions>
-                <RowDefinition Height="50"/>
+                <RowDefinition Height="auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
@@ -34,7 +34,7 @@
                      Margin="5"
                      TextChanged="SearchBox_TextChanged" />
 
-            <Button x:Name="MenuButton"
+            <!--<Button x:Name="MenuButton"
                     Grid.Row="0"
                     Grid.Column="0"
                     HorizontalAlignment="Right"
@@ -44,7 +44,7 @@
                     Width="30"
                     Click="MenuButton_OnClick">
                 <Image Source="/Images/Hamburger_icon.png" VerticalAlignment="Center" />
-            </Button>
+            </Button>-->
 
             <ListView x:Name="CarList"
                       Grid.Column="0"
@@ -52,7 +52,8 @@
                       SelectionChanged="CarList_SelectionChanged"
                       Background="Transparent"
                       Foreground="White"
-                      Margin="0,0,10,0">
+                      Margin="0,0,10,0"
+                      MinWidth="210">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
@@ -94,7 +95,7 @@
                                Grid.Column="0"
                                Foreground="White"
                                HorizontalAlignment="Center"
-                               FontSize="10"
+                               FontSize="14"
                                Margin="0,2,0,0"
                                Text="Filter by author"/>
 
@@ -112,7 +113,7 @@
                                Grid.Column="1"
                                Foreground="White"
                                HorizontalAlignment="Center"
-                               FontSize="10"
+                               FontSize="14"
                                Margin="0,2,0,0"
                                Text="Filter by class"/>
 
@@ -131,7 +132,7 @@
                                Grid.Column="2"
                                Foreground="White"
                                HorizontalAlignment="Center"
-                               FontSize="10"
+                               FontSize="14"
                                Margin="0,2,0,0"
                                Text="Filter by rating"/>
 
@@ -154,7 +155,6 @@
                                 </Grid.ColumnDefinitions>
 
                                 <Grid.RowDefinitions>
-                                    <RowDefinition Height="Auto"/>
                                     <RowDefinition Height="Auto"/>
                                     <RowDefinition Height="Auto"/>
                                     <RowDefinition Height="Auto"/>
@@ -304,23 +304,6 @@
 
                                 <TextBlock Grid.Column="0"
                                            Grid.Row="8"
-                                           Text="{Binding ElementName=ExtraFeaturesFilter, 
-                                            Path=Value, 
-                                            StringFormat='Extra Features: {0}'}"
-                                           Margin="0,0,5,0"/>
-
-                                <Slider x:Name="ExtraFeaturesFilter"
-                                        Grid.Column="1"
-                                        Grid.Row="8"
-                                        Minimum="0"
-                                        Maximum="10"
-                                        TickFrequency="1"
-                                        IsSnapToTickEnabled="True"
-                                        Width="150"
-                                        ValueChanged="FilterSlider_OnValueChanged"/>
-
-                                <TextBlock Grid.Column="0"
-                                           Grid.Row="9"
                                            Text="{Binding ElementName=AverageRatingFilter, 
                                             Path=Value, 
                                             StringFormat='Average Rating: {0}'}"
@@ -328,7 +311,7 @@
 
                                 <Slider x:Name="AverageRatingFilter"
                                         Grid.Column="1"
-                                        Grid.Row="9"
+                                        Grid.Row="8"
                                         Minimum="0"
                                         Maximum="10"
                                         TickFrequency="1"
@@ -381,7 +364,7 @@
                            VerticalAlignment="Center" />
                 </Grid>
 
-                <Grid>
+                <Grid Margin="0,5,0,0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
@@ -623,36 +606,118 @@
                         Width="150"
                         ValueChanged="Slider_ValueChanged"/>
 
-                <TextBlock Text="{Binding ElementName=ExtraFeaturesSlider, 
-                    Path=Value, 
-                    StringFormat='Extra Features: {0}'}"  
-                           Foreground="White" 
-                           Margin="0,10,0,0"/>
-
-                <Slider x:Name="ExtraFeaturesSlider" 
-                        Minimum="0" 
-                        Maximum="10" 
-                        TickFrequency="1" 
-                        IsSnapToTickEnabled="True" 
-                        Width="150"
-                        ValueChanged="Slider_ValueChanged"/>
-
                 <TextBlock x:Name="AverageRatingTextBlock"
                            Foreground="White"
                            Margin="0,10,0,0"/>
 
-                <StackPanel x:Name="ExtraFeatures">
-                    <TextBlock Text="Dashboard lights: " Foreground="White"/>
-                    <Grid>
+                <StackPanel x:Name="ExtraFeatures" Orientation="Vertical" Margin="10">
+                    <!-- Section Header -->
+                    <TextBlock Text="Extra Features" FontSize="16" FontWeight="Bold" Foreground="White" Margin="0,0,0,10"/>
+
+                    <!-- Dashboard Lights Section -->
+                    <TextBlock Text="Dashboard Lights:" FontSize="14" FontWeight="SemiBold" Foreground="White" Margin="0,5"/>
+                    <Grid Margin="0,0,0,10">
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="3*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="3*" />
+                            <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
 
+                        <!-- Row 1 -->
+                        <Label Grid.Row="0" Grid.Column="0" Content="Turn Signals" Foreground="White" VerticalAlignment="Center"/>
+                        <CheckBox Grid.Row="0" Grid.Column="1" Foreground="White"/>
+                        <Label Grid.Row="0" Grid.Column="2" Content="ABS On (Flashing)" Foreground="White" VerticalAlignment="Center"/>
+                        <CheckBox Grid.Row="0" Grid.Column="3" Foreground="White"/>
 
+                        <!-- Row 2 -->
+                        <Label Grid.Row="1" Grid.Column="0" Content="TC On (Flashing)" Foreground="White" VerticalAlignment="Center"/>
+                        <CheckBox Grid.Row="1" Grid.Column="1" Foreground="White"/>
+                        <Label Grid.Row="1" Grid.Column="2" Content="ABS Off" Foreground="White" VerticalAlignment="Center"/>
+                        <CheckBox Grid.Row="1" Grid.Column="3" Foreground="White"/>
 
+                        <!-- Row 3 -->
+                        <Label Grid.Row="2" Grid.Column="0" Content="TC Off" Foreground="White" VerticalAlignment="Center"/>
+                        <CheckBox Grid.Row="2" Grid.Column="1" Foreground="White"/>
+                        <Label Grid.Row="2" Grid.Column="2" Content="Handbrake" Foreground="White" VerticalAlignment="Center"/>
+                        <CheckBox Grid.Row="2" Grid.Column="3" Foreground="White"/>
+
+                        <!-- Row 4 -->
+                        <Label Grid.Row="3" Grid.Column="0" Content="Lights" Foreground="White" VerticalAlignment="Center"/>
+                        <CheckBox Grid.Row="3" Grid.Column="1" Foreground="White"/>
+                        <Label Grid.Row="3" Grid.Column="2" Content="Other" Foreground="White" VerticalAlignment="Center"/>
+                        <CheckBox Grid.Row="3" Grid.Column="3" Foreground="White"/>
                     </Grid>
 
+                    <!-- Outer Lights Section -->
+                    <TextBlock Text="Exterior:" FontSize="14" FontWeight="SemiBold" Foreground="White" Margin="0,5"/>
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="3*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <!-- Row 1 -->
+                        <Label Grid.Row="0" Grid.Column="0" Content="Turn Signals" Foreground="White" VerticalAlignment="Center"/>
+                        <CheckBox Grid.Row="0" Grid.Column="1" Foreground="White"/>
+                        <Label Grid.Row="0" Grid.Column="2" Content="Good Quality Lights" Foreground="White"
+                               VerticalAlignment="Center" />
+                        <CheckBox Grid.Row="0" Grid.Column="3" Foreground="White" />
+
+                        <!-- Row 2 -->
+                        <Label Grid.Row="1" Grid.Column="0" Content="Emergency Brake Lights" Foreground="White" VerticalAlignment="Center"/>
+                        <CheckBox Grid.Row="1" Grid.Column="1" Foreground="White"/>
+                        <Label Grid.Row="1" Grid.Column="2" Content="Fog Lights" Foreground="White" VerticalAlignment="Center"/>
+                        <CheckBox Grid.Row="1" Grid.Column="3" Foreground="White"/>
+
+                        <!-- Row 3 -->
+                        <Label Grid.Row="2" Grid.Column="0" Content="Sequential Turn Signals" Foreground="White" VerticalAlignment="Center"/>
+                        <CheckBox Grid.Row="2" Grid.Column="1" Foreground="White"/>
+                        <Label Grid.Row="2" Grid.Column="2" Content="Animations" Foreground="White"
+                               VerticalAlignment="Center" />
+                        <CheckBox Grid.Row="2" Grid.Column="3" Foreground="White" />
+                    </Grid>
+
+                    <!-- Others Section -->
+                    <TextBlock Text="Others:" FontSize="14" FontWeight="SemiBold" Foreground="White" Margin="0,5"/>
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="3*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Grid.Column="0" Content="Extended Physics" Foreground="White"
+                               VerticalAlignment="Center" />
+                        <CheckBox Grid.Row="0" Grid.Column="1" Foreground="White" />
+                        <Label Grid.Row="0" Grid.Column="2" Content="Startup Sound" Foreground="White" VerticalAlignment="Center"/>
+                        <CheckBox Grid.Row="0" Grid.Column="3" Foreground="White"/>
+
+
+                        <Label Grid.Row="1" Grid.Column="0" Content="Different displays" Foreground="White"
+                               VerticalAlignment="Center" />
+                        <CheckBox Grid.Row="1" Grid.Column="1" Foreground="White" />
+                        <Label Grid.Row="1" Grid.Column="2" Content="Different Driving Modes" Foreground="White" VerticalAlignment="Center"/>
+                        <CheckBox Grid.Row="1" Grid.Column="3" Foreground="White"/>
+                    </Grid>
                 </StackPanel>
 
                 <Button x:Name="SaveButton" 

@@ -16,6 +16,8 @@
   <ItemGroup>
     <Folder Include="Resources\backup\" />
     <Folder Include="Resources\cars\" />
+    <Folder Include="Resources\data\" />
+    <Folder Include="Resources\config\" />
     <Folder Include="Resources\unpackData\" />
     <Folder Include="ViewModel\" />
     <Folder Include="View\" />

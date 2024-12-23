@@ -685,27 +685,35 @@
 
                         <!-- Row 1 -->
                         <Label Grid.Row="0" Grid.Column="0" Content="Turn Signals" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <CheckBox Grid.Row="0" Grid.Column="1" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <CheckBox Grid.Row="0" Grid.Column="1" IsChecked="{Binding TurnSignalsDashboard, Mode=TwoWay}" 
+                                  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left" />
                         <Label Grid.Row="0" Grid.Column="2" Content="ABS On (Flashing)" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <CheckBox Grid.Row="0" Grid.Column="3" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <CheckBox Grid.Row="0" Grid.Column="3" IsChecked="{Binding ABSOnFlashing, Mode=TwoWay}"
+                                  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
 
                         <!-- Row 2 -->
                         <Label Grid.Row="1" Grid.Column="0" Content="TC On (Flashing)" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <CheckBox Grid.Row="1" Grid.Column="1" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <CheckBox Grid.Row="1" Grid.Column="1" IsChecked="{Binding TCOnFlashing, Mode=TwoWay}"
+                                  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                         <Label Grid.Row="1" Grid.Column="2" Content="ABS Off" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <CheckBox Grid.Row="1" Grid.Column="3" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <CheckBox Grid.Row="1" Grid.Column="3" IsChecked="{Binding ABSOff, Mode=TwoWay}"
+                                  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
 
                         <!-- Row 3 -->
                         <Label Grid.Row="2" Grid.Column="0" Content="TC Off" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <CheckBox Grid.Row="2" Grid.Column="1" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <CheckBox Grid.Row="2" Grid.Column="1" IsChecked="{Binding TCOff, Mode=TwoWay}"
+                                  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                         <Label Grid.Row="2" Grid.Column="2" Content="Handbrake" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <CheckBox Grid.Row="2" Grid.Column="3" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <CheckBox Grid.Row="2" Grid.Column="3" IsChecked="{Binding Handbrake, Mode=TwoWay}"
+                                  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
 
                         <!-- Row 4 -->
                         <Label Grid.Row="3" Grid.Column="0" Content="Lights" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <CheckBox Grid.Row="3" Grid.Column="1" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <CheckBox Grid.Row="3" Grid.Column="1" IsChecked="{Binding LightsDashboard, Mode=TwoWay}"
+                                  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                         <Label Grid.Row="3" Grid.Column="2" Content="Other" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <CheckBox Grid.Row="3" Grid.Column="3" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <CheckBox Grid.Row="3" Grid.Column="3" IsChecked="{Binding OtherDashboard, Mode=TwoWay}"
+                                  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                     </Grid>
 
                     <!-- Outer Lights Section -->
@@ -725,21 +733,27 @@
 
                         <!-- Row 1 -->
                         <Label Grid.Row="0" Grid.Column="0" Content="Turn Signals" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <CheckBox Grid.Row="0" Grid.Column="1" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <CheckBox Grid.Row="0" Grid.Column="1" IsChecked="{Binding TurnSignalsExterior, Mode=TwoWay}"
+                                  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                         <Label Grid.Row="0" Grid.Column="2" Content="Good Quality Lights" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <CheckBox Grid.Row="0" Grid.Column="3" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <CheckBox Grid.Row="0" Grid.Column="3" IsChecked="{Binding GoodQualityLights, Mode=TwoWay}"
+                                  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
 
                         <!-- Row 2 -->
                         <Label Grid.Row="1" Grid.Column="0" Content="Emergency Brake Lights" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <CheckBox Grid.Row="1" Grid.Column="1" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <CheckBox Grid.Row="1" Grid.Column="1" IsChecked="{Binding EmergencyBrakeLights, Mode=TwoWay}"
+                                  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                         <Label Grid.Row="1" Grid.Column="2" Content="Fog Lights" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <CheckBox Grid.Row="1" Grid.Column="3" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <CheckBox Grid.Row="1" Grid.Column="3" IsChecked="{Binding FogLights, Mode=TwoWay}"
+                                  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
 
                         <!-- Row 3 -->
                         <Label Grid.Row="2" Grid.Column="0" Content="Sequential Turn Signals" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <CheckBox Grid.Row="2" Grid.Column="1" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <CheckBox Grid.Row="2" Grid.Column="1" IsChecked="{Binding SequentialTurnSignals, Mode=TwoWay}"
+                                  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                         <Label Grid.Row="2" Grid.Column="2" Content="Animations" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <CheckBox Grid.Row="2" Grid.Column="3" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <CheckBox Grid.Row="2" Grid.Column="3" IsChecked="{Binding Animations, Mode=TwoWay}"
+                                  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                     </Grid>
 
                     <!-- Others Section -->
@@ -757,14 +771,18 @@
                         </Grid.RowDefinitions>
 
                         <Label Grid.Row="0" Grid.Column="0" Content="Extended Physics" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <CheckBox Grid.Row="0" Grid.Column="1" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <CheckBox Grid.Row="0" Grid.Column="1" IsChecked="{Binding ExtendedPhysics, Mode=TwoWay}"
+                                  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                         <Label Grid.Row="0" Grid.Column="2" Content="Startup Sound" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <CheckBox Grid.Row="0" Grid.Column="3" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <CheckBox Grid.Row="0" Grid.Column="3" IsChecked="{Binding StartupSound, Mode=TwoWay}"
+                                  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
 
                         <Label Grid.Row="1" Grid.Column="0" Content="Different Displays" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <CheckBox Grid.Row="1" Grid.Column="1" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <CheckBox Grid.Row="1" Grid.Column="1" IsChecked="{Binding DifferentDisplays, Mode=TwoWay}"
+                                  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                         <Label Grid.Row="1" Grid.Column="2" Content="Different Driving Modes" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <CheckBox Grid.Row="1" Grid.Column="3" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <CheckBox Grid.Row="1" Grid.Column="3" IsChecked="{Binding DifferentDrivingModes, Mode=TwoWay}"
+                                  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                     </Grid>
                 </StackPanel>
 

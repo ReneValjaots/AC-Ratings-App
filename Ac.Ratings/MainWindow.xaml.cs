@@ -71,6 +71,8 @@ namespace Ac.Ratings
                 DisplayCarStats(selectedCar);
                 DisplayCarRatings(selectedCar);
                 UpdateAverageRating();
+
+                DataContext = selectedCar.Ratings;
             }
         }
 

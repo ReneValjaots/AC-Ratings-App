@@ -192,57 +192,6 @@ namespace Ac.Ratings.Services {
             return carData;
         }
 
-        //public void ProcessAcdFileTest(string carFolder) {
-        //    var carData = new CarData();
-        //    var acdFilePath = Path.Combine(carFolder, "data.acd");
-        //    var testFolder = @"C:\\Users\\renev\\source\\repos\\AC-Ratings-App\\Ac.Ratings\\Resources\\tests\\";
-        //    AcdEncryption.Factory = new AcdFactory();
-
-        //    var acd = Acd.Acd.FromFile(acdFilePath);
-
-        //    var drivetrainEntry = acd.GetEntry("drivetrain.ini");
-        //    var engineEntry = acd.GetEntry("engine.ini");
-
-        //    if (drivetrainEntry != null) {
-        //        var content = Encoding.UTF8.GetString(drivetrainEntry.Data);
-        //        var lines = content.Split(new[] { "\r\n", "\n" }, StringSplitOptions.RemoveEmptyEntries);
-
-        //        string? currentSection = null; 
-
-        //        foreach (var line in lines) {
-        //            if (line.StartsWith("[")) currentSection = line.Trim();
-
-        //            else if (currentSection == "[TRACTION]" && line.Contains("TYPE=")) {
-        //                carData.TractionType = ExtractIniValue(line);
-        //            }
-        //            else if (currentSection == "[GEARS]" && line.Contains("COUNT=")) {
-        //                carData.GearsCount = int.Parse(ExtractIniValue(line));
-        //            }
-        //            else if (currentSection == "[GEARBOX]" && line.Contains("SUPPORTS_SHIFTER=")) {
-        //                carData.SupportsShifter = ExtractIniValue(line) == "1";
-        //            }
-        //        }
-        //    }
-
-        //    if (engineEntry != null) {
-        //        var content = Encoding.UTF8.GetString(engineEntry.Data);
-        //        var lines = content.Split(new[] { "\r\n", "\n" }, StringSplitOptions.RemoveEmptyEntries);
-
-        //        int turboCount = 0;
-
-        //        foreach (var line in lines) {
-        //            if (line.StartsWith("[TURBO_")) {
-        //                turboCount++;
-        //            }
-        //        }
-
-        //        carData.TurboCount = turboCount;
-        //    }
-
-        //    File.WriteAllText(@"C:\\Users\\renev\\source\\repos\\AC-Ratings-App\\Ac.Ratings\\Resources\\tests\\output.txt",
-        //        JsonSerializer.Serialize(carData, JsonOptions));
-        //}
-
         private void ProcessCarFolder(string carFolder) {
             var ratingsAppFolder = Path.Combine(CarsRootFolder, carFolder, "RatingsApp");
             var uiJsonPath = Path.Combine(ratingsAppFolder, "ui.json");

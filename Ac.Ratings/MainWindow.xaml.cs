@@ -69,30 +69,14 @@ namespace Ac.Ratings
             if (selectedCar != null) {
                 LoadCarImage(selectedCar);
                 DisplayCarStats(selectedCar);
-                DisplayCarRatings(selectedCar);
                 UpdateAverageRating();
 
-                DataContext = selectedCar.Ratings;
+                DataContext = selectedCar;
             }
-        }
-
-        private void DisplayCarRatings(Car selectedCar) {
-            CornerHandlingSlider.Value = selectedCar.Ratings.CornerHandling;
-            BrakesSlider.Value = selectedCar.Ratings.Brakes;
-            RealismSlider.Value = selectedCar.Ratings.Realism;
-            SoundSlider.Value = selectedCar.Ratings.Sound;
-            ExteriorQualitySlider.Value = selectedCar.Ratings.ExteriorQuality;
-            InteriorQualitySlider.Value = selectedCar.Ratings.InteriorQuality;
-            ForceFeedbackQualitySlider.Value = selectedCar.Ratings.ForceFeedbackQuality;
-            FunFactorSlider.Value = selectedCar.Ratings.FunFactor;
         }
 
         private void DisplayCarStats(Car selectedCar) {
             Name.Text = selectedCar.Name;
-            PowerFigures.Text = selectedCar.Specs.Bhp ?? string.Empty;
-            TorqueFigures.Text = selectedCar.Specs.Torque ?? string.Empty;
-            AccelerationFigures.Text = selectedCar.Specs.Acceleration ?? string.Empty;
-            TopSpeedFigures.Text = selectedCar.Specs.TopSpeed ?? string.Empty;
 
             Engine.Text = ShowCarEngineStats(selectedCar);
             Drivetrain.Text = ShowCarDriveTrain(selectedCar);
@@ -323,23 +307,10 @@ namespace Ac.Ratings
             }
         }
 
-        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) => UpdateAverageRating();
-
         private void ClearButton_Click(object sender, RoutedEventArgs e) => ClearRatings();
 
         private void SearchBox_TextChanged(object sender, TextChangedEventArgs e) {
             UpdateCarListFilter();
-        }
-
-        private void MenuButton_OnClick(object sender, RoutedEventArgs e) {
-            if (CarList.Visibility == Visibility.Visible) {
-                CarList.Visibility = Visibility.Collapsed;
-                SearchBox.Visibility = Visibility.Collapsed;
-            }
-            else {
-                CarList.Visibility = Visibility.Visible;
-                SearchBox.Visibility = Visibility.Visible;
-            }
         }
 
         private string ShowCarDriveTrain(Car selectedCar) {

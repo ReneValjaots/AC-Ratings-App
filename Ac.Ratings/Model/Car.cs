@@ -2,8 +2,7 @@
 
 namespace Ac.Ratings.Model;
 
-public class Car
-{
+public class Car {
     [JsonPropertyName("name")] public string? Name { get; set; }
     [JsonPropertyName("brand")] public string? Brand { get; set; }
     [JsonPropertyName("tags")] public List<string>? Tags { get; set; }
@@ -16,10 +15,6 @@ public class Car
     [JsonPropertyName("author")] public string? Author { get; set; }
     [JsonPropertyName("ratings")] public CarRatings Ratings { get; set; } = new();
     [JsonPropertyName("data")] public CarData Data { get; set; } = new();
-
-    [JsonPropertyName("folderPath")]
-    public string? FolderPath { get; set; }
-
-    [JsonPropertyName("folderName")]
-    public string? FolderName { get; set; }
+    [JsonPropertyName("folderPath")] public string? FolderPath { get; set; }
+    [JsonPropertyName("folderName")] public string? FolderName { get; set; }
 }

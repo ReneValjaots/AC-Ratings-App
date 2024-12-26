@@ -15,7 +15,6 @@ namespace Ac.Ratings
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window {
-        //private InitializeData _data;
         private DataInitializer _initializer;
         private ConfigManager _configManager;
         private List<Car> _carDb = new();
@@ -551,8 +550,7 @@ namespace Ac.Ratings
 
         private void CreateBackupOfCarDb() {
             try {
-                string resourcesFolder = Directory.GetParent(Directory.GetParent(_configManager.CarDbFilePath).FullName).FullName;
-                string backupFolder = Path.Combine(resourcesFolder, "backup");
+                string backupFolder = _configManager.BackupFolder;
 
                 if (!Directory.Exists(backupFolder)) {
                     Directory.CreateDirectory(backupFolder);
@@ -561,14 +559,45 @@ namespace Ac.Ratings
                 string backupFileName = $"CarDb_backup_{DateTime.Now:dd_mm_yyyy_HHmm}.json";
                 string backupFilePath = Path.Combine(backupFolder, backupFileName);
 
-                File.Copy(_configManager.CarDbFilePath, backupFilePath, overwrite: true);
+                var jsonContent = JsonSerializer.Serialize(_carDb, _configManager.JsonOptions);
+                File.WriteAllText(backupFilePath, jsonContent);
 
-                MessageBox.Show("Backup of CarDb.json created successfully.", "Backup Complete", MessageBoxButton.OK,
-                    MessageBoxImage.Information);
+                var backupFiles = Directory.GetFiles(backupFolder, "CarDb_backup_*.json")
+                    .OrderByDescending(File.GetCreationTime)
+                    .ToList();
+
+
+                if (backupFiles.Count > 5) {
+                    foreach (var oldBackup in backupFiles.Skip(5)) {
+                        File.Delete(oldBackup);
+                    }
+                }
             }
             catch (Exception ex) {
                 MessageBox.Show($"Error creating backup: {ex.Message}", "Backup Error", MessageBoxButton.OK,
                     MessageBoxImage.Error);
+            }
+        }
+
+        private void RestoreCarDbFromBackup(string backupFilePath) {
+            try {
+                if (!File.Exists(backupFilePath)) {
+                    MessageBox.Show("Selected backup file not found.", "Restore Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
+                }
+
+                var jsonContent = File.ReadAllText(backupFilePath);
+                var restoredCarDb = JsonSerializer.Deserialize<List<Car>>(jsonContent, _configManager.JsonOptions);
+
+                if (restoredCarDb != null) {
+                    _carDb = restoredCarDb.OrderBy(x => x.Name).ToList();
+                    CarList.ItemsSource = _carDb;
+                    CarList.Items.Refresh();
+                    MessageBox.Show("Car database restored successfully.", "Restore Complete", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+            }
+            catch (Exception ex) {
+                MessageBox.Show($"Failed to restore CarDb from backup: {ex.Message}", "Restore Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -603,6 +632,10 @@ namespace Ac.Ratings
                     }
                 }
             }
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e) {
+            CreateBackupOfCarDb();
         }
     }
 }

@@ -1,111 +1,23 @@
 ﻿using System.IO;
 using System.Text;
-using System.Text.Encodings.Web;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 using Ac.Ratings.Model;
 using Ac.Ratings.Services.Acd;
 
 namespace Ac.Ratings.Services {
     public class DataInitializer {
-        public string ConfigFilePath;
-        public string CarsRootFolder;
-        public string CarDbFilePath;
-        private string _missingDataLogFilePath;
-        private string _backupFolder;
-        //private string _unpackFolderPath;
         private string _acRootFolder;
-
-        public readonly JsonSerializerOptions JsonOptions = new() {
-            Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
-            WriteIndented = true,
-            DefaultIgnoreCondition = JsonIgnoreCondition.Never
-        };
+        private ConfigManager _configManager;
 
         public DataInitializer() {
-            var resourceFolder = LoadConfigValue("ResourceFolder")
-                                 ?? Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, @"..\..\..\Resources"));
+            _configManager = new ConfigManager();
+            _acRootFolder = _configManager.AcRootFolder;
 
-            ConfigFilePath = Path.Combine(resourceFolder, "config", "config.json");
-            EnsureConfigFileExists();
+            if (File.Exists(_configManager.MissingDataLogFilePath))
+                File.WriteAllText(_configManager.MissingDataLogFilePath, string.Empty);
 
-            if (LoadConfigValue("ResourceFolder") == null) {
-                SaveConfigValue("ResourceFolder", resourceFolder);
-            }
-
-            CarsRootFolder = Path.Combine(resourceFolder, "cars");
-            CarDbFilePath = Path.Combine(resourceFolder, "data", "CarDb.json");
-            _missingDataLogFilePath = Path.Combine(resourceFolder, "data", "MissingDataLog.txt");
-            _backupFolder = Path.Combine(resourceFolder, "backup");
-            //_unpackFolderPath = Path.Combine(resourceFolder, "unpackData");
-
-            _acRootFolder = InitializeAcRootFolder();
-
-            if (File.Exists(_missingDataLogFilePath))
-                File.WriteAllText(_missingDataLogFilePath, string.Empty);
-
-            CreateCarFolders(_acRootFolder);
+            CreateCarFolders();
             InitializeCarData();
- 
-
-        }
-
-        private string InitializeAcRootFolder() {
-            var rootFolder = LoadConfigValue("AcRootFolder");
-
-            if (string.IsNullOrEmpty(rootFolder) || !Directory.Exists(rootFolder)) {
-                rootFolder = AskUserForAcRootFolder();
-
-                if (!string.IsNullOrEmpty(rootFolder)) {
-                    SaveConfigValue("AcRootFolder", rootFolder);
-                }
-                else {
-                    throw new InvalidOperationException("Assetto Corsa root folder is required.");
-                }
-            }
-
-            return rootFolder;
-        }
-
-        private void EnsureConfigFileExists() {
-            var directoryPath = Path.GetDirectoryName(ConfigFilePath);
-            if (!Directory.Exists(directoryPath)) {
-                Directory.CreateDirectory(directoryPath!);
-            }
-
-            if (!File.Exists(ConfigFilePath)) {
-                var defaultConfig = new Dictionary<string, string>();
-                File.WriteAllText(ConfigFilePath, JsonSerializer.Serialize(defaultConfig, JsonOptions));
-            }
-        }
-
-        private string? LoadConfigValue(string key) {
-            if (File.Exists(ConfigFilePath)) {
-                var config = JsonSerializer.Deserialize<Dictionary<string, string>>(File.ReadAllText(ConfigFilePath));
-                return config?.GetValueOrDefault(key);
-            }
-            return null;
-        }
-
-        private void SaveConfigValue(string key, string value) {
-            Dictionary<string, string> config;
-
-            if (File.Exists(ConfigFilePath)) {
-                config = JsonSerializer.Deserialize<Dictionary<string, string>>(File.ReadAllText(ConfigFilePath)) ?? new Dictionary<string, string>();
-            }
-            else {
-                config = new Dictionary<string, string>();
-            }
-            config[key] = value;
-            File.WriteAllText(ConfigFilePath, JsonSerializer.Serialize(config, JsonOptions));
-        }
-
-        private string? AskUserForAcRootFolder() {
-            var window = new AcRootFolderWindow();
-            if (window.ShowDialog() == true) {
-                return window.SelectedPath;
-            }
-            return null;
         }
 
         public List<string?> GetAllCarFolderNames(string rootFolder) {
@@ -114,11 +26,11 @@ namespace Ac.Ratings.Services {
                 .ToList();
         }
 
-        public void CreateCarFolders(string rootFolder) {
-            var carFolders = GetAllCarFolderNames(rootFolder);
+        public void CreateCarFolders() {
+            var carFolders = GetAllCarFolderNames(_acRootFolder);
             foreach (var carFolder in carFolders) {
                 if (carFolder is null) continue;
-                var newFolder = Path.Combine(CarsRootFolder, carFolder);
+                var newFolder = Path.Combine(_configManager.CarsRootFolder, carFolder);
                 if (!Directory.Exists(newFolder)) {
                     Directory.CreateDirectory(newFolder);
                 }
@@ -178,13 +90,7 @@ namespace Ac.Ratings.Services {
                 var content = Encoding.UTF8.GetString(engineEntry.Data);
                 var lines = content.Split(new[] { "\r\n", "\n" }, StringSplitOptions.RemoveEmptyEntries);
 
-                int turboCount = 0;
-
-                foreach (var line in lines) {
-                    if (line.StartsWith("[TURBO_")) {
-                        turboCount++;
-                    }
-                }
+                int turboCount = lines.Count(line => line.StartsWith("[TURBO_"));
 
                 carData.TurboCount = turboCount;
             }
@@ -193,14 +99,14 @@ namespace Ac.Ratings.Services {
         }
 
         private void ProcessCarFolder(string carFolder) {
-            var ratingsAppFolder = Path.Combine(CarsRootFolder, carFolder, "RatingsApp");
+            var ratingsAppFolder = Path.Combine(_configManager.CarsRootFolder, carFolder, "RatingsApp");
             var uiJsonPath = Path.Combine(ratingsAppFolder, "ui.json");
             var originalCarFolder = Path.Combine(_acRootFolder, carFolder);
             var uiJsonPathInOriginalFolder = Path.Combine(originalCarFolder, "ui", "ui_car.json");
 
 
-            var cmBackupFolder = Path.Combine(_backupFolder, "cm", carFolder);
-            var appBackupFolder = Path.Combine(_backupFolder, "ratings", carFolder);
+            var cmBackupFolder = Path.Combine(_configManager.BackupFolder, "cm", carFolder);
+            var appBackupFolder = Path.Combine(_configManager.BackupFolder, "ratings", carFolder);
             var backupCmUiPath = Path.Combine(cmBackupFolder, "ui_car.json");
             var backupRatingsUiPath = Path.Combine(appBackupFolder, "ui.json");
 
@@ -254,7 +160,7 @@ namespace Ac.Ratings.Services {
 
             // Save newCar to ui.json
             using (var createStream = new FileStream(uiJsonPath, FileMode.Create, FileAccess.Write, FileShare.None, 4096, FileOptions.None)) {
-                JsonSerializer.Serialize(createStream, newCar, JsonOptions);
+                JsonSerializer.Serialize(createStream, newCar, _configManager.JsonOptions);
             }
 
             // Backup the updated ui.json
@@ -276,12 +182,18 @@ namespace Ac.Ratings.Services {
 
             if (File.Exists(drivetrainFilePath)) {
                 var lines = File.ReadAllLines(drivetrainFilePath);
+                string? currentSection = null;
                 foreach (var line in lines) {
-                    if (line.StartsWith("[TRACTION]")) {
-                        carData.TractionType = ParseIniValue(lines, "TYPE");
+                    if (line.StartsWith("[")) currentSection = line.Trim();
+
+                    else if (currentSection == "[TRACTION]" && line.Contains("TYPE=")) {
+                        carData.TractionType = ExtractIniValue(line);
                     }
-                    else if (line.StartsWith("[GEARS]")) {
-                        carData.GearsCount = int.Parse(ParseIniValue(lines, "COUNT"));
+                    else if (currentSection == "[GEARS]" && line.Contains("COUNT=")) {
+                        carData.GearsCount = int.Parse(ExtractIniValue(line));
+                    }
+                    else if (currentSection == "[GEARBOX]" && line.Contains("SUPPORTS_SHIFTER=")) {
+                        carData.SupportsShifter = ExtractIniValue(line) == "1";
                     }
                 }
             }
@@ -294,29 +206,19 @@ namespace Ac.Ratings.Services {
             return carData;
         }
 
-        private string ParseIniValue(string[] lines, string key) {
-            foreach (var line in lines) {
-                if (line.StartsWith(key)) {
-                    return line.Split('=')[1].Split(';')[0].Trim();
-                }
-            }
-
-            return string.Empty;
-        }
-
         private string ExtractIniValue(string line) {
             var parts = line.Split(new[] { '=' }, 2); 
             return parts.Length > 1 ? parts[1].Split(';')[0].Trim() : string.Empty;
         }
 
         private void LogMissingData(string message) {
-            var directoryPath = Path.GetDirectoryName(_missingDataLogFilePath);
+            var directoryPath = Path.GetDirectoryName(_configManager.MissingDataLogFilePath);
             if (directoryPath != null && !Directory.Exists(directoryPath)) {
                 Directory.CreateDirectory(directoryPath);
             }
 
             try {
-                File.AppendAllText(_missingDataLogFilePath, $"{DateTime.Now}: {message}{Environment.NewLine}");
+                File.AppendAllText(_configManager.MissingDataLogFilePath, $"{DateTime.Now}: {message}{Environment.NewLine}");
             }
             catch (IOException ex) {
                 Console.WriteLine($"Failed to log missing data: {ex.Message}");

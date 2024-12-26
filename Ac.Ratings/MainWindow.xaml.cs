@@ -17,6 +17,7 @@ namespace Ac.Ratings
     public partial class MainWindow : Window {
         //private InitializeData _data;
         private DataInitializer _initializer;
+        private ConfigManager _configManager;
         private List<Car> _carDb = new();
         private static readonly List<string> _gearboxTags = ["manual", "automatic", "semiautomatic", "sequential"];
         private static readonly List<string> _drivetrainTags = ["rwd", "awd", "fwd"];
@@ -25,6 +26,7 @@ namespace Ac.Ratings
         public MainWindow() {
             InitializeComponent();
             _initializer = new DataInitializer();
+            _configManager = new ConfigManager();
             LoadCarDatabase();
 
             AuthorFilter.ItemsSource = GetDistinctAuthors();
@@ -39,9 +41,10 @@ namespace Ac.Ratings
         }
 
         private void LoadCarDatabase() {
-            var carFolders = _initializer.GetAllCarFolderNames(_initializer.CarsRootFolder);
+            var carFolders = _initializer.GetAllCarFolderNames(_configManager.CarsRootFolder);
             foreach (var carFolder in carFolders) {
-                var uiJsonPath = Path.Combine(_initializer.CarsRootFolder, carFolder, "RatingsApp", "ui.json");
+                if (carFolder == null) continue;
+                var uiJsonPath = Path.Combine(_configManager.CarsRootFolder, carFolder, "RatingsApp", "ui.json");
                 if (File.Exists(uiJsonPath)) {
                     var carData = LoadCarData(uiJsonPath);
                     if (carData != null) {
@@ -56,7 +59,7 @@ namespace Ac.Ratings
         private Car? LoadCarData(string filePath) {
             try {
                 var jsonContent = File.ReadAllText(filePath);
-                var car = JsonSerializer.Deserialize<Car>(jsonContent, _initializer.JsonOptions);
+                var car = JsonSerializer.Deserialize<Car>(jsonContent, _configManager.JsonOptions);
                 return car;
             }
             catch (Exception ex) {
@@ -197,8 +200,8 @@ namespace Ac.Ratings
 
                 UpdateAverageRating();
 
-                var jsonContent = JsonSerializer.Serialize(_carDb, _initializer.JsonOptions);
-                File.WriteAllText(_initializer.CarDbFilePath, jsonContent);
+                var jsonContent = JsonSerializer.Serialize(_carDb, _configManager.JsonOptions);
+                File.WriteAllText(_configManager.CarDbFilePath, jsonContent);
                 SaveCarToFile(selectedCar);
             }
         }
@@ -216,7 +219,7 @@ namespace Ac.Ratings
 
         private void SaveCarToFile(Car car) {
             try {
-                if (string.IsNullOrEmpty(_initializer.CarsRootFolder)) {
+                if (string.IsNullOrEmpty(_configManager.CarsRootFolder)) {
                     MessageBox.Show("Cars root folder path is null or empty.");
                     return;
                 }
@@ -226,9 +229,9 @@ namespace Ac.Ratings
                     return;
                 }
 
-                var carFolderPath = Path.Combine(_initializer.CarsRootFolder, car.FolderName);
+                var carFolderPath = Path.Combine(_configManager.CarsRootFolder, car.FolderName);
                 var carJsonFilePath = Path.Combine(carFolderPath, "RatingsApp", "ui.json");
-                var jsonContent = JsonSerializer.Serialize(car, _initializer.JsonOptions);
+                var jsonContent = JsonSerializer.Serialize(car, _configManager.JsonOptions);
                 File.WriteAllText(carJsonFilePath, jsonContent);
             }
             catch (Exception ex) {
@@ -243,8 +246,8 @@ namespace Ac.Ratings
 
                 ResetRatingSliderValues();
 
-                var jsonContent = JsonSerializer.Serialize(_carDb, _initializer.JsonOptions);
-                File.WriteAllText(_initializer.CarDbFilePath, jsonContent);
+                var jsonContent = JsonSerializer.Serialize(_carDb, _configManager.JsonOptions);
+                File.WriteAllText(_configManager.CarDbFilePath, jsonContent);
 
                 UpdateAverageRating();
 
@@ -488,8 +491,6 @@ namespace Ac.Ratings
             AverageRatingFilter.Value = 0;
         }
 
-        private void ResetExtraFeaturesValues() { }
-
         private void AuthorFilter_OnSelectionChanged(object sender, SelectionChangedEventArgs e) {
             if (AuthorFilter.SelectedItem?.ToString() == "-- Reset --") {
                 AuthorFilter.SelectedIndex = -1;
@@ -525,19 +526,19 @@ namespace Ac.Ratings
             foreach (var car in _carDb) {
                 ResetRatingValues(car);
                 if (car.FolderName != null) {
-                    var carFolder = Path.Combine(_initializer.CarsRootFolder, car.FolderName);
+                    var carFolder = Path.Combine(_configManager.CarsRootFolder, car.FolderName);
                     var carRatingsAppFolder = Path.Combine(carFolder, "RatingsApp");
                     var carJsonPath = Path.Combine(carRatingsAppFolder, "ui.json");
 
                     if (Directory.Exists(carRatingsAppFolder)) {
-                        var jsonContent = JsonSerializer.Serialize(car, _initializer.JsonOptions);
+                        var jsonContent = JsonSerializer.Serialize(car, _configManager.JsonOptions);
                         File.WriteAllText(carJsonPath, jsonContent);
                     }
                 }
             }
 
-            var dbJsonContent = JsonSerializer.Serialize(_carDb, _initializer.JsonOptions);
-            File.WriteAllText(_initializer.CarDbFilePath, dbJsonContent);
+            var dbJsonContent = JsonSerializer.Serialize(_carDb, _configManager.JsonOptions);
+            File.WriteAllText(_configManager.CarDbFilePath, dbJsonContent);
             CarList.Items.Refresh();
 
             var previouslySelectedCar = CarList.SelectedItem;
@@ -550,7 +551,7 @@ namespace Ac.Ratings
 
         private void CreateBackupOfCarDb() {
             try {
-                string resourcesFolder = Directory.GetParent(Directory.GetParent(_initializer.CarDbFilePath).FullName).FullName;
+                string resourcesFolder = Directory.GetParent(Directory.GetParent(_configManager.CarDbFilePath).FullName).FullName;
                 string backupFolder = Path.Combine(resourcesFolder, "backup");
 
                 if (!Directory.Exists(backupFolder)) {
@@ -560,7 +561,7 @@ namespace Ac.Ratings
                 string backupFileName = $"CarDb_backup_{DateTime.Now:dd_mm_yyyy_HHmm}.json";
                 string backupFilePath = Path.Combine(backupFolder, backupFileName);
 
-                File.Copy(_initializer.CarDbFilePath, backupFilePath, overwrite: true);
+                File.Copy(_configManager.CarDbFilePath, backupFilePath, overwrite: true);
 
                 MessageBox.Show("Backup of CarDb.json created successfully.", "Backup Complete", MessageBoxButton.OK,
                     MessageBoxImage.Information);

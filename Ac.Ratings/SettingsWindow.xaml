@@ -6,93 +6,94 @@
     xmlns:local="clr-namespace:Ac.Ratings"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="SettingsWindow"
-    Width="400"
-    Height="300"
+    Width="800"
+    Height="600"
     WindowStartupLocation="CenterScreen"
-    mc:Ignorable="d">
-    <Border Background="Black" CornerRadius="10">
+    mc:Ignorable="d" Closing="Window_Closing">
+    <Border Background="Black" CornerRadius="10" Padding="20">
         <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
+            <TabControl Background="Black" Foreground="White">
+                <!-- General Settings Tab -->
+                <TabItem Header="General">
+                    <StackPanel Margin="5">
+                        <Grid Margin="0,10,0,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock
+                                Grid.Column="0"
+                                VerticalAlignment="Center"
+                                FontSize="16"
+                                Foreground="White"
+                                Text="Reset Ratings" />
+                            <Button
+                                x:Name="ResetRatingsButton"
+                                Grid.Column="1"
+                                Width="100"
+                                Margin="10,0,0,0"
+                                HorizontalAlignment="Right"
+                                Click="ResetRatingsButton_Click"
+                                Content="Reset" />
+                        </Grid>
 
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-            </Grid.RowDefinitions>
+                        <!-- Transfer Ratings -->
+                        <Grid Margin="0,10,0,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock
+                                Grid.Column="0"
+                                VerticalAlignment="Center"
+                                FontSize="16"
+                                Foreground="White"
+                                Text="Transfer Ratings" />
+                            <Button
+                                x:Name="TransferRatingsButton"
+                                Grid.Column="1"
+                                Width="100"
+                                Margin="10,0,0,0"
+                                HorizontalAlignment="Right"
+                                Click="TransferRatingsButton_OnClick"
+                                Content="Set Folder" />
+                        </Grid>
+                    </StackPanel>
+                </TabItem>
 
-            <StackPanel
-                Margin="20"
-                HorizontalAlignment="Center"
-                VerticalAlignment="Center"
-                Orientation="Vertical">
+                <!-- Assetto Corsa Root Folder Tab -->
+                <TabItem Header="Root folder">
+                    <Border Background="Black" CornerRadius="8" Padding="5">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
 
-                <!--  Reset Ratings  -->
-                <Grid Margin="0,10,0,10">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
-                    <TextBlock
-                        Grid.Column="0"
-                        VerticalAlignment="Center"
-                        FontSize="16"
-                        Foreground="White"
-                        Text="Reset Ratings" />
-                    <Button
-                        x:Name="ResetRatingsButton"
-                        Grid.Column="1"
-                        Width="100"
-                        Margin="10,0,0,0"
-                        HorizontalAlignment="Right"
-                        Click="ResetRatingsButton_Click"
-                        Content="Reset" />
-                </Grid>
+                            <!-- Input Section -->
+                            <StackPanel Grid.Row="0" Orientation="Vertical">
+                                <TextBlock Text="Enter the path to the Assetto Corsa root folder:" Foreground="White" />
+                                <TextBox x:Name="RootFolderPath" Background="White" Foreground="Black"
+                                         BorderBrush="#444444"
+                                         Height="35" Padding="5" Margin="0,5,0,0" />
+                            </StackPanel>
 
-                <!--  AC Root Folder  -->
-                <Grid Margin="0,10,0,10">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
-                    <TextBlock
-                        Grid.Column="0"
-                        VerticalAlignment="Center"
-                        FontSize="16"
-                        Foreground="White"
-                        Text="AC Root Folder" />
-                    <Button
-                        x:Name="SetRootFolderButton"
-                        Grid.Column="1"
-                        Width="100"
-                        Margin="10,0,0,0"
-                        HorizontalAlignment="Right"
-                        Click="SetRootFolderButton_OnClick"
-                        Content="Set Folder" />
-                </Grid>
-
-                <!--  Transfer Ratings  -->
-                <Grid Margin="0,10,0,10">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
-                    <TextBlock
-                        Grid.Column="0"
-                        VerticalAlignment="Center"
-                        FontSize="16"
-                        Foreground="White"
-                        Text="Transfer ratings" />
-                    <Button
-                        x:Name="TransferRatingsButton"
-                        Grid.Column="1"
-                        Width="100"
-                        Margin="10,0,0,0"
-                        HorizontalAlignment="Right"
-                        Click="TransferRatingsButton_OnClick"
-                        Content="Set Folder" />
-                </Grid>
-
-            </StackPanel>
+                            <!-- Buttons Section -->
+                            <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center"
+                                        Margin="0,20,0,0">
+                                <Button x:Name="OkButton" Content="Ok" Width="100" Height="40" Background="Black"
+                                        Foreground="White"
+                                        BorderBrush="White" FontWeight="Bold" Margin="5,5,5,5" Click="OkButton_Click" />
+                                <Button x:Name="CancelButton" Content="Cancel" Width="100" Height="40"
+                                        Background="Gray"
+                                        Foreground="White" BorderBrush="White" FontWeight="Bold"
+                                        Click="CancelButton_Click" />
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+                </TabItem>
+            </TabControl>
         </Grid>
     </Border>
 </Window>

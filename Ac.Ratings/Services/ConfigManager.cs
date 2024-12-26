@@ -14,6 +14,8 @@ namespace Ac.Ratings.Services {
         public string UnpackFolderPath { get; private set; }
         public string ModifiedRatingsPath { get; private set; }
         public string? OriginalRatingsPath { get; private set; }
+        public string AcRootFolder { get; private set; }
+
 
         public readonly JsonSerializerOptions JsonOptions = new() {
             Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
@@ -35,9 +37,7 @@ namespace Ac.Ratings.Services {
             ModifiedRatingsPath = Path.Combine(UnpackFolderPath, "Ratings.txt");
 
             OriginalRatingsPath = LoadOriginalRatingsPath();
-
             EnsureConfigFileExists();
-
             if (LoadConfigValue("ResourceFolder") == null) {
                 SaveConfigValue("ResourceFolder", ResourceFolder);
             }
@@ -45,6 +45,38 @@ namespace Ac.Ratings.Services {
             if (LoadConfigValue("OriginalRatingsDatafilePath") == null && OriginalRatingsPath != null) {
                 SaveConfigValue("OriginalRatingsDatafilePath", OriginalRatingsPath);
             }
+
+            AcRootFolder = LoadAcRootFolder();
+
+            if (LoadConfigValue("AcRootFolder") == null && string.IsNullOrEmpty(AcRootFolder)) {
+                SaveConfigValue("AcRootFolder", AcRootFolder);
+            }
+        }
+
+        private string LoadAcRootFolder() {
+            // Load the AC root folder from the config, if it exists
+            var rootFolder = LoadConfigValue("AcRootFolder");
+
+            if (string.IsNullOrEmpty(rootFolder) || !Directory.Exists(rootFolder)) {
+                rootFolder = AskUserForAcRootFolder();
+                if (!string.IsNullOrEmpty(rootFolder)) {
+                    SaveConfigValue("AcRootFolder", rootFolder);
+                }
+                else {
+                    throw new InvalidOperationException("Assetto Corsa root folder is required.");
+                }
+            }
+
+            return rootFolder;
+        }
+
+        private string? AskUserForAcRootFolder() {
+            var settingsWindow = new SettingsWindow(null);
+            if (settingsWindow.ShowDialog() == true) {
+                return settingsWindow.SelectedPath;
+            }
+
+            return null;
         }
 
         private string? LoadConfigValue(string key) {

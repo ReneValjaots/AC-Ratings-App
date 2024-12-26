@@ -205,6 +205,27 @@ namespace Ac.Ratings
             }
         }
 
+        private void SaveAllRatings() {
+            try {
+                foreach (var car in _carDb) {
+                    if (car.FolderName != null) {
+                        var carFolder = Path.Combine(_configManager.CarsRootFolder, car.FolderName);
+                        var carRatingsAppFolder = Path.Combine(carFolder, "RatingsApp");
+                        var carJsonPath = Path.Combine(carRatingsAppFolder, "ui.json");
+
+                        var jsonContent = JsonSerializer.Serialize(car, _configManager.JsonOptions);
+                        File.WriteAllText(carJsonPath, jsonContent);
+                    }
+                }
+
+                var dbJsonContent = JsonSerializer.Serialize(_carDb, _configManager.JsonOptions);
+                File.WriteAllText(_configManager.CarDbFilePath, dbJsonContent);
+            }
+            catch (Exception ex) {
+                MessageBox.Show($"Error saving all ratings: {ex.Message}", "Save Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
         private void SetRatingsFromSliders(Car car) {
             car.Ratings.CornerHandling = CornerHandlingSlider.Value;
             car.Ratings.Brakes = BrakesSlider.Value;
@@ -593,6 +614,7 @@ namespace Ac.Ratings
                     _carDb = restoredCarDb.OrderBy(x => x.Name).ToList();
                     CarList.ItemsSource = _carDb;
                     CarList.Items.Refresh();
+                    SaveAllRatings();
                     MessageBox.Show("Car database restored successfully.", "Restore Complete", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
             }

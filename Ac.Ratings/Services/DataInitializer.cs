@@ -3,7 +3,6 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using System.Windows;
 using Ac.Ratings.Model;
 using Ac.Ratings.Services.Acd;
 
@@ -14,8 +13,7 @@ namespace Ac.Ratings.Services {
         public string CarDbFilePath;
         private string _missingDataLogFilePath;
         private string _backupFolder;
-        private string _unpackFolderPath;
-
+        //private string _unpackFolderPath;
         private string _acRootFolder;
 
         public readonly JsonSerializerOptions JsonOptions = new() {
@@ -39,7 +37,7 @@ namespace Ac.Ratings.Services {
             CarDbFilePath = Path.Combine(resourceFolder, "data", "CarDb.json");
             _missingDataLogFilePath = Path.Combine(resourceFolder, "data", "MissingDataLog.txt");
             _backupFolder = Path.Combine(resourceFolder, "backup");
-            _unpackFolderPath = Path.Combine(resourceFolder, "unpackData");
+            //_unpackFolderPath = Path.Combine(resourceFolder, "unpackData");
 
             _acRootFolder = InitializeAcRootFolder();
 
@@ -48,6 +46,8 @@ namespace Ac.Ratings.Services {
 
             CreateCarFolders(_acRootFolder);
             InitializeCarData();
+ 
+
         }
 
         private string InitializeAcRootFolder() {

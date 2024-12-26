@@ -49,6 +49,7 @@ namespace Ac.Ratings
                     }
                 }
             }
+
             _carDb = _carDb.OrderBy(x => x.Name).ToList();
         }
 
@@ -76,8 +77,6 @@ namespace Ac.Ratings
         }
 
         private void DisplayCarStats(Car selectedCar) {
-            Name.Text = selectedCar.Name;
-
             Engine.Text = ShowCarEngineStats(selectedCar);
             Drivetrain.Text = ShowCarDriveTrain(selectedCar);
             Gearbox.Text = ShowCarGearbox(selectedCar);
@@ -89,13 +88,6 @@ namespace Ac.Ratings
                     className = char.ToUpper(className[0]) + className[1..];
                 }
             }
-
-            Brand.Text = selectedCar.Brand ?? string.Empty;
-            Year.Text = (selectedCar.Year).ToString() ?? string.Empty;
-            Class.Text = className ?? string.Empty;
-            Author.Text = selectedCar.Author ?? string.Empty;
-            Weight.Text = selectedCar.Specs.Weight ?? string.Empty;
-            Pwratio.Text = selectedCar.Specs.PowerToWeightRatio ?? string.Empty;
         }
 
         private void LoadCarImage(Car car) {
@@ -189,9 +181,7 @@ namespace Ac.Ratings
                             SkinGrid.Children.Add(imageControl);
                         });
                     }
-                    catch (TaskCanceledException) {
-                        
-                    }
+                    catch (TaskCanceledException) { }
                 }
             }
         }
@@ -307,7 +297,7 @@ namespace Ac.Ratings
             }
         }
 
-        private void ClearButton_Click(object sender, RoutedEventArgs e) => ClearRatings();
+        private void ClearRatingsButton_Click(object sender, RoutedEventArgs e) => ClearRatings();
 
         private void SearchBox_TextChanged(object sender, TextChangedEventArgs e) {
             UpdateCarListFilter();
@@ -355,7 +345,7 @@ namespace Ac.Ratings
 
         private string ShowCarEngineStats(Car selectedCar) {
             var data = GetCarEngineData(selectedCar);
-            if (string.IsNullOrEmpty(data)) 
+            if (string.IsNullOrEmpty(data))
                 return string.Empty;
 
             var result = string.Empty;
@@ -369,19 +359,19 @@ namespace Ac.Ratings
         }
 
         private string GetLayout(string result, string data) {
-            if (data.StartsWith("I", StringComparison.OrdinalIgnoreCase)) 
+            if (data.StartsWith("I", StringComparison.OrdinalIgnoreCase))
                 result += "inline-" + Regex.Match(data, @"\d+").Value + " engine";
 
-            if (data.StartsWith("V", StringComparison.OrdinalIgnoreCase)) 
+            if (data.StartsWith("V", StringComparison.OrdinalIgnoreCase))
                 result += data.ToUpper() + " engine";
-            
-            if (data.StartsWith("F", StringComparison.OrdinalIgnoreCase)) 
+
+            if (data.StartsWith("F", StringComparison.OrdinalIgnoreCase))
                 result += "flat-" + Regex.Match(data, @"\d+").Value + " engine";
 
             if (data.StartsWith("B", StringComparison.OrdinalIgnoreCase))
                 result += "boxer-" + Regex.Match(data, @"\d+").Value + " engine";
 
-            if (data.StartsWith("R", StringComparison.OrdinalIgnoreCase)) 
+            if (data.StartsWith("R", StringComparison.OrdinalIgnoreCase))
                 result += "rotary engine";
 
             return result;
@@ -393,6 +383,7 @@ namespace Ac.Ratings
                 var displacementValue = data.Replace("L", "", StringComparison.OrdinalIgnoreCase);
                 result += $"{displacementValue}l ";
             }
+
             return result;
         }
 
@@ -454,10 +445,10 @@ namespace Ac.Ratings
 
         private List<string> GetDistinctClasses() {
             var classes = _carDb
-                .Select(x => x.Class?.Trim()) 
+                .Select(x => x.Class?.Trim())
                 .Where(x => !string.IsNullOrEmpty(x))
-                .GroupBy(x => x?.ToLower()) 
-                .Select(NormalizeClassName) 
+                .GroupBy(x => x?.ToLower())
+                .Select(NormalizeClassName)
                 .OrderBy(x => x)
                 .ToList();
 
@@ -496,6 +487,8 @@ namespace Ac.Ratings
             FunFactorFilter.Value = 0;
             AverageRatingFilter.Value = 0;
         }
+
+        private void ResetExtraFeaturesValues() { }
 
         private void AuthorFilter_OnSelectionChanged(object sender, SelectionChangedEventArgs e) {
             if (AuthorFilter.SelectedItem?.ToString() == "-- Reset --") {
@@ -597,6 +590,18 @@ namespace Ac.Ratings
 
         private void UpdateCarListFilter() {
             CarList.Items.Filter = CombinedFilter;
+        }
+
+        private void ClearFeaturesButton_Click(object sender, RoutedEventArgs e) {
+            foreach (var child in ExtraFeatures.Children) {
+                if (child is Grid grid) {
+                    foreach (var gridChild in grid.Children) {
+                        if (gridChild is CheckBox checkBox) {
+                            checkBox.IsChecked = false;
+                        }
+                    }
+                }
+            }
         }
     }
 }

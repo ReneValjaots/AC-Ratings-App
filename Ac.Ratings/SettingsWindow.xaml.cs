@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using Ac.Ratings.Services;
 
 namespace Ac.Ratings {
     /// <summary>
@@ -39,6 +40,20 @@ namespace Ac.Ratings {
             //    var folderName = folderDialog.FolderName;
             //    MessageBox.Show($"Cars root folder set to: ${folderName}");
             //}
+        }
+
+        private void TransferRatingsButton_OnClick(object sender, RoutedEventArgs e) {
+            try {
+                var decoder = new RatingsDecoder();
+                decoder.InitializeRatingsDataFile();
+                decoder.InitializeUserRatings();
+                decoder.ExportDataFile();
+
+                MessageBox.Show("Ratings exported successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            catch (Exception ex) {
+                MessageBox.Show($"An error occurred during export: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
     }
 }

@@ -122,6 +122,30 @@
                         </Grid>
                     </Border>
                 </TabItem>
+                <TabItem Header="Restore Ratings">
+                    <StackPanel Margin="5">
+                        <Grid Margin="0,10,0,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock
+                                Grid.Column="0"
+                                VerticalAlignment="Center"
+                                FontSize="16"
+                                Foreground="White"
+                                Text="Restore Ratings From Backup File" />
+                            <Button
+                                x:Name="RestoreBackupButton"
+                                Grid.Column="1"
+                                Width="100"
+                                Margin="10,0,0,0"
+                                HorizontalAlignment="Right"
+                                Click="RestoreBackupButton_Click"
+                                Content="Restore" />
+                        </Grid>
+                    </StackPanel>
+                </TabItem>
             </TabControl>
         </Grid>
     </Border>

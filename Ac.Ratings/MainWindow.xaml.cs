@@ -579,7 +579,7 @@ namespace Ac.Ratings
             }
         }
 
-        private void RestoreCarDbFromBackup(string backupFilePath) {
+        public void RestoreCarDbFromBackup(string backupFilePath) {
             try {
                 if (!File.Exists(backupFilePath)) {
                     MessageBox.Show("Selected backup file not found.", "Restore Error", MessageBoxButton.OK, MessageBoxImage.Error);

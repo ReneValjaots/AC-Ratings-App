@@ -111,5 +111,18 @@ namespace Ac.Ratings {
                 Environment.Exit(0);
             }
         }
+
+        private void RestoreBackupButton_Click(object sender, RoutedEventArgs e) {
+            var openFileDialog = new Microsoft.Win32.OpenFileDialog {
+                Title = "Select Backup File",
+                Filter = "JSON Files (*.json)|*.json",
+                InitialDirectory = _configManager.BackupFolder
+            };
+
+            if (openFileDialog.ShowDialog() == true) {
+                var backupFilePath = openFileDialog.FileName;
+                _mainWindow.RestoreCarDbFromBackup(backupFilePath);
+            }
+        }
     }
 }

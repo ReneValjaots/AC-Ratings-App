@@ -198,9 +198,6 @@ namespace Ac.Ratings
                 SetRatingsFromSliders(selectedCar);
 
                 UpdateAverageRating();
-
-                var jsonContent = JsonSerializer.Serialize(_carDb, _configManager.JsonOptions);
-                File.WriteAllText(_configManager.CarDbFilePath, jsonContent);
                 SaveCarToFile(selectedCar);
             }
         }
@@ -217,9 +214,6 @@ namespace Ac.Ratings
                         File.WriteAllText(carJsonPath, jsonContent);
                     }
                 }
-
-                var dbJsonContent = JsonSerializer.Serialize(_carDb, _configManager.JsonOptions);
-                File.WriteAllText(_configManager.CarDbFilePath, dbJsonContent);
             }
             catch (Exception ex) {
                 MessageBox.Show($"Error saving all ratings: {ex.Message}", "Save Error", MessageBoxButton.OK, MessageBoxImage.Error);
@@ -263,14 +257,8 @@ namespace Ac.Ratings
             var selectedCar = (Car)CarList.SelectedItem;
             if (selectedCar != null) {
                 ResetRatingValues(selectedCar);
-
                 ResetRatingSliderValues();
-
-                var jsonContent = JsonSerializer.Serialize(_carDb, _configManager.JsonOptions);
-                File.WriteAllText(_configManager.CarDbFilePath, jsonContent);
-
                 UpdateAverageRating();
-
                 SaveCarToFile(selectedCar);
             }
         }
@@ -557,8 +545,6 @@ namespace Ac.Ratings
                 }
             }
 
-            var dbJsonContent = JsonSerializer.Serialize(_carDb, _configManager.JsonOptions);
-            File.WriteAllText(_configManager.CarDbFilePath, dbJsonContent);
             CarList.Items.Refresh();
 
             var previouslySelectedCar = CarList.SelectedItem;

@@ -8,7 +8,6 @@ namespace Ac.Ratings.Services {
         public string ResourceFolder { get; private set; }
         public string ConfigFilePath { get; private set; }
         public string CarsRootFolder { get; private set; }
-        public string CarDbFilePath { get; private set; }
         public string MissingDataLogFilePath { get; private set; }
         public string BackupFolder { get; private set; }
         public string UnpackFolderPath { get; private set; }
@@ -30,7 +29,6 @@ namespace Ac.Ratings.Services {
             ConfigFilePath = Path.Combine(ResourceFolder, "config", "config.json");
 
             CarsRootFolder = Path.Combine(ResourceFolder, "cars");
-            CarDbFilePath = Path.Combine(ResourceFolder, "data", "CarDb.json");
             MissingDataLogFilePath = Path.Combine(ResourceFolder, "data", "MissingDataLog.txt");
             BackupFolder = Path.Combine(ResourceFolder, "backup");
             UnpackFolderPath = Path.Combine(ResourceFolder, "unpackData");
@@ -54,7 +52,6 @@ namespace Ac.Ratings.Services {
         }
 
         private string LoadAcRootFolder() {
-            // Load the AC root folder from the config, if it exists
             var rootFolder = LoadConfigValue("AcRootFolder");
 
             if (string.IsNullOrEmpty(rootFolder) || !Directory.Exists(rootFolder)) {

@@ -124,5 +124,24 @@ namespace Ac.Ratings {
                 _mainWindow.RestoreCarDbFromBackup(backupFilePath);
             }
         }
+
+        private void ResetExtraFeatures_Click(object sender, RoutedEventArgs e) {
+            var result = MessageBox.Show(
+                "Are you sure you want to reset all extra features? This action cannot be undone.",
+                "Confirm Reset",
+                MessageBoxButton.YesNo,
+                MessageBoxImage.Warning);
+
+            if (result == MessageBoxResult.Yes) {
+                _mainWindow.ResetAllExtraFeaturesInDatabase();
+
+                MessageBox.Show("All extra features have been reset successfully.", "Reset Complete", MessageBoxButton.OK,
+                    MessageBoxImage.Information);
+            }
+            else {
+                MessageBox.Show("Reset operation canceled.", "Cancel", MessageBoxButton.OK,
+                    MessageBoxImage.Information);
+            }
+        }
     }
 }

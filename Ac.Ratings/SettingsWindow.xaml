@@ -30,7 +30,7 @@
                                 VerticalAlignment="Center"
                                 FontSize="16"
                                 Foreground="White"
-                                Text="Reset Ratings" />
+                                Text="Reset all ratings" />
                             <Button
                                 x:Name="ResetRatingsButton"
                                 Grid.Column="1"
@@ -38,6 +38,27 @@
                                 Margin="10,0,0,0"
                                 HorizontalAlignment="Right"
                                 Click="ResetRatingsButton_Click"
+                                Content="Reset" />
+                        </Grid>
+
+                        <Grid Margin="0,10,0,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock
+                                Grid.Column="0"
+                                VerticalAlignment="Center"
+                                FontSize="16"
+                                Foreground="White"
+                                Text="Reset all extra features" />
+                            <Button
+                                x:Name="ResetExtraFeatures"
+                                Grid.Column="1"
+                                Width="100"
+                                Margin="10,0,0,0"
+                                HorizontalAlignment="Right"
+                                Click="ResetExtraFeatures_Click"
                                 Content="Reset" />
                         </Grid>
 
@@ -52,7 +73,7 @@
                                 VerticalAlignment="Center"
                                 FontSize="16"
                                 Foreground="White"
-                                Text="Transfer Ratings" />
+                                Text="Transfer ratings" />
                             <Button
                                 x:Name="TransferRatingsButton"
                                 Grid.Column="1"
@@ -134,7 +155,7 @@
                                 VerticalAlignment="Center"
                                 FontSize="16"
                                 Foreground="White"
-                                Text="Restore Ratings From Backup File" />
+                                Text="Restore ratings from backup file" />
                             <Button
                                 x:Name="RestoreBackupButton"
                                 Grid.Column="1"

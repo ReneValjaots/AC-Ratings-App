@@ -640,10 +640,59 @@ namespace Ac.Ratings
                     }
                 }
             }
+            SaveRatings();
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e) {
             CreateBackupOfCarDb();
+        }
+
+        public static void ResetExtraFeatureValues(Car selectedCar) {
+            selectedCar.Ratings.TurnSignalsDashboard = false;
+            selectedCar.Ratings.ABSOnFlashing = false;
+            selectedCar.Ratings.TCOnFlashing = false;
+            selectedCar.Ratings.ABSOff = false;
+            selectedCar.Ratings.TCOff = false;
+            selectedCar.Ratings.Handbrake = false;
+            selectedCar.Ratings.LightsDashboard = false;
+            selectedCar.Ratings.OtherDashboard = false;
+            selectedCar.Ratings.TurnSignalsExterior = false;
+            selectedCar.Ratings.GoodQualityLights = false;
+            selectedCar.Ratings.EmergencyBrakeLights = false;
+            selectedCar.Ratings.FogLights = false;
+            selectedCar.Ratings.SequentialTurnSignals = false;
+            selectedCar.Ratings.Animations = false;
+            selectedCar.Ratings.ExtendedPhysics = false;
+            selectedCar.Ratings.StartupSound = false;
+            selectedCar.Ratings.DifferentDisplays = false;
+            selectedCar.Ratings.DifferentDrivingModes = false;
+        }
+
+        public void ResetAllExtraFeaturesInDatabase() {
+            CreateBackupOfCarDb();
+
+            foreach (var car in _carDb) {
+                ResetExtraFeatureValues(car);
+                if (car.FolderName != null) {
+                    var carFolder = Path.Combine(_configManager.CarsRootFolder, car.FolderName);
+                    var carRatingsAppFolder = Path.Combine(carFolder, "RatingsApp");
+                    var carJsonPath = Path.Combine(carRatingsAppFolder, "ui.json");
+
+                    if (Directory.Exists(carRatingsAppFolder)) {
+                        var jsonContent = JsonSerializer.Serialize(car, _configManager.JsonOptions);
+                        File.WriteAllText(carJsonPath, jsonContent);
+                    }
+                }
+            }
+
+            CarList.Items.Refresh();
+
+            var previouslySelectedCar = CarList.SelectedItem;
+            CarList.SelectedItem = null;
+            CarList.Items.Refresh();
+
+            CarList.SelectedItem = previouslySelectedCar;
+            CarList.Items.Refresh();
         }
     }
 }

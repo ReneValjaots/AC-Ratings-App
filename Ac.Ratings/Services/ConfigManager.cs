@@ -15,7 +15,6 @@ namespace Ac.Ratings.Services {
         public string? OriginalRatingsPath { get; private set; }
         public string AcRootFolder { get; private set; }
 
-
         public readonly JsonSerializerOptions JsonOptions = new() {
             Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
             WriteIndented = true,

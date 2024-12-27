@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fonts\SF-Pro.ttf" />
     <None Remove="Hamburger_icon.png" />
   </ItemGroup>
 
@@ -29,6 +30,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SliderControl\SliderControl.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\SF-Pro.ttf" />
     <Resource Include="Images\Hamburger_icon.png" />      
   </ItemGroup>
 

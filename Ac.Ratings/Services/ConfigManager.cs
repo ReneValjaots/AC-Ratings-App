@@ -13,7 +13,7 @@ namespace Ac.Ratings.Services {
         public string UnpackFolderPath { get; private set; }
         public string ModifiedRatingsPath { get; private set; }
         public string? OriginalRatingsPath { get; private set; }
-        public string AcRootFolder { get; private set; }
+        public string? AcRootFolder { get; private set; }
 
         public readonly JsonSerializerOptions JsonOptions = new() {
             Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
@@ -45,31 +45,34 @@ namespace Ac.Ratings.Services {
 
             AcRootFolder = LoadAcRootFolder();
 
+            if (string.IsNullOrEmpty(AcRootFolder)) {
+                AcRootFolder = AskUserForAcRootFolder();
+                if (string.IsNullOrEmpty(AcRootFolder)) {
+                    Environment.Exit(0);
+                }
+
+                SaveConfigValue("AcRootFolder", AcRootFolder);
+            }
+
             if (LoadConfigValue("AcRootFolder") == null && string.IsNullOrEmpty(AcRootFolder)) {
                 SaveConfigValue("AcRootFolder", AcRootFolder);
             }
         }
 
-        private string LoadAcRootFolder() {
+        private string? LoadAcRootFolder() {
             var rootFolder = LoadConfigValue("AcRootFolder");
 
             if (string.IsNullOrEmpty(rootFolder) || !Directory.Exists(rootFolder)) {
-                rootFolder = AskUserForAcRootFolder();
-                if (!string.IsNullOrEmpty(rootFolder)) {
-                    SaveConfigValue("AcRootFolder", rootFolder);
-                }
-                else {
-                    throw new InvalidOperationException("Assetto Corsa root folder is required.");
-                }
+                return null;
             }
 
             return rootFolder;
         }
 
         private string? AskUserForAcRootFolder() {
-            var settingsWindow = new SettingsWindow(null);
-            if (settingsWindow.ShowDialog() == true) {
-                return settingsWindow.SelectedPath;
+            var acRootFolderWindow = new AcRootFolderWindow();
+            if (acRootFolderWindow.ShowDialog() == true) {
+                return acRootFolderWindow.SelectedPath;
             }
 
             return null;

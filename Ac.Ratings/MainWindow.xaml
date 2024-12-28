@@ -6,7 +6,6 @@
     xmlns:local="clr-namespace:Ac.Ratings"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:model="clr-namespace:Ac.Ratings.Model"
-    xmlns:modernSlider="clr-namespace:SliderControl;assembly=SliderControl"
     Title="Ratings App"
     Width="1900"
     Height="1000"
@@ -558,24 +557,12 @@
                         Foreground="White"
                         Text="{Binding Path=Ratings.CornerHandling, StringFormat='Corner Handling: {0}'}" />
 
-                    <modernSlider:ModernSlider
+                    <Slider
                         x:Name="CornerHandlingSlider"
                         Grid.Column="1"
                         Width="150"
-                        TickFrequency="1"
-                        IsSnapToTickEnabled="True"
+                        Style="{StaticResource ModernSlider}"
                         Value="{Binding Path=Ratings.CornerHandling, Mode=TwoWay}" />
-
-                    <!--<Slider
-                        x:Name="CornerHandlingSlider"
-                        Grid.Column="1"
-                        Width="150"
-                        VerticalAlignment="Center"
-                        IsSnapToTickEnabled="True"
-                        Maximum="10"
-                        Minimum="0"
-                        TickFrequency="1"
-                        Value="{Binding Path=Ratings.CornerHandling, Mode=TwoWay}" />-->
                 </Grid>
 
 
@@ -595,11 +582,7 @@
                         x:Name="BrakesSlider"
                         Grid.Column="1"
                         Width="150"
-                        VerticalAlignment="Center"
-                        IsSnapToTickEnabled="True"
-                        Maximum="10"
-                        Minimum="0"
-                        TickFrequency="1"
+                        Style="{StaticResource ModernSlider}"
                         Value="{Binding Path=Ratings.Brakes, Mode=TwoWay}" />
                 </Grid>
 
@@ -619,11 +602,7 @@
                         x:Name="RealismSlider"
                         Grid.Column="1"
                         Width="150"
-                        VerticalAlignment="Center"
-                        IsSnapToTickEnabled="True"
-                        Maximum="10"
-                        Minimum="0"
-                        TickFrequency="1"
+                        Style="{StaticResource ModernSlider}"
                         Value="{Binding Path=Ratings.Realism, Mode=TwoWay}" />
                 </Grid>
 
@@ -643,11 +622,7 @@
                         x:Name="SoundSlider"
                         Grid.Column="1"
                         Width="150"
-                        VerticalAlignment="Center"
-                        IsSnapToTickEnabled="True"
-                        Maximum="10"
-                        Minimum="0"
-                        TickFrequency="1"
+                        Style="{StaticResource ModernSlider}"
                         Value="{Binding Path=Ratings.Sound, Mode=TwoWay}" />
                 </Grid>
 
@@ -667,11 +642,7 @@
                         x:Name="ExteriorQualitySlider"
                         Grid.Column="1"
                         Width="150"
-                        VerticalAlignment="Center"
-                        IsSnapToTickEnabled="True"
-                        Maximum="10"
-                        Minimum="0"
-                        TickFrequency="1"
+                        Style="{StaticResource ModernSlider}"
                         Value="{Binding Path=Ratings.ExteriorQuality, Mode=TwoWay}" />
                 </Grid>
 
@@ -691,11 +662,7 @@
                         x:Name="InteriorQualitySlider"
                         Grid.Column="1"
                         Width="150"
-                        VerticalAlignment="Center"
-                        IsSnapToTickEnabled="True"
-                        Maximum="10"
-                        Minimum="0"
-                        TickFrequency="1"
+                        Style="{StaticResource ModernSlider}"
                         Value="{Binding Path=Ratings.InteriorQuality, Mode=TwoWay}" />
                 </Grid>
 
@@ -715,11 +682,7 @@
                         x:Name="ForceFeedbackQualitySlider"
                         Grid.Column="1"
                         Width="150"
-                        VerticalAlignment="Center"
-                        IsSnapToTickEnabled="True"
-                        Maximum="10"
-                        Minimum="0"
-                        TickFrequency="1"
+                        Style="{StaticResource ModernSlider}"
                         Value="{Binding Path=Ratings.ForceFeedbackQuality, Mode=TwoWay}" />
                 </Grid>
 
@@ -739,11 +702,7 @@
                         x:Name="FunFactorSlider"
                         Grid.Column="1"
                         Width="150"
-                        VerticalAlignment="Center"
-                        IsSnapToTickEnabled="True"
-                        Maximum="10"
-                        Minimum="0"
-                        TickFrequency="1"
+                        Style="{StaticResource ModernSlider}"
                         Value="{Binding Path=Ratings.FunFactor, Mode=TwoWay}" />
                 </Grid>
 
@@ -799,10 +758,8 @@
                         <CheckBox
                             Grid.Row="0"
                             Grid.Column="1"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            Foreground="White"
-                            IsChecked="{Binding Ratings.TurnSignalsDashboard, Mode=TwoWay}" />
+                            IsChecked="{Binding Ratings.TurnSignalsDashboard, Mode=TwoWay}"
+                            Style="{StaticResource ModernCheckbox}" />
                         <Label
                             Grid.Row="0"
                             Grid.Column="2"
@@ -813,10 +770,8 @@
                         <CheckBox
                             Grid.Row="0"
                             Grid.Column="3"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            Foreground="White"
-                            IsChecked="{Binding Ratings.ABSOnFlashing, Mode=TwoWay}" />
+                            IsChecked="{Binding Ratings.ABSOnFlashing, Mode=TwoWay}"
+                            Style="{StaticResource ModernCheckbox}" />
 
                         <!--  Row 2  -->
                         <Label
@@ -829,10 +784,8 @@
                         <CheckBox
                             Grid.Row="1"
                             Grid.Column="1"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            Foreground="White"
-                            IsChecked="{Binding Ratings.TCOnFlashing, Mode=TwoWay}" />
+                            IsChecked="{Binding Ratings.TCOnFlashing, Mode=TwoWay}"
+                            Style="{StaticResource ModernCheckbox}" />
                         <Label
                             Grid.Row="1"
                             Grid.Column="2"
@@ -843,10 +796,8 @@
                         <CheckBox
                             Grid.Row="1"
                             Grid.Column="3"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            Foreground="White"
-                            IsChecked="{Binding Ratings.ABSOff, Mode=TwoWay}" />
+                            IsChecked="{Binding Ratings.ABSOff, Mode=TwoWay}"
+                            Style="{StaticResource ModernCheckbox}" />
 
                         <!--  Row 3  -->
                         <Label
@@ -859,10 +810,8 @@
                         <CheckBox
                             Grid.Row="2"
                             Grid.Column="1"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            Foreground="White"
-                            IsChecked="{Binding Ratings.TCOff, Mode=TwoWay}" />
+                            IsChecked="{Binding Ratings.TCOff, Mode=TwoWay}"
+                            Style="{StaticResource ModernCheckbox}" />
                         <Label
                             Grid.Row="2"
                             Grid.Column="2"
@@ -873,10 +822,8 @@
                         <CheckBox
                             Grid.Row="2"
                             Grid.Column="3"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            Foreground="White"
-                            IsChecked="{Binding Ratings.Handbrake, Mode=TwoWay}" />
+                            IsChecked="{Binding Ratings.Handbrake, Mode=TwoWay}"
+                            Style="{StaticResource ModernCheckbox}" />
 
                         <!--  Row 4  -->
                         <Label
@@ -889,10 +836,8 @@
                         <CheckBox
                             Grid.Row="3"
                             Grid.Column="1"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            Foreground="White"
-                            IsChecked="{Binding Ratings.LightsDashboard, Mode=TwoWay}" />
+                            IsChecked="{Binding Ratings.LightsDashboard, Mode=TwoWay}"
+                            Style="{StaticResource ModernCheckbox}" />
                         <Label
                             Grid.Row="3"
                             Grid.Column="2"
@@ -903,10 +848,8 @@
                         <CheckBox
                             Grid.Row="3"
                             Grid.Column="3"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            Foreground="White"
-                            IsChecked="{Binding Ratings.OtherDashboard, Mode=TwoWay}" />
+                            IsChecked="{Binding Ratings.OtherDashboard, Mode=TwoWay}"
+                            Style="{StaticResource ModernCheckbox}" />
                     </Grid>
 
                     <!--  Outer Lights Section  -->
@@ -940,10 +883,8 @@
                         <CheckBox
                             Grid.Row="0"
                             Grid.Column="1"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            Foreground="White"
-                            IsChecked="{Binding Ratings.TurnSignalsExterior, Mode=TwoWay}" />
+                            IsChecked="{Binding Ratings.TurnSignalsExterior, Mode=TwoWay}"
+                            Style="{StaticResource ModernCheckbox}" />
                         <Label
                             Grid.Row="0"
                             Grid.Column="2"
@@ -954,10 +895,8 @@
                         <CheckBox
                             Grid.Row="0"
                             Grid.Column="3"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            Foreground="White"
-                            IsChecked="{Binding Ratings.GoodQualityLights, Mode=TwoWay}" />
+                            IsChecked="{Binding Ratings.GoodQualityLights, Mode=TwoWay}"
+                            Style="{StaticResource ModernCheckbox}" />
 
                         <!--  Row 2  -->
                         <Label
@@ -970,10 +909,8 @@
                         <CheckBox
                             Grid.Row="1"
                             Grid.Column="1"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            Foreground="White"
-                            IsChecked="{Binding Ratings.EmergencyBrakeLights, Mode=TwoWay}" />
+                            IsChecked="{Binding Ratings.EmergencyBrakeLights, Mode=TwoWay}"
+                            Style="{StaticResource ModernCheckbox}" />
                         <Label
                             Grid.Row="1"
                             Grid.Column="2"
@@ -984,10 +921,8 @@
                         <CheckBox
                             Grid.Row="1"
                             Grid.Column="3"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            Foreground="White"
-                            IsChecked="{Binding Ratings.FogLights, Mode=TwoWay}" />
+                            IsChecked="{Binding Ratings.FogLights, Mode=TwoWay}"
+                            Style="{StaticResource ModernCheckbox}" />
 
                         <!--  Row 3  -->
                         <Label
@@ -1000,10 +935,8 @@
                         <CheckBox
                             Grid.Row="2"
                             Grid.Column="1"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            Foreground="White"
-                            IsChecked="{Binding Ratings.SequentialTurnSignals, Mode=TwoWay}" />
+                            IsChecked="{Binding Ratings.SequentialTurnSignals, Mode=TwoWay}"
+                            Style="{StaticResource ModernCheckbox}" />
                         <Label
                             Grid.Row="2"
                             Grid.Column="2"
@@ -1014,10 +947,8 @@
                         <CheckBox
                             Grid.Row="2"
                             Grid.Column="3"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            Foreground="White"
-                            IsChecked="{Binding Ratings.Animations, Mode=TwoWay}" />
+                            IsChecked="{Binding Ratings.Animations, Mode=TwoWay}"
+                            Style="{StaticResource ModernCheckbox}" />
                     </Grid>
 
                     <!--  Others Section  -->
@@ -1049,10 +980,8 @@
                         <CheckBox
                             Grid.Row="0"
                             Grid.Column="1"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            Foreground="White"
-                            IsChecked="{Binding Ratings.ExtendedPhysics, Mode=TwoWay}" />
+                            IsChecked="{Binding Ratings.ExtendedPhysics, Mode=TwoWay}"
+                            Style="{StaticResource ModernCheckbox}" />
                         <Label
                             Grid.Row="0"
                             Grid.Column="2"
@@ -1063,10 +992,8 @@
                         <CheckBox
                             Grid.Row="0"
                             Grid.Column="3"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            Foreground="White"
-                            IsChecked="{Binding Ratings.StartupSound, Mode=TwoWay}" />
+                            IsChecked="{Binding Ratings.StartupSound, Mode=TwoWay}"
+                            Style="{StaticResource ModernCheckbox}" />
 
                         <Label
                             Grid.Row="1"
@@ -1078,10 +1005,8 @@
                         <CheckBox
                             Grid.Row="1"
                             Grid.Column="1"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            Foreground="White"
-                            IsChecked="{Binding Ratings.DifferentDisplays, Mode=TwoWay}" />
+                            IsChecked="{Binding Ratings.DifferentDisplays, Mode=TwoWay}"
+                            Style="{StaticResource ModernCheckbox}" />
                         <Label
                             Grid.Row="1"
                             Grid.Column="2"
@@ -1092,10 +1017,8 @@
                         <CheckBox
                             Grid.Row="1"
                             Grid.Column="3"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center"
-                            Foreground="White"
-                            IsChecked="{Binding Ratings.DifferentDrivingModes, Mode=TwoWay}" />
+                            IsChecked="{Binding Ratings.DifferentDrivingModes, Mode=TwoWay}"
+                            Style="{StaticResource ModernCheckbox}" />
                     </Grid>
                 </StackPanel>
 

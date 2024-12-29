@@ -5,21 +5,37 @@
     </Geometry>
 
     <LinearGradientBrush x:Key="ThumbColor" StartPoint="0.5,0" EndPoint="0.5,1">
-        <GradientStop Offset="0" Color="#EDE1C8" />
-        <GradientStop Offset="0.5" Color="#DCC088" />
-        <GradientStop Offset="1" Color="#CBA14A" />
+        <GradientStop Offset="0.0" Color="#1A4276" />
+        <GradientStop Offset="0.2" Color="#2563BD" />
+        <GradientStop Offset="0.4" Color="#3383EB" />
+        <GradientStop Offset="0.6" Color="#4FA0FF" />
+        <GradientStop Offset="1.0" Color="#72BAFF" />
     </LinearGradientBrush>
 
     <LinearGradientBrush x:Key="ThumbOver" StartPoint="0.5,0" EndPoint="0.5,1">
-        <GradientStop Offset="0" Color="#B79248" />
-        <GradientStop Offset="0.5" Color="#997530" />
-        <GradientStop Offset="1" Color="#74592B" />
+        <GradientStop Offset="0.0" Color="#0A1F3D" />
+        <!-- Very dark blue -->
+        <GradientStop Offset="0.2" Color="#133A6F" />
+        <!-- Deep blue -->
+        <GradientStop Offset="0.4" Color="#1C57A3" />
+        <!-- Rich blue -->
+        <GradientStop Offset="0.6" Color="#2673D1" />
+        <!-- Vibrant blue -->
+        <GradientStop Offset="1.0" Color="#3388FF" />
+        <!-- Bright blue -->
     </LinearGradientBrush>
 
     <LinearGradientBrush x:Key="ThumbDrag" StartPoint="0.5,0" EndPoint="0.5,1">
-        <GradientStop Offset="0" Color="#473814" />
-        <GradientStop Offset="0.5" Color="#57421B" />
-        <GradientStop Offset="1" Color="#684E23" />
+        <GradientStop Offset="0.0" Color="#0A1F3D" />
+        <!-- Very dark blue -->
+        <GradientStop Offset="0.2" Color="#133A6F" />
+        <!-- Deep blue -->
+        <GradientStop Offset="0.4" Color="#1C57A3" />
+        <!-- Rich blue -->
+        <GradientStop Offset="0.6" Color="#2673D1" />
+        <!-- Vibrant blue -->
+        <GradientStop Offset="1.0" Color="#3388FF" />
+        <!-- Bright blue -->
     </LinearGradientBrush>
 
     <Style x:Key="ThumbStyle" TargetType="{x:Type Thumb}">
@@ -48,27 +64,41 @@
         </Setter>
     </Style>
 
-    <!--<Thumb x:Key="SliderThumb" Style="{StaticResource ThumbStyle}" />-->
-
     <SolidColorBrush x:Key="SliderColor" Color="#1E2328" />
 
     <LinearGradientBrush x:Key="RangeColor" StartPoint="0,0.5" EndPoint="1,0.5">
-        <GradientStop Offset="0" Color="#795B28" />
-        <GradientStop Offset="0.5" Color="#C1963B" />
-        <GradientStop Offset="1" Color="#C8AA6D" />
-
+        <GradientStop Offset="0.0" Color="#10284C" />
+        <!-- Dark blue -->
+        <GradientStop Offset="0.2" Color="#1B4780" />
+        <!-- Deep blue -->
+        <GradientStop Offset="0.4" Color="#2663B3" />
+        <!-- Bright blue -->
+        <GradientStop Offset="0.6" Color="#3B82E5" />
+        <!-- Light vibrant blue -->
+        <GradientStop Offset="1.0" Color="#4A9CFF" />
+        <!-- Very light blue -->
     </LinearGradientBrush>
 
     <LinearGradientBrush x:Key="SliderOver" StartPoint="0,0.5" EndPoint="1,0.5">
-        <GradientStop Offset="0" Color="#463714" />
-        <GradientStop Offset="0.5" Color="#58471D" />
-        <GradientStop Offset="1" Color="#695625" />
+        <GradientStop Offset="0.0" Color="#0A1F3D" />
+        <!-- Very dark blue -->
+        <GradientStop Offset="0.2" Color="#133A6F" />
+        <!-- Deep blue -->
+        <GradientStop Offset="0.4" Color="#1C57A3" />
+        <!-- Rich blue -->
+        <GradientStop Offset="0.6" Color="#2673D1" />
+        <!-- Vibrant blue -->
+        <GradientStop Offset="1.0" Color="#3388FF" />
+        <!-- Bright blue -->
     </LinearGradientBrush>
 
     <LinearGradientBrush x:Key="SliderDrag" StartPoint="0,0.5" EndPoint="1,0.5">
-        <GradientStop Offset="0" Color="#685524" />
-        <GradientStop Offset="0.5" Color="#55441B" />
-        <GradientStop Offset="1" Color="#463714" />
+        <GradientStop Offset="0" Color="#2B32B2" />
+        <!-- Deep blue -->
+        <GradientStop Offset="0.5" Color="#2074C8" />
+        <!-- Slightly lighter blue -->
+        <GradientStop Offset="1" Color="#1488CC" />
+        <!-- Lighter vibrant blue -->
     </LinearGradientBrush>
 
     <Style x:Key="ModernSlider" TargetType="{x:Type Slider}">
@@ -100,7 +130,7 @@
 
                         <Track x:Name="PART_Track">
                             <Track.Thumb>
-                                <Thumb Style="{StaticResource ThumbStyle}"/>
+                                <Thumb Style="{StaticResource ThumbStyle}" />
                             </Track.Thumb>
                         </Track>
                     </Grid>

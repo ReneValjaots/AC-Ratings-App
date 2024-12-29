@@ -15,7 +15,7 @@
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
 
-    <Border Background="#020303" CornerRadius="10">
+    <Border Background="#000302" CornerRadius="10">
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto" />
@@ -55,7 +55,7 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Width="200" Text="{Binding Name}" />
+                            <TextBlock Width="Auto" Text="{Binding Name}" />
                         </StackPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>
@@ -958,7 +958,7 @@
                         FontWeight="SemiBold"
                         Foreground="White"
                         Text="Others:" />
-                    <Grid Margin="0,0,0,10">
+                    <Grid Margin="0,0,0,0">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="3*" />
                             <ColumnDefinition Width="*" />
@@ -1025,53 +1025,24 @@
 
                 <Button
                     x:Name="SaveButton"
-                    Margin="0,15,0,0"
+                    Margin="0,10,0,0"
                     Click="SaveButton_Click"
-                    Content="Save">
-                    <Button.Style>
-                        <Style TargetType="Button">
-                            <Setter Property="Background" Value="#5030e5" />
-                            <Setter Property="Cursor" Value="Hand" />
-                            <Setter Property="Foreground" Value="White" />
-                            <Setter Property="FontSize" Value="14" />
-                            <Setter Property="FontWeight" Value="Bold" />
-                            <Setter Property="Padding" Value="8,5" />
-                            <Setter Property="BorderThickness" Value="0" />
-                            <Setter Property="HorizontalAlignment" Value="Center" />
-                            <Setter Property="VerticalAlignment" Value="Center" />
-
-                            <Style.Triggers>
-                                <Trigger Property="IsMouseOver" Value="True">
-                                    <Setter Property="Background" Value="White" />
-                                    <Setter Property="Foreground" Value="Black" />
-                                </Trigger>
-                            </Style.Triggers>
-                        </Style>
-                    </Button.Style>
-                    <Button.Template>
-                        <ControlTemplate TargetType="Button">
-                            <Border
-                                Width="150"
-                                Height="30"
-                                Background="{TemplateBinding Background}"
-                                CornerRadius="8">
-                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
-                            </Border>
-                        </ControlTemplate>
-                    </Button.Template>
-                </Button>
+                    Content="Save"
+                    Style="{StaticResource ModernButton}" />
 
                 <Button
                     x:Name="ClearRatingsButton"
                     Margin="0,15,0,0"
                     Click="ClearRatingsButton_Click"
-                    Content="Clear Ratings" />
+                    Content="Clear Ratings"
+                    Style="{StaticResource ModernButton}" />
 
                 <Button
                     x:Name="ClearFeaturesButton"
                     Margin="0,15,0,0"
                     Click="ClearFeaturesButton_Click"
-                    Content="Clear Extra Features" />
+                    Content="Clear Extra Features"
+                    Style="{StaticResource ModernButton}" />
             </StackPanel>
         </Grid>
     </Border>

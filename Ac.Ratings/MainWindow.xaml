@@ -24,7 +24,7 @@
             </Grid.ColumnDefinitions>
 
             <Grid.RowDefinitions>
-                <RowDefinition Height="auto" />
+                <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
@@ -69,12 +69,9 @@
                 VerticalAlignment="Top">
                 <Button
                     x:Name="SettingsButton"
-                    Background="Transparent"
-                    BorderBrush="Transparent"
                     Click="SettingsButton_OnClick"
                     Content="Settings"
-                    FontSize="14"
-                    Foreground="White" />
+                    Style="{StaticResource TertiaryButton}" />
             </StackPanel>
 
             <Grid Grid.Row="0" Grid.Column="1">
@@ -145,7 +142,7 @@
                         x:Name="RatingsFilter"
                         Grid.Row="1"
                         Grid.Column="2"
-                        Width="200"
+                        Width="250"
                         Margin="10,2,0,5"
                         HorizontalAlignment="Left"
                         VerticalAlignment="Top"
@@ -156,169 +153,194 @@
                         <ComboBoxItem>
                             <Grid>
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="125" />
                                     <ColumnDefinition Width="Auto" />
                                 </Grid.ColumnDefinitions>
-
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="Auto" />
-                                    <RowDefinition Height="Auto" />
-                                    <RowDefinition Height="Auto" />
-                                    <RowDefinition Height="Auto" />
-                                    <RowDefinition Height="Auto" />
-                                    <RowDefinition Height="Auto" />
-                                    <RowDefinition Height="Auto" />
-                                    <RowDefinition Height="Auto" />
-                                    <RowDefinition Height="Auto" />
-                                </Grid.RowDefinitions>
-
                                 <TextBlock
-                                    Grid.Row="0"
                                     Grid.Column="0"
-                                    Margin="0,0,5,0"
+                                    Margin="0,0,10,0"
                                     Text="{Binding ElementName=CornerHandlingFilter, Path=Value, StringFormat='Corner Handling: {0}'}" />
-
                                 <Slider
                                     x:Name="CornerHandlingFilter"
-                                    Grid.Row="0"
                                     Grid.Column="1"
-                                    Width="150"
+                                    Width="125"
                                     IsSnapToTickEnabled="True"
                                     Maximum="10"
                                     Minimum="0"
                                     TickFrequency="1"
                                     ValueChanged="FilterSlider_OnValueChanged" />
+                            </Grid>
+                        </ComboBoxItem>
 
+                        <ComboBoxItem>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="125" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
                                 <TextBlock
-                                    Grid.Row="1"
                                     Grid.Column="0"
-                                    Margin="0,0,5,0"
+                                    Margin="0,0,10,0"
                                     Text="{Binding ElementName=BrakingFilter, Path=Value, StringFormat='Braking: {0}'}" />
-
                                 <Slider
                                     x:Name="BrakingFilter"
-                                    Grid.Row="1"
                                     Grid.Column="1"
-                                    Width="150"
+                                    Width="125"
                                     IsSnapToTickEnabled="True"
                                     Maximum="10"
                                     Minimum="0"
                                     TickFrequency="1"
                                     ValueChanged="FilterSlider_OnValueChanged" />
+                            </Grid>
+                        </ComboBoxItem>
 
+                        <ComboBoxItem>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="125" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
                                 <TextBlock
-                                    Grid.Row="2"
                                     Grid.Column="0"
-                                    Margin="0,0,5,0"
+                                    Margin="0,0,10,0"
                                     Text="{Binding ElementName=RealismFilter, Path=Value, StringFormat='Realism: {0}'}" />
-
                                 <Slider
                                     x:Name="RealismFilter"
-                                    Grid.Row="2"
                                     Grid.Column="1"
-                                    Width="150"
+                                    Width="125"
                                     IsSnapToTickEnabled="True"
                                     Maximum="10"
                                     Minimum="0"
                                     TickFrequency="1"
                                     ValueChanged="FilterSlider_OnValueChanged" />
+                            </Grid>
+                        </ComboBoxItem>
 
+                        <ComboBoxItem>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="125" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
                                 <TextBlock
-                                    Grid.Row="3"
                                     Grid.Column="0"
-                                    Margin="0,0,5,0"
+                                    Margin="0,0,10,0"
                                     Text="{Binding ElementName=SoundFilter, Path=Value, StringFormat='Sound: {0}'}" />
-
                                 <Slider
                                     x:Name="SoundFilter"
-                                    Grid.Row="3"
                                     Grid.Column="1"
-                                    Width="150"
+                                    Width="125"
                                     IsSnapToTickEnabled="True"
                                     Maximum="10"
                                     Minimum="0"
                                     TickFrequency="1"
                                     ValueChanged="FilterSlider_OnValueChanged" />
+                            </Grid>
+                        </ComboBoxItem>
 
+                        <ComboBoxItem>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="125" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
                                 <TextBlock
-                                    Grid.Row="4"
                                     Grid.Column="0"
-                                    Margin="0,0,5,0"
+                                    Margin="0,0,10,0"
                                     Text="{Binding ElementName=ExteriorQualityFilter, Path=Value, StringFormat='Exterior Quality: {0}'}" />
-
                                 <Slider
                                     x:Name="ExteriorQualityFilter"
-                                    Grid.Row="4"
                                     Grid.Column="1"
-                                    Width="150"
+                                    Width="125"
                                     IsSnapToTickEnabled="True"
                                     Maximum="10"
                                     Minimum="0"
                                     TickFrequency="1"
                                     ValueChanged="FilterSlider_OnValueChanged" />
+                            </Grid>
+                        </ComboBoxItem>
 
+                        <ComboBoxItem>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="125" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
                                 <TextBlock
-                                    Grid.Row="5"
                                     Grid.Column="0"
-                                    Margin="0,0,5,0"
+                                    Margin="0,0,10,0"
                                     Text="{Binding ElementName=InteriorQualityFilter, Path=Value, StringFormat='Interior Quality: {0}'}" />
-
                                 <Slider
                                     x:Name="InteriorQualityFilter"
-                                    Grid.Row="5"
                                     Grid.Column="1"
-                                    Width="150"
+                                    Width="125"
                                     IsSnapToTickEnabled="True"
                                     Maximum="10"
                                     Minimum="0"
                                     TickFrequency="1"
                                     ValueChanged="FilterSlider_OnValueChanged" />
+                            </Grid>
+                        </ComboBoxItem>
 
+                        <ComboBoxItem>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="125" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
                                 <TextBlock
-                                    Grid.Row="6"
                                     Grid.Column="0"
-                                    Margin="0,0,5,0"
-                                    Text="{Binding ElementName=ForceFeedbackQualityFilter, Path=Value, StringFormat='Force Feedback Quality: {0}'}" />
-
+                                    Margin="0,0,10,0"
+                                    Text="{Binding ElementName=ForceFeedbackQualityFilter, Path=Value, StringFormat='FFB Quality: {0}'}" />
                                 <Slider
                                     x:Name="ForceFeedbackQualityFilter"
-                                    Grid.Row="6"
                                     Grid.Column="1"
-                                    Width="150"
+                                    Width="125"
                                     IsSnapToTickEnabled="True"
                                     Maximum="10"
                                     Minimum="0"
                                     TickFrequency="1"
                                     ValueChanged="FilterSlider_OnValueChanged" />
+                            </Grid>
+                        </ComboBoxItem>
 
+                        <ComboBoxItem>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="125" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
                                 <TextBlock
-                                    Grid.Row="7"
                                     Grid.Column="0"
-                                    Margin="0,0,5,0"
+                                    Margin="0,0,10,0"
                                     Text="{Binding ElementName=FunFactorFilter, Path=Value, StringFormat='Fun Factor: {0}'}" />
-
                                 <Slider
                                     x:Name="FunFactorFilter"
-                                    Grid.Row="7"
                                     Grid.Column="1"
-                                    Width="150"
+                                    Width="125"
                                     IsSnapToTickEnabled="True"
                                     Maximum="10"
                                     Minimum="0"
                                     TickFrequency="1"
+                                    HorizontalAlignment="Right"
                                     ValueChanged="FilterSlider_OnValueChanged" />
+                            </Grid>
+                        </ComboBoxItem>
 
+                        <ComboBoxItem>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="125" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
                                 <TextBlock
-                                    Grid.Row="8"
                                     Grid.Column="0"
                                     Margin="0,0,5,0"
                                     Text="{Binding ElementName=AverageRatingFilter, Path=Value, StringFormat='Average Rating: {0}'}" />
-
                                 <Slider
                                     x:Name="AverageRatingFilter"
-                                    Grid.Row="8"
                                     Grid.Column="1"
-                                    Width="150"
+                                    Width="125"
                                     IsSnapToTickEnabled="True"
                                     Maximum="10"
                                     Minimum="0"
@@ -1030,19 +1052,28 @@
                     Content="Save"
                     Style="{StaticResource ModernButton}" />
 
-                <Button
-                    x:Name="ClearRatingsButton"
-                    Margin="0,15,0,0"
-                    Click="ClearRatingsButton_Click"
-                    Content="Clear Ratings"
-                    Style="{StaticResource ModernButton}" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
 
-                <Button
-                    x:Name="ClearFeaturesButton"
-                    Margin="0,15,0,0"
-                    Click="ClearFeaturesButton_Click"
-                    Content="Clear Extra Features"
-                    Style="{StaticResource ModernButton}" />
+                    <Button
+                        x:Name="ClearRatingsButton"
+                        Grid.Column="0"
+                        Margin="0,15,0,0"
+                        Click="ClearRatingsButton_Click"
+                        Content="Clear Ratings"
+                        Style="{StaticResource SecondaryButton}" />
+
+                    <Button
+                        x:Name="ClearFeaturesButton"
+                        Grid.Column="1"
+                        Margin="0,15,0,0"
+                        Click="ClearFeaturesButton_Click"
+                        Content="Clear Extra Features"
+                        Style="{StaticResource SecondaryButton}" />
+                </Grid>
             </StackPanel>
         </Grid>
     </Border>

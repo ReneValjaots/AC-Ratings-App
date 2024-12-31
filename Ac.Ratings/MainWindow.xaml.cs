@@ -40,7 +40,7 @@ namespace Ac.Ratings
         }
 
         private void LoadCarDatabase() {
-            var carFolders = _initializer.GetAllCarFolderNames(_configManager.CarsRootFolder);
+            var carFolders = _initializer.GetAllCarFolderNames(_configManager.AcRootFolder);
             foreach (var carFolder in carFolders) {
                 if (carFolder == null) continue;
                 var uiJsonPath = Path.Combine(_configManager.CarsRootFolder, carFolder, "RatingsApp", "ui.json");
@@ -273,6 +273,7 @@ namespace Ac.Ratings
             selectedCar.Ratings.DashboardQuality = 0;
             selectedCar.Ratings.ForceFeedbackQuality = 0;
             selectedCar.Ratings.FunFactor = 0;
+            selectedCar.Ratings.AverageRating = 0;
         }
 
         private void ResetRatingSliderValues() {

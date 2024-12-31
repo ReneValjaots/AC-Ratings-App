@@ -145,12 +145,12 @@
                         Width="250"
                         Margin="10,2,0,5"
                         HorizontalAlignment="Left"
-                        VerticalAlignment="Top"
+                        Style="{StaticResource CustomComboBox}"
                         SelectionChanged="RatingsFilter_OnSelectionChanged">
 
                         <ComboBoxItem>-- Reset --</ComboBoxItem>
 
-                        <ComboBoxItem>
+                        <ComboBoxItem Style="{StaticResource CustomComboBoxItem}">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="125" />
@@ -159,20 +159,18 @@
                                 <TextBlock
                                     Grid.Column="0"
                                     Margin="0,0,10,0"
+                                    VerticalAlignment="Center"
                                     Text="{Binding ElementName=CornerHandlingFilter, Path=Value, StringFormat='Corner Handling: {0}'}" />
                                 <Slider
                                     x:Name="CornerHandlingFilter"
                                     Grid.Column="1"
                                     Width="125"
-                                    IsSnapToTickEnabled="True"
-                                    Maximum="10"
-                                    Minimum="0"
-                                    TickFrequency="1"
+                                    Style="{StaticResource SecondarySlider}"
                                     ValueChanged="FilterSlider_OnValueChanged" />
                             </Grid>
                         </ComboBoxItem>
 
-                        <ComboBoxItem>
+                        <ComboBoxItem Style="{StaticResource CustomComboBoxItem}">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="125" />
@@ -186,15 +184,12 @@
                                     x:Name="BrakingFilter"
                                     Grid.Column="1"
                                     Width="125"
-                                    IsSnapToTickEnabled="True"
-                                    Maximum="10"
-                                    Minimum="0"
-                                    TickFrequency="1"
+                                    Style="{StaticResource SecondarySlider}"
                                     ValueChanged="FilterSlider_OnValueChanged" />
                             </Grid>
                         </ComboBoxItem>
 
-                        <ComboBoxItem>
+                        <ComboBoxItem Style="{StaticResource CustomComboBoxItem}">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="125" />
@@ -208,15 +203,12 @@
                                     x:Name="RealismFilter"
                                     Grid.Column="1"
                                     Width="125"
-                                    IsSnapToTickEnabled="True"
-                                    Maximum="10"
-                                    Minimum="0"
-                                    TickFrequency="1"
+                                    Style="{StaticResource SecondarySlider}"
                                     ValueChanged="FilterSlider_OnValueChanged" />
                             </Grid>
                         </ComboBoxItem>
 
-                        <ComboBoxItem>
+                        <ComboBoxItem Style="{StaticResource CustomComboBoxItem}">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="125" />
@@ -230,15 +222,12 @@
                                     x:Name="SoundFilter"
                                     Grid.Column="1"
                                     Width="125"
-                                    IsSnapToTickEnabled="True"
-                                    Maximum="10"
-                                    Minimum="0"
-                                    TickFrequency="1"
+                                    Style="{StaticResource SecondarySlider}"
                                     ValueChanged="FilterSlider_OnValueChanged" />
                             </Grid>
                         </ComboBoxItem>
 
-                        <ComboBoxItem>
+                        <ComboBoxItem Style="{StaticResource CustomComboBoxItem}">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="125" />
@@ -252,15 +241,12 @@
                                     x:Name="ExteriorQualityFilter"
                                     Grid.Column="1"
                                     Width="125"
-                                    IsSnapToTickEnabled="True"
-                                    Maximum="10"
-                                    Minimum="0"
-                                    TickFrequency="1"
+                                    Style="{StaticResource SecondarySlider}"
                                     ValueChanged="FilterSlider_OnValueChanged" />
                             </Grid>
                         </ComboBoxItem>
 
-                        <ComboBoxItem>
+                        <ComboBoxItem Style="{StaticResource CustomComboBoxItem}">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="125" />
@@ -274,15 +260,12 @@
                                     x:Name="InteriorQualityFilter"
                                     Grid.Column="1"
                                     Width="125"
-                                    IsSnapToTickEnabled="True"
-                                    Maximum="10"
-                                    Minimum="0"
-                                    TickFrequency="1"
+                                    Style="{StaticResource SecondarySlider}"
                                     ValueChanged="FilterSlider_OnValueChanged" />
                             </Grid>
                         </ComboBoxItem>
 
-                        <ComboBoxItem>
+                        <ComboBoxItem Style="{StaticResource CustomComboBoxItem}">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="125" />
@@ -296,15 +279,12 @@
                                     x:Name="ForceFeedbackQualityFilter"
                                     Grid.Column="1"
                                     Width="125"
-                                    IsSnapToTickEnabled="True"
-                                    Maximum="10"
-                                    Minimum="0"
-                                    TickFrequency="1"
+                                    Style="{StaticResource SecondarySlider}"
                                     ValueChanged="FilterSlider_OnValueChanged" />
                             </Grid>
                         </ComboBoxItem>
 
-                        <ComboBoxItem>
+                        <ComboBoxItem Style="{StaticResource CustomComboBoxItem}">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="125" />
@@ -318,16 +298,12 @@
                                     x:Name="FunFactorFilter"
                                     Grid.Column="1"
                                     Width="125"
-                                    IsSnapToTickEnabled="True"
-                                    Maximum="10"
-                                    Minimum="0"
-                                    TickFrequency="1"
-                                    HorizontalAlignment="Right"
+                                    Style="{StaticResource SecondarySlider}"
                                     ValueChanged="FilterSlider_OnValueChanged" />
                             </Grid>
                         </ComboBoxItem>
 
-                        <ComboBoxItem>
+                        <ComboBoxItem Style="{StaticResource CustomComboBoxItem}">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="125" />
@@ -335,16 +311,13 @@
                                 </Grid.ColumnDefinitions>
                                 <TextBlock
                                     Grid.Column="0"
-                                    Margin="0,0,5,0"
+                                    Margin="0,0,10,0"
                                     Text="{Binding ElementName=AverageRatingFilter, Path=Value, StringFormat='Average Rating: {0}'}" />
                                 <Slider
                                     x:Name="AverageRatingFilter"
                                     Grid.Column="1"
                                     Width="125"
-                                    IsSnapToTickEnabled="True"
-                                    Maximum="10"
-                                    Minimum="0"
-                                    TickFrequency="1"
+                                    Style="{StaticResource SecondarySlider}"
                                     ValueChanged="FilterSlider_OnValueChanged" />
                             </Grid>
                         </ComboBoxItem>

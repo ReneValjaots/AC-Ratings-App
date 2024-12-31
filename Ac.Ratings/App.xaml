@@ -12,6 +12,8 @@
                 <ResourceDictionary Source="Theme/ModernSlider.xaml" />
                 <ResourceDictionary Source="Theme/ModernCheckbox.xaml" />
                 <ResourceDictionary Source="Theme/ModernButton.xaml" />
+                <ResourceDictionary Source="Theme/SecondarySlider.xaml" />
+                <ResourceDictionary Source="Theme/ModernComboBox.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

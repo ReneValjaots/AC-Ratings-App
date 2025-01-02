@@ -46,20 +46,152 @@
                 Grid.Column="0"
                 MinWidth="210"
                 Margin="0,0,10,0"
+                HorizontalAlignment="Left"
                 d:DataContext="{d:DesignInstance Type=model:Car,
                                                  IsDesignTimeCreatable=True}"
                 Background="Transparent"
                 Foreground="White"
                 ItemsSource="{Binding}"
+                Loaded="CarList_Loaded"
                 SelectionChanged="CarList_SelectionChanged">
+                <ListView.Resources>
+                    <SolidColorBrush x:Key="EslScrollbarThumb" Color="#333333" />
+
+                    <Style x:Key="ScrollBarPageButton" TargetType="{x:Type RepeatButton}">
+                        <Setter Property="Visibility" Value="Visible" />
+                        <Setter Property="SnapsToDevicePixels" Value="True" />
+                        <Setter Property="OverridesDefaultStyle" Value="true" />
+                        <Setter Property="IsTabStop" Value="false" />
+                        <Setter Property="Focusable" Value="false" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type RepeatButton}">
+                                    <Border
+                                        HorizontalAlignment="Stretch"
+                                        VerticalAlignment="Stretch"
+                                        Background="Transparent" />
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+
+                    <Style x:Key="ScrollBarThumb" TargetType="{x:Type Thumb}">
+                        <Setter Property="SnapsToDevicePixels" Value="True" />
+                        <Setter Property="OverridesDefaultStyle" Value="true" />
+                        <Setter Property="IsTabStop" Value="false" />
+                        <Setter Property="Focusable" Value="false" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Thumb}">
+                                    <Border x:Name="rectangle"
+                                            SnapsToDevicePixels="True"
+                                        Width="{TemplateBinding Width}"
+                                        Background="{TemplateBinding Background}"
+                                        Opacity="1"
+                                        CornerRadius="3" />
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="rectangle" Property="Opacity" Value="0.7"/>
+                                            <Setter TargetName="rectangle" Property="Background" Value="#8b8b8b"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+
+                    <ControlTemplate x:Key="VerticalScrollBar" TargetType="{x:Type ScrollBar}">
+                        <Track Name="PART_Track" IsDirectionReversed="true">
+                            <Track.DecreaseRepeatButton>
+                                <RepeatButton Command="ScrollBar.PageUpCommand" Style="{StaticResource ScrollBarPageButton}" />
+                            </Track.DecreaseRepeatButton>
+                            <Track.Thumb>
+                                <Thumb
+                                    Margin="2,0,2,0"
+                                    Background="{DynamicResource EslScrollbarThumb}"
+                                    Style="{StaticResource ScrollBarThumb}" />
+                            </Track.Thumb>
+                            <Track.IncreaseRepeatButton>
+                                <RepeatButton Command="ScrollBar.PageDownCommand" Style="{StaticResource ScrollBarPageButton}" />
+                            </Track.IncreaseRepeatButton>
+                        </Track>
+                    </ControlTemplate>
+
+                    <Style x:Key="{x:Type ScrollBar}" TargetType="{x:Type ScrollBar}">
+                        <Setter Property="SnapsToDevicePixels" Value="True" />
+                        <Setter Property="OverridesDefaultStyle" Value="true" />
+                        <Style.Triggers>
+                            <Trigger Property="Orientation" Value="Vertical">
+                                <Setter Property="Width" Value="10" />
+                                <Setter Property="Height" Value="Auto" />
+                                <Setter Property="Template" Value="{StaticResource VerticalScrollBar}" />
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+
+                    <Style TargetType="{x:Type ScrollViewer}">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type ScrollViewer}">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition />
+                                            <RowDefinition Height="Auto" />
+                                        </Grid.RowDefinitions>
+                                        <ScrollContentPresenter Grid.Column="0" />
+                                        <ScrollBar
+                                            x:Name="PART_VerticalScrollBar"
+                                            Grid.Row="0"
+                                            Grid.Column="1"
+                                            Maximum="{TemplateBinding ScrollableHeight}"
+                                            ViewportSize="{TemplateBinding ViewportHeight}"
+                                            Visibility="{TemplateBinding ComputedVerticalScrollBarVisibility}"
+                                            Value="{TemplateBinding VerticalOffset}" />
+                                    </Grid>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="Background" Value="Transparent" />
+                        <Setter Property="Foreground" Value="White" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="ListViewItem">
+                                    <Border
+                                        Name="Border"
+                                        Padding="5"
+                                        Background="Transparent">
+                                        <ContentPresenter />
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="Border" Property="Background" Value="#333333" />
+                                        </Trigger>
+                                        <Trigger Property="IsSelected" Value="True">
+                                            <Setter TargetName="Border" Property="Background" Value="#3399FF" />
+                                            <Setter Property="Foreground" Value="White" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ListView.Resources>
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Width="Auto" Text="{Binding Name}" />
+                            <TextBlock Text="{Binding Name}" />
                         </StackPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+
 
             <StackPanel
                 Grid.Row="0"
@@ -145,8 +277,8 @@
                         Width="250"
                         Margin="10,2,0,5"
                         HorizontalAlignment="Left"
-                        Style="{StaticResource CustomComboBox}"
-                        SelectionChanged="RatingsFilter_OnSelectionChanged">
+                        SelectionChanged="RatingsFilter_OnSelectionChanged"
+                        Style="{StaticResource CustomComboBox}">
 
                         <ComboBoxItem>-- Reset --</ComboBoxItem>
 

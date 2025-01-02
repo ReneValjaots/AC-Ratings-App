@@ -8,7 +8,6 @@ namespace Ac.Ratings {
     /// </summary>
     public partial class SettingsWindow : Window {
         private readonly MainWindow _mainWindow;
-        private bool _isCanceling = false;
         private ConfigManager _configManager;
 
         public SettingsWindow(MainWindow mainWindow) {

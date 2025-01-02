@@ -695,5 +695,25 @@ namespace Ac.Ratings
             CarList.SelectedItem = previouslySelectedCar;
             CarList.Items.Refresh();
         }
+
+        private void CarList_Loaded(object sender, RoutedEventArgs e) {
+            var listView = sender as ListView;
+            if (listView != null && listView.Items.Count > 0) {
+                double maxWidth = 0;
+
+                foreach (var item in listView.Items) {
+                    // Measure the item's display width
+                    var container = listView.ItemContainerGenerator.ContainerFromItem(item) as ListViewItem;
+                    if (container != null) {
+                        container.Measure(new Size(double.PositiveInfinity, double.PositiveInfinity));
+                        maxWidth = Math.Max(maxWidth, container.DesiredSize.Width);
+                    }
+                }
+
+                // Add some margin and set the ListView width
+                listView.Width = maxWidth + 25; // Adjust margin as needed
+            }
+        }
+
     }
 }

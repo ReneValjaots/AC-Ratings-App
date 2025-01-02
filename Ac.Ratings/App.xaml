@@ -14,6 +14,8 @@
                 <ResourceDictionary Source="Theme/ModernButton.xaml" />
                 <ResourceDictionary Source="Theme/SecondarySlider.xaml" />
                 <ResourceDictionary Source="Theme/ModernComboBox.xaml" />
+                <ResourceDictionary Source="Theme/PrimaryListView.xaml" />
+                <ResourceDictionary Source="Theme/Scroll.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

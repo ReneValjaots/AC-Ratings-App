@@ -23,7 +23,7 @@ public class PowerConverter : JsonConverter<string?> {
     }
 
     private string ConvertPowerString(string powerValue) {
-        var matchHp = Regex.Match(powerValue, @"^(\d+)\+?(bhp|hp)$");
+        var matchHp = Regex.Match(powerValue, @"^(\d+)\+?(bhp|hp|whp)$");
         var matchKw = Regex.Match(powerValue, @"^(\d+)\+?kw");
         var matchCv = Regex.Match(powerValue, @"^(\d+)\+?cv$");
         var matchPs = Regex.Match(powerValue, @"^(\d+)\+?ps$");

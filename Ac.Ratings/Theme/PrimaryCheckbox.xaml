@@ -39,7 +39,7 @@
         <Setter Property="Visibility" Value="Collapsed" />
     </Style>
 
-    <Style x:Key="ModernCheckbox" TargetType="{x:Type CheckBox}">
+    <Style x:Key="PrimaryCheckbox" TargetType="{x:Type CheckBox}">
         <Setter Property="HorizontalAlignment" Value="Center" />
         <Setter Property="VerticalAlignment" Value="Center" />
         <Setter Property="VerticalContentAlignment" Value="Center" />

@@ -13,6 +13,7 @@
     FontFamily="Fonts/#SF Pro"
     PreviewKeyDown="MainWindow_PreviewKeyDown"
     WindowStartupLocation="CenterScreen"
+    Icon="Images/rating.ico"
     mc:Ignorable="d">
 
     <Border Background="#000302" CornerRadius="10">
@@ -34,11 +35,11 @@
                 Grid.Column="0"
                 Height="30"
                 MinWidth="200"
-                MaxWidth="250"
                 Margin="5"
                 HorizontalAlignment="Left"
                 VerticalContentAlignment="Center"
-                TextChanged="SearchBox_TextChanged" />
+                TextChanged="SearchBox_TextChanged"/>
+       
 
             <ListView
                 x:Name="CarList"
@@ -83,16 +84,17 @@
                         <Setter Property="Template">
                             <Setter.Value>
                                 <ControlTemplate TargetType="{x:Type Thumb}">
-                                    <Border x:Name="rectangle"
-                                            SnapsToDevicePixels="True"
+                                    <Border
+                                        x:Name="rectangle"
                                         Width="{TemplateBinding Width}"
                                         Background="{TemplateBinding Background}"
+                                        CornerRadius="3"
                                         Opacity="1"
-                                        CornerRadius="3" />
+                                        SnapsToDevicePixels="True" />
                                     <ControlTemplate.Triggers>
                                         <Trigger Property="IsMouseOver" Value="True">
-                                            <Setter TargetName="rectangle" Property="Opacity" Value="0.7"/>
-                                            <Setter TargetName="rectangle" Property="Background" Value="#8b8b8b"/>
+                                            <Setter TargetName="rectangle" Property="Opacity" Value="0.7" />
+                                            <Setter TargetName="rectangle" Property="Background" Value="#8b8b8b" />
                                         </Trigger>
                                     </ControlTemplate.Triggers>
                                 </ControlTemplate>
@@ -117,7 +119,7 @@
                         </Track>
                     </ControlTemplate>
 
-                    <Style x:Key="{x:Type ScrollBar}" TargetType="{x:Type ScrollBar}">
+                    <Style TargetType="{x:Type ScrollBar}">
                         <Setter Property="SnapsToDevicePixels" Value="True" />
                         <Setter Property="OverridesDefaultStyle" Value="true" />
                         <Style.Triggers>
@@ -276,13 +278,11 @@
                         Grid.Column="2"
                         Width="250"
                         Margin="10,2,0,5"
-                        HorizontalAlignment="Left"
-                        SelectionChanged="RatingsFilter_OnSelectionChanged"
-                        Style="{StaticResource CustomComboBox}">
+                        SelectionChanged="RatingsFilter_OnSelectionChanged">
 
                         <ComboBoxItem>-- Reset --</ComboBoxItem>
 
-                        <ComboBoxItem Style="{StaticResource CustomComboBoxItem}">
+                        <ComboBoxItem Style="{StaticResource RatingComboBoxItem}">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="125" />
@@ -302,7 +302,7 @@
                             </Grid>
                         </ComboBoxItem>
 
-                        <ComboBoxItem Style="{StaticResource CustomComboBoxItem}">
+                        <ComboBoxItem Style="{StaticResource RatingComboBoxItem}">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="125" />
@@ -321,7 +321,7 @@
                             </Grid>
                         </ComboBoxItem>
 
-                        <ComboBoxItem Style="{StaticResource CustomComboBoxItem}">
+                        <ComboBoxItem Style="{StaticResource RatingComboBoxItem}">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="125" />
@@ -340,7 +340,7 @@
                             </Grid>
                         </ComboBoxItem>
 
-                        <ComboBoxItem Style="{StaticResource CustomComboBoxItem}">
+                        <ComboBoxItem Style="{StaticResource RatingComboBoxItem}">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="125" />
@@ -359,7 +359,7 @@
                             </Grid>
                         </ComboBoxItem>
 
-                        <ComboBoxItem Style="{StaticResource CustomComboBoxItem}">
+                        <ComboBoxItem Style="{StaticResource RatingComboBoxItem}">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="125" />
@@ -378,7 +378,7 @@
                             </Grid>
                         </ComboBoxItem>
 
-                        <ComboBoxItem Style="{StaticResource CustomComboBoxItem}">
+                        <ComboBoxItem Style="{StaticResource RatingComboBoxItem}">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="125" />
@@ -397,7 +397,7 @@
                             </Grid>
                         </ComboBoxItem>
 
-                        <ComboBoxItem Style="{StaticResource CustomComboBoxItem}">
+                        <ComboBoxItem Style="{StaticResource RatingComboBoxItem}">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="125" />
@@ -416,7 +416,7 @@
                             </Grid>
                         </ComboBoxItem>
 
-                        <ComboBoxItem Style="{StaticResource CustomComboBoxItem}">
+                        <ComboBoxItem Style="{StaticResource RatingComboBoxItem}">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="125" />
@@ -435,7 +435,7 @@
                             </Grid>
                         </ComboBoxItem>
 
-                        <ComboBoxItem Style="{StaticResource CustomComboBoxItem}">
+                        <ComboBoxItem Style="{StaticResource RatingComboBoxItem}">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="125" />
@@ -460,12 +460,12 @@
                         Grid.Row="1"
                         Grid.Column="3"
                         Width="Auto"
-                        Height="{Binding ElementName=AuthorFilter, Path=ActualHeight}"
-                        Margin="10,2,0,0"
+                        Margin="10,0,0,0"
                         HorizontalAlignment="Left"
                         VerticalAlignment="Top"
                         Click="ResetFilters_Click"
-                        Content="Reset all" />
+                        Content="Reset all" 
+                        Style="{StaticResource TertiaryButton}"/>
                 </Grid>
             </Grid>
 
@@ -637,7 +637,7 @@
                         HorizontalAlignment="Left"
                         VerticalAlignment="Bottom">
                         <StackPanel.Resources>
-                            <Style BasedOn="{StaticResource ModernTextBlock}" TargetType="{x:Type TextBlock}" />
+                            <Style BasedOn="{StaticResource PrimaryTextBlock}" TargetType="{x:Type TextBlock}" />
                         </StackPanel.Resources>
                         <TextBlock Text="Brand:" />
                         <TextBlock Text="Year:" />
@@ -652,14 +652,14 @@
                         HorizontalAlignment="Left"
                         VerticalAlignment="Bottom">
                         <StackPanel.Resources>
-                            <Style BasedOn="{StaticResource InputTextBox}" TargetType="{x:Type TextBox}" />
+                            <Style BasedOn="{StaticResource PrimaryTextBlock}" TargetType="{x:Type TextBlock}" />
                         </StackPanel.Resources>
-                        <TextBox Text="{Binding Brand, Mode=TwoWay}" />
-                        <TextBox Text="{Binding Year, Mode=TwoWay}" />
-                        <TextBox Text="{Binding Class, Mode=TwoWay}" />
-                        <TextBox Text="{Binding Author, Mode=TwoWay}" />
-                        <TextBox Text="{Binding Specs.Weight, Mode=TwoWay}" />
-                        <TextBox Text="{Binding Specs.PowerToWeightRatio, Mode=TwoWay}" />
+                        <TextBlock Text="{Binding Brand, Mode=TwoWay}" />
+                        <TextBlock Text="{Binding Year, Mode=TwoWay}" />
+                        <TextBlock Text="{Binding Class, Mode=TwoWay}" />
+                        <TextBlock Text="{Binding Author, Mode=TwoWay}" />
+                        <TextBlock Text="{Binding Specs.Weight, Mode=TwoWay}" />
+                        <TextBlock Text="{Binding Specs.PowerToWeightRatio, Mode=TwoWay}" />
                     </StackPanel>
                 </Grid>
             </StackPanel>
@@ -688,7 +688,7 @@
                         x:Name="CornerHandlingSlider"
                         Grid.Column="1"
                         Width="150"
-                        Style="{StaticResource ModernSlider}"
+                        Style="{StaticResource PrimarySlider}"
                         Value="{Binding Path=Ratings.CornerHandling, Mode=TwoWay}" />
                 </Grid>
 
@@ -709,7 +709,7 @@
                         x:Name="BrakesSlider"
                         Grid.Column="1"
                         Width="150"
-                        Style="{StaticResource ModernSlider}"
+                        Style="{StaticResource PrimarySlider}"
                         Value="{Binding Path=Ratings.Brakes, Mode=TwoWay}" />
                 </Grid>
 
@@ -729,7 +729,7 @@
                         x:Name="RealismSlider"
                         Grid.Column="1"
                         Width="150"
-                        Style="{StaticResource ModernSlider}"
+                        Style="{StaticResource PrimarySlider}"
                         Value="{Binding Path=Ratings.Realism, Mode=TwoWay}" />
                 </Grid>
 
@@ -749,7 +749,7 @@
                         x:Name="SoundSlider"
                         Grid.Column="1"
                         Width="150"
-                        Style="{StaticResource ModernSlider}"
+                        Style="{StaticResource PrimarySlider}"
                         Value="{Binding Path=Ratings.Sound, Mode=TwoWay}" />
                 </Grid>
 
@@ -769,7 +769,7 @@
                         x:Name="ExteriorQualitySlider"
                         Grid.Column="1"
                         Width="150"
-                        Style="{StaticResource ModernSlider}"
+                        Style="{StaticResource PrimarySlider}"
                         Value="{Binding Path=Ratings.ExteriorQuality, Mode=TwoWay}" />
                 </Grid>
 
@@ -789,7 +789,7 @@
                         x:Name="InteriorQualitySlider"
                         Grid.Column="1"
                         Width="150"
-                        Style="{StaticResource ModernSlider}"
+                        Style="{StaticResource PrimarySlider}"
                         Value="{Binding Path=Ratings.InteriorQuality, Mode=TwoWay}" />
                 </Grid>
 
@@ -809,7 +809,7 @@
                         x:Name="ForceFeedbackQualitySlider"
                         Grid.Column="1"
                         Width="150"
-                        Style="{StaticResource ModernSlider}"
+                        Style="{StaticResource PrimarySlider}"
                         Value="{Binding Path=Ratings.ForceFeedbackQuality, Mode=TwoWay}" />
                 </Grid>
 
@@ -829,7 +829,7 @@
                         x:Name="FunFactorSlider"
                         Grid.Column="1"
                         Width="150"
-                        Style="{StaticResource ModernSlider}"
+                        Style="{StaticResource PrimarySlider}"
                         Value="{Binding Path=Ratings.FunFactor, Mode=TwoWay}" />
                 </Grid>
 
@@ -886,7 +886,7 @@
                             Grid.Row="0"
                             Grid.Column="1"
                             IsChecked="{Binding Ratings.TurnSignalsDashboard, Mode=TwoWay}"
-                            Style="{StaticResource ModernCheckbox}" />
+                            Style="{StaticResource PrimaryCheckbox}" />
                         <Label
                             Grid.Row="0"
                             Grid.Column="2"
@@ -898,7 +898,7 @@
                             Grid.Row="0"
                             Grid.Column="3"
                             IsChecked="{Binding Ratings.ABSOnFlashing, Mode=TwoWay}"
-                            Style="{StaticResource ModernCheckbox}" />
+                            Style="{StaticResource PrimaryCheckbox}" />
 
                         <!--  Row 2  -->
                         <Label
@@ -912,7 +912,7 @@
                             Grid.Row="1"
                             Grid.Column="1"
                             IsChecked="{Binding Ratings.TCOnFlashing, Mode=TwoWay}"
-                            Style="{StaticResource ModernCheckbox}" />
+                            Style="{StaticResource PrimaryCheckbox}" />
                         <Label
                             Grid.Row="1"
                             Grid.Column="2"
@@ -924,7 +924,7 @@
                             Grid.Row="1"
                             Grid.Column="3"
                             IsChecked="{Binding Ratings.ABSOff, Mode=TwoWay}"
-                            Style="{StaticResource ModernCheckbox}" />
+                            Style="{StaticResource PrimaryCheckbox}" />
 
                         <!--  Row 3  -->
                         <Label
@@ -938,7 +938,7 @@
                             Grid.Row="2"
                             Grid.Column="1"
                             IsChecked="{Binding Ratings.TCOff, Mode=TwoWay}"
-                            Style="{StaticResource ModernCheckbox}" />
+                            Style="{StaticResource PrimaryCheckbox}" />
                         <Label
                             Grid.Row="2"
                             Grid.Column="2"
@@ -950,7 +950,7 @@
                             Grid.Row="2"
                             Grid.Column="3"
                             IsChecked="{Binding Ratings.Handbrake, Mode=TwoWay}"
-                            Style="{StaticResource ModernCheckbox}" />
+                            Style="{StaticResource PrimaryCheckbox}" />
 
                         <!--  Row 4  -->
                         <Label
@@ -964,7 +964,7 @@
                             Grid.Row="3"
                             Grid.Column="1"
                             IsChecked="{Binding Ratings.LightsDashboard, Mode=TwoWay}"
-                            Style="{StaticResource ModernCheckbox}" />
+                            Style="{StaticResource PrimaryCheckbox}" />
                         <Label
                             Grid.Row="3"
                             Grid.Column="2"
@@ -976,7 +976,7 @@
                             Grid.Row="3"
                             Grid.Column="3"
                             IsChecked="{Binding Ratings.OtherDashboard, Mode=TwoWay}"
-                            Style="{StaticResource ModernCheckbox}" />
+                            Style="{StaticResource PrimaryCheckbox}" />
                     </Grid>
 
                     <!--  Outer Lights Section  -->
@@ -1011,7 +1011,7 @@
                             Grid.Row="0"
                             Grid.Column="1"
                             IsChecked="{Binding Ratings.TurnSignalsExterior, Mode=TwoWay}"
-                            Style="{StaticResource ModernCheckbox}" />
+                            Style="{StaticResource PrimaryCheckbox}" />
                         <Label
                             Grid.Row="0"
                             Grid.Column="2"
@@ -1023,7 +1023,7 @@
                             Grid.Row="0"
                             Grid.Column="3"
                             IsChecked="{Binding Ratings.GoodQualityLights, Mode=TwoWay}"
-                            Style="{StaticResource ModernCheckbox}" />
+                            Style="{StaticResource PrimaryCheckbox}" />
 
                         <!--  Row 2  -->
                         <Label
@@ -1037,7 +1037,7 @@
                             Grid.Row="1"
                             Grid.Column="1"
                             IsChecked="{Binding Ratings.EmergencyBrakeLights, Mode=TwoWay}"
-                            Style="{StaticResource ModernCheckbox}" />
+                            Style="{StaticResource PrimaryCheckbox}" />
                         <Label
                             Grid.Row="1"
                             Grid.Column="2"
@@ -1049,7 +1049,7 @@
                             Grid.Row="1"
                             Grid.Column="3"
                             IsChecked="{Binding Ratings.FogLights, Mode=TwoWay}"
-                            Style="{StaticResource ModernCheckbox}" />
+                            Style="{StaticResource PrimaryCheckbox}" />
 
                         <!--  Row 3  -->
                         <Label
@@ -1063,7 +1063,7 @@
                             Grid.Row="2"
                             Grid.Column="1"
                             IsChecked="{Binding Ratings.SequentialTurnSignals, Mode=TwoWay}"
-                            Style="{StaticResource ModernCheckbox}" />
+                            Style="{StaticResource PrimaryCheckbox}" />
                         <Label
                             Grid.Row="2"
                             Grid.Column="2"
@@ -1075,7 +1075,7 @@
                             Grid.Row="2"
                             Grid.Column="3"
                             IsChecked="{Binding Ratings.Animations, Mode=TwoWay}"
-                            Style="{StaticResource ModernCheckbox}" />
+                            Style="{StaticResource PrimaryCheckbox}" />
                     </Grid>
 
                     <!--  Others Section  -->
@@ -1108,7 +1108,7 @@
                             Grid.Row="0"
                             Grid.Column="1"
                             IsChecked="{Binding Ratings.ExtendedPhysics, Mode=TwoWay}"
-                            Style="{StaticResource ModernCheckbox}" />
+                            Style="{StaticResource PrimaryCheckbox}" />
                         <Label
                             Grid.Row="0"
                             Grid.Column="2"
@@ -1120,7 +1120,7 @@
                             Grid.Row="0"
                             Grid.Column="3"
                             IsChecked="{Binding Ratings.StartupSound, Mode=TwoWay}"
-                            Style="{StaticResource ModernCheckbox}" />
+                            Style="{StaticResource PrimaryCheckbox}" />
 
                         <Label
                             Grid.Row="1"
@@ -1133,7 +1133,7 @@
                             Grid.Row="1"
                             Grid.Column="1"
                             IsChecked="{Binding Ratings.DifferentDisplays, Mode=TwoWay}"
-                            Style="{StaticResource ModernCheckbox}" />
+                            Style="{StaticResource PrimaryCheckbox}" />
                         <Label
                             Grid.Row="1"
                             Grid.Column="2"
@@ -1145,7 +1145,7 @@
                             Grid.Row="1"
                             Grid.Column="3"
                             IsChecked="{Binding Ratings.DifferentDrivingModes, Mode=TwoWay}"
-                            Style="{StaticResource ModernCheckbox}" />
+                            Style="{StaticResource PrimaryCheckbox}" />
                     </Grid>
                 </StackPanel>
 
@@ -1155,7 +1155,7 @@
                     Margin="0,10,0,0"
                     Click="SaveButton_Click"
                     Content="Save"
-                    Style="{StaticResource ModernButton}" />
+                    Style="{StaticResource PrimaryButton}" />
 
                 <Grid>
                     <Grid.ColumnDefinitions>

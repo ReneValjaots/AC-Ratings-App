@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿using System.Diagnostics;
+using System.Globalization;
+using System.IO;
 using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
@@ -17,6 +19,7 @@ namespace Ac.Ratings
     public partial class MainWindow : Window {
         private DataInitializer _initializer;
         private ConfigManager _configManager;
+        private string _longestCarName = string.Empty;
         private List<Car> _carDb = new();
         private static readonly List<string> _gearboxTags = ["manual", "automatic", "semiautomatic", "sequential"];
         private static readonly List<string> _drivetrainTags = ["rwd", "awd", "fwd"];
@@ -48,6 +51,10 @@ namespace Ac.Ratings
                     var carData = LoadCarData(uiJsonPath);
                     if (carData != null) {
                         _carDb.Add(carData);
+                        if (carData.Name == null) continue;
+                        if (carData.Name.Length > _longestCarName.Length) {
+                            _longestCarName = carData.Name;
+                        }
                     }
                 }
             }
@@ -625,6 +632,7 @@ namespace Ac.Ratings
             }
 
             UpdateCarListFilter();
+            RatingsFilter.SelectedIndex = -1;
         }
 
         private void UpdateCarListFilter() {
@@ -641,6 +649,7 @@ namespace Ac.Ratings
                     }
                 }
             }
+
             SaveRatings();
         }
 
@@ -697,23 +706,24 @@ namespace Ac.Ratings
         }
 
         private void CarList_Loaded(object sender, RoutedEventArgs e) {
-            var listView = sender as ListView;
-            if (listView != null && listView.Items.Count > 0) {
-                double maxWidth = 0;
+            if (string.IsNullOrEmpty(_longestCarName)) return;
 
-                foreach (var item in listView.Items) {
-                    // Measure the item's display width
-                    var container = listView.ItemContainerGenerator.ContainerFromItem(item) as ListViewItem;
-                    if (container != null) {
-                        container.Measure(new Size(double.PositiveInfinity, double.PositiveInfinity));
-                        maxWidth = Math.Max(maxWidth, container.DesiredSize.Width);
-                    }
-                }
+            var typeface = new Typeface(CarList.FontFamily, CarList.FontStyle, CarList.FontWeight, CarList.FontStretch);
+            var fontSize = CarList.FontSize;
 
-                // Add some margin and set the ListView width
-                listView.Width = maxWidth + 25; // Adjust margin as needed
-            }
+            var formattedText = new FormattedText(
+                _longestCarName,
+                CultureInfo.CurrentCulture,
+                FlowDirection.LeftToRight,
+                typeface,
+                fontSize,
+                Brushes.Black, // Brush color doesn't matter
+                new NumberSubstitution(),
+                1);
+
+            double carListWidth = formattedText.WidthIncludingTrailingWhitespace + 25;
+            CarList.Width = carListWidth;
+            SearchBox.Width = carListWidth - 10;
         }
-
     }
 }

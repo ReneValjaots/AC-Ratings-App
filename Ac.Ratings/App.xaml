@@ -8,14 +8,15 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Theme/TextBoxTheme.xaml" />
-                <ResourceDictionary Source="Theme/TextBlockTheme.xaml" />
-                <ResourceDictionary Source="Theme/ModernSlider.xaml" />
-                <ResourceDictionary Source="Theme/ModernCheckbox.xaml" />
-                <ResourceDictionary Source="Theme/ModernButton.xaml" />
-                <ResourceDictionary Source="Theme/SecondarySlider.xaml" />
-                <ResourceDictionary Source="Theme/ModernComboBox.xaml" />
+                <ResourceDictionary Source="Theme/PrimaryTextBlock.xaml" />
+                <ResourceDictionary Source="/Theme/Sliders/PrimarySlider.xaml" />
+                <ResourceDictionary Source="Theme/PrimaryCheckbox.xaml" />
+                <ResourceDictionary Source="/Theme/Buttons/PrimaryButton.xaml" />
+                <ResourceDictionary Source="/Theme/Buttons/SecondaryButton.xaml" />
+                <ResourceDictionary Source="/Theme/Buttons/TertiaryButton.xaml" />
+                <ResourceDictionary Source="/Theme/Sliders/SecondarySlider.xaml" />
+                <ResourceDictionary Source="Theme/RatingComboBoxItem.xaml" />
                 <ResourceDictionary Source="Theme/PrimaryListView.xaml" />
-                <ResourceDictionary Source="Theme/Scroll.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

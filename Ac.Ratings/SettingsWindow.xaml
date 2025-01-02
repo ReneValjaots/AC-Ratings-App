@@ -36,7 +36,8 @@
                                 Margin="10,0,0,0"
                                 HorizontalAlignment="Right"
                                 Click="ResetRatingsButton_Click"
-                                Content="Reset" />
+                                Content="Reset"
+                                Style="{StaticResource TertiaryButton}" />
                         </Grid>
 
                         <Grid Margin="0,10,0,10">
@@ -57,7 +58,8 @@
                                 Margin="10,0,0,0"
                                 HorizontalAlignment="Right"
                                 Click="ResetExtraFeatures_Click"
-                                Content="Reset" />
+                                Content="Reset"
+                                Style="{StaticResource TertiaryButton}" />
                         </Grid>
 
                         <Grid Margin="0,10,0,10">
@@ -78,7 +80,8 @@
                                 Margin="10,0,0,0"
                                 HorizontalAlignment="Right"
                                 Click="TransferRatingsButton_OnClick"
-                                Content="Transfer" />
+                                Content="Transfer"
+                                Style="{StaticResource TertiaryButton}" />
                         </Grid>
                     </StackPanel>
                 </TabItem>
@@ -103,7 +106,8 @@
                                 Margin="10,0,0,0"
                                 HorizontalAlignment="Right"
                                 Click="ResetRootFolder_Click"
-                                Content="Reset" />
+                                Content="Reset"
+                                Style="{StaticResource TertiaryButton}" />
                         </Grid>
                     </StackPanel>
                 </TabItem>
@@ -127,7 +131,8 @@
                                 Margin="10,0,0,0"
                                 HorizontalAlignment="Right"
                                 Click="RestoreBackupButton_Click"
-                                Content="Restore" />
+                                Content="Restore"
+                                Style="{StaticResource TertiaryButton}" />
                         </Grid>
                     </StackPanel>
                 </TabItem>

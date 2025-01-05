@@ -1,5 +1,4 @@
-﻿using System.Diagnostics;
-using System.Globalization;
+﻿using System.Globalization;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Windows;
@@ -9,7 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using Ac.Ratings.Model;
 using Ac.Ratings.Services;
-using JsonSerializer = System.Text.Json.JsonSerializer;
+using System.Text.Json;
 
 namespace Ac.Ratings
 {
@@ -17,8 +16,8 @@ namespace Ac.Ratings
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window {
-        private DataInitializer _initializer;
-        private ConfigManager _configManager;
+        private readonly DataInitializer _initializer;
+        private readonly ConfigManager _configManager;
         private string _longestCarName = string.Empty;
         private List<Car> _carDb = new();
         private static readonly List<string> _gearboxTags = ["manual", "automatic", "semiautomatic", "sequential"];
@@ -43,6 +42,7 @@ namespace Ac.Ratings
         }
 
         private void LoadCarDatabase() {
+            if (_configManager.AcRootFolder == null) return;
             var carFolders = _initializer.GetAllCarFolderNames(_configManager.AcRootFolder);
             foreach (var carFolder in carFolders) {
                 if (carFolder == null) continue;
@@ -74,14 +74,19 @@ namespace Ac.Ratings
             }
         }
 
-        private void CarList_SelectionChanged(object sender, SelectionChangedEventArgs e) {
-            var selectedCar = (Car)CarList.SelectedItem;
-            if (selectedCar != null) {
-                LoadCarImage(selectedCar);
-                DisplayCarStats(selectedCar);
-                UpdateAverageRating();
+        private async void CarList_SelectionChanged(object sender, SelectionChangedEventArgs e) {
+            try {
+                var selectedCar = (Car)CarList.SelectedItem;
+                if (selectedCar != null) {
+                    await LoadCarImage(selectedCar);
+                    DisplayCarStats(selectedCar);
+                    UpdateAverageRating();
 
-                DataContext = selectedCar;
+                    DataContext = selectedCar;
+                }
+            }
+            catch (Exception ex) {
+                MessageBox.Show($"An error occurred: {ex.Message}");
             }
         }
 
@@ -99,7 +104,7 @@ namespace Ac.Ratings
             }
         }
 
-        private void LoadCarImage(Car car) {
+        private async Task LoadCarImage(Car car) {
             try {
                 if (string.IsNullOrEmpty(car.FolderPath)) {
                     MessageBox.Show("Car folder path is null or empty.");
@@ -114,7 +119,7 @@ namespace Ac.Ratings
                 }
 
                 var skinDirectories = Directory.GetDirectories(skinsDirectory);
-                PopulateSkinGrid(skinDirectories);
+                await PopulateSkinGrid(skinDirectories);
 
                 var previewFilePath = Path.Combine(skinDirectories[0], "preview.jpg");
                 if (File.Exists(previewFilePath)) {
@@ -127,7 +132,7 @@ namespace Ac.Ratings
             }
         }
 
-        private async void PopulateSkinGrid(string[] skinDirectories) {
+        private async Task PopulateSkinGrid(string[] skinDirectories) {
             _cancellationTokenSource?.Cancel();
             _cancellationTokenSource = new CancellationTokenSource();
             var token = _cancellationTokenSource.Token;
@@ -322,7 +327,7 @@ namespace Ac.Ratings
             UpdateCarListFilter();
         }
 
-        private string ShowCarDriveTrain(Car selectedCar) {
+        private static string ShowCarDriveTrain(Car selectedCar) {
             var tags = selectedCar.Tags;
             var data = selectedCar.Data.TractionType;
 
@@ -340,7 +345,7 @@ namespace Ac.Ratings
             return drivetrainFromSpecificTag?.ToUpper() ?? drivetrainFromRegularTags?.ToUpper() ?? string.Empty;
         }
 
-        private string ShowCarGearbox(Car selectedCar) {
+        private static string ShowCarGearbox(Car selectedCar) {
             var gearsCount = selectedCar.Data.GearsCount;
             var isManual = selectedCar.Data.SupportsShifter;
             var tags = selectedCar.Tags;
@@ -356,13 +361,13 @@ namespace Ac.Ratings
             };
         }
 
-        private string? GetCarEngineData(Car selectedCar) {
+        private static string? GetCarEngineData(Car selectedCar) {
             var tags = selectedCar.Tags;
             var engineTag = tags?.FirstOrDefault(x => x.Contains("#!"))?.Replace(" ", "").Remove(0, 2);
             return engineTag;
         }
 
-        private string ShowCarEngineStats(Car selectedCar) {
+        private static string ShowCarEngineStats(Car selectedCar) {
             var data = GetCarEngineData(selectedCar);
             if (string.IsNullOrEmpty(data))
                 return string.Empty;
@@ -377,18 +382,18 @@ namespace Ac.Ratings
             return result.Trim();
         }
 
-        private string GetLayout(string result, string data) {
+        private static string GetLayout(string result, string data) {
             if (data.StartsWith("I", StringComparison.OrdinalIgnoreCase))
-                result += "inline-" + Regex.Match(data, @"\d+").Value + " engine";
+                result += "inline-" + ExtractCylindersRegex().Match(data).Value + " engine";
 
             if (data.StartsWith("V", StringComparison.OrdinalIgnoreCase))
                 result += data.ToUpper() + " engine";
 
             if (data.StartsWith("F", StringComparison.OrdinalIgnoreCase))
-                result += "flat-" + Regex.Match(data, @"\d+").Value + " engine";
+                result += "flat-" + ExtractCylindersRegex().Match(data).Value + " engine";
 
             if (data.StartsWith("B", StringComparison.OrdinalIgnoreCase))
-                result += "boxer-" + Regex.Match(data, @"\d+").Value + " engine";
+                result += "boxer-" + ExtractCylindersRegex().Match(data).Value + " engine";
 
             if (data.StartsWith("R", StringComparison.OrdinalIgnoreCase))
                 result += "rotary engine";
@@ -397,7 +402,7 @@ namespace Ac.Ratings
         }
 
 
-        private string GetDisplacement(string result, string data) {
+        private static string GetDisplacement(string result, string data) {
             if (char.IsDigit(data[0])) {
                 var displacementValue = data.Replace("L", "", StringComparison.OrdinalIgnoreCase);
                 result += $"{displacementValue}l ";
@@ -406,13 +411,13 @@ namespace Ac.Ratings
             return result;
         }
 
-        private string AppendInductionSystemToEngineStats(string result, Car car) {
+        private static string AppendInductionSystemToEngineStats(string result, Car car) {
             string inductionSystem = ShowInductionSystemForEngineStats(car);
             result += inductionSystem + " ";
             return result;
         }
 
-        private string ShowInductionSystemForEngineStats(Car car) {
+        private static string ShowInductionSystemForEngineStats(Car car) {
             return car.Data.TurboCount switch {
                 1 => "turbocharged",
                 2 => "twin turbo",
@@ -445,7 +450,7 @@ namespace Ac.Ratings
             return conditions.All(condition => condition());
         }
 
-        private bool IsMatch(string? value, string? filter) {
+        private static bool IsMatch(string? value, string? filter) {
             return string.IsNullOrEmpty(filter) ||
                    string.Equals(value, filter, StringComparison.OrdinalIgnoreCase);
         }
@@ -475,7 +480,7 @@ namespace Ac.Ratings
             return classes;
         }
 
-        private string NormalizeClassName(IGrouping<string?, string?> group) {
+        private static string NormalizeClassName(IGrouping<string?, string?> group) {
             var uppercaseName = group.FirstOrDefault(name => name != null && name.All(c => !char.IsLetter(c) || char.IsUpper(c)));
 
             if (uppercaseName != null)
@@ -571,7 +576,7 @@ namespace Ac.Ratings
                     Directory.CreateDirectory(backupFolder);
                 }
 
-                string backupFileName = $"CarDb_backup_{DateTime.Now:dd_mm_yyyy_HHmm}.json";
+                string backupFileName = $"CarDb_backup_{DateTime.Now:dd_MM_yyyy_HH_mm}.json";
                 string backupFilePath = Path.Combine(backupFolder, backupFileName);
 
                 var jsonContent = JsonSerializer.Serialize(_carDb, _configManager.JsonOptions);
@@ -582,8 +587,8 @@ namespace Ac.Ratings
                     .ToList();
 
 
-                if (backupFiles.Count > 5) {
-                    foreach (var oldBackup in backupFiles.Skip(5)) {
+                if (backupFiles.Count > 10) {
+                    foreach (var oldBackup in backupFiles.Skip(10)) {
                         File.Delete(oldBackup);
                     }
                 }
@@ -725,5 +730,8 @@ namespace Ac.Ratings
             CarList.Width = carListWidth;
             SearchBox.Width = carListWidth - 10;
         }
+
+        [GeneratedRegex(@"\d+")]
+        private static partial Regex ExtractCylindersRegex();
     }
 }

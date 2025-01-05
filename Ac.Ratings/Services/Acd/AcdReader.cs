@@ -35,13 +35,6 @@ internal sealed class AcdReader : ReadAheadBinaryReader {
         Skip(ReadInt32() * 4);
     }
 
-    public AcdEntry ReadEntry() {
-        return new AcdEntry {
-            Name = ReadString(),
-            Data = ReadData()
-        };
-    }
-
     public byte[] ReadEntryData(string entryName) {
         while (BaseStream.Position < BaseStream.Length) {
             var name = ReadString();

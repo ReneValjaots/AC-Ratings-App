@@ -6,12 +6,17 @@ using Ac.Ratings.Services.Acd;
 
 namespace Ac.Ratings.Services {
     public class DataInitializer {
-        private string _acRootFolder;
-        private ConfigManager _configManager;
+        private readonly string _acRootFolder;
+        private readonly ConfigManager _configManager;
 
         public DataInitializer() {
             _configManager = new ConfigManager();
-            _acRootFolder = _configManager.AcRootFolder;
+            var acRootFolder = _configManager.AcRootFolder;
+            if (string.IsNullOrEmpty(acRootFolder)) {
+                LogMissingData("Critical Error: acRootFolder is null or empty. The application cannot continue.");
+                Environment.Exit(1);
+            }
+            _acRootFolder = acRootFolder;
 
             if (File.Exists(_configManager.MissingDataLogFilePath))
                 File.WriteAllText(_configManager.MissingDataLogFilePath, string.Empty);
@@ -168,7 +173,7 @@ namespace Ac.Ratings.Services {
         }
 
 
-        private Car? LoadCarDataFromJson(string filePath) {
+        private static Car? LoadCarDataFromJson(string filePath) {
             if (!File.Exists(filePath)) return null;
             using (var openStream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.Read, 4096, FileOptions.None)) {
                 return JsonSerializer.Deserialize<Car>(openStream);
@@ -206,7 +211,7 @@ namespace Ac.Ratings.Services {
             return carData;
         }
 
-        private string ExtractIniValue(string line) {
+        private static string ExtractIniValue(string line) {
             var parts = line.Split(new[] { '=' }, 2); 
             return parts.Length > 1 ? parts[1].Split(';')[0].Trim() : string.Empty;
         }

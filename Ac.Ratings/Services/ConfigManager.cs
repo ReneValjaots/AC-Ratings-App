@@ -69,7 +69,7 @@ namespace Ac.Ratings.Services {
             return rootFolder;
         }
 
-        private string? AskUserForAcRootFolder() {
+        private static string? AskUserForAcRootFolder() {
             var acRootFolderWindow = new AcRootFolderWindow();
             if (acRootFolderWindow.ShowDialog() == true) {
                 return acRootFolderWindow.SelectedPath;

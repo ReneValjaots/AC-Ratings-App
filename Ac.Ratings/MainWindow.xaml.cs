@@ -133,7 +133,9 @@ namespace Ac.Ratings
         }
 
         private async Task PopulateSkinGrid(string[] skinDirectories) {
-            _cancellationTokenSource?.Cancel();
+            if (_cancellationTokenSource != null) {
+                await _cancellationTokenSource.CancelAsync();
+            }
             _cancellationTokenSource = new CancellationTokenSource();
             var token = _cancellationTokenSource.Token;
 
@@ -164,6 +166,8 @@ namespace Ac.Ratings
 
                 if (File.Exists(previewFilePath) && File.Exists(liveryFilePath)) {
                     var liveryUri = new Uri(liveryFilePath, UriKind.Absolute);
+                    var rowIndex = i / boxesPerRow;
+                    var columnIndex = i % boxesPerRow;
 
                     try {
                         var bitmapImage = await Task.Run(() => {
@@ -190,8 +194,8 @@ namespace Ac.Ratings
                         imageControl.MouseLeftButtonDown += (s, e) => SkinBox_Clicked(previewFilePath);
 
                         Dispatcher.Invoke(() => {
-                            Grid.SetRow(imageControl, i / boxesPerRow);
-                            Grid.SetColumn(imageControl, i % boxesPerRow);
+                            Grid.SetRow(imageControl, rowIndex);
+                            Grid.SetColumn(imageControl, columnIndex);
                             SkinGrid.Children.Add(imageControl);
                         });
                     }

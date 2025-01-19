@@ -4,24 +4,24 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 
 namespace Ac.Ratings.Services {
-    public class ConfigManager {
-        public string ResourceFolder { get; private set; }
-        public string ConfigFilePath { get; private set; }
-        public string CarsRootFolder { get; private set; }
-        public string MissingDataLogFilePath { get; private set; }
-        public string BackupFolder { get; private set; }
-        public string UnpackFolderPath { get; private set; }
-        public string ModifiedRatingsPath { get; private set; }
-        public string? OriginalRatingsPath { get; private set; }
-        public string? AcRootFolder { get; private set; }
+    public static class ConfigManager {
+        public static string ResourceFolder { get; private set; }
+        public static string ConfigFilePath { get; private set; }
+        public static string CarsRootFolder { get; private set; }
+        public static string MissingDataLogFilePath { get; private set; }
+        public static string BackupFolder { get; private set; }
+        public static string UnpackFolderPath { get; private set; }
+        public static string ModifiedRatingsPath { get; private set; }
+        public static string? OriginalRatingsPath { get; private set; }
+        public static string? AcRootFolder { get; private set; }
 
-        public readonly JsonSerializerOptions JsonOptions = new() {
+        public static readonly JsonSerializerOptions JsonOptions = new() {
             Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
             WriteIndented = true,
             DefaultIgnoreCondition = JsonIgnoreCondition.Never
         };
 
-        public ConfigManager() {
+        static ConfigManager() {
             ResourceFolder = LoadConfigValue("ResourceFolder")
                              ?? Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, @"..\..\..\Resources"));
 
@@ -59,7 +59,7 @@ namespace Ac.Ratings.Services {
             }
         }
 
-        private string? LoadAcRootFolder() {
+        private static string? LoadAcRootFolder() {
             var rootFolder = LoadConfigValue("AcRootFolder");
 
             if (string.IsNullOrEmpty(rootFolder) || !Directory.Exists(rootFolder)) {
@@ -78,7 +78,7 @@ namespace Ac.Ratings.Services {
             return null;
         }
 
-        private string? LoadConfigValue(string key) {
+        private static string? LoadConfigValue(string key) {
             if (File.Exists(ConfigFilePath)) {
                 var config = JsonSerializer.Deserialize<Dictionary<string, string>>(File.ReadAllText(ConfigFilePath));
                 return config?.GetValueOrDefault(key);
@@ -87,7 +87,7 @@ namespace Ac.Ratings.Services {
             return null;
         }
 
-        private void SaveConfigValue(string key, string value) {
+        private static void SaveConfigValue(string key, string value) {
             Dictionary<string, string> config;
 
             if (File.Exists(ConfigFilePath)) {
@@ -101,7 +101,7 @@ namespace Ac.Ratings.Services {
             File.WriteAllText(ConfigFilePath, JsonSerializer.Serialize(config, JsonOptions));
         }
 
-        private string? LoadOriginalRatingsPath() {
+        private static string? LoadOriginalRatingsPath() {
             if (LoadConfigValue("OriginalRatingsDatafilePath") != null) {
                 return LoadConfigValue("OriginalRatingsDatafilePath");
             }
@@ -112,7 +112,7 @@ namespace Ac.Ratings.Services {
             return File.Exists(ratingsPath) ? ratingsPath : null;
         }
 
-        private void EnsureConfigFileExists() {
+        private static void EnsureConfigFileExists() {
             var directoryPath = Path.GetDirectoryName(ConfigFilePath);
             if (!Directory.Exists(directoryPath)) {
                 Directory.CreateDirectory(directoryPath!);

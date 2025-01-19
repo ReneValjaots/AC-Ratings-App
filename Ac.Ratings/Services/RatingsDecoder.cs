@@ -9,13 +9,12 @@ namespace Ac.Ratings.Services {
     public class RatingsDecoder {
         private const byte _deflateFlag = 0;
         private const byte _lzfFlag = 11;
-        private readonly ConfigManager _configManager = new ConfigManager();
 
         private Dictionary<string, double> _ratingDb = new Dictionary<string, double>();
 
         public void InitializeRatingsDataFile() {
             try {
-                string? originalRatingsPath = _configManager.OriginalRatingsPath;
+                string? originalRatingsPath = ConfigManager.OriginalRatingsPath;
                 if (originalRatingsPath == null) {
                     Console.WriteLine("Original ratings file not found.");
                     return;
@@ -27,7 +26,7 @@ namespace Ac.Ratings.Services {
 
                 ProcessDecompressedData(decompressedData);
 
-                File.WriteAllBytes(_configManager.ModifiedRatingsPath, decompressedData);
+                File.WriteAllBytes(ConfigManager.ModifiedRatingsPath, decompressedData);
             }
             catch (Exception ex) {
                 Console.WriteLine($"An error occurred: {ex.Message}");
@@ -74,7 +73,7 @@ namespace Ac.Ratings.Services {
         }
 
         public void InitializeUserRatings() {
-            string carsRootFolder = _configManager.CarsRootFolder;
+            string carsRootFolder = ConfigManager.CarsRootFolder;
             if (!Directory.Exists(carsRootFolder)) {
                 return;
             }
@@ -147,11 +146,11 @@ namespace Ac.Ratings.Services {
                 byte[] compressedData = CompressData();
 
                 // Step 2: Save locally as "Ratings.data"
-                string localPath = Path.Combine(_configManager.UnpackFolderPath, "Ratings.data");
+                string localPath = Path.Combine(ConfigManager.UnpackFolderPath, "Ratings.data");
                 SaveCompressedFile(compressedData, localPath);
 
                 // Step 3: Copy the compressed file to the OriginalRatingsPath
-                string? originalRatingsPath = _configManager.OriginalRatingsPath;
+                string? originalRatingsPath = ConfigManager.OriginalRatingsPath;
                 if (originalRatingsPath == null) {
                     Console.WriteLine("Original ratings path not configured.");
                     return;

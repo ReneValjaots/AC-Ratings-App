@@ -8,12 +8,10 @@ namespace Ac.Ratings {
     /// </summary>
     public partial class SettingsWindow : Window {
         private readonly MainWindow _mainWindow;
-        private ConfigManager _configManager;
 
         public SettingsWindow(MainWindow mainWindow) {
             InitializeComponent();
             _mainWindow = mainWindow;
-            _configManager = new ConfigManager();
         }
 
         private void ResetRatingsButton_Click(object sender, RoutedEventArgs e) {
@@ -53,7 +51,7 @@ namespace Ac.Ratings {
             var openFileDialog = new Microsoft.Win32.OpenFileDialog {
                 Title = "Select Backup File",
                 Filter = "JSON Files (*.json)|*.json",
-                InitialDirectory = _configManager.BackupFolder
+                InitialDirectory = ConfigManager.BackupFolder
             };
 
             if (openFileDialog.ShowDialog() == true) {
@@ -90,8 +88,8 @@ namespace Ac.Ratings {
 
             if (result == MessageBoxResult.Yes) {
                 try {
-                    if (File.Exists(_configManager.ConfigFilePath)) {
-                        File.Delete(_configManager.ConfigFilePath);
+                    if (File.Exists(ConfigManager.ConfigFilePath)) {
+                        File.Delete(ConfigManager.ConfigFilePath);
 
                         Environment.Exit(0);
                     }

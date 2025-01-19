@@ -7,19 +7,17 @@ using Ac.Ratings.Services.Acd;
 namespace Ac.Ratings.Services {
     public class DataInitializer {
         private readonly string _acRootFolder;
-        private readonly ConfigManager _configManager;
 
         public DataInitializer() {
-            _configManager = new ConfigManager();
-            var acRootFolder = _configManager.AcRootFolder;
+            var acRootFolder = ConfigManager.AcRootFolder;
             if (string.IsNullOrEmpty(acRootFolder)) {
                 LogMissingData("Critical Error: acRootFolder is null or empty. The application cannot continue.");
                 Environment.Exit(1);
             }
             _acRootFolder = acRootFolder;
 
-            if (File.Exists(_configManager.MissingDataLogFilePath))
-                File.WriteAllText(_configManager.MissingDataLogFilePath, string.Empty);
+            if (File.Exists(ConfigManager.MissingDataLogFilePath))
+                File.WriteAllText(ConfigManager.MissingDataLogFilePath, string.Empty);
 
             CreateCarFolders();
             InitializeCarData();
@@ -35,7 +33,7 @@ namespace Ac.Ratings.Services {
             var carFolders = GetAllCarFolderNames(_acRootFolder);
             foreach (var carFolder in carFolders) {
                 if (carFolder is null) continue;
-                var newFolder = Path.Combine(_configManager.CarsRootFolder, carFolder);
+                var newFolder = Path.Combine(ConfigManager.CarsRootFolder, carFolder);
                 if (!Directory.Exists(newFolder)) {
                     Directory.CreateDirectory(newFolder);
                 }
@@ -104,14 +102,14 @@ namespace Ac.Ratings.Services {
         }
 
         private void ProcessCarFolder(string carFolder) {
-            var ratingsAppFolder = Path.Combine(_configManager.CarsRootFolder, carFolder, "RatingsApp");
+            var ratingsAppFolder = Path.Combine(ConfigManager.CarsRootFolder, carFolder, "RatingsApp");
             var uiJsonPath = Path.Combine(ratingsAppFolder, "ui.json");
             var originalCarFolder = Path.Combine(_acRootFolder, carFolder);
             var uiJsonPathInOriginalFolder = Path.Combine(originalCarFolder, "ui", "ui_car.json");
 
 
-            var cmBackupFolder = Path.Combine(_configManager.BackupFolder, "cm", carFolder);
-            var appBackupFolder = Path.Combine(_configManager.BackupFolder, "ratings", carFolder);
+            var cmBackupFolder = Path.Combine(ConfigManager.BackupFolder, "cm", carFolder);
+            var appBackupFolder = Path.Combine(ConfigManager.BackupFolder, "ratings", carFolder);
             var backupCmUiPath = Path.Combine(cmBackupFolder, "ui_car.json");
             var backupRatingsUiPath = Path.Combine(appBackupFolder, "ui.json");
 
@@ -165,7 +163,7 @@ namespace Ac.Ratings.Services {
 
             // Save newCar to ui.json
             using (var createStream = new FileStream(uiJsonPath, FileMode.Create, FileAccess.Write, FileShare.None, 4096, FileOptions.None)) {
-                JsonSerializer.Serialize(createStream, newCar, _configManager.JsonOptions);
+                JsonSerializer.Serialize(createStream, newCar, ConfigManager.JsonOptions);
             }
 
             // Backup the updated ui.json
@@ -217,13 +215,13 @@ namespace Ac.Ratings.Services {
         }
 
         private void LogMissingData(string message) {
-            var directoryPath = Path.GetDirectoryName(_configManager.MissingDataLogFilePath);
+            var directoryPath = Path.GetDirectoryName(ConfigManager.MissingDataLogFilePath);
             if (directoryPath != null && !Directory.Exists(directoryPath)) {
                 Directory.CreateDirectory(directoryPath);
             }
 
             try {
-                File.AppendAllText(_configManager.MissingDataLogFilePath, $"{DateTime.Now}: {message}{Environment.NewLine}");
+                File.AppendAllText(ConfigManager.MissingDataLogFilePath, $"{DateTime.Now}: {message}{Environment.NewLine}");
             }
             catch (IOException ex) {
                 Console.WriteLine($"Failed to log missing data: {ex.Message}");

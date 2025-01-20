@@ -5,9 +5,9 @@ namespace Ac.Ratings.Services.Acd;
 internal sealed class AcdReader : ReadAheadBinaryReader {
     private readonly IAcdEncryption _enc;
 
-    public AcdReader(string filename) : this(filename, File.Open(filename, FileMode.Open, FileAccess.Read, FileShare.ReadWrite)) { }
+    public AcdReader(string? filename) : this(filename, File.Open(filename, FileMode.Open, FileAccess.Read, FileShare.ReadWrite)) { }
 
-    public AcdReader(string filename, Stream input) : base(input) {
+    public AcdReader(string? filename, Stream input) : base(input) {
         _enc = AcdEncryption.FromAcdFilename(filename);
 
         if (ReadInt32() == -1111) {

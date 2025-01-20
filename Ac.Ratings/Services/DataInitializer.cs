@@ -75,9 +75,12 @@ namespace Ac.Ratings.Services {
                 string? currentSection = null;
 
                 foreach (var line in lines) {
-                    if (line.StartsWith("[")) currentSection = line.Trim();
+                    if (line.StartsWith('[')) {
+                        currentSection = line.Trim();
+                        continue;
+                    }
 
-                    else if (currentSection == "[TRACTION]" && line.Contains("TYPE=")) {
+                    if (currentSection == "[TRACTION]" && line.Contains("TYPE=")) {
                         carData.TractionType = ExtractIniValue(line);
                     }
                     else if (currentSection == "[GEARS]" && line.Contains("COUNT=")) {
@@ -152,21 +155,17 @@ namespace Ac.Ratings.Services {
                 }
             }
 
-            // Check for missing critical data
             if (string.IsNullOrEmpty(newCar.Data.TractionType) || newCar.Data.GearsCount == 0) {
                 LogMissingData($"Critical data missing for car: {carFolder}");
             }
 
-            // Finalize newCar object
             newCar.FolderPath = originalCarFolder;
             newCar.FolderName = carFolder;
 
-            // Save newCar to ui.json
             using (var createStream = new FileStream(uiJsonPath, FileMode.Create, FileAccess.Write, FileShare.None, 4096, FileOptions.None)) {
                 JsonSerializer.Serialize(createStream, newCar, ConfigManager.JsonOptions);
             }
 
-            // Backup the updated ui.json
             File.Copy(uiJsonPath, backupRatingsUiPath, overwrite: true);
         }
 
@@ -178,7 +177,7 @@ namespace Ac.Ratings.Services {
             }
         }
 
-        private CarData GetCarDataFromOriginalFolder(string originalCarFolder) {
+        private static CarData GetCarDataFromOriginalFolder(string originalCarFolder) {
             var drivetrainFilePath = Path.Combine(originalCarFolder, "data", "drivetrain.ini");
             var engineFilePath = Path.Combine(originalCarFolder, "data", "engine.ini");
             var carData = new CarData();
@@ -214,7 +213,7 @@ namespace Ac.Ratings.Services {
             return parts.Length > 1 ? parts[1].Split(';')[0].Trim() : string.Empty;
         }
 
-        private void LogMissingData(string message) {
+        private static void LogMissingData(string message) {
             var directoryPath = Path.GetDirectoryName(ConfigManager.MissingDataLogFilePath);
             if (directoryPath != null && !Directory.Exists(directoryPath)) {
                 Directory.CreateDirectory(directoryPath);

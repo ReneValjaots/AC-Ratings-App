@@ -5,6 +5,6 @@ public class AcdEntry {
     public byte[] Data;
 
     public override string ToString() {
-        return Data.ToUtf8String();
+        return StringExtension.ToUtf8String(Data);
     }
 }

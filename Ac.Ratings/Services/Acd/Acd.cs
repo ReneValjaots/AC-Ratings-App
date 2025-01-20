@@ -30,6 +30,8 @@ public class Acd {
             _packedBytes = File.ReadAllBytes(_packedFile);
         }
 
+        if (_packedFile == null) return null;
+
         using (var stream = new MemoryStream(_packedBytes))
             using (var reader = new AcdReader(_packedFile, stream)) {
                 return reader.ReadEntryData(entryName);

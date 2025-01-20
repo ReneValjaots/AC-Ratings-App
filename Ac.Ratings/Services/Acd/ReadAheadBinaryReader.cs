@@ -130,16 +130,7 @@ public class ReadAheadBinaryReader : IDisposable {
 
     public int ReadInt32() {
         var pos = GetPosAndMove(4);
-        return ToInt32(_buffer, pos);
-    }
-
-    protected static unsafe int ToInt32(byte[] value, int startIndex) {
-        fixed (byte* pbyte = &value[startIndex]) {
-            if (startIndex % 4 == 0) return *(int*)pbyte;
-            return BitConverter.IsLittleEndian
-                ? *pbyte | (*(pbyte + 1) << 8) | (*(pbyte + 2) << 16) | (*(pbyte + 3) << 24)
-                : (*pbyte << 24) | (*(pbyte + 1) << 16) | (*(pbyte + 2) << 8) | *(pbyte + 3);
-        }
+        return BitConverter.ToInt32(_buffer, pos);
     }
 
     private int GetPosAndMove(int count) {

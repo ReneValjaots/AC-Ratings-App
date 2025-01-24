@@ -2,8 +2,7 @@
 
 namespace Ac.Ratings.Model;
 
-public class CarRatings
-{
+public class CarRatings {
     [JsonPropertyName("cornerHandling")] public double CornerHandling { get; set; } = 0.0;
     [JsonPropertyName("brakes")] public double Brakes { get; set; } = 0.0;
     [JsonPropertyName("realism")] public double Realism { get; set; } = 0.0;

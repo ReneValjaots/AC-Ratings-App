@@ -142,14 +142,11 @@ namespace Ac.Ratings.Services {
 
         public void ExportDataFile() {
             try {
-                // Step 1: Compress the data
                 byte[] compressedData = CompressData();
 
-                // Step 2: Save locally as "Ratings.data"
                 string localPath = Path.Combine(ConfigManager.UnpackFolderPath, "Ratings.data");
                 SaveCompressedFile(compressedData, localPath);
 
-                // Step 3: Copy the compressed file to the OriginalRatingsPath
                 string? originalRatingsPath = ConfigManager.OriginalRatingsPath;
                 if (originalRatingsPath == null) {
                     Console.WriteLine("Original ratings path not configured.");

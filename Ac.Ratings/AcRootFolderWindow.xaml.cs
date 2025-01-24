@@ -35,8 +35,8 @@ namespace Ac.Ratings {
         }
 
         private void CancelButton_Click(object sender, RoutedEventArgs e) {
-            _isCanceling = true; // Indicate Cancel button was clicked
-            Close(); // Trigger Window_Closing logic
+            _isCanceling = true; 
+            Close(); 
         }
 
         private bool ConfirmExit() {

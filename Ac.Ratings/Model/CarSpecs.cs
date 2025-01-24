@@ -1,5 +1,5 @@
 ﻿using System.Text.Json.Serialization;
-using Ac.Ratings.Services;
+using Ac.Ratings.Services.Converters;
 
 namespace Ac.Ratings.Model;
 

@@ -1,42 +1,71 @@
 ﻿using System.IO;
 using System.Text.Json;
-using System.Windows;
 using Ac.Ratings.Model;
 
 namespace Ac.Ratings.Services.MainView {
     public static class CarDataService {
-        public static Car? LoadCarData(string filePath) {
-            try {
-                var jsonContent = File.ReadAllText(filePath);
-                var car = JsonSerializer.Deserialize<Car>(jsonContent, ConfigManager.JsonOptions);
-                return car;
+        public static List<Car> LoadCarDatabase() {
+            var carDb = new List<Car>();
+            if (ConfigManager.AcRootFolder == null) return carDb;
+            var carFolders = new DataInitializer().GetAllCarFolderNames(ConfigManager.AcRootFolder);
+            foreach (var carFolder in carFolders) {
+                if (carFolder == null) continue;
+                var uiJsonPath = Path.Combine(ConfigManager.CarsRootFolder, carFolder, "RatingsApp", "ui.json");
+                if (File.Exists(uiJsonPath)) {
+                    try {
+                        var carData = LoadCarData(uiJsonPath);
+                        if (carData != null) {
+                            carDb.Add(carData);
+                        }
+                    }
+                    catch (Exception ex) {
+                        Console.WriteLine($"Failed to load car data from {uiJsonPath}: {ex.Message}");
+                    }
+                }
             }
-            catch (Exception ex) {
-                MessageBox.Show($"Failed to load car data from {filePath}: {ex.Message}");
-                return null;
-            }
+
+            return carDb.OrderBy(x => x.Name).ToList();
         }
 
-        public static void SaveCarToFile(Car car) {
-            try {
-                if (string.IsNullOrEmpty(ConfigManager.CarsRootFolder)) {
-                    MessageBox.Show("Cars root folder path is null or empty.");
-                    return;
-                }
+        private static Car? LoadCarData(string filePath) {
+            var jsonContent = File.ReadAllText(filePath);
+            var car = JsonSerializer.Deserialize<Car>(jsonContent, ConfigManager.JsonOptions);
+            return car;
+            
+        }
 
-                if (string.IsNullOrEmpty(car.FolderName)) {
-                    MessageBox.Show($"Folder name for car {car.Name} is null or empty.");
-                    return;
-                }
+        public static List<string> GetDistinctClasses(List<Car> carDb) {
+            var classes = carDb
+                .Select(x => x.Class?.Trim())
+                .Where(x => !string.IsNullOrEmpty(x))
+                .GroupBy(x => x?.ToLower())
+                .Select(CarDisplayService.NormalizeClassName)
+                .OrderBy(x => x)
+                .ToList();
 
-                var carFolderPath = Path.Combine(ConfigManager.CarsRootFolder, car.FolderName);
-                var carJsonFilePath = Path.Combine(carFolderPath, "RatingsApp", "ui.json");
-                var jsonContent = JsonSerializer.Serialize(car, ConfigManager.JsonOptions);
-                File.WriteAllText(carJsonFilePath, jsonContent);
-            }
-            catch (Exception ex) {
-                MessageBox.Show($"Failed to save car ratings to file: {ex.Message}");
-            }
+            classes.Insert(0, "-- Reset --");
+            return classes;
+        }
+
+
+        public static List<string?> GetDistinctAuthors(List<Car> carDb) {
+            var authors = carDb
+                .Select(x => x.Author)
+                .Where(author => !string.IsNullOrEmpty(author))
+                .Distinct()
+                .OrderBy(author => author)
+                .ToList();
+
+            authors.Insert(0, "-- Reset --");
+            return authors;
+        }
+
+        public static string GetLongestCarName(List<Car> carDb) {
+            return carDb
+                .Where(c => c.Name != null)
+                .OrderByDescending(c => c.Name!.Length)
+                .Select(c => c.Name)
+                .FirstOrDefault() ?? string.Empty;
         }
     }
 }

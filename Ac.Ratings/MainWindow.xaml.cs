@@ -10,52 +10,29 @@ using Ac.Ratings.Services;
 using System.Text.Json;
 using Ac.Ratings.Services.MainView;
 
-namespace Ac.Ratings
-{
+namespace Ac.Ratings {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window {
-        private readonly DataInitializer _initializer;
-        private string _longestCarName = string.Empty;
-        private List<Car> _carDb = new();
+        private readonly string _longestCarName;
+        private List<Car> _carDb;
         private CancellationTokenSource? _cancellationTokenSource;
 
         public MainWindow() {
             InitializeComponent();
-            _initializer = new DataInitializer();
-            LoadCarDatabase();
+            _carDb = CarDataService.LoadCarDatabase();
+            _longestCarName = CarDataService.GetLongestCarName(_carDb);
 
-            AuthorFilter.ItemsSource = GetDistinctAuthors();
+            AuthorFilter.ItemsSource = CarDataService.GetDistinctAuthors(_carDb);
             AuthorFilter.SelectedIndex = -1;
-            ClassFilter.ItemsSource = GetDistinctClasses();
+            ClassFilter.ItemsSource = CarDataService.GetDistinctClasses(_carDb);
             ClassFilter.SelectedIndex = -1;
 
             CarList.ItemsSource = _carDb;
             if (_carDb.Count > 0) {
                 CarList.SelectedIndex = 0;
             }
-        }
-
-        private void LoadCarDatabase() {
-            if (ConfigManager.AcRootFolder == null) return;
-            var carFolders = _initializer.GetAllCarFolderNames(ConfigManager.AcRootFolder);
-            foreach (var carFolder in carFolders) {
-                if (carFolder == null) continue;
-                var uiJsonPath = Path.Combine(ConfigManager.CarsRootFolder, carFolder, "RatingsApp", "ui.json");
-                if (File.Exists(uiJsonPath)) {
-                    var carData = CarDataService.LoadCarData(uiJsonPath);
-                    if (carData != null) {
-                        _carDb.Add(carData);
-                        if (carData.Name == null) continue;
-                        if (carData.Name.Length > _longestCarName.Length) {
-                            _longestCarName = carData.Name;
-                        }
-                    }
-                }
-            }
-
-            _carDb = _carDb.OrderBy(x => x.Name).ToList();
         }
 
         private async void CarList_SelectionChanged(object sender, SelectionChangedEventArgs e) {
@@ -120,6 +97,7 @@ namespace Ac.Ratings
             if (_cancellationTokenSource != null) {
                 await _cancellationTokenSource.CancelAsync();
             }
+
             _cancellationTokenSource = new CancellationTokenSource();
             var token = _cancellationTokenSource.Token;
 
@@ -198,7 +176,7 @@ namespace Ac.Ratings
                 SetRatingsFromSliders(selectedCar);
 
                 UpdateAverageRating();
-                CarDataService.SaveCarToFile(selectedCar);
+                SaveCarToFile(selectedCar);
             }
         }
 
@@ -220,6 +198,28 @@ namespace Ac.Ratings
             }
         }
 
+        private static void SaveCarToFile(Car car) {
+            try {
+                if (string.IsNullOrEmpty(ConfigManager.CarsRootFolder)) {
+                    MessageBox.Show("Cars root folder path is null or empty.");
+                    return;
+                }
+
+                if (string.IsNullOrEmpty(car.FolderName)) {
+                    MessageBox.Show($"Folder name for car {car.Name} is null or empty.");
+                    return;
+                }
+
+                var carFolderPath = Path.Combine(ConfigManager.CarsRootFolder, car.FolderName);
+                var carJsonFilePath = Path.Combine(carFolderPath, "RatingsApp", "ui.json");
+                var jsonContent = JsonSerializer.Serialize(car, ConfigManager.JsonOptions);
+                File.WriteAllText(carJsonFilePath, jsonContent);
+            }
+            catch (Exception ex) {
+                MessageBox.Show($"Failed to save car ratings to file: {ex.Message}");
+            }
+        }
+
         private void SetRatingsFromSliders(Car car) {
             car.Ratings.CornerHandling = CornerHandlingSlider.Value;
             car.Ratings.Brakes = BrakesSlider.Value;
@@ -237,7 +237,7 @@ namespace Ac.Ratings
                 CarRatingService.ResetRatingValues(selectedCar);
                 ResetRatingSliderValues();
                 UpdateAverageRating();
-                CarDataService.SaveCarToFile(selectedCar);
+                SaveCarToFile(selectedCar);
             }
         }
 
@@ -308,31 +308,6 @@ namespace Ac.Ratings
         private static bool IsMatch(string? value, string? filter) {
             return string.IsNullOrEmpty(filter) ||
                    string.Equals(value, filter, StringComparison.OrdinalIgnoreCase);
-        }
-
-        private List<string?> GetDistinctAuthors() {
-            var authors = _carDb
-                .Select(x => x.Author)
-                .Where(author => !string.IsNullOrEmpty(author))
-                .Distinct()
-                .OrderBy(author => author)
-                .ToList();
-
-            authors.Insert(0, "-- Reset --");
-            return authors;
-        }
-
-        private List<string> GetDistinctClasses() {
-            var classes = _carDb
-                .Select(x => x.Class?.Trim())
-                .Where(x => !string.IsNullOrEmpty(x))
-                .GroupBy(x => x?.ToLower())
-                .Select(CarDisplayService.NormalizeClassName)
-                .OrderBy(x => x)
-                .ToList();
-
-            classes.Insert(0, "-- Reset --");
-            return classes;
         }
 
         private void ResetFilters_Click(object sender, RoutedEventArgs e) {

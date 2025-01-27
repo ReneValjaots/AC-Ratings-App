@@ -23,7 +23,9 @@ namespace Ac.Ratings.Services {
 
         static ConfigManager() {
             ResourceFolder = LoadConfigValue("ResourceFolder")
-                             ?? Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, @"..\..\..\Resources"));
+                             ?? Path.Combine(AppContext.BaseDirectory, "Resources");
+
+            EnsureResourceFolderStructure();
 
             ConfigFilePath = Path.Combine(ResourceFolder, "config", "config.json");
 
@@ -56,6 +58,36 @@ namespace Ac.Ratings.Services {
 
             if (LoadConfigValue("AcRootFolder") == null && string.IsNullOrEmpty(AcRootFolder)) {
                 SaveConfigValue("AcRootFolder", AcRootFolder);
+            }
+        }
+
+        private static void EnsureResourceFolderStructure() {
+            if (!Directory.Exists(ResourceFolder)) {
+                Directory.CreateDirectory(ResourceFolder);
+            }
+
+            var subfolders = new[] {
+                Path.Combine(ResourceFolder, "config"),
+                Path.Combine(ResourceFolder, "cars"),
+                Path.Combine(ResourceFolder, "data"),
+                Path.Combine(ResourceFolder, "backup"),
+                Path.Combine(ResourceFolder, "unpackData")
+            };
+
+            foreach (var folder in subfolders) {
+                if (!Directory.Exists(folder)) {
+                    Directory.CreateDirectory(folder);
+                }
+            }
+
+            var files = new[] {
+                Path.Combine(ResourceFolder, "data", "MissingDataLog.txt")
+            };
+
+            foreach (var file in files) {
+                if (!File.Exists(file)) {
+                    File.Create(file).Close();
+                }
             }
         }
 

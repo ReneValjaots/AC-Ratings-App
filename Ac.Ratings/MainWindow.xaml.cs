@@ -41,7 +41,6 @@ namespace Ac.Ratings {
                 if (selectedCar != null) {
                     await LoadCarImage(selectedCar);
                     DisplayCarStats(selectedCar);
-                    UpdateAverageRating();
 
                     DataContext = selectedCar;
                 }
@@ -173,9 +172,6 @@ namespace Ac.Ratings {
         private void SaveRatings() {
             var selectedCar = (Car)CarList.SelectedItem;
             if (selectedCar != null) {
-                SetRatingsFromSliders(selectedCar);
-
-                UpdateAverageRating();
                 SaveCarToFile(selectedCar);
             }
         }
@@ -220,23 +216,11 @@ namespace Ac.Ratings {
             }
         }
 
-        private void SetRatingsFromSliders(Car car) {
-            car.Ratings.CornerHandling = CornerHandlingSlider.Value;
-            car.Ratings.Brakes = BrakesSlider.Value;
-            car.Ratings.Realism = RealismSlider.Value;
-            car.Ratings.Sound = SoundSlider.Value;
-            car.Ratings.ExteriorQuality = ExteriorQualitySlider.Value;
-            car.Ratings.InteriorQuality = InteriorQualitySlider.Value;
-            car.Ratings.ForceFeedbackQuality = ForceFeedbackQualitySlider.Value;
-            car.Ratings.FunFactor = FunFactorSlider.Value;
-        }
-
         private void ClearRatings() {
             var selectedCar = (Car)CarList.SelectedItem;
             if (selectedCar != null) {
                 CarRatingService.ResetRatingValues(selectedCar);
                 ResetRatingSliderValues();
-                UpdateAverageRating();
                 SaveCarToFile(selectedCar);
             }
         }
@@ -250,28 +234,6 @@ namespace Ac.Ratings {
             InteriorQualitySlider.Value = 0;
             ForceFeedbackQualitySlider.Value = 0;
             FunFactorSlider.Value = 0;
-        }
-
-        private void SaveButton_Click(object sender, RoutedEventArgs e) => SaveRatings();
-
-        private void UpdateAverageRating() {
-            var selectedCar = (Car)CarList.SelectedItem;
-            if (selectedCar != null) {
-                var ratings = new List<double> {
-                    selectedCar.Ratings.CornerHandling,
-                    selectedCar.Ratings.Brakes,
-                    selectedCar.Ratings.Realism,
-                    selectedCar.Ratings.Sound,
-                    selectedCar.Ratings.ExteriorQuality,
-                    selectedCar.Ratings.InteriorQuality,
-                    selectedCar.Ratings.DashboardQuality,
-                    selectedCar.Ratings.ForceFeedbackQuality,
-                    selectedCar.Ratings.FunFactor,
-                };
-                var averageRating = ratings.Average();
-                AverageRatingTextBlock.Text = $"Average Rating: {averageRating:F2}";
-                selectedCar.Ratings.AverageRating = averageRating;
-            }
         }
 
         private void ClearRatingsButton_Click(object sender, RoutedEventArgs e) => ClearRatings();

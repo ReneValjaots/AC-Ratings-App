@@ -554,7 +554,7 @@
                         Grid.Column="1"
                         Width="150"
                         Style="{StaticResource PrimarySlider}"
-                        Value="{Binding Path=Ratings.CornerHandling, Mode=TwoWay}" />
+                        Value="{Binding Path=Ratings.CornerHandling, Mode=TwoWay, Delay=250}" />
                 </Grid>
 
 
@@ -575,7 +575,7 @@
                         Grid.Column="1"
                         Width="150"
                         Style="{StaticResource PrimarySlider}"
-                        Value="{Binding Path=Ratings.Brakes, Mode=TwoWay}" />
+                        Value="{Binding Path=Ratings.Brakes, Mode=TwoWay, Delay=250}" />
                 </Grid>
 
                 <!--  Realism  -->
@@ -595,7 +595,7 @@
                         Grid.Column="1"
                         Width="150"
                         Style="{StaticResource PrimarySlider}"
-                        Value="{Binding Path=Ratings.Realism, Mode=TwoWay}" />
+                        Value="{Binding Path=Ratings.Realism, Mode=TwoWay, Delay=250}" />
                 </Grid>
 
                 <!--  Sound  -->
@@ -615,7 +615,7 @@
                         Grid.Column="1"
                         Width="150"
                         Style="{StaticResource PrimarySlider}"
-                        Value="{Binding Path=Ratings.Sound, Mode=TwoWay}" />
+                        Value="{Binding Path=Ratings.Sound, Mode=TwoWay, Delay=250}" />
                 </Grid>
 
                 <!--  Exterior Quality  -->
@@ -635,7 +635,7 @@
                         Grid.Column="1"
                         Width="150"
                         Style="{StaticResource PrimarySlider}"
-                        Value="{Binding Path=Ratings.ExteriorQuality, Mode=TwoWay}" />
+                        Value="{Binding Path=Ratings.ExteriorQuality, Mode=TwoWay, Delay=250}" />
                 </Grid>
 
                 <!--  Interior Quality  -->
@@ -655,7 +655,7 @@
                         Grid.Column="1"
                         Width="150"
                         Style="{StaticResource PrimarySlider}"
-                        Value="{Binding Path=Ratings.InteriorQuality, Mode=TwoWay}" />
+                        Value="{Binding Path=Ratings.InteriorQuality, Mode=TwoWay, Delay=250}" />
                 </Grid>
 
                 <!--  Force Feedback Quality  -->
@@ -675,7 +675,7 @@
                         Grid.Column="1"
                         Width="150"
                         Style="{StaticResource PrimarySlider}"
-                        Value="{Binding Path=Ratings.ForceFeedbackQuality, Mode=TwoWay}" />
+                        Value="{Binding Path=Ratings.ForceFeedbackQuality, Mode=TwoWay, Delay=250}" />
                 </Grid>
 
                 <!--  Fun Factor  -->
@@ -695,7 +695,7 @@
                         Grid.Column="1"
                         Width="150"
                         Style="{StaticResource PrimarySlider}"
-                        Value="{Binding Path=Ratings.FunFactor, Mode=TwoWay}" />
+                        Value="{Binding Path=Ratings.FunFactor, Mode=TwoWay, Delay=250}" />
                 </Grid>
 
                 <!--  Average Rating  -->
@@ -703,7 +703,8 @@
                     x:Name="AverageRatingTextBlock"
                     Margin="0,10,0,0"
                     HorizontalAlignment="Center"
-                    Foreground="White" />
+                    Foreground="White"
+                    Text="{Binding Ratings.AverageRating, StringFormat='Average Rating: {0:F2}'}" />
 
                 <StackPanel
                     x:Name="ExtraFeatures"
@@ -762,7 +763,7 @@
                         <CheckBox
                             Grid.Row="0"
                             Grid.Column="3"
-                            IsChecked="{Binding Ratings.ABSOnFlashing, Mode=TwoWay}"
+                            IsChecked="{Binding Ratings.AbsOnFlashing, Mode=TwoWay}"
                             Style="{StaticResource PrimaryCheckbox}" />
 
                         <!--  Row 2  -->
@@ -776,7 +777,7 @@
                         <CheckBox
                             Grid.Row="1"
                             Grid.Column="1"
-                            IsChecked="{Binding Ratings.TCOnFlashing, Mode=TwoWay}"
+                            IsChecked="{Binding Ratings.TcOnFlashing, Mode=TwoWay}"
                             Style="{StaticResource PrimaryCheckbox}" />
                         <Label
                             Grid.Row="1"
@@ -788,7 +789,7 @@
                         <CheckBox
                             Grid.Row="1"
                             Grid.Column="3"
-                            IsChecked="{Binding Ratings.ABSOff, Mode=TwoWay}"
+                            IsChecked="{Binding Ratings.AbsOff, Mode=TwoWay}"
                             Style="{StaticResource PrimaryCheckbox}" />
 
                         <!--  Row 3  -->
@@ -802,7 +803,7 @@
                         <CheckBox
                             Grid.Row="2"
                             Grid.Column="1"
-                            IsChecked="{Binding Ratings.TCOff, Mode=TwoWay}"
+                            IsChecked="{Binding Ratings.TcOff, Mode=TwoWay}"
                             Style="{StaticResource PrimaryCheckbox}" />
                         <Label
                             Grid.Row="2"
@@ -1013,14 +1014,6 @@
                             Style="{StaticResource PrimaryCheckbox}" />
                     </Grid>
                 </StackPanel>
-
-
-                <Button
-                    x:Name="SaveButton"
-                    Margin="0,10,0,0"
-                    Click="SaveButton_Click"
-                    Content="Save"
-                    Style="{StaticResource PrimaryButton}" />
 
                 <Grid>
                     <Grid.ColumnDefinitions>

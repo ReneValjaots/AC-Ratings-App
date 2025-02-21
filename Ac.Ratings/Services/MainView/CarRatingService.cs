@@ -4,10 +4,10 @@ namespace Ac.Ratings.Services.MainView {
     public class CarRatingService {
         public static void ResetExtraFeatureValues(Car selectedCar) {
             selectedCar.Ratings.TurnSignalsDashboard = false;
-            selectedCar.Ratings.ABSOnFlashing = false;
-            selectedCar.Ratings.TCOnFlashing = false;
-            selectedCar.Ratings.ABSOff = false;
-            selectedCar.Ratings.TCOff = false;
+            selectedCar.Ratings.AbsOnFlashing = false;
+            selectedCar.Ratings.TcOnFlashing = false;
+            selectedCar.Ratings.AbsOff = false;
+            selectedCar.Ratings.TcOff = false;
             selectedCar.Ratings.Handbrake = false;
             selectedCar.Ratings.LightsDashboard = false;
             selectedCar.Ratings.OtherDashboard = false;
@@ -30,7 +30,6 @@ namespace Ac.Ratings.Services.MainView {
             selectedCar.Ratings.Sound = 0;
             selectedCar.Ratings.ExteriorQuality = 0;
             selectedCar.Ratings.InteriorQuality = 0;
-            selectedCar.Ratings.DashboardQuality = 0;
             selectedCar.Ratings.ForceFeedbackQuality = 0;
             selectedCar.Ratings.FunFactor = 0;
             selectedCar.Ratings.AverageRating = 0;

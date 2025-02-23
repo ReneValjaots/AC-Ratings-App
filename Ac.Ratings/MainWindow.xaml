@@ -12,7 +12,6 @@
     Closing="Window_Closing"
     FontFamily="Fonts/#SF Pro"
     Icon="Images/rating.ico"
-    PreviewKeyDown="MainWindow_PreviewKeyDown"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
 

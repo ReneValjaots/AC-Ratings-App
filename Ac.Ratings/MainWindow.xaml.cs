@@ -2,7 +2,6 @@
 using System.IO;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using Ac.Ratings.Model;
@@ -169,18 +168,6 @@ namespace Ac.Ratings {
             CarImage.Source = new BitmapImage(new Uri(previewFilePath, UriKind.Absolute));
         }
 
-        private void SaveRatings() {
-            var selectedCar = (Car)CarList.SelectedItem;
-            if (selectedCar != null) {
-                try {
-                    CarDataManager.SaveCarToFile(selectedCar);
-                }
-                catch (Exception ex) {
-                    MessageBox.Show($"Failed to save car ratings to file: {ex.Message}");
-                }
-            }
-        }
-
         private void SaveAllRatings() {
             try {
                 CarDataManager.SaveAllRatings(_carDb);
@@ -190,34 +177,11 @@ namespace Ac.Ratings {
             }
         }
 
-        private static void SaveCarToFile(Car car) {
-            try {
-                if (string.IsNullOrEmpty(ConfigManager.CarsRootFolder)) {
-                    MessageBox.Show("Cars root folder path is null or empty.");
-                    return;
-                }
-
-                if (string.IsNullOrEmpty(car.FolderName)) {
-                    MessageBox.Show($"Folder name for car {car.Name} is null or empty.");
-                    return;
-                }
-
-                var carFolderPath = Path.Combine(ConfigManager.CarsRootFolder, car.FolderName);
-                var carJsonFilePath = Path.Combine(carFolderPath, "RatingsApp", "ui.json");
-                var jsonContent = JsonSerializer.Serialize(car, ConfigManager.JsonOptions);
-                File.WriteAllText(carJsonFilePath, jsonContent);
-            }
-            catch (Exception ex) {
-                MessageBox.Show($"Failed to save car ratings to file: {ex.Message}");
-            }
-        }
-
         private void ClearRatings() {
             var selectedCar = (Car)CarList.SelectedItem;
             if (selectedCar != null) {
                 CarRatingService.ResetRatingValues(selectedCar);
                 ResetRatingSliderValues();
-                SaveCarToFile(selectedCar);
             }
         }
 
@@ -313,21 +277,7 @@ namespace Ac.Ratings {
         }
 
         public void ResetAllRatingsInDatabase() {
-            CreateBackupOfCarDb();
-
-            foreach (var car in _carDb) {
-                CarRatingService.ResetRatingValues(car);
-                if (car.FolderName != null) {
-                    var carFolder = Path.Combine(ConfigManager.CarsRootFolder, car.FolderName);
-                    var carRatingsAppFolder = Path.Combine(carFolder, "RatingsApp");
-                    var carJsonPath = Path.Combine(carRatingsAppFolder, "ui.json");
-
-                    if (Directory.Exists(carRatingsAppFolder)) {
-                        var jsonContent = JsonSerializer.Serialize(car, ConfigManager.JsonOptions);
-                        File.WriteAllText(carJsonPath, jsonContent);
-                    }
-                }
-            }
+            CarDataManager.ResetAllRatingsInDatabase(_carDb);
 
             CarList.Items.Refresh();
 
@@ -364,13 +314,6 @@ namespace Ac.Ratings {
             }
         }
 
-        private void MainWindow_PreviewKeyDown(object sender, KeyEventArgs e) {
-            if (e.Key == Key.S && (Keyboard.Modifiers & ModifierKeys.Control) == ModifierKeys.Control) {
-                SaveRatings();
-                e.Handled = true;
-            }
-        }
-
         private void RatingsFilter_OnSelectionChanged(object sender, SelectionChangedEventArgs e) {
             if (RatingsFilter.SelectedItem is ComboBoxItem selectedItem &&
                 selectedItem.Content.ToString() == "-- Reset --") {
@@ -396,8 +339,6 @@ namespace Ac.Ratings {
                     }
                 }
             }
-
-            SaveRatings();
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e) {
@@ -405,21 +346,7 @@ namespace Ac.Ratings {
         }
 
         public void ResetAllExtraFeaturesInDatabase() {
-            CreateBackupOfCarDb();
-
-            foreach (var car in _carDb) {
-                CarRatingService.ResetExtraFeatureValues(car);
-                if (car.FolderName != null) {
-                    var carFolder = Path.Combine(ConfigManager.CarsRootFolder, car.FolderName);
-                    var carRatingsAppFolder = Path.Combine(carFolder, "RatingsApp");
-                    var carJsonPath = Path.Combine(carRatingsAppFolder, "ui.json");
-
-                    if (Directory.Exists(carRatingsAppFolder)) {
-                        var jsonContent = JsonSerializer.Serialize(car, ConfigManager.JsonOptions);
-                        File.WriteAllText(carJsonPath, jsonContent);
-                    }
-                }
-            }
+            CarDataManager.ResetAllExtraFeaturesInDatabase(_carDb);
 
             CarList.Items.Refresh();
 

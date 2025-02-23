@@ -16,8 +16,8 @@ namespace Ac.Ratings.Services {
             }
             _acRootFolder = acRootFolder;
 
-            if (File.Exists(ConfigManager.MissingDataLogFilePath))
-                File.WriteAllText(ConfigManager.MissingDataLogFilePath, string.Empty);
+            if (File.Exists(ConfigManager.ErrorLogFilepath))
+                File.WriteAllText(ConfigManager.ErrorLogFilepath, string.Empty);
 
             CreateCarFolders();
             InitializeCarData();
@@ -214,15 +214,10 @@ namespace Ac.Ratings.Services {
         }
 
         private static void LogMissingData(string message) {
-            var directoryPath = Path.GetDirectoryName(ConfigManager.MissingDataLogFilePath);
-            if (directoryPath != null && !Directory.Exists(directoryPath)) {
-                Directory.CreateDirectory(directoryPath);
-            }
-
             try {
-                File.AppendAllText(ConfigManager.MissingDataLogFilePath, $"{DateTime.Now}: {message}{Environment.NewLine}");
+                ErrorLogger.LogError("MissingData", new Exception(message));
             }
-            catch (IOException ex) {
+            catch (Exception ex) {
                 Console.WriteLine($"Failed to log missing data: {ex.Message}");
             }
         }

@@ -9,6 +9,7 @@ namespace Ac.Ratings.Services {
         public static string ConfigFilePath { get; private set; }
         public static string CarsRootFolder { get; private set; }
         public static string MissingDataLogFilePath { get; private set; }
+        public static string ErrorLogFilepath { get; private set; }
         public static string BackupFolder { get; private set; }
         public static string UnpackFolderPath { get; private set; }
         public static string ModifiedRatingsPath { get; private set; }
@@ -31,6 +32,7 @@ namespace Ac.Ratings.Services {
 
             CarsRootFolder = Path.Combine(ResourceFolder, "cars");
             MissingDataLogFilePath = Path.Combine(ResourceFolder, "data", "MissingDataLog.txt");
+            ErrorLogFilepath = Path.Combine(ResourceFolder, "data", "ErrorLog.txt");
             BackupFolder = Path.Combine(ResourceFolder, "backup");
             UnpackFolderPath = Path.Combine(ResourceFolder, "unpackData");
             ModifiedRatingsPath = Path.Combine(UnpackFolderPath, "Ratings.txt");
@@ -81,7 +83,8 @@ namespace Ac.Ratings.Services {
             }
 
             var files = new[] {
-                Path.Combine(ResourceFolder, "data", "MissingDataLog.txt")
+                Path.Combine(ResourceFolder, "data", "MissingDataLog.txt"),
+                Path.Combine(ResourceFolder, "data", "ErrorLog.txt")
             };
 
             foreach (var file in files) {

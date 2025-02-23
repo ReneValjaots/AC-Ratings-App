@@ -57,6 +57,36 @@ namespace Ac.Ratings.Services.MainView {
             }
         }
 
+        public static void ResetAllRatingsInDatabase(List<Car> cars) {
+            try {
+                CreateBackupOfCarDb(cars);
+
+                foreach (var car in cars) {
+                    CarRatingService.ResetRatingValues(car);
+                    SaveCarToFile(car);
+                }
+            }
+            catch (Exception ex) {
+                ErrorLogger.LogError("ResetAllRatings", ex);
+            }
+        }
+
+        public static void ResetAllExtraFeaturesInDatabase(List<Car> cars) {
+            try {
+                CreateBackupOfCarDb(cars);
+
+                foreach (var car in cars) {
+                    CarRatingService.ResetExtraFeatureValues(car);
+                    SaveCarToFile(car);
+                }
+            }
+            catch (Exception ex) {
+                ErrorLogger.LogError("ResetAllExtraFeatures", ex);
+            }
+        }
+
+
+
         public static List<Car> RestoreCarDbFromBackup(string backupFilePath) {
             if (!File.Exists(backupFilePath)) {
                 throw new FileNotFoundException("Selected backup file not found.");

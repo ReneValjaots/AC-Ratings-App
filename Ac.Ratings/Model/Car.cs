@@ -1,10 +1,7 @@
 ﻿using System.ComponentModel;
-using System.IO;
-using System.Text.Json;
 using System.Text.Json.Serialization;
-using System.Windows;
 using Ac.Ratings.Core;
-using Ac.Ratings.Services;
+using Ac.Ratings.Services.MainView;
 
 namespace Ac.Ratings.Model;
 
@@ -32,28 +29,11 @@ public class Car : ObservableObject {
     [JsonPropertyName("folderName")] public string? FolderName { get; set; }
 
     private void Ratings_PropertyChanged(object? sender, PropertyChangedEventArgs e) {
-        SaveCarToFile(this);
-    }
-
-    private static void SaveCarToFile(Car car) {
         try {
-            if (string.IsNullOrEmpty(ConfigManager.CarsRootFolder)) {
-                MessageBox.Show("Cars root folder path is null or empty.");
-                return;
-            }
-
-            if (string.IsNullOrEmpty(car.FolderName)) {
-                MessageBox.Show($"Folder name for car {car.Name} is null or empty.");
-                return;
-            }
-
-            var carFolderPath = Path.Combine(ConfigManager.CarsRootFolder, car.FolderName);
-            var carJsonFilePath = Path.Combine(carFolderPath, "RatingsApp", "ui.json");
-            var jsonContent = JsonSerializer.Serialize(car, ConfigManager.JsonOptions);
-            File.WriteAllText(carJsonFilePath, jsonContent);
+            CarDataManager.SaveCarToFile(this);
         }
         catch (Exception ex) {
-            MessageBox.Show($"Failed to save car ratings to file: {ex.Message}");
+            Console.WriteLine($"Failed to save ratings: {ex.Message}");
         }
     }
 }

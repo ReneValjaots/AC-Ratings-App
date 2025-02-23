@@ -139,7 +139,7 @@ namespace Ac.Ratings {
                             image.EndInit();
                             image.Freeze(); // Make it thread-safe
                             return image;
-                        }, token); // Pass token to allow cancellation
+                        }, token);
 
                         if (token.IsCancellationRequested) {
                             return; // Stop processing if canceled
@@ -172,22 +172,18 @@ namespace Ac.Ratings {
         private void SaveRatings() {
             var selectedCar = (Car)CarList.SelectedItem;
             if (selectedCar != null) {
-                SaveCarToFile(selectedCar);
+                try {
+                    CarDataManager.SaveCarToFile(selectedCar);
+                }
+                catch (Exception ex) {
+                    MessageBox.Show($"Failed to save car ratings to file: {ex.Message}");
+                }
             }
         }
 
         private void SaveAllRatings() {
             try {
-                foreach (var car in _carDb) {
-                    if (car.FolderName != null) {
-                        var carFolder = Path.Combine(ConfigManager.CarsRootFolder, car.FolderName);
-                        var carRatingsAppFolder = Path.Combine(carFolder, "RatingsApp");
-                        var carJsonPath = Path.Combine(carRatingsAppFolder, "ui.json");
-
-                        var jsonContent = JsonSerializer.Serialize(car, ConfigManager.JsonOptions);
-                        File.WriteAllText(carJsonPath, jsonContent);
-                    }
-                }
+                CarDataManager.SaveAllRatings(_carDb);
             }
             catch (Exception ex) {
                 MessageBox.Show($"Error saving all ratings: {ex.Message}", "Save Error", MessageBoxButton.OK, MessageBoxImage.Error);
@@ -249,27 +245,21 @@ namespace Ac.Ratings {
             var selectedClass = ClassFilter.SelectedItem?.ToString();
             var searchText = SearchBox.Text.Trim();
 
-            var conditions = new List<Func<bool>> {
-                () => IsMatch(car.Author, selectedAuthor),
-                () => IsMatch(car.Class, selectedClass),
-                () => car.Name?.Contains(searchText, StringComparison.OrdinalIgnoreCase) ?? false,
-                () => car.Ratings.CornerHandling >= CornerHandlingFilter.Value,
-                () => car.Ratings.Brakes >= BrakingFilter.Value,
-                () => car.Ratings.Realism >= RealismFilter.Value,
-                () => car.Ratings.Sound >= SoundFilter.Value,
-                () => car.Ratings.ExteriorQuality >= ExteriorQualityFilter.Value,
-                () => car.Ratings.InteriorQuality >= InteriorQualityFilter.Value,
-                () => car.Ratings.ForceFeedbackQuality >= ForceFeedbackQualityFilter.Value,
-                () => car.Ratings.FunFactor >= FunFactorFilter.Value,
-                () => car.Ratings.AverageRating >= AverageRatingFilter.Value
-            };
-
-            return conditions.All(condition => condition());
-        }
-
-        private static bool IsMatch(string? value, string? filter) {
-            return string.IsNullOrEmpty(filter) ||
-                   string.Equals(value, filter, StringComparison.OrdinalIgnoreCase);
+            return CarDataManager.CombinedFilter(
+                car,
+                selectedAuthor,
+                selectedClass,
+                searchText,
+                CornerHandlingFilter.Value,
+                BrakingFilter.Value,
+                RealismFilter.Value,
+                SoundFilter.Value,
+                ExteriorQualityFilter.Value,
+                InteriorQualityFilter.Value,
+                ForceFeedbackQualityFilter.Value,
+                FunFactorFilter.Value,
+                AverageRatingFilter.Value
+            );
         }
 
         private void ResetFilters_Click(object sender, RoutedEventArgs e) {
@@ -351,47 +341,18 @@ namespace Ac.Ratings {
 
         private void CreateBackupOfCarDb() {
             try {
-                string backupFolder = ConfigManager.BackupFolder;
-
-                if (!Directory.Exists(backupFolder)) {
-                    Directory.CreateDirectory(backupFolder);
-                }
-
-                string backupFileName = $"CarDb_backup_{DateTime.Now:dd_MM_yyyy_HH_mm}.json";
-                string backupFilePath = Path.Combine(backupFolder, backupFileName);
-
-                var jsonContent = JsonSerializer.Serialize(_carDb, ConfigManager.JsonOptions);
-                File.WriteAllText(backupFilePath, jsonContent);
-
-                var backupFiles = Directory.GetFiles(backupFolder, "CarDb_backup_*.json")
-                    .OrderByDescending(File.GetCreationTime)
-                    .ToList();
-
-
-                if (backupFiles.Count > 10) {
-                    foreach (var oldBackup in backupFiles.Skip(10)) {
-                        File.Delete(oldBackup);
-                    }
-                }
+                CarDataManager.CreateBackupOfCarDb(_carDb);
             }
             catch (Exception ex) {
-                MessageBox.Show($"Error creating backup: {ex.Message}", "Backup Error", MessageBoxButton.OK,
-                    MessageBoxImage.Error);
+                MessageBox.Show($"Error creating backup: {ex.Message}", "Backup Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
         public void RestoreCarDbFromBackup(string backupFilePath) {
             try {
-                if (!File.Exists(backupFilePath)) {
-                    MessageBox.Show("Selected backup file not found.", "Restore Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                    return;
-                }
-
-                var jsonContent = File.ReadAllText(backupFilePath);
-                var restoredCarDb = JsonSerializer.Deserialize<List<Car>>(jsonContent, ConfigManager.JsonOptions);
-
+                var restoredCarDb = CarDataManager.RestoreCarDbFromBackup(backupFilePath);
                 if (restoredCarDb != null) {
-                    _carDb = restoredCarDb.OrderBy(x => x.Name).ToList();
+                    _carDb = restoredCarDb;
                     CarList.ItemsSource = _carDb;
                     CarList.Items.Refresh();
                     SaveAllRatings();
@@ -482,7 +443,7 @@ namespace Ac.Ratings {
                 FlowDirection.LeftToRight,
                 typeface,
                 fontSize,
-                Brushes.Black, // Brush color doesn't matter
+                Brushes.Black, 
                 new NumberSubstitution(),
                 1);
 

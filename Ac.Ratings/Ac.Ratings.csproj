@@ -11,19 +11,18 @@
 
   <ItemGroup>
     <Compile Remove="Resources\**" />
+    <Compile Remove="View\**" />
     <EmbeddedResource Remove="Resources\**" />
+    <EmbeddedResource Remove="View\**" />
     <None Remove="Resources\**" />
+    <None Remove="View\**" />
     <Page Remove="Resources\**" />
+    <Page Remove="View\**" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="Fonts\SF-Pro.ttf" />
     <None Remove="Images\rating.ico" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="ViewModel\" />
-    <Folder Include="View\" />
   </ItemGroup>
 
   <ItemGroup>

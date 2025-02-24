@@ -1,10 +1,13 @@
 ﻿namespace Ac.Ratings.Services.Acd;
 
 public class AcdEntry {
-    public string Name;
-    public byte[] Data;
+    public string Name { get; }
+    public byte[] Data { get; }
 
-    public override string ToString() {
-        return StringExtension.ToUtf8String(Data);
+    public AcdEntry(string name, byte[] data) {
+        Name = name;
+        Data = data;
     }
+
+    public override string ToString() => StringExtension.ToUtf8String(Data);
 }

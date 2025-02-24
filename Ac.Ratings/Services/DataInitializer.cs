@@ -218,7 +218,7 @@ namespace Ac.Ratings.Services {
         }
 
         private static string ExtractIniValue(string line) {
-            var parts = line.Split(new[] { '=' }, 2); 
+            var parts = line.Split(['='], 2); 
             return parts.Length > 1 ? parts[1].Split(';')[0].Trim() : string.Empty;
         }
 

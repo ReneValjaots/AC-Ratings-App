@@ -19,9 +19,9 @@ internal sealed class AcdReader : ReadAheadBinaryReader {
     }
 
     private byte[] ReadData() {
-        var length = ReadInt32();
+        int length = ReadInt32();
+        byte[] result = new byte[length];
 
-        var result = new byte[length];
         for (var i = 0; i < length; i++) {
             result[i] = ReadByte();
             Skip(3);
@@ -31,19 +31,15 @@ internal sealed class AcdReader : ReadAheadBinaryReader {
         return result;
     }
 
-    private void SkipData() {
-        Skip(ReadInt32() * 4);
-    }
+    private void SkipData() => Skip(ReadInt32() * 4);
 
     public byte[]? ReadEntryData(string entryName) {
         while (BaseStream.Position < BaseStream.Length) {
-            var name = ReadString();
+            string name = ReadString();
             if (string.Equals(name, entryName, StringComparison.OrdinalIgnoreCase)) {
                 return ReadData();
             }
-            else {
-                SkipData();
-            }
+            SkipData();
         }
 
         return null;

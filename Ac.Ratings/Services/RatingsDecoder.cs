@@ -10,7 +10,7 @@ namespace Ac.Ratings.Services {
         private const byte _deflateFlag = 0;
         private const byte _lzfFlag = 11;
 
-        private Dictionary<string, double> _ratingDb = new Dictionary<string, double>();
+        private Dictionary<string, double> _ratingDb = new();
 
         public void InitializeRatingsDataFile() {
             try {

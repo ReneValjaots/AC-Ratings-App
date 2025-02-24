@@ -5,9 +5,7 @@ public class AcdFactory : IAcdEncryption, IAcdEncryptionFactory {
 
     public AcdFactory() { }
 
-    IAcdEncryption IAcdEncryptionFactory.Create(string keySource) {
-        return (IAcdEncryption)new AcdFactory(keySource);
-    }
+    public IAcdEncryption Create(string keySource) => new AcdFactory(keySource);
 
     private AcdFactory(string id) => _key = CreateKey(id);
 

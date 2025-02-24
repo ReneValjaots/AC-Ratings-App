@@ -1,12 +1,11 @@
-﻿using System.Globalization;
+﻿using System.Collections.ObjectModel;
+using System.Globalization;
 using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using Ac.Ratings.Model;
-using Ac.Ratings.Services;
-using System.Text.Json;
 using Ac.Ratings.Services.MainView;
 
 namespace Ac.Ratings {
@@ -168,15 +167,6 @@ namespace Ac.Ratings {
             CarImage.Source = new BitmapImage(new Uri(previewFilePath, UriKind.Absolute));
         }
 
-        private void SaveAllRatings() {
-            try {
-                CarDataManager.SaveAllRatings(_carDb);
-            }
-            catch (Exception ex) {
-                MessageBox.Show($"Error saving all ratings: {ex.Message}", "Save Error", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
-        }
-
         private void ClearRatings() {
             var selectedCar = (Car)CarList.SelectedItem;
             if (selectedCar != null) {
@@ -302,10 +292,19 @@ namespace Ac.Ratings {
             try {
                 var restoredCarDb = CarDataManager.RestoreCarDbFromBackup(backupFilePath);
                 if (restoredCarDb != null) {
-                    _carDb = restoredCarDb;
-                    CarList.ItemsSource = _carDb;
+                    _carDb.Clear();
+                    foreach (var car in restoredCarDb) {
+                        _carDb.Add(car);
+                        CarDataManager.SaveCarToFile(car);
+                    }
+
                     CarList.Items.Refresh();
-                    SaveAllRatings();
+
+                    if (CarList.SelectedItem is Car selectedCar) {
+                        DataContext = null; 
+                        DataContext = selectedCar;
+                    }
+
                     MessageBox.Show("Car database restored successfully.", "Restore Complete", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
             }

@@ -34,19 +34,6 @@ namespace Ac.Ratings.Services.MainView {
             File.WriteAllText(carJsonFilePath, jsonContent);
         }
 
-        public static void SaveAllRatings(List<Car> cars) {
-            foreach (var car in cars) {
-                if (car.FolderName != null) {
-                    var carFolder = Path.Combine(ConfigManager.CarsRootFolder, car.FolderName);
-                    var carRatingsAppFolder = Path.Combine(carFolder, "RatingsApp");
-                    var carJsonPath = Path.Combine(carRatingsAppFolder, "ui.json");
-
-                    var jsonContent = JsonSerializer.Serialize(car, ConfigManager.JsonOptions);
-                    File.WriteAllText(carJsonPath, jsonContent);
-                }
-            }
-        }
-
         public static void CreateBackupOfCarDb(List<Car> cars) {
             string backupFolder = ConfigManager.BackupFolder;
 
@@ -54,7 +41,7 @@ namespace Ac.Ratings.Services.MainView {
                 Directory.CreateDirectory(backupFolder);
             }
 
-            string backupFileName = $"CarDb_backup_{DateTime.Now:dd_MM_yyyy_HH_mm}.json";
+            string backupFileName = $"CarDb_backup_{DateTime.Now:dd_MM_yyyy_HH_mm_ss}.json";
             string backupFilePath = Path.Combine(backupFolder, backupFileName);
 
             var jsonContent = JsonSerializer.Serialize(cars, ConfigManager.JsonOptions);

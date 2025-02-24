@@ -124,13 +124,10 @@ namespace Ac.Ratings.Services {
 
 
             var cmBackupFolder = Path.Combine(ConfigManager.BackupFolder, "cm", carFolder);
-            var appBackupFolder = Path.Combine(ConfigManager.BackupFolder, "ratings", carFolder);
             var backupCmUiPath = Path.Combine(cmBackupFolder, "ui_car.json");
-            var backupRatingsUiPath = Path.Combine(appBackupFolder, "ui.json");
 
             Directory.CreateDirectory(ratingsAppFolder);
             Directory.CreateDirectory(cmBackupFolder);
-            Directory.CreateDirectory(appBackupFolder);
 
             if (File.Exists(uiJsonPathInOriginalFolder)) {
                 if (shouldUpdate) {
@@ -179,8 +176,6 @@ namespace Ac.Ratings.Services {
             using (var createStream = new FileStream(uiJsonPath, FileMode.Create, FileAccess.Write, FileShare.None, 4096, FileOptions.None)) {
                 JsonSerializer.Serialize(createStream, newCar, ConfigManager.JsonOptions);
             }
-
-            File.Copy(uiJsonPath, backupRatingsUiPath, overwrite: true);
         }
 
 

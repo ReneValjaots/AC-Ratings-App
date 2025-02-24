@@ -3,7 +3,21 @@ using System.Text.Json;
 using Ac.Ratings.Model;
 
 namespace Ac.Ratings.Services.MainView {
-    public class CarDataManager {
+    public static class CarDataManager {
+        private static HashSet<Car> _modifiedCars = new();
+
+        public static void MarkCarAsModified(Car car) {
+            _modifiedCars.Add(car);
+        }
+
+        public static void SaveModifiedCars() {
+            foreach (var car in _modifiedCars) {
+                SaveCarToFile(car);
+            }
+
+            _modifiedCars.Clear();
+        }
+
         public static void SaveCarToFile(Car car) {
 
             if (string.IsNullOrEmpty(ConfigManager.CarsRootFolder)) {

@@ -553,7 +553,7 @@
                         Grid.Column="1"
                         Width="150"
                         Style="{StaticResource PrimarySlider}"
-                        Value="{Binding Path=Ratings.CornerHandling, Mode=TwoWay, Delay=250}" />
+                        Value="{Binding Path=Ratings.CornerHandling, Mode=TwoWay}" />
                 </Grid>
 
 
@@ -574,7 +574,7 @@
                         Grid.Column="1"
                         Width="150"
                         Style="{StaticResource PrimarySlider}"
-                        Value="{Binding Path=Ratings.Brakes, Mode=TwoWay, Delay=250}" />
+                        Value="{Binding Path=Ratings.Brakes, Mode=TwoWay}" />
                 </Grid>
 
                 <!--  Realism  -->
@@ -594,7 +594,7 @@
                         Grid.Column="1"
                         Width="150"
                         Style="{StaticResource PrimarySlider}"
-                        Value="{Binding Path=Ratings.Realism, Mode=TwoWay, Delay=250}" />
+                        Value="{Binding Path=Ratings.Realism, Mode=TwoWay}" />
                 </Grid>
 
                 <!--  Sound  -->
@@ -614,7 +614,7 @@
                         Grid.Column="1"
                         Width="150"
                         Style="{StaticResource PrimarySlider}"
-                        Value="{Binding Path=Ratings.Sound, Mode=TwoWay, Delay=250}" />
+                        Value="{Binding Path=Ratings.Sound, Mode=TwoWay}" />
                 </Grid>
 
                 <!--  Exterior Quality  -->
@@ -634,7 +634,7 @@
                         Grid.Column="1"
                         Width="150"
                         Style="{StaticResource PrimarySlider}"
-                        Value="{Binding Path=Ratings.ExteriorQuality, Mode=TwoWay, Delay=250}" />
+                        Value="{Binding Path=Ratings.ExteriorQuality, Mode=TwoWay}" />
                 </Grid>
 
                 <!--  Interior Quality  -->
@@ -654,7 +654,7 @@
                         Grid.Column="1"
                         Width="150"
                         Style="{StaticResource PrimarySlider}"
-                        Value="{Binding Path=Ratings.InteriorQuality, Mode=TwoWay, Delay=250}" />
+                        Value="{Binding Path=Ratings.InteriorQuality, Mode=TwoWay}" />
                 </Grid>
 
                 <!--  Force Feedback Quality  -->
@@ -674,7 +674,7 @@
                         Grid.Column="1"
                         Width="150"
                         Style="{StaticResource PrimarySlider}"
-                        Value="{Binding Path=Ratings.ForceFeedbackQuality, Mode=TwoWay, Delay=250}" />
+                        Value="{Binding Path=Ratings.ForceFeedbackQuality, Mode=TwoWay}" />
                 </Grid>
 
                 <!--  Fun Factor  -->
@@ -694,7 +694,7 @@
                         Grid.Column="1"
                         Width="150"
                         Style="{StaticResource PrimarySlider}"
-                        Value="{Binding Path=Ratings.FunFactor, Mode=TwoWay, Delay=250}" />
+                        Value="{Binding Path=Ratings.FunFactor, Mode=TwoWay}" />
                 </Grid>
 
                 <!--  Average Rating  -->

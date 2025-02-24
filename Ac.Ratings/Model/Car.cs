@@ -7,6 +7,7 @@ namespace Ac.Ratings.Model;
 
 public class Car : ObservableObject {
     private CarRatings _ratings = new();
+
     [JsonPropertyName("name")] public string? Name { get; set; }
     [JsonPropertyName("brand")] public string? Brand { get; set; }
     [JsonPropertyName("tags")] public List<string>? Tags { get; set; }
@@ -29,11 +30,6 @@ public class Car : ObservableObject {
     [JsonPropertyName("folderName")] public string? FolderName { get; set; }
 
     private void Ratings_PropertyChanged(object? sender, PropertyChangedEventArgs e) {
-        try {
-            CarDataManager.SaveCarToFile(this);
-        }
-        catch (Exception ex) {
-            Console.WriteLine($"Failed to save ratings: {ex.Message}");
-        }
+        CarDataManager.MarkCarAsModified(this);
     }
 }

@@ -42,15 +42,27 @@ namespace Ac.Ratings.Services {
 
         public void InitializeCarData() {
             var carFolders = GetAllCarFolderNames(_acRootFolder);
+
+            DateTime lastUpdate = DateTime.MinValue;
+            if (File.Exists(ConfigManager.LastUpdatedFilepath)) {
+                if (DateTime.TryParse(File.ReadAllText(ConfigManager.LastUpdatedFilepath), out DateTime parsedDate)) {
+                    lastUpdate = parsedDate;
+                }
+            }
+            bool shouldUpdate = (DateTime.UtcNow - lastUpdate).TotalDays > 7;
+
+
             foreach (var carFolder in carFolders) {
                 if (carFolder is null) continue;
                 try {
-                    ProcessCarFolder(carFolder);
+                    ProcessCarFolder(carFolder, shouldUpdate);
                 }
                 catch (Exception ex) {
                     LogMissingData($"Error processing car folder {carFolder}: {ex.Message}");
                 }
             }
+
+            File.WriteAllText(ConfigManager.LastUpdatedFilepath, DateTime.UtcNow.ToString("o")); // "o" for ISO 8601 format
         }
 
         public CarData? ProcessAcdFile(string carFolder) {
@@ -104,7 +116,7 @@ namespace Ac.Ratings.Services {
             return carData;
         }
 
-        private void ProcessCarFolder(string carFolder) {
+        private void ProcessCarFolder(string carFolder, bool shouldUpdate = false) {
             var ratingsAppFolder = Path.Combine(ConfigManager.CarsRootFolder, carFolder, "RatingsApp");
             var uiJsonPath = Path.Combine(ratingsAppFolder, "ui.json");
             var originalCarFolder = Path.Combine(_acRootFolder, carFolder);
@@ -121,7 +133,9 @@ namespace Ac.Ratings.Services {
             Directory.CreateDirectory(appBackupFolder);
 
             if (File.Exists(uiJsonPathInOriginalFolder)) {
-                File.Copy(uiJsonPathInOriginalFolder, backupCmUiPath, overwrite: true);
+                if (shouldUpdate) {
+                    File.Copy(uiJsonPathInOriginalFolder, backupCmUiPath, overwrite: true);
+                }
             }
             else {
                 LogMissingData($"ui_car.json not found for car: {carFolder}");

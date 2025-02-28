@@ -1,17 +1,102 @@
-﻿using System.IO;
+﻿using System.ComponentModel;
+using System.IO;
+using System.Text.Json;
 using System.Windows;
+using System.Windows.Controls;
+using Ac.Ratings.Core;
 using Ac.Ratings.Services;
 
 namespace Ac.Ratings {
     /// <summary>
     /// Interaction logic for SettingsWindow.xaml
     /// </summary>
-    public partial class SettingsWindow : Window {
+    public partial class SettingsWindow : Window, INotifyPropertyChanged {
         private readonly MainWindow _mainWindow;
+        private readonly string _configPath = ConfigManager.ConfigFilePath;
+
+        public event PropertyChangedEventHandler? PropertyChanged;
+
+        protected virtual void OnPropertyChanged(string propertyName) {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        public List<string> PrimaryPowerUnits { get; } = new() { "kW", "hp", "ps", "cv" };
+        public List<string> SecondaryPowerUnits { get; } = new() { "kW", "hp", "ps", "cv", "None" };
+
+        private string _selectedPrimaryUnit;
+        private string _selectedSecondaryUnit;
+
+        public string SelectedPrimaryUnit {
+            get => _selectedPrimaryUnit;
+            set {
+                _selectedPrimaryUnit = value;
+                OnPropertyChanged(nameof(SelectedPrimaryUnit));
+            }
+        }
+
+        public string SelectedSecondaryUnit {
+            get => _selectedSecondaryUnit;
+            set {
+                _selectedSecondaryUnit = value;
+                OnPropertyChanged(nameof(SelectedSecondaryUnit));
+            }
+        }
 
         public SettingsWindow(MainWindow mainWindow) {
             InitializeComponent();
             _mainWindow = mainWindow;
+            LoadSettings();
+        }
+
+        private void LoadSettings() {
+            if (File.Exists(_configPath)) {
+                var json = File.ReadAllText(_configPath);
+                var config = JsonSerializer.Deserialize<Dictionary<string, string>>(json);
+
+                if (config != null) {
+                    SelectedPrimaryUnit = config.GetValueOrDefault("PrimaryPowerUnit", "kW");
+                    SelectedSecondaryUnit = config.GetValueOrDefault("SecondaryPowerUnit", "hp");
+                }
+            }
+            else {
+                SelectedPrimaryUnit = "kW";
+                SelectedSecondaryUnit = "hp";
+            }
+        }
+
+        private void SaveSettings() {
+            Dictionary<string, string> config;
+
+            if (File.Exists(_configPath)) {
+                var json = File.ReadAllText(_configPath);
+                config = JsonSerializer.Deserialize<Dictionary<string, string>>(json) ?? new Dictionary<string, string>();
+            }
+
+            else {
+                config = new Dictionary<string, string>();
+            }
+
+            config["PrimaryPowerUnit"] = SelectedPrimaryUnit;
+            config["SecondaryPowerUnit"] = SelectedSecondaryUnit;
+
+            File.WriteAllText(_configPath, JsonSerializer.Serialize(config, ConfigManager.JsonOptions));
+        }
+
+        private void OnSaveClick(object sender, RoutedEventArgs e) {
+            if (PrimaryUnitComboBox.SelectedItem is string primaryUnit)
+                SelectedPrimaryUnit = primaryUnit;
+            else if (PrimaryUnitComboBox.SelectedItem is ComboBoxItem primaryItem)
+                SelectedPrimaryUnit = primaryItem.Content.ToString();
+
+            if (SecondaryUnitComboBox.SelectedItem is string secondaryUnit)
+                SelectedSecondaryUnit = secondaryUnit;
+            else if (SecondaryUnitComboBox.SelectedItem is ComboBoxItem secondaryItem)
+                SelectedSecondaryUnit = secondaryItem.Content.ToString();
+
+            SaveSettings();
+            MessageBox.Show($"Primary Unit: {SelectedPrimaryUnit}\nSecondary Unit: {SelectedSecondaryUnit}",
+                "Settings Saved", MessageBoxButton.OK, MessageBoxImage.Information);
+            Close();
         }
 
         private void ResetRatingsButton_Click(object sender, RoutedEventArgs e) {

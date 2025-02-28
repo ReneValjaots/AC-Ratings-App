@@ -173,11 +173,9 @@ namespace Ac.Ratings.Services {
             newCar.FolderPath = originalCarFolder;
             newCar.FolderName = carFolder;
 
-            using (var createStream = new FileStream(uiJsonPath, FileMode.Create, FileAccess.Write, FileShare.None, 4096, FileOptions.None)) {
-                JsonSerializer.Serialize(createStream, newCar, ConfigManager.JsonOptions);
-            }
+            using var createStream = new FileStream(uiJsonPath, FileMode.Create, FileAccess.Write, FileShare.None, 4096, FileOptions.None);
+            JsonSerializer.Serialize(createStream, newCar, ConfigManager.JsonOptions);
         }
-
 
         private static Car? LoadCarDataFromJson(string filePath) {
             if (!File.Exists(filePath)) return null;

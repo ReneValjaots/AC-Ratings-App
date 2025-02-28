@@ -12,7 +12,7 @@ public class Car : ObservableObject {
     [JsonPropertyName("brand")] public string? Brand { get; set; }
     [JsonPropertyName("tags")] public List<string>? Tags { get; set; }
     [JsonPropertyName("class")] public string? Class { get; set; }
-    [JsonPropertyName("specs")] public CarSpecs Specs { get; set; } = new();
+    [JsonIgnore] public CarSpecs Specs { get; set; }
     [JsonPropertyName("country")] public string? Country { get; set; }
     [JsonPropertyName("year")] public int? Year { get; set; }
     [JsonPropertyName("author")] public string? Author { get; set; }

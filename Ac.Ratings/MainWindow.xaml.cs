@@ -6,6 +6,7 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using Ac.Ratings.Model;
+using Ac.Ratings.Services.Converters;
 using Ac.Ratings.Services.MainView;
 
 namespace Ac.Ratings {

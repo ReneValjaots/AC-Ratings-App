@@ -15,6 +15,7 @@ namespace Ac.Ratings.Services.MainView {
                     try {
                         var carData = LoadCarData(uiJsonPath);
                         if (carData != null) {
+                            carData.Specs = new CarSpecs(carData.FolderPath);
                             carDb.Add(carData);
                         }
                     }

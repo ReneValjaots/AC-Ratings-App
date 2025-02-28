@@ -17,7 +17,7 @@ public class TorqueConverter : JsonConverter<string?>
         writer.WriteStringValue(value);
     }
 
-    protected string? TransformValue(string? value)
+    public string? TransformValue(string? value)
     {
         if (string.IsNullOrWhiteSpace(value))
             return null;

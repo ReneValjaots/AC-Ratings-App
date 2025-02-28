@@ -388,6 +388,7 @@
                             </Grid.ColumnDefinitions>
 
                             <TextBlock
+                                x:Name="Power"
                                 Grid.Column="0"
                                 FontSize="16"
                                 FontWeight="Bold"
@@ -522,8 +523,8 @@
                         <TextBlock Text="{Binding Year, Mode=TwoWay}" />
                         <TextBlock Text="{Binding Class, Mode=TwoWay}" />
                         <TextBlock Text="{Binding Author, Mode=TwoWay}" />
-                        <TextBlock Text="{Binding Specs.Weight, Mode=TwoWay}" />
-                        <TextBlock Text="{Binding Specs.PowerToWeightRatio, Mode=TwoWay}" />
+                        <TextBlock Text="{Binding Specs.Weight}" />
+                        <TextBlock Text="{Binding Specs.PowerToWeightRatio}" />
                     </StackPanel>
                 </Grid>
             </StackPanel>

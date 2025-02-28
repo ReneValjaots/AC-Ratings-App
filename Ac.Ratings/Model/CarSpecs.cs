@@ -1,23 +1,44 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.IO;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using Ac.Ratings.Core;
 using Ac.Ratings.Services.Converters;
 
 namespace Ac.Ratings.Model;
 
-public class CarSpecs {
-    [JsonPropertyName("bhp")] [JsonConverter(typeof(PowerConverter))]
-    public string? Bhp { get; set; }
+public class CarSpecs : ObservableObject{
+    private readonly string? _folderPath;
 
-    [JsonPropertyName("torque")] [JsonConverter(typeof(TorqueConverter))]
-    public string? Torque { get; set; }
+    public CarSpecs(string? folderPath) {
+        _folderPath = folderPath;
+    }
 
-    [JsonPropertyName("weight")] [JsonConverter(typeof(WeightConverter))]
-    public string? Weight { get; set; }
+    public string? Bhp => GetConvertedValue("bhp", new PowerConverter());
+    public string? Torque => GetConvertedValue("torque", new TorqueConverter());
+    public string? Weight => GetConvertedValue("weight", new WeightConverter());
+    public string? TopSpeed => GetConvertedValue("topspeed", new TopSpeedConverter());
+    public string? Acceleration => GetConvertedValue("acceleration", new AccelerationConverter());
+    public string? PowerToWeightRatio => GetRawValue("pwratio"); // No conversion needed
 
-    [JsonPropertyName("topspeed")] [JsonConverter(typeof(TopSpeedConverter))]
-    public string? TopSpeed { get; set; }
+    private string? GetConvertedValue(string key, JsonConverter<string?> converter) {
+        var rawValue = GetRawValue(key);
+        return rawValue != null ? ((dynamic)converter).TransformValue(rawValue) : "-";
+    }
 
-    [JsonPropertyName("acceleration")] [JsonConverter(typeof(AccelerationConverter))]
-    public string? Acceleration { get; set; }
+    private string? GetRawValue(string key) {
+        if (string.IsNullOrEmpty(_folderPath)) return "-";
 
-    [JsonPropertyName("pwratio")] public string? PowerToWeightRatio { get; set; }
+        var uiCarPath = Path.Combine(_folderPath, "ui", "ui_car.json");
+        if (!File.Exists(uiCarPath)) return "-";
+
+        var json = File.ReadAllText(uiCarPath);
+        var carData = JsonSerializer.Deserialize<Dictionary<string, object>>(json);
+
+        if (carData != null && carData.TryGetValue("specs", out var specsObj) &&
+            specsObj is JsonElement specsElement && specsElement.TryGetProperty(key, out var valueElement)) {
+            return valueElement.GetString();
+        }
+
+        return "-";
+    }
 }

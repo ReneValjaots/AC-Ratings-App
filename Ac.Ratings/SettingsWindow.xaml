@@ -117,19 +117,32 @@
                                 FontSize="14"
                                 Foreground="White"
                                 Text="Primary unit:" />
-
-                            <ComboBox
-                                x:Name="PrimaryUnitComboBox"
+                            <StackPanel
                                 Grid.Row="2"
                                 Grid.Column="0"
-                                Width="100"
-                                ItemsSource="{Binding PrimaryPowerUnits}"
-                                SelectedItem="{Binding SelectedPrimaryUnit, Mode=TwoWay}">
-                                <ComboBoxItem Content="kW" />
-                                <ComboBoxItem Content="hp" />
-                                <ComboBoxItem Content="ps" />
-                                <ComboBoxItem Content="cv" />
-                            </ComboBox>
+                                HorizontalAlignment="Center"
+                                Orientation="Vertical">
+                                <RadioButton
+                                    Checked="PrimaryRadioButton_Checked"
+                                    Content="kW"
+                                    Foreground="White"
+                                    GroupName="PrimaryUnit" />
+                                <RadioButton
+                                    Checked="PrimaryRadioButton_Checked"
+                                    Content="hp"
+                                    Foreground="White"
+                                    GroupName="PrimaryUnit" />
+                                <RadioButton
+                                    Checked="PrimaryRadioButton_Checked"
+                                    Content="ps"
+                                    Foreground="White"
+                                    GroupName="PrimaryUnit" />
+                                <RadioButton
+                                    Checked="PrimaryRadioButton_Checked"
+                                    Content="cv"
+                                    Foreground="White"
+                                    GroupName="PrimaryUnit" />
+                            </StackPanel>
 
                             <TextBlock
                                 Grid.Row="1"
@@ -139,20 +152,37 @@
                                 FontSize="14"
                                 Foreground="White"
                                 Text="Secondary unit:" />
-
-                            <ComboBox
-                                x:Name="SecondaryUnitComboBox"
+                            <StackPanel
                                 Grid.Row="2"
                                 Grid.Column="1"
-                                Width="100"
-                                ItemsSource="{Binding SecondaryPowerUnits}"
-                                SelectedItem="{Binding SelectedSecondaryUnit, Mode=TwoWay}">
-                                <ComboBoxItem Content="None" />
-                                <ComboBoxItem Content="kW" />
-                                <ComboBoxItem Content="hp" />
-                                <ComboBoxItem Content="ps" />
-                                <ComboBoxItem Content="cv" />
-                            </ComboBox>
+                                HorizontalAlignment="Center"
+                                Orientation="Vertical">
+                                <RadioButton
+                                    Checked="SecondaryRadioButton_Checked"
+                                    Content="None"
+                                    Foreground="White"
+                                    GroupName="SecondaryUnit" />
+                                <RadioButton
+                                    Checked="SecondaryRadioButton_Checked"
+                                    Content="kW"
+                                    Foreground="White"
+                                    GroupName="SecondaryUnit" />
+                                <RadioButton
+                                    Checked="SecondaryRadioButton_Checked"
+                                    Content="hp"
+                                    Foreground="White"
+                                    GroupName="SecondaryUnit" />
+                                <RadioButton
+                                    Checked="SecondaryRadioButton_Checked"
+                                    Content="ps"
+                                    Foreground="White"
+                                    GroupName="SecondaryUnit" />
+                                <RadioButton
+                                    Checked="SecondaryRadioButton_Checked"
+                                    Content="cv"
+                                    Foreground="White"
+                                    GroupName="SecondaryUnit" />
+                            </StackPanel>
 
                             <Button
                                 Grid.Row="3"
@@ -166,7 +196,6 @@
                         </Grid>
                     </StackPanel>
                 </TabItem>
-
 
                 <TabItem Header="Root folder">
                     <StackPanel Margin="5">

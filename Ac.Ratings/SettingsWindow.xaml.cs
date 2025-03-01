@@ -3,7 +3,6 @@ using System.IO;
 using System.Text.Json;
 using System.Windows;
 using System.Windows.Controls;
-using Ac.Ratings.Core;
 using Ac.Ratings.Services;
 
 namespace Ac.Ratings {
@@ -19,9 +18,6 @@ namespace Ac.Ratings {
         protected virtual void OnPropertyChanged(string propertyName) {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-
-        public List<string> PrimaryPowerUnits { get; } = new() { "kW", "hp", "ps", "cv" };
-        public List<string> SecondaryPowerUnits { get; } = new() { "kW", "hp", "ps", "cv", "None" };
 
         private string _selectedPrimaryUnit;
         private string _selectedSecondaryUnit;
@@ -82,17 +78,19 @@ namespace Ac.Ratings {
             File.WriteAllText(_configPath, JsonSerializer.Serialize(config, ConfigManager.JsonOptions));
         }
 
+        private void PrimaryRadioButton_Checked(object sender, RoutedEventArgs e) {
+            if (sender is RadioButton rb && rb.IsChecked == true) {
+                SelectedPrimaryUnit = rb.Content.ToString();
+            }
+        }
+
+        private void SecondaryRadioButton_Checked(object sender, RoutedEventArgs e) {
+            if (sender is RadioButton rb && rb.IsChecked == true) {
+                SelectedSecondaryUnit = rb.Content.ToString();
+            }
+        }
+
         private void OnSaveClick(object sender, RoutedEventArgs e) {
-            if (PrimaryUnitComboBox.SelectedItem is string primaryUnit)
-                SelectedPrimaryUnit = primaryUnit;
-            else if (PrimaryUnitComboBox.SelectedItem is ComboBoxItem primaryItem)
-                SelectedPrimaryUnit = primaryItem.Content.ToString();
-
-            if (SecondaryUnitComboBox.SelectedItem is string secondaryUnit)
-                SelectedSecondaryUnit = secondaryUnit;
-            else if (SecondaryUnitComboBox.SelectedItem is ComboBoxItem secondaryItem)
-                SelectedSecondaryUnit = secondaryItem.Content.ToString();
-
             SaveSettings();
             MessageBox.Show($"Primary Unit: {SelectedPrimaryUnit}\nSecondary Unit: {SelectedSecondaryUnit}",
                 "Settings Saved", MessageBoxButton.OK, MessageBoxImage.Information);

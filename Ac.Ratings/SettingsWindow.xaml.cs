@@ -1,100 +1,40 @@
-﻿using System.ComponentModel;
-using System.IO;
-using System.Text.Json;
+﻿using System.IO;
 using System.Windows;
-using System.Windows.Controls;
 using Ac.Ratings.Services;
+using Ac.Ratings.ViewModel;
 
 namespace Ac.Ratings {
     /// <summary>
     /// Interaction logic for SettingsWindow.xaml
     /// </summary>
-    public partial class SettingsWindow : Window, INotifyPropertyChanged {
+    public partial class SettingsWindow : Window {
         private readonly MainWindow _mainWindow;
         private readonly string _configPath = ConfigManager.ConfigFilePath;
-
-        public event PropertyChangedEventHandler? PropertyChanged;
-
-        protected virtual void OnPropertyChanged(string propertyName) {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
-
-        private string _selectedPrimaryUnit;
-        private string _selectedSecondaryUnit;
-
-        public string SelectedPrimaryUnit {
-            get => _selectedPrimaryUnit;
-            set {
-                _selectedPrimaryUnit = value;
-                OnPropertyChanged(nameof(SelectedPrimaryUnit));
-            }
-        }
-
-        public string SelectedSecondaryUnit {
-            get => _selectedSecondaryUnit;
-            set {
-                _selectedSecondaryUnit = value;
-                OnPropertyChanged(nameof(SelectedSecondaryUnit));
-            }
-        }
+        public SettingsViewModel ViewModel { get; } = new();
 
         public SettingsWindow(MainWindow mainWindow) {
             InitializeComponent();
             _mainWindow = mainWindow;
-            LoadSettings();
-        }
-
-        private void LoadSettings() {
-            if (File.Exists(_configPath)) {
-                var json = File.ReadAllText(_configPath);
-                var config = JsonSerializer.Deserialize<Dictionary<string, string>>(json);
-
-                if (config != null) {
-                    SelectedPrimaryUnit = config.GetValueOrDefault("PrimaryPowerUnit", "kW");
-                    SelectedSecondaryUnit = config.GetValueOrDefault("SecondaryPowerUnit", "hp");
-                }
-            }
-            else {
-                SelectedPrimaryUnit = "kW";
-                SelectedSecondaryUnit = "hp";
-            }
-        }
-
-        private void SaveSettings() {
-            Dictionary<string, string> config;
-
-            if (File.Exists(_configPath)) {
-                var json = File.ReadAllText(_configPath);
-                config = JsonSerializer.Deserialize<Dictionary<string, string>>(json) ?? new Dictionary<string, string>();
-            }
-
-            else {
-                config = new Dictionary<string, string>();
-            }
-
-            config["PrimaryPowerUnit"] = SelectedPrimaryUnit;
-            config["SecondaryPowerUnit"] = SelectedSecondaryUnit;
-
-            File.WriteAllText(_configPath, JsonSerializer.Serialize(config, ConfigManager.JsonOptions));
-        }
-
-        private void PrimaryRadioButton_Checked(object sender, RoutedEventArgs e) {
-            if (sender is RadioButton rb && rb.IsChecked == true) {
-                SelectedPrimaryUnit = rb.Content.ToString();
-            }
-        }
-
-        private void SecondaryRadioButton_Checked(object sender, RoutedEventArgs e) {
-            if (sender is RadioButton rb && rb.IsChecked == true) {
-                SelectedSecondaryUnit = rb.Content.ToString();
-            }
+            ViewModel.LoadSettings(_configPath);
+            DataContext = ViewModel;
         }
 
         private void OnSaveClick(object sender, RoutedEventArgs e) {
-            SaveSettings();
-            MessageBox.Show($"Primary Unit: {SelectedPrimaryUnit}\nSecondary Unit: {SelectedSecondaryUnit}",
-                "Settings Saved", MessageBoxButton.OK, MessageBoxImage.Information);
-            Close();
+            try {
+                ViewModel.SaveSettings(_configPath);
+                MessageBox.Show($"Primary Unit: {ViewModel.SelectedPrimaryUnit}\nSecondary Unit: {ViewModel.SelectedSecondaryUnit}",
+                    "Settings Saved", MessageBoxButton.OK, MessageBoxImage.Information);
+                Close();
+            }
+            catch (FileNotFoundException ex) {
+                MessageBox.Show(ex.Message, "Config File Missing", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            catch (InvalidOperationException ex) {
+                MessageBox.Show(ex.Message, "Invalid Config Format", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            catch (Exception ex) {
+                MessageBox.Show($"An unexpected error occurred while saving power formats: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         private void ResetRatingsButton_Click(object sender, RoutedEventArgs e) {

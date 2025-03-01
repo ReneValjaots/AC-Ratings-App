@@ -5,11 +5,15 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:Ac.Ratings"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModel="clr-namespace:Ac.Ratings.ViewModel"
     Title="SettingsWindow"
     Width="800"
     Height="600"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
+    <Window.Resources>
+        <local:EnumToBooleanConverter x:Key="EnumToBooleanConverter" />
+    </Window.Resources>
     <Border
         Padding="20"
         Background="Black"
@@ -123,25 +127,25 @@
                                 HorizontalAlignment="Center"
                                 Orientation="Vertical">
                                 <RadioButton
-                                    Checked="PrimaryRadioButton_Checked"
                                     Content="kW"
                                     Foreground="White"
-                                    GroupName="PrimaryUnit" />
+                                    GroupName="PrimaryUnit"
+                                    IsChecked="{Binding SelectedPrimaryUnit, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=kW}" />
                                 <RadioButton
-                                    Checked="PrimaryRadioButton_Checked"
                                     Content="hp"
                                     Foreground="White"
-                                    GroupName="PrimaryUnit" />
+                                    GroupName="PrimaryUnit"
+                                    IsChecked="{Binding SelectedPrimaryUnit, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=hp}" />
                                 <RadioButton
-                                    Checked="PrimaryRadioButton_Checked"
                                     Content="ps"
                                     Foreground="White"
-                                    GroupName="PrimaryUnit" />
+                                    GroupName="PrimaryUnit"
+                                    IsChecked="{Binding SelectedPrimaryUnit, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=ps}" />
                                 <RadioButton
-                                    Checked="PrimaryRadioButton_Checked"
                                     Content="cv"
                                     Foreground="White"
-                                    GroupName="PrimaryUnit" />
+                                    GroupName="PrimaryUnit"
+                                    IsChecked="{Binding SelectedPrimaryUnit, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=cv}" />
                             </StackPanel>
 
                             <TextBlock
@@ -158,30 +162,30 @@
                                 HorizontalAlignment="Center"
                                 Orientation="Vertical">
                                 <RadioButton
-                                    Checked="SecondaryRadioButton_Checked"
                                     Content="None"
                                     Foreground="White"
-                                    GroupName="SecondaryUnit" />
+                                    GroupName="SecondaryUnit"
+                                    IsChecked="{Binding SelectedSecondaryUnit, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=None}" />
                                 <RadioButton
-                                    Checked="SecondaryRadioButton_Checked"
                                     Content="kW"
                                     Foreground="White"
-                                    GroupName="SecondaryUnit" />
+                                    GroupName="SecondaryUnit"
+                                    IsChecked="{Binding SelectedSecondaryUnit, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=kW}" />
                                 <RadioButton
-                                    Checked="SecondaryRadioButton_Checked"
                                     Content="hp"
                                     Foreground="White"
-                                    GroupName="SecondaryUnit" />
+                                    GroupName="SecondaryUnit"
+                                    IsChecked="{Binding SelectedSecondaryUnit, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=hp}" />
                                 <RadioButton
-                                    Checked="SecondaryRadioButton_Checked"
                                     Content="ps"
                                     Foreground="White"
-                                    GroupName="SecondaryUnit" />
+                                    GroupName="SecondaryUnit"
+                                    IsChecked="{Binding SelectedSecondaryUnit, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=ps}" />
                                 <RadioButton
-                                    Checked="SecondaryRadioButton_Checked"
                                     Content="cv"
                                     Foreground="White"
-                                    GroupName="SecondaryUnit" />
+                                    GroupName="SecondaryUnit"
+                                    IsChecked="{Binding SelectedSecondaryUnit, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=cv}" />
                             </StackPanel>
 
                             <Button

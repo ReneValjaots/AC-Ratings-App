@@ -7,6 +7,7 @@ namespace Ac.Ratings.Services.MainView {
         public static List<Car> LoadCarDatabase() {
             var carDb = new List<Car>();
             if (ConfigManager.AcRootFolder == null) return carDb;
+
             var carFolders = new DataInitializer().GetAllCarFolderNames(ConfigManager.AcRootFolder);
             foreach (var carFolder in carFolders) {
                 if (carFolder == null) continue;
@@ -15,6 +16,7 @@ namespace Ac.Ratings.Services.MainView {
                     try {
                         var carData = LoadCarData(uiJsonPath);
                         if (carData != null) {
+                            carData.LoadDisplayProperties();
                             carData.Specs = new CarSpecs(carData.FolderPath);
                             carDb.Add(carData);
                         }

@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel;
+using System.IO;
+using System.Text.Json;
 using System.Text.Json.Serialization;
 using Ac.Ratings.Core;
 using Ac.Ratings.Services.MainView;
@@ -8,14 +10,14 @@ namespace Ac.Ratings.Model;
 public class Car : ObservableObject {
     private CarRatings _ratings = new();
 
-    [JsonPropertyName("name")] public string? Name { get; set; }
-    [JsonPropertyName("brand")] public string? Brand { get; set; }
-    [JsonPropertyName("tags")] public List<string>? Tags { get; set; }
-    [JsonPropertyName("class")] public string? Class { get; set; }
+    [JsonIgnore] public string? Name { get; set; }
+    [JsonIgnore] public string? Brand { get; set; }
+    [JsonIgnore] public List<string>? Tags { get; set; }
+    [JsonIgnore] public string? Class { get; set; }
     [JsonIgnore] public CarSpecs Specs { get; set; }
-    [JsonPropertyName("country")] public string? Country { get; set; }
-    [JsonPropertyName("year")] public int? Year { get; set; }
-    [JsonPropertyName("author")] public string? Author { get; set; }
+    [JsonIgnore] public string? Country { get; set; }
+    [JsonIgnore] public int? Year { get; set; }
+    [JsonIgnore] public string? Author { get; set; }
 
     [JsonPropertyName("ratings")] public CarRatings Ratings {
         get => _ratings;
@@ -31,5 +33,53 @@ public class Car : ObservableObject {
 
     private void Ratings_PropertyChanged(object? sender, PropertyChangedEventArgs e) {
         CarDataManager.MarkCarAsModified(this);
+    }
+
+    public void LoadDisplayProperties() {
+        if (string.IsNullOrEmpty(FolderPath)) return;
+
+        var uiCarPath = Path.Combine(FolderPath, "ui", "ui_car.json");
+        if (!File.Exists(uiCarPath)) return;
+
+        try {
+            var jsonContent = File.ReadAllText(uiCarPath);
+            var jsonData = JsonSerializer.Deserialize<Dictionary<string, object>>(jsonContent);
+
+            if (jsonData == null) return;
+
+            using var doc = JsonDocument.Parse(jsonContent);
+            var root = doc.RootElement;
+
+            Name = GetJsonString(root, "name");
+            Brand = GetJsonString(root, "brand");
+            Tags = GetJsonArray(root, "tags");
+            Class = GetJsonString(root, "class");
+            Country = GetJsonString(root, "country");
+            Year = GetJsonInt(root, "year");
+            Author = GetJsonString(root, "author");
+        }
+        catch (Exception ex) {
+            Console.WriteLine($"Failed to read display properties for {FolderPath}: {ex.Message}");
+        }
+    }
+
+    private static string? GetJsonString(JsonElement root, string key) {
+        return root.TryGetProperty(key, out var element) && element.ValueKind == JsonValueKind.String
+            ? element.GetString()
+            : null;
+    }
+
+    private static int? GetJsonInt(JsonElement root, string key) {
+        return root.TryGetProperty(key, out var element) && element.ValueKind == JsonValueKind.Number
+            ? element.GetInt32()
+            : (int?)null;
+    }
+
+    private static List<string> GetJsonArray(JsonElement root, string key) {
+        if (root.TryGetProperty(key, out var element) && element.ValueKind == JsonValueKind.Array) {
+            return element.EnumerateArray().Select(e => e.GetString() ?? "").ToList();
+        }
+
+        return new List<string>();
     }
 }

@@ -14,13 +14,14 @@ namespace Ac.Ratings {
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window {
-        private readonly string _longestCarName;
+        private string _longestCarName;
         private List<Car> _carDb;
         private CancellationTokenSource? _cancellationTokenSource;
 
         public MainWindow() {
             InitializeComponent();
-            _carDb = CarDataService.LoadCarDatabase();
+            LoadCars();
+
             _longestCarName = CarDataService.GetLongestCarName(_carDb);
 
             AuthorFilter.ItemsSource = CarDataService.GetDistinctAuthors(_carDb);
@@ -31,6 +32,15 @@ namespace Ac.Ratings {
             CarList.ItemsSource = _carDb;
             if (_carDb.Count > 0) {
                 CarList.SelectedIndex = 0;
+            }
+        }
+
+        private void LoadCars() {
+            try {
+                _carDb = CarDataService.LoadCarDatabase();
+            }
+            catch (Exception ex) {
+                MessageBox.Show($"Failed to load cars: {ex.Message}");
             }
         }
 

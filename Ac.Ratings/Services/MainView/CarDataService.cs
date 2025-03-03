@@ -1,40 +1,13 @@
-﻿using System.IO;
-using System.Text.Json;
-using Ac.Ratings.Model;
+﻿using Ac.Ratings.Model;
 
 namespace Ac.Ratings.Services.MainView {
     public static class CarDataService {
         public static List<Car> LoadCarDatabase() {
-            var carDb = new List<Car>();
-            if (ConfigManager.AcRootFolder == null) return carDb;
+            if (string.IsNullOrEmpty(ConfigManager.AcRootFolder))
+                return new List<Car>();
 
-            var carFolders = new DataInitializer().GetAllCarFolderNames(ConfigManager.AcRootFolder);
-            foreach (var carFolder in carFolders) {
-                if (carFolder == null) continue;
-                var uiJsonPath = Path.Combine(ConfigManager.CarsRootFolder, carFolder, "RatingsApp", "ui.json");
-                if (File.Exists(uiJsonPath)) {
-                    try {
-                        var carData = LoadCarData(uiJsonPath);
-                        if (carData != null) {
-                            carData.LoadDisplayProperties();
-                            carData.Specs = new CarSpecs(carData.FolderPath);
-                            carDb.Add(carData);
-                        }
-                    }
-                    catch (Exception ex) {
-                        Console.WriteLine($"Failed to load car data from {uiJsonPath}: {ex.Message}");
-                    }
-                }
-            }
-
-            return carDb.OrderBy(x => x.Name).ToList();
-        }
-
-        private static Car? LoadCarData(string filePath) {
-            var jsonContent = File.ReadAllText(filePath);
-            var car = JsonSerializer.Deserialize<Car>(jsonContent, ConfigManager.JsonOptions);
-            return car;
-            
+            var factory = new CarFactory(ConfigManager.AcRootFolder, ConfigManager.CarsRootFolder);
+            return factory.InitializeCars();
         }
 
         public static List<string> GetDistinctClasses(List<Car> carDb) {

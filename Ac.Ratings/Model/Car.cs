@@ -9,12 +9,16 @@ namespace Ac.Ratings.Model;
 
 public class Car : ObservableObject {
     private CarRatings _ratings = new();
+    private CarSpecs _specs;
 
     [JsonIgnore] public string? Name { get; set; }
     [JsonIgnore] public string? Brand { get; set; }
     [JsonIgnore] public List<string>? Tags { get; set; }
     [JsonIgnore] public string? Class { get; set; }
-    [JsonIgnore] public CarSpecs Specs { get; set; }
+    [JsonIgnore] public CarSpecs Specs {
+        get => _specs;
+        set => SetField(ref _specs, value); // Use SetField to notify changes
+    }
     [JsonIgnore] public string? Country { get; set; }
     [JsonIgnore] public int? Year { get; set; }
     [JsonIgnore] public string? Author { get; set; }

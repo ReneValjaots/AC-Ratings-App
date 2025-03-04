@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Collections.ObjectModel;
+using System.IO;
 using System.Text.Json;
 using Ac.Ratings.Model;
 
@@ -34,7 +35,7 @@ namespace Ac.Ratings.Services.MainView {
             File.WriteAllText(carJsonFilePath, jsonContent);
         }
 
-        public static void CreateBackupOfCarDb(List<Car> cars) {
+        public static void CreateBackupOfCarDb(ObservableCollection<Car> cars) {
             string backupFolder = ConfigManager.BackupFolder;
 
             if (!Directory.Exists(backupFolder)) {
@@ -58,7 +59,7 @@ namespace Ac.Ratings.Services.MainView {
             }
         }
 
-        public static void ResetAllRatingsInDatabase(List<Car> cars) {
+        public static void ResetAllRatingsInDatabase(ObservableCollection<Car> cars) {
             try {
                 CreateBackupOfCarDb(cars);
 
@@ -72,7 +73,7 @@ namespace Ac.Ratings.Services.MainView {
             }
         }
 
-        public static void ResetAllExtraFeaturesInDatabase(List<Car> cars) {
+        public static void ResetAllExtraFeaturesInDatabase(ObservableCollection<Car> cars) {
             try {
                 CreateBackupOfCarDb(cars);
 

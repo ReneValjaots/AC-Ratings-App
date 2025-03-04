@@ -1,4 +1,5 @@
-﻿using Ac.Ratings.Model;
+﻿using System.Collections.ObjectModel;
+using Ac.Ratings.Model;
 
 namespace Ac.Ratings.Services.MainView {
     public static class CarDataService {
@@ -10,7 +11,7 @@ namespace Ac.Ratings.Services.MainView {
             return factory.InitializeCars();
         }
 
-        public static List<string> GetDistinctClasses(List<Car> carDb) {
+        public static List<string> GetDistinctClasses(ObservableCollection<Car> carDb) {
             var classes = carDb
                 .Select(x => x.Class?.Trim())
                 .Where(x => !string.IsNullOrEmpty(x))
@@ -24,7 +25,7 @@ namespace Ac.Ratings.Services.MainView {
         }
 
 
-        public static List<string?> GetDistinctAuthors(List<Car> carDb) {
+        public static List<string?> GetDistinctAuthors(ObservableCollection<Car> carDb) {
             var authors = carDb
                 .Select(x => x.Author)
                 .Where(author => !string.IsNullOrEmpty(author))
@@ -34,14 +35,6 @@ namespace Ac.Ratings.Services.MainView {
 
             authors.Insert(0, "-- Reset --");
             return authors;
-        }
-
-        public static string GetLongestCarName(List<Car> carDb) {
-            return carDb
-                .Where(c => c.Name != null)
-                .OrderByDescending(c => c.Name!.Length)
-                .Select(c => c.Name)
-                .FirstOrDefault() ?? string.Empty;
         }
     }
 }

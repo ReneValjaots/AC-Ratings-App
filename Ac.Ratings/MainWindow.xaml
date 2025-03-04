@@ -14,6 +14,9 @@
     Icon="Images/rating.ico"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
+    <Window.Resources>
+        <local:SubtractConverter x:Key="SubtractConverter" />
+    </Window.Resources>
 
     <Border Background="#000302" CornerRadius="10">
         <Grid>
@@ -32,6 +35,8 @@
                 Name="SearchBox"
                 Grid.Row="0"
                 Grid.Column="0"
+                Width="{Binding ElementName=CarList, Path=ActualWidth, Converter={StaticResource SubtractConverter}, ConverterParameter=20}"
+                MinWidth="100"
                 Style="{StaticResource PrimaryTextBox}"
                 TextChanged="SearchBox_TextChanged" />
 
@@ -39,15 +44,12 @@
                 x:Name="CarList"
                 Grid.Row="1"
                 Grid.Column="0"
-                MinWidth="210"
                 Margin="0,0,10,0"
                 HorizontalAlignment="Left"
-                d:DataContext="{d:DesignInstance Type=model:Car,
-                                                 IsDesignTimeCreatable=True}"
                 Background="Transparent"
                 Foreground="White"
-                ItemsSource="{Binding}"
-                Loaded="CarList_Loaded"
+                ItemsSource="{Binding CarDb}"
+                SelectedItem="{Binding SelectedCar}"
                 SelectionChanged="CarList_SelectionChanged">
                 <ListView.ItemTemplate>
                     <DataTemplate>
@@ -333,7 +335,10 @@
                 </Grid>
             </Grid>
 
-            <StackPanel Grid.Row="1" Grid.Column="1">
+            <StackPanel
+                Grid.Row="1"
+                Grid.Column="1"
+                DataContext="{Binding SelectedCar}">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
@@ -533,7 +538,8 @@
                 Grid.Row="1"
                 Grid.Column="2"
                 Margin="0,0,10,0"
-                VerticalAlignment="Top">
+                VerticalAlignment="Top"
+                DataContext="{Binding SelectedCar}">
 
                 <!--  Corner Handling  -->
                 <Grid Margin="0,5">
@@ -1025,7 +1031,7 @@
                         x:Name="ClearRatingsButton"
                         Grid.Column="0"
                         Margin="0,15,0,0"
-                        Click="ClearRatingsButton_Click"
+                        Command="{Binding DataContext.ClearRatingsCommand, RelativeSource={RelativeSource AncestorType=Window}}"
                         Content="Clear Ratings"
                         Style="{StaticResource SecondaryButton}" />
 
@@ -1033,7 +1039,7 @@
                         x:Name="ClearFeaturesButton"
                         Grid.Column="1"
                         Margin="0,15,0,0"
-                        Click="ClearFeaturesButton_Click"
+                        Command="{Binding DataContext.ClearExtraFeaturesCommand, RelativeSource={RelativeSource AncestorType=Window}}"
                         Content="Clear Extra Features"
                         Style="{StaticResource SecondaryButton}" />
                 </Grid>

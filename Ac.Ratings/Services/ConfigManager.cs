@@ -8,7 +8,6 @@ namespace Ac.Ratings.Services {
         public static string ResourceFolder { get; private set; }
         public static string ConfigFilePath { get; private set; }
         public static string CarsRootFolder { get; private set; }
-        public static string MissingDataLogFilePath { get; private set; }
         public static string ErrorLogFilepath { get; private set; }
         public static string BackupFolder { get; private set; }
         public static string LastUpdatedFilepath {  get; private set; }
@@ -32,7 +31,6 @@ namespace Ac.Ratings.Services {
             ConfigFilePath = Path.Combine(ResourceFolder, "config", "config.json");
 
             CarsRootFolder = Path.Combine(ResourceFolder, "cars");
-            MissingDataLogFilePath = Path.Combine(ResourceFolder, "data", "MissingDataLog.txt");
             ErrorLogFilepath = Path.Combine(ResourceFolder, "data", "ErrorLog.txt");
             BackupFolder = Path.Combine(ResourceFolder, "backup");
             LastUpdatedFilepath = Path.Combine(ResourceFolder, "backup", "LastUpdate.txt");

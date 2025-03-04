@@ -1,47 +1,35 @@
-﻿using System.Collections.ObjectModel;
-using System.Globalization;
-using System.IO;
+﻿using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using Ac.Ratings.Model;
-using Ac.Ratings.Services.Converters;
 using Ac.Ratings.Services.MainView;
+using Ac.Ratings.ViewModel;
 
 namespace Ac.Ratings {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window {
-        private string _longestCarName;
-        private List<Car> _carDb;
+        private MainViewModel _viewModel;
         private CancellationTokenSource? _cancellationTokenSource;
 
         public MainWindow() {
             InitializeComponent();
-            LoadCars();
-
-            _longestCarName = CarDataService.GetLongestCarName(_carDb);
-
-            AuthorFilter.ItemsSource = CarDataService.GetDistinctAuthors(_carDb);
-            AuthorFilter.SelectedIndex = -1;
-            ClassFilter.ItemsSource = CarDataService.GetDistinctClasses(_carDb);
-            ClassFilter.SelectedIndex = -1;
-
-            CarList.ItemsSource = _carDb;
-            if (_carDb.Count > 0) {
-                CarList.SelectedIndex = 0;
-            }
-        }
-
-        private void LoadCars() {
             try {
-                _carDb = CarDataService.LoadCarDatabase();
+                _viewModel = new MainViewModel();
+                DataContext = _viewModel;
             }
             catch (Exception ex) {
                 MessageBox.Show($"Failed to load cars: {ex.Message}");
             }
+        
+
+            AuthorFilter.ItemsSource = CarDataService.GetDistinctAuthors(_viewModel.CarDb);
+            AuthorFilter.SelectedIndex = -1;
+            ClassFilter.ItemsSource = CarDataService.GetDistinctClasses(_viewModel.CarDb);
+            ClassFilter.SelectedIndex = -1;
         }
 
         private async void CarList_SelectionChanged(object sender, SelectionChangedEventArgs e) {
@@ -50,8 +38,6 @@ namespace Ac.Ratings {
                 if (selectedCar != null) {
                     await LoadCarImage(selectedCar);
                     DisplayCarStats(selectedCar);
-
-                    DataContext = selectedCar;
                 }
             }
             catch (Exception ex) {
@@ -178,27 +164,6 @@ namespace Ac.Ratings {
             CarImage.Source = new BitmapImage(new Uri(previewFilePath, UriKind.Absolute));
         }
 
-        private void ClearRatings() {
-            var selectedCar = (Car)CarList.SelectedItem;
-            if (selectedCar != null) {
-                CarRatingService.ResetRatingValues(selectedCar);
-                ResetRatingSliderValues();
-            }
-        }
-
-        private void ResetRatingSliderValues() {
-            CornerHandlingSlider.Value = 0;
-            BrakesSlider.Value = 0;
-            RealismSlider.Value = 0;
-            SoundSlider.Value = 0;
-            ExteriorQualitySlider.Value = 0;
-            InteriorQualitySlider.Value = 0;
-            ForceFeedbackQualitySlider.Value = 0;
-            FunFactorSlider.Value = 0;
-        }
-
-        private void ClearRatingsButton_Click(object sender, RoutedEventArgs e) => ClearRatings();
-
         private void SearchBox_TextChanged(object sender, TextChangedEventArgs e) {
             UpdateCarListFilter();
         }
@@ -278,21 +243,13 @@ namespace Ac.Ratings {
         }
 
         public void ResetAllRatingsInDatabase() {
-            CarDataManager.ResetAllRatingsInDatabase(_carDb);
-
-            CarList.Items.Refresh();
-
-            var previouslySelectedCar = CarList.SelectedItem;
-            CarList.SelectedItem = null;
-            CarList.Items.Refresh();
-
-            CarList.SelectedItem = previouslySelectedCar;
-            CarList.Items.Refresh();
+            CarDataManager.ResetAllRatingsInDatabase(_viewModel.CarDb);
+            UpdateCarListFilter();
         }
 
         private void CreateBackupOfCarDb() {
             try {
-                CarDataManager.CreateBackupOfCarDb(_carDb);
+                CarDataManager.CreateBackupOfCarDb(_viewModel.CarDb);
             }
             catch (Exception ex) {
                 MessageBox.Show($"Error creating backup: {ex.Message}", "Backup Error", MessageBoxButton.OK, MessageBoxImage.Error);
@@ -303,9 +260,9 @@ namespace Ac.Ratings {
             try {
                 var restoredCarDb = CarDataManager.RestoreCarDbFromBackup(backupFilePath);
                 if (restoredCarDb != null) {
-                    _carDb.Clear();
+                    _viewModel.CarDb.Clear();
                     foreach (var car in restoredCarDb) {
-                        _carDb.Add(car);
+                        _viewModel.CarDb.Add(car);
                         CarDataManager.SaveCarToFile(car);
                     }
 
@@ -339,55 +296,14 @@ namespace Ac.Ratings {
             CarList.Items.Filter = CombinedFilter;
         }
 
-        private void ClearFeaturesButton_Click(object sender, RoutedEventArgs e) {
-            foreach (var child in ExtraFeatures.Children) {
-                if (child is Grid grid) {
-                    foreach (var gridChild in grid.Children) {
-                        if (gridChild is CheckBox checkBox) {
-                            checkBox.IsChecked = false;
-                        }
-                    }
-                }
-            }
-        }
-
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e) {
             CarDataManager.SaveModifiedCars();
             CreateBackupOfCarDb();
         }
 
         public void ResetAllExtraFeaturesInDatabase() {
-            CarDataManager.ResetAllExtraFeaturesInDatabase(_carDb);
-
-            CarList.Items.Refresh();
-
-            var previouslySelectedCar = CarList.SelectedItem;
-            CarList.SelectedItem = null;
-            CarList.Items.Refresh();
-
-            CarList.SelectedItem = previouslySelectedCar;
-            CarList.Items.Refresh();
-        }
-
-        private void CarList_Loaded(object sender, RoutedEventArgs e) {
-            if (string.IsNullOrEmpty(_longestCarName)) return;
-
-            var typeface = new Typeface(CarList.FontFamily, CarList.FontStyle, CarList.FontWeight, CarList.FontStretch);
-            var fontSize = CarList.FontSize;
-
-            var formattedText = new FormattedText(
-                _longestCarName,
-                CultureInfo.CurrentCulture,
-                FlowDirection.LeftToRight,
-                typeface,
-                fontSize,
-                Brushes.Black, 
-                new NumberSubstitution(),
-                1);
-
-            double carListWidth = formattedText.WidthIncludingTrailingWhitespace + 25;
-            CarList.Width = carListWidth;
-            SearchBox.Width = carListWidth - 10;
+            CarDataManager.ResetAllExtraFeaturesInDatabase(_viewModel.CarDb);
+            UpdateCarListFilter();
         }
     }
 }

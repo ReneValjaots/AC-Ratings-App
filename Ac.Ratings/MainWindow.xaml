@@ -36,7 +36,7 @@
                 Grid.Row="0"
                 Grid.Column="0"
                 Width="{Binding ElementName=CarList, Path=ActualWidth, Converter={StaticResource SubtractConverter}, ConverterParameter=20}"
-                MinWidth="100"
+                MinWidth="150"
                 Style="{StaticResource PrimaryTextBox}"
                 TextChanged="SearchBox_TextChanged" />
 
@@ -44,13 +44,13 @@
                 x:Name="CarList"
                 Grid.Row="1"
                 Grid.Column="0"
+                MinWidth="200"
                 Margin="0,0,10,0"
                 HorizontalAlignment="Left"
                 Background="Transparent"
                 Foreground="White"
                 ItemsSource="{Binding CarDb}"
-                SelectedItem="{Binding SelectedCar}"
-                SelectionChanged="CarList_SelectionChanged">
+                SelectedItem="{Binding SelectedCar}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
@@ -335,10 +335,7 @@
                 </Grid>
             </Grid>
 
-            <StackPanel
-                Grid.Row="1"
-                Grid.Column="1"
-                DataContext="{Binding SelectedCar}">
+            <StackPanel Grid.Row="1" Grid.Column="1">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
@@ -346,10 +343,33 @@
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
 
-                    <Grid
-                        x:Name="SkinGrid"
+                    <ItemsControl
                         Grid.Row="0"
-                        Margin="0,10,0,0" />
+                        Margin="0,10,0,0"
+                        ItemsSource="{Binding SkinPreviews}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel Orientation="Horizontal" />
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button
+                                    Padding="0"
+                                    Background="Transparent"
+                                    BorderThickness="0"
+                                    Command="{Binding DataContext.SelectSkinCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                    CommandParameter="{Binding PreviewPath}">
+                                    <Image
+                                        Width="35"
+                                        Height="35"
+                                        Margin="1"
+                                        Source="{Binding LiveryImage}"
+                                        Stretch="UniformToFill" />
+                                </Button>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
 
                     <TextBlock
                         Grid.Row="1"
@@ -359,7 +379,7 @@
                         VerticalAlignment="Center"
                         FontSize="20"
                         Foreground="White"
-                        Text="{Binding Name, Mode=TwoWay}" />
+                        Text="{Binding SelectedCar.Name, Mode=TwoWay}" />
 
                     <Image
                         x:Name="CarImage"
@@ -367,7 +387,8 @@
                         MaxWidth="800"
                         MaxHeight="445"
                         HorizontalAlignment="Left"
-                        VerticalAlignment="Center" />
+                        VerticalAlignment="Center"
+                        Source="{Binding CarImageSource}" />
                 </Grid>
 
                 <Grid Margin="0,5,0,0">
@@ -398,7 +419,7 @@
                                 FontSize="16"
                                 FontWeight="Bold"
                                 Foreground="White"
-                                Text="{Binding Specs.Bhp}"
+                                Text="{Binding SelectedCar.Specs.Bhp}"
                                 TextAlignment="Center" />
                         </Grid>
 
@@ -417,7 +438,7 @@
                             FontSize="16"
                             FontWeight="Bold"
                             Foreground="White"
-                            Text="{Binding Specs.Torque}"
+                            Text="{Binding SelectedCar.Specs.Torque}"
                             TextAlignment="Center" />
                         <TextBlock
                             FontSize="10"
@@ -434,7 +455,7 @@
                             FontSize="16"
                             FontWeight="Bold"
                             Foreground="White"
-                            Text="{Binding Specs.Acceleration}"
+                            Text="{Binding SelectedCar.Specs.Acceleration}"
                             TextAlignment="Center" />
                         <TextBlock
                             FontSize="10"
@@ -451,7 +472,7 @@
                             FontSize="16"
                             FontWeight="Bold"
                             Foreground="White"
-                            Text="{Binding Specs.TopSpeed}"
+                            Text="{Binding SelectedCar.Specs.TopSpeed}"
                             TextAlignment="Center" />
                         <TextBlock
                             FontSize="10"
@@ -474,6 +495,7 @@
                             FontSize="14"
                             FontWeight="Bold"
                             Foreground="White"
+                            Text="{Binding EngineStats}"
                             TextAlignment="Center" />
                     </StackPanel>
 
@@ -483,6 +505,7 @@
                             FontSize="14"
                             FontWeight="Bold"
                             Foreground="White"
+                            Text="{Binding GearboxStats}"
                             TextAlignment="Center" />
                     </StackPanel>
 
@@ -492,11 +515,12 @@
                             FontSize="14"
                             FontWeight="Bold"
                             Foreground="White"
+                            Text="{Binding DrivetrainStats}"
                             TextAlignment="Center" />
                     </StackPanel>
                 </Grid>
 
-                <Grid>
+                <Grid DataContext="{Binding SelectedCar}">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
                         <ColumnDefinition Width="*" />
@@ -526,7 +550,7 @@
                         </StackPanel.Resources>
                         <TextBlock Text="{Binding Brand, Mode=TwoWay}" />
                         <TextBlock Text="{Binding Year, Mode=TwoWay}" />
-                        <TextBlock Text="{Binding Class, Mode=TwoWay}" />
+                        <TextBlock Text="{Binding DataContext.ClassNameFormatted, RelativeSource={RelativeSource AncestorType=Window}}" />
                         <TextBlock Text="{Binding Author, Mode=TwoWay}" />
                         <TextBlock Text="{Binding Specs.Weight}" />
                         <TextBlock Text="{Binding Specs.PowerToWeightRatio}" />

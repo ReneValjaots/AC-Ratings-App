@@ -1,8 +1,5 @@
-﻿using System.IO;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
 using Ac.Ratings.Model;
 using Ac.Ratings.Services.MainView;
 using Ac.Ratings.ViewModel;
@@ -13,7 +10,6 @@ namespace Ac.Ratings {
     /// </summary>
     public partial class MainWindow : Window {
         private MainViewModel _viewModel;
-        private CancellationTokenSource? _cancellationTokenSource;
 
         public MainWindow() {
             InitializeComponent();
@@ -30,138 +26,6 @@ namespace Ac.Ratings {
             AuthorFilter.SelectedIndex = -1;
             ClassFilter.ItemsSource = CarDataService.GetDistinctClasses(_viewModel.CarDb);
             ClassFilter.SelectedIndex = -1;
-        }
-
-        private async void CarList_SelectionChanged(object sender, SelectionChangedEventArgs e) {
-            try {
-                var selectedCar = (Car)CarList.SelectedItem;
-                if (selectedCar != null) {
-                    await LoadCarImage(selectedCar);
-                    DisplayCarStats(selectedCar);
-                }
-            }
-            catch (Exception ex) {
-                MessageBox.Show($"An error occurred: {ex.Message}");
-            }
-        }
-
-        private void DisplayCarStats(Car selectedCar) {
-            Engine.Text = CarDisplayService.ShowCarEngineStats(selectedCar);
-            Drivetrain.Text = CarDisplayService.ShowCarDriveTrain(selectedCar);
-            Gearbox.Text = CarDisplayService.ShowCarGearbox(selectedCar);
-
-            var className = selectedCar.Class;
-            if (!string.IsNullOrEmpty(className)) {
-                if (!className.All(char.IsUpper)) {
-                    className = className.ToLower();
-                    className = char.ToUpper(className[0]) + className[1..];
-                }
-            }
-        }
-
-        private async Task LoadCarImage(Car car) {
-            try {
-                if (string.IsNullOrEmpty(car.FolderPath)) {
-                    MessageBox.Show("Car folder path is null or empty.");
-                    return;
-                }
-
-                var skinsDirectory = Path.Combine(car.FolderPath, "skins");
-
-                if (!Directory.Exists(skinsDirectory)) {
-                    MessageBox.Show($"Preview image not found for {car.Name}");
-                    return;
-                }
-
-                var skinDirectories = Directory.GetDirectories(skinsDirectory);
-                await PopulateSkinGrid(skinDirectories);
-
-                var previewFilePath = Path.Combine(skinDirectories[0], "preview.jpg");
-                if (File.Exists(previewFilePath)) {
-                    CarImage.Source = new BitmapImage(new Uri(previewFilePath, UriKind.Absolute));
-                }
-            }
-
-            catch (Exception ex) {
-                MessageBox.Show($"Failed to load image: {ex.Message}");
-            }
-        }
-
-        private async Task PopulateSkinGrid(string[] skinDirectories) {
-            if (_cancellationTokenSource != null) {
-                await _cancellationTokenSource.CancelAsync();
-            }
-
-            _cancellationTokenSource = new CancellationTokenSource();
-            var token = _cancellationTokenSource.Token;
-
-            SkinGrid.Children.Clear();
-            SkinGrid.RowDefinitions.Clear();
-            SkinGrid.ColumnDefinitions.Clear();
-
-            const int boxSize = 35;
-            const int boxesPerRow = 31;
-            const int marginSize = 1;
-
-            for (int i = 0; i < boxesPerRow; i++) {
-                SkinGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(boxSize + marginSize) });
-            }
-
-            int totalRows = (int)Math.Ceiling((double)skinDirectories.Length / boxesPerRow);
-            for (int i = 0; i < totalRows; i++) {
-                SkinGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(boxSize + marginSize) });
-            }
-
-            for (int i = 0; i < skinDirectories.Length; i++) {
-                if (token.IsCancellationRequested) {
-                    return;
-                }
-
-                var previewFilePath = Path.Combine(skinDirectories[i], "preview.jpg");
-                var liveryFilePath = Path.Combine(skinDirectories[i], "livery.png");
-
-                if (File.Exists(previewFilePath) && File.Exists(liveryFilePath)) {
-                    var liveryUri = new Uri(liveryFilePath, UriKind.Absolute);
-                    var rowIndex = i / boxesPerRow;
-                    var columnIndex = i % boxesPerRow;
-
-                    try {
-                        var bitmapImage = await Task.Run(() => {
-                            var image = new BitmapImage();
-                            image.BeginInit();
-                            image.UriSource = liveryUri;
-                            image.CacheOption = BitmapCacheOption.OnLoad;
-                            image.EndInit();
-                            image.Freeze(); // Make it thread-safe
-                            return image;
-                        }, token);
-
-                        if (token.IsCancellationRequested) {
-                            return; // Stop processing if canceled
-                        }
-
-                        var imageControl = new Image {
-                            Width = boxSize,
-                            Height = boxSize,
-                            Source = bitmapImage,
-                            Stretch = Stretch.UniformToFill,
-                        };
-
-                        imageControl.MouseLeftButtonDown += (s, e) => SkinBox_Clicked(previewFilePath);
-
-                        Dispatcher.Invoke(() => {
-                            Grid.SetRow(imageControl, rowIndex);
-                            Grid.SetColumn(imageControl, columnIndex);
-                            SkinGrid.Children.Add(imageControl);
-                        });
-                    }
-                    catch (TaskCanceledException) { }
-                }
-            }
-        }
-
-        private void SkinBox_Clicked(string previewFilePath) {
-            CarImage.Source = new BitmapImage(new Uri(previewFilePath, UriKind.Absolute));
         }
 
         private void SearchBox_TextChanged(object sender, TextChangedEventArgs e) {

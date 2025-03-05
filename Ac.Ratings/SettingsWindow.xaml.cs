@@ -1,5 +1,7 @@
-﻿using System.IO;
+﻿using System.Collections.ObjectModel;
+using System.IO;
 using System.Windows;
+using Ac.Ratings.Model;
 using Ac.Ratings.Services;
 using Ac.Ratings.ViewModel;
 
@@ -8,22 +10,26 @@ namespace Ac.Ratings {
     /// Interaction logic for SettingsWindow.xaml
     /// </summary>
     public partial class SettingsWindow : Window {
-        private readonly MainWindow _mainWindow;
-        private readonly string _configPath = ConfigManager.ConfigFilePath;
         public SettingsViewModel ViewModel { get; } = new();
 
-        public SettingsWindow(MainWindow mainWindow) {
+        public SettingsWindow(ObservableCollection<Car> carDb) {
             InitializeComponent();
-            _mainWindow = mainWindow;
-            ViewModel.LoadSettings(_configPath);
+            InitializeComponent();
             DataContext = ViewModel;
+            ViewModel.SetCarDb(carDb);
+            ViewModel.LoadSettings(ConfigManager.ConfigFilePath);
+            ViewModel.Notification += ViewModel_Notification;
+        }
+
+        private void ViewModel_Notification(object sender, string message) {
+            MessageBox.Show(message, message.Contains("error") || message.Contains("failed") ? "Error" : "Information",
+                message.Contains("error") || message.Contains("failed") ? MessageBoxButton.OK : MessageBoxButton.OK,
+                message.Contains("error") || message.Contains("failed") ? MessageBoxImage.Error : MessageBoxImage.Information);
         }
 
         private void OnSaveClick(object sender, RoutedEventArgs e) {
             try {
-                ViewModel.SaveSettings(_configPath);
-                MessageBox.Show($"Primary Unit: {ViewModel.SelectedPrimaryUnit}\nSecondary Unit: {ViewModel.SelectedSecondaryUnit}",
-                    "Settings Saved", MessageBoxButton.OK, MessageBoxImage.Information);
+                ViewModel.SaveSettingsCommand.Execute(null);
                 Close();
             }
             catch (FileNotFoundException ex) {
@@ -45,41 +51,15 @@ namespace Ac.Ratings {
                 MessageBoxImage.Warning);
 
             if (result == MessageBoxResult.Yes) {
-                _mainWindow.ResetAllRatingsInDatabase();
-
-                MessageBox.Show("All ratings have been reset successfully.", "Reset Complete", MessageBoxButton.OK,
-                    MessageBoxImage.Information);
+                try {
+                    ViewModel.ResetRatingsCommand.Execute(null);
+                }
+                catch (Exception ex) {
+                    MessageBox.Show($"Failed to reset ratings: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
             }
             else {
-                MessageBox.Show("Reset operation canceled.", "Cancel", MessageBoxButton.OK,
-                    MessageBoxImage.Information);
-            }
-        }
-
-        private void TransferRatingsButton_OnClick(object sender, RoutedEventArgs e) {
-            try {
-                var decoder = new RatingsDecoder();
-                decoder.InitializeRatingsDataFile();
-                decoder.InitializeUserRatings();
-                decoder.ExportDataFile();
-
-                MessageBox.Show("Ratings exported successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
-            }
-            catch (Exception ex) {
-                MessageBox.Show($"An error occurred during export: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
-        }
-
-        private void RestoreBackupButton_Click(object sender, RoutedEventArgs e) {
-            var openFileDialog = new Microsoft.Win32.OpenFileDialog {
-                Title = "Select Backup File",
-                Filter = "JSON Files (*.json)|*.json",
-                InitialDirectory = ConfigManager.BackupFolder
-            };
-
-            if (openFileDialog.ShowDialog() == true) {
-                var backupFilePath = openFileDialog.FileName;
-                _mainWindow.RestoreCarDbFromBackup(backupFilePath);
+                MessageBox.Show("Reset operation canceled.", "Cancel", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
@@ -91,42 +71,46 @@ namespace Ac.Ratings {
                 MessageBoxImage.Warning);
 
             if (result == MessageBoxResult.Yes) {
-                _mainWindow.ResetAllExtraFeaturesInDatabase();
-
-                MessageBox.Show("All extra features have been reset successfully.", "Reset Complete", MessageBoxButton.OK,
-                    MessageBoxImage.Information);
+                try {
+                    ViewModel.ResetExtraFeaturesCommand.Execute(null);
+                }
+                catch (Exception ex) {
+                    MessageBox.Show($"Failed to reset extra features: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
             }
             else {
-                MessageBox.Show("Reset operation canceled.", "Cancel", MessageBoxButton.OK,
-                    MessageBoxImage.Information);
+                MessageBox.Show("Reset operation canceled.", "Cancel", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+        }
+
+        private void TransferRatingsButton_OnClick(object sender, RoutedEventArgs e) {
+            try {
+                var decoder = new RatingsDecoder();
+                decoder.InitializeRatingsDataFile();
+                decoder.InitializeUserRatings();
+                decoder.ExportDataFile();
+                MessageBox.Show("Ratings exported successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            catch (Exception ex) {
+                MessageBox.Show($"An error occurred during export: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void RestoreBackupButton_Click(object sender, RoutedEventArgs e) {
+            try {
+                ViewModel.RestoreBackupCommand.Execute(null);
+            }
+            catch (Exception ex) {
+                MessageBox.Show($"Failed to restore backup: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
         private void ResetRootFolder_Click(object sender, RoutedEventArgs e) {
-            var result = MessageBox.Show(
-                "This will reset the root folder and close the application. You then need to reopen the application to change the root folder. Are you sure?",
-                "Confirm Reset",
-                MessageBoxButton.YesNo,
-                MessageBoxImage.Warning);
-
-            if (result == MessageBoxResult.Yes) {
-                try {
-                    if (File.Exists(ConfigManager.ConfigFilePath)) {
-                        File.Delete(ConfigManager.ConfigFilePath);
-
-                        Environment.Exit(0);
-                    }
-                    else {
-                        MessageBox.Show(
-                            "No configuration file was found to reset.",
-                            "Unexpected error",
-                            MessageBoxButton.OK,
-                            MessageBoxImage.Information);
-                    }
-                }
-                catch (Exception ex) {
-                    MessageBox.Show($"An error occurred while resetting: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                }
+            try {
+                ViewModel.ResetRootFolderCommand.Execute(null);
+            }
+            catch (Exception ex) {
+                MessageBox.Show($"Failed to reset root folder: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
     }

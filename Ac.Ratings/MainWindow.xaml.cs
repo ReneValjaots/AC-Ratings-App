@@ -102,13 +102,8 @@ namespace Ac.Ratings {
         }
 
         private void SettingsButton_OnClick(object sender, RoutedEventArgs e) {
-            var settingsWindow = new SettingsWindow(this);
+            var settingsWindow = new SettingsWindow(_viewModel.CarDb);
             settingsWindow.ShowDialog();
-        }
-
-        public void ResetAllRatingsInDatabase() {
-            CarDataManager.ResetAllRatingsInDatabase(_viewModel.CarDb);
-            UpdateCarListFilter();
         }
 
         private void CreateBackupOfCarDb() {
@@ -117,31 +112,6 @@ namespace Ac.Ratings {
             }
             catch (Exception ex) {
                 MessageBox.Show($"Error creating backup: {ex.Message}", "Backup Error", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
-        }
-
-        public void RestoreCarDbFromBackup(string backupFilePath) {
-            try {
-                var restoredCarDb = CarDataManager.RestoreCarDbFromBackup(backupFilePath);
-                if (restoredCarDb != null) {
-                    _viewModel.CarDb.Clear();
-                    foreach (var car in restoredCarDb) {
-                        _viewModel.CarDb.Add(car);
-                        CarDataManager.SaveCarToFile(car);
-                    }
-
-                    CarList.Items.Refresh();
-
-                    if (CarList.SelectedItem is Car selectedCar) {
-                        DataContext = null; 
-                        DataContext = selectedCar;
-                    }
-
-                    MessageBox.Show("Car database restored successfully.", "Restore Complete", MessageBoxButton.OK, MessageBoxImage.Information);
-                }
-            }
-            catch (Exception ex) {
-                MessageBox.Show($"Failed to restore CarDb from backup: {ex.Message}", "Restore Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -163,11 +133,6 @@ namespace Ac.Ratings {
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e) {
             CarDataManager.SaveModifiedCars();
             CreateBackupOfCarDb();
-        }
-
-        public void ResetAllExtraFeaturesInDatabase() {
-            CarDataManager.ResetAllExtraFeaturesInDatabase(_viewModel.CarDb);
-            UpdateCarListFilter();
         }
     }
 }

@@ -83,7 +83,6 @@ namespace Ac.Ratings.Services {
             }
 
             var files = new[] {
-                Path.Combine(ResourceFolder, "data", "MissingDataLog.txt"),
                 Path.Combine(ResourceFolder, "data", "ErrorLog.txt")
             };
 

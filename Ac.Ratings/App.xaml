@@ -13,7 +13,6 @@
                 <ResourceDictionary Source="Theme/Buttons/PrimaryButton.xaml" />
                 <ResourceDictionary Source="Theme/Buttons/SecondaryButton.xaml" />
                 <ResourceDictionary Source="Theme/Buttons/TertiaryButton.xaml" />
-                <ResourceDictionary Source="Theme/Sliders/SecondarySlider.xaml" />
                 <ResourceDictionary Source="Theme/RatingComboBoxItem.xaml" />
                 <ResourceDictionary Source="Theme/PrimaryListView.xaml" />
                 <ResourceDictionary Source="Theme/PrimaryTextBox.xaml" />

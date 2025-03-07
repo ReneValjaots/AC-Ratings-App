@@ -16,16 +16,15 @@ namespace Ac.Ratings {
             try {
                 _viewModel = new MainViewModel();
                 DataContext = _viewModel;
+                _viewModel.RatingsFilterApplied += ViewModel_RatingsFilterApplied;
             }
             catch (Exception ex) {
                 MessageBox.Show($"Failed to load cars: {ex.Message}");
             }
-        
+        }
 
-            AuthorFilter.ItemsSource = CarDataService.GetDistinctAuthors(_viewModel.CarDb);
-            AuthorFilter.SelectedIndex = -1;
-            ClassFilter.ItemsSource = CarDataService.GetDistinctClasses(_viewModel.CarDb);
-            ClassFilter.SelectedIndex = -1;
+        private void ViewModel_RatingsFilterApplied(object sender, EventArgs e) {
+            UpdateCarListFilter(); // Refresh filter when ratings change
         }
 
         private void SearchBox_TextChanged(object sender, TextChangedEventArgs e) {
@@ -35,8 +34,8 @@ namespace Ac.Ratings {
         private bool CombinedFilter(object obj) {
             if (obj is not Car car) return false;
 
-            var selectedAuthor = AuthorFilter.SelectedItem?.ToString();
-            var selectedClass = ClassFilter.SelectedItem?.ToString();
+            var selectedAuthor = _viewModel.SelectedAuthor;
+            var selectedClass = _viewModel.SelectedClass;
             var searchText = SearchBox.Text.Trim();
 
             return CarDataManager.CombinedFilter(
@@ -44,42 +43,31 @@ namespace Ac.Ratings {
                 selectedAuthor,
                 selectedClass,
                 searchText,
-                CornerHandlingFilter.Value,
-                BrakingFilter.Value,
-                RealismFilter.Value,
-                SoundFilter.Value,
-                ExteriorQualityFilter.Value,
-                InteriorQualityFilter.Value,
-                ForceFeedbackQualityFilter.Value,
-                FunFactorFilter.Value,
-                AverageRatingFilter.Value
+                _viewModel.RatingsFilterViewModel.MinCornerHandling,
+                _viewModel.RatingsFilterViewModel.MinBraking,
+                _viewModel.RatingsFilterViewModel.MinRealism,
+                _viewModel.RatingsFilterViewModel.MinSound,
+                _viewModel.RatingsFilterViewModel.MinExteriorQuality,
+                _viewModel.RatingsFilterViewModel.MinInteriorQuality,
+                _viewModel.RatingsFilterViewModel.MinForceFeedbackQuality,
+                _viewModel.RatingsFilterViewModel.MinFunFactor,
+                _viewModel.RatingsFilterViewModel.MinAverageRating
             );
         }
 
         private void ResetFilters_Click(object sender, RoutedEventArgs e) {
-            AuthorFilter.SelectedItem = null;
+            _viewModel.SelectedAuthor = null; 
             AuthorFilter.Text = "Filter by author";
+            _viewModel.SelectedClass = null; 
             ClassFilter.SelectedItem = null;
             SearchBox.Text = string.Empty;
-            ResetFilterSliderValues();
+            _viewModel.RatingsFilterViewModel.Reset();
             CarList.Items.Filter = null;
         }
 
-        private void ResetFilterSliderValues() {
-            CornerHandlingFilter.Value = 0;
-            BrakingFilter.Value = 0;
-            RealismFilter.Value = 0;
-            SoundFilter.Value = 0;
-            ExteriorQualityFilter.Value = 0;
-            InteriorQualityFilter.Value = 0;
-            ForceFeedbackQualityFilter.Value = 0;
-            FunFactorFilter.Value = 0;
-            AverageRatingFilter.Value = 0;
-        }
-
         private void AuthorFilter_OnSelectionChanged(object sender, SelectionChangedEventArgs e) {
-            if (AuthorFilter.SelectedItem?.ToString() == "-- Reset --") {
-                AuthorFilter.SelectedIndex = -1;
+            if (_viewModel.SelectedAuthor == "-- Reset --") {
+                _viewModel.SelectedAuthor = null;
                 UpdateCarListFilter();
                 return;
             }
@@ -88,16 +76,12 @@ namespace Ac.Ratings {
         }
 
         private void ClassFilter_OnSelectionChanged(object sender, SelectionChangedEventArgs e) {
-            if (ClassFilter.SelectedItem?.ToString() == "-- Reset --") {
-                ClassFilter.SelectedIndex = -1;
+            if (_viewModel.SelectedClass == "-- Reset --") {
+                _viewModel.SelectedClass = null;
                 UpdateCarListFilter();
                 return;
             }
 
-            UpdateCarListFilter();
-        }
-
-        private void FilterSlider_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
             UpdateCarListFilter();
         }
 
@@ -113,17 +97,6 @@ namespace Ac.Ratings {
             catch (Exception ex) {
                 MessageBox.Show($"Error creating backup: {ex.Message}", "Backup Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-        }
-
-        private void RatingsFilter_OnSelectionChanged(object sender, SelectionChangedEventArgs e) {
-            if (RatingsFilter.SelectedItem is ComboBoxItem selectedItem &&
-                selectedItem.Content.ToString() == "-- Reset --") {
-                ResetFilterSliderValues();
-                RatingsFilter.SelectedIndex = -1;
-            }
-
-            UpdateCarListFilter();
-            RatingsFilter.SelectedIndex = -1;
         }
 
         private void UpdateCarListFilter() {

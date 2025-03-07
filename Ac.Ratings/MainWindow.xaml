@@ -86,6 +86,7 @@
                         <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
                     </Grid.ColumnDefinitions>
 
                     <TextBlock
@@ -106,6 +107,7 @@
                         HorizontalAlignment="Left"
                         VerticalAlignment="Top"
                         ItemsSource="{Binding Authors}"
+                        SelectedItem="{Binding SelectedAuthor, Mode=TwoWay}"
                         SelectionChanged="AuthorFilter_OnSelectionChanged" />
 
                     <TextBlock
@@ -126,200 +128,19 @@
                         HorizontalAlignment="Left"
                         VerticalAlignment="Top"
                         ItemsSource="{Binding Classes}"
+                        SelectedItem="{Binding SelectedClass, Mode=TwoWay}"
                         SelectionChanged="ClassFilter_OnSelectionChanged" />
 
-
-                    <TextBlock
-                        Grid.Row="0"
-                        Grid.Column="2"
-                        Margin="0,2,0,0"
-                        HorizontalAlignment="Center"
-                        FontSize="14"
-                        Foreground="White"
-                        Text="Filter by rating" />
-
-                    <ComboBox
-                        x:Name="RatingsFilter"
+                    <Button
                         Grid.Row="1"
                         Grid.Column="2"
                         Width="250"
                         Margin="10,2,0,5"
-                        SelectionChanged="RatingsFilter_OnSelectionChanged">
-
-                        <ComboBoxItem>-- Reset --</ComboBoxItem>
-
-                        <ComboBoxItem Style="{StaticResource RatingComboBoxItem}">
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="125" />
-                                    <ColumnDefinition Width="Auto" />
-                                </Grid.ColumnDefinitions>
-                                <TextBlock
-                                    Grid.Column="0"
-                                    Margin="0,0,10,0"
-                                    VerticalAlignment="Center"
-                                    Text="{Binding ElementName=CornerHandlingFilter, Path=Value, StringFormat='Corner Handling: {0}'}" />
-                                <Slider
-                                    x:Name="CornerHandlingFilter"
-                                    Grid.Column="1"
-                                    Width="125"
-                                    Style="{StaticResource SecondarySlider}"
-                                    ValueChanged="FilterSlider_OnValueChanged" />
-                            </Grid>
-                        </ComboBoxItem>
-
-                        <ComboBoxItem Style="{StaticResource RatingComboBoxItem}">
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="125" />
-                                    <ColumnDefinition Width="Auto" />
-                                </Grid.ColumnDefinitions>
-                                <TextBlock
-                                    Grid.Column="0"
-                                    Margin="0,0,10,0"
-                                    Text="{Binding ElementName=BrakingFilter, Path=Value, StringFormat='Braking: {0}'}" />
-                                <Slider
-                                    x:Name="BrakingFilter"
-                                    Grid.Column="1"
-                                    Width="125"
-                                    Style="{StaticResource SecondarySlider}"
-                                    ValueChanged="FilterSlider_OnValueChanged" />
-                            </Grid>
-                        </ComboBoxItem>
-
-                        <ComboBoxItem Style="{StaticResource RatingComboBoxItem}">
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="125" />
-                                    <ColumnDefinition Width="Auto" />
-                                </Grid.ColumnDefinitions>
-                                <TextBlock
-                                    Grid.Column="0"
-                                    Margin="0,0,10,0"
-                                    Text="{Binding ElementName=RealismFilter, Path=Value, StringFormat='Realism: {0}'}" />
-                                <Slider
-                                    x:Name="RealismFilter"
-                                    Grid.Column="1"
-                                    Width="125"
-                                    Style="{StaticResource SecondarySlider}"
-                                    ValueChanged="FilterSlider_OnValueChanged" />
-                            </Grid>
-                        </ComboBoxItem>
-
-                        <ComboBoxItem Style="{StaticResource RatingComboBoxItem}">
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="125" />
-                                    <ColumnDefinition Width="Auto" />
-                                </Grid.ColumnDefinitions>
-                                <TextBlock
-                                    Grid.Column="0"
-                                    Margin="0,0,10,0"
-                                    Text="{Binding ElementName=SoundFilter, Path=Value, StringFormat='Sound: {0}'}" />
-                                <Slider
-                                    x:Name="SoundFilter"
-                                    Grid.Column="1"
-                                    Width="125"
-                                    Style="{StaticResource SecondarySlider}"
-                                    ValueChanged="FilterSlider_OnValueChanged" />
-                            </Grid>
-                        </ComboBoxItem>
-
-                        <ComboBoxItem Style="{StaticResource RatingComboBoxItem}">
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="125" />
-                                    <ColumnDefinition Width="Auto" />
-                                </Grid.ColumnDefinitions>
-                                <TextBlock
-                                    Grid.Column="0"
-                                    Margin="0,0,10,0"
-                                    Text="{Binding ElementName=ExteriorQualityFilter, Path=Value, StringFormat='Exterior Quality: {0}'}" />
-                                <Slider
-                                    x:Name="ExteriorQualityFilter"
-                                    Grid.Column="1"
-                                    Width="125"
-                                    Style="{StaticResource SecondarySlider}"
-                                    ValueChanged="FilterSlider_OnValueChanged" />
-                            </Grid>
-                        </ComboBoxItem>
-
-                        <ComboBoxItem Style="{StaticResource RatingComboBoxItem}">
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="125" />
-                                    <ColumnDefinition Width="Auto" />
-                                </Grid.ColumnDefinitions>
-                                <TextBlock
-                                    Grid.Column="0"
-                                    Margin="0,0,10,0"
-                                    Text="{Binding ElementName=InteriorQualityFilter, Path=Value, StringFormat='Interior Quality: {0}'}" />
-                                <Slider
-                                    x:Name="InteriorQualityFilter"
-                                    Grid.Column="1"
-                                    Width="125"
-                                    Style="{StaticResource SecondarySlider}"
-                                    ValueChanged="FilterSlider_OnValueChanged" />
-                            </Grid>
-                        </ComboBoxItem>
-
-                        <ComboBoxItem Style="{StaticResource RatingComboBoxItem}">
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="125" />
-                                    <ColumnDefinition Width="Auto" />
-                                </Grid.ColumnDefinitions>
-                                <TextBlock
-                                    Grid.Column="0"
-                                    Margin="0,0,10,0"
-                                    Text="{Binding ElementName=ForceFeedbackQualityFilter, Path=Value, StringFormat='FFB Quality: {0}'}" />
-                                <Slider
-                                    x:Name="ForceFeedbackQualityFilter"
-                                    Grid.Column="1"
-                                    Width="125"
-                                    Style="{StaticResource SecondarySlider}"
-                                    ValueChanged="FilterSlider_OnValueChanged" />
-                            </Grid>
-                        </ComboBoxItem>
-
-                        <ComboBoxItem Style="{StaticResource RatingComboBoxItem}">
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="125" />
-                                    <ColumnDefinition Width="Auto" />
-                                </Grid.ColumnDefinitions>
-                                <TextBlock
-                                    Grid.Column="0"
-                                    Margin="0,0,10,0"
-                                    Text="{Binding ElementName=FunFactorFilter, Path=Value, StringFormat='Fun Factor: {0}'}" />
-                                <Slider
-                                    x:Name="FunFactorFilter"
-                                    Grid.Column="1"
-                                    Width="125"
-                                    Style="{StaticResource SecondarySlider}"
-                                    ValueChanged="FilterSlider_OnValueChanged" />
-                            </Grid>
-                        </ComboBoxItem>
-
-                        <ComboBoxItem Style="{StaticResource RatingComboBoxItem}">
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="125" />
-                                    <ColumnDefinition Width="Auto" />
-                                </Grid.ColumnDefinitions>
-                                <TextBlock
-                                    Grid.Column="0"
-                                    Margin="0,0,10,0"
-                                    Text="{Binding ElementName=AverageRatingFilter, Path=Value, StringFormat='Average Rating: {0}'}" />
-                                <Slider
-                                    x:Name="AverageRatingFilter"
-                                    Grid.Column="1"
-                                    Width="125"
-                                    Style="{StaticResource SecondarySlider}"
-                                    ValueChanged="FilterSlider_OnValueChanged" />
-                            </Grid>
-                        </ComboBoxItem>
-                    </ComboBox>
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Top"
+                        Command="{Binding OpenRatingsFilterCommand}"
+                        Content="Filter by rating"
+                        Style="{StaticResource TertiaryButton}" />
 
                     <Button
                         x:Name="ResetFilters"

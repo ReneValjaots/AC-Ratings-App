@@ -14,84 +14,86 @@ namespace Ac.Ratings.ViewModel {
         private string _drivetrainStats;
         private string _gearboxStats;
         private string _classNameFormatted;
+        private string _selectedAuthor;
+        private string _selectedClass;
         private BitmapImage _carImageSource;
         private ObservableCollection<SkinPreview> _skinPreviews;
+        public RatingsFilterViewModel RatingsFilterViewModel { get; } = new();
 
         public ObservableCollection<Car> CarDb {
             get => _carDb;
-            set {
-                _carDb = value;
-                OnPropertyChanged();
-            }
+            set => SetField(ref _carDb, value);
         }
 
         public Car SelectedCar {
             get => _selectedCar;
             set {
-                _selectedCar = value;
-                OnPropertyChanged();
-                UpdateCarData();
+                if (SetField(ref _selectedCar, value)) {
+                    UpdateCarData();
+                }
             }
         }
 
         public string EngineStats {
             get => _engineStats;
-            set {
-                _engineStats = value;
-                OnPropertyChanged();
-            }
+            set => SetField(ref _engineStats, value);
         }
 
         public string DrivetrainStats {
             get => _drivetrainStats;
-            set {
-                _drivetrainStats = value;
-                OnPropertyChanged();
-            }
+            set => SetField(ref _drivetrainStats, value);
         }
 
         public string GearboxStats {
             get => _gearboxStats;
-            set {
-                _gearboxStats = value;
-                OnPropertyChanged();
-            }
+            set => SetField(ref _gearboxStats, value);
         }
 
         public string ClassNameFormatted {
             get => _classNameFormatted;
-            set {
-                _classNameFormatted = value;
-                OnPropertyChanged();
-            }
+            set => SetField(ref _classNameFormatted, value);
         }
 
         public BitmapImage CarImageSource {
             get => _carImageSource;
-            set {
-                _carImageSource = value;
-                OnPropertyChanged();
-            }
+            set => SetField(ref _carImageSource, value);
         }
 
         public ObservableCollection<SkinPreview> SkinPreviews {
             get => _skinPreviews;
-            set {
-                _skinPreviews = value;
-                OnPropertyChanged();
-            }
+            set => SetField(ref _skinPreviews, value);
+        }
+
+        public List<string> Authors { get; }
+        public List<string> Classes { get; }
+
+        public string SelectedAuthor {
+            get => _selectedAuthor;
+            set => SetField(ref _selectedAuthor, value);
+        }
+
+        public string SelectedClass {
+            get => _selectedClass;
+            set => SetField(ref _selectedClass, value);
         }
 
         public ICommand ClearRatingsCommand { get; }
         public ICommand ClearExtraFeaturesCommand { get; }
         public ICommand SelectSkinCommand { get; }
+        public ICommand OpenRatingsFilterCommand { get; }
+        public event EventHandler RatingsFilterApplied; // Event to notify MainWindow
 
         public MainViewModel() {
             try {
                 CarDb = new ObservableCollection<Car>(CarDataService.LoadCarDatabase());
+                Authors = CarDataService.GetDistinctAuthors(CarDb);
+                Classes = CarDataService.GetDistinctClasses(CarDb);
+
                 ClearRatingsCommand = new RelayCommand(ClearRatings);
                 ClearExtraFeaturesCommand = new RelayCommand(ClearExtraFeatures);
                 SelectSkinCommand = new RelayCommand<string>(SelectSkin);
+                OpenRatingsFilterCommand = new RelayCommand(OpenRatingsFilter);
+
                 _skinPreviews = new ObservableCollection<SkinPreview>();
                 if (CarDb.Count > 0) {
                     SelectedCar = CarDb[0];
@@ -112,6 +114,14 @@ namespace Ac.Ratings.ViewModel {
         private void ClearExtraFeatures() {
             if (SelectedCar != null) {
                 CarRatingService.ResetExtraFeatureValues(SelectedCar);
+            }
+        }
+
+        private void OpenRatingsFilter() {
+            var window = new RatingsFilterWindow(RatingsFilterViewModel);
+            if (window.ShowDialog() == true) // Check if "Apply" was clicked
+            {
+                RatingsFilterApplied?.Invoke(this, EventArgs.Empty); // Notify MainWindow
             }
         }
 
@@ -136,7 +146,7 @@ namespace Ac.Ratings.ViewModel {
                     ClassNameFormatted = string.Empty;
                 }
 
-                LoadSkinPreviews(); 
+                LoadSkinPreviews();
             }
             else {
                 EngineStats = string.Empty;

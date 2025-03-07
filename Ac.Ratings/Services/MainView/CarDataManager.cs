@@ -20,7 +20,6 @@ namespace Ac.Ratings.Services.MainView {
         }
 
         public static void SaveCarToFile(Car car) {
-
             if (string.IsNullOrEmpty(ConfigManager.CarsRootFolder)) {
                 throw new ArgumentException("Cars root folder path is null or empty.");
             }
@@ -86,8 +85,6 @@ namespace Ac.Ratings.Services.MainView {
                 ErrorLogger.LogError("ResetAllExtraFeatures", ex);
             }
         }
-
-
 
         public static List<Car> RestoreCarDbFromBackup(string backupFilePath) {
             if (!File.Exists(backupFilePath)) {

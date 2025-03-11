@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Data;
 
-namespace Ac.Ratings;
+namespace Ac.Ratings.Theme.Converters;
 
 public class SubtractConverter : IValueConverter {
     public object Convert(object value, Type targetType, object parameter, CultureInfo culture) {

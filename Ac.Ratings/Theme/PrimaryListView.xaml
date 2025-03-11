@@ -119,7 +119,11 @@
                             <Setter TargetName="Border" Property="Background" Value="#333333" />
                         </Trigger>
                         <Trigger Property="IsSelected" Value="True">
-                            <Setter TargetName="Border" Property="Background" Value="#3399FF" />
+                            <Setter TargetName="Border" Property="Background">
+                                <Setter.Value>
+                                    <SolidColorBrush Color="{DynamicResource AccentColor}" />
+                                </Setter.Value>
+                            </Setter>
                             <Setter Property="Foreground" Value="White" />
                         </Trigger>
                     </ControlTemplate.Triggers>

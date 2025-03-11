@@ -1,198 +1,209 @@
-﻿<Window
+﻿<helpers:ModernWindowBase
     x:Class="Ac.Ratings.RatingsFilterWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:Ac.Ratings"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:theme="clr-namespace:Ac.Ratings.Theme"
+    xmlns:helpers="clr-namespace:Ac.Ratings.Theme.ModernUI.Helpers"
     Title="Ratings Filter"
     Width="800"
     Height="450"
+    DataContext="{Binding RelativeSource={RelativeSource Self}, Path=ViewModel}"
     WindowStartupLocation="CenterScreen"
-    mc:Ignorable="d"
-    DataContext="{Binding RelativeSource={RelativeSource Self}, Path=ViewModel}">
-    <Border Background="#000302">
-        <StackPanel>
+    mc:Ignorable="d">
+    <StackPanel>
+        <TextBlock
+            Margin="0,10,0,10"
+            Padding="10"
+            HorizontalAlignment="Center"
+            Foreground="{DynamicResource WindowText}"
+            Text="Filter by ratings" />
+        <Grid Margin="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <!--  Corner Handling  -->
             <TextBlock
-                Margin="0,10,0,10"
-                Padding="10"
+                Grid.Row="0"
+                Grid.Column="0"
                 HorizontalAlignment="Center"
-                Foreground="White"
-                Text="Filter by ratings" />
-            <Grid Margin="20">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                </Grid.RowDefinitions>
+                Foreground="{DynamicResource WindowText}"
+                Text="{Binding MinCornerHandling, StringFormat='Corner Handling: {0}'}" />
+            <Slider
+                Grid.Row="0"
+                Grid.Column="1"
+                IsSnapToTickEnabled="True"
+                Maximum="10"
+                Minimum="0"
+                TickFrequency="1"
+                Value="{Binding MinCornerHandling, Mode=TwoWay}" />
 
-                <!-- Corner Handling -->
-                <TextBlock
-                    Grid.Row="0"
-                    Grid.Column="0"
-                    HorizontalAlignment="Center"
-                    Foreground="White"
-                    Text="{Binding MinCornerHandling, StringFormat='Corner Handling: {0}'}" />
-                <Slider
-                    Grid.Row="0"
-                    Grid.Column="1"
-                    IsSnapToTickEnabled="True"
-                    Maximum="10"
-                    Minimum="0"
-                    TickFrequency="1"
-                    Value="{Binding MinCornerHandling, Mode=TwoWay}" />
+            <!--  Brakes  -->
+            <TextBlock
+                Grid.Row="1"
+                Grid.Column="0"
+                HorizontalAlignment="Center"
+                Foreground="{DynamicResource WindowText}"
+                Text="{Binding MinBraking, StringFormat='Braking: {0}'}" />
+            <Slider
+                Grid.Row="1"
+                Grid.Column="1"
+                Margin="0,5,0,0"
+                IsSnapToTickEnabled="True"
+                Maximum="10"
+                Minimum="0"
+                TickFrequency="1"
+                Value="{Binding MinBraking, Mode=TwoWay}" />
 
-                <!-- Brakes -->
-                <TextBlock
-                    Grid.Row="1"
-                    Grid.Column="0"
-                    HorizontalAlignment="Center"
-                    Foreground="White"
-                    Text="{Binding MinBraking, StringFormat='Braking: {0}'}" />
-                <Slider
-                    Grid.Row="1"
-                    Grid.Column="1"
-                    IsSnapToTickEnabled="True"
-                    Maximum="10"
-                    Minimum="0"
-                    TickFrequency="1"
-                    Value="{Binding MinBraking, Mode=TwoWay}" />
+            <!--  Realism  -->
+            <TextBlock
+                Grid.Row="2"
+                Grid.Column="0"
+                HorizontalAlignment="Center"
+                Foreground="{DynamicResource WindowText}"
+                Text="{Binding MinRealism, StringFormat='Realism: {0}'}" />
+            <Slider
+                Grid.Row="2"
+                Grid.Column="1"
+                Margin="0,5,0,0"
+                IsSnapToTickEnabled="True"
+                Maximum="10"
+                Minimum="0"
+                TickFrequency="1"
+                Value="{Binding MinRealism, Mode=TwoWay}" />
 
-                <!-- Realism -->
-                <TextBlock
-                    Grid.Row="2"
-                    Grid.Column="0"
-                    HorizontalAlignment="Center"
-                    Foreground="White"
-                    Text="{Binding MinRealism, StringFormat='Realism: {0}'}" />
-                <Slider
-                    Grid.Row="2"
-                    Grid.Column="1"
-                    IsSnapToTickEnabled="True"
-                    Maximum="10"
-                    Minimum="0"
-                    TickFrequency="1"
-                    Value="{Binding MinRealism, Mode=TwoWay}" />
+            <!--  Sound  -->
+            <TextBlock
+                Grid.Row="3"
+                Grid.Column="0"
+                HorizontalAlignment="Center"
+                Foreground="{DynamicResource WindowText}"
+                Text="{Binding MinSound, StringFormat='Sound: {0}'}" />
+            <Slider
+                Grid.Row="3"
+                Grid.Column="1"
+                Margin="0,5,0,0"
+                IsSnapToTickEnabled="True"
+                Maximum="10"
+                Minimum="0"
+                TickFrequency="1"
+                Value="{Binding MinSound, Mode=TwoWay}" />
 
-                <!-- Sound -->
-                <TextBlock
-                    Grid.Row="3"
-                    Grid.Column="0"
-                    HorizontalAlignment="Center"
-                    Foreground="White"
-                    Text="{Binding MinSound, StringFormat='Sound: {0}'}" />
-                <Slider
-                    Grid.Row="3"
-                    Grid.Column="1"
-                    IsSnapToTickEnabled="True"
-                    Maximum="10"
-                    Minimum="0"
-                    TickFrequency="1"
-                    Value="{Binding MinSound, Mode=TwoWay}" />
+            <!--  Exterior Quality  -->
+            <TextBlock
+                Grid.Row="4"
+                Grid.Column="0"
+                HorizontalAlignment="Center"
+                Foreground="{DynamicResource WindowText}"
+                Text="{Binding MinExteriorQuality, StringFormat='Exterior Quality: {0}'}" />
+            <Slider
+                Grid.Row="4"
+                Grid.Column="1"
+                Margin="0,5,0,0"
+                IsSnapToTickEnabled="True"
+                Maximum="10"
+                Minimum="0"
+                TickFrequency="1"
+                Value="{Binding MinExteriorQuality, Mode=TwoWay}" />
 
-                <!-- Exterior Quality -->
-                <TextBlock
-                    Grid.Row="4"
-                    Grid.Column="0"
-                    HorizontalAlignment="Center"
-                    Foreground="White"
-                    Text="{Binding MinExteriorQuality, StringFormat='Exterior Quality: {0}'}" />
-                <Slider
-                    Grid.Row="4"
-                    Grid.Column="1"
-                    IsSnapToTickEnabled="True"
-                    Maximum="10"
-                    Minimum="0"
-                    TickFrequency="1"
-                    Value="{Binding MinExteriorQuality, Mode=TwoWay}" />
+            <!--  Interior Quality  -->
+            <TextBlock
+                Grid.Row="5"
+                Grid.Column="0"
+                HorizontalAlignment="Center"
+                Foreground="{DynamicResource WindowText}"
+                Text="{Binding MinInteriorQuality, StringFormat='Interior Quality: {0}'}" />
+            <Slider
+                Grid.Row="5"
+                Grid.Column="1"
+                Margin="0,5,0,0"
+                IsSnapToTickEnabled="True"
+                Maximum="10"
+                Minimum="0"
+                TickFrequency="1"
+                Value="{Binding MinInteriorQuality, Mode=TwoWay}" />
 
-                <!-- Interior Quality -->
-                <TextBlock
-                    Grid.Row="5"
-                    Grid.Column="0"
-                    HorizontalAlignment="Center"
-                    Foreground="White"
-                    Text="{Binding MinInteriorQuality, StringFormat='Interior Quality: {0}'}" />
-                <Slider
-                    Grid.Row="5"
-                    Grid.Column="1"
-                    IsSnapToTickEnabled="True"
-                    Maximum="10"
-                    Minimum="0"
-                    TickFrequency="1"
-                    Value="{Binding MinInteriorQuality, Mode=TwoWay}" />
+            <!--  Force Feedback Quality  -->
+            <TextBlock
+                Grid.Row="6"
+                Grid.Column="0"
+                HorizontalAlignment="Center"
+                Foreground="{DynamicResource WindowText}"
+                Text="{Binding MinForceFeedbackQuality, StringFormat='FFB Quality: {0}'}" />
+            <Slider
+                Grid.Row="6"
+                Grid.Column="1"
+                Margin="0,5,0,0"
+                IsSnapToTickEnabled="True"
+                Maximum="10"
+                Minimum="0"
+                TickFrequency="1"
+                Value="{Binding MinForceFeedbackQuality, Mode=TwoWay}" />
 
-                <!-- Force Feedback Quality -->
-                <TextBlock
-                    Grid.Row="6"
-                    Grid.Column="0"
-                    HorizontalAlignment="Center"
-                    Foreground="White"
-                    Text="{Binding MinForceFeedbackQuality, StringFormat='FFB Quality: {0}'}" />
-                <Slider
-                    Grid.Row="6"
-                    Grid.Column="1"
-                    IsSnapToTickEnabled="True"
-                    Maximum="10"
-                    Minimum="0"
-                    TickFrequency="1"
-                    Value="{Binding MinForceFeedbackQuality, Mode=TwoWay}" />
+            <!--  Fun Factor  -->
+            <TextBlock
+                Grid.Row="7"
+                Grid.Column="0"
+                HorizontalAlignment="Center"
+                Foreground="{DynamicResource WindowText}"
+                Text="{Binding MinFunFactor, StringFormat='Fun Factor: {0}'}" />
+            <Slider
+                Grid.Row="7"
+                Grid.Column="1"
+                Margin="0,5,0,0"
+                IsSnapToTickEnabled="True"
+                Maximum="10"
+                Minimum="0"
+                TickFrequency="1"
+                Value="{Binding MinFunFactor, Mode=TwoWay}" />
 
-                <!-- Fun Factor -->
-                <TextBlock
-                    Grid.Row="7"
-                    Grid.Column="0"
-                    HorizontalAlignment="Center"
-                    Foreground="White"
-                    Text="{Binding MinFunFactor, StringFormat='Fun Factor: {0}'}" />
-                <Slider
-                    Grid.Row="7"
-                    Grid.Column="1"
-                    IsSnapToTickEnabled="True"
-                    Maximum="10"
-                    Minimum="0"
-                    TickFrequency="1"
-                    Value="{Binding MinFunFactor, Mode=TwoWay}" />
+            <!--  Average Rating  -->
+            <TextBlock
+                Grid.Row="8"
+                Grid.Column="0"
+                HorizontalAlignment="Center"
+                Foreground="{DynamicResource WindowText}"
+                Text="{Binding MinAverageRating, StringFormat='Average Rating: {0}'}" />
+            <Slider
+                Grid.Row="8"
+                Grid.Column="1"
+                Margin="0,5,0,0"
+                IsSnapToTickEnabled="True"
+                Maximum="10"
+                Minimum="0"
+                TickFrequency="1"
+                Value="{Binding MinAverageRating, Mode=TwoWay}" />
+        </Grid>
 
-                <!-- Average Rating -->
-                <TextBlock
-                    Grid.Row="8"
-                    Grid.Column="0"
-                    HorizontalAlignment="Center"
-                    Foreground="White"
-                    Text="{Binding MinAverageRating, StringFormat='Average Rating: {0}'}" />
-                <Slider
-                    Grid.Row="8"
-                    Grid.Column="1"
-                    IsSnapToTickEnabled="True"
-                    Maximum="10"
-                    Minimum="0"
-                    TickFrequency="1"
-                    Value="{Binding MinAverageRating, Mode=TwoWay}" />
-            </Grid>
-
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,20,10">
-                <Button
-                    Content="Apply"
-                    Width="75"
-                    Margin="0,0,5,0"
-                    Command="{Binding ApplyCommand}"
-                    Click="ApplyButton_Click" />
-                <Button
-                    Content="Reset"
-                    Width="75"
-                    Command="{Binding ResetCommand}" />
-            </StackPanel>
+        <StackPanel
+            Margin="0,10,20,10"
+            HorizontalAlignment="Right"
+            Orientation="Horizontal">
+            <Button
+                Width="75"
+                Margin="0,0,5,0"
+                Click="ApplyButton_Click"
+                Command="{Binding ApplyCommand}"
+                Content="Apply" />
+            <Button
+                Width="75"
+                Command="{Binding ResetCommand}"
+                Content="Reset" />
         </StackPanel>
-    </Border>
-</Window>
+    </StackPanel>
+</helpers:ModernWindowBase>

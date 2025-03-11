@@ -6,13 +6,14 @@
     xmlns:local="clr-namespace:Ac.Ratings"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:viewModel="clr-namespace:Ac.Ratings.ViewModel"
+    xmlns:converters="clr-namespace:Ac.Ratings.Theme.Converters"
     Title="SettingsWindow"
     Width="800"
     Height="600"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
     <Window.Resources>
-        <local:EnumToBooleanConverter x:Key="EnumToBooleanConverter" />
+        <converters:EnumToBooleanConverter x:Key="EnumToBooleanConverter" />
     </Window.Resources>
     <Border
         Padding="20"
@@ -249,6 +250,16 @@
                                 Content="Restore"
                                 Style="{StaticResource TertiaryButton}" />
                         </Grid>
+                    </StackPanel>
+                </TabItem>
+                <TabItem Header="Appearance">
+                    <StackPanel>
+                        <Button
+                            Margin="0,10,0,0"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Command="{Binding OpenAppearanceSettingsCommand}"
+                            Content="Appearance Settings" />
                     </StackPanel>
                 </TabItem>
             </TabControl>

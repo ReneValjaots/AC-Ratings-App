@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using System.Windows.Data;
 
-namespace Ac.Ratings;
+namespace Ac.Ratings.Theme.Converters;
 
 public class EnumToBooleanConverter : IValueConverter {
     public object Convert(object? value, Type targetType, object? parameter, CultureInfo culture) {

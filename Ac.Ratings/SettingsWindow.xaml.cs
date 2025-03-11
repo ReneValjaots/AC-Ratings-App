@@ -14,7 +14,6 @@ namespace Ac.Ratings {
 
         public SettingsWindow(ObservableCollection<Car> carDb) {
             InitializeComponent();
-            InitializeComponent();
             DataContext = ViewModel;
             ViewModel.SetCarDb(carDb);
             ViewModel.LoadSettings(ConfigManager.ConfigFilePath);

@@ -1,13 +1,13 @@
 ﻿using Ac.Ratings.ViewModel;
 using System.Windows;
+using Ac.Ratings.Theme;
+using Ac.Ratings.Theme.ModernUI.Helpers;
 
-namespace Ac.Ratings
-{
+namespace Ac.Ratings {
     /// <summary>
     /// Interaction logic for RatingsFilterWindow.xaml
     /// </summary>
-    public partial class RatingsFilterWindow : Window
-    {
+    public partial class RatingsFilterWindow : ModernWindowBase {
         public RatingsFilterViewModel ViewModel { get; }
 
         public RatingsFilterWindow(RatingsFilterViewModel viewModel) {

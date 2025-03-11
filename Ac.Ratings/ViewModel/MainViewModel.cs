@@ -1,5 +1,7 @@
 ﻿using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.IO;
+using System.Windows.Data;
 using System.Windows.Input;
 using System.Windows.Media.Imaging;
 using Ac.Ratings.Core;
@@ -16,6 +18,7 @@ namespace Ac.Ratings.ViewModel {
         private string _classNameFormatted;
         private string _selectedAuthor;
         private string _selectedClass;
+        private string _searchText = string.Empty;
         private BitmapImage _carImageSource;
         private ObservableCollection<SkinPreview> _skinPreviews;
         public RatingsFilterViewModel RatingsFilterViewModel { get; } = new();
@@ -69,18 +72,41 @@ namespace Ac.Ratings.ViewModel {
 
         public string SelectedAuthor {
             get => _selectedAuthor;
-            set => SetField(ref _selectedAuthor, value);
+            set {
+                if (SetField(ref _selectedAuthor, value)) {
+                    CarView?.Refresh();
+                    SelectFirstFilteredCar();
+                }
+            }
         }
 
         public string SelectedClass {
             get => _selectedClass;
-            set => SetField(ref _selectedClass, value);
+            set {
+                if (SetField(ref _selectedClass, value)) {
+                    CarView?.Refresh();
+                    SelectFirstFilteredCar();
+                }
+            }
         }
+
+        public string SearchText {
+            get => _searchText;
+            set {
+                if (SetField(ref _searchText, value)) {
+                    CarView?.Refresh();
+                    SelectFirstFilteredCar();
+                }
+            }
+        }
+
+        public ICollectionView CarView { get; private set; }
 
         public ICommand ClearRatingsCommand { get; }
         public ICommand ClearExtraFeaturesCommand { get; }
         public ICommand SelectSkinCommand { get; }
         public ICommand OpenRatingsFilterCommand { get; }
+        public ICommand ResetFiltersCommand { get; }
         public event EventHandler RatingsFilterApplied; // Event to notify MainWindow
 
         public MainViewModel() {
@@ -89,10 +115,34 @@ namespace Ac.Ratings.ViewModel {
                 Authors = CarDataService.GetDistinctAuthors(CarDb);
                 Classes = CarDataService.GetDistinctClasses(CarDb);
 
+                CarView = CollectionViewSource.GetDefaultView(CarDb);
+                CarView.Filter = obj => {
+                    if (obj is Car car) {
+                        return CarDataManager.CombinedFilter(
+                            car,
+                            SelectedAuthor,
+                            SelectedClass,
+                            SearchText,
+                            RatingsFilterViewModel.MinCornerHandling,
+                            RatingsFilterViewModel.MinBraking,
+                            RatingsFilterViewModel.MinRealism,
+                            RatingsFilterViewModel.MinSound,
+                            RatingsFilterViewModel.MinExteriorQuality,
+                            RatingsFilterViewModel.MinInteriorQuality,
+                            RatingsFilterViewModel.MinForceFeedbackQuality,
+                            RatingsFilterViewModel.MinFunFactor,
+                            RatingsFilterViewModel.MinAverageRating
+                        );
+                    }
+
+                    return false;
+                };
+
                 ClearRatingsCommand = new RelayCommand(ClearRatings);
                 ClearExtraFeaturesCommand = new RelayCommand(ClearExtraFeatures);
                 SelectSkinCommand = new RelayCommand<string>(SelectSkin);
                 OpenRatingsFilterCommand = new RelayCommand(OpenRatingsFilter);
+                ResetFiltersCommand = new RelayCommand(ResetFilters);
 
                 _skinPreviews = new ObservableCollection<SkinPreview>();
                 if (CarDb.Count > 0) {
@@ -119,10 +169,24 @@ namespace Ac.Ratings.ViewModel {
 
         private void OpenRatingsFilter() {
             var window = new RatingsFilterWindow(RatingsFilterViewModel);
-            if (window.ShowDialog() == true) // Check if "Apply" was clicked
-            {
-                RatingsFilterApplied?.Invoke(this, EventArgs.Empty); // Notify MainWindow
+            if (window.ShowDialog() == true) {
+                RatingsFilterApplied?.Invoke(this, EventArgs.Empty);
+                CarView?.Refresh();
+                SelectFirstFilteredCar();
             }
+        }
+
+        private void ResetFilters() {
+            SelectedAuthor = null;
+            SelectedClass = null;
+            SearchText = string.Empty;
+            RatingsFilterViewModel.Reset();
+            CarView?.Refresh();
+            SelectFirstFilteredCar();
+        }
+
+        private void SelectFirstFilteredCar() {
+            SelectedCar = CarView.Cast<Car>().FirstOrDefault();
         }
 
         private void UpdateCarData() {

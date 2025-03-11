@@ -35,7 +35,7 @@ namespace Ac.Ratings.Services.MainView {
         }
 
         public static void CreateBackupOfCarDb(ObservableCollection<Car> cars) {
-            string backupFolder = ConfigManager.BackupFolder;
+            string backupFolder = Path.Combine(ConfigManager.BackupFolder, "backups");
 
             if (!Directory.Exists(backupFolder)) {
                 Directory.CreateDirectory(backupFolder);

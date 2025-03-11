@@ -6,6 +6,7 @@
     xmlns:local="clr-namespace:Ac.Ratings"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:model="clr-namespace:Ac.Ratings.Model"
+    xmlns:converters="clr-namespace:Ac.Ratings.Theme.Converters"
     Title="Ratings App"
     Width="1900"
     Height="1000"
@@ -15,7 +16,7 @@
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
     <Window.Resources>
-        <local:SubtractConverter x:Key="SubtractConverter" />
+        <converters:SubtractConverter x:Key="SubtractConverter" />
     </Window.Resources>
 
     <Border Background="#000302" CornerRadius="10">
@@ -38,7 +39,7 @@
                 Width="{Binding ElementName=CarList, Path=ActualWidth, Converter={StaticResource SubtractConverter}, ConverterParameter=20}"
                 MinWidth="150"
                 Style="{StaticResource PrimaryTextBox}"
-                TextChanged="SearchBox_TextChanged" />
+                Text="{Binding SearchText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
 
             <ListView
                 x:Name="CarList"
@@ -49,7 +50,7 @@
                 HorizontalAlignment="Left"
                 Background="Transparent"
                 Foreground="White"
-                ItemsSource="{Binding CarDb}"
+                ItemsSource="{Binding CarView}"
                 SelectedItem="{Binding SelectedCar}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
@@ -80,10 +81,7 @@
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
-
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="Auto" />
@@ -97,7 +95,6 @@
                         FontSize="14"
                         Foreground="White"
                         Text="Filter by author" />
-
                     <ComboBox
                         x:Name="AuthorFilter"
                         Grid.Row="1"
@@ -107,8 +104,7 @@
                         HorizontalAlignment="Left"
                         VerticalAlignment="Top"
                         ItemsSource="{Binding Authors}"
-                        SelectedItem="{Binding SelectedAuthor, Mode=TwoWay}"
-                        SelectionChanged="AuthorFilter_OnSelectionChanged" />
+                        SelectedItem="{Binding SelectedAuthor, Mode=TwoWay}" />
 
                     <TextBlock
                         Grid.Row="0"
@@ -118,7 +114,6 @@
                         FontSize="14"
                         Foreground="White"
                         Text="Filter by class" />
-
                     <ComboBox
                         x:Name="ClassFilter"
                         Grid.Row="1"
@@ -128,31 +123,28 @@
                         HorizontalAlignment="Left"
                         VerticalAlignment="Top"
                         ItemsSource="{Binding Classes}"
-                        SelectedItem="{Binding SelectedClass, Mode=TwoWay}"
-                        SelectionChanged="ClassFilter_OnSelectionChanged" />
+                        SelectedItem="{Binding SelectedClass, Mode=TwoWay}" />
 
-                    <Button
-                        Grid.Row="1"
+                    <StackPanel
+                        Grid.Row="0"
+                        Grid.RowSpan="2"
                         Grid.Column="2"
-                        Width="250"
-                        Margin="10,2,0,5"
-                        HorizontalAlignment="Left"
-                        VerticalAlignment="Top"
-                        Command="{Binding OpenRatingsFilterCommand}"
-                        Content="Filter by rating"
-                        Style="{StaticResource TertiaryButton}" />
-
-                    <Button
-                        x:Name="ResetFilters"
-                        Grid.Row="1"
-                        Grid.Column="3"
-                        Width="Auto"
-                        Margin="10,0,0,0"
-                        HorizontalAlignment="Left"
-                        VerticalAlignment="Top"
-                        Click="ResetFilters_Click"
-                        Content="Reset all"
-                        Style="{StaticResource TertiaryButton}" />
+                        VerticalAlignment="Center"
+                        Orientation="Horizontal">
+                        <Button
+                            Width="250"
+                            Margin="10,0,10,0"
+                            Command="{Binding OpenRatingsFilterCommand}"
+                            Content="Filter by ratings"
+                            Style="{StaticResource TertiaryButton}" />
+                        <Button
+                            x:Name="ResetFilters"
+                            Width="Auto"
+                            Margin="0,0,0,0"
+                            Command="{Binding ResetFiltersCommand}"
+                            Content="Reset all"
+                            Style="{StaticResource TertiaryButton}" />
+                    </StackPanel>
                 </Grid>
             </Grid>
 

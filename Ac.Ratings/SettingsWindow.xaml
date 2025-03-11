@@ -1,268 +1,28 @@
-﻿<Window
+﻿<helpers:ModernWindowBase
     x:Class="Ac.Ratings.SettingsWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converters="clr-namespace:Ac.Ratings.Theme.Converters"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:helpers="clr-namespace:Ac.Ratings.Theme.ModernUI.Helpers"
     xmlns:local="clr-namespace:Ac.Ratings"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:viewModel="clr-namespace:Ac.Ratings.ViewModel"
-    xmlns:converters="clr-namespace:Ac.Ratings.Theme.Converters"
+    xmlns:test="clr-namespace:Ac.Ratings.Theme.ModernUI.test"
     Title="SettingsWindow"
     Width="800"
     Height="600"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
-    <Window.Resources>
-        <converters:EnumToBooleanConverter x:Key="EnumToBooleanConverter" />
-    </Window.Resources>
-    <Border
-        Padding="20"
-        Background="Black"
-        CornerRadius="10">
-        <Grid>
-            <TabControl Background="Black" Foreground="White">
-                <TabItem Header="General">
-                    <StackPanel Margin="5">
-                        <Grid Margin="0,10,0,10">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-                            <TextBlock
-                                Grid.Column="0"
-                                VerticalAlignment="Center"
-                                FontSize="16"
-                                Foreground="White"
-                                Text="Reset all ratings" />
-                            <Button
-                                x:Name="ResetRatingsButton"
-                                Grid.Column="1"
-                                Width="100"
-                                Margin="10,0,0,0"
-                                HorizontalAlignment="Right"
-                                Click="ResetRatingsButton_Click"
-                                Content="Reset"
-                                Style="{StaticResource TertiaryButton}" />
-                        </Grid>
-
-                        <Grid Margin="0,10,0,10">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-                            <TextBlock
-                                Grid.Column="0"
-                                VerticalAlignment="Center"
-                                FontSize="16"
-                                Foreground="White"
-                                Text="Reset all extra features" />
-                            <Button
-                                x:Name="ResetExtraFeatures"
-                                Grid.Column="1"
-                                Width="100"
-                                Margin="10,0,0,0"
-                                HorizontalAlignment="Right"
-                                Click="ResetExtraFeatures_Click"
-                                Content="Reset"
-                                Style="{StaticResource TertiaryButton}" />
-                        </Grid>
-
-                        <Grid Margin="0,10,0,10">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-                            <TextBlock
-                                Grid.Column="0"
-                                VerticalAlignment="Center"
-                                FontSize="16"
-                                Foreground="White"
-                                Text="Transfer ratings" />
-                            <Button
-                                x:Name="TransferRatingsButton"
-                                Grid.Column="1"
-                                Width="100"
-                                Margin="10,0,0,0"
-                                HorizontalAlignment="Right"
-                                Click="TransferRatingsButton_OnClick"
-                                Content="Transfer"
-                                Style="{StaticResource TertiaryButton}" />
-                        </Grid>
-                    </StackPanel>
-                </TabItem>
-
-                <TabItem Header="Power format">
-                    <StackPanel Margin="5">
-                        <Grid Margin="0,10,0,10">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto" />
-                                <RowDefinition Height="Auto" />
-                                <RowDefinition Height="Auto" />
-                                <RowDefinition Height="Auto" />
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-
-                            <TextBlock
-                                Grid.Row="0"
-                                Grid.ColumnSpan="2"
-                                HorizontalAlignment="Center"
-                                VerticalAlignment="Center"
-                                FontSize="16"
-                                Foreground="White"
-                                Text="Car power format" />
-
-                            <TextBlock
-                                Grid.Row="1"
-                                Grid.Column="0"
-                                HorizontalAlignment="Center"
-                                VerticalAlignment="Center"
-                                FontSize="14"
-                                Foreground="White"
-                                Text="Primary unit:" />
-                            <StackPanel
-                                Grid.Row="2"
-                                Grid.Column="0"
-                                HorizontalAlignment="Center"
-                                Orientation="Vertical">
-                                <RadioButton
-                                    Content="kW"
-                                    Foreground="White"
-                                    GroupName="PrimaryUnit"
-                                    IsChecked="{Binding SelectedPrimaryUnit, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=kW}" />
-                                <RadioButton
-                                    Content="hp"
-                                    Foreground="White"
-                                    GroupName="PrimaryUnit"
-                                    IsChecked="{Binding SelectedPrimaryUnit, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=hp}" />
-                                <RadioButton
-                                    Content="ps"
-                                    Foreground="White"
-                                    GroupName="PrimaryUnit"
-                                    IsChecked="{Binding SelectedPrimaryUnit, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=ps}" />
-                                <RadioButton
-                                    Content="cv"
-                                    Foreground="White"
-                                    GroupName="PrimaryUnit"
-                                    IsChecked="{Binding SelectedPrimaryUnit, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=cv}" />
-                            </StackPanel>
-
-                            <TextBlock
-                                Grid.Row="1"
-                                Grid.Column="1"
-                                HorizontalAlignment="Center"
-                                VerticalAlignment="Center"
-                                FontSize="14"
-                                Foreground="White"
-                                Text="Secondary unit:" />
-                            <StackPanel
-                                Grid.Row="2"
-                                Grid.Column="1"
-                                HorizontalAlignment="Center"
-                                Orientation="Vertical">
-                                <RadioButton
-                                    Content="None"
-                                    Foreground="White"
-                                    GroupName="SecondaryUnit"
-                                    IsChecked="{Binding SelectedSecondaryUnit, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=None}" />
-                                <RadioButton
-                                    Content="kW"
-                                    Foreground="White"
-                                    GroupName="SecondaryUnit"
-                                    IsChecked="{Binding SelectedSecondaryUnit, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=kW}" />
-                                <RadioButton
-                                    Content="hp"
-                                    Foreground="White"
-                                    GroupName="SecondaryUnit"
-                                    IsChecked="{Binding SelectedSecondaryUnit, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=hp}" />
-                                <RadioButton
-                                    Content="ps"
-                                    Foreground="White"
-                                    GroupName="SecondaryUnit"
-                                    IsChecked="{Binding SelectedSecondaryUnit, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=ps}" />
-                                <RadioButton
-                                    Content="cv"
-                                    Foreground="White"
-                                    GroupName="SecondaryUnit"
-                                    IsChecked="{Binding SelectedSecondaryUnit, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=cv}" />
-                            </StackPanel>
-
-                            <Button
-                                Grid.Row="3"
-                                Grid.Column="0"
-                                Grid.ColumnSpan="2"
-                                Margin="0,10,0,0"
-                                Click="OnSaveClick"
-                                Style="{StaticResource SecondaryButton}">
-                                Save
-                            </Button>
-                        </Grid>
-                    </StackPanel>
-                </TabItem>
-
-                <TabItem Header="Root folder">
-                    <StackPanel Margin="5">
-                        <Grid Margin="0,10,0,10">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-                            <TextBlock
-                                Grid.Column="0"
-                                VerticalAlignment="Center"
-                                FontSize="16"
-                                Foreground="White"
-                                Text="Reset assetto corsa root folder" />
-                            <Button
-                                x:Name="ResetRootFolder"
-                                Grid.Column="1"
-                                Width="100"
-                                Margin="10,0,0,0"
-                                HorizontalAlignment="Right"
-                                Click="ResetRootFolder_Click"
-                                Content="Reset"
-                                Style="{StaticResource TertiaryButton}" />
-                        </Grid>
-                    </StackPanel>
-                </TabItem>
-                <TabItem Header="Restore Ratings">
-                    <StackPanel Margin="5">
-                        <Grid Margin="0,10,0,10">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-                            <TextBlock
-                                Grid.Column="0"
-                                VerticalAlignment="Center"
-                                FontSize="16"
-                                Foreground="White"
-                                Text="Restore ratings from backup file" />
-                            <Button
-                                x:Name="RestoreBackupButton"
-                                Grid.Column="1"
-                                Width="100"
-                                Margin="10,0,0,0"
-                                HorizontalAlignment="Right"
-                                Click="RestoreBackupButton_Click"
-                                Content="Restore"
-                                Style="{StaticResource TertiaryButton}" />
-                        </Grid>
-                    </StackPanel>
-                </TabItem>
-                <TabItem Header="Appearance">
-                    <StackPanel>
-                        <Button
-                            Margin="0,10,0,0"
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            Command="{Binding OpenAppearanceSettingsCommand}"
-                            Content="Appearance Settings" />
-                    </StackPanel>
-                </TabItem>
-            </TabControl>
-        </Grid>
-    </Border>
-</Window>
+    <Grid>
+        <test:ModernTab Layout="List" DataContext="{Binding}" ContentLoader="{StaticResource CustomContentLoader}">
+            <test:ModernTab.Links>
+                <test:Link DisplayName="General" Source="/Pages/General.xaml" />
+                <test:Link DisplayName="Power Format" Source="/Pages/PowerFormat.xaml" />
+                <test:Link DisplayName="Root Folder" Source="/Pages/RootFolder.xaml" />
+                <test:Link DisplayName="Restore Ratings" Source="/Pages/RestoreRatings.xaml" />
+                <test:Link DisplayName="Appearance" Source="/Pages/Appearance.xaml" />
+            </test:ModernTab.Links>
+        </test:ModernTab>
+    </Grid>
+</helpers:ModernWindowBase>

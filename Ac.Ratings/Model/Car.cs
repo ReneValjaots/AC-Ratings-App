@@ -17,7 +17,7 @@ public class Car : ObservableObject {
     [JsonIgnore] public string? Class { get; set; }
     [JsonIgnore] public CarSpecs Specs {
         get => _specs;
-        set => SetField(ref _specs, value); // Use SetField to notify changes
+        set => SetField(ref _specs, value);
     }
     [JsonIgnore] public string? Country { get; set; }
     [JsonIgnore] public int? Year { get; set; }

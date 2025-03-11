@@ -5,25 +5,25 @@ namespace Ac.Ratings.Theme.ModernUI.Helpers
 {
     public class ModernWindowBase : Window {
         public static readonly DependencyProperty BackgroundContentProperty =
-            DependencyProperty.Register("BackgroundContent", typeof(object), typeof(ModernWindowBase));
+            DependencyProperty.Register(nameof(BackgroundContent), typeof(object), typeof(ModernWindowBase));
 
         public static readonly DependencyProperty IsTitleVisibleProperty =
-            DependencyProperty.Register("IsTitleVisible", typeof(bool), typeof(ModernWindowBase), new PropertyMetadata(false));
+            DependencyProperty.Register(nameof(IsTitleVisible), typeof(bool), typeof(ModernWindowBase), new PropertyMetadata(false));
 
         public ModernWindowBase() {
-            this.Style = (Style)FindResource("ModernWindow");
-            this.CommandBindings.Add(new CommandBinding(SystemCommands.CloseWindowCommand, OnCloseWindow));
-            this.CommandBindings.Add(new CommandBinding(SystemCommands.MaximizeWindowCommand, OnMaximizeWindow, OnCanResizeWindow));
-            this.CommandBindings.Add(new CommandBinding(SystemCommands.MinimizeWindowCommand, OnMinimizeWindow, OnCanMinimizeWindow));
-            this.CommandBindings.Add(new CommandBinding(SystemCommands.RestoreWindowCommand, OnRestoreWindow, OnCanResizeWindow));
+            Style = (Style)FindResource("ModernWindow");
+            CommandBindings.Add(new CommandBinding(SystemCommands.CloseWindowCommand, OnCloseWindow));
+            CommandBindings.Add(new CommandBinding(SystemCommands.MaximizeWindowCommand, OnMaximizeWindow, OnCanResizeWindow));
+            CommandBindings.Add(new CommandBinding(SystemCommands.MinimizeWindowCommand, OnMinimizeWindow, OnCanMinimizeWindow));
+            CommandBindings.Add(new CommandBinding(SystemCommands.RestoreWindowCommand, OnRestoreWindow, OnCanResizeWindow));
         }
 
         private void OnCanResizeWindow(object sender, CanExecuteRoutedEventArgs e) {
-            e.CanExecute = this.ResizeMode == ResizeMode.CanResize || this.ResizeMode == ResizeMode.CanResizeWithGrip;
-        }
+            e.CanExecute = ResizeMode == ResizeMode.CanResize || ResizeMode == ResizeMode.CanResizeWithGrip;
+        }   
 
         private void OnCanMinimizeWindow(object sender, CanExecuteRoutedEventArgs e) {
-            e.CanExecute = this.ResizeMode != ResizeMode.NoResize;
+            e.CanExecute = ResizeMode != ResizeMode.NoResize;
         }
 
         private void OnCloseWindow(object sender, ExecutedRoutedEventArgs e) {

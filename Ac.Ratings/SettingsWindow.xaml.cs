@@ -3,13 +3,14 @@ using System.IO;
 using System.Windows;
 using Ac.Ratings.Model;
 using Ac.Ratings.Services;
+using Ac.Ratings.Theme.ModernUI.Helpers;
 using Ac.Ratings.ViewModel;
 
 namespace Ac.Ratings {
     /// <summary>
     /// Interaction logic for SettingsWindow.xaml
     /// </summary>
-    public partial class SettingsWindow : Window {
+    public partial class SettingsWindow : ModernWindowBase {
         public SettingsViewModel ViewModel { get; } = new();
 
         public SettingsWindow(ObservableCollection<Car> carDb) {
@@ -20,13 +21,13 @@ namespace Ac.Ratings {
             ViewModel.Notification += ViewModel_Notification;
         }
 
-        private void ViewModel_Notification(object sender, string message) {
+        public void ViewModel_Notification(object sender, string message) {
             MessageBox.Show(message, message.Contains("error") || message.Contains("failed") ? "Error" : "Information",
                 message.Contains("error") || message.Contains("failed") ? MessageBoxButton.OK : MessageBoxButton.OK,
                 message.Contains("error") || message.Contains("failed") ? MessageBoxImage.Error : MessageBoxImage.Information);
         }
 
-        private void OnSaveClick(object sender, RoutedEventArgs e) {
+        public void OnSaveClick(object sender, RoutedEventArgs e) {
             try {
                 ViewModel.SaveSettingsCommand.Execute(null);
                 Close();
@@ -42,7 +43,7 @@ namespace Ac.Ratings {
             }
         }
 
-        private void ResetRatingsButton_Click(object sender, RoutedEventArgs e) {
+        public void ResetRatingsButton_Click(object sender, RoutedEventArgs e) {
             var result = MessageBox.Show(
                 "Are you sure you want to reset all ratings? This action cannot be undone.",
                 "Confirm Reset",
@@ -62,7 +63,7 @@ namespace Ac.Ratings {
             }
         }
 
-        private void ResetExtraFeatures_Click(object sender, RoutedEventArgs e) {
+        public void ResetExtraFeatures_Click(object sender, RoutedEventArgs e) {
             var result = MessageBox.Show(
                 "Are you sure you want to reset all extra features? This action cannot be undone.",
                 "Confirm Reset",
@@ -82,7 +83,7 @@ namespace Ac.Ratings {
             }
         }
 
-        private void TransferRatingsButton_OnClick(object sender, RoutedEventArgs e) {
+        public void TransferRatingsButton_OnClick(object sender, RoutedEventArgs e) {
             try {
                 var decoder = new RatingsDecoder();
                 decoder.InitializeRatingsDataFile();
@@ -95,7 +96,7 @@ namespace Ac.Ratings {
             }
         }
 
-        private void RestoreBackupButton_Click(object sender, RoutedEventArgs e) {
+        public void RestoreBackupButton_Click(object sender, RoutedEventArgs e) {
             try {
                 ViewModel.RestoreBackupCommand.Execute(null);
             }
@@ -104,7 +105,7 @@ namespace Ac.Ratings {
             }
         }
 
-        private void ResetRootFolder_Click(object sender, RoutedEventArgs e) {
+        public void ResetRootFolder_Click(object sender, RoutedEventArgs e) {
             try {
                 ViewModel.ResetRootFolderCommand.Execute(null);
             }

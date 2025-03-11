@@ -3,40 +3,21 @@ using System.Windows.Input;
 using System.Windows.Media;
 using Ac.Ratings.Core;
 
-namespace Ac.Ratings.Theme.ModernUI.Helpers
-{
+namespace Ac.Ratings.Theme.ModernUI.Helpers {
     /// <summary>
     /// Manages the theme, font size and accent colors for a Modern UI application.
     /// </summary>
-    public class AppearanceManager
-        : NotifyPropertyChanged
-    {
-        /// <summary>
-        /// The location of the dark theme resource dictionary.
-        /// </summary>
+    public class AppearanceManager : NotifyPropertyChanged {
         public static readonly Uri DarkThemeSource = new Uri("Theme/ModernUI/Assets/ModernUI.Dark.xaml", UriKind.Relative);
-        /// <summary>
-        /// The location of the light theme resource dictionary.
-        /// </summary>
         public static readonly Uri LightThemeSource = new Uri("Theme/ModernUI/Assets/ModernUI.Light.xaml", UriKind.Relative);
         public static readonly Uri BlackThemeSource = new Uri("Theme/ModernUI/Assets/ModernUI.Black.xaml", UriKind.Relative);
 
-        /// <summary>
-        /// The resource key for the accent color.
-        /// </summary>
         public const string KeyAccentColor = "AccentColor";
-        /// <summary>
-        /// The resource key for the accent brush.
-        /// </summary>
         public const string KeyAccent = "Accent";
 
         private static AppearanceManager current = new AppearanceManager();
 
-        /// <summary>
-        /// Initializes a new instance of the <see cref="AppearanceManager"/> class.
-        /// </summary>
-        private AppearanceManager()
-        {
+        private AppearanceManager() {
             DarkThemeCommand = new RelayCommandModern(o => ThemeSource = DarkThemeSource, o => !DarkThemeSource.Equals(ThemeSource));
             LightThemeCommand = new RelayCommandModern(o => ThemeSource = LightThemeSource, o => !LightThemeSource.Equals(ThemeSource));
             BlackThemeCommand = new RelayCommandModern(o => ThemeSource = BlackThemeSource, o => !BlackThemeSource.Equals(ThemeSource));
@@ -60,16 +41,14 @@ namespace Ac.Ratings.Theme.ModernUI.Helpers
             }, o => o is Color || o is string);
         }
 
-        private ResourceDictionary GetThemeDictionary()
-        {
+        private ResourceDictionary GetThemeDictionary() {
             // determine the current theme by looking at the app resources and return the first dictionary having the resource key 'WindowBackground' defined.
             return (from dict in Application.Current.Resources.MergedDictionaries
-                    where dict.Contains("WindowBackground")
-                    select dict).FirstOrDefault();
+                where dict.Contains("WindowBackground")
+                select dict).FirstOrDefault();
         }
 
-        private Uri GetThemeSource()
-        {
+        private Uri GetThemeSource() {
             var dict = GetThemeDictionary();
             if (dict != null) {
                 return dict.Source;
@@ -79,8 +58,7 @@ namespace Ac.Ratings.Theme.ModernUI.Helpers
             return null;
         }
 
-        private void SetThemeSource(Uri source, bool useThemeAccentColor)
-        {
+        private void SetThemeSource(Uri source, bool useThemeAccentColor) {
             if (source == null) {
                 throw new ArgumentNullException("source");
             }
@@ -111,15 +89,13 @@ namespace Ac.Ratings.Theme.ModernUI.Helpers
             OnPropertyChanged("ThemeSource");
         }
 
-        private void ApplyAccentColor(Color accentColor)
-        {
+        private void ApplyAccentColor(Color accentColor) {
             // set accent color and brush resources
             Application.Current.Resources[KeyAccentColor] = accentColor;
             Application.Current.Resources[KeyAccent] = new SolidColorBrush(accentColor);
         }
 
-        private Color GetAccentColor()
-        {
+        private Color GetAccentColor() {
             var accentColor = Application.Current.Resources[KeyAccentColor] as Color?;
 
             if (accentColor.HasValue) {
@@ -130,8 +106,7 @@ namespace Ac.Ratings.Theme.ModernUI.Helpers
             return Color.FromArgb(0xff, 0x1b, 0xa1, 0xe2);
         }
 
-        private void SetAccentColor(Color value)
-        {
+        private void SetAccentColor(Color value) {
             ApplyAccentColor(value);
 
             // re-apply theme to ensure brushes referencing AccentColor are updated
@@ -143,11 +118,7 @@ namespace Ac.Ratings.Theme.ModernUI.Helpers
             OnPropertyChanged("AccentColor");
         }
 
-        /// <summary>
-        /// Gets the current <see cref="AppearanceManager"/> instance.
-        /// </summary>
-        public static AppearanceManager Current
-        {
+        public static AppearanceManager Current {
             get { return current; }
         }
 
@@ -155,25 +126,15 @@ namespace Ac.Ratings.Theme.ModernUI.Helpers
         public ICommand LightThemeCommand { get; private set; }
         public ICommand BlackThemeCommand { get; private set; }
         public ICommand SetThemeCommand { get; private set; }
-        /// <summary>
-        /// The command that sets the accent color.
-        /// </summary>
+
         public ICommand AccentColorCommand { get; private set; }
 
-        /// <summary>
-        /// Gets or sets the current theme source.
-        /// </summary>
-        public Uri ThemeSource
-        {
+        public Uri ThemeSource {
             get { return GetThemeSource(); }
             set { SetThemeSource(value, true); }
         }
 
-        /// <summary>
-        /// Gets or sets the accent color.
-        /// </summary>
-        public Color AccentColor
-        {
+        public Color AccentColor {
             get { return GetAccentColor(); }
             set { SetAccentColor(value); }
         }

@@ -14,7 +14,7 @@
         <ResourceDictionary Source="CheckBox.xaml" />
         <ResourceDictionary Source="ListBox.xaml" />
         <ResourceDictionary Source="/Theme/PrimaryTextBlock.xaml" />
-        <ResourceDictionary Source="/Theme/Sliders/PrimarySlider.xaml" />
+        <ResourceDictionary Source="/Theme/PrimarySlider.xaml" />
         <ResourceDictionary Source="/Theme/PrimaryCheckbox.xaml" />
         <ResourceDictionary Source="/Theme/Buttons/PrimaryButton.xaml" />
         <ResourceDictionary Source="/Theme/Buttons/SecondaryButton.xaml" />
@@ -26,4 +26,11 @@
     <!--  default accent colors and brushes  -->
     <Color x:Key="AccentColor">#1ba1e2</Color>
     <SolidColorBrush x:Key="Accent" Color="{DynamicResource AccentColor}" />
+
+    <SolidColorBrush x:Key="MenuText" Color="White" />
+    <SolidColorBrush x:Key="MenuTextHover" Color="#FF007ACC" />
+    <SolidColorBrush x:Key="MenuTextSelected" Color="#FF1BA1E2" />
+    <SolidColorBrush x:Key="SeparatorBackground" Color="#FF333333" />
+    <Thickness x:Key="HeaderMargin">0,10,0,10</Thickness>
+    <sys:Double x:Key="SmallFontSize">12</sys:Double>
 </ResourceDictionary>
